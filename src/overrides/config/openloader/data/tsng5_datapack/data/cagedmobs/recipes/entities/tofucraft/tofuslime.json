@@ -1,0 +1,24 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "tofucraft"
+		}
+	],
+	"entity": "tofucraft:tofuslime",
+	"samplerTier": 2,
+	"environments": ["tofu"],
+	"growTicks": 1200,
+	"results": [
+		{
+			"chance": 0.7,
+				"output": {
+					"item": "tofucraft:tofukinu"
+				},
+				"minAmount": 1,
+				"maxAmount": 2
+		}
+	]
+	
+}

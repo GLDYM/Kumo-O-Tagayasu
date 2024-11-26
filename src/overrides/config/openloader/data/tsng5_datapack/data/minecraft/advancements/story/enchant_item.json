@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:story/upgrade_tools",
+  "display": {
+    "icon": {
+      "item": "minecraft:anvil"
+    },
+    "title": {
+      "translate": "advancements.story.enchant_item.title"
+    },
+    "description": {
+      "translate": "advancements.story.enchant_item.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "anvil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:anvil"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "anvil"
+    ]
+  ]
+}

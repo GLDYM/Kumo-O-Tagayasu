@@ -1,0 +1,32 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "tofucraft"
+		}
+	],
+	"entity": "tofucraft:tofuspider",
+	"samplerTier": 2,
+	"environments": ["tofu"],
+	"growTicks": 1800,
+	"results": [
+		{
+			"chance": 0.5,
+			"output": {
+				"item": "tofucraft:seeds_soybeans"
+			},
+			"minAmount": 1,
+			"maxAmount": 3
+		},
+		{
+			"chance": 0.4,
+				"output": {
+					"item": "tofucraft:yuba"
+				},
+				"minAmount": 1,
+				"maxAmount": 2
+		}
+	]
+	
+}

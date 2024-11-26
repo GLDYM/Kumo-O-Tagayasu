@@ -1,0 +1,18 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "galosphere:allurite_block"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "galosphere:allurite_shard"
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "pickaxe_dig"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "barbequesdelight:grilling",
+  "barbecuingTime": 320,
+  "ingredient": {
+    "item": "youkaishomecoming:raw_lamprey"
+  },
+  "output": {
+    "item": "youkaishomecoming:roasted_lamprey"
+  }
+}

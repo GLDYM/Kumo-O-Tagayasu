@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:compass"
+  },
+  "cookingtime": 300,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "minecraft:cobweb"
+    },
+    {
+      "tag": "forge:storage_blocks/raw_iron"
+    },
+    {
+      "tag": "forge:vegetables"
+    },
+    {
+      "tag": "forge:fruits"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "explorerscompass:explorerscompass"
+  }
+}

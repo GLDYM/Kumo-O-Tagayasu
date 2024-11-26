@@ -1,0 +1,112 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "cookingtime": 200,
+  "experience": 1.5,
+  "ingredients": [
+    [
+    {
+      "tag": "forge:fruits/apple"
+    },
+    {
+      "tag": "forge:fruits/melon"
+    },
+    {
+      "tag": "forge:fruits/cranberry"
+    },
+    {
+      "tag": "forge:fruits/strawberries"
+    },
+    {
+      "tag": "forge:fruits/cherries"
+    },
+    {
+      "tag": "forge:fruits/hawberry"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    }
+    ],
+    [
+    {
+      "tag": "forge:fruits/cantaloupe"
+    },
+    {
+      "tag": "forge:fruits/mango"
+    },
+    {
+      "tag": "forge:fruits/persimmon"
+    },
+    {
+      "tag": "forge:fruits/orange"
+    },
+    {
+      "tag": "forge:fruits/salmonberries"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    }
+    ],
+    [
+    {
+      "tag": "forge:fruits/pineapple"
+    },
+    {
+      "tag": "forge:fruits/lemon"
+    },
+    {
+      "tag": "forge:fruits/pear"
+    }
+    ],
+    [
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "tag": "forge:tea_leaves"
+    },
+    {
+      "tag": "forge:crops/cucumber"
+    },
+    {
+      "tag": "forge:crops/broccoli"
+    },
+    {
+      "item": "minecraft:sugar_cane"
+    }
+    ],
+    {
+      "tag": "forge:fruits/blueberries"
+    },
+    [
+    {
+      "tag": "forge:fruits/gearo_berry"
+    },
+    {
+      "tag": "forge:fruits/fig"
+    },
+    {
+      "tag": "forge:fruits/grape"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "tag": "forge:fruits/mangosteen"
+    },
+    {
+      "tag": "forge:fruits/bayberry"
+    },
+    {
+      "tag": "forge:fruits/peach"
+    }
+    ]
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 2,
+    "item": "regions_unexplored:large_prismarite_cluster"
+  }
+}

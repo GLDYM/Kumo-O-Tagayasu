@@ -1,0 +1,32 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "cookingtime": 200,
+  "experience": 1.5,
+  "ingredients": [
+    {
+      "item": "delightful:salmonberry_sack"
+    },
+    {
+      "tag": "forge:fruits/salmonberries"
+    },
+    {
+      "tag": "forge:fruits/salmonberries"
+    },
+    {
+      "tag": "forge:fruits/salmonberries"
+    },
+    {
+      "tag": "forge:fruits/salmonberries"
+    },
+    {
+      "tag": "forge:fruits/salmonberries"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "galosphere:lumiere_shard"
+  }
+}

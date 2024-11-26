@@ -1,0 +1,67 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ars_nouveau"
+        },
+        {
+          "type": "l2library:boolean_config",
+          "expected": true,
+          "line": [
+            "useArsNouveauForEnchantmentRecipe"
+          ],
+          "path": "l2_configs/l2complements-common.toml"
+        }
+      ]
+    }
+  ],
+  "enchantment": "l2complements:safeguard",
+  "level": 1,
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "l2complements:shulkerate_nugget"
+      }
+    },
+    {
+      "item": {
+        "item": "l2complements:shulkerate_nugget"
+      }
+    },
+    {
+      "item": {
+        "item": "regions_unexplored:large_prismarite_cluster"
+      }
+    },
+    {
+      "item": {
+        "item": "regions_unexplored:large_prismarite_cluster"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_scrap"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_scrap"
+      }
+    }
+  ],
+  "sourceCost": 2000
+}

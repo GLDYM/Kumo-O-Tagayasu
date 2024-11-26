@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "tag": "forge:glass_panes"
+    },
+    {
+      "tag": "forge:glass_panes"
+    }
+  ],
+  "result": {
+    "item": "createcafe:empty_boba_cup"
+  }
+}

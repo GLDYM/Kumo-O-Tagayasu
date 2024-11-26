@@ -1,0 +1,57 @@
+======
+**警告：如果在服务端中遇到了问题，在反馈前请先尝试在单人游戏进行同样操作，如果不能复现则说明是服务端环境问题！！
+服务端整合包提供了可装载插件且安装简单但兼容性一般的Mohist服务端，
+也提供了安装麻烦且无法加载插件但兼容性良好的纯Forge服务端安装器。
+如果您选择Mohist服务端，请点击服务端目录中的“1启动服务端(Mohist).bat”文件；
+如果您选择纯Forge服务端，请点击服务端目录中的“1运行Forge安装器并安装.bat”文件；
+Forge服务端可能会退出安装窗口而不自动启动，您只需要关闭窗口并找到安装完毕后生成的“run.bat“并运行它，即可以纯Forge模式启动。
+======
+*server.properties文件内的server-port(服务器端口)为52018，并非原来的25565。
+======
+高性能Java运行环境下载链接推荐,非常适合用来开启你的服务器:
+1.12需要Java8，1.16可用Java8-16，1.18+需要Java17，1.20.5+需要Java21。
+分别为Azul Zulu和阿里巴巴龙井(Alibaba Dragonwell)，它们在业内有良好的声誉。
+其拥有良好的优化让各大服主和玩家都爱不释手，可以在下方链接中下载它们
+如果需求为Java8，推荐您使用Dragonwell，如果需求Java11+，那么推荐使用Zulu。
+======
+关于外置登录:
+外置登录(Authlib-injector)能允许你使用第三方皮肤站账号来登录服务器，例如LittleSkin等第三方皮肤站...
+
+LittleSkin小小皮肤：https://littleskin.cn/
+RedstoneSkin红石皮肤站：https://mcskin.com.cn/
+
+这里提供了第三方皮肤站,你可以任选其中一家作为你服务器的验证系统。
+======
+下面是如何设置的简短教学:
+1.请将服务端【server.properties】中的【online-mode】设置为【true】
+2.然后在服务端的启动命令/脚本中添加以下 JVM 参数（添加的参数位于 -jar 之前）
+
+-javaagent:{path/to/authlib-injector.jar}={https://your-yggdrasil-api-root.com}
+
+{path/to/authlib-injector.jar} 表示你在上一步中下载的 JAR 文件所在的位置（相对路径、绝对路径皆可）。
+{https://your-yggdrasil-api-root.com} 表示验证服务器的 URL。
+
+例如，这是原先的启动命令：【java -jar server.jar】
+假设：
+·你下载到的【authlib-injector】文件名为【authlib-injector.jar】。
+·你将其放到了与服务端核心文件【server.jar】相同的目录下。
+·验证服务器的URL为【https://littleskin.cn/api/yggdrasil】。
+那么添加参数后的命令行应该如下：
+
+java -javaagent:authlib-injector.jar=https://littleskin.cn/api/yggdrasil -jar server.jar
+
+需要注意的是，authlib-injector 是通过 JVM 的 -javaagent 参数来实现运行时字节码替换的，所以您必须保证：
+·启动器支持使用自定义 Yggdrasil API 进行认证
+·Minecraft 游戏本体正确加载了 authlib-injector
+·Minecraft 服务端加载了 authlib-injector（必须 online-mode=true）
+·以上三者必须使用同一个 Yggdrasil API。
+
+否则会出现：
+·无法登录
+·不显示皮肤或显示错乱
+·无法进入服务器
+等情况。
+*如果命运的齿轮没有出差错，您应该已经可以 正常登录、正常进入服务器并看到自己的皮肤 了。
+
+更详细的教程请查阅该网址↓
+https://blessing.netlify.app/yggdrasil-api/authlib-injector.html

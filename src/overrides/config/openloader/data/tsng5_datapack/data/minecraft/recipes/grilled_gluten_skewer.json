@@ -1,0 +1,10 @@
+{
+  "type": "barbequesdelight:grilling",
+  "barbecuingTime": 280,
+  "ingredient": {
+    "item": "casualness_delight:gluten_skewer"
+  },
+  "output": {
+    "item": "casualness_delight:roast_gluten"
+  }
+}

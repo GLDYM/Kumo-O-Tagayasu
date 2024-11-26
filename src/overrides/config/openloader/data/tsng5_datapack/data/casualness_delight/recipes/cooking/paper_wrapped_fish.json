@@ -1,0 +1,33 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "minecraft:fishes"
+    },
+    {
+      "item": "vintagedelight:pickled_pepper"
+    },
+    {
+      "tag": "pizzacraft:ingredients/sauces/hot_sauce_layer"
+    },
+    {
+      "tag": "forge:vegetables/potato"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "tag": "forge:crops/onion"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "item": "casualness_delight:paper_wrapped_fish"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "CFC",
+    " I "
+  ],
+  "key": {
+    "F": [
+      {
+        "item": "minecraft:blast_furnace"
+      }
+    ],
+    "C": [
+      {
+        "item": "create:andesite_alloy_block"
+      }
+    ],
+    "I": [
+      {
+        "item": "immersive_aircraft:boiler"
+      }
+    ],
+    "P": [
+      {
+        "item": "create:steam_engine"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:engine"
+  }
+}

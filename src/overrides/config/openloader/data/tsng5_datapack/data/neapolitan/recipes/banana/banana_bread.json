@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:wheat"
+    },
+    {
+      "tag": "forge:fruits/banana"
+    },
+    {
+      "tag": "forge:sugar"
+    }
+  ],
+  "result": {
+    "item": "neapolitan:banana_bread",
+    "count": 1
+  }
+}

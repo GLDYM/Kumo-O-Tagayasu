@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:diamond"
+  },
+  "base": {
+    "item": "l2weaponry:iron_javelin"
+  },
+  "result": {
+    "item": "l2weaponry:diamond_javelin"
+  },
+  "template": {
+    "item": "create:brass_sheet"
+  }
+}

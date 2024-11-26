@@ -1,0 +1,14 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "galosphere"
+		}
+	],
+	"entity": "galosphere:sparkle",
+	"samplerTier": 1,
+	"environments": ["cave"],
+	"growTicks": 900,
+	"results": []
+}

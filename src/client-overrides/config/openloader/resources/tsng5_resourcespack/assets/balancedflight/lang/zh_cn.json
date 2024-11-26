@@ -1,0 +1,14 @@
+{
+  "balancedflight.ponder.flight_anchor.header": "利用旋转力进行动力飞行",
+  "balancedflight.ponder.flight_anchor.text_1": "飞行锚的运行需要巨大的应力。",
+  "balancedflight.ponder.flight_anchor.text_2": "转速每多1RPM，你就能绕锚多飞行一个方块。",
+  "balancedflight.ponder.flight_anchor.text_3": "更高的转速所覆盖的表面积要大得多。",
+  "balancedflight.ponder.tag.flight_anchor": "飞行锚",
+  "balancedflight.ponder.tag.flight_anchor.description": "利用旋转力进行动力飞行",
+  "block.balancedflight.flight_anchor": "飞行锚",
+  "curios.identifier.flight_ring": "飞行戒指",
+  "item.balancedflight.ascended_flight_ring": "升空飞行戒指",
+  "itemGroup.balancedflight.base": "机械动力：平衡飞行",
+  "tooltip.balancedflight.ascended_flight_ring": "这枚金戒指密度惊人，但却可以在任何地方飞行。",
+  "tooltip.balancedflight.flight_anchor": "允许在半径为 25 个方块的范围内飞行。仅在主世界中有效。"
+}

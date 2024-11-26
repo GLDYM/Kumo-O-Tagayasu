@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RFR",
+    "FRF",
+    "RFR"
+  ],
+  "key": {
+    "F": {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    "R": {
+      "tag": "forge:fruits/sweet_berries"
+    }
+  },
+  "result": {
+    "item": "createcafe:mana_berries",
+    "count": 4
+  }
+}

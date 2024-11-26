@@ -1,0 +1,67 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ars_nouveau"
+        },
+        {
+          "type": "l2library:boolean_config",
+          "expected": true,
+          "line": [
+            "useArsNouveauForEnchantmentRecipe"
+          ],
+          "path": "l2_configs/l2complements-common.toml"
+        }
+      ]
+    }
+  ],
+  "enchantment": "l2complements:void_touch",
+  "level": 1,
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "l2complements:resonant_feather"
+      }
+    },
+    {
+      "item": {
+        "item": "l2complements:resonant_feather"
+      }
+    },
+    {
+      "item": {
+        "item": "l2complements:resonant_feather"
+      }
+    },
+    {
+      "item": {
+        "item": "l2complements:resonant_feather"
+      }
+    },
+    {
+      "item": {
+        "item": "l2complements:sun_membrane"
+      }
+    },
+    {
+      "item": {
+        "item": "l2complements:force_field"
+      }
+    },
+    {
+      "item": {
+        "item": "l2complements:void_eye"
+      }
+    },
+    {
+      "item": {
+        "item": "l2complements:void_eye"
+      }
+    }
+  ],
+  "sourceCost": 2000
+}

@@ -1,0 +1,7 @@
+# Use Cloth Config mod for the descriptions.
+---
+shootProjectile: true
+energyPerUse: 200
+repairRecipe: true
+wandDurability: 255
+defaultLightColor: -683

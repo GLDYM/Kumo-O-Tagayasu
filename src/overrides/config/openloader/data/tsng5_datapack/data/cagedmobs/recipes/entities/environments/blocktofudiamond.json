@@ -1,0 +1,15 @@
+{
+	"type": "cagedmobs:environment_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "tofucraft"
+		}
+	],
+	"input": {
+		"item": "tofucraft:blocktofudiamond"
+	},
+	"render": "tofucraft:blocktofudiamond",
+	"growModifier": 1.2,
+	"categories": ["tofu"]
+}

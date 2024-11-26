@@ -1,0 +1,40 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "cagedmobs"
+		}
+	],
+	"entity": "minecraft:ender_dragon",
+	"samplerTier": 3,
+	"environments": ["end"],
+	"growTicks": 2400,
+	"results": [
+		{
+			"chance": 0.2,
+				"output": {
+					"item": "cagedmobs:dragon_scale"
+				},
+				"minAmount": 1,
+				"maxAmount": 1
+		},
+		{
+			"chance": 0.6,
+				"output": {
+					"item": "irons_spellbooks:dragonskin"
+				},
+				"minAmount": 1,
+				"maxAmount": 2
+		},
+		{
+			"chance": 1,
+				"output": {
+					"item": "irons_spellbooks:arcane_essence"
+				},
+				"minAmount": 3,
+				"maxAmount": 5
+		}		
+	]
+	
+}

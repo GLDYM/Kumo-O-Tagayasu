@@ -1,0 +1,40 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "cagedmobs"
+		}
+	],
+	"entity": "minecraft:evoker",
+	"samplerTier": 2,
+	"environments": ["cave"],
+	"growTicks": 1800,
+	"results": [
+		{
+			"chance": 0.5,
+			"output": {
+				"item": "minecraft:totem_of_undying"
+			},
+			"minAmount": 1,
+			"maxAmount": 1
+		},
+		{
+			"chance": 0.2,
+				"output": {
+					"item": "minecraft:emerald"
+				},
+				"minAmount": 1,
+				"maxAmount": 1
+		},
+		{
+			"chance": 0.0125,
+				"output": {
+					"item": "irons_spellbooks:evoker_spell_book"
+				},
+				"minAmount": 1,
+				"maxAmount": 1
+		}
+	]
+	
+}

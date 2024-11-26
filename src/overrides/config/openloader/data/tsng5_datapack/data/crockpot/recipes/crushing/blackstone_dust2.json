@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:polished_blackstone"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "chance": 0.7,
+      "item": "crockpot:blackstone_dust"
+    }
+  ]
+}

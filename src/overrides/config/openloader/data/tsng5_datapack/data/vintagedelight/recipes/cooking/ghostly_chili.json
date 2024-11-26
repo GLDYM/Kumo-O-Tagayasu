@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "ingredients": [
+    {
+      "tag": "forge:vegetables/pepper"
+    },
+    {
+      "tag": "forge:vegetables/pepper"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "farmersdelight:minced_beef"
+    }
+  ],
+  "result": {
+    "item": "vintagedelight:ghostly_chili"
+  }
+}

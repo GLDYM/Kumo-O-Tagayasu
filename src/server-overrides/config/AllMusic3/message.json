@@ -1,0 +1,204 @@
+{
+  "musicPlay": {
+    "stopPlaying": "§d[AllMusic3]§e已停止你的音乐播放",
+    "emptyPlayingMusic": "§d[AllMusic3]§e无正在播放的歌曲",
+    "nowPlay": "§d[AllMusic3]§e正在播放：%MusicName% | %MusicAuthor% by: %Player%",
+    "emptyPlay": "§d[AllMusic3]§e队列中无歌曲",
+    "listMusic": {
+      "head": "§d[AllMusic3]§e队列中有歌曲数：%Count%",
+      "item": "§e%Index%-\u003e%MusicName% | %MusicAuthor% | %MusicAl% | %MusicAlia% | by: %Player%",
+      "get": "§d[AllMusic3]§e歌曲列表%Name%获取成功"
+    },
+    "emptyCanPlay": "§d[AllMusic3]§c无法播放歌曲%MusicID%可能该歌曲为VIP歌曲",
+    "mute": "§d[AllMusic3]§e你不会再收到点歌了！想要再次参与点歌就点一首歌吧！",
+    "switchMusic": "§d[AllMusic3]§e切换到玩家歌曲",
+    "addMusic": "§d[AllMusic3]§e音乐列表添加%MusicName% | %MusicAuthor% | %MusicAl% | %MusicAlia% | by: %Player%",
+    "checkMusic": "§d[AllMusic3]§e正在解析歌曲%MusicID%",
+    "musicInfo": "%MusicName% | %MusicAuthor% | %MusicAl% | %MusicAlia% | by: %Player%",
+    "trail": "§d[AllMusic3]§e该音乐为试听音乐",
+    "cancel": "§d[AllMusic3]§e播放被取消",
+    "error1": "§d[AllMusic3]§c未知音乐类型"
+  },
+  "addMusic": {
+    "listFull": "§d[AllMusic3]§c错误，队列已满",
+    "playerToMany": "§d[AllMusic3]§c错误，你点了太多的歌",
+    "banMusic": "§d[AllMusic3]§c错误，这首歌被禁点了",
+    "playerBan": "§d[AllMusic3]§c错误，你已被禁止点歌",
+    "existMusic": "§d[AllMusic3]§c错误，这首歌已经存在了",
+    "success": "§d[AllMusic3]§2点歌成功",
+    "noPlayer": "§d[AllMusic3]§c没有播放的玩家",
+    "noID": "§d[AllMusic3]§c错误，请输入歌曲数字ID",
+    "cancel": "§d[AllMusic3]§e点歌被取消",
+    "timeOut": "§d[AllMusic3]§e点歌被取消，音乐长度过长"
+  },
+  "page": {
+    "choice": "§e%Index%-\u003e%MusicName% | %MusicAuthor% | %MusicAl%",
+    "next": "§e[§n点我下一页§r§e]",
+    "last": "§e[§n点我上一页§r§e]"
+  },
+  "lyric": {
+    "data": "%Lyric%",
+    "tdata": "%Lyric%(%Tlyric%)",
+    "empty1": "没有歌词",
+    "empty2": "没有翻译歌词",
+    "empty3": "没有KTV歌词"
+  },
+  "vote": {
+    "noPermission": "§d[AllMusic3]§c你没有权限切歌",
+    "doVote": "§d[AllMusic3]§e已发起切歌投票",
+    "bq": "§d[AllMusic3]§e%Player%发起了切歌投票，%Time%秒后结束，输入/music vote 同意切歌。",
+    "bq1": "§d[AllMusic3]§e或者点击 ",
+    "bq2": "§a同意切歌",
+    "agree": "§d[AllMusic3]§e你同意切歌",
+    "bqAgree": "§d[AllMusic3]§e%Player%同意切歌，共有%Count%名玩家同意切歌。",
+    "arAgree": "§d[AllMusic3]§e你已申请切歌",
+    "timeOut": "§d[AllMusic3]§e切歌时间结束",
+    "voteDone": "§d[AllMusic3]§e已切歌",
+    "err1": "§d[AllMusic3]§c你没有发起切歌",
+    "err2": "§d[AllMusic3]§c你发起的切歌已超时",
+    "err3": "§d[AllMusic3]§c已经有人发起了切歌",
+    "cancel": "§d[AllMusic3]§e切歌投票已被发起者取消"
+  },
+  "push": {
+    "noPermission": "§d[AllMusic3]§c你没有权限插歌",
+    "doVote": "§d[AllMusic3]§e已发起插歌投票",
+    "bq": "§d[AllMusic3]§e%Player%发起了插歌投票，将曲目%MusicName%-%MusicAuthor%调整到下一首播放，%Time%秒后结束，输入/music push 同意插歌。",
+    "bq1": "§d[AllMusic3]§e或者点击 ",
+    "bq2": "§a同意插歌",
+    "agree": "§d[AllMusic3]§e你同意插歌",
+    "bqAgree": "§d[AllMusic3]§e%Player%同意插歌，共有%Count%名玩家同意插歌。",
+    "arAgree": "§d[AllMusic3]§e你已申请插歌",
+    "timeOut": "§d[AllMusic3]§e插歌时间结束",
+    "doPush": "§d[AllMusic3]§e播放顺序已调整",
+    "noId": "§d[AllMusic3]§c没有找到你的点歌",
+    "noId1": "§d[AllMusic3]§c没有找到序号为%Index%的点歌",
+    "idErr": "§d[AllMusic3]§c错误的歌曲序号",
+    "pushErr": "§d[AllMusic3]§c这首歌已经是下一首播放了",
+    "cancel": "§d[AllMusic3]§e插歌投票已被发起者取消",
+    "err1": "§d[AllMusic3]§c你没有发起插歌",
+    "err2": "§d[AllMusic3]§c你发起的插歌已超时",
+    "err3": "§d[AllMusic3]§c发起失败，已经有人发起了插歌投票"
+  },
+  "search": {
+    "noPer": "§d[AllMusic3]§c你没有权限搜歌",
+    "cantSearch": "§d[AllMusic3]§c无法搜索歌曲：%Name%",
+    "res": "§d[AllMusic3]§e搜索结果",
+    "emptySearch": "§d[AllMusic3]§c你没有搜索音乐",
+    "errorNum": "§d[AllMusic3]§c请输入正确的序号",
+    "choice": "§d[AllMusic3]§e你选择了序号：%Index%",
+    "cantNext": "§d[AllMusic3]§c无法下一页",
+    "cantLast": "§d[AllMusic3]§c无法上一页",
+    "startSearch": "§d[AllMusic3]§e正在排队搜歌"
+  },
+  "hud": {
+    "state": "§d[AllMusic3]§e设置信息位置：%Hud%，状态：%State%",
+    "set": "§d[AllMusic3]§e已设置[%Hud%]的坐标为[%X%, %Y%]",
+    "set1": "§d[AllMusic3]§e已设置[%Hud%]的对齐方式为[%Dir%]",
+    "set2": "§d[AllMusic3]§e已设置[%Hud%]的颜色为[%Color%]",
+    "set3": "§d[AllMusic3]§e已设置[%Hud%]的阴影为[%State%]",
+    "reset": "§d[AllMusic3]§e界面[%Hud%]恢复至默认位置",
+    "emptyMusic": "没有播放的音乐",
+    "emptyList": "队列中无歌曲",
+    "emptyLyric": "无歌词",
+    "picSize": "§d[AllMusic3]§e设置图片尺寸为[%Size%]",
+    "picRotate": "§d[AllMusic3]§e设置图片旋转为[%State%]",
+    "picSpeed": "§d[AllMusic3]§e设置图片旋转速度为[%Size%]",
+    "music": "%Name% %AllTime%/%NowTime%\n%MusicAuthor%\n%MusicAlia%\n%MusicAl%\nby: %Player%",
+    "lyric": "%Lyric%\n%Tlyric%",
+    "list": "播放列表里面有%Size%首歌\n%List%",
+    "ktv": "§e%KLyric%§f%Lyric%§r\n%Tlyric%"
+  },
+  "hudList": {
+    "list": "待播放列表",
+    "lyric": "歌词",
+    "info": "歌曲信息",
+    "all": "所有位置",
+    "pic": "图片",
+    "picRoute": "图片旋转",
+    "picSpeed": "图片旋转速度",
+    "enable": "启用",
+    "disable": "关闭",
+    "pos1": "左上",
+    "pos2": "上",
+    "pos3": "右上",
+    "pos4": "左",
+    "pos5": "居中",
+    "pos6": "右",
+    "pos7": "左下",
+    "pos8": "下",
+    "pos9": "右下"
+  },
+  "command": {
+    "error": "§d[AllMusic3]§c参数错误，请输入/music help获取帮助",
+    "noPer": "§d[AllMusic3]§c你没有权限执行这个操作"
+  },
+  "custom": {
+    "info": "自定义音乐",
+    "idle": "空闲列表"
+  },
+  "papi": {
+    "emptyMusic": "没有播放的音乐"
+  },
+  "cost": {
+    "search": "§d[AllMusic3]§e你搜歌花费了%Cost%",
+    "addMusic": "§d[AllMusic3]§e你点歌花费了%Cost%",
+    "noMoney": "§d[AllMusic3]§c你没有足够的钱",
+    "costFail": "§d[AllMusic3]§c扣钱过程中错误"
+  },
+  "click": {
+    "clickRun": "§b[§n点我选择§r§b]",
+    "clickCheck": "§b[§n点我查看§r§b]"
+  },
+  "help": {
+    "normal": {
+      "head": "§d[AllMusic3]§e帮助手册",
+      "base": "§d[AllMusic3]§e/music [音乐ID] 来点歌",
+      "stop": "§d[AllMusic3]§e/music stop 停止播放歌曲",
+      "list": "§d[AllMusic3]§e/music list 查看歌曲队列",
+      "cancel": "§d[AllMusic3]§e/music cancel (序号) 取消你的点歌",
+      "vote": "§d[AllMusic3]§e/music vote 投票切歌",
+      "vote1": "§d[AllMusic3]§e/music vote cancel 取消发起的切歌",
+      "push": "§d[AllMusic3]§e/music push (序号) 投票将歌曲插入到队列头",
+      "push1": "§d[AllMusic3]§e/music push cancel 取消发起的插歌",
+      "mute": "§d[AllMusic3]§e/music mute 不再参与点歌",
+      "search": "§d[AllMusic3]§e/music search [歌名] 搜索歌曲",
+      "select": "§d[AllMusic3]§e/music select [序列] 选择歌曲",
+      "nextpage": "§d[AllMusic3]§e/music nextpage 切换下一页歌曲搜索结果",
+      "lastpage": "§d[AllMusic3]§e/music lastpage 切换上一页歌曲搜索结果",
+      "hud1": "§d[AllMusic3]§e/music hud [位置] enable 启用关闭单一界面",
+      "hud2": "§d[AllMusic3]§e/music hud [位置] pos [x] [y] 设置某个界面的位置",
+      "hud3": "§d[AllMusic3]§e/music hud pic size [尺寸] 设置图片尺寸",
+      "hud4": "§d[AllMusic3]§e/music hud pic rotate [开关] 设置图片旋转模式",
+      "hud5": "§d[AllMusic3]§e/music hud pic speed [数值] 设置图片旋转速度",
+      "hud6": "§d[AllMusic3]§e/music hud [位置] dir [对齐方式] 设置某个界面的对齐方式",
+      "hud7": "§d[AllMusic3]§e/music hud [位置] color [颜色HEX] 设置某个界面的颜色",
+      "hud8": "§d[AllMusic3]§e/music hud [位置] reset 重置单一界面",
+      "hud9": "§d[AllMusic3]§e/music hud enable 启用/关闭全部界面",
+      "hud10": "§d[AllMusic3]§e/music hud reset 重置全部界面"
+    },
+    "admin": {
+      "reload": "§d[AllMusic3]§e使用/music reload 重读配置文件",
+      "next": "§d[AllMusic3]§e使用/music next 强制切歌",
+      "ban": "§d[AllMusic3]§e使用/music ban [ID] 禁止点这首歌",
+      "banPlayer": "§d[AllMusic3]§e使用/music banplayer [ID] 禁止某位玩家点歌",
+      "url": "§d[AllMusic3]§e使用/music url [url] 播放一首自定义歌曲",
+      "delete": "§d[AllMusic3]§e使用/music delete [序号] 删除队列中的歌曲",
+      "addList": "§d[AllMusic3]§e使用/music addlist [歌单ID] 添加歌单到空闲列表",
+      "clearList": "§d[AllMusic3]§e使用/music clearlist 清空空闲歌单",
+      "login": "§d[AllMusic3]§e使用/music login [验证码] 登录账户",
+      "code": "§d[AllMusic3]§e使用/music code [手机号] 获取短信验证码",
+      "test": "§d[AllMusic3]§e使用/music test [音乐ID] 测试解析音乐"
+    }
+  },
+  "fun": {
+    "rain": "§d[AllMusic3]§e天空开始变得湿润"
+  },
+  "cancel": {
+    "done": "§d[AllMusic3]§e已取消你的点歌",
+    "err1": "§d[AllMusic3]§c你没有点歌",
+    "err2": "§d[AllMusic3]§c歌曲%MusicName%-%MusicAuthor%不是你的点歌",
+    "err3": "§d[AllMusic3]§c没有找到序号为%Index%的点歌",
+    "err4": "§d[AllMusic3]§c输入的序号错误"
+  },
+  "version": "205"
+}

@@ -1,0 +1,43 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "earthmodsmob"
+		}
+	],
+	"entity": "earthmobsmod:hyper_rabbit",
+	"samplerTier": 1,
+	"environments": ["farm","sand","snow"],
+	"growTicks": 1200,
+	"results": [
+		{
+			"chance": 0.5,
+			"output": {
+				"item": "minecraft:rabbit_hide"
+			},
+			"minAmount": 1,
+			"maxAmount": 1
+		},
+		{
+			"chance": 0.8,
+				"output": {
+					"item": "minecraft:rabbit"
+				},
+				"output_cooked": {
+					"item": "minecraft:cooked_rabbit"
+				},
+				"minAmount": 1,
+				"maxAmount": 1
+		},
+		{
+			"chance": 0.1,
+				"output": {
+					"item": "earthmobsmod:hyper_rabbit_foot"
+				},
+				"minAmount": 1,
+				"maxAmount": 1
+		}
+	]
+	
+}

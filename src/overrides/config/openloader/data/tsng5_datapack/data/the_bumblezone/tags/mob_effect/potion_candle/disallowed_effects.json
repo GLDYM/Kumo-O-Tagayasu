@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "l2complements:flame",
+    "l2complements:frozen",
+    "l2complements:curse",
+    "l2complements:cleanse",
+    "l2complements:emerald_splash",
+    "l2complements:stone_cage",
+    "l2complements:bleed",
+    "minecraft:levitation"
+  ]
+}

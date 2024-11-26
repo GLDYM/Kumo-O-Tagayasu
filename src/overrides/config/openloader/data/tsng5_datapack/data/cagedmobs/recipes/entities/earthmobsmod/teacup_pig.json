@@ -1,0 +1,27 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "earthmobsmod"
+		}
+	],
+	"entity": "earthmobsmod:teacup_pig",
+	"samplerTier": 1,
+	"environments": ["farm"],
+	"growTicks": 1200,
+	"results": [
+		{
+			"chance": 0.7,
+				"output": {
+					"item": "minecraft:porkchop"
+				},
+				"output_cooked": {
+					"item": "minecraft:cooked_porkchop"
+				},
+				"minAmount": 1,
+				"maxAmount": 2
+		}
+	]
+	
+}

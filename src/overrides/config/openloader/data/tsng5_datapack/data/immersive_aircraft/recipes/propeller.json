@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GG ",
+    " I ",
+    " GG"
+  ],
+  "key": {
+    "I": [
+      {
+        "tag": "forge:storage_blocks/iron"
+      }
+    ],
+    "G": [
+      {
+        "tag": "forge:rods/wooden"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:propeller"
+  }
+}

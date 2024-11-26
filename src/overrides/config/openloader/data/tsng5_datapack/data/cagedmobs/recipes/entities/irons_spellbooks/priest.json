@@ -1,0 +1,72 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "irons_spellbooks"
+		}
+	],
+	"entity": "irons_spellbooks:priest",
+	"samplerTier": 2,
+	"environments": ["cave"],
+	"growTicks": 1200,
+	"results": [
+		{
+			"chance": 0.2,
+				"output": {
+					"item": "irons_spellbooks:holy_rune"
+				},
+				"minAmount": 1,
+				"maxAmount": 1
+		},
+		{
+			"chance": 0.8,
+				"output": {
+					"item": "irons_spellbooks:arcane_essence"
+				},
+				"minAmount": 1,
+				"maxAmount": 3
+		},
+		{
+			"chance": 0.02,
+				"output": {
+					"item": "irons_spellbooks:common_ink"
+				},
+				"minAmount": 1,
+				"maxAmount": 2
+		},
+		{
+			"chance": 0.02,
+				"output": {
+					"item": "irons_spellbooks:uncommon_ink"
+				},
+				"minAmount": 1,
+				"maxAmount": 2
+		},
+		{
+			"chance": 0.06,
+				"output": {
+					"item": "irons_spellbooks:rare_ink"
+				},
+				"minAmount": 1,
+				"maxAmount": 2
+		},
+		{
+			"chance": 0.06,
+				"output": {
+					"item": "irons_spellbooks:epic_ink"
+				},
+				"minAmount": 1,
+				"maxAmount": 2
+		},
+		{
+			"chance": 0.04,
+				"output": {
+					"item": "irons_spellbooks:legendary_ink"
+				},
+				"minAmount": 1,
+				"maxAmount": 2
+		}
+	]
+	
+}

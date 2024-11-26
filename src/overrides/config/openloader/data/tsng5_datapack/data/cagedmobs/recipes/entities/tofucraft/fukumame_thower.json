@@ -1,0 +1,14 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "tofucraft"
+		}
+	],
+	"entity": "tofucraft:fukumame_thower",
+	"samplerTier": 2,
+	"environments": ["nether"],
+	"growTicks": 1800,
+	"results": []
+}

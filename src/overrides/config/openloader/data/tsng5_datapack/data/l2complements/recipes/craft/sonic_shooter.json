@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "l2complements:void_eye"
+    },
+    "B": {
+      "item": "l2complements:resonant_feather"
+    },
+    "C": {
+      "item": "l2complements:explosion_shard"
+    },
+    "D": {
+      "item": "l2complements:warden_bone_shard"
+    },
+    "I": {
+      "item": "l2complements:sculkium_ingot"
+    }
+  },
+  "pattern": [
+    "CBD",
+    "III",
+    "IAA"
+  ],
+  "result": {
+    "item": "l2complements:sonic_shooter"
+  },
+  "show_notification": true
+}

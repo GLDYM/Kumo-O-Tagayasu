@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "forge:crops/wheat"
+    },
+    "B": {
+      "item": "fruitsdelight:dried_persimmon"
+    }
+  },
+  "pattern": [
+    "ABA"
+  ],
+  "result": {
+    "count": 8,
+    "item": "fruitsdelight:persimmon_cookie"
+  },
+  "show_notification": true
+}

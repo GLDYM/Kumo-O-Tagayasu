@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CNC",
+    "NEN",
+    "RRR"
+  ],
+  "key": {
+    "C": [
+      {
+        "item": "minecraft:slime_ball"
+      }
+    ],
+    "R": [
+      {
+        "item": "create:andesite_alloy"
+      }
+    ],
+    "N": [
+      {
+        "tag": "forge:plates/gold"
+      }
+    ],
+    "E": [
+      {
+        "item": "immersive_aircraft:engine"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:eco_engine"
+  }
+}

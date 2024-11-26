@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "PBP",
+    "BEB",
+    "PBP"
+  ],
+  "key": {
+    "E": [
+      {
+        "item": "immersive_aircraft:engine"
+      }
+    ],
+    "B": [
+      {
+        "tag": "forge:bamboo"
+      }
+    ],
+    "P": [
+      {
+        "item": "immersive_aircraft:propeller"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:quadrocopter"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "regions_unexplored:large_prismarite_cluster"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "regions_unexplored:prismarite_cluster"
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "pickaxe_dig"
+  }
+}

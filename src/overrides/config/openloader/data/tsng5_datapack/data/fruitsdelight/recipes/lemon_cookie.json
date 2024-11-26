@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "forge:crops/wheat"
+    },
+    "B": {
+      "tag": "forge:fruits/lemon"
+    },
+    "C": {
+      "tag": "forge:milk/milk_bottle"
+    }
+  },
+  "pattern": [
+    " C ",
+    "ABA"
+  ],
+  "result": {
+    "count": 8,
+    "item": "fruitsdelight:lemon_cookie"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,49 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "delightful:enabled",
+          "value": "salmonberry_sack"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "building",
+        "ingredients": [
+          {
+            "tag": "forge:fruits/salmonberries"
+          },
+          {
+            "tag": "forge:fruits/salmonberries"
+          },
+          {
+            "tag": "forge:fruits/salmonberries"
+          },
+          {
+            "tag": "forge:fruits/salmonberries"
+          },
+          {
+            "tag": "forge:fruits/salmonberries"
+          },
+          {
+            "tag": "forge:fruits/salmonberries"
+          },
+          {
+            "tag": "forge:fruits/salmonberries"
+          },
+          {
+            "tag": "forge:fruits/salmonberries"
+          },
+          {
+            "tag": "forge:fruits/salmonberries"
+          }
+        ],
+        "result": {
+          "item": "delightful:salmonberry_sack"
+        }
+      }
+    }
+  ]
+}

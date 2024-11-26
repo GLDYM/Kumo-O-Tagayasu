@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    [
+    {
+      "item": "minecraft:ice"
+    },
+    {
+      "item": "minecraft:packed_ice"
+    }
+    ]
+  ],
+  "result": [
+    {
+      "count": 8,
+      "item": "youkaishomecoming:ice_cube"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/axes"
+  }
+}

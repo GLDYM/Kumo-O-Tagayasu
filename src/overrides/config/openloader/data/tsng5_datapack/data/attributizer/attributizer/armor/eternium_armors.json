@@ -1,0 +1,16 @@
+{
+  "l2complements:eternium_helmet":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "l2complements:eternium_leggings":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ]
+}

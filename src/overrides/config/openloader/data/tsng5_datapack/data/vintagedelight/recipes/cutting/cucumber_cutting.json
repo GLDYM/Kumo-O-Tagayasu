@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "forge:crops/cucumber"
+    }
+  ],
+  "result": [
+    {
+      "item": "vintagedelight:cucumber_noodles"
+    }
+  ],
+  "tool": {
+    "tag": "minecraft:swords"
+  }
+}

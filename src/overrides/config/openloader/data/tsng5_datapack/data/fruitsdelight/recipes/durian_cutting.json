@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "fruitsdelight:durian"
+    }
+  ],
+  "result": [
+    {
+      "count": 6,
+      "item": "fruitsdelight:durian_flesh"
+    },
+    {
+      "item": "fruitsdelight:durian_shell"
+    },
+    {
+      "item": "fruitsdelight:durian_shell"
+    },
+    {
+      "item": "fruitsdelight:durian_sapling"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/axes"
+  }
+}

@@ -1,0 +1,10 @@
+
+#Mod settings
+["Better Creeper Mod"]
+	#Enable creepers to spwan flowers
+	FlowerSpawn = false
+	#Disable creepers item damage
+	DisableItemDamage = true
+	#Disable creepers block damage
+	DisableBlockDamage = true
+

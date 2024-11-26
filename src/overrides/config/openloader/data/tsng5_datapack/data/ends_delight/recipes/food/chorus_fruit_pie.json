@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "111",
+    "234",
+    "505"
+  ],
+  "key": {
+    "0": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "1": {
+      "tag": "forge:crops/wheat"
+    },
+    "2": {
+      "item": "minecraft:poppy"
+    },
+    "3": [
+      {
+        "item": "minecraft:chorus_fruit"
+      },
+      {
+        "item": "ends_delight:chorus_fruit_grain"
+      }
+    ],
+    "4": {
+      "item": "minecraft:chorus_flower"
+    },
+    "5": {
+      "tag": "forge:sugar"
+    }
+  },
+  "result": {
+    "item": "ends_delight:chorus_fruit_pie"
+  }
+}

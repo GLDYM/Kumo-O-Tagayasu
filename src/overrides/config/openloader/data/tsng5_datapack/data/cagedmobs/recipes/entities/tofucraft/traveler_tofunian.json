@@ -1,0 +1,14 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "tofucraft"
+		}
+	],
+	"entity": "tofucraft:traveler_tofunian",
+	"samplerTier": 1,
+	"environments": ["tofu"],
+	"growTicks": 1800,
+	"results": []
+}

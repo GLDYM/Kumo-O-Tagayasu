@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BBB",
+        "BBB",
+        "BBB"
+    ],
+    "key": {
+        "B": {
+            "tag": "forge:chocolate"
+        }
+    },
+    "result": {
+        "item": "neapolitan:chocolate_block",
+        "count": 1
+    }
+}

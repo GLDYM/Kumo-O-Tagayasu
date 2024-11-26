@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:explosion_crafting",
+  "ingredient": {
+    "item": "minecraft:polished_blackstone"
+  },
+  "lossrate": 0.7,
+  "onlyblock": false,
+  "result": "crockpot:blackstone_dust"
+}

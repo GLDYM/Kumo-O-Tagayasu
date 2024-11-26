@@ -1,0 +1,80 @@
+{
+  "youkaishomecoming:reimu_hairband":[
+    {
+      "attribute": "minecraft:generic.max_health",
+      "modify": -6,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": -9,
+      "operation": "ADDITION"
+    }
+  ],
+  "youkaishomecoming:rumia_hairband":[
+    {
+      "attribute": "minecraft:generic.max_health",
+      "modify": -6,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": -0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": -8,
+      "operation": "ADDITION"
+    }
+  ],
+  "youkaishomecoming:koishi_hat":[
+    {
+      "attribute": "minecraft:generic.max_health",
+      "modify": -6,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": -0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": -10,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": -3,
+      "operation": "ADDITION"
+    }
+  ],
+  "youkaishomecoming:suwako_hat":[
+    {
+      "attribute": "minecraft:generic.max_health",
+      "modify": -5,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": -8,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": -3,
+      "operation": "ADDITION"
+    }
+  ]
+}

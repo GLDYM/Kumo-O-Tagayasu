@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "l2complements:warden_bone_shard"
+    },
+    {
+      "item": "l2complements:warden_bone_shard"
+    },
+    {
+      "tag": "forge:ingots/brass"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "l2complements:sculkium_ingot"
+  }
+}

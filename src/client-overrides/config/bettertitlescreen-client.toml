@@ -1,0 +1,15 @@
+
+["custom text"]
+	#Insert the custom title screen text you want here (supports multiple lines)
+	text = ["§d钓月织梦 §e正式版 §bv5.2.2", "§6用佛系的心，来创作作品。", "§9由普通的网友月见清兰与", "§9复旦大学基岩社特别驱动！"]
+
+[versions]
+	#Show which version of Minecraft the client is currently running.
+	showMcVersion = true
+	#Show which version of Minecraft Coder Pack (MCP) the client is running.
+	showMcpVersion = false
+	#Show which version of Minecraft Forge the client is running.
+	showForgeVersion = false
+	#Show how many mods are loaded.
+	showModsLoaded = false
+

@@ -1,0 +1,48 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "tofucraft"
+		}
+	],
+	"entity": "tofucraft:shudofuspider",
+	"samplerTier": 3,
+	"environments": ["tofu"],
+	"growTicks": 1800,
+	"results": [
+		{
+			"chance": 0.8,
+			"output": {
+				"item": "tofucraft:natto"
+			},
+			"minAmount": 1,
+			"maxAmount": 3
+		},
+		{
+			"chance": 0.8,
+				"output": {
+					"item": "tofucraft:natto_cobweb"
+				},
+				"minAmount": 1,
+				"maxAmount": 4
+		},
+		{
+			"chance": 0.8,
+				"output": {
+					"item": "tofucraft:shudofu"
+				},
+				"minAmount": 1,
+				"maxAmount": 3
+		},
+		{
+			"chance": 0.8,
+				"output": {
+					"item": "tofucraft:soy_sculk_bone"
+				},
+			"minAmount": 1,
+			"maxAmount": 4
+		}
+	]
+	
+}

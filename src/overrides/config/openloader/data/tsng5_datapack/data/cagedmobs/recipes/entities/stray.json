@@ -1,0 +1,69 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "cagedmobs"
+		}
+	],
+	"entity": "minecraft:stray",
+	"samplerTier": 2,
+	"environments": ["snow"],
+	"growTicks": 1200,
+	"results": [
+		{
+			"chance": 0.75,
+			"output": {
+				"item": "minecraft:arrow"
+			},
+			"minAmount": 1,
+			"maxAmount": 2
+		},
+		{
+			"chance": 0.75,
+			"output": {
+				"item": "minecraft:bone"
+			},
+			"minAmount": 1,
+			"maxAmount": 2
+		},
+		{
+			"chance": 0.2,
+			"output": {
+				"item": "minecraft:bow"
+			},
+			"randomDurability": true,
+			"minAmount": 1,
+			"maxAmount": 1
+		},
+		{
+			"chance": 0.7,
+			"output": {
+				"item": "minecraft:tipped_arrow"
+			},
+			"function": "minecraft:set_nbt",
+			"nbtName": "Potion",
+			"nbtData": "minecraft:slowness",
+			"minAmount": 1,
+			"maxAmount": 1
+		},
+		{
+			"lightning": true,
+			"chance": 0.1,
+			"output": {
+				"item": "minecraft:skeleton_skull"
+			},
+			"minAmount": 1,
+			"maxAmount": 1
+		},
+		{
+			"chance": 0.75,
+			"output": {
+				"item": "irons_spellbooks:frozen_bone"
+			},
+			"minAmount": 1,
+			"maxAmount": 2
+		}
+	]
+	
+}

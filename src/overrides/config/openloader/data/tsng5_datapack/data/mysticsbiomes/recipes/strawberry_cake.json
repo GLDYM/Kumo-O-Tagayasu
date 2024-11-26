@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "BES",
+    "WWW"
+  ],
+  "key": {
+    "M": {
+      "item": "mysticsbiomes:strawberry_milk_bucket"
+    },
+    "B": {
+      "tag": "forge:sugar"
+    },
+    "W": {
+      "tag": "forge:crops/wheat"
+    },
+    "E": {
+      "tag": "forge:eggs"
+    },
+    "S": {
+      "tag": "forge:fruits/strawberries"
+    }
+  },
+  "result": {
+    "item": "mysticsbiomes:strawberry_cake"
+  }
+}

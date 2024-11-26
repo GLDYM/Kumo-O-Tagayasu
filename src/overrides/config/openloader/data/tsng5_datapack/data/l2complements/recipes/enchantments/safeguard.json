@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:and",
+        "values": [
+          {
+            "type": "forge:mod_loaded",
+            "modid": "ars_nouveau"
+          },
+          {
+            "type": "l2library:boolean_config",
+            "expected": true,
+            "line": [
+              "useArsNouveauForEnchantmentRecipe"
+            ],
+            "path": "l2_configs/l2complements-common.toml"
+          }
+        ]
+      }
+    }
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:shulkerate_nugget"
+    },
+    "B": {
+      "item": "minecraft:book"
+    },
+    "C": {
+      "item": "regions_unexplored:large_prismarite_cluster"
+    },
+    "F": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "L": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "pattern": [
+    "LCL",
+    "ABA",
+    "FCF"
+  ],
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "id": "l2complements:safeguard",
+          "lvl": 1
+        }
+      ]
+    }
+  }
+}

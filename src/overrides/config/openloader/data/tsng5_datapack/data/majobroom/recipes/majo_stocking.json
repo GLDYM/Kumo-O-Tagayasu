@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "m m",
+    "m m",
+    "p p"
+  ],
+  "key": {
+    "p": {
+      "item": "l2complements:sculkium_block"
+    },
+    "m": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "majobroom:majo_stocking",
+    "count": 1
+  }
+}

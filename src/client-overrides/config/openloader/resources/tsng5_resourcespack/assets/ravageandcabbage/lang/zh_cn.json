@@ -1,0 +1,43 @@
+{
+	"itemGroup.ravageandcabbage": "劫掠兽扩展",
+	
+	"item.ravageandcabbage.cabbage": "卷心菜",
+	"item.ravageandcabbage.cabbage_seeds": "卷心菜种子",
+	"item.ravageandcabbage.corrupted_cabbage": "生病的卷心菜",
+	"item.ravageandcabbage.ravager_milk": "劫掠兽奶桶",
+	"item.ravageandcabbage.leather_horn_armor": "皮革劫掠兽角盔",
+	"item.ravageandcabbage.golden_horn_armor": "金劫掠兽角盔",
+	"item.ravageandcabbage.iron_horn_armor": "铁劫掠兽角盔",
+	"item.ravageandcabbage.diamond_horn_armor": "钻石劫掠兽角盔",
+	"item.ravageandcabbage.netherite_horn_armor": "下界合金劫掠兽角盔",
+
+	"item.ravageandcabbage.cabbager_spawn_egg": "灾厄农夫刷怪蛋",
+	"item.ravageandcabbage.ravager_spawn_egg": "劫掠兽刷怪蛋",
+
+	"entity.ravageandcabbage.ravager": "劫掠兽",
+	"entity.ravageandcabbage.cabbager": "灾厄农夫",
+	"entity.ravageandcabbage.cabbage": "丢卷心菜",
+	"entity.ravageandcabbage.corrupted_cabbage": "生病的卷心菜",
+	
+ 	"entity.ravageandcabbage.corrupted_villager.armorer": "腐化盔甲匠",
+	"entity.ravageandcabbage.corrupted_villager.butcher": "腐化屠夫",
+	"entity.ravageandcabbage.corrupted_villager.cartographer": "腐化制图师",
+	"entity.ravageandcabbage.corrupted_villager.cleric": "腐化牧师",
+	"entity.ravageandcabbage.corrupted_villager.farmer": "腐化农民",
+	"entity.ravageandcabbage.corrupted_villager.fisherman": "腐化渔夫",
+	"entity.ravageandcabbage.corrupted_villager.fletcher": "腐化制箭师",
+	"entity.ravageandcabbage.corrupted_villager.leatherworker": "腐化皮匠",
+	"entity.ravageandcabbage.corrupted_villager.librarian": "腐化图书管理员",
+	"entity.ravageandcabbage.corrupted_villager.mason": "腐化石匠",
+	"entity.ravageandcabbage.corrupted_villager.none": "腐化村民",
+	"entity.ravageandcabbage.corrupted_villager.nitwit": "腐化傻子",
+	"entity.ravageandcabbage.corrupted_villager.shepherd": "腐化牧羊人",
+	"entity.ravageandcabbage.corrupted_villager.toolsmith": "腐化工具匠",
+	"entity.ravageandcabbage.corrupted_villager.weaponsmith": "腐化武器匠",
+	"entity.ravageandcabbage.corrupted_villager": "腐化村民",
+	
+	"block.ravageandcabbage.cabbage_crop": "卷心菜",
+
+	"key.ravageandcabbage.attack_key": "攻击",
+	"key.category.ravageandcabbage": "劫掠兽与卷心菜"
+}

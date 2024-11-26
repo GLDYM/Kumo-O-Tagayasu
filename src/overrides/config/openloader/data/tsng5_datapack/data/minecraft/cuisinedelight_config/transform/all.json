@@ -1,0 +1,73 @@
+{
+  "fluidTransform": {},
+  "itemTransform": {
+    "naturalist:venison": {
+      "next": "naturalist:cooked_venison",
+      "stage": "COOKED"
+    },
+    "delightful:venison_chops": {
+      "next": "delightful:cooked_venison_chops",
+      "stage": "COOKED"
+    },
+    "delightful:cactus_flesh": {
+      "next": "delightful:cactus_steak",
+      "stage": "COOKED"
+    },
+    "youkaishomecoming:flesh": {
+      "next": "youkaishomecoming:cooked_flesh",
+      "stage": "COOKED"
+    },
+    "casualness_delight:raw_donkey_meat": {
+      "next": "casualness_delight:cooked_donkey_meat",
+      "stage": "COOKED"
+    },
+    "miners_delight:arthropod": {
+      "next": "miners_delight:cooked_arthropod",
+      "stage": "COOKED"
+    },
+    "naturalist:duck": {
+      "next": "naturalist:cooked_duck",
+      "stage": "COOKED"
+    },
+    "naturalist:lizard_tail": {
+      "next": "naturalist:cooked_lizard_tail",
+      "stage": "COOKED"
+    },
+    "youkaishomecoming:raw_lamprey_fillet": {
+      "next": "youkaishomecoming:roasted_lamprey_fillet",
+      "stage": "COOKED"
+    },
+    "miners_delight:squid": {
+      "next": "miners_delight:baked_squid",
+      "stage": "COOKED"
+    },
+    "miners_delight:tentacles": {
+      "next": "miners_delight:baked_tentacles",
+      "stage": "COOKED"
+    },
+    "naturalist:catfish": {
+      "next": "naturalist:cooked_catfish",
+      "stage": "COOKED"
+    },
+    "naturalist:bass": {
+      "next": "naturalist:cooked_bass",
+      "stage": "COOKED"
+    },
+    "miners_delight:cave_carrot": {
+      "next": "miners_delight:baked_cave_carrot",
+      "stage": "COOKED"
+    },
+    "corn_delight:corn": {
+      "next": "corn_delight:grilled_corn",
+      "stage": "COOKED"
+    },
+    "corn_delight:corn_seeds": {
+      "next": "corn_delight:popcorn",
+      "stage": "COOKED"
+    },
+    "quark:crab_leg": {
+      "next": "quark:cooked_crab_leg",
+      "stage": "COOKED"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "forge:ingots/brass"
+  },
+  "base": {
+    "item": "minecraft:iron_pickaxe"
+  },
+  "result": {
+    "item": "create_sa:brass_pickaxe"
+  },
+  "template": {
+    "item": "minecraft:glowstone_dust"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:wheat"
+    },
+    {
+      "tag": "forge:fruits/strawberry"
+    },
+    {
+      "tag": "forge:wheat"
+    },
+    {
+      "tag": "forge:sugar"
+    }
+  ],
+  "result": {
+    "item": "neapolitan:strawberry_scones",
+    "count": 2
+  }
+}

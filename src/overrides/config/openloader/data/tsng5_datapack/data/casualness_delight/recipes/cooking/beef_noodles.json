@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "minecraft:beef"
+    },
+    {
+      "tag": "forge:pasta"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "item": "vintagedelight:pickled_pepper"
+    }
+  ],
+  "result": {
+    "item": "casualness_delight:beef_noodles"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200
+}

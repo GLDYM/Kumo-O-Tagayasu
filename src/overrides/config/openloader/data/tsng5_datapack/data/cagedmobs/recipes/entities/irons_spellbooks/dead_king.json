@@ -1,0 +1,56 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "irons_spellbooks"
+		}
+	],
+	"entity": "irons_spellbooks:dead_king",
+	"samplerTier": 3,
+	"environments": ["cave"],
+	"growTicks": 2400,
+	"results": [
+		{
+			"chance": 0.2,
+				"output": {
+					"item": "irons_spellbooks:blank_rune"
+				},
+				"minAmount": 1,
+				"maxAmount": 3
+		},
+		{
+			"chance": 0.02,
+				"output": {
+					"item": "irons_spellbooks:legendary_ink"
+				},
+				"minAmount": 1,
+				"maxAmount": 3
+		},
+		{
+			"chance": 1,
+				"output": {
+					"item": "irons_spellbooks:arcane_essence"
+				},
+				"minAmount": 3,
+				"maxAmount": 8
+		},
+		{
+			"chance": 0.1,
+				"output": {
+					"item": "irons_spellbooks:blood_staff"
+				},
+				"minAmount": 1,
+				"maxAmount": 1
+		},
+		{
+			"chance": 0.1,
+				"output": {
+					"item": "irons_spellbooks:necronomicon_spell_book"
+				},
+				"minAmount": 1,
+				"maxAmount": 1
+		}
+	]
+	
+}

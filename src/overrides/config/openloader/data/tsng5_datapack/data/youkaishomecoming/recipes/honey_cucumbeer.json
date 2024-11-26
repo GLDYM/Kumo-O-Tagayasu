@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "tag": "forge:crops/cucumber"
+    },
+    {
+      "tag": "farmersdelight:cabbage_roll_ingredients"
+    },
+    {
+      "tag": "forge:crops/cucumber"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "youkaishomecoming:honey_glazed_cucumber",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "earthmobsmod"
+		}
+	],
+	"entity": "earthmobsmod:tropical_slime",
+	"samplerTier": 2,
+	"environments": ["cave","slime","sand"],
+	"growTicks": 1200,
+	"results": [
+		{
+			"chance": 0.7,
+				"output": {
+					"item": "earthmobsmod:tropical_ball"
+				},
+				"minAmount": 1,
+				"maxAmount": 2
+		}
+	]
+	
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:diamond_block"
+  },
+  "base": {
+    "item": "l2weaponry:iron_plate_shield"
+  },
+  "result": {
+    "item": "l2weaponry:diamond_plate_shield"
+  },
+  "template": {
+    "item": "create:brass_sheet"
+  }
+}

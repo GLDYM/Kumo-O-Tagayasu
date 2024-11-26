@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " pg",
+    "pmp",
+    "   "
+  ],
+  "key": {
+    "p": {
+      "item": "l2complements:shulkerate_block"
+    },
+    "g": {
+      "item": "l2complements:totemic_gold_block"
+    },
+    "m": {
+      "item": "l2complements:eternium_block"
+    }
+  },
+  "result": {
+    "item": "majobroom:majo_hat",
+    "count": 1
+  }
+}

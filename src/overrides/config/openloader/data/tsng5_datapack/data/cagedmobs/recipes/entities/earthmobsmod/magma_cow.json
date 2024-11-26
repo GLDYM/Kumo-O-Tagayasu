@@ -1,0 +1,24 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "earthmobsmod"
+		}
+	],
+	"entity": "earthmobsmod:magma_cow",
+	"samplerTier": 1,
+	"environments": ["nether"],
+	"growTicks": 1200,
+	"results": [
+		{
+			"chance": 0.5,
+				"output": {
+					"item": "minecraft:basalt"
+				},
+				"minAmount": 1,
+				"maxAmount": 3
+		}
+	]
+	
+}

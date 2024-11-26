@@ -1,0 +1,28 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "tofucraft"
+		}
+	],
+	"entity": "tofucraft:tofufish",
+	"samplerTier": 1,
+	"environments": ["tofu"],
+	"growTicks": 1200,
+	"requiresWater": true,
+	"results": [
+		{
+			"chance": 0.5,
+				"output": {
+					"item": "tofucraft:raw_tofufish"
+				},
+				"output_cooked": {
+					"item": "tofucraft:cooked_tofufish"
+				},
+				"minAmount": 1,
+				"maxAmount": 1
+		}
+	]
+	
+}

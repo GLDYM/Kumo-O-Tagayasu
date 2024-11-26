@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "l2complements:sculkium_block"
+    },
+    "B": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "AAA",
+    " B ",
+    " B "
+  ],
+  "result": {
+    "item": "l2complements:sculkium_pickaxe"
+  },
+  "show_notification": true
+}

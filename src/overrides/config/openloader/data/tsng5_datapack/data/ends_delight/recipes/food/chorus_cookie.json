@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:crops/wheat"
+    },
+    {
+      "tag": "forge:crops/wheat"
+    },
+    {
+      "item": "ends_delight:chorus_fruit_grain"
+    }
+  ],
+  "result": {
+    "item": "ends_delight:chorus_cookie",
+    "count": 8
+  }
+}

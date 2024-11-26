@@ -1,0 +1,35 @@
+{
+  "l2complements:sculkium_helmet":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": -1,
+      "operation": "ADDITION"
+    }
+  ],
+  "l2complements:sculkium_chestplate":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": -1,
+      "operation": "ADDITION"
+    }
+  ],
+  "l2complements:sculkium_leggings":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": -2,
+      "operation": "ADDITION"
+    }
+  ],
+  "l2complements:sculkium_boots":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": -1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": -1,
+      "operation": "ADDITION"
+    }
+  ]
+}

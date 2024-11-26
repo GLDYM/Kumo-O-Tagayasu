@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "SES",
+    "XGX"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:furnace"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "W": {
+      "item": "minecraft:polished_deepslate"
+    },
+    "G": {
+      "item": "minecraft:copper_block"
+    },
+    "X": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:blast_furnace"
+  }
+}

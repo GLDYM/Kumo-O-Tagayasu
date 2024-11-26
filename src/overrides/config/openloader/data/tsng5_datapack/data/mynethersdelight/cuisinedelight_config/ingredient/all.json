@@ -1,0 +1,66 @@
+{
+  "entries": [
+    {
+      "type": "MEAT",
+      "effects": [],
+      "ingredient": {
+        "item": "mynethersdelight:hoglin_loin"
+      },
+      "max_time": 300,
+      "min_time": 180,
+      "nutrition": 12,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 1.0,
+      "size": 3,
+      "stir_time": 80
+    },
+    {
+      "type": "MEAT",
+      "effects": [],
+      "ingredient": {
+        "item": "mynethersdelight:hoglin_sausage"
+      },
+      "max_time": 300,
+      "min_time": 120,
+      "nutrition": 10,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 1.0,
+      "size": 1,
+      "stir_time": 80
+    },
+    {
+      "type": "MEAT",
+      "effects": [
+        {
+          "effect": "minecraft:fire_resistance",
+          "level": 0,
+          "time": 400
+        }
+      ],
+      "ingredient": {
+        "item": "mynethersdelight:strider_slice"
+      },
+      "max_time": 300,
+      "min_time": 180,
+      "nutrition": 10,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 1.0,
+      "size": 3,
+      "stir_time": 80
+    },
+    {
+      "type": "VEG",
+      "effects": [],
+      "ingredient": {
+        "item": "mynethersdelight:bullet_pepper"
+      },
+      "max_time": 300,
+      "min_time": 0,
+      "nutrition": 6,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 80
+    }
+  ]
+}

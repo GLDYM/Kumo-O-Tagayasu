@@ -1,0 +1,5 @@
+laserRenderAdditive = true
+laserRenderInverted = true
+#Range: 0.0 ~ 1.0
+laserTransparency = 0.5
+

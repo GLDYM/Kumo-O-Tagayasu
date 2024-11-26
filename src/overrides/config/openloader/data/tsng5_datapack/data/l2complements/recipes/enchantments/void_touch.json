@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:and",
+        "values": [
+          {
+            "type": "forge:mod_loaded",
+            "modid": "ars_nouveau"
+          },
+          {
+            "type": "l2library:boolean_config",
+            "expected": true,
+            "line": [
+              "useArsNouveauForEnchantmentRecipe"
+            ],
+            "path": "l2_configs/l2complements-common.toml"
+          }
+        ]
+      }
+    }
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:void_eye"
+    },
+    "B": {
+      "item": "minecraft:book"
+    },
+    "C": {
+      "item": "l2complements:sun_membrane"
+    },
+    "D": {
+      "item": "l2complements:force_field"
+    },
+    "L": {
+      "item": "l2complements:resonant_feather"
+    }
+  },
+  "pattern": [
+    "LCL",
+    "ABA",
+    "LDL"
+  ],
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "id": "l2complements:void_touch",
+          "lvl": 1
+        }
+      ]
+    }
+  }
+}

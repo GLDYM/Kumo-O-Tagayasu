@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "BEB",
+    "WWW"
+  ],
+  "key": {
+    "M": {
+      "tag": "forge:milk"
+    },
+    "B": {
+      "tag": "forge:sugar"
+    },
+    "W": {
+      "tag": "forge:crops/wheat"
+    },
+    "E": {
+      "item": "mysticsbiomes:orange_egg"
+    }
+  },
+  "result": {
+    "item": "mysticsbiomes:orange_frosted_cake"
+  }
+}

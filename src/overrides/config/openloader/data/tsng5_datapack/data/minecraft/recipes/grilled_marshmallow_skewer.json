@@ -1,0 +1,10 @@
+{
+  "type": "barbequesdelight:grilling",
+  "barbecuingTime": 260,
+  "ingredient": {
+    "item": "delightful:marshmallow_stick"
+  },
+  "output": {
+    "item": "delightful:cooked_marshmallow_stick"
+  }
+}

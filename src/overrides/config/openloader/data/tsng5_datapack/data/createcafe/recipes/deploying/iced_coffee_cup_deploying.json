@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "tag": "forge:glass_panes"
+    }
+  ],
+  "results": [
+    {
+      "item": "createcafe:iced_coffee_cup"
+    }
+  ]
+}

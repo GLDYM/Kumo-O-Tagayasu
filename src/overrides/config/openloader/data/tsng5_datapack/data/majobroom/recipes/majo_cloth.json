@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " p ",
+    "pmp",
+    "pgp"
+  ],
+  "key": {
+    "p": {
+      "item": "l2complements:shulkerate_block"
+    },
+    "g": {
+      "item": "l2complements:poseidite_block"
+    },
+    "m": {
+      "item": "l2complements:eternium_block"
+    }
+  },
+  "result": {
+    "item": "majobroom:majo_cloth",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "forge:crops/wheat"
+    },
+    "B": {
+      "tag": "forge:fruits/bayberry"
+    }
+  },
+  "pattern": [
+    "ABA"
+  ],
+  "result": {
+    "count": 8,
+    "item": "fruitsdelight:bayberry_cookie"
+  },
+  "show_notification": true
+}

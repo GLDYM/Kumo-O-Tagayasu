@@ -1,0 +1,7 @@
+#Initial Rows (x9 slots) for backpack
+#Range: 1 ~ 8
+initialRows = 8
+#How many items do players need to spawn with to have the privilege of having them in a backpack
+#Range: 1 ~ 36
+startupBackpackCondition = 1
+

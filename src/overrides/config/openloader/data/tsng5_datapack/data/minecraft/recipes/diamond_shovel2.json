@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "spelunkery:diamond_shard"
+  },
+  "base": {
+    "item": "create_sa:brass_shovel"
+  },
+  "result": {
+    "item": "minecraft:diamond_shovel"
+  },
+  "template": {
+    "item": "minecraft:glowstone_dust"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "barbequesdelight:grilling",
+  "barbecuingTime": 320,
+  "ingredient": {
+    "tag": "forge:crops/corn"
+  },
+  "output": {
+    "item": "corn_delight:grilled_corn"
+  }
+}

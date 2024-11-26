@@ -1,0 +1,39 @@
+/*
+This config is used to enable or disable certain structures from the BetterArcheology Mod
+*/
+{
+	// Normal buildings, ruins etc. without fossils.
+	"archeology_sites": {
+		"archeologist_camp_grassy": true,
+		"archeologist_camp_redsand": true,
+		"archeologist_camp_sand": true,
+		"buried_ruins_sand": true,
+		"catacombs": true,
+		"desert_obelisk": true,
+		"light_temple": true,
+		"mesa_ruins": true,
+		"mott": true,
+		"ruins_sand": true,
+		"stonehenge_grassy": true,
+		"temple_jungle": true,
+		"tumulus_grassy": true
+	},
+	// Underwater ruins similar to shipwrecks containing fossiliferous dirt.
+	"underwater_ruins": {
+		"underwater_0": true,
+		"underwater_1": true,
+		"underwater_2": true,
+		"underwater_3": true
+	},
+	// Rather small fossil sites with fossiliferous dirt.
+	"fossil_sites": {
+		"fossil_chicken": true,
+		"fossil_chicken_birch": true,
+		"fossil_creeper": true,
+		"fossil_jungle_0": true,
+		"fossil_jungle_1": true,
+		"fossil_sheep_0": true,
+		"fossil_wolf": true,
+		"villager_grave": true
+	}
+}

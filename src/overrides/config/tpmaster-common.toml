@@ -1,0 +1,44 @@
+
+[tpmaster-common-config]
+	#The permission level for accept and deny commands.
+	#Range: 0 ~ 4
+	ACCEPT_DENY_PERMISSION_LEVEL = 0
+	#The permission level for away (random tp).
+	#Range: 0 ~ 4
+	AWAY_PERMISSION_LEVEL = 0
+	#The permission level for request.
+	#Range: 0 ~ 4
+	REQUEST_PERMISSION_LEVEL = 0
+	#The permission level for spawn.
+	#Range: 0 ~ 4
+	SPAWN_PERMISSION_LEVEL = 0
+	#The permission level for sethome and home.
+	#Range: 0 ~ 4
+	HOME_PERMISSION_LEVEL = 0
+	#The permission level for back.
+	#Range: 0 ~ 4
+	BACK_PERMISSION_LEVEL = 0
+	#The permission level for remove home/back.
+	#Range: 0 ~ 4
+	REMOVE_PERMISSION_LEVEL = 0
+	#The permission level for help.
+	#Range: 0 ~ 4
+	HELP_PERMISSION_LEVEL = 0
+	#The cool down time in ticks for player to use away commands.
+	#Range: 0 ~ 12000
+	TELEPORT_COMMAND_COOL_DOWN_TICK = 12000
+	#How many tick with no acceptance will players auto deny a teleport request after.
+	#Range: 0 ~ 6000
+	REQUEST_COMMAND_COOL_DOWN_TICK = 600
+	#How many times will it try when player use `/tpmaster away` command.
+	#Range: 0 ~ 256
+	AWAY_TRY_COUNT = 256
+	#The bound of noise when player use `/tpmaster away` command.
+	#Range: 0.01 ~ 1.0
+	AWAY_NOISE_BOUND = 0.5
+	#How many homes at most will a player set.
+	#Range: 1 ~ 64
+	MAX_HOME_COUNT = 10
+	#The Resource Locations of ocean biomes (to ignore in random tp).
+	OCEAN_BIOME_KEYS = ["minecraft:deep_frozen_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:frozen_ocean", "minecraft:cold_ocean", "minecraft:ocean", "minecraft:lukewarm_ocean", "minecraft:warm_ocean"]
+

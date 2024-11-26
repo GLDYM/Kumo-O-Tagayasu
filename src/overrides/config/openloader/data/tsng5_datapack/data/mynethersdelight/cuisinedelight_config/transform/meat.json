@@ -1,0 +1,15 @@
+{
+  "fluidTransform": {},
+  "itemTransform": {
+    "mynethersdelight:hoglin_loin": {
+      "next": "mynethersdelight:cooked_loin",
+      "stage": "COOKED"
+    }
+  },
+  {
+    "mynethersdelight:hoglin_sausage": {
+      "next": "mynethersdelight:roasted_sausage",
+      "stage": "COOKED"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "fluid": "tofucraft:soymilk",
+  "burnTime": 6,
+  "superHeat": true,
+  "amountConsumedPerTick" : 1
+}

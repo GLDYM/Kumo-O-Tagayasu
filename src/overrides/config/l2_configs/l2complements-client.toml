@@ -1,0 +1,6 @@
+#Render enchantment character overlay
+renderEnchOverlay = true
+#The height of enchantment character overlay
+#Range: -1000000 ~ 1000000
+enchOverlayZVal = 250
+

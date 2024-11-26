@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BEB",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:milk"
+    },
+    "B": {
+      "tag": "forge:sugar"
+    },
+    "C": {
+      "tag": "forge:wheat"
+    },
+    "E": {
+      "tag": "forge:eggs"
+    }
+  },
+  "result": {
+    "item": "minecraft:cake"
+  }
+}

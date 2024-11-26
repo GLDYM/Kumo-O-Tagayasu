@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "T  ",
+    "C  ",
+    "   "
+  ],
+  "key": {
+    "T": [
+      {
+        "item": "minecraft:spyglass"
+      }
+    ],
+    "C": [
+      {
+        "tag": "forge:plates/brass"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:telescope"
+  }
+}

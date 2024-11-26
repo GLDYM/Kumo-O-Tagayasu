@@ -1,0 +1,10 @@
+{
+  "type": "barbequesdelight:grilling",
+  "barbecuingTime": 240,
+  "ingredient": {
+    "item": "miners_delight:tentacles"
+  },
+  "output": {
+    "item": "miners_delight:baked_tentacles"
+  }
+}

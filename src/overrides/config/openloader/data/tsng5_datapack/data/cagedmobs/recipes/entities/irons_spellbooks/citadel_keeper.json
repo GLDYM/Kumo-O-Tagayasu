@@ -1,0 +1,32 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "irons_spellbooks"
+		}
+	],
+	"entity": "irons_spellbooks:citadel_keeper",
+	"samplerTier": 2,
+	"environments": ["cave"],
+	"growTicks": 1200,
+	"results": [
+		{
+			"chance": 0.1,
+				"output": {
+					"item": "minecraft:netherite_scrap"
+				},
+				"minAmount": 1,
+				"maxAmount": 1
+		},
+		{
+			"chance": 0.4,
+				"output": {
+					"item": "irons_spellbooks:cinder_essence"
+				},
+				"minAmount": 1,
+				"maxAmount": 1
+		}
+	]
+	
+}

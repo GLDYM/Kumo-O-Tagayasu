@@ -1,0 +1,9 @@
+{
+	"defaultOptions": {
+		"offset": 0,
+		"animated": true,
+		"hasMarker": true,
+		"color": "green"
+	},
+	"overrides": {}
+}

@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "l2library:boolean_config",
+      "expected": true,
+      "line": [
+        "enableVanillaItemRecipe"
+      ],
+      "path": "l2_configs/l2complements-common.toml"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "l2complements:resonant_feather"
+    },
+    [
+    {
+      "item": "galosphere:allurite_shard"
+    },
+    {
+      "item": "galosphere:lumiere_shard"
+    },
+    {
+      "item": "regions_unexplored:large_prismarite_cluster"
+    }
+    ],
+    {
+      "item": "minecraft:sculk"
+    },
+    {
+      "item": "minecraft:sculk"
+    },
+    {
+      "item": "minecraft:sculk"
+    },
+    {
+      "item": "minecraft:sculk"
+    }
+  ],
+  "result": {
+    "item": "minecraft:echo_shard"
+  }
+}

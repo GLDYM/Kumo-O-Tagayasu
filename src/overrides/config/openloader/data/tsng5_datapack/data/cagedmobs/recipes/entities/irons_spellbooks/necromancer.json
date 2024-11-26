@@ -1,0 +1,23 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "irons_spellbooks"
+		}
+	],
+	"entity": "irons_spellbooks:necromancer",
+	"samplerTier": 2,
+	"environments": ["cave"],
+	"growTicks": 1200,
+	"results": [
+		{
+			"chance": 0.4,
+				"output": {
+					"item": "irons_spellbooks:arcane_essence"
+				},
+				"minAmount": 1,
+				"maxAmount": 3
+		}
+	]
+}
