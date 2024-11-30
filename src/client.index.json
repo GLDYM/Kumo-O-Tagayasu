@@ -499,6 +499,51 @@
         "https://cdn.modrinth.com/data/kepjj2sy/versions/xHqlmlcm/ShoulderSurfing-Forge-1.20.1-4.6.0.jar"
       ],
       "fileSize": 245311
+    },
+    {
+      "path": "mods/2WorldEditCUI-1.20+01.jar",
+      "hashes": {
+        "sha512": "72d5eb0bdb2fdb21b5a19a65208fc07f8e92c32976b614e5b293677e0801fdc42a01d10e82345f63fec5a89f21b016c077dd98ef94d7c56c7a83a9114cdf3630",
+        "sha1": "5f0676a7369999e7414e7b2ab4f90da1f51471d4"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/lOELapP1/versions/SRJCpmta/WorldEditCUI-1.20%2B01.jar"
+      ],
+      "fileSize": 168681
+    },
+    {
+      "path": "mods/2draggable_lists-mc1.20-1.0.1-rev.824b2f3.jar",
+      "hashes": {
+        "sha512": "2cefd98cf58aef72db7d15465c0313d057542d7ee0490a69d94b8d13f7b1b08b46dc84dca043d648568518b1d905d5ca750920025e90768d680a8293d984f42b",
+        "sha1": "90644052d1a3c87b220954bb69e0e1b82d607340"
+      },
+      "env": {
+        "server": "unsupported",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/aLcHfalx/versions/heA62vSK/draggable_lists-mc1.20-1.0.1-rev.824b2f3.jar"
+      ],
+      "fileSize": 93320
+    },
+    {
+      "path": "mods/2ChatShot-1.20-1.20.4-forge-1.0.4.jar",
+      "hashes": {
+        "sha1": "2b9aa6b5d5f465fae544c994d12a87fb707a462b",
+        "sha512": "847f41b58c9692cec2d68a3c78347be6fbc1350a00a413a9f69d4691d6eaf26b9f40eed5e740bf0177bfd94104116940575ab205a425d6ac2cc5280d42ec5c63"
+      },
+      "env": {
+        "server": "unsupported",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/X2Zy7Oi6/versions/DrgZTqT1/ChatShot%20%281.20-1.20.4-forge%29-1.0.4.jar"
+      ],
+      "fileSize": 66368
     }
   ],
   "dependencies": {

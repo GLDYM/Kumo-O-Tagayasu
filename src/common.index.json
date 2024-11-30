@@ -36,21 +36,6 @@
       "fileSize": 233593
     },
     {
-      "path": "mods/mystias_izakaya-forge-1.20.1-0.1.0-rc5.jar",
-      "hashes": {
-        "sha1": "6483cfb249eed85a89e759cba7ca44b4e5d3a57d",
-        "sha512": "f4e8a9fc4aee382cb9fede8ad0e791bd36bfe02021a8548757e81259168119ffcdac023be9c49573d597a31de53e1c1b58d504f76c96fe9317e88536d9b721f5"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/q8UNeaaW/versions/F0Fn9TPH/mystias_izakaya-forge-1.20.1-0.1.0-rc5.jar"
-      ],
-      "fileSize": 1510988
-    },
-    {
       "path": "mods/corn_delight-1.1.6-1.20.1.jar",
       "hashes": {
         "sha1": "19ffc320e25611867aef319f948d9d79e6fb9e34",
@@ -81,19 +66,19 @@
       "fileSize": 1251692
     },
     {
-      "path": "mods/ScorchedGuns-0.3.7-1.20.1.jar",
+      "path": "mods/ScorchedGuns-0.3.9-1.20.1.jar",
       "hashes": {
-        "sha1": "935c6ae166d1e57dc8034a5ff2772a06d94bf473",
-        "sha512": "4f7aed809a2b9ab4a3115735a623f30421042fd9beff171fe3c2dd57a4f49eb02f31f93af629c12cd8ef08c4b9d507f0b078ccef42c6d7aac859f8a8e42213b4"
+        "sha512": "645e87ab27a7ef714a94d32dacbc6df6f1ac1e2b016034f9b2be093ca8c51ef02418187e275ae2c4fd29ea0eb298a0f762e7b7fcdb24f5d913628d1d40f1f988",
+        "sha1": "6625c174e6439c87ec73620ada1acf6eee99f8c1"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/lDzXAiqs/versions/z7WRdSWm/ScorchedGuns-0.3.7-1.20.1.jar"
+        "https://cdn.modrinth.com/data/lDzXAiqs/versions/6dVgXVmJ/ScorchedGuns-0.3.9-1.20.1.jar"
       ],
-      "fileSize": 11580831
+      "fileSize": 11673585
     },
     {
       "path": "mods/cuisinedelight-1.1.16.jar",
@@ -201,19 +186,19 @@
       "fileSize": 15583566
     },
     {
-      "path": "mods/supplementaries-1.20-3.1.7.jar",
+      "path": "mods/supplementaries-1.20-3.1.9.jar",
       "hashes": {
-        "sha1": "adc50f6adbf24e431b53f3e5af207d9893271fcb",
-        "sha512": "2407164973a007749b0092a75b4ac8736376e856be7261856904d762930521d1a8d19b907503af9d827676124bfaa2653106cde69796493f2cbc98b27e88cc1e"
+        "sha512": "5d6472fe741c2488036c6980a5ccaae3bd90a7a32f7229f6ed7ba2afc295385b1dd63244fe7e392cb2bc95a9cffffca112a2cc91cabf3e315ab381e274401a86",
+        "sha1": "0d6a3aa8e1a38c66105506e3a251c5faed21f69e"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/fFEIiSDQ/versions/F4hwpxKp/supplementaries-1.20-3.1.7.jar"
+        "https://cdn.modrinth.com/data/fFEIiSDQ/versions/UKTXjffk/supplementaries-1.20-3.1.9.jar"
       ],
-      "fileSize": 18049111
+      "fileSize": 18049231
     },
     {
       "path": "mods/createliquidfuel-2.1.1-1.20.1.jar",
@@ -666,19 +651,19 @@
       "fileSize": 30315
     },
     {
-      "path": "mods/l2complements-2.4.41.jar",
+      "path": "mods/l2complements-2.4.42.jar",
       "hashes": {
-        "sha1": "2021aee24f2d343ad133eeaf9708da3f13323883",
-        "sha512": "6c20d2b73ef3aa39849d79037cad3a4e127b5f1d0696806019ab04a21731bbc2d731deb349bc8eda14e3093ea0564fe8c532db38021da1740fdcae713a71525c"
+        "sha1": "e43736f89abfd9fcf2ca1e93dd9f6fce6f877f44",
+        "sha512": "b310e15e5a0ba2daf836f5e3c5975975a0f24e7fd12a8a73f8648b91abff4fa2f619921e37e4740d9a1b941cdaf9bac423156607173d62c394948da61cfbdef3"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/oPrh2Lz3/versions/rTkpDmf3/l2complements-2.4.41.jar"
+        "https://cdn.modrinth.com/data/oPrh2Lz3/versions/TdOKG11s/l2complements-2.4.42.jar"
       ],
-      "fileSize": 1122774
+      "fileSize": 1123358
     },
     {
       "path": "mods/3supermartijn642configlib-1.1.8-forge-mc1.20.jar",
@@ -816,19 +801,19 @@
       "fileSize": 215439
     },
     {
-      "path": "mods/open-parties-and-claims-forge-1.20.1-0.23.2.jar",
+      "path": "mods/open-parties-and-claims-forge-1.20.1-0.23.4.jar",
       "hashes": {
-        "sha512": "e16569224fea20b096ac74008146d3c187855ec8cd874721d62b822338d6f07ea4daf6096c550db97cf9cde9af09d764ac916cf5ee7f1b9a06ce921c7546d405",
-        "sha1": "17f769e0779e302882c3143a3d0e0fed7737f1a2"
+        "sha1": "5e4104efef240c543caae6bfda966de9d471186f",
+        "sha512": "c22539cbfef737999fe6d6885c7f20d1eca2d1635abb9ee832b8d999231ea2a28321327788723b683dcac10afaba42746d7471d865c2e5132d4289e4941c120a"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/gF3BGWvG/versions/zRwr7vKD/open-parties-and-claims-forge-1.20.1-0.23.2.jar"
+        "https://cdn.modrinth.com/data/gF3BGWvG/versions/IEqxXSzD/open-parties-and-claims-forge-1.20.1-0.23.4.jar"
       ],
-      "fileSize": 1244599
+      "fileSize": 1246226
     },
     {
       "path": "mods/RegionsUnexploredForge-0.5.6+1.20.1.jar",
@@ -2284,6 +2269,81 @@
         "https://cdn.modrinth.com/data/vvuO3ImH/versions/QBtodtmR/curios-forge-5.11.0%2B1.20.1.jar"
       ],
       "fileSize": 389988
+    },
+    {
+      "path": "mods/create_connected-0.9.2-mc1.20.1-all.jar",
+      "hashes": {
+        "sha512": "08d3178a1f5069bb16fdc8697890239fca4ca195837ebccab423833c91346257ac81721342650a2d8eb0d077681061e61fd6e2d10ee9d8af16945355ff5c6093",
+        "sha1": "2f5686024e792a7468e6e82885bb99f3f2fe4e18"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Vg5TIO6d/versions/Oiv4wt0G/create_connected-0.9.2-mc1.20.1-all.jar"
+      ],
+      "fileSize": 6230700
+    },
+    {
+      "path": "mods/caupona-1.20.1-0.4.9.jar",
+      "hashes": {
+        "sha512": "c358afe45ef5c5069c49389986939d278586a02d924c36b3fda8132015963c5dc1cdbae16e8623180fb06be5a140fb3ebadb5a2ebe9284ce1a316deeae2274e6",
+        "sha1": "4daf72883ba186104c39a7d69194305ee4d4bc4f"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/EFoYZIZL/versions/wAYHNkKT/caupona-1.20.1-0.4.9.jar"
+      ],
+      "fileSize": 2368160
+    },
+    {
+      "path": "mods/l2weaponry-2.4.36.jar",
+      "hashes": {
+        "sha1": "85d3af3b828f9aedb13f3cb24cb2b45eb5fa86f0",
+        "sha512": "841de3354e4e62b6751626519478b94cc6cb146cb7ee8dbbc5cca641898b185d2ec2efcd6a1807eace2a5326edb446686316b58c7fee8d51a718b8e462f820e4"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/7q7kOZix/versions/BTTYxVt1/l2weaponry-2.4.36.jar"
+      ],
+      "fileSize": 2266888
+    },
+    {
+      "path": "mods/CraftTweaker-forge-1.20.1-14.0.44.jar",
+      "hashes": {
+        "sha512": "d51605a277002e3d70b7e90b4c8008add2417fbeb223814487e7b2c508c0fd7c6fc1086ea0102a09357d7ba0b20abfc19f1f64862355713aec2a066126425f2b",
+        "sha1": "f70a2ecd50818410cd43f587ebc2f3ac35514367"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Xg35A4rS/versions/FJfRhAjP/CraftTweaker-forge-1.20.1-14.0.44.jar"
+      ],
+      "fileSize": 3261036
+    },
+    {
+      "path": "mods/explosiveenhancement-1.0.0.jar",
+      "hashes": {
+        "sha512": "b7ff3a87d9348d3ce7766264bc63387685515bf05cc723ba73afaeebf84be11138902146d6321ccbb28e2c7a8496bf5b5059b1076d63877eb013086ab52eb893",
+        "sha1": "c20af007ad290e36896eef632e537bf99bf909c9"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/r0camchr/versions/7rq1rEoz/explosiveenhancement-1.0.0.jar"
+      ],
+      "fileSize": 82373
     }
   ],
   "dependencies": {

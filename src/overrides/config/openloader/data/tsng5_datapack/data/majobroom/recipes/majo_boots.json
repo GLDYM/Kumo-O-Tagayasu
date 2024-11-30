@@ -2,12 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "   ",
-    "p p",
+    "m m",
     "p p"
   ],
   "key": {
     "p": {
-      "item": "l2complements:sculkium_block"
+      "item": "l2complements:poseidite_block"
+    },
+    "m": {
+      "item": "l2complements:eternium_block"
     }
   },
   "result": {

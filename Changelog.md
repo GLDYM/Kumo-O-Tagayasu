@@ -2,6 +2,17 @@
 
 # Changelog
 
+## TSNG 5.2.3
+
+- Common Mods Add:
+  - mystias izakaya（Seems not complete）
+- Client Mods Add:
+  - World Edit CUI
+- Optional Resource packs Update: 
+  - Mandala's GUI - Dark Mode TSNG Compat
+    - SCGun
+- Recipes Change
+
 ## TSNG 5.2.2
 
 - Common Mods Add:
@@ -10,7 +21,12 @@
   - Steam (Incompatable with kuayue)
 - Recipes Change: 
   - Dirt
-- Resource packs Add:
+
+> In Vanilla, a long-winded process is used to get dirt: stone -> moss block -> rooted dirt -> dirt path -> dirt. This process is too difficult for those who did not have experience of Technique Survival. 
+>
+> Because nothing is input in this way (In the process moss block is changed to rooted dirt you also get oak logs, which could craft stone shovel), so we set the recipe of dirt as 4 moss block.
+
+-  Resource packs Add:
   - Balanced Flight: add zh_cn.json
 - Change File Structure
 
@@ -41,7 +57,6 @@
 - Mods Update
   - Chinese Translate and tags may break during this update, need more test
   - majobroom now complete, became the final armor
-
 - Optional Resource packs Update: 
   - Mandala's GUI - Dark Mode TSNG Compat
     - Caupona (Some GUIs keep as original textures because unique colors)
@@ -63,7 +78,6 @@
 ## TSNG 5.2.0
 
 - Common Mods Add:
-
   - Creative Core
   - Water Frames
   - FTB Quest
@@ -73,29 +87,18 @@
   - Item Filters
   - Poly Lib
   - Icterine
-
 - Client Mods Add:
-
   - Water Media
-
 - Common Mods Remove:
-
   - Iron Chest (duplicated with Expanded Storage)
-
 - Common Mods Update:
-
   - [Majobroom](https://github.com/MinecraftDevCompilation/majobroom_forge)
-
 - Optional Resource packs Update: 
-
   - Mandala's GUI - Dark Mode TSNG Compat
     - Crock Pot
     - Touhou little maid
     - Irons Spellbooks
-
 - Scripts Fix
-
-  
 
 ## TSNG 5.1.8
 
@@ -114,9 +117,9 @@
     - The armor and toughness of Majo's Hat and Cloth have been imporved significantly
     - Majo's Hat: 3 A 0 T -> 6 A 10 T
     - Majo's Cloth: 5 A 0 T -> 10 A 10 T
-  
-  
+
   > Accounting the experience of TSNG 4, Majo's broom is a efficient way of long-term travelling even in the last phase game; but the Majo's Hat and Cloth are so weak that we had to change the armors frequently to gain a full speed, thus this version the armor and toughness have been improved significantly to suit the last phase game.
+
 - Client Mods Add:
   - Smart Pot
   - Iceberg
@@ -127,7 +130,6 @@
   - Biome Makeover (has been achieved by author, meaning no more support)
 - Common Mods Update:
   - Cuisine Delight
-
 - Recipes Change: 
   - Diamond: 69 charcoal
   - Netherite Ingot: Iron Ingot + Udumbara Flower + Avaj
@@ -243,8 +245,3 @@
   - Mandala's GUI Modded Dakmode
 - Fix: 
   - Openloader resourcepack does not include
-
-### Waiting for update
-
-- The Config of Full Grown Crop Marker still wait for update
-- ~~Whether More columns of Curios need to be tested~~ No more needed 
