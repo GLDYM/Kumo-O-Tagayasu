@@ -5,13 +5,18 @@
 ## TSNG 5.2.3
 
 - Common Mods Add:
+  - explosive enhancement
+- Common Mods Remove:
   - mystias izakaya（Seems not complete）
 - Client Mods Add:
   - World Edit CUI
+  - draggable lists
+  - Chat Shot
 - Optional Resource packs Update: 
   - Mandala's GUI - Dark Mode TSNG Compat
     - SCGun
 - Recipes Change
+- Scripts Bug Fix
 
 ## TSNG 5.2.2
 
