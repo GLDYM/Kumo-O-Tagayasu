@@ -15,6 +15,7 @@
 - Optional Resource packs Update: 
   - Mandala's GUI - Dark Mode TSNG Compat
     - SCGun
+    - Touhou little maid
 - Recipes Change
 - Scripts Bug Fix
 

@@ -2,6 +2,7 @@
 <item:minecraft:raw_iron>.addTooltip("§e冶炼铁矿需要高炉！");
 <item:minecraft:golden_shovel>.addTooltip("§e此工具已绑定创世神模组的传送功能，若要使用需开启作弊模式或者在多人游戏中有相应权限。");
 <item:minecraft:golden_axe>.addTooltip("§e此工具已绑定创世神模组的世界编辑功能，若要使用需开启作弊模式或者在多人游戏中有相应权限。");
+<item:minecraft:golden_sword>.addTooltip("§e此工具已绑定投影模组工具。");
 <item:chimes:bamboo_chimes>.addTooltip("§e站在风铃附近，风铃能为你驱散接近的幻翼！");
 <item:chimes:iron_chimes>.addTooltip("§e站在风铃附近，风铃能为你驱散接近的幻翼！");
 <item:chimes:carved_bamboo_chimes>.addTooltip("§e站在风铃附近，风铃能为你驱散接近的幻翼！");
