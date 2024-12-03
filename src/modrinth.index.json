@@ -2317,6 +2317,21 @@
       "fileSize": 2266888
     },
     {
+      "path": "mods/pattern_schematics-1.1.15+forge-1.20.1.jar",
+      "hashes": {
+        "sha1": "dd725654a3515098fd4763e605f5d96f227c04e1",
+        "sha512": "c0646e62c1a4aadf8fd73ed7ab10a6ab0d1c03d412638981236018c759c3e78b2950887f6b6719d3bb04912efe62e93c07107254656ed5a3199a481705b5a8ab"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/cpqKG67r/versions/R0eFoZF4/pattern_schematics-1.1.15%2Bforge-1.20.1.jar"
+      ],
+      "fileSize": 214226
+    },
+    {
       "path": "mods/CraftTweaker-forge-1.20.1-14.0.44.jar",
       "hashes": {
         "sha512": "d51605a277002e3d70b7e90b4c8008add2417fbeb223814487e7b2c508c0fd7c6fc1086ea0102a09357d7ba0b20abfc19f1f64862355713aec2a066126425f2b",
@@ -2870,6 +2885,21 @@
         "https://cdn.modrinth.com/data/aLcHfalx/versions/heA62vSK/draggable_lists-mc1.20-1.0.1-rev.824b2f3.jar"
       ],
       "fileSize": 93320
+    },
+    {
+      "path": "mods/2cycletitlescreensplash-1.20.1-1.3.jar",
+      "hashes": {
+        "sha512": "ae24ac9bc82753c6042998dccb01e9dcc5e2fc709b2259a24540a932648d910a77f1bd1ad403dfc0094698d93e2bf185bba66e697ace7790c0bee5fea3a54cd0",
+        "sha1": "d0766dc8f91e4c5519efaa1241eb27db13644e74"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/ubb2Lt4u/versions/8VzChrQC/cycletitlescreensplash-1.20.1-1.3.jar"
+      ],
+      "fileSize": 26527
     },
     {
       "path": "mods/2ChatShot-1.20-1.20.4-forge-1.0.4.jar",

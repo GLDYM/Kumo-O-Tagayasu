@@ -2331,6 +2331,21 @@
       "fileSize": 3261036
     },
     {
+      "path": "mods/pattern_schematics-1.1.15+forge-1.20.1.jar",
+      "hashes": {
+        "sha1": "dd725654a3515098fd4763e605f5d96f227c04e1",
+        "sha512": "c0646e62c1a4aadf8fd73ed7ab10a6ab0d1c03d412638981236018c759c3e78b2950887f6b6719d3bb04912efe62e93c07107254656ed5a3199a481705b5a8ab"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/cpqKG67r/versions/R0eFoZF4/pattern_schematics-1.1.15%2Bforge-1.20.1.jar"
+      ],
+      "fileSize": 214226
+    },
+    {
       "path": "mods/explosiveenhancement-1.0.0.jar",
       "hashes": {
         "sha512": "b7ff3a87d9348d3ce7766264bc63387685515bf05cc723ba73afaeebf84be11138902146d6321ccbb28e2c7a8496bf5b5059b1076d63877eb013086ab52eb893",

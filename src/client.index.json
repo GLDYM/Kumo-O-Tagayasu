@@ -531,6 +531,21 @@
       "fileSize": 93320
     },
     {
+      "path": "mods/2cycletitlescreensplash-1.20.1-1.3.jar",
+      "hashes": {
+        "sha512": "ae24ac9bc82753c6042998dccb01e9dcc5e2fc709b2259a24540a932648d910a77f1bd1ad403dfc0094698d93e2bf185bba66e697ace7790c0bee5fea3a54cd0",
+        "sha1": "d0766dc8f91e4c5519efaa1241eb27db13644e74"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/ubb2Lt4u/versions/8VzChrQC/cycletitlescreensplash-1.20.1-1.3.jar"
+      ],
+      "fileSize": 26527
+    },
+    {
       "path": "mods/2ChatShot-1.20-1.20.4-forge-1.0.4.jar",
       "hashes": {
         "sha1": "2b9aa6b5d5f465fae544c994d12a87fb707a462b",

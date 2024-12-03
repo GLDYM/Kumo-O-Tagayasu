@@ -656,7 +656,7 @@
 	[Spells."irons_spellbooks:fortify"]
 		Enabled = true
 		School = "irons_spellbooks:holy"
-		MaxLevel = 3
+		MaxLevel = 10
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 2.0

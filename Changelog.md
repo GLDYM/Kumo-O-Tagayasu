@@ -6,12 +6,14 @@
 
 - Common Mods Add:
   - explosive enhancement
+  - Create: Pattern Schematics
 - Common Mods Remove:
   - mystias izakaya（Seems not complete）
 - Client Mods Add:
   - World Edit CUI
   - draggable lists
   - Chat Shot
+  - Cycle Title Screen Splash
 - Optional Resource packs Update: 
   - Mandala's GUI - Dark Mode TSNG Compat
     - SCGun
