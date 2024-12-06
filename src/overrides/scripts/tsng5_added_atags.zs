@@ -364,22 +364,44 @@
 <tag:items:caupona:meats>.add(<item:youkaishomecoming:cooked_flesh>);
 # VEGETABLES
 
-
 <tag:items:forge:crops>.add(<item:farm_and_charm:tomato>);
 <tag:items:forge:vegetables>.add(<item:farm_and_charm:tomato>);
 <tag:items:forge:crops/tomato>.add(<item:farm_and_charm:tomato>);
 <tag:items:forge:vegetables/tomato>.add(<item:farm_and_charm:tomato>);
 
+<tag:items:forge:crops>.add(<item:farm_and_charm:oat>);
+<tag:items:forge:crops/oat>.add(<item:farm_and_charm:oat>);
+<tag:items:forge:grain>.add(<item:farm_and_charm:oat>);
+<tag:items:forge:grain/oat>.add(<item:farm_and_charm:oat>);
+
+<tag:items:forge:crops>.add(<item:farm_and_charm:lettuce>);
+<tag:items:forge:vegetables>.add(<item:farm_and_charm:lettuce>);
+<tag:items:forge:crops/cabbage>.add(<item:farm_and_charm:lettuce>);
+<tag:items:forge:vegetables/cabbage>.add(<item:farm_and_charm:lettuce>);
+
+<tag:items:forge:crops>.add(<item:farm_and_charm:corn>);
+<tag:items:forge:crops/corn>.add(<item:farm_and_charm:corn>);
+<tag:items:forge:grain>.add(<item:farm_and_charm:corn>);
+<tag:items:forge:grain/corn>.add(<item:farm_and_charm:corn>);
+
+<tag:items:forge:crops>.add(<item:farm_and_charm:barley>);
+<tag:items:forge:crops/barley>.add(<item:farm_and_charm:barley>);
+<tag:items:forge:grain>.add(<item:farm_and_charm:barley>);
+<tag:items:forge:grain/barley>.add(<item:farm_and_charm:barley>);
+
+<tag:items:forge:crops>.add(<item:farm_and_charm:onion>);
+<tag:items:forge:crops/onion>.add(<item:farm_and_charm:onion>);
+<tag:items:forge:vegetables>.add(<item:farm_and_charm:onion>);
+<tag:items:forge:vegetables/onion>.add(<item:farm_and_charm:onion>);
+
 <tag:items:forge:crops>.add(<item:delightful:cactus_flesh>);
 <tag:items:forge:vegetables>.add(<item:delightful:cactus_flesh>);
-<tag:items:forge:crops>.add(<item:delightful:cactus_steak>);
-<tag:items:forge:vegetables>.add(<item:delightful:cactus_steak>);
 
-<tag:items:farm_and_charm:crops/tomato>.add(<item:farmersdelight:tomato>);
-<tag:items:c:crops/tomato>.add(<item:farmersdelight:tomato>);
+<tag:items:farm_and_charm:tomato>.add(<item:farmersdelight:tomato>);
+<tag:items:c:tomato>.add(<item:farmersdelight:tomato>);
 
-<tag:items:c:crops/cabbage>.add(<item:farmersdelight:cabbage>);
-<tag:items:farm_and_charm:crops/cabbage>.add(<item:farmersdelight:cabbage>);
+<tag:items:c:cabbage>.add(<item:farmersdelight:cabbage>);
+<tag:items:farm_and_charm:cabbage>.add(<item:farmersdelight:cabbage>);
 
 <tag:items:forge:chilipepper>.add(<item:crockpot:pepper>);
 
@@ -448,10 +470,6 @@
 <tag:items:farm_and_charm:wheat>.add(<item:regions_unexplored:barley>);
 <tag:items:meadow:wheat>.add(<item:regions_unexplored:barley>);
 <tag:items:caupona:cereals>.add(<item:regions_unexplored:barley>);
-
-<tag:items:forge:crops/oat>.add(<item:farm_and_charm:oat>);
-<tag:items:forge:grain/oat>.add(<item:farm_and_charm:oat>);
-<tag:items:farm_and_charm:oat>.add(<item:farm_and_charm:oat>);
 
 <tag:items:pizzacraft:ingredients>.add(<item:corn_delight:corn>);
 <tag:items:pizzacraft:ingredients/vegetables/corn_layer>.add(<item:corn_delight:corn>);
@@ -663,3 +681,21 @@
 <tag:items:forge:tools>.add(<tag:items:l2weaponry:dagger>);
 <tag:items:farmersdelight:tools/knives>.add(<tag:items:l2weaponry:dagger>);
 <tag:items:farmersdelight:straw_harvesters>.add(<tag:items:l2weaponry:dagger>);
+
+# SOYSAUCE
+<tag:items:forge:soysauce>.add(<item:youkaishomecoming:soy_sauce_bottle>);
+<tag:items:forge:soysauce/soysauce>.add(<item:youkaishomecoming:soy_sauce_bottle>);
+
+#LOGS
+<tag:items:regions_unexplored:magnolia_logs>.add(<item:regions_unexplored:magnolia_log>);
+<tag:items:regions_unexplored:magnolia_logs>.add(<item:regions_unexplored:magnolia_wood>);
+<tag:items:regions_unexplored:magnolia_logs>.add(<item:regions_unexplored:stripped_magnolia_log>);
+<tag:items:regions_unexplored:magnolia_logs>.add(<item:regions_unexplored:stripped_magnolia_wood>);
+<tag:items:vinery:dark_cherry_logs>.add(<item:vinery:dark_cherry_log>);
+<tag:items:vinery:dark_cherry_logs>.add(<item:vinery:dark_cherry_wood>);
+<tag:items:vinery:dark_cherry_logs>.add(<item:vinery:stripped_dark_cherry_log>);
+<tag:items:vinery:dark_cherry_logs>.add(<item:vinery:stripped_dark_cherry_wood>);
+<tag:blocks:vinery:dark_cherry_logs>.add(<block:vinery:dark_cherry_log>);
+<tag:blocks:vinery:dark_cherry_logs>.add(<block:vinery:dark_cherry_wood>);
+<tag:blocks:vinery:dark_cherry_logs>.add(<block:vinery:stripped_dark_cherry_log>);
+<tag:blocks:vinery:dark_cherry_logs>.add(<block:vinery:stripped_dark_cherry_wood>);

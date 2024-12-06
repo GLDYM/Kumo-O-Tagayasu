@@ -16,7 +16,7 @@
       "item": "minecraft:carrot"
     },
     {
-      "item": "farmersdelight:tomato"
+      "tag": "forge:crops/tomato"
     },
     {
       "item": "farmersdelight:minced_beef"

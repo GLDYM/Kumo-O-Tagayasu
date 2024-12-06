@@ -1462,21 +1462,6 @@
       "fileSize": 691600
     },
     {
-      "path": "mods/tofucreate-1.20.1-0.2.1.jar",
-      "hashes": {
-        "sha512": "d09c65246ed8211a1aee96177263322793bc483615868f2da1802295a97c435cd403944a010934ce575a9947796f9a519b77a93ce43db780c26e5ec60cf48dd0",
-        "sha1": "8598ef7b5f548df67bd810f61b78d8aa84bc3dbd"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/SNoLi0im/versions/TlAhacGf/tofucreate-1.20.1-0.2.1.jar"
-      ],
-      "fileSize": 101781
-    },
-    {
       "path": "mods/nbtedit-forge-5.2.7.jar",
       "hashes": {
         "sha512": "46a0ed46b7866288ea9181b88853de5810e20d176435f2db7a0bd96d1ae26bffdbb5ab5dde63a9077ed7ba6b39904e81f4f877d56de5fc1925b6eff1f8d042d7",
@@ -2345,6 +2330,36 @@
         "https://cdn.modrinth.com/data/Xg35A4rS/versions/FJfRhAjP/CraftTweaker-forge-1.20.1-14.0.44.jar"
       ],
       "fileSize": 3261036
+    },
+    {
+      "path": "mods/Steam_Rails-1.6.7+forge-mc1.20.1.jar",
+      "hashes": {
+        "sha1": "7449e9cbaae6a23a31127a3cf0886899c28639dc",
+        "sha512": "1cd28a5c4c0544f6164ff9f95fc408b5149f968c7531d98dde02df75e5e59ef616b861c8a2232eaa2216cc4c34ca50957e7d134466ad2b6f8e1ed3f8cf426808"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/ZzjhlDgM/versions/pklcGSDf/Steam_Rails-1.6.7%2Bforge-mc1.20.1.jar"
+      ],
+      "fileSize": 9997801
+    },
+    {
+      "path": "mods/gamediscs-0.3.1.jar",
+      "hashes": {
+        "sha512": "a7ca153cef0820868b00f6da5469f07dc0d75eae9d02890fb2ecd3ab307b50479a2a5544a62ac82b5ecb1d64b1660f45830e4f0dc4c23a47279babe38b442168",
+        "sha1": "b4bcb7220f818ec8718108336ed8cbefcacb948b"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/AgqoIu86/versions/R9IGpOAr/gamediscs-0.3.1.jar"
+      ],
+      "fileSize": 259432
     },
     {
       "path": "mods/explosiveenhancement-1.0.0.jar",

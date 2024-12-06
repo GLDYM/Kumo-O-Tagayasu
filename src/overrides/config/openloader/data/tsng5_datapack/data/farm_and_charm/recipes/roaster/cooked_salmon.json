@@ -1,0 +1,24 @@
+{
+  "type": "farm_and_charm:roaster",
+  "ingredients": [
+    {
+      "tag": "forge:crops/corn"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "item": "minecraft:salmon"
+    },
+    {
+      "tag": "forge:crops/onion"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "farm_and_charm:cooked_salmon",
+    "count": 1
+  }
+}

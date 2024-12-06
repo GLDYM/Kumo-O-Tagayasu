@@ -1,0 +1,21 @@
+{
+  "type": "farm_and_charm:roaster",
+  "ingredients": [
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "item": "farm_and_charm:lamb_ham"
+    },
+    {
+      "tag": "candlelight:red_effect"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "candlelight:roasted_lamb_with_lettuce",
+    "count": 2
+  }
+}

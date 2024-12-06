@@ -1,0 +1,25 @@
+{
+  "conditions" : [
+    {
+      "type" : "forge:mod_loaded",
+      "modid" : "create"
+    }
+  ],
+  "type" : "create:mixing",
+  "ingredients" : [
+    {
+      "item" : "youkaishomecoming:black_tea_leaves",
+      "count": 1
+    },
+    {
+      "fluid" : "tofucraft:soymilk",
+      "amount" : 250
+    }
+  ],
+  "results" : [
+    {
+      "fluid" : "tofucreate:soymilk_tea",
+      "amount" : 250
+    }
+  ]
+}

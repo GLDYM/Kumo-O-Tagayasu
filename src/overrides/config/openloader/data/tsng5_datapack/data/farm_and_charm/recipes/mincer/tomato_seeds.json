@@ -1,0 +1,11 @@
+{
+  "type": "farm_and_charm:mincer",
+  "ingredient": {
+    "tag": "forge:crops/tomato"
+  },
+  "recipe_type": "MEAT",
+  "result": {
+    "item": "farm_and_charm:tomato_seeds",
+    "count": 4
+  }
+}

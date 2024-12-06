@@ -1,0 +1,24 @@
+{
+  "type": "farm_and_charm:pot_cooking",
+  "ingredients": [
+    {
+      "tag": "forge:crops/barley"
+    },
+    {
+      "tag": "forge:crops/barley"
+    },
+    {
+      "tag": "farm_and_charm:water_bottles"
+    },
+    {
+      "tag": "bakery:eggs"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "farm_and_charm:barley_soup",
+    "count": 1
+  }
+}

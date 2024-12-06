@@ -1,0 +1,27 @@
+{
+  "type": "farm_and_charm:roaster",
+  "ingredients": [
+    {
+      "item": "farm_and_charm:bacon"
+    },
+    {
+      "item": "farm_and_charm:bacon"
+    },
+    {
+      "tag": "bakery:eggs"
+    },
+    {
+      "tag": "bakery:eggs"
+    },
+    {
+      "tag": "forge:crops/onion"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "farm_and_charm:bacon_with_eggs",
+    "count": 3
+  }
+}

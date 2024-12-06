@@ -1,0 +1,30 @@
+{
+  "type": "farm_and_charm:roaster",
+  "ingredients": [
+    {
+      "tag": "forge:crops/oat"
+    },
+    {
+      "tag": "forge:crops/oat"
+    },
+    {
+      "tag": "forge:crops/oat"
+    },
+    {
+      "tag": "farm_and_charm:dough"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "tag": "forge:fruits/strawberry"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "farm_and_charm:oat_pancake",
+    "count": 3
+  }
+}

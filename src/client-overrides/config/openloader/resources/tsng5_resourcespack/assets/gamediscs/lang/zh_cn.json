@@ -1,0 +1,51 @@
+{
+  "creativetab.game_discs_tab":"游戏光碟",
+
+
+  "gamediscs.flappy_bird": "笨bee先飞",
+  "gamediscs.slime": "史莱蛇",
+  "gamediscs.blocktris": "俄罗斯方块",
+  "gamediscs.tnt_sweeper": "扫雷",
+  "gamediscs.pong": "二维乒乓",
+  "gamediscs.froggie": "渡渡蛙",
+  "gamediscs.pong_game": "二维乒乓",
+
+
+  "item.gamediscs.gaming_console": "游戏机",
+  "item.gamediscs.redstone_circuit": "电路板",
+  "item.gamediscs.processor": "处理器",
+  "item.gamediscs.battery": "电池",
+  "item.gamediscs.display": "显示器",
+  "item.gamediscs.control_pad": "控制板",
+  "item.gamediscs.game_disc_flappy_bird": "游戏光碟 - 笨bee先飞",
+  "item.gamediscs.game_disc_slime": "游戏光碟 - 史莱蛇",
+  "item.gamediscs.game_disc_blocktris": "游戏光碟 - 俄罗斯方块",
+  "item.gamediscs.game_disc_tnt_sweeper": "游戏光碟 - 扫雷",
+  "item.gamediscs.game_disc_pong": "游戏光碟 - 二维乒乓",
+  "item.gamediscs.game_disc_froggie": "游戏光碟 - 渡渡蛙",
+
+
+  "gui.gamingconsole.title": "游戏机",
+  "gui.gamingconsole.press_any_key": "按任意键",
+  "gui.gamingconsole.select_game": "选择游戏",
+  "gui.gamingconsole.score": "得分",
+  "gui.gamingconsole.best_score": "最高分",
+  "gui.gamingconsole.new_best_score": "新的最高分",
+  "gui.gamingconsole.won": "你赢了!",
+  "gui.gamingconsole.died": "你输了!",
+  "gui.gamingconsole.hold": "Hold",
+  "gui.gamingconsole.next": "Next",
+
+
+  "sounds.gamediscs.jump": "游戏机 - 跳跃",
+  "sounds.gamediscs.click": "游戏机 - 按下按钮",
+  "sounds.gamediscs.point": "游戏机 - 点",
+  "sounds.gamediscs.new_best": "游戏机 - 最高分",
+  "sounds.gamediscs.game_over": "游戏机 - 游戏结束",
+  "sounds.gamediscs.select": "游戏机 - 选择",
+  "sounds.gamediscs.confirm": "游戏机 - 确认",
+  "sounds.gamediscs.explosion": "游戏机 - 爆炸",
+  "sounds.gamediscs.shoot": "游戏机 - 射击",
+  "sounds.gamediscs.swing": "游戏机 - 摇摆",
+  "sounds.gamediscs.switch": "游戏机 - 切换"
+}

@@ -1,0 +1,27 @@
+{
+  "type": "farm_and_charm:roaster",
+  "ingredients": [
+    {
+      "tag": "bakery:eggs"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "tag": "farm_and_charm:flour"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:fruits/strawberry"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "candlelight:omelet",
+    "count": 6
+  }
+}

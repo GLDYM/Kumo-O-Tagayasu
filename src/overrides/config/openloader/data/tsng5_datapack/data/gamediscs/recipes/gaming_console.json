@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "gaming",
+  "key": {
+    "I": {
+      "item": "tofucraft:blocktofumetal"
+    },
+    "D": {
+      "item": "gamediscs:display"
+    },
+    "P": {
+      "item": "tofucreate:tofu_precision_mechanism"
+    },
+    "R": {
+      "item": "tofucreate:tf_compact_circuit"
+    },
+    "B": {
+      "item": "tofucraft:tf_battery"
+    },
+    "C": {
+      "item": "gamediscs:control_pad"
+    }
+  },
+  "pattern": [
+    "IDI",
+    "RPR",
+    "BCB"
+  ],
+  "result": {
+    "item": "gamediscs:gaming_console"
+  }
+}

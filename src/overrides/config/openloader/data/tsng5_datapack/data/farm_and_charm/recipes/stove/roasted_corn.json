@@ -1,0 +1,17 @@
+{
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "tag": "forge:crops/corn"
+    },
+    {
+      "tag": "forge:crops/corn"
+    },
+    {
+      "tag": "forge:crops/onion"
+    }
+  ],
+  "item": "farm_and_charm:roasted_corn",
+  "count": 1,
+  "experience": 0.2
+}

@@ -1,0 +1,21 @@
+{
+  "type": "farm_and_charm:crafting_bowl",
+  "ingredients": [
+    {
+      "tag": "forge:crops/tomato"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "tag": "forge:fruits/strawberry"
+    }
+  ],
+  "result": {
+    "item": "farm_and_charm:farmer_salad",
+    "count": 2
+  }
+}

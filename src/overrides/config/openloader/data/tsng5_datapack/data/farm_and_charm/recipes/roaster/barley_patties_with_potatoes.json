@@ -1,0 +1,30 @@
+{
+  "type": "farm_and_charm:roaster",
+  "ingredients": [
+    {
+      "tag": "forge:crops/barley"
+    },
+    {
+      "tag": "forge:crops/barley"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "tag": "bakery:eggs"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "farm_and_charm:barley_patties_with_potatoes",
+    "count": 2
+  }
+}

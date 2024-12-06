@@ -7,6 +7,11 @@
 - Common Mods Add:
   - explosive enhancement
   - Create: Pattern Schematics
+  - Kuayue -> NeoKuayue
+  - Kasuga Lib
+  - Steam
+  - Tofu Create (Change to self-build version)
+  - Game Discs
 - Common Mods Remove:
   - mystias izakaya（Seems not complete）
 - Client Mods Add:
@@ -20,6 +25,17 @@
     - Touhou little maid
 - Recipes Change
 - Scripts Bug Fix
+
+### Need developing
+
+- Resource pack
+  - Vin
+  - titanium
+  
+- Quests
+  - OAPC
+  - Game Discs
+
 
 ## TSNG 5.2.2
 

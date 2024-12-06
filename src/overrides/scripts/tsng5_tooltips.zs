@@ -108,3 +108,5 @@
 <item:l2complements:diffusion_wand>.addTooltip("§c由于此物品具有潜在的造成安全问题的风险，故禁用。");
 <item:supplementaries:slingshot>.addTooltip("§c由于此物品具有潜在的造成安全问题的风险，故禁用。");
 <item:create_sa:block_picker>.addTooltip("§c由于此物品具有潜在的造成安全问题的风险，故禁用。");
+<item:quark:pickarang>.addTooltip("§c由于此物品具有潜在的造成安全问题的风险，故禁用。");
+<item:quark:flamerang>.addTooltip("§c由于此物品具有潜在的造成安全问题的风险，故禁用。");

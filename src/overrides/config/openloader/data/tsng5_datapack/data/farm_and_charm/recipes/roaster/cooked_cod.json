@@ -1,0 +1,24 @@
+{
+  "type": "farm_and_charm:roaster",
+  "ingredients": [
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "item": "minecraft:cod"
+    },
+    {
+      "tag": "forge:crops/onion"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "farm_and_charm:cooked_cod",
+    "count": 1
+  }
+}
