@@ -16,7 +16,7 @@
 </a>
 
 <a href="version">
-    <img src="https://img.shields.io/badge/version-5.1.8-8A2BE2" alt="version">
+    <img src="https://img.shields.io/badge/version-5.2.2-8A2BE2" alt="version">
 </a>
 
 </div>
@@ -38,6 +38,13 @@ Tsuri No Gatsu5 是一个注重田园体验的综合整合包，目标是给予�
 要获得服务端，将`src` 文件夹中所有文件压缩为`zip`文件后修改文件名为`TsuriNoGatsu-v5.2.2.mrpack`。下载 [forge-1.20.1-47.3.7-installer.jar](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-installer.jar) 、相应平台的 [mrpack-install](https://github.com/nothub/mrpack-install/releases/tag/v0.16.10) 与`server-installer`文件夹中相应平台的脚本，与`TsuriNoGatsu.mrpack`置于同一文件夹中，执行脚本。
 
 其余操作同原整合包，可以参考项目内的提示文件。
+
+## 修改方向
+
+- 如果一个物品可再生，那么它就一定可以使用红石/机械动力/传统科技等工具类模组量产。只是很多人不敢想罢了。
+- 如果一个物品不可再生或者难以量产，那就修改配方让它由其他可以量产的物品来得到。
+- 通过在量产的数量上进行堆砌来延长整合包生命是不可取的；更应当关注量产的思路。
+- 注重模组之间的结合，一个模组中的某个物品可以极大简化另一个模组的流程。
 
 ## 开发
 
@@ -77,9 +84,12 @@ Tsuri No Gatsu5 是一个注重田园体验的综合整合包，目标是给予�
 - 未经授权售卖本整合包与资源包。
 - 未经授权将本整合包与资源包上传至 Curseforge 或 Modrinth 等平台，以获取平台的利益。
 
-## 修改理念
+## 特别感谢
 
-- 如果一个物品可再生，那么它就一定可以使用红石/机械动力/传统科技等工具类模组量产。只是很多人不敢想罢了。
-- 如果一个物品不可再生或者难以量产，那就修改配方让它由其他可以量产的物品来得到。
-- 通过在量产的数量上进行堆砌来延长整合包生命是不可取的；更应当关注量产的思路。
-- 注重模组之间的结合，一个模组中的某个物品可以极大简化另一个模组的流程。
+- [Modrinth](https://modrinth.com/)
+- [innnky/majobroom_forge](https://github.com/innnky/majobroom_forge)
+- [Gu-ZT/Curtain](https://github.com/Gu-ZT/Curtain)
+- [KasugaLibGroup/KasugaLib](https://github.com/KasugaLibGroup/KasugaLib)
+- [KuaYueTeam/NeoKuayue](https://github.com/KuaYueTeam/NeoKuayue)
+- [Nova-Committee/Ultramarine-unofficial](https://github.com/Nova-Committee/Ultramarine-unofficial)
+- [baguchi/TofuCreate](https://github.com/baguchi/TofuCreate)
