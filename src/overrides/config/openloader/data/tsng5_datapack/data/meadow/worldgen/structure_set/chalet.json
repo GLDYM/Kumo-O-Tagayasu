@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "meadow:chalet",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 22427392,
+    "spacing": 49,
+    "separation": 22,
+    "type": "minecraft:random_spread"
+  }
+}

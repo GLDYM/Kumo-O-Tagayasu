@@ -2,7 +2,7 @@
   "type": "farm_and_charm:pot_cooking",
   "ingredients": [
     {
-      "item": "minecraft:apple"
+      "tag": "forge:fruits/apple"
     },
     {
       "item": "minecraft:sugar"

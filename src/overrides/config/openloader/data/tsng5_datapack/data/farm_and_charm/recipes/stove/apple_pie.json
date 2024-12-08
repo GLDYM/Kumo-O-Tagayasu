@@ -2,7 +2,7 @@
   "type": "farm_and_charm:stove",
   "ingredients": [
     {
-      "item": "minecraft:apple"
+      "tag": "forge:fruits/apple"
     },
     {
       "item": "bakery:sweet_dough"

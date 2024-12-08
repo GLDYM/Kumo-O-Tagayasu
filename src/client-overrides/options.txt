@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","fabric","resources/tsng5_resourcespack","file/MandalasGUI+Modded_Dakmode_v4.6.zip","file/Mandala\u0027s GUI - Dark Mode Compat 0.3.zip","file/Mandalas GUI - Dark Mode TSNG Compat 1.5.zip","mod:simply_create_model","file/LanguagePack.zip"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","fabric","resources/tsng5_resourcespack","file/MandalasGUI+Modded_Dakmode_v4.6.zip","file/Mandala\u0027s GUI - Dark Mode Compat 0.3.zip","file/Mandalas GUI - Dark Mode TSNG Compat 1.7.zip","mod:simply_create_model","file/LanguagePack.zip"]
 incompatibleResourcePacks:[]
 lastServer:127.0.0.1:52018
 lang:zh_cn
@@ -105,7 +105,7 @@ key_key.togglePerspective:key.keyboard.f5
 key_key.smoothCamera:key.keyboard.unknown
 key_key.fullscreen:key.keyboard.unknown
 key_key.spectatorOutlines:key.keyboard.unknown
-key_key.swapOffhand:key.keyboard.unknown
+key_key.swapOffhand:key.keyboard.f
 key_key.saveToolbarActivator:key.keyboard.unknown
 key_key.loadToolbarActivator:key.keyboard.unknown
 key_key.advancements:key.keyboard.unknown
@@ -125,8 +125,6 @@ key_key.curios.open.desc:key.keyboard.f4
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
-key_key.the_bumblezone.beehemoth_up:key.keyboard.space
-key_key.the_bumblezone.beehemoth_down:key.keyboard.caps.lock
 key_key.l2backpack.open:key.keyboard.b
 key_key.quit.fastQuit:key.keyboard.unknown
 key_key.quit.bossKey:key.keyboard.unknown
@@ -194,7 +192,7 @@ key_gui.xaero_toggle_tracked_players:key.keyboard.unknown
 key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown
 key_gui.xaero_minimap_settings:key.keyboard.y
 key_key.modernui.openCenter:key.keyboard.unknown
-key_key.modernui.zoom:key.keyboard.f
+key_key.modernui.zoom:key.keyboard.c
 key_cos.key.opencosarmorinventory:key.keyboard.f7
 key_key.immersive_aircraft.fallback_control_left:key.keyboard.unknown
 key_key.immersive_aircraft.fallback_control_right:key.keyboard.unknown
@@ -266,19 +264,6 @@ key_supplementaries.keybind.quiver:key.keyboard.k
 key_key.create_sa.flying:key.keyboard.space
 key_key.create_sa.increase_reach:key.keyboard.up
 key_key.create_sa.decrease_reach:key.keyboard.down
-key_key.parcool.Crawl:key.keyboard.c
-key_key.parcool.ClingToCliff:key.mouse.right
-key_key.parcool.Breakfall:key.keyboard.z
-key_key.parcool.FastRun:key.keyboard.left.control
-key_key.parcool.Dodge:key.keyboard.x
-key_key.parcool.WallSlide:key.mouse.right
-key_key.parcool.WallJump:key.keyboard.unknown
-key_key.parcool.Vault:key.keyboard.unknown
-key_key.parcool.HorizontalWallRun:key.keyboard.r
-key_key.parcool.openSetting:key.keyboard.unknown
-key_key.parcool.QuickTurn:key.keyboard.unknown
-key_key.parcool.Flipping:key.keyboard.unknown
-key_key.parcool.HangDown:key.mouse.right
 key_key.irons_spellbooks.spell_wheel:key.keyboard.g
 key_key.irons_spellbooks.spellbook_cast:key.keyboard.v
 key_key.irons_spellbooks.spell_bar_modifier:key.keyboard.right.shift
