@@ -537,7 +537,7 @@
         "sha1": "d0766dc8f91e4c5519efaa1241eb27db13644e74"
       },
       "env": {
-        "server": "required",
+        "server": "unsupported",
         "client": "required"
       },
       "downloads": [

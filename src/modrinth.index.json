@@ -815,7 +815,6 @@
       ],
       "fileSize": 1246226
     },
-    },
     {
       "path": "mods/RegionsUnexploredForge-0.5.6+1.20.1.jar",
       "hashes": {
@@ -2908,7 +2907,7 @@
         "sha1": "d0766dc8f91e4c5519efaa1241eb27db13644e74"
       },
       "env": {
-        "server": "required",
+        "server": "unsupported",
         "client": "required"
       },
       "downloads": [

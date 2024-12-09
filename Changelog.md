@@ -23,17 +23,26 @@
   - Mandala's GUI - Dark Mode TSNG Compat
     - SCGun
     - Touhou little maid
+    - Bakery
+    - Barbeques delight
+    - beach party
+    - casualness delight
+    - doapi
+    - farm_and_charm
+    - fruitsdelight
+    - meadow
+    - miners delight
+    - titanium
+    - vinery
+  - Now almost every mod GUIs in the modpack have been covered
 - Recipes Change
 - Scripts Bug Fix
 
 ### Need developing
 
-- Resource pack
-  - Vin
-  - titanium
-  
 - Quests
   - OAPC
+  - JAVD JAMD
   - Game Discs
 
 
@@ -73,7 +82,7 @@
   - Trenzalore
   - JAVD
   - JAMD
-  - Letsdo farm and charm
+  - Lets do farm and charm
 - Common Mods Remove:
   - TP Master
   - The Bumblezone (now totally useless for the last game phase at all)
