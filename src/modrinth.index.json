@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "5.2.2",
+  "versionId": "5.2.3",
   "name": "TsuriNoGatsu5",
   "summary": "Tsuri No Gatsu5 Original: https://www.mcmod.cn/modpack/626.html",
   "files": [
@@ -2914,6 +2914,51 @@
         "https://cdn.modrinth.com/data/ubb2Lt4u/versions/8VzChrQC/cycletitlescreensplash-1.20.1-1.3.jar"
       ],
       "fileSize": 26527
+    },
+    {
+      "path": "mods/2Searchables-forge-1.20.1-1.0.3.jar",
+      "hashes": {
+        "sha512": "185617d6d446f3d4ef6c7d5c6ee4e2fb731a89f7495157313b21292ec6b8e3dbcc10c0379ab49ecb2d0c64d0a78df74750d7f7336d5e6c43516a7c92f278c0a2",
+        "sha1": "5b976f6e76ec74cdef21865e31f56bcb11558db7"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/fuuu3xnx/versions/PM9yAW1G/Searchables-forge-1.20.1-1.0.3.jar"
+      ],
+      "fileSize": 77732
+    },
+    {
+      "path": "mods/2Controlling-forge-1.20.1-12.0.2.jar",
+      "hashes": {
+        "sha1": "6195a3d1464f8fb641d7e165163aea1a857ce08e",
+        "sha512": "3945bf3f6d843957f13584dfc70bede253d1e48f0dcb96f647fbcc6fcd3d1748a0dd9c6ca5c882e07a41f98eb84057934f51e43ab6023ed0a19695de2e6fe9f5"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/xv94TkTM/versions/LH6Bi6Am/Controlling-forge-1.20.1-12.0.2.jar"
+      ],
+      "fileSize": 115280
+    },
+    {
+      "path": "mods/2keymap-0.9.0-beta.1+1.20.1-forge.jar",
+      "hashes": {
+        "sha512": "611b3c54155d1b533fd2d538a199e9702a2ff1e76ffe5a74057daf970d01de938169ac9d147075abeab3c9aa239496c7145fe17fc310d5adaa173433f60b38eb",
+        "sha1": "341f9774eb64208e5fae8435b396b56e584bbcf5"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/B5uMasrz/versions/uQyJAqKe/keymap-0.9.0-beta.1%2B1.20.1-forge.jar"
+      ],
+      "fileSize": 213157
     },
     {
       "path": "mods/2ChatShot-1.20-1.20.4-forge-1.0.4.jar",
