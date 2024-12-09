@@ -34,7 +34,7 @@
 				},
 				"minAmount": 1,
 				"maxAmount": 1
-		}
+		},
 		{
 			"chance": 0.02,
 				"output": {

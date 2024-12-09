@@ -19,6 +19,9 @@
   - draggable lists
   - Chat Shot
   - Cycle Title Screen Splash
+  - Controlling
+  - Searchable
+  - KeyMap
 - Optional Resource packs Update: 
   - Mandala's GUI - Dark Mode TSNG Compat
     - SCGun
@@ -35,6 +38,8 @@
     - titanium
     - vinery
   - Now almost every mod GUIs in the modpack have been covered
+- Resource packs Add:
+  - scguns: add zh_cn.json
 - Recipes Change
 - Scripts Bug Fix
 
