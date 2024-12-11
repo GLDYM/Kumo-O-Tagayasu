@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "5.2.2",
+  "versionId": "5.2.3",
   "name": "Tsuri No Gatsu5",
   "summary": "Tsuri No Gatsu5",
   "files": [
@@ -711,7 +711,7 @@
       "fileSize": 146211
     },
     {
-      "path": "mods/spark-1.10.53-forge.jar",
+      "path": "mods/1spark-1.10.53-forge.jar",
       "hashes": {
         "sha1": "231fb325368c0660954f47bfb03493f5246fa4d1",
         "sha512": "15c6a3753dcba380624643a1e19c856240e8f6bed280f908e1be12c6154a86284ac86405c806273842975e0b7270af93ea9b1db5cf575a3853e54e1088cf7343"
@@ -1776,7 +1776,7 @@
       "fileSize": 3789660
     },
     {
-      "path": "mods/starlight-1.1.2+forge.1cda73c.jar",
+      "path": "mods/1starlight-1.1.2+forge.1cda73c.jar",
       "hashes": {
         "sha512": "cc89c6b2dd0db709586028c7732a57a3e6184f19cc2b98b25964c720c3ab434031e62de23e0dab022575d637b5e4a34b5813164d32ec356d56588da400e7d026",
         "sha1": "a915880c7834a0b0f9f300f0e3053deaa9a3205a"
@@ -2359,6 +2359,66 @@
         "https://cdn.modrinth.com/data/AgqoIu86/versions/R9IGpOAr/gamediscs-0.3.1.jar"
       ],
       "fileSize": 259432
+    },
+    {
+      "path": "mods/createrailwaysnavigator-forge-1.20.1-0.6.0.jar",
+      "hashes": {
+        "sha1": "cb9bb39e84818e887a7dda615f4b88d4207ab2f7",
+        "sha512": "5753051435a0de1443482075853a87e9a0e6e3086eedc12bce512417bb2470c46bb483bfc7a7913dd15a5e50506c825544ae0e5c0ecb03abcd6ebdc7246e49ce"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Dq3STxps/versions/8wTZoXnB/createrailwaysnavigator-forge-1.20.1-0.6.0.jar"
+      ],
+      "fileSize": 2724565
+    },
+    {
+      "path": "mods/createhalitosis-1.20.1-1.0.0.jar",
+      "hashes": {
+        "sha1": "a0026bf92e61f50382352312a8658daac99a99ad",
+        "sha512": "06fd7e89ff90b80c98639588f4aa0b188504a86ed6a6b44c97a7e32a88040a283e5a633a7b4f1a9d847efbcc9d2060ec8e9342368c6833e143c76a292802e2e7"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/MOgR2kut/versions/iy3g64aq/createhalitosis-1.20.1-1.0.0.jar"
+      ],
+      "fileSize": 159063
+    },
+    {
+      "path": "mods/structurecredits-1.6.jar",
+      "hashes": {
+        "sha1": "770ef6da0c76534081039442cb21a0f22d8d64b0",
+        "sha512": "a6edd3063d8e97b5c4344e7a8710d4428f2b94166bb271db9ddff873906abda77d66f356f08fc5e56911aa74e61470d1356b06c0d4213fa0ff260e76d65f9a80"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/9VEHG3zg/versions/nw5H0kE3/structurecredits-1.6.jar"
+      ],
+      "fileSize": 22656
+    },
+    {
+      "path": "mods/angelblockrenewed-forge-1.3-1.20.jar",
+      "hashes": {
+        "sha1": "d5f741b1403657676c63734747f0ca0302340372",
+        "sha512": "85866e0872d14a52602ceed6aaa576505ec3ad67968f9bd63991d443abd8de827780ee2005604beb46ff4e5afbefa2ae06f8582b550ec8f8d34e6b548d07cdf5"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/rq0QQVDc/versions/AMh7314Q/angelblockrenewed-forge-1.3-1.20.jar"
+      ],
+      "fileSize": 1297260
     },
     {
       "path": "mods/explosiveenhancement-1.0.0.jar",
