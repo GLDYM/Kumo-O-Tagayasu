@@ -12,6 +12,10 @@
   - Steam
   - Tofu Create (Change to self-build version)
   - Game Discs
+  - Create halitosis
+  - Create railways navigator
+  - structure credits
+  - angel blockr enewed
 - Common Mods Remove:
   - mystias izakaya（Seems not complete）
 - Client Mods Add:
@@ -42,6 +46,7 @@
   - scguns: add zh_cn.json
 - Recipes Change
 - Scripts Bug Fix
+- Remove Tofucreate pressing because of lag
 
 ### Need developing
 
