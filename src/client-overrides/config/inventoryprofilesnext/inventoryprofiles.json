@@ -13,6 +13,9 @@
         "enable_auto_refill": {
             "value": false
         },
+        "villager_trading_enable": {
+            "value": false
+        },
         "enable_updates_check": false,
         "first_run": false
     },

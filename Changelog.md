@@ -15,7 +15,7 @@
   - Create halitosis
   - Create railways navigator
   - structure credits
-  - angel blockr enewed
+  - angel block renewed
 - Common Mods Remove:
   - mystias izakaya（Seems not complete）
 - Client Mods Add:
@@ -50,10 +50,15 @@
 
 ### Need developing
 
+- Ultramarine is not playable (What the fuck?)
+  - ~~Ore Gen~~
+  - Bronze
+  - some recipes
 - Quests
-  - OAPC
-  - JAVD JAMD
-  - Game Discs
+  - Create halitosis
+  - Create railways navigator
+  - structure credits
+  - angel block renewed
 
 
 ## TSNG 5.2.2
