@@ -12,11 +12,11 @@
 </a>
 
 <a href="./LICENSE2">
-    <img src="https://img.shields.io/badge/license2-CC--BY--NC--SA--4.0-8A2BE2" alt="license">
+    <img src="https://img.shields.io/badge/license2-CC--BY--NC--SA--4.0-8A2BE2" alt="license2">
 </a>
 
-<a href="version">
-    <img src="https://img.shields.io/badge/version-5.2.3-8A2BE2" alt="version">
+<a href="./Changelog.md">
+    <img src="https://img.shields.io/badge/version-5.2.3-9999FF" alt="version">
 </a>
 
 </div>
