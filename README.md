@@ -5,7 +5,7 @@
     <img src="./icon.png" alt="icon" style="zoom:200%;">
 </a>
 
-# Tsuri No Gatsu 5
+# Tsuri No Gatsu 5 - FDCraft Fork
 
 <a href="./LICENSE">
     <img src="https://img.shields.io/github/license/FDCraft/TsuriNoGatsu5" alt="license">
@@ -23,13 +23,13 @@
 
 ## 简介
 
-继承于月见清兰的同名整合包，Tsuri No Gatsu 5 是一个注重田园体验的综合整合包，旨在给予玩家一个休闲惬意的游戏体验。
+继承于月见清兰的同名整合包，Tsuri No Gatsu 5 - FDCraft Fork 是一个注重田园体验的综合整合包，旨在给予玩家一个休闲惬意的游戏体验。
 
 原整合包地址：[https://www.mcmod.cn/modpack/626.html](https://www.mcmod.cn/modpack/626.html)
 
 ## 如何使用
 
-为了防止服务端与客户端不匹配，本项目采用 mrpack 结构格式。
+为了防止服务端与客户端不匹配，本项目的文件结构采用 Modrinth 整合包格式。
 
 要获得客户端，将`src` 文件夹中所有文件压缩为`zip`文件后修改文件名为`TsuriNoGatsu.mrpack`。
 
@@ -48,7 +48,7 @@
 
 本项目下有两个分项目：
 
-- Tsuri No Gatsu 5 整合包
+- Tsuri No Gatsu 5 - FDCraft Fork 整合包
 - Mandalas GUI - Dark Mode TSNG Compat：适配 Tsuri No Gatsu 5 整合包的 Mandalas GUI - Dark Mode 资源包拓展
 
 如果想要对本项目进行修改/PR，可以 Fork 本项目后 Clone 到本地进行修改。
@@ -71,7 +71,7 @@
 
 ## 协议
 
-本项目中 Tsuri No Gatsu 5 整合包使用 AGPL-v3 协议，Mandalas GUI - Dark Mode TSNG Compat 资源包使用 CC-BY-NC-SA 4.0 协议。如果你想要使用本项目去实现一些特殊需求，则你需要接受许可。
+本项目中 Tsuri No Gatsu 5 - FDCraft Fork 整合包使用 AGPL-v3 协议，Mandalas GUI - Dark Mode TSNG Compat 资源包使用 CC-BY-NC-SA 4.0 协议。如果你想要使用本项目去实现一些特殊需求，则你需要接受许可。
 
 以下为一些情况的具体说明：
 
