@@ -5,7 +5,7 @@
     <img src="./icon.png" alt="icon" style="zoom:200%;">
 </a>
 
-# Tsuri No Gatsu 5 - FDCraft Fork
+# Tsuri No Gatsu 5 - FDCraft Version
 
 <a href="./LICENSE">
     <img src="https://img.shields.io/github/license/FDCraft/TsuriNoGatsu5" alt="license">
@@ -23,7 +23,7 @@
 
 ## 简介
 
-继承于月见清兰的同名整合包，Tsuri No Gatsu 5 - FDCraft Fork 是一个注重田园体验的综合整合包，旨在给予玩家一个休闲惬意的游戏体验。
+继承于月见清兰的同名整合包，Tsuri No Gatsu 5 - FDCraft Version 是一个注重田园体验的综合整合包，旨在给予玩家一个休闲惬意的游戏体验。
 
 原整合包地址：[https://www.mcmod.cn/modpack/626.html](https://www.mcmod.cn/modpack/626.html)
 
@@ -64,10 +64,10 @@
 
 ## 关于任务
 
-本整合包的任务为社团内部分发，不对外公布。如果想为整合包制作任务，请 Fork 本项目制作，并注明任务是面向新手还是面向老鸟。
+本整合包的任务为社团内部分发，不对外公布。如果想为整合包制作任务，请 Fork 本项目制作，并注明任务是面向新手还是专家向。
 
 - 面向新手：模组的介绍或全流程引导。[这是](https://github.com/FDCraft/TsuriNoGatsu5/tree/master/quests-example/chapters/crockpot-beginner.snbt)一个针对烹饪锅模组的示例。
-- 面向老鸟：各类量产挑战。[这是](https://github.com/FDCraft/TsuriNoGatsu5/tree/master/quests-example/chapters/crockpot-expert.snbt)一个烹饪锅模组的示例。
+- 专家向：各类量产挑战。[这是](https://github.com/FDCraft/TsuriNoGatsu5/tree/master/quests-example/chapters/crockpot-expert.snbt)一个烹饪锅模组的示例。
 
 ## 协议
 
