@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "B": {
+      "item": "minecraft:netherite_block"
+    },
+    "E": {
+      "item": "minecraft:elytra"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "S": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    " GGGGG ",
+    "GGGNGGG",
+    "GGBSBGG",
+    "GNSESNG",
+    "GGBSBGG",
+    "GGGNGGG",
+    " GGGGG "
+  ],
+  "result": {
+    "item": "balancedflight:ascended_flight_ring"
+  }
+}

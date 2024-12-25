@@ -2,6 +2,22 @@
 
 # Changelog
 
+## TSNG 5.2.4
+
+- Common Mods Add:
+  - Maidsoul Kitchen
+- Common Mods Update:
+  - SCGUN：fix the bug of spawning
+
+### Need developing
+
+- Quests
+  - Create halitosis
+  - Create railways navigator
+  - structure credits
+  - angel block renewed
+  - MaidsoulKitchen
+
 ## TSNG 5.2.3
 
 - Common Mods Add:
@@ -47,18 +63,6 @@
 - Recipes Change
 - Scripts Bug Fix
 - Remove Tofucreate pressing because of lag
-
-### Need developing
-
-- Ultramarine is not playable (What the fuck?)
-  - ~~Ore Gen~~
-  - Bronze
-  - some recipes
-- Quests
-  - Create halitosis
-  - Create railways navigator
-  - structure credits
-  - angel block renewed
 
 
 ## TSNG 5.2.2

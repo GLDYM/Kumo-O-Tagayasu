@@ -66,19 +66,19 @@
       "fileSize": 1251692
     },
     {
-      "path": "mods/ScorchedGuns-0.3.9-1.20.1.jar",
+      "path": "mods/ScorchedGuns-0.4.0-1.20.1.jar",
       "hashes": {
-        "sha512": "645e87ab27a7ef714a94d32dacbc6df6f1ac1e2b016034f9b2be093ca8c51ef02418187e275ae2c4fd29ea0eb298a0f762e7b7fcdb24f5d913628d1d40f1f988",
-        "sha1": "6625c174e6439c87ec73620ada1acf6eee99f8c1"
+        "sha512": "e72b26037913c00a4a6dcd30d266738a7e1ceb8542b826517c40588ef8e283b95b041cf0cc28530878c8b9e84fae67fd1633f564fbb1568e7b085aab14fe4518",
+        "sha1": "6af32a0642b9b96725f47c024988fec5da2be8cf"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/lDzXAiqs/versions/6dVgXVmJ/ScorchedGuns-0.3.9-1.20.1.jar"
+        "https://cdn.modrinth.com/data/lDzXAiqs/versions/jG2WIuAE/ScorchedGuns-0.4.0-1.20.1.jar"
       ],
-      "fileSize": 11673585
+      "fileSize": 13632173
     },
     {
       "path": "mods/cuisinedelight-1.1.16.jar",
@@ -2419,6 +2419,21 @@
         "https://cdn.modrinth.com/data/rq0QQVDc/versions/AMh7314Q/angelblockrenewed-forge-1.3-1.20.jar"
       ],
       "fileSize": 1297260
+    },
+    {
+      "path": "mods/maidsoulkitchen-1.20.1-beta-v0.1.1.jar",
+      "hashes": {
+        "sha512": "a48c743a0d86e3b8352c153d3d90687a27f3408e6bd9d6d7d189ac1e335df125fe1298e01f96781a35708829600660cb9112496550f386afd69dcc3b7aa342a5",
+        "sha1": "73185e2affafa0812dadb84f7b99a1440495ef9d"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Q5ZXy0QB/versions/eglXe16R/maidsoulkitchen-1.20.1-beta-v0.1.1.jar"
+      ],
+      "fileSize": 612951
     },
     {
       "path": "mods/explosiveenhancement-1.0.0.jar",

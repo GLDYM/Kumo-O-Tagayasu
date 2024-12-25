@@ -677,6 +677,8 @@
 <tag:items:caupona:ice>.add(<item:youkaishomecoming:ice_cube>);
 
 # KNIVES
+<tag:items:farmersdelight:tools/knives>.add(<tag:items:forge:tools/knives>);
+<tag:items:farmersdelight:straw_harvesters>.add(<tag:items:forge:tools/knives>);
 <tag:items:forge:tools/knives>.add(<tag:items:l2weaponry:dagger>);
 <tag:items:forge:tools>.add(<tag:items:l2weaponry:dagger>);
 <tag:items:farmersdelight:tools/knives>.add(<tag:items:l2weaponry:dagger>);
