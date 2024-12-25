@@ -1,0 +1,271 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "crockpot"
+	group: "3B8AF43E1258A852"
+	icon: "crockpot:portable_crock_pot"
+	id: "40D58EF72F6F6640"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["打草的时候出现的神秘种子，可以种出什么东西呢？"]
+			id: "538C6EDD19720B13"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				count: 16L
+				id: "630D6A2B0EF5A671"
+				item: "crockpot:unknown_seeds"
+				type: "item"
+			}]
+			title: "&6未知种子"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["538C6EDD19720B13"]
+			description: ["你成功培育出了所有种类的种子，但是这只是美食之路的起点。"]
+			id: "2845F0FDEB1FB737"
+			rewards: [{
+				count: 8
+				id: "14206A5021F92991"
+				item: "crockpot:syrup"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5B157B236E960E49"
+					item: "crockpot:asparagus_seeds"
+					type: "item"
+				}
+				{
+					id: "42CCCB54C2E9CDC3"
+					item: "crockpot:corn_seeds"
+					type: "item"
+				}
+				{
+					id: "201C91E85E7B385D"
+					item: "crockpot:eggplant_seeds"
+					type: "item"
+				}
+				{
+					id: "605CA8794EC42505"
+					item: "crockpot:garlic_seeds"
+					type: "item"
+				}
+				{
+					id: "143EE10B5F3864E3"
+					item: "crockpot:onion_seeds"
+					type: "item"
+				}
+				{
+					id: "4C44C56CA677CDF1"
+					item: "crockpot:pepper_seeds"
+					type: "item"
+				}
+				{
+					id: "2AD15F81AE325AF6"
+					item: "crockpot:tomato_seeds"
+					type: "item"
+				}
+			]
+			title: "育种大师"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["538C6EDD19720B13"]
+			description: ["石头做的锅，十分有分量。"]
+			id: "4D1373F5D677EC7B"
+			rewards: [{
+				id: "73A1B63218DCFE8B"
+				item: {
+					Count: 1
+					id: "crockpot:milkmade_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A2F903AAD0D8CA5"
+				item: "crockpot:crock_pot"
+				type: "item"
+			}]
+			title: "烹饪锅"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D1373F5D677EC7B"]
+			description: ["铜制的烹饪锅，可以制作更多料理。"]
+			id: "3B42B527E61743CB"
+			rewards: [{
+				id: "5A7A95C3F102A914"
+				item: "crockpot:pot_upgrade_smithing_template"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A6FC9BDEF1E39DE"
+				item: "crockpot:portable_crock_pot"
+				type: "item"
+			}]
+			title: "更高级的烹饪锅"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B42B527E61743CB"]
+			description: ["奶帽是优质的饥饿值饱和值来源，但缺点是耐久太少。或许应该更进一步……"]
+			id: "0EE3BE7024B87A5E"
+			rewards: [{
+				id: "32745C8D23651EDB"
+				item: {
+					Count: 1
+					id: "crockpot:milkmade_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "037F375ECC2CE357"
+				item: {
+					Count: 1
+					id: "crockpot:milkmade_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "奶帽是用猪鼻做的"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0EE3BE7024B87A5E"]
+			description: ["咕噜咕噜咕噜咕噜……"]
+			id: "2F07ACFED8FD5BDF"
+			rewards: [
+				{
+					id: "0CA8D256C0600AF1"
+					item: "crockpot:creative_milkmade_hat"
+					type: "item"
+				}
+				{
+					id: "5373FE6052696832"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "45DBD6DEDFFC7EDC"
+				item: "crockpot:creative_milkmade_hat"
+				type: "item"
+			}]
+			title: "无限的牛奶"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2845F0FDEB1FB737"]
+			description: [
+				"吃遍烹饪锅能做出的所有美食，你就是一名美食初心者了。"
+				"&b暴食的赞赏可以使你无视饥饿值使用食物，这意味着你能将食物当做药水使用，也能更快品尝食物。"
+				"&a如果你不幸丢失了它，可以在这里领取。"
+			]
+			id: "2353347E994D0E8E"
+			rewards: [
+				{
+					id: "26D4E949B6DDD13C"
+					item: "crockpot:gnaws_coin"
+					type: "item"
+				}
+				{
+					id: "204639BAEC3A20CA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				advancement: "crockpot:gnaw_will_be_happy"
+				criterion: ""
+				id: "4F451A71E9435F3A"
+				type: "advancement"
+			}]
+			title: "美食初心者 "
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["538C6EDD19720B13"]
+			description: ["我想，你并不是想吃肉丸，而是压根不会做菜，只能做出肉丸吧。（笑"]
+			hide_dependency_lines: true
+			id: "10885F8F174002C4"
+			rewards: [{
+				id: "111DAA461AE2B34E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "crockpot:meat_balls"
+				criterion: ""
+				id: "5856E0E2C003472D"
+				type: "advancement"
+			}]
+			title: "肉丸爱好者"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["538C6EDD19720B13"]
+			description: [
+				"笼中鸟也有重见天日的一天。"
+				""
+				"&b优秀的腐肉去处。"
+			]
+			id: "77F2FF096747E31A"
+			rewards: [
+				{
+					id: "36467421B439400F"
+					item: "crockpot:parrot_egg_red_blue"
+					type: "item"
+				}
+				{
+					id: "52F4B80B7FF18A7D"
+					item: "crockpot:parrot_egg_blue"
+					type: "item"
+				}
+				{
+					id: "4CA0B4BBA74B722D"
+					item: "crockpot:parrot_egg_green"
+					type: "item"
+				}
+				{
+					id: "2E3A27D4A247BCDC"
+					item: "crockpot:parrot_egg_yellow_blue"
+					type: "item"
+				}
+				{
+					id: "51621F24BADD70FA"
+					item: "crockpot:parrot_egg_gray"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B1303EB5B011210"
+				item: "crockpot:birdcage"
+				type: "item"
+			}]
+			title: "笼中鸟"
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+	title: "&e美食初心者"
+}

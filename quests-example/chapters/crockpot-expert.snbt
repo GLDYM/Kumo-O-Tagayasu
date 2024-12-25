@@ -1,0 +1,142 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "crockpot"
+	group: "3B8AF43E1258A852"
+	icon: "crockpot:portable_crock_pot"
+	id: "40D58EF72F6F6640"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["打草的时候出现的神秘种子，可以种出什么东西呢？"]
+			id: "538C6EDD19720B13"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				count: 16L
+				id: "630D6A2B0EF5A671"
+				item: "crockpot:unknown_seeds"
+				type: "item"
+			}]
+			title: "&6未知种子"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["538C6EDD19720B13"]
+			description: [
+				"我想，你想做的不是热可可，而是另一种奇怪的液体。"
+				""
+				"&a一种可能的思路：用收割机收获可可豆后直接输入烹饪锅中，燃料使用地毯或者木炭。"
+			]
+			hide_dependency_lines: true
+			id: "089DF322FA90D090"
+			rewards: [
+				{
+					count: 5
+					id: "287A7F782551CEFC"
+					item: "crockpot:avaj"
+					type: "item"
+				}
+				{
+					id: "0A84BEA75046C842"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				count: 256L
+				id: "13BF5C76D735E363"
+				item: "crockpot:hot_cocoa"
+				type: "item"
+			}]
+			title: "&6挑战：热可可"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["538C6EDD19720B13"]
+			description: [
+				"量大管饱。"
+				""
+				"&a一种可能的思路：烤鸡机或者鸡笼。"
+			]
+			hide_dependency_lines: true
+			id: "101B30A19ACB48F0"
+			rewards: [{
+				id: "22086FDC4FE3F043"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				count: 128L
+				id: "2A8722C91ADB4694"
+				item: "crockpot:bone_stew"
+				type: "item"
+			}]
+			title: "&6挑战：炖肉汤"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["538C6EDD19720B13"]
+			description: [
+				"虽然全是菌子，但是尝起来意外不错。"
+				""
+				"&a一种可能的思路：主世界蘑菇用扩散的方式或者树场获取。下界蘑菇用刷花机获取。"
+			]
+			hide_dependency_lines: true
+			id: "1D9CF53EE2410B1B"
+			rewards: [{
+				id: "1A5860570FE2511C"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				count: 64L
+				id: "17D88A84ACDE761C"
+				item: "crockpot:mushy_cake"
+				type: "item"
+			}]
+			title: "&6挑战：蘑菇蛋糕"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["538C6EDD19720B13"]
+			description: [
+				"你才是猪鼻！"
+				""
+				"&b这个任务对于此前没有接触过生电或机械动力的玩家来说可能相当困难，前期可以跳过。"
+				""
+				"&a一种可能的思路：守卫者笼子产出海晶砂粒 ，粉碎之，获取石英与萤石粉。缠魂圆石获取黑石 ，粉碎获取黑石粉。合成尘土块，手动制作下界佳肴，机械手输入猪灵交易所获取猪鼻。"
+			]
+			hide_dependency_lines: true
+			id: "6612294ED0A39934"
+			rewards: [
+				{
+					count: 8
+					id: "3FA57642DF62799E"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "75C34A53B9F5F490"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "6D7077CC15DE9D43"
+				item: "crockpot:hoglin_nose"
+				type: "item"
+			}]
+			title: "&6挑战：裸露鼻孔"
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "&e美食初心者"
+}
