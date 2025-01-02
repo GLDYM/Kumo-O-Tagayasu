@@ -1431,21 +1431,6 @@
       "fileSize": 4664510
     },
     {
-      "path": "mods/3citadel-2.6.0-1.20.1.jar",
-      "hashes": {
-        "sha512": "8edb2264317e547230960109aaadae36ce0db9abb27748d47033c64c7f4958a970172ae382552c5e3c41a4885e95437328a6eba53226fd64c4ce0b4f0ec22b4f",
-        "sha1": "fed1e7cb25232d31aaebe86f4ebafe8d9b663387"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/jJfV67b1/versions/mL5pYWWo/citadel-2.6.0-1.20.1.jar"
-      ],
-      "fileSize": 3173174
-    },
-    {
       "path": "mods/MyNethersDelight-1.20.1-0.1.7.6.jar",
       "hashes": {
         "sha512": "4e4ec92ada1e5a8d6f465184c9beffdd50153ecac3e4197f4a77e4792c7797ea11fa4c76f1980d6f1b2203d0201f365dc54efcfc4a815d497085e27ca0b17fb9",
@@ -2436,6 +2421,21 @@
       "fileSize": 612951
     },
     {
+      "path": "mods/GlobalGameRules-1.20-8.0.0.11.jar",
+      "hashes": {
+        "sha512": "d78e1b1aab091a4cd932158627d8f3bb6738c6b30a24880e7842faae84d05df1950f4ebcb3a626ab1cd8b0ac237efe95cd7409f37b3da221650a420bddf4ad42",
+        "sha1": "e1ad2f5480453aed8059aeddd5964694116a9fc8"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/PIJSp01k/versions/Leux4ZWt/GlobalGameRules-1.20-8.0.0.11.jar"
+      ],
+      "fileSize": 18898
+    },
+    {
       "path": "mods/explosiveenhancement-1.0.0.jar",
       "hashes": {
         "sha512": "b7ff3a87d9348d3ce7766264bc63387685515bf05cc723ba73afaeebf84be11138902146d6321ccbb28e2c7a8496bf5b5059b1076d63877eb013086ab52eb893",
@@ -2629,21 +2629,6 @@
         "https://cdn.modrinth.com/data/dCKRaeBC/versions/KT2dpXzy/Forgematica-0.1.7-mc1.20.1.jar"
       ],
       "fileSize": 980081
-    },
-    {
-      "path": "mods/2GlobalGameRules-1.20-8.0.0.11.jar",
-      "hashes": {
-        "sha512": "d78e1b1aab091a4cd932158627d8f3bb6738c6b30a24880e7842faae84d05df1950f4ebcb3a626ab1cd8b0ac237efe95cd7409f37b3da221650a420bddf4ad42",
-        "sha1": "e1ad2f5480453aed8059aeddd5964694116a9fc8"
-      },
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/PIJSp01k/versions/Leux4ZWt/GlobalGameRules-1.20-8.0.0.11.jar"
-      ],
-      "fileSize": 18898
     },
     {
       "path": "mods/2Iceberg-1.20.1-forge-1.1.25.jar",

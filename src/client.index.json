@@ -186,21 +186,6 @@
       "fileSize": 980081
     },
     {
-      "path": "mods/2GlobalGameRules-1.20-8.0.0.11.jar",
-      "hashes": {
-        "sha512": "d78e1b1aab091a4cd932158627d8f3bb6738c6b30a24880e7842faae84d05df1950f4ebcb3a626ab1cd8b0ac237efe95cd7409f37b3da221650a420bddf4ad42",
-        "sha1": "e1ad2f5480453aed8059aeddd5964694116a9fc8"
-      },
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/PIJSp01k/versions/Leux4ZWt/GlobalGameRules-1.20-8.0.0.11.jar"
-      ],
-      "fileSize": 18898
-    },
-    {
       "path": "mods/2Iceberg-1.20.1-forge-1.1.25.jar",
       "hashes": {
         "sha512": "8612097a014fcd6343a092cfeddb0e9d57c5a665b9ac61603a7760d156abd048ac548db55e750b369700b0475661e554f4b92b44677edf07574d4f9ffa42558c",

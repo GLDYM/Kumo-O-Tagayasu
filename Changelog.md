@@ -8,6 +8,10 @@
   - Maidsoul Kitchen
 - Common Mods Update:
   - SCGUN：fix the bug of spawning
+  - Youkais homecoming
+- Common Mods Delete:
+  - Citadel
+
 
 ### Need developing
 
