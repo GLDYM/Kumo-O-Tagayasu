@@ -531,21 +531,6 @@
       "fileSize": 778617
     },
     {
-      "path": "mods/immersive_paintings-0.6.7+1.20.1-forge.jar",
-      "hashes": {
-        "sha1": "46910c10470c43cb1566384e9422fb76b341b84c",
-        "sha512": "45387fb427591ffb8edbea2ff9fb6f37f6715b0bfd942005857e28c77696c7793033c5f69835245095b2e1d233256f1945c991919d1777a4ec5af9ad2e4c09de"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/6txNkua3/versions/dZk1qbHj/immersive_paintings-0.6.7%2B1.20.1-forge.jar"
-      ],
-      "fileSize": 4841253
-    },
-    {
       "path": "mods/functionalstorage-1.20.1-1.2.12.jar",
       "hashes": {
         "sha512": "36437ef7d88e45fc26424173542533fef4537ecd292cdb34c0802d91e55751986301e541704fbe3c29869f85a6c427be531817ffb01e46fe293f3ca400a42eae",
@@ -786,21 +771,6 @@
       "fileSize": 23938
     },
     {
-      "path": "mods/guardvillagers-1.20.1-1.6.7.jar",
-      "hashes": {
-        "sha1": "7bfe6f938dc1d44f79110aaab474e03ed41d734d",
-        "sha512": "5bae887a7498a6c07911875467bbcd4f1bc01ad8a517995bc57b9fc637d3825fd90e3078dfa48ad80f5ebc9d3670ea713742cfc4f7aaad84d4ec18c3b0e79244"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/H1sntfo8/versions/gPD6mgz1/guardvillagers-1.20.1-1.6.7.jar"
-      ],
-      "fileSize": 215439
-    },
-    {
       "path": "mods/open-parties-and-claims-forge-1.20.1-0.23.4.jar",
       "hashes": {
         "sha1": "5e4104efef240c543caae6bfda966de9d471186f",
@@ -996,21 +966,6 @@
       "fileSize": 18579188
     },
     {
-      "path": "mods/i_wanna_travel-0.3-forge-1.20.1.jar",
-      "hashes": {
-        "sha512": "2b5b419716938bff12e759eec896e36e0c0e3221641f520a09a56a8ddbb789d106cbcd01977724efa7da420bb7d2fe95197dc6e4ba0f51d7cb361fc64b6a4563",
-        "sha1": "0a688a6b300e6643c369eff4b782d5e1c5d27780"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/kL2MnxMQ/versions/PAKhOQoL/i_wanna_travel-0.3-forge-1.20.1.jar"
-      ],
-      "fileSize": 350336
-    },
-    {
       "path": "mods/3letsdo-API-forge-1.2.15-forge.jar",
       "hashes": {
         "sha512": "36bb6b923d7f4c774372eb90e81bbdf43c6629cbb4e38d4439575175b4ac197bf218c4d64b3595ff92735ed8943269a7891cf24c8c10f4e3d55269d8d7cf5c2c",
@@ -1114,21 +1069,6 @@
         "https://cdn.modrinth.com/data/nvQzSEkH/versions/bzWVE2db/Jade-1.20.1-Forge-11.12.2.jar"
       ],
       "fileSize": 547818
-    },
-    {
-      "path": "mods/xptome-1.20.1-2.2.1.jar",
-      "hashes": {
-        "sha1": "078831ad10ea6fa5750e3c6049915beca8401a88",
-        "sha512": "2459901b5cd93ea5f8712b6a19397058bf13dcc88cf2fa2fd505007dd97dc0d3d03dd754f7320c3eab3fe99f81b4abed8dcf6fb28cf7ad09dc2b5e534b5f840b"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/AnpW69o3/versions/SYfBGaA3/xptome-1.20.1-2.2.1.jar"
-      ],
-      "fileSize": 22972
     },
     {
       "path": "mods/nametagtweaks-1.20.1-3.8.jar",
@@ -1566,21 +1506,6 @@
       "fileSize": 1002463
     },
     {
-      "path": "mods/zetter-1.20.1-0.21.5.jar",
-      "hashes": {
-        "sha1": "f854393594fd186789fc181b21619ef99e83aab9",
-        "sha512": "6cea12306ff84dcbc451cd01195ea0020a79967e4594f82dc167a89173a2c1d191297fa47a7703223aa6f90d60cdad1a54a736148fcc541c95d95143af02cab4"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/ZmLgjf6f/versions/QsJrGLtX/zetter-1.20.1-0.21.5.jar"
-      ],
-      "fileSize": 1333236
-    },
-    {
       "path": "mods/waterframes-FORGE-mc1.20.1-v2.1.7a.jar",
       "hashes": {
         "sha1": "ddaa4a685920941db9b7e62c36893fac350ee381",
@@ -1746,19 +1671,19 @@
       "fileSize": 677705
     },
     {
-      "path": "mods/youkaishomecoming-2.2.16.jar",
+      "path": "mods/youkaishomecoming-2.3.0.jar",
       "hashes": {
-        "sha1": "f5620eb7127bbe04b94ffdd49790eef5a8b8a4df",
-        "sha512": "245bd305dd363db3cf8d26d80f7d82dd217504dd267151e8a852a77351532855beb1aee9444b53e1d7adc16a236873b0cfab77b94e732b3ab92f2cf8317af48b"
+        "sha1": "f5fef7bfed644744117c434cdc8e898b7c7b64ab",
+        "sha512": "cd979a9cc4bb66a161c6eda292a6bfda185e45b157fde18eaad0ff31b59b7fe828fc15f4c4f1efd4b30b7e936eb20894b1051264255b9aac22c2299248c6c593"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/uJT3ahxz/versions/YYQumrss/youkaishomecoming-2.2.16.jar"
+        "https://cdn.modrinth.com/data/uJT3ahxz/versions/IYRLZGo2/youkaishomecoming-2.3.0.jar"
       ],
-      "fileSize": 3789660
+      "fileSize": 4202183
     },
     {
       "path": "mods/1starlight-1.1.2+forge.1cda73c.jar",
@@ -2166,21 +2091,6 @@
       "fileSize": 279071
     },
     {
-      "path": "mods/chineseflyingislandtower-1.1.0-forge-1.20.1.jar",
-      "hashes": {
-        "sha1": "06feefafbaad23ba8db80a095133b67ecaacb6d1",
-        "sha512": "e6a7f3c40888021dcf90cb5580dbe63d2ec6b407268be99373f219f76172bd03c15cf4108de819f5ecd949391080e776a83f1caab80b5fc6c93fe5f0598f379a"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/NVz9DXUE/versions/gUYdFkI7/chineseflyingislandtower-1.1.0-forge-1.20.1.jar"
-      ],
-      "fileSize": 109336
-    },
-    {
       "path": "mods/3bagus_lib-1.20.1-5.3.0.jar",
       "hashes": {
         "sha1": "890d1c48079f83dcb611279cd740e1c1021e23c5",
@@ -2434,6 +2344,21 @@
         "https://cdn.modrinth.com/data/PIJSp01k/versions/Leux4ZWt/GlobalGameRules-1.20-8.0.0.11.jar"
       ],
       "fileSize": 18898
+    },
+    {
+      "path": "mods/idas_forge-1.10.1+1.20.1.jar",
+      "hashes": {
+        "sha1": "7c922fe56db992012dab72c555447431ad9d4dfe",
+        "sha512": "b52bf49e7594c0757a4d6278c6c5edd4e639424ace72c646fd961db46eb6db4397150b4596bef12924152037d9d2271824579b0d2de734dfbc6e2c258b2f704e"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Z8OZShAU/versions/V7CKHwQI/idas_forge-1.10.1%2B1.20.1.jar"
+      ],
+      "fileSize": 11337197
     },
     {
       "path": "mods/explosiveenhancement-1.0.0.jar",

@@ -6,12 +6,21 @@
 
 - Common Mods Add:
   - Maidsoul Kitchen
+  - IDAS
 - Common Mods Update:
   - SCGUN：fix the bug of spawning
   - Youkais homecoming
+  - Farmer's Utils -> Farmer's Plus
 - Common Mods Delete:
-  - Citadel
-
+  - Citadel (Useless, even causing server start up lag) 
+  - Guard Villager (Useless for last stage game)
+  - Xp Book (Useless for last stage game)
+  - Immersive Paintings  (Useless, we have WaterFrame)
+  - Zetter  (Useless, we have WaterFrame)
+  - MVS，MNS，I wanna travel，Chinese Flying Island Tower（Use IDAS instead）
+- Optional Resource packs Update: 
+  - Mandala's GUI - Dark Mode TSNG Compat
+    - Maidsoul Kitchen
 
 ### Need developing
 
@@ -21,6 +30,9 @@
   - structure credits
   - angel block renewed
   - MaidsoulKitchen
+- Mod
+  - The Outer End?
+
 
 ## TSNG 5.2.3
 
