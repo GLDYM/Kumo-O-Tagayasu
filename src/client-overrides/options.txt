@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","fabric","resources/tsng5_resourcespack","file/MandalasGUI+Modded_Dakmode_v4.6.zip","file/Mandala\u0027s GUI - Dark Mode Compat 0.3.zip","file/Mandalas GUI - Dark Mode TSNG Compat 1.7.zip","mod:simply_create_model","file/LanguagePack.zip"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","fabric","resources/tsng5_resourcespack","file/MandalasGUI+Modded_Dakmode_v4.6.zip","file/Mandala\u0027s GUI - Dark Mode Compat 0.3.zip","file/Mandalas GUI - Dark Mode TSNG Compat 1.8.zip","mod:simply_create_model","file/LanguagePack.zip"]
 incompatibleResourcePacks:[]
 lastServer:127.0.0.1:52018
 lang:zh_cn
