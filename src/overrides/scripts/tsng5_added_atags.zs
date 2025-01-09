@@ -581,6 +581,7 @@
 <tag:items:forge:butter>.add(<item:youkaishomecoming:butter>);
 <tag:items:c:butters>.add(<item:youkaishomecoming:butter>);
 <tag:items:farm_and_charm:butter>.add(<item:youkaishomecoming:butter>);
+
 # OTHERS
 <tag:items:another_furniture:furniture_hammers>.add(<item:handcrafted:hammer>);
 <tag:items:forge:tools>.add(<item:handcrafted:hammer>);
@@ -601,6 +602,7 @@
 <tag:items:forge:seeds/hamimelon>.add(<item:fruitsdelight:hamimelon_seeds>);
 <tag:items:forge:seeds/hamimelon>.add(<item:delightful:cantaloupe_seeds>);
 <tag:items:forge:seeds/strawberry>.add(<item:farm_and_charm:strawberry_seeds>);
+
 # UNIFY
 <tag:items:forge:bamboo>.add(<item:mysticsbiomes:spring_bamboo>);
 <tag:items:naturalist:tortoise_tempt_items>.add(<item:mysticsbiomes:spring_bamboo>);
@@ -620,6 +622,7 @@
 <tag:items:minecraft:logs_that_burn>.add(<tag:items:bloomingnature:logs>);
 <tag:items:forge:fruits>.add(<tag:items:forge:berries>);
 <tag:items:minecraft:fox_food>.add(<tag:items:forge:berries>);
+<tag:items:forge:vegetables>.add(<tag:items:caupona:vegetables>);
 <tag:items:caupona:vegetables>.add(<tag:items:forge:vegetables>);
 <tag:items:caupona:vinegar_fruits>.add(<tag:items:forge:fruits>);
 <tag:items:caupona:sugar>.add(<tag:items:forge:fruits>);
@@ -675,6 +678,7 @@
 <tag:items:convivium:fruits>.add(<tag:items:forge:fruits>);
 <tag:items:forge:ice_cubes>.add(<item:youkaishomecoming:ice_cube>);
 <tag:items:caupona:ice>.add(<item:youkaishomecoming:ice_cube>);
+
 
 # KNIVES
 <tag:items:farmersdelight:tools/knives>.add(<tag:items:forge:tools/knives>);
