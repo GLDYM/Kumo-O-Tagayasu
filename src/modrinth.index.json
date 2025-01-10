@@ -2361,6 +2361,21 @@
       "fileSize": 11337197
     },
     {
+      "path": "mods/create-stuff-additions1.20.1_v2.0.6.jar",
+      "hashes": {
+        "sha512": "d1c6cb429de1b6693090eb4319204cab11d349c0a5e6caa1e08772663c905566f69c2d504c405cbce3086fb8a153c45033b1c4c1e89652c3888466c5268a547b",
+        "sha1": "527620c5d8c0ae55ba067cb10d5b0dc891938a52"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/aq9qUUQG/versions/ZceUwJIl/create-stuff-additions1.20.1_v2.0.6.jar"
+      ],
+      "fileSize": 1234879
+    },
+    {
       "path": "mods/explosiveenhancement-1.0.0.jar",
       "hashes": {
         "sha512": "b7ff3a87d9348d3ce7766264bc63387685515bf05cc723ba73afaeebf84be11138902146d6321ccbb28e2c7a8496bf5b5059b1076d63877eb013086ab52eb893",

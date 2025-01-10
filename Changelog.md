@@ -11,6 +11,7 @@
   - SCGUN：fix the bug of spawning
   - Youkais homecoming
   - Farmer's Utils -> Farmer's Plus
+  - Create Stuff & Addition
 - Common Mods Delete:
   - Citadel (Useless, even causing server start up lag) 
   - Guard Villager (Useless for last stage game)
@@ -18,9 +19,24 @@
   - Immersive Paintings  (Useless, we have WaterFrame)
   - Zetter  (Useless, we have WaterFrame)
   - MVS，MNS，I wanna travel，Chinese Flying Island Tower（Use IDAS instead）
+- Resource packs Add:
+  - Create thing & misc
+  - Vinery
+  - Crreate deco
+  - Better arch
+  - Miner's delight
+  - Hamster
 - Optional Resource packs Update: 
   - Mandala's GUI - Dark Mode TSNG Compat
     - Maidsoul Kitchen
+    - FTBQuests
+- Recipes Change:
+  - Lodestone recipe from 25w02a
+
+- Bug Fix
+  - F3 + G cannot display chunks boundaries in single player
+  - Some vegetable lost their tags that should have
+
 
 ### Need developing
 
