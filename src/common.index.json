@@ -1,9 +1,9 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "5.2.3",
-  "name": "Tsuri No Gatsu5",
-  "summary": "Tsuri No Gatsu5",
+  "versionId": "1.0.0",
+  "name": "TSNG Common",
+  "summary": "",
   "files": [
     {
       "path": "mods/create_misc_and_things_ 1.20.1_4.0A.jar",
