@@ -22,7 +22,7 @@
 <item:bakery:bread_knife>.addTooltip("§e可在烘培站上制作糕点时使用它。");
 <item:bakery:rolling_pin>.addTooltip("§e可在烘培站上制作糕点时使用它。");
 <item:l2complements:eternium_hoe>.addTooltip("§e使用锄头左键可以打掉一大片草。小心作物！");
-<item:tofucraft:soyoil>.addTooltip("§e核动力大豆油，神秘的异星科技。");
+<item:tofucraft:bottle_soyoil>.addTooltip("§e核动力大豆油，神秘的异星科技。");
 # 绿色字为作者的个人吐槽
 <item:irons_spellbooks:keeper_flamberge>.addTooltip("§a你们还不满意吗?!");
 <item:barbequesdelight:burnt_skewer>.addTooltip("§a天呐!你在做什么?");

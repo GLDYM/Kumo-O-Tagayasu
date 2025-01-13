@@ -21,8 +21,8 @@ craftingTable.addShapeless("pepperchange1", <item:crockpot:pepper> * 2, [<item:v
 craftingTable.addShapeless("pepperchange2", <item:vintagedelight:ghost_pepper> * 2, [<item:crockpot:pepper>, <item:crockpot:pepper>]);
 craftingTable.addShapeless("soysauce1", <item:youkaishomecoming:soy_sauce_bottle>, [<item:tofucraft:bottle_soysause>]);
 craftingTable.addShapeless("soysauce2", <item:tofucraft:bottle_soysause>, [<item:youkaishomecoming:soy_sauce_bottle>]);
-craftingTable.addShapeless("bronze1", <item:ultramarine:bronze_ingot>, [<item:create:bronze_ingot>]);
-craftingTable.addShapeless("bronze2", <item:create:bronze_ingot>, [<item:ultramarine:bronze_ingot>]);
+craftingTable.addShapeless("bronze1", <item:ultramarine:bronze_ingot>, [<item:create:brass_ingot>]);
+craftingTable.addShapeless("bronze2", <item:create:brass_ingot>, [<item:ultramarine:bronze_ingot>]);
 
 # RAW ORE TO ORE BLOCK
 blastFurnace.addRecipe("blockrawirontoiron_blast", <item:minecraft:iron_block>, <tag:items:forge:storage_blocks/raw_iron>, 8.0, 1600);
