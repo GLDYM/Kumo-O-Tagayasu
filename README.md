@@ -16,7 +16,7 @@
 </a>
 
 <a href="./Changelog.md">
-    <img src="https://img.shields.io/badge/version-5.2.4-9999FF" alt="version">
+    <img src="https://img.shields.io/badge/version-5.2.5-9999FF" alt="version">
 </a>
 
 </div>
