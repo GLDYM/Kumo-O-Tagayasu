@@ -244,7 +244,7 @@
 			#When enabled, claimed chunk protection disables the natural spawning of friendly mobs.
 			naturalSpawnFriendly = true
 			#When enabled, claimed chunk protection disables hostile mob spawners.
-			spawnersHostile = true
+			spawnersHostile = false
 			#When enabled, claimed chunk protection disables friendly mob spawners.
 			spawnersFriendly = true
 			#When enabled, claimed chunk protection includes protection from projectiles spawning hostile mobs when they land (e.g. endermites). Might not work with projectiles from mods that don't implement this mod's API.

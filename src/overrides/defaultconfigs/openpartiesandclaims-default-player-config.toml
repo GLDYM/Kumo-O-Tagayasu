@@ -112,7 +112,7 @@
 			#1) Every - protected from all players that don't have chunk access.
 			#2) Not Party - only players not in the same party as you.
 			#3) Not Ally - only players not in any party allied by yours.
-			entitiesFromPlayers = 3
+			entitiesFromPlayers = 0
 			#When enabled, claimed chunk protection includes friendly (+ server configured) entities in the chunks being protected against mobs. Chunks directly next to the protected chunks are also partially protected when protection is based on the mob griefing rule check.
 			#
 			#1) Every - protected from all entities not owned by a player that has chunk access.
@@ -159,25 +159,25 @@
 			#1) Every - protected from all players that don't have chunk access.
 			#2) Not Party - only players not in the same party as you.
 			#3) Not Ally - only players not in any party allied by yours.
-			netherPortalsPlayers = 1
+			netherPortalsPlayers = 0
 			#When enabled, claimed chunk protection includes nether portal usage prevention for mobs who don't have access to the chunks. Even after the protection is turned off, a recently stopped entity is still on a short cooldown. You must let it finish without constantly retrying to push it through the portal, which restarts the cooldown.
 			#
 			#1) Every - protected from all entities not owned by a player that has chunk access.
 			#2) Not Party - all entities, except owned by a player in the same party as you.
 			#3) Not Ally - all entities, except owned by a player in any party allied by yours.
-			netherPortalsMobs = 1
+			netherPortalsMobs = 0
 			#When enabled, claimed chunk protection includes nether portal usage prevention for non-living entities who don't have access to the chunks. Even after the protection is turned off, a recently stopped entity is still on a short cooldown. You must let it finish without constantly retrying to push it through the portal, which restarts the cooldown.
 			#
 			#1) Every - protected from all entities not owned by a player that has chunk access.
 			#2) Not Party - all entities, except owned by a player in the same party as you.
 			#3) Not Ally - all entities, except owned by a player in any party allied by yours.
-			netherPortalsOther = 1
+			netherPortalsOther = 0
 			#When enabled, claimed chunk protection includes protection from right-click held item use. On Fabric, allowed item use means being able to place blocks on blocks that you can interact with, e.g. exception blocks, even if block protection is enabled! Right-click item use can also break blocks, if that is the item's right-click mechanic. Some item use in a chunk might also be prevented by neighbor item use protection in neighbor chunks.
 			#
 			#1) Every - protected from all players that don't have chunk access.
 			#2) Not Party - only players not in the same party as you.
 			#3) Not Ally - only players not in any party allied by yours.
-			itemUse = 3
+			itemUse = 0
 			#When enabled, the item use protection is extended to some right-click held item use in chunks directly next to the claimed ones. Item use affected by this is usually things that still work while looking at the sky (not block or entity) or item use with custom ray-tracing for blocks/fluids/entities (e.g. placing things on water), but also any item use of "additional banned items" configured on the server. Item use protection exceptions (e.g. food, potions etc) still apply.
 			neighborChunksItemUse = false
 			#When enabled, claimed chunk protection includes protection against dispensers that are "touching" and facing the protected chunks from outside. This does not protect wilderness.
@@ -188,7 +188,7 @@
 			#1) Every - protected from all players that don't have chunk access.
 			#2) Not Party - only players not in the same party as you.
 			#3) Not Ally - only players not in any party allied by yours.
-			itemTossPlayers = 3
+			itemTossPlayers = 0
 			#When enabled, claimed chunk protection includes prevention of item tossing by some mobs that don't have access to the chunks. Requires the tossing mob to be set as the item's thrower.
 			#Modded mobs are pretty likely to do it themselves or have it done by this mod. Otherwise, the toss won't be prevented.
 			#

@@ -1,6 +1,13 @@
 
 
+
+
 # Changelog
+
+## TSNG 5.2.5
+
+- Add default home number of ftbessential
+- Fix Script bug
 
 ## TSNG 5.2.4
 

@@ -74,11 +74,11 @@
 		maxClaimDistance = 5
 		#The type of the list defined in "claimableDimensionsList". ONLY - include only the listed dimensions. ALL_BUT - include all but the listed dimensions.
 		#Allowed Values: ONLY, ALL_BUT
-		claimableDimensionsListType = "ONLY"
+		claimableDimensionsListType = "ALL_BUT"
 		#Dimensions to include/exclude from being claimable, depending on the list type in "claimableDimensionsListType".
 		#For example ["minecraft:overworld", "minecraft:the_nether"].
 		#By default the list is empty and of type ALL_BUT, meaning that all dimensions are claimable.
-		claimableDimensionsList = ["minecraft:overworld"]
+		claimableDimensionsList = []
 		#Whether to allow existing player claims to stay active in unclaimable dimensions which were previously claimable.
 		allowExistingClaimsInUnclaimableDimensions = true
 		#Whether to allow existing player forceloads to stay active in unclaimable dimensions which were previously claimable. Only relevant if existing claims are allowed.
