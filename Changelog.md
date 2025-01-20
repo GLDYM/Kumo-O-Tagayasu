@@ -4,6 +4,12 @@
 
 # Changelog
 
+## TSNG 5.2.6
+
+- Fix balance flight does not work
+- Add recipe of amethyst shard
+- Add Mod: Create Power Loader
+
 ## TSNG 5.2.5
 
 - Add default home number of ftbessential

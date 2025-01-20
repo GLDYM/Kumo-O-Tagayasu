@@ -34,7 +34,7 @@
 		# - "ModpackName v2 based on %mc" = "ModpackName v2 based on Minecraft* 1.19.3"
 		# 
 		# Note: enableCustomWindowTitle must be enabled for this to take effect.
-		customWindowTitleText = "Tsuri No Gatsu 5.2.5"
+		customWindowTitleText = "Tsuri No Gatsu 5.2.6"
 
 	[Display.Icon]
 		# 
