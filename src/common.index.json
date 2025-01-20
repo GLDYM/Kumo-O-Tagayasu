@@ -2376,6 +2376,21 @@
       "fileSize": 1234879
     },
     {
+      "path": "mods/create_power_loader-1.5.0-mc1.20.1.jar",
+      "hashes": {
+        "sha512": "c22b806fca4fb8339cfd070a788cbe5b4fabe789531bef9fe1034c9ba00b8980cac1d9eddd26b5192ddb77fc9f39d70e6e61fc1117b7303545b6dd2f1969170b",
+        "sha1": "15c83719f60df6108780ea7106436c639a4b9247"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/wPQ6GgFE/versions/qLKpNYzC/create_power_loader-1.5.0-mc1.20.1.jar"
+      ],
+      "fileSize": 223428
+    },
+    {
       "path": "mods/explosiveenhancement-1.0.0.jar",
       "hashes": {
         "sha512": "b7ff3a87d9348d3ce7766264bc63387685515bf05cc723ba73afaeebf84be11138902146d6321ccbb28e2c7a8496bf5b5059b1076d63877eb013086ab52eb893",
