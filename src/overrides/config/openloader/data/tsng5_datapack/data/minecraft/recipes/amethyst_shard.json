@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "count": 2,
+      "tag": "forge:nuggets/iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  ]
+}
