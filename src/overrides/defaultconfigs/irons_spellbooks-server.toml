@@ -10,7 +10,7 @@
 	#Whether or not players can harm their own magic summons. Default: false
 	canAttackOwnSummons = true
 	#The maximum amount of times an applicable piece of equipment can be upgraded in the arcane anvil. Default: 3
-	maxUpgrades = 3
+	maxUpgrades = 10
 	#From 0-1, the percent of max mana a player respawns with. Default: 0.0
 	manaSpawnPercent = 0.0
 	#If true the world will attempt to be upgraded from an older version of ISS
@@ -49,7 +49,7 @@
 
 [Worldgen]
 	#The weight of the priest house spawning in a village. Default: 4
-	priestHouseWeight = 4
+	priestHouseWeight = 8
 
 #Individual Spell Configuration
 [Spells]
@@ -643,7 +643,7 @@
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:sunbeam"]
-		Enabled = false
+		Enabled = true
 		School = "irons_spellbooks:holy"
 		MaxLevel = 10
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
@@ -720,7 +720,7 @@
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:cloud_of_regeneration"]
-		Enabled = false
+		Enabled = true
 		School = "irons_spellbooks:holy"
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
