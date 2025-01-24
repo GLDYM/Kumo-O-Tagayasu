@@ -7,16 +7,16 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "irons_spellbooks:eldritch_manuscript"
+      "item": "minecraft:cobweb"
     },
     {
-      "item": "irons_spellbooks:eldritch_manuscript"
+      "tag": "forge:storage_blocks/raw_iron"
     },
     {
-      "item": "irons_spellbooks:mana_upgrade_orb"
+      "tag": "forge:vegetables"
     },
     {
-      "item": "irons_spellbooks:cooldown_upgrade_orb"
+      "tag": "forge:fruits"
     }
   ],
   "recipe_book_tab": "meals",

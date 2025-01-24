@@ -4,6 +4,14 @@
 
 # Changelog
 
+## TSNG 5.2.7
+
+- Re-balanced the recipes of majo clothes
+
+> During the playing, we found that the recipes of majo clothes cannot match the effect. Hats and boots was too expensive but only give some unimportant effects. 
+
+- 
+
 ## TSNG 5.2.6
 
 - Fix balance flight does not work
