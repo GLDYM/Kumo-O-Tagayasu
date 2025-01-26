@@ -13,6 +13,7 @@
 - Add Translation of create pattern schematic
 - Optional Resource packs Update
 - ban Alchemist Cauldron from carry on
+- Add recipes of kuayue blueprints
 
 ## TSNG 5.2.6
 
