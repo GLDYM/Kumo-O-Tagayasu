@@ -10,7 +10,9 @@
 
 > During the playing, we found that the recipes of majo clothes cannot match the effect. Hats and boots was too expensive but only give some unimportant effects. 
 
-- 
+- Add Translation of create pattern schematic
+- Optional Resource packs Update
+- ban Alchemist Cauldron from carry on
 
 ## TSNG 5.2.6
 

@@ -19,10 +19,10 @@
 		enableHeadShots = true
 		#The value to multiply the damage by if projectile hit the players head
 		#Range: 1.0 ~ 1.7976931348623157E308
-		headShotDamageMultiplier = 1.25
+		headShotDamageMultiplier = 2.0
 		#The value to multiply the damage by if projectile is a critical hit
 		#Range: 1.0 ~ 1.7976931348623157E308
-		criticalDamageMultiplier = 1.5
+		criticalDamageMultiplier = 2.0
 		#If true, projectiles will ignore leaves when checking for collision
 		ignoreLeaves = true
 		#If true, projectiles will cause knockback when an entity is hit. By default this is set to true to match the behaviour of Minecraft.
@@ -37,7 +37,7 @@
 		enemyBulletDamage = 4.5
 		#Energy produced per tick by the Polar Generator. Adjust this value to balance the generator's output.
 		#Range: > 1
-		energyProductionRate = 50
+		energyProductionRate = 500
 		#If true, guns will always use energy system even if Create mod is loaded NOT WORKING.
 		forceEnergyGuns = false
 
