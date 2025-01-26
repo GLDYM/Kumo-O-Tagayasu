@@ -75,3 +75,29 @@ craftingTable.remove(<item:quark:flamerang>);
 events.register<crafttweaker.forge.api.event.interact.RightClickBlockEvent>((e)=>{val blockstate=e.entity.level.getBlockState(e.blockPos);
 if(blockstate==<blockstate:minecraft:enchanting_table>||blockstate==<blockstate:minecraft:enchanting_table>){e.useBlock=<constant:forge:event/result:deny>;}
 if(e.itemStack.definition==<item:minecraft:enchanting_table>.definition){e.useItem=<constant:forge:event/result:deny>;}});
+
+# KUAYUE SCHEMATIC
+import crafttweaker.api.recipe.StoneCutterManager;
+
+stoneCutter.addRecipe("schem0", <item:kuayue:head_df11g_circuit_blueprint>, <item:kuayue:research_report>);
+stoneCutter.addRecipe("schem1", <item:kuayue:head_df21_circuit_blueprint>, <item:kuayue:research_report>);
+stoneCutter.addRecipe("schem2", <item:kuayue:head_hxd3d_circuit_blueprint>, <item:kuayue:research_report>);
+stoneCutter.addRecipe("schem3", <item:kuayue:head_cr200j_circuit_blueprint>, <item:kuayue:research_report>);
+stoneCutter.addRecipe("schem4", <item:kuayue:carriage_25b_circuit_blueprint>, <item:kuayue:research_report>);
+stoneCutter.addRecipe("schem5", <item:kuayue:carriage_25g_circuit_blueprint>, <item:kuayue:research_report>);
+stoneCutter.addRecipe("schem6", <item:kuayue:carriage_25k_circuit_blueprint>, <item:kuayue:research_report>);
+stoneCutter.addRecipe("schem7", <item:kuayue:carriage_25z_circuit_blueprint>, <item:kuayue:research_report>);
+stoneCutter.addRecipe("schem8", <item:kuayue:carriage_25t_circuit_blueprint>, <item:kuayue:research_report>);
+stoneCutter.addRecipe("schem9", <item:kuayue:carriage_cr200j_circuit_blueprint>, <item:kuayue:research_report>);
+stoneCutter.addRecipe("schem10", <item:kuayue:head_df11g_blueprint>, <item:kuayue:research_report>);
+stoneCutter.addRecipe("schem11", <item:kuayue:head_df21_blueprint>, <item:kuayue:research_report>);
+stoneCutter.addRecipe("schem12", <item:kuayue:head_hxd3d_blueprint>, <item:kuayue:research_report>);
+stoneCutter.addRecipe("schem13", <item:kuayue:head_cr200j_blueprint>, <item:kuayue:research_report>);
+stoneCutter.addRecipe("schem14", <item:kuayue:carriage_25b_blueprint>, <item:kuayue:research_report>);
+stoneCutter.addRecipe("schem15", <item:kuayue:carriage_25g_blueprint>, <item:kuayue:research_report>);
+stoneCutter.addRecipe("schem16", <item:kuayue:carriage_25k_blueprint>, <item:kuayue:research_report>);
+stoneCutter.addRecipe("schem17", <item:kuayue:carriage_25z_blueprint>, <item:kuayue:research_report>);
+stoneCutter.addRecipe("schem18", <item:kuayue:carriage_25t_blueprint>, <item:kuayue:research_report>);
+stoneCutter.addRecipe("schem19", <item:kuayue:carriage_cr200j_blueprint>, <item:kuayue:research_report>);
+stoneCutter.addRecipe("schem20", <item:kuayue:carriage_m1_blueprint>, <item:kuayue:research_report>);
+stoneCutter.addRecipe("schem21", <item:kuayue:carriage_marshalled_blueprint>, <item:kuayue:research_report>);
