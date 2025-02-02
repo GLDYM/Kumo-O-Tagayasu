@@ -42,7 +42,7 @@
 	automation = false
 	building = true
 	management = true
-	tools = false
+	tools = true
 	tweaks = true
 	world = false
 	mobs = true
@@ -347,7 +347,7 @@
 	"Endermosh Music Disc" = true
 	"Parrot Eggs" = true
 	"Pathfinder Maps" = true
-	Pickarang = true
+	Pickarang = false
 	"Seed Pouch" = true
 	"Skull Pikes" = true
 	"Slime In A Bucket" = true

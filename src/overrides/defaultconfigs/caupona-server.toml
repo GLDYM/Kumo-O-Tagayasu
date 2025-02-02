@@ -72,6 +72,8 @@
 	specialContents = true
 	#Add manual to player on start
 	addManual = true
+	#Range: 0.0 ~ 1.0
+	leadenGenRate = 0.5
 
 [compat]
 

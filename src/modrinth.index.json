@@ -456,21 +456,6 @@
       "fileSize": 139395
     },
     {
-      "path": "mods/ctov-savage-and-ravage-compat-2.0.jar",
-      "hashes": {
-        "sha512": "cbc9f38b114679b0810c2837947f182210a25234fbb3afe0cb77ef70747ddd0357ee04bd741efe020e0b0084439f6af716bc8c037e08e3dacf2956166836988f",
-        "sha1": "ce522d05c41697a4106769c09ea881d099b1c2f5"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/p7P0HjJw/versions/j8sXQud0/ctov-savage-and-ravage-compat-2.0.jar"
-      ],
-      "fileSize": 10098
-    },
-    {
       "path": "mods/3kotlinforforge-4.11.0-all.jar",
       "hashes": {
         "sha1": "1fd8acfd75a2be2dc3cdcc7e816482b2e427d6e5",
