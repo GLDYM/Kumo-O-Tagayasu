@@ -10,7 +10,7 @@
 	#Whether or not players can harm their own magic summons. Default: false
 	canAttackOwnSummons = true
 	#The maximum amount of times an applicable piece of equipment can be upgraded in the arcane anvil. Default: 3
-	maxUpgrades = 10
+	maxUpgrades = 3
 	#From 0-1, the percent of max mana a player respawns with. Default: 0.0
 	manaSpawnPercent = 0.0
 	#If true the world will attempt to be upgraded from an older version of ISS

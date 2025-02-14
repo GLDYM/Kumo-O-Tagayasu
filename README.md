@@ -30,11 +30,9 @@
 
 为了防止服务端与客户端不匹配，本项目的文件结构采用 Modrinth 整合包格式。
 
-要获得客户端，将`src` 文件夹中所有文件压缩为`zip`文件后修改文件名为`TsuriNoGatsu.mrpack`。
+要获得客户端，下载 Release 中的 `mrpack` 文件后拖入启动器中安装。
 
-要获得服务端，将`src` 文件夹中所有文件压缩为`zip`文件后修改文件名为`TsuriNoGatsu-v5.2.2.mrpack`。下载 [forge-1.20.1-47.3.7-installer.jar](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-installer.jar) 、相应平台的 [mrpack-install](https://github.com/nothub/mrpack-install/releases/tag/v0.16.10) 与`server-installer`文件夹中相应平台的脚本，与`TsuriNoGatsu.mrpack`置于同一文件夹中，执行脚本。
-
-其余操作同原整合包，可以参考项目内的提示文件。
+要获得服务端，请从参考 [TSNG 服务端搭建指南](./Server.md)。
 
 ## 修改方向
 

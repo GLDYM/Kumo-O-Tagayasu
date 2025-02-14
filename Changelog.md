@@ -2,10 +2,15 @@
 
 ## TSNG 5.2.8
 
+- Change File Structure
+
+> Now singleplayer game will be different with multiplayer game in some place. See [Server](./Server.md).
+
 - Remove ctov-savage-and-ravage-compat
 - Enable tools module of quark
 - Change the gen rate of leaden walnut
 - Forbid enderman from moving blocks to protect train track
+- Remove the client setting of anonymous
 - Change translate
 
 ## TSNG 5.2.7
