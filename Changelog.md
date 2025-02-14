@@ -1,8 +1,12 @@
-
-
-
-
 # Changelog
+
+## TSNG 5.2.8
+
+- Remove ctov-savage-and-ravage-compat
+- Enable tools module of quark
+- Change the gen rate of leaden walnut
+- Forbid enderman from moving blocks to protect train track
+- Change translate
 
 ## TSNG 5.2.7
 

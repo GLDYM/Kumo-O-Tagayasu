@@ -79,7 +79,7 @@ joinedFirstServer:true
 hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true
-allowServerListing:false
+allowServerListing:true
 onlyShowSecureChat:false
 panoramaScrollSpeed:1.0
 telemetryOptInExtra:false

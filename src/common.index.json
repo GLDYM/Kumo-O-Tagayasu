@@ -621,21 +621,6 @@
       "fileSize": 38494
     },
     {
-      "path": "mods/villagespawnpoint-1.20.1-4.4.jar",
-      "hashes": {
-        "sha512": "0706d8338f621056c62196ec7afc36688bfd4d41db8f8b126024f26e858d5b2543603f7e62784b31da47a4ab65e32bb621616f21ebff28cdfae8d517f86b316b",
-        "sha1": "a3e408533092532b16831e385694a0cb2e67f4a3"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/KplTt9Ku/versions/pmuo4Sz9/villagespawnpoint-1.20.1-4.4.jar"
-      ],
-      "fileSize": 30315
-    },
-    {
       "path": "mods/l2complements-2.4.42.jar",
       "hashes": {
         "sha1": "e43736f89abfd9fcf2ca1e93dd9f6fce6f877f44",
