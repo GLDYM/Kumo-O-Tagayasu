@@ -1686,21 +1686,6 @@
       "fileSize": 110583
     },
     {
-      "path": "mods/jei-1.20.1-forge-15.20.0.105.jar",
-      "hashes": {
-        "sha1": "80520a596f3d2e7dc744591dae257dc87aaa204e",
-        "sha512": "bdf079afca6f3ed1bf9a1226fa8fc4c4e71ff679c1dc3289a558084c2cfbc2b5cd122636c73a2fd0e25cd468d32efce29175774aaa6389a249ce2c1062075dff"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/u6dRKJwZ/versions/iNv5B1Zj/jei-1.20.1-forge-15.20.0.105.jar"
-      ],
-      "fileSize": 1379051
-    },
-    {
       "path": "mods/Crystal-Clear-2.1-Beta-forge.jar",
       "hashes": {
         "sha1": "90f0a118263a91661e58b2c56acccbbcf8afdc1c",
