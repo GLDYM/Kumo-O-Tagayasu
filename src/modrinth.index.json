@@ -981,19 +981,19 @@
       "fileSize": 21667
     },
     {
-      "path": "mods/3l2library-2.4.30.jar",
+      "path": "mods/3l2library-2.4.31.jar",
       "hashes": {
-        "sha1": "89b42f9559796439b85c2ea87bfc4a44c1aa7e1e",
-        "sha512": "75bcc28e81d0873b45dfd7dc6c9efe2638831be0714f1fe027c38cc4128b0b2761617fa29bc3c18c54ca95e011826bf2bd9e3d51b8d5a0f683655fc63b172dfd"
+        "sha512": "a4e74a73e842c2e035ea2a775bd629731d408ee11efc84990193894a0b533193695e41c10bb0b42e26474bad1b7801214e34d6f0e5254e9bf5736843eb8023e4",
+        "sha1": "bf8d09bb704db37a30d635744fef3c3cde142ac2"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/4Vh3BQ3F/versions/C1nd6WQr/l2library-2.4.30.jar"
+        "https://cdn.modrinth.com/data/4Vh3BQ3F/versions/ct1ifJ23/l2library-2.4.31.jar"
       ],
-      "fileSize": 912071
+      "fileSize": 912068
     },
     {
       "path": "mods/TaxFreeLevels-1.4.1-forge-1.20.1.jar",

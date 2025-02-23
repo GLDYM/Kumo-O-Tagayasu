@@ -26,7 +26,7 @@
 	#.
 	#The maximum amount of blocks for which to try and calculate dynamic contraption lighting. Decrease if large contraption cause too much lag
 	#Range: > 0
-	maximumContraptionLightVolume = 16384
+	maximumContraptionLightVolume = 32768
 	#.
 	#Choose the menu row that the Create config button appears on in the main menu
 	#Set to 0 to disable the button altogether
