@@ -1,5 +1,12 @@
 # Changelog
 
+## TSNG 5.2.9
+
+- Rebalance recipes
+- Bug Fix
+  - JEI cannot display smithing recipes correctly
+  - Soul fire charge cannot deal soul fire effect on ghast 
+
 ## TSNG 5.2.8
 
 - Change File Structure
