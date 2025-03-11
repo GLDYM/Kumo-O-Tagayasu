@@ -441,21 +441,6 @@
       "fileSize": 7111059
     },
     {
-      "path": "mods/ravageandcabbage-1.20.1-1.2.4.jar",
-      "hashes": {
-        "sha1": "64124791fe34e15d64f79ae91b3d98f42fed747e",
-        "sha512": "9080b38baaf94a6ad2806fe8be6d404fa8960ae45d4fc2565958cf1fe120d8e41b5fd315adff278f2e984c1596a3c96624cb7d08ebcb4fd345b01fafa4e094cd"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/m6BMFidq/versions/Gbs7Mljt/ravageandcabbage-1.20.1-1.2.4.jar"
-      ],
-      "fileSize": 139395
-    },
-    {
       "path": "mods/ctov-savage-and-ravage-compat-2.0.jar",
       "hashes": {
         "sha512": "cbc9f38b114679b0810c2837947f182210a25234fbb3afe0cb77ef70747ddd0357ee04bd741efe020e0b0084439f6af716bc8c037e08e3dacf2956166836988f",
@@ -574,21 +559,6 @@
         "https://cdn.modrinth.com/data/1DWmBJVA/versions/7wM7IyEN/letsdo-vinery-forge-1.4.28.jar"
       ],
       "fileSize": 3295849
-    },
-    {
-      "path": "mods/naturalist-forge-4.0.3-1.20.1.jar",
-      "hashes": {
-        "sha512": "c808f30ba302f8f2404506088d2d54f33a4fecd67c6c1f325d99773c2c99d1c0c74c0b94be58ab0e6a95953330245d6ca5bbd18f9b5418428e85b702f431567f",
-        "sha1": "233106b2b15b2bbb27df6c78cc8369c0f89d4df7"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/F8BQNPWX/versions/fapHaClR/naturalist-forge-4.0.3-1.20.1.jar"
-      ],
-      "fileSize": 3343324
     },
     {
       "path": "mods/1nanhealthfixer-1.20.1-0.0.1.jar",

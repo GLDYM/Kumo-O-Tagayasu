@@ -264,46 +264,8 @@
 <tag:items:convivium:fruits/berries/small>.add(<tag:items:forge:fruits/cherry>);
 <tag:items:convivium:fruits/berries/small>.add(<tag:items:forge:fruits/grapes>);
 <tag:items:convivium:fruits/berries/large>.add(<tag:items:forge:fruits/coconut>);
-# MEATS 
-<tag:items:forge:raw_duck>.add(<item:naturalist:duck>);
-<tag:items:c:raw_meat>.add(<item:naturalist:duck>);
-<tag:items:forge:raw_meat>.add(<item:naturalist:duck>);
-<tag:items:forge:raw_meats>.add(<item:naturalist:duck>);
-<tag:items:forge:meats>.add(<item:naturalist:duck>);
-<tag:items:forge:rawmeats>.add(<item:naturalist:duck>);
-<tag:items:farmersdelight:cabbage_roll_ingredients>.add(<item:naturalist:duck>);
-<tag:items:caupona:meats/poultry>.add(<item:naturalist:duck>);
-<tag:items:caupona:meats>.add(<item:naturalist:duck>);
 
-<tag:items:forge:cooked_duck>.add(<item:naturalist:cooked_duck>);
-<tag:items:c:cooked_meat>.add(<item:naturalist:cooked_duck>);
-<tag:items:forge:cooked_meat>.add(<item:naturalist:cooked_duck>);
-<tag:items:forge:cooked_meats>.add(<item:naturalist:cooked_duck>);
-<tag:items:forge:meats>.add(<item:naturalist:cooked_duck>);
-<tag:items:forge:cookedmeats>.add(<item:naturalist:cooked_duck>);
-<tag:items:farmersdelight:cabbage_roll_ingredients>.add(<item:naturalist:cooked_duck>);
-<tag:items:caupona:meats/poultry>.add(<item:naturalist:cooked_duck>);
-<tag:items:caupona:meats>.add(<item:naturalist:cooked_duck>);
-
-<tag:items:forge:raw_vension>.add(<item:naturalist:venison>);
-<tag:items:c:raw_meat>.add(<item:naturalist:venison>);
-<tag:items:forge:raw_meat>.add(<item:naturalist:venison>);
-<tag:items:forge:raw_meats>.add(<item:naturalist:venison>);
-<tag:items:forge:meats>.add(<item:naturalist:venison>);
-<tag:items:forge:rawmeats>.add(<item:naturalist:venison>);
-<tag:items:farmersdelight:cabbage_roll_ingredients>.add(<item:naturalist:venison>);
-<tag:items:caupona:meats/meat>.add(<item:naturalist:venison>);
-<tag:items:caupona:meats>.add(<item:naturalist:venison>);
-
-<tag:items:forge:cooked_vension>.add(<item:naturalist:cooked_venison>);
-<tag:items:c:cooked_meat>.add(<item:naturalist:cooked_venison>);
-<tag:items:forge:cooked_meat>.add(<item:naturalist:cooked_venison>);
-<tag:items:forge:cooked_meats>.add(<item:naturalist:cooked_venison>);
-<tag:items:forge:meats>.add(<item:naturalist:cooked_venison>);
-<tag:items:forge:cookedmeats>.add(<item:naturalist:cooked_venison>);
-<tag:items:farmersdelight:cabbage_roll_ingredients>.add(<item:naturalist:cooked_venison>);
-<tag:items:caupona:meats/meat>.add(<item:naturalist:cooked_venison>);
-<tag:items:caupona:meats>.add(<item:naturalist:cooked_venison>);
+# MEAT
 
 <tag:items:forge:raw_vension>.add(<item:delightful:venison_chops>);
 <tag:items:c:raw_meat>.add(<item:delightful:venison_chops>);
@@ -605,7 +567,6 @@
 
 # UNIFY
 <tag:items:forge:bamboo>.add(<item:mysticsbiomes:spring_bamboo>);
-<tag:items:naturalist:tortoise_tempt_items>.add(<item:mysticsbiomes:spring_bamboo>);
 <tag:items:neapolitan:chimpanzee_favorites>.add(<item:mysticsbiomes:spring_bamboo>);
 <tag:items:another_furniture:flower_box_placeables>.add(<item:mysticsbiomes:spring_bamboo>);
 <tag:items:forge:lavender>.add(<item:mysticsbiomes:lavender>);

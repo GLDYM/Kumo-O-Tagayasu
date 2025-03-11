@@ -1,10 +1,6 @@
 {
   "fluidTransform": {},
   "itemTransform": {
-    "naturalist:venison": {
-      "next": "naturalist:cooked_venison",
-      "stage": "COOKED"
-    },
     "delightful:venison_chops": {
       "next": "delightful:cooked_venison_chops",
       "stage": "COOKED"
@@ -25,14 +21,6 @@
       "next": "miners_delight:cooked_arthropod",
       "stage": "COOKED"
     },
-    "naturalist:duck": {
-      "next": "naturalist:cooked_duck",
-      "stage": "COOKED"
-    },
-    "naturalist:lizard_tail": {
-      "next": "naturalist:cooked_lizard_tail",
-      "stage": "COOKED"
-    },
     "youkaishomecoming:raw_lamprey_fillet": {
       "next": "youkaishomecoming:roasted_lamprey_fillet",
       "stage": "COOKED"
@@ -43,14 +31,6 @@
     },
     "miners_delight:tentacles": {
       "next": "miners_delight:baked_tentacles",
-      "stage": "COOKED"
-    },
-    "naturalist:catfish": {
-      "next": "naturalist:cooked_catfish",
-      "stage": "COOKED"
-    },
-    "naturalist:bass": {
-      "next": "naturalist:cooked_bass",
       "stage": "COOKED"
     },
     "miners_delight:cave_carrot": {

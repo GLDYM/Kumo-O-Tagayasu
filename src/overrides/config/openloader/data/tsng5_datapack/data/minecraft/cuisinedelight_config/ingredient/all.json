@@ -5,9 +5,6 @@
       "effects": [],
       "ingredient": [
         {
-          "item": "naturalist:venison"
-        },
-        {
           "item": "delightful:venison_chops"
         },
         {
@@ -31,12 +28,6 @@
       "ingredient": [
         {
           "item": "miners_delight:arthropod"
-        },
-        {
-          "item": "naturalist:duck"
-        },
-        {
-          "item": "naturalist:lizard_tail"
         }
       ],
       "max_time": 240,
@@ -59,13 +50,7 @@
         },
         {
           "item": "miners_delight:tentacles"
-        },
-        {
-          "item": "naturalist:catfish"
-        },
-        {
-          "item": "naturalist:bass"
-        },
+        }
         {
           "item": "quark:crab_leg"
         }

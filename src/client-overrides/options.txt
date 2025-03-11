@@ -121,7 +121,6 @@ key_key.hotbar.9:key.keyboard.9
 key_keymap.keyOpenKeymap:key.keyboard.f9
 key_config.chatimage.key:key.keyboard.end
 key_neat.keybind.toggle:key.keyboard.unknown
-key_key.ravageandcabbage.attack_key:key.keyboard.h
 key_key.modernfix.config:key.keyboard.unknown
 key_key.exposure.camera_controls:key.keyboard.unknown
 key_key.curios.open.desc:key.keyboard.f4

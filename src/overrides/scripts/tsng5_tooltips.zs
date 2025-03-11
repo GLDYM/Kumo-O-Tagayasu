@@ -44,8 +44,6 @@
 <item:vintagedelight:pickled_egg>.addTooltip("§a蛋黄以出油“颜色红而油多”为上品。");
 <item:vintagedelight:pickle>.addTooltip("§a酸黄瓜再配上萨洛和伏特加。");
 <item:vintagedelight:peanut>.addTooltip("§a豌豆坚果。");
-<item:naturalist:duck>.addTooltip("§a嘎嘎嘎嘎嘎嘎~");
-<item:naturalist:cooked_duck>.addTooltip("§a比在胡同里找到的烤鸡还好吃。");
 <item:casualness_delight:fried_fish>.addTooltip("§a薯条在哪里?");
 <item:casualness_delight:fish_and_chips>.addTooltip("§a可以,这很英式。");
 <item:casualness_delight:stargazy_pie>.addTooltip("§a呃...这是死不瞑目吗?");
