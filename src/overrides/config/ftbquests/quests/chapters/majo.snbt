@@ -1,0 +1,158 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "majo"
+	group: "31669C96F582CF92"
+	icon: "majobroom:broom_item"
+	id: "1B290DA22A8E2132"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"听说，只要学会了一种特殊的魔法，就可以把静物变成人形？"
+				""
+				"&b相比其他可以飞行的道具，扫帚短距离飞行终归有些麻烦，但是很适合长距离飞行。"
+			]
+			id: "048513B30AB7529F"
+			rewards: [{
+				id: "78B72742F081744A"
+				item: "majobroom:broom_item"
+				type: "item"
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "357A5B56BC27C50C"
+				item: "majobroom:broom_item"
+				type: "item"
+			}]
+			title: "魔女的扫帚"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["&b给予水下呼吸IV与生命恢复IV。"]
+			id: "4D6417BAD3850CC3"
+			rewards: [{
+				id: "1800BE8F25AEA9E6"
+				item: {
+					Count: 1
+					id: "majobroom:majo_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "423EF7F43EC01CA9"
+				item: {
+					Count: 1
+					id: "majobroom:majo_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&5魔女的帽子"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: ["&b给予抗性提升IV与抗火。"]
+			id: "66206D4EC6B05931"
+			rewards: [{
+				id: "103787393CC5C83A"
+				item: {
+					Count: 1
+					id: "majobroom:majo_cloth"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 3.0d
+			tasks: [{
+				id: "4B8D6E4C088B4FFF"
+				item: {
+					Count: 1
+					id: "majobroom:majo_cloth"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&5魔女的长袍"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: ["&b给予急迫II与力量III。"]
+			id: "0B1E06D6FE08AF46"
+			rewards: [{
+				id: "10DA0EAC92A8A380"
+				item: {
+					Count: 1
+					id: "majobroom:majo_stocking"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 3.0d
+			tasks: [{
+				id: "63EAAF4CB5A1E06B"
+				item: {
+					Count: 1
+					id: "majobroom:majo_stocking"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&5魔女的丝袜"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			description: ["&b给予迅捷III与速度II。"]
+			id: "2756DACDBEDA2D65"
+			rewards: [{
+				id: "282886842F35F911"
+				item: {
+					Count: 1
+					id: "majobroom:majo_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 3.0d
+			tasks: [{
+				id: "48158F11B9278510"
+				item: {
+					Count: 1
+					id: "majobroom:majo_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&5魔女的靴子"
+			x: -3.0d
+			y: -3.0d
+		}
+	]
+	title: "&5灰发之魔女"
+}

@@ -1,0 +1,338 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "maid"
+	group: "3B8AF43E1258A852"
+	icon: {
+		Count: 1
+		id: "touhou_little_maid:hakurei_gohei"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0D10279D33D8E73E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["由稗田阿求所著，记录了女仆的方方面面。"]
+			id: "1B3B25F7487DF758"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "67EDECD02F80B9A3"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+					}
+				}
+				type: "item"
+			}]
+			title: "&6幻想乡记忆"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B3B25F7487DF758"]
+			description: ["魂符可以放下或者收起女仆。"]
+			id: "570626EC269040A9"
+			tasks: [{
+				id: "17EC47BFAF156228"
+				item: {
+					Count: 1
+					id: "touhou_little_maid:smart_slab_has_maid"
+					tag: {
+						MaidInfo: {
+							AbsorptionAmount: 0.0f
+							Age: 0
+							Air: 300s
+							ArmorDropChances: [
+								0.085f
+								0.085f
+								0.085f
+								0.085f
+							]
+							ArmorItems: [
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							Attributes: [
+								{
+									Base: 0.0d
+									Name: "forge:step_height_addition"
+								}
+								{
+									Base: 0.0d
+									Modifiers: [{
+										Amount: -0.7517086292990083d
+										Name: "attributizer change"
+										Operation: 0
+										UUID: [I;
+											-1525284246
+											-1092468716
+											-1128876379
+											2003198938
+										]
+									}]
+									Name: "minecraft:generic.luck"
+								}
+								{
+									Base: 0.1d
+									Name: "caelus:fall_flying"
+								}
+								{
+									Base: 0.08d
+									Name: "forge:entity_gravity"
+								}
+								{
+									Base: 0.699999988079071d
+									Name: "minecraft:generic.movement_speed"
+								}
+							]
+							BaguData: { }
+							BannerStack: {
+								Count: 0b
+								id: "minecraft:air"
+							}
+							Brain: {
+								memories: { }
+							}
+							CanPickUpLoot: 0b
+							CanUpdate: 1b
+							DeathTime: 0s
+							FallDistance: 0.0f
+							FallFlying: 0b
+							FavorabilityManagerCounter: { }
+							Fire: -1s
+							ForcedAge: 0
+							ForgeCaps: {
+								"curios:inventory": {
+									Curios: [ ]
+								}
+								"earthmobsmod:shadow": {
+									PercentBoost: 0.0f
+								}
+								"tofucraft:soy_health": {
+									RemainChangedTick: -12000L
+									RemainTick: -12000L
+									SoyHealthBaseLevel: 0
+									SoyHealthLevel: 0
+								}
+								"tofucraft:tofu_living": {
+									SaltBoost: -1
+									SaltBoostCooldown: 0
+								}
+							}
+							ForgeData: { }
+							GoldenAirSupply: 0.0f
+							HandDropChances: [
+								0.085f
+								0.085f
+							]
+							HandItems: [
+								{ }
+								{ }
+							]
+							Health: 20.0f
+							HurtByTimestamp: 0
+							HurtTime: 0s
+							InLove: 0
+							Invulnerable: 0b
+							KillRecord: {
+								EnderDragon: 0
+								KillRecord: 0
+								Slime: 0
+								Wither: 0
+							}
+							LeftHanded: 0b
+							MaidBackpackData: { }
+							MaidBackpackType: "touhou_little_maid:empty"
+							MaidBaubleInventory: {
+								Items: [ ]
+								Size: 9
+							}
+							MaidExperience: 0
+							MaidFavorability: 0
+							MaidGameSkillData: { }
+							MaidHunger: 0
+							MaidInventory: {
+								Items: [ ]
+								Size: 36
+							}
+							MaidIsHome: 0b
+							MaidIsPickup: 1b
+							MaidIsRideable: 1b
+							MaidScheduleMode: "DAY"
+							MaidSchedulePos: {
+								Configured: 0b
+								Dimension: "javd:void"
+								Idle: {
+									X: 0
+									Y: 0
+									Z: 0
+								}
+								Sleep: {
+									X: 0
+									Y: 0
+									Z: 0
+								}
+								Work: {
+									X: 0
+									Y: 0
+									Z: 0
+								}
+							}
+							MaidScriptBook: [ ]
+							MaidSubConfig: {
+								BackItemShow: 1b
+								BackpackShow: 1b
+								ChatBubbleShow: 1b
+								OpenDoor: 1b
+								OpenFenceGate: 1b
+								PickupType: 2
+								SoundFreq: 1.0f
+							}
+							MaidTask: "touhou_little_maid:idle"
+							MaidTaskDataMaps: { }
+							ModelId: "touhou_little_maid:mystia_lorelei"
+							Motion: [
+								0.0d
+								-0.0784000015258789d
+								0.0d
+							]
+							OnGround: 1b
+							Owner: [I;
+								-1090879489
+								1301168121
+								-1498517742
+								707677112
+							]
+							PersistenceRequired: 0b
+							PortalCooldown: 0
+							Pos: [
+								120.42326232599521d
+								128.0d
+								60.41981019658327d
+							]
+							Rotation: [
+								0.0f
+								0.0f
+							]
+							Sitting: 0b
+							SoundPackId: "littlemaid_peco"
+							StruckByLightning: 0b
+							StructureSpawn: 0b
+							UUID: [I;
+								808077909
+								1319979264
+								-1689622633
+								-193024906
+							]
+							UsingSpectreBoundedSpyglass: 0b
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "魂符"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["570626EC269040A9"]
+			description: ["呜呜呜，你个坏主人！"]
+			id: "2788E561AA51FCFA"
+			tasks: [{
+				id: "6AF4E6C9D4422C5F"
+				item: "touhou_little_maid:film"
+				type: "item"
+			}]
+			title: "胶片"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1B3B25F7487DF758"]
+			description: ["御币是巫女的象征，可以用它来激活祭坛进行仪式，或者发射弹幕。"]
+			id: "4B474602C7639F0A"
+			tasks: [{
+				id: "534FABF9CAA96E66"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "touhou_little_maid:sanae_gohei"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "touhou_little_maid:hakurei_gohei"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "御币"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B3B25F7487DF758"]
+			description: [
+				"P 点可以用于发射弹幕，进行仪式，或者存储在神社亭灯中给予女仆 buff。可以在结构的箱子中找到 P 点。"
+				""
+				"注意，P 点是有上限的，所以多余的 P 点还是保留或者存储在神社亭灯内吧。"
+			]
+			id: "63F22966BE982954"
+			rewards: [{
+				count: 8
+				id: "34A83F759F29DBB6"
+				item: "touhou_little_maid:power_point"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A08DCB55FF259E0"
+				item: "touhou_little_maid:power_point"
+				type: "item"
+			}]
+			title: "PPT"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B474602C7639F0A"]
+			description: ["祭坛具体的摆放方法请参考《记忆中的幻想乡》。"]
+			icon: {
+				Count: 1
+				id: "touhou_little_maid:entity_placeholder"
+				tag: {
+					RecipeId: "touhou_little_maid:altar/spawn_box"
+				}
+			}
+			id: "6902261308A0D69F"
+			tasks: [{
+				id: "12F2A928330A7AC9"
+				title: "建造祭坛"
+				type: "checkmark"
+			}]
+			title: "祭坛"
+			x: -3.0d
+			y: 0.0d
+		}
+	]
+	title: "&e幻想乡女仆"
+}

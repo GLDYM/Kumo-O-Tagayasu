@@ -1,0 +1,168 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farmers_delight"
+	group: "3B8AF43E1258A852"
+	icon: "farmersdelight:rice_panicle"
+	id: "0E15DEDCD6B01133"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: false
+			description: [
+				"看上去是匕首，其实是切菜的刀。不过也经常被用来砍怪。"
+				""
+				"当然你真的拿把匕首切菜也不是不行。"
+			]
+			id: "6932BE3FBDD3A55D"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "068627819A7BB6B3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "farmersdelight:tools/knives"
+					}
+				}
+				type: "item"
+			}]
+			title: "&6农夫乐事"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6932BE3FBDD3A55D"]
+			description: [
+				"不会被水和雨浇灭的热源，可像营火一样直接烹饪食物。"
+				""
+				"同时一些厨具需要放在灶上面才能运作。"
+			]
+			hide_until_deps_complete: true
+			icon: "farmersdelight:stove"
+			id: "5655DA88F6ED0975"
+			tasks: [{
+				id: "618AE9F8ED3198AC"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6932BE3FBDD3A55D"]
+			description: ["下方有热源时，可以烹饪食物，热源的选择是多样的，一般来说你觉得能发热的能当作热源"]
+			hide_until_deps_complete: true
+			icon: "farmersdelight:cooking_pot"
+			id: "7BCD591A3375360A"
+			tasks: [{
+				id: "522F8BBC9C83D267"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6932BE3FBDD3A55D"]
+			description: [
+				"当副手持有食物时用煎锅对着热源按住右键即可加热"
+				"放下煎锅，将食物右击放置在煎锅上即可加热"
+				"它还能被用作武器！"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "farmersdelight:skillet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3B0EBC9A75AE9AC6"
+			tasks: [{
+				id: "4ED213E2C5173028"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6932BE3FBDD3A55D"]
+			description: [
+				"右键将物品放上去，使用指定工具右击进行加工"
+				"副手物品，主手持刀，狂按右键可以快速切菜"
+			]
+			hide_until_deps_complete: true
+			icon: "farmersdelight:cutting_board"
+			id: "4D918C3B0188F47D"
+			tasks: [{
+				id: "63AFD06587949019"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6932BE3FBDD3A55D"]
+			description: [
+				"可以吸取开口方向的物品，倒置的时候甚至都可用！"
+				"非常好用的自动化工具"
+			]
+			hide_until_deps_complete: true
+			icon: "farmersdelight:basket"
+			id: "30734C65BE074249"
+			tasks: [{
+				id: "411091132ACF75D9"
+				item: "farmersdelight:basket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6932BE3FBDD3A55D"]
+			description: ["它只差一步就变成沃土了"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: false
+			icon: "farmersdelight:organic_compost"
+			id: "3F5D1EBC9926E424"
+			tasks: [{
+				id: "2D7AF62BD4358850"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F5D1EBC9926E424"]
+			description: [
+				"将有机肥料放置于世界中，一段时间后有机肥料将会自然降解为沃土。"
+				"有机肥料的降解在日光下和在水附近会被加速。还可以放置催化物来加速分解。"
+				""
+				"沃土上面的作物会出现骨粉催熟效果，长得飞快！"
+				"足够暗的时候，蘑菇会生长为菌落"
+			]
+			icon: "farmersdelight:rich_soil"
+			id: "30D32B907A3C1F53"
+			tasks: [{
+				id: "251ADA9DAA5ECDBA"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	title: "&e面朝大地者"
+}

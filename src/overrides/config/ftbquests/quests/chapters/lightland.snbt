@@ -1,0 +1,353 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lightland"
+	group: "31669C96F582CF92"
+	icon: {
+		Count: 1
+		id: "l2weaponry:abyss_echo"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "7E134D75B3BBB797"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"本模组提供了大量特殊的材料，玩家需要完成特殊挑战来获得材料。"
+				""
+				"&b这些挑战可能会非常红温，建议做好充足的准备再进行。铁魔法、机械动力等模组的内容对于某些材料的获取十分有帮助。"
+				""
+				"&a理论上本章的材料都可以进行量产。如果前面章节的量产对于你来说都太简单了，可以尝试本章材料的量产。"
+			]
+			icon: "createdeco:decal_warning"
+			id: "2FD7C5E21DB6BB22"
+			size: 2.0d
+			tasks: [{
+				id: "5DEF2D3ECB5EF5BD"
+				type: "checkmark"
+			}]
+			title: "&6莱特兰-扩充"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: ["使用玻璃瓶与幻翼膜合成"]
+			hide_until_deps_complete: true
+			id: "37311212A4BB2069"
+			tasks: [{
+				id: "5D1A2A6141BC4581"
+				item: "l2complements:wind_capture_bottle"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37311212A4BB2069"]
+			description: ["起飞！"]
+			hide_until_deps_visible: true
+			id: "59C65D9F40BA247A"
+			tasks: [{
+				id: "15CC261AE9AEF266"
+				item: "l2complements:captured_wind"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["37311212A4BB2069"]
+			description: ["潜影贝：？"]
+			hide_until_deps_visible: true
+			id: "16B6CB0A599E084B"
+			tasks: [{
+				id: "5E0DE0B1313E715F"
+				item: "l2complements:captured_shulker_bullet"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: ["除了玩家亲自近战，在虚空之下可行的处死手段似乎还有不少？"]
+			hide_until_deps_complete: true
+			id: "5E6DB02441CA7C01"
+			tasks: [{
+				id: "14F3936C496487C4"
+				item: "l2complements:void_eye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: ["围观群众：这个人为什么要带着一群幻翼在y=319起飞"]
+			hide_until_deps_complete: true
+			id: "0B76C937BD7577CE"
+			tasks: [{
+				id: "33B461309C0A95CD"
+				item: "l2complements:sun_membrane"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: [
+				"玩家：你敢违抗拥有80血和全套爆炸保护6的我吗？"
+				"末地水晶：？！"
+			]
+			hide_until_deps_complete: true
+			id: "3EF0DFF0442CBF6A"
+			tasks: [{
+				id: "662AED48EFFB1DBA"
+				item: "l2complements:explosion_shard"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: ["较为简单的获取方式，以至于和其他材料格格不入（"]
+			hide_until_deps_complete: true
+			id: "7503242768D82BBE"
+			tasks: [{
+				id: "0978B3D6D760A882"
+				item: "l2complements:hard_ice"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: ["困住恶魂后使用魂炎弹击杀获得。"]
+			hide_until_deps_complete: true
+			id: "589B036897FCA3C7"
+			tasks: [{
+				id: "76C74104EBB0918F"
+				item: "l2complements:soul_flame"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: ["使用爆炎弹攻击幻翼后获得。"]
+			hide_until_deps_complete: true
+			id: "7246A8DB4D05C91D"
+			tasks: [{
+				id: "692CD6E34EF4F356"
+				item: "l2complements:storm_core"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: ["使用黑炎弹攻击猪灵蛮兵后杀死它。蛮兵的再生也是需要解决的一个难题。"]
+			hide_until_deps_complete: true
+			id: "08BDB731A3E44277"
+			tasks: [{
+				id: "0E51589CB44EC50B"
+				item: "l2complements:blackstone_core"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: [
+				"铁魔法：无所谓，我会出手"
+				"音爆法术和神圣守护可以轻松达成目标"
+			]
+			hide_until_deps_complete: true
+			id: "4397B27C24F91911"
+			tasks: [{
+				id: "0C1A489E06E4E3FD"
+				item: "l2complements:resonant_feather"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: ["机械手：什么，在想我的事？"]
+			hide_until_deps_complete: true
+			id: "2BB501958B2833D8"
+			tasks: [{
+				id: "4B77D797702C5CF7"
+				item: "l2complements:warden_bone_shard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: ["远古守卫者因为天天给海上航行的玩家上debuff，坏事做尽遭雷劈了。"]
+			hide_until_deps_complete: true
+			id: "64326EA00C211D2E"
+			tasks: [{
+				id: "155D7B7BE2929D1E"
+				item: "l2complements:guardian_eye"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78AC1B1140320C11"]
+			description: ["焚烧转化：绿宝石或绿宝石块"]
+			hide_until_deps_visible: true
+			id: "5A0C02536739C87C"
+			tasks: [{
+				id: "0F01801C06543344"
+				item: "l2complements:heirophant_green"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78AC1B1140320C11"]
+			description: ["焚烧转化：各种《灵魂》物品（请看JEI）"]
+			hide_until_deps_visible: true
+			id: "36DC8B1604C69DEC"
+			tasks: [{
+				id: "3EB731ED8C4C0D26"
+				item: "l2complements:cursed_droplet"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78AC1B1140320C11"]
+			description: ["焚烧转化：不死图腾或肉"]
+			hide_until_deps_visible: true
+			id: "22FF5BF2ADABF847"
+			tasks: [{
+				id: "4DC7670DBC0BD411"
+				item: "l2complements:life_essence"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: ["怎么感觉像把凋零的衣服扒了下来？"]
+			hide_until_deps_complete: true
+			id: "69444301F9A3BB33"
+			tasks: [{
+				id: "6A063A5D1DAC0D09"
+				item: "l2complements:force_field"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: ["材料特性：消耗耐久时治疗使用者"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "716328F5A86B767F"
+			tasks: [{
+				id: "15D6BD0C94EB36B9"
+				item: "l2complements:totemic_gold_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: ["材料特性：在水/雨中时，拥有强化效果"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "76599B9323E62A20"
+			tasks: [{
+				id: "1DF2DC9D089D0F11"
+				item: "l2complements:poseidite_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: ["材料特性：极其坚硬，每次最多减少1耐久"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "476CE657941C95AC"
+			tasks: [{
+				id: "7DBF86408C5C58B6"
+				item: "l2complements:shulkerate_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: ["材料特性：全套幽匿套会消除玩家发出的声音"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "345578A1C453EA9B"
+			tasks: [{
+				id: "711425D8B153B330"
+				item: "l2complements:sculkium_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: ["材料特性：无限的耐久，极高的面板"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0F942D9DF85807D3"
+			tasks: [{
+				id: "0C3E47B43D35D6FA"
+				item: "l2complements:eternium_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: [
+				"顾名思义，将对应的原材料扔进火/岩浆中，有极小的概率会转化为对应的材料。"
+				"或许你需要自动化生产原料？"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:lava_bucket"
+			id: "78AC1B1140320C11"
+			tasks: [{
+				id: "26502DA7EC933B65"
+				title: "焚烧转化"
+				type: "checkmark"
+			}]
+			title: "焚烧转化"
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: "&5神兵锻造者"
+}
