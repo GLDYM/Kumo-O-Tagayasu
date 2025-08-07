@@ -1,5 +1,5 @@
 {
-  "type": "youkaishomecoming:moka_pot",
+  "type": "youkaisfeasts:moka_pot",
   "container": {
     "item": "minecraft:glass_bottle"
   },
@@ -17,11 +17,11 @@
       "tag": "forge:coffee_powder"
     },
     {
-      "item": "youkaishomecoming:bowl_of_cream"
+      "item": "youkaisfeasts:bowl_of_cream"
     }
   ],
   "recipe_book_tab": "drinks",
   "result": {
-    "item": "youkaishomecoming:con_panna"
+    "item": "youkaisfeasts:con_panna"
   }
 }

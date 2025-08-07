@@ -10,11 +10,11 @@
       "item": "irons_spellbooks:ice_rune"
       },
     "B": {
-      "tag": "youkaishomecoming:circle_danmaku"
+      "tag": "youkaisfeasts:circle_danmaku"
     }
   },
   "result": {
-    "item": "youkaishomecoming:fairy_ice_crystal",
+    "item": "youkaisfeasts:fairy_ice_crystal",
     "count": 1
   }
 }

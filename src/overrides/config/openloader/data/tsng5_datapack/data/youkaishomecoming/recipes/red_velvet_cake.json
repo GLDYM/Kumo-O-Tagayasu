@@ -13,17 +13,17 @@
       "tag": "forge:milk"
     },
     "C": {
-      "item": "youkaishomecoming:blood_bottle"
+      "item": "youkaisfeasts:blood_bottle"
     },
     "D": {
-      "item": "youkaishomecoming:flesh"
+      "item": "youkaisfeasts:flesh"
     },
     "E": {
       "tag": "forge:crops/wheat"
     }
     },
   "result": {
-    "item": "youkaishomecoming:red_velvet_cake"
+    "item": "youkaisfeasts:red_velvet_cake"
   },
   "show_notification": true
 }

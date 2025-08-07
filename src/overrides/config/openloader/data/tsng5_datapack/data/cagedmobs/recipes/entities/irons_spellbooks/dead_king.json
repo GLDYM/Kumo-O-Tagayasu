@@ -34,22 +34,6 @@
 				},
 				"minAmount": 3,
 				"maxAmount": 8
-		},
-		{
-			"chance": 0.1,
-				"output": {
-					"item": "irons_spellbooks:blood_staff"
-				},
-				"minAmount": 1,
-				"maxAmount": 1
-		},
-		{
-			"chance": 0.1,
-				"output": {
-					"item": "irons_spellbooks:necronomicon_spell_book"
-				},
-				"minAmount": 1,
-				"maxAmount": 1
 		}
 	]
 	

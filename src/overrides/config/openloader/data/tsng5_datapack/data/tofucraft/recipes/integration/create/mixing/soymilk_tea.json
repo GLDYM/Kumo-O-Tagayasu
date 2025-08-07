@@ -8,7 +8,7 @@
   "type" : "create:mixing",
   "ingredients" : [
     {
-      "item" : "youkaishomecoming:black_tea_leaves",
+      "item" : "youkaisfeasts:black_tea_leaves",
       "count": 1
     },
     {

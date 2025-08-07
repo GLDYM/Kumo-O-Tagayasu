@@ -1,5 +1,5 @@
 {
-  "type": "youkaishomecoming:moka_pot",
+  "type": "youkaisfeasts:moka_pot",
   "container": {
     "item": "minecraft:glass_bottle"
   },
@@ -7,17 +7,17 @@
   "experience": 0.1,
   "ingredients": [
     {
-      "item": "youkaishomecoming:espresso"
+      "item": "youkaisfeasts:espresso"
     },
     {
       "tag": "forge:milk"
     },
     {
-      "item": "youkaishomecoming:bowl_of_cream"
+      "item": "youkaisfeasts:bowl_of_cream"
     }
   ],
   "recipe_book_tab": "drinks",
   "result": {
-    "item": "youkaishomecoming:cappuccino"
+    "item": "youkaisfeasts:cappuccino"
   }
 }

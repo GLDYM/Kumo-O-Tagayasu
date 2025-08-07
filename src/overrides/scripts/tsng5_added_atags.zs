@@ -27,16 +27,6 @@
 <tag:items:forge:crops/sweet_berries>.add(<item:minecraft:glow_berries>);
 <tag:items:forge:fruits/sweet_berries>.add(<item:minecraft:glow_berries>);
 
-<tag:items:forge:crops>.add(<item:caupona:fig>);
-<tag:items:forge:fruits>.add(<item:caupona:fig>);
-<tag:items:forge:crops/fig>.add(<item:caupona:fig>);
-<tag:items:forge:fruits/fig>.add(<item:caupona:fig>);
-
-<tag:items:forge:crops>.add(<item:caupona:wolfberries>);
-<tag:items:forge:fruits>.add(<item:caupona:wolfberries>);
-<tag:items:forge:crops/wolfberries>.add(<item:caupona:wolfberries>);
-<tag:items:forge:fruits/wolfberries>.add(<item:caupona:wolfberries>);
-
 <tag:items:forge:crops>.add(<item:fruitsdelight:blueberry>);
 <tag:items:forge:fruits>.add(<item:fruitsdelight:blueberry>);
 <tag:items:forge:berries>.add(<item:fruitsdelight:blueberry>);
@@ -274,8 +264,6 @@
 <tag:items:forge:meats>.add(<item:delightful:venison_chops>);
 <tag:items:forge:rawmeats>.add(<item:delightful:venison_chops>);
 <tag:items:farmersdelight:cabbage_roll_ingredients>.add(<item:delightful:venison_chops>);
-<tag:items:caupona:meats/meat>.add(<item:delightful:venison_chops>);
-<tag:items:caupona:meats>.add(<item:delightful:venison_chops>);
 
 <tag:items:forge:cooked_vension>.add(<item:delightful:cooked_venison_chops>);
 <tag:items:c:cooked_meat>.add(<item:delightful:cooked_venison_chops>);
@@ -284,8 +272,6 @@
 <tag:items:forge:meats>.add(<item:delightful:cooked_venison_chops>);
 <tag:items:forge:cookedmeats>.add(<item:delightful:cooked_venison_chops>);
 <tag:items:farmersdelight:cabbage_roll_ingredients>.add(<item:delightful:cooked_venison_chops>);
-<tag:items:caupona:meats/meat>.add(<item:delightful:cooked_venison_chops>);
-<tag:items:caupona:meats>.add(<item:delightful:cooked_venison_chops>);
 
 <tag:items:forge:raw_pork>.add(<item:mynethersdelight:hoglin_loin>);
 <tag:items:c:raw_meat>.add(<item:mynethersdelight:hoglin_loin>);
@@ -294,8 +280,6 @@
 <tag:items:forge:meats>.add(<item:mynethersdelight:hoglin_loin>);
 <tag:items:forge:rawmeats>.add(<item:mynethersdelight:hoglin_loin>);
 <tag:items:farmersdelight:cabbage_roll_ingredients>.add(<item:mynethersdelight:hoglin_loin>);
-<tag:items:caupona:meats/meat>.add(<item:mynethersdelight:hoglin_loin>);
-<tag:items:caupona:meats>.add(<item:mynethersdelight:hoglin_loin>);
 
 <tag:items:forge:cooked_pork>.add(<item:mynethersdelight:cooked_loin>);
 <tag:items:c:cooked_meat>.add(<item:mynethersdelight:cooked_loin>);
@@ -304,8 +288,6 @@
 <tag:items:forge:meats>.add(<item:mynethersdelight:cooked_loin>);
 <tag:items:forge:cookedmeats>.add(<item:mynethersdelight:cooked_loin>);
 <tag:items:farmersdelight:cabbage_roll_ingredients>.add(<item:mynethersdelight:cooked_loin>);
-<tag:items:caupona:meats/meat>.add(<item:mynethersdelight:cooked_loin>);
-<tag:items:caupona:meats>.add(<item:mynethersdelight:cooked_loin>);
 
 <tag:items:c:raw_meat>.add(<item:youkaishomecoming:flesh>);
 <tag:items:forge:raw_meat>.add(<item:youkaishomecoming:flesh>);
@@ -313,8 +295,6 @@
 <tag:items:forge:meats>.add(<item:youkaishomecoming:flesh>);
 <tag:items:forge:rawmeats>.add(<item:youkaishomecoming:flesh>);
 <tag:items:farmersdelight:cabbage_roll_ingredients>.add(<item:youkaishomecoming:flesh>);
-<tag:items:caupona:meats/meat>.add(<item:youkaishomecoming:flesh>);
-<tag:items:caupona:meats>.add(<item:youkaishomecoming:flesh>);
 
 <tag:items:c:cooked_meat>.add(<item:youkaishomecoming:cooked_flesh>);
 <tag:items:forge:cooked_meat>.add(<item:youkaishomecoming:cooked_flesh>);
@@ -322,8 +302,6 @@
 <tag:items:forge:meats>.add(<item:youkaishomecoming:cooked_flesh>);
 <tag:items:forge:cookedmeats>.add(<item:youkaishomecoming:cooked_flesh>);
 <tag:items:farmersdelight:cabbage_roll_ingredients>.add(<item:youkaishomecoming:cooked_flesh>);
-<tag:items:caupona:meats/meat>.add(<item:youkaishomecoming:cooked_flesh>);
-<tag:items:caupona:meats>.add(<item:youkaishomecoming:cooked_flesh>);
 # VEGETABLES
 
 <tag:items:forge:crops>.add(<item:farm_and_charm:tomato>);
@@ -367,14 +345,6 @@
 
 <tag:items:forge:chilipepper>.add(<item:crockpot:pepper>);
 
-<tag:items:forge:crops>.add(<item:caupona:walnut>);
-<tag:items:forge:crops/nut>.add(<item:caupona:walnut>);
-<tag:items:forge:crops/walnut>.add(<item:caupona:walnut>);
-<tag:items:forge:nut>.add(<item:caupona:walnut>);
-<tag:items:forge:nuts>.add(<item:caupona:walnut>);
-<tag:items:forge:nut/walnut>.add(<item:caupona:walnut>);
-<tag:items:forge:nuts/walnut>.add(<item:caupona:walnut>);
-
 <tag:items:forge:crops>.add(<item:vintagedelight:peanut>);
 <tag:items:forge:crops/nut>.add(<item:vintagedelight:peanut>);
 <tag:items:forge:crops/peanut>.add(<item:vintagedelight:peanut>);
@@ -407,7 +377,6 @@
 <tag:items:farm_and_charm:wheat>.add(<item:vintagedelight:oat>);
 <tag:items:farm_and_charm:wheat>.add(<item:vintagedelight:oat>);
 <tag:items:meadow:wheat>.add(<item:vintagedelight:oat>);
-<tag:items:caupona:cereals>.add(<item:vintagedelight:oat>);
 
 <tag:items:forge:crops>.add(<item:mysticsbiomes:sea_oats>);
 <tag:items:forge:crops/oat>.add(<item:mysticsbiomes:sea_oats>);
@@ -419,7 +388,6 @@
 <tag:items:farm_and_charm:wheat>.add(<item:mysticsbiomes:sea_oats>);
 <tag:items:farm_and_charm:wheat>.add(<item:mysticsbiomes:sea_oats>);
 <tag:items:meadow:wheat>.add(<item:mysticsbiomes:sea_oats>);
-<tag:items:caupona:cereals>.add(<item:mysticsbiomes:sea_oats>);
 
 <tag:items:forge:crops>.add(<item:regions_unexplored:barley>);
 <tag:items:forge:crops/barley>.add(<item:regions_unexplored:barley>);
@@ -431,7 +399,6 @@
 <tag:items:farm_and_charm:wheat>.add(<item:regions_unexplored:barley>);
 <tag:items:farm_and_charm:wheat>.add(<item:regions_unexplored:barley>);
 <tag:items:meadow:wheat>.add(<item:regions_unexplored:barley>);
-<tag:items:caupona:cereals>.add(<item:regions_unexplored:barley>);
 
 <tag:items:pizzacraft:ingredients>.add(<item:corn_delight:corn>);
 <tag:items:pizzacraft:ingredients/vegetables/corn_layer>.add(<item:corn_delight:corn>);
@@ -440,28 +407,24 @@
 <tag:items:pizzacraft:ingredients/vegetables/corn_layer>.add(<item:corn_delight:corn_seeds>);
 
 <tag:items:forge:mushrooms>.add(<item:spelunkery:button_mushroom>);
-<tag:items:caupona:mushroom>.add(<item:spelunkery:button_mushroom>);
 <tag:items:c:mushrooms>.add(<item:spelunkery:button_mushroom>);
 <tag:items:pizzacraft:fermenting_items>.add(<item:spelunkery:button_mushroom>);
 <tag:items:farm_and_charm:mushrooms>.add(<item:spelunkery:button_mushroom>);
 <tag:items:farmersdelight:cabbage_roll_ingredients>.add(<item:spelunkery:button_mushroom>);
 
 <tag:items:forge:mushrooms>.add(<item:spelunkery:button_mushroom>);
-<tag:items:caupona:mushroom>.add(<item:spelunkery:button_mushroom>);
 <tag:items:c:mushrooms>.add(<item:spelunkery:button_mushroom>);
 <tag:items:pizzacraft:fermenting_items>.add(<item:spelunkery:button_mushroom>);
 <tag:items:farm_and_charm:mushrooms>.add(<item:spelunkery:button_mushroom>);
 <tag:items:farmersdelight:cabbage_roll_ingredients>.add(<item:spelunkery:button_mushroom>);
 
 <tag:items:forge:mushrooms>.add(<item:spelunkery:crimini>);
-<tag:items:caupona:mushroom>.add(<item:spelunkery:crimini>);
 <tag:items:c:mushrooms>.add(<item:spelunkery:crimini>);
 <tag:items:pizzacraft:fermenting_items>.add(<item:spelunkery:crimini>);
 <tag:items:farm_and_charm:mushrooms>.add(<item:spelunkery:crimini>);
 <tag:items:farmersdelight:cabbage_roll_ingredients>.add(<item:spelunkery:crimini>);
 
 <tag:items:forge:mushrooms>.add(<item:spelunkery:portabella>);
-<tag:items:caupona:mushroom>.add(<item:spelunkery:portabella>);
 <tag:items:c:mushrooms>.add(<item:spelunkery:portabella>);
 <tag:items:pizzacraft:fermenting_items>.add(<item:spelunkery:portabella>);
 <tag:items:farm_and_charm:mushrooms>.add(<item:spelunkery:portabella>);
@@ -477,20 +440,14 @@
 <tag:items:forge:seeds>.add(<item:youkaishomecoming:redbean>);
 <tag:items:forge:seeds/adzuki>.add(<item:youkaishomecoming:redbean>);
 # SEAFOODS
-<tag:items:caupona:seafood>.add(<item:youkaishomecoming:raw_lamprey_fillet>);
-<tag:items:caupona:seafood/fish>.add(<item:youkaishomecoming:raw_lamprey_fillet>);
 <tag:items:minecraft:fishes>.add(<item:youkaishomecoming:raw_lamprey_fillet>);
 <tag:items:forge:raw_fishes>.add(<item:youkaishomecoming:raw_lamprey_fillet>);
 <tag:items:c:raw_fish>.add(<item:youkaishomecoming:raw_lamprey_fillet>);
-<tag:items:caupona:seafood>.add(<item:youkaishomecoming:raw_lamprey_fillet>);
-<tag:items:caupona:seafood/fish>.add(<item:youkaishomecoming:raw_lamprey_fillet>);
 <tag:items:forge:meats>.add(<item:youkaishomecoming:raw_lamprey_fillet>);
 <tag:items:minecraft:is_meat>.add(<item:youkaishomecoming:raw_lamprey_fillet>);
 <tag:items:minecraft:fishes>.add(<item:youkaishomecoming:raw_lamprey_fillet>);
 <tag:items:forge:raw_fishes>.add(<item:youkaishomecoming:raw_lamprey_fillet>);
 <tag:items:c:raw_fish>.add(<item:youkaishomecoming:raw_lamprey_fillet>);
-<tag:items:caupona:seafood>.add(<item:youkaishomecoming:roasted_lamprey_fillet>);
-<tag:items:caupona:seafood/fish>.add(<item:youkaishomecoming:roasted_lamprey_fillet>);
 <tag:items:forge:meats>.add(<item:youkaishomecoming:roasted_lamprey_fillet>);
 <tag:items:minecraft:is_meat>.add(<item:youkaishomecoming:roasted_lamprey_fillet>);
 <tag:items:minecraft:fishes>.add(<item:youkaishomecoming:roasted_lamprey_fillet>);
@@ -578,22 +535,13 @@
 <tag:items:forge:coffee_powder>.add(<item:createcafe:coffee_grounds>);
 <tag:items:minecraft:logs>.add(<tag:items:bloomingnature:logs>);
 <tag:items:bloomingnature:logs>.add(<tag:items:minecraft:logs>);
-<tag:items:caupona:fuel/woods>.add(<tag:items:minecraft:logs>);
 <tag:items:minecraft:completes_find_tree_tutorial>.add(<tag:items:minecraft:logs>);
 <tag:items:minecraft:logs_that_burn>.add(<tag:items:bloomingnature:logs>);
 <tag:items:forge:fruits>.add(<tag:items:forge:berries>);
 <tag:items:minecraft:fox_food>.add(<tag:items:forge:berries>);
-<tag:items:forge:vegetables>.add(<tag:items:caupona:vegetables>);
-<tag:items:caupona:vegetables>.add(<tag:items:forge:vegetables>);
-<tag:items:caupona:vinegar_fruits>.add(<tag:items:forge:fruits>);
-<tag:items:caupona:sugar>.add(<tag:items:forge:fruits>);
 <tag:items:c:raw_beef>.add(<tag:items:forge:raw_beef>);
 <tag:items:farm_and_charm:raw_beef>.add(<tag:items:forge:raw_beef>);
 <tag:items:farm_and_charm:cooked_beef>.add(<tag:items:forge:cooked_beef>);
-<tag:items:caupona:meats>.add(<tag:items:forge:raw_meats>);
-<tag:items:caupona:meats/meat>.add(<tag:items:forge:raw_meats>);
-<tag:items:caupona:meats>.add(<tag:items:forge:cooked_meats>);
-<tag:items:caupona:meats/meat>.add(<tag:items:forge:cooked_meats>);
 <tag:items:farmersdelight:cabbage_roll_ingredients>.add(<tag:items:forge:raw_meats>);
 <tag:items:c:raw_meat>.add(<tag:items:forge:raw_meats>);
 <tag:items:c:cooked_meat>.add(<tag:items:forge:cooked_meats>);
@@ -602,12 +550,6 @@
 <tag:items:minecraft:is_meat>.add(<tag:items:forge:meats>);
 <tag:items:c:raw_fish>.add(<tag:items:forge:raw_fishes>);
 <tag:items:c:cooked_fish>.add(<tag:items:forge:cooked_fishes>);
-<tag:items:caupona:seafood>.add(<tag:items:minecraft:fishes>);
-<tag:items:caupona:seafood/fish>.add(<tag:items:minecraft:fishes>);
-<tag:items:caupona:seafood>.add(<tag:items:forge:raw_fishes>);
-<tag:items:caupona:seafood/fish>.add(<tag:items:forge:raw_fishes>);
-<tag:items:caupona:seafood>.add(<tag:items:forge:cooked_fishes>);
-<tag:items:caupona:seafood/fish>.add(<tag:items:forge:cooked_fishes>);
 <tag:items:farmersdelight:cabbage_roll_ingredients>.add(<tag:items:forge:raw_fishes>);
 <tag:items:vinery:grape>.add(<tag:items:forge:crops/grape>);
 <tag:items:forge:fermentation>.add(<tag:items:forge:crops/grape>);
@@ -638,7 +580,6 @@
 <tag:items:forge:food/raw_pasta>.add(<item:farm_and_charm:raw_pasta>);
 <tag:items:convivium:fruits>.add(<tag:items:forge:fruits>);
 <tag:items:forge:ice_cubes>.add(<item:youkaishomecoming:ice_cube>);
-<tag:items:caupona:ice>.add(<item:youkaishomecoming:ice_cube>);
 
 
 # KNIVES

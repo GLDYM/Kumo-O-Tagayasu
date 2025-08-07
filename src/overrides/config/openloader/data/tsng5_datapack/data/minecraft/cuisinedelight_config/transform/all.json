@@ -9,8 +9,8 @@
       "next": "delightful:cactus_steak",
       "stage": "COOKED"
     },
-    "youkaishomecoming:flesh": {
-      "next": "youkaishomecoming:cooked_flesh",
+    "youkaisfeasts:flesh": {
+      "next": "youkaisfeasts:cooked_flesh",
       "stage": "COOKED"
     },
     "casualness_delight:raw_donkey_meat": {
@@ -21,8 +21,8 @@
       "next": "miners_delight:cooked_arthropod",
       "stage": "COOKED"
     },
-    "youkaishomecoming:raw_lamprey_fillet": {
-      "next": "youkaishomecoming:roasted_lamprey_fillet",
+    "youkaisfeasts:raw_lamprey_fillet": {
+      "next": "youkaisfeasts:roasted_lamprey_fillet",
       "stage": "COOKED"
     },
     "miners_delight:squid": {

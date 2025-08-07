@@ -8,7 +8,7 @@
           "item": "delightful:venison_chops"
         },
         {
-          "item": "youkaishomecoming:flesh"
+          "item": "youkaisfeasts:flesh"
         },
         {
           "item": "casualness_delight:raw_donkey_meat"
@@ -43,7 +43,7 @@
       "effects": [],
       "ingredient": [
         {
-          "item": "youkaishomecoming:raw_lamprey_fillet"
+          "item": "youkaisfeasts:raw_lamprey_fillet"
         },
         {
           "item": "miners_delight:squid"

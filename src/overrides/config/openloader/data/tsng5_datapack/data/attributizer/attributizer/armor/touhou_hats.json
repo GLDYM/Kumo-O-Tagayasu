@@ -1,5 +1,5 @@
 {
-  "youkaishomecoming:reimu_hairband":[
+  "youkaisfeasts:reimu_hairband":[
     {
       "attribute": "minecraft:generic.max_health",
       "modify": -6,
@@ -16,7 +16,7 @@
       "operation": "ADDITION"
     }
   ],
-  "youkaishomecoming:rumia_hairband":[
+  "youkaisfeasts:rumia_hairband":[
     {
       "attribute": "minecraft:generic.max_health",
       "modify": -6,
@@ -33,7 +33,7 @@
       "operation": "ADDITION"
     }
   ],
-  "youkaishomecoming:koishi_hat":[
+  "youkaisfeasts:koishi_hat":[
     {
       "attribute": "minecraft:generic.max_health",
       "modify": -6,
@@ -55,7 +55,7 @@
       "operation": "ADDITION"
     }
   ],
-  "youkaishomecoming:suwako_hat":[
+  "youkaisfeasts:suwako_hat":[
     {
       "attribute": "minecraft:generic.max_health",
       "modify": -5,

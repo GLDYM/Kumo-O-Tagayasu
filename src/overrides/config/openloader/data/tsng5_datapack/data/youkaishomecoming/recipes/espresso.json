@@ -1,5 +1,5 @@
 {
-  "type": "youkaishomecoming:moka_pot",
+  "type": "youkaisfeasts:moka_pot",
   "container": {
     "item": "minecraft:glass_bottle"
   },
@@ -16,6 +16,6 @@
   ],
   "recipe_book_tab": "drinks",
   "result": {
-    "item": "youkaishomecoming:espresso"
+    "item": "youkaisfeasts:espresso"
   }
 }

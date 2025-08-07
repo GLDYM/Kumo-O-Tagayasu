@@ -1,13 +1,13 @@
 {
   "type": "farmersdelight:cooking",
   "container": {
-    "item": "youkaishomecoming:saucer"
+    "item": "youkaisfeasts:saucer"
   },
   "cookingtime": 200,
   "experience": 0.1,
   "ingredients": [
     {
-      "item": "youkaishomecoming:tofu"
+      "item": "youkaisfeasts:tofu"
     },
     {
       "tag": "forge:butter"
@@ -17,6 +17,6 @@
     }
   ],
   "result": {
-    "item": "youkaishomecoming:tofu_burger"
+    "item": "youkaisfeasts:tofu_burger"
   }
 }

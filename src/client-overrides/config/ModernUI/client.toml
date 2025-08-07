@@ -155,7 +155,7 @@
 	#Note that for TTC/OTC font, you should register it and select one of font families.
 	#Otherwise, only the first font family from the TrueType/OpenType Collection will be used.
 	#This is only read once when the game is loaded, you can reload via in-game GUI.
-	fallbackFontFamilyList = ["Microsoft Yahei", "Microsoft Yahei UI", "mui-i18n-compat"]
+	fallbackFontFamilyList = ["MapleMono NF CN", "Microsoft Yahei", "Microsoft Yahei UI", "mui-i18n-compat"]
 	#Whether to use Google Noto Color Emoji, otherwise grayscale emoji (faster).
 	#See Unicode 15.0 specification for details on how this affects text layout.
 	useColorEmoji = true
