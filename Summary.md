@@ -145,7 +145,7 @@
 
 - Structure credits/Draggable lists/Chat Shot/Cycle Title Screen Splash/Explosive enhancement
   - 都是些比较细节的功能模组
-  - Explosive enhancement 降低 TNT 的
+  - Explosive enhancement 降低 TNT 的卡顿
 
 ## 平衡
 

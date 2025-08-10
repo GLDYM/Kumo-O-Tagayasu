@@ -4,4 +4,4 @@ mrpack-install-windows.exe
 mrpack-install-linux
 
 # remove client config
-src/overrides/config/*client.toml
+src/overrides/config/*client.toml 

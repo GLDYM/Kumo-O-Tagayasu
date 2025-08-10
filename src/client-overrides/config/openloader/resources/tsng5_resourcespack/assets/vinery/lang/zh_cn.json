@@ -253,7 +253,7 @@
   "tooltip.vinery.winemaker_armor": "酿酒师的青睐：",
   "tooltip.vinery.winemaker_armor2": "套装加成：",
   "tooltip.vinery.winemaker_armor3": "骨粉不再被消耗",
-  "tooltip.vinery.year": "生产年份："
+  "tooltip.vinery.year": "生产年份：",
   "vinery.config.entry.damagePerUse": "使用耐久消耗量",
   "vinery.config.entry.destroyBlocks": "苦力怕破坏方块",
   "vinery.config.entry.enableNetherLattices": "启用下界格架",
