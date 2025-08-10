@@ -1,0 +1,16 @@
+#Always allow refreshing trade.
+# Only trades added at current villager level will be refreshed.
+alwaysAllowRefresh = false
+#Allow player to use emerald block to force restock
+allowEmeraldBlockForceRestock = true
+banAllTradeEnchantmentsByDefault = false
+tradeNamespaceBlacklist = []
+tradeNamespaceWhitelist = ["minecraft"]
+tradeIdBlacklist = []
+tradeIdWhitelist = ["minecraft:unbreaking"]
+banAllTableEnchantmentsByDefault = false
+tableNamespaceBlacklist = []
+tableNamespaceWhitelist = ["minecraft"]
+tableIdBlacklist = []
+tableIdWhitelist = ["minecraft:unbreaking"]
+

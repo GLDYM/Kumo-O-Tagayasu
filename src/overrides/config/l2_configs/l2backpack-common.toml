@@ -4,4 +4,8 @@ initialRows = 8
 #How many items do players need to spawn with to have the privilege of having them in a backpack
 #Range: 1 ~ 36
 startupBackpackCondition = 1
+#Tick Sophisticated backpacks in ender backpack
+sophisticatedEnderTicking = true
+#Right click Sophisticated backpacks to open in inventory and ender backpack
+sophisticatedRightClickOpen = true
 

@@ -5,7 +5,6 @@
 	enable_rough_gems = true
 	enable_raw_nuggets = true
 	spelunkery_creative_tab = false
-	wip_grindstone_rework = false
 	#Range: 0 ~ 128
 	parachute_opening_delay = 10
 	enable_mores = true

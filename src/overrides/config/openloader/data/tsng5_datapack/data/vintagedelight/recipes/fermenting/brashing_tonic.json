@@ -1,0 +1,18 @@
+{
+  "type": "vintagedelight:fermenting",
+  "ingredients": [
+    { "tag": "forge:mushrooms" },
+    { "item": "minecraft:spider_eye" },
+    { "tag": "forge:berries" },
+    { "tag": "forge:sugar" },
+    { "tag": "forge:seeds/tomato" }
+  ],
+  "container": { "item": "minecraft:glass_bottle" },
+  "output": {
+    "item": "minecraft:potion",
+    "count": 1,
+    "nbt": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:10,Amplifier:1,Duration:400},{Id:2,Amplifier:1,Duration:400}],CustomPotionColor:13458603,display:{Name:'{\"text\":\"Brashing Tonic\",\"italic\":false}'}}"
+  },
+  "processingTime": 600
+}
+

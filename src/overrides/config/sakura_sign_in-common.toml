@@ -1,0 +1,48 @@
+
+#Custom Command Settings, don't add prefix '/'
+#自定义指令，请勿添加前缀'/'
+[command]
+	#The prefix of the command, please only use English characters and underscores, otherwise it may cause problems.
+	#指令前缀，请仅使用英文字母及下划线，否则可能会出现问题。
+	commandPrefix = "sakura"
+	#This command is used to sign In or make up for a specific date.
+	#签到或补签的指令。
+	commandSignIn = "sign"
+	#This command is used to sign In or make up for a specific date and claim the rewards.
+	#签到并领取奖励的指令。
+	commandSignInEx = "signex"
+	#This command is used to claim the rewards.
+	#领取奖励的指令。
+	commandReward = "reward"
+	#This command is used to claim the rewards by cdk.
+	#领取兑换码奖励的指令。
+	commandCdk = "cdk"
+	#This command is used to get or set the Sign-in Card.
+	#补签卡领取奖励的指令。
+	commandCard = "card"
+	#This command is used to set the language.
+	#设置语言的指令。
+	commandLanguage = "language"
+
+#Concise Command Settings
+#简化指令
+[concise]
+	#Enable or disable the concise version of the 'Sign In or make up for a specific date' command.
+	#是否启用无前缀版本的 '签到' 指令。
+	conciseSignIn = true
+	#Enable or disable the concise version of the 'Sign In or make up for a specific date and claim the rewards' command.
+	#是否启用无前缀版本的 '签到并领取奖励' 指令。
+	conciseSignInEx = true
+	#Enable or disable the concise version of the 'Claim the rewards' command.
+	#是否启用无前缀版本的 '领取奖励' 指令。
+	conciseReward = true
+	#Enable or disable the concise version of the 'Claim the rewards by cdk' command.
+	#是否启用无前缀版本的 '领取兑换码奖励' 指令。
+	conciseCdk = true
+	#Enable or disable the concise version of the 'Get or set the Sign-in Card' command.
+	#是否启用无前缀版本的 '补签卡领取奖励' 指令。
+	conciseCard = false
+	#Enable or disable the concise version of the 'Set the language' command.
+	#是否启用无前缀版本的 '设置语言' 指令。
+	conciseLanguage = false
+

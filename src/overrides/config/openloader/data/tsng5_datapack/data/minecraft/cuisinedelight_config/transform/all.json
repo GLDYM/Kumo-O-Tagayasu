@@ -9,44 +9,32 @@
       "next": "delightful:cactus_steak",
       "stage": "COOKED"
     },
-    "youkaisfeasts:flesh": {
-      "next": "youkaisfeasts:cooked_flesh",
+    "youkaishomecoming:flesh": {
+      "next": "youkaishomecoming:cooked_flesh",
       "stage": "COOKED"
     },
     "casualness_delight:raw_donkey_meat": {
       "next": "casualness_delight:cooked_donkey_meat",
       "stage": "COOKED"
     },
-    "miners_delight:arthropod": {
-      "next": "miners_delight:cooked_arthropod",
+    "youkaishomecoming:raw_lamprey_fillet": {
+      "next": "youkaishomecoming:roasted_lamprey_fillet",
       "stage": "COOKED"
     },
-    "youkaisfeasts:raw_lamprey_fillet": {
-      "next": "youkaisfeasts:roasted_lamprey_fillet",
-      "stage": "COOKED"
-    },
-    "miners_delight:squid": {
-      "next": "miners_delight:baked_squid",
-      "stage": "COOKED"
-    },
-    "miners_delight:tentacles": {
-      "next": "miners_delight:baked_tentacles",
-      "stage": "COOKED"
-    },
-    "miners_delight:cave_carrot": {
-      "next": "miners_delight:baked_cave_carrot",
-      "stage": "COOKED"
-    },
-    "corn_delight:corn": {
-      "next": "corn_delight:grilled_corn",
-      "stage": "COOKED"
-    },
-    "corn_delight:corn_seeds": {
-      "next": "corn_delight:popcorn",
+    "biomemakeover:bulbus_root": {
+      "next": "biomemakeover:roasted_bulbus_root",
       "stage": "COOKED"
     },
     "quark:crab_leg": {
       "next": "quark:cooked_crab_leg",
+      "stage": "COOKED"
+    },
+    "biomemakeover:raw_crab": {
+      "next": "biomemakeover:cooked_crab",
+      "stage": "COOKED"
+    },
+    "biomemakeover:glowfish": {
+      "next": "biomemakeover:cooked_glowfish",
       "stage": "COOKED"
     }
   }

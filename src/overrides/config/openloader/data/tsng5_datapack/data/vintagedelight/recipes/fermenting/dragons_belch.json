@@ -1,0 +1,16 @@
+{
+  "type": "vintagedelight:fermenting",
+  "ingredients": [
+    { "item": "minecraft:dragon_breath" },
+    { "item": "minecraft:rabbit_foot" },
+    { "tag": "forge:sugar" },
+    { "item": "minecraft:fire_coral" },
+    { "tag": "forge:crops/oat" }
+  ],
+  "output": {
+    "item": "minecraft:potion",
+    "count": 1,
+    "nbt": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:8,Amplifier:2,Duration:400},{Id:25,Amplifier:0,Duration:400},{Id:9,Amplifier:0,Duration:400}],CustomPotionColor:16087807,display:{Name:'{\"text\":\"Dragon\\'s Belch\",\"italic\":false}'}}"
+  },
+  "processingTime": 400
+}

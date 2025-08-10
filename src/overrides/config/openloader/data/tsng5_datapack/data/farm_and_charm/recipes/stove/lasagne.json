@@ -8,10 +8,12 @@
       "tag": "forge:pasta"
     },
     {
-      "tag": "candlelight:cheeses"
+      "tag": "forge:cheeses"
     }
   ],
-  "item": "candlelight:lasagne",
-  "count": 2,
+  "result": {
+    "item": "candlelight:lasagne",
+    "count": 2
+  },
   "experience": 1
 }

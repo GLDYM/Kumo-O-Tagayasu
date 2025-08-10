@@ -1,24 +1,25 @@
 # CHANGES
-craftingTable.addShapeless("coloredegg1", <item:mysticsbiomes:pink_egg>, [<tag:items:forge:eggs>, <tag:items:forge:crops/strawberry>, <tag:items:forge:crops/strawberry>]);
-craftingTable.addShapeless("coloredegg2", <item:mysticsbiomes:orange_egg>, [<tag:items:forge:eggs>, <item:minecraft:pumpkin>, <item:minecraft:pumpkin>]);
-craftingTable.addShapeless("coloredegg3", <item:mysticsbiomes:yellow_egg>, [<tag:items:forge:eggs>, <tag:items:forge:crops/lemon>, <tag:items:forge:crops/lemon>]);
-craftingTable.addShapeless("coloredegg4", <item:mysticsbiomes:lime_egg>, [<tag:items:forge:eggs>, <tag:items:forge:crops/pear>, <tag:items:forge:crops/pear>]);
-craftingTable.addShapeless("coloredegg5", <item:mysticsbiomes:cyan_egg>, [<tag:items:forge:eggs>, <tag:items:forge:crops/blueberry>, <tag:items:forge:crops/blueberry>]);
-craftingTable.addShapeless("coloredegg6", <item:mysticsbiomes:purple_egg>, [<tag:items:forge:eggs>, <tag:items:forge:crops/grape>, <tag:items:forge:crops/grape>]);
-craftingTable.addShapeless("coffeechange1", <item:youkaishomecoming:coffee_beans>, [<item:createcafe:roasted_coffee_beans>]);
-craftingTable.addShapeless("coffeechange2", <item:createcafe:roasted_coffee_beans>, [<item:youkaishomecoming:coffee_beans>]);
-craftingTable.addShapeless("coffeechange3", <item:youkaishomecoming:green_coffee_bean>, [<item:createcafe:coffee_beans>]);
-craftingTable.addShapeless("coffeechange4", <item:createcafe:coffee_beans>, [<item:youkaishomecoming:green_coffee_bean>]);
-craftingTable.addShapeless("coffeechange5", <item:createcafe:coffee_fruit>, [<item:youkaishomecoming:coffee_berries>]);
-craftingTable.addShapeless("coffeechange6", <item:youkaishomecoming:coffee_berries>, [<item:createcafe:coffee_fruit>]);
-craftingTable.addShapeless("coffeechange7", <item:createcafe:coffee_grounds>, [<item:youkaishomecoming:coffee_powder>]);
-craftingTable.addShapeless("coffeechange8", <item:youkaishomecoming:coffee_powder>, [<item:createcafe:coffee_grounds>]);
 craftingTable.addShapeless("wheatchange", <item:minecraft:wheat>, [<tag:items:forge:wheat>]);
+craftingTable.addShapeless("pepperchange1", <item:tofucraft:chili> * 2, [<item:vintagedelight:ghost_pepper>, <item:vintagedelight:ghost_pepper>]);
+craftingTable.addShapeless("pepperchange2", <item:vintagedelight:ghost_pepper> * 2, [<item:tofucraft:chili>, <item:tofucraft:chili>]);
+craftingTable.addShapeless("pepperchange3", <item:crockpot:pepper> * 2, [<item:vintagedelight:ghost_pepper>, <item:vintagedelight:ghost_pepper>]);
+craftingTable.addShapeless("pepperchange4", <item:vintagedelight:ghost_pepper> * 2, [<item:crockpot:pepper>, <item:crockpot:pepper>]);
 craftingTable.addShapeless("doughchange1", <item:farmersdelight:wheat_dough>, [<item:vintagedelight:oat_dough>]);
 craftingTable.addShapeless("doughchange2", <item:farm_and_charm:dough>, [<item:farmersdelight:wheat_dough>]);
 craftingTable.addShapeless("doughchange3", <item:vintagedelight:oat_dough>, [<item:farm_and_charm:dough>]);
-craftingTable.addShapeless("pepperchange1", <item:crockpot:pepper> * 2, [<item:vintagedelight:ghost_pepper>, <item:vintagedelight:ghost_pepper>]);
-craftingTable.addShapeless("pepperchange2", <item:vintagedelight:ghost_pepper> * 2, [<item:crockpot:pepper>, <item:crockpot:pepper>]);
+craftingTable.addShapeless("pumpkinchange", <item:minecraft:pumpkin> * 2, [<item:autumnity:large_pumpkin_slice>, <item:autumnity:large_pumpkin_slice>]);
+craftingTable.addShapeless("tinybeefchange1", <item:farmersdelight:minced_beef> * 2, [<item:farm_and_charm:minced_beef>, <item:farm_and_charm:minced_beef>]);
+craftingTable.addShapeless("tinybeefchange2", <item:farm_and_charm:minced_beef> * 2, [<item:farmersdelight:minced_beef>, <item:farmersdelight:minced_beef>]);
+craftingTable.addShapeless("tinybaconchange1", <item:farmersdelight:bacon> * 2, [<item:farm_and_charm:bacon>, <item:farm_and_charm:bacon>]);
+craftingTable.addShapeless("tinybaconchange2", <item:farm_and_charm:bacon> * 2, [<item:farmersdelight:bacon>, <item:farmersdelight:bacon>]);
+craftingTable.addShapeless("tinychickenchange1", <item:farmersdelight:chicken_cuts> * 2, [<item:farm_and_charm:chicken_parts>, <item:farm_and_charm:chicken_parts>]);
+craftingTable.addShapeless("tinychickenchange2", <item:farm_and_charm:chicken_parts> * 2, [<item:farmersdelight:chicken_cuts>, <item:farmersdelight:chicken_cuts>]);
+craftingTable.addShapeless("oakchange", <item:minecraft:oak_log> * 2, [<tag:items:minecraft:oak_logs>, <tag:items:minecraft:oak_logs>]);
+craftingTable.addShapeless("sprucechange", <item:minecraft:spruce_log> * 2, [<tag:items:minecraft:spruce_logs>, <tag:items:minecraft:spruce_logs>]);
+craftingTable.addShapeless("birchchange", <item:minecraft:birch_log> * 2, [<tag:items:minecraft:birch_logs>, <tag:items:minecraft:birch_logs>]);
+craftingTable.addShapeless("junglechange", <item:minecraft:jungle_log> * 2, [<tag:items:minecraft:jungle_logs>, <tag:items:minecraft:jungle_logs>]);
+craftingTable.addShapeless("darkoakchange", <item:minecraft:dark_oak_log> * 2, [<tag:items:minecraft:dark_oak_logs>, <tag:items:minecraft:dark_oak_logs>]);
+craftingTable.addShapeless("mangrovechange", <item:minecraft:mangrove_log> * 2, [<tag:items:minecraft:mangrove_logs>, <tag:items:minecraft:mangrove_logs>]);
 craftingTable.addShapeless("soysauce1", <item:youkaishomecoming:soy_sauce_bottle>, [<item:tofucraft:bottle_soysause>]);
 craftingTable.addShapeless("soysauce2", <item:tofucraft:bottle_soysause>, [<item:youkaishomecoming:soy_sauce_bottle>]);
 craftingTable.addShapeless("bronze1", <item:ultramarine:bronze_ingot>, [<item:create:brass_ingot>]);
@@ -28,12 +29,14 @@ craftingTable.addShapeless("bronze2", <item:create:brass_ingot>, [<item:ultramar
 blastFurnace.addRecipe("blockrawirontoiron_blast", <item:minecraft:iron_block>, <tag:items:forge:storage_blocks/raw_iron>, 8.0, 1600);
 blastFurnace.addRecipe("blockrawgoldtogold_blast", <item:minecraft:gold_block>, <tag:items:forge:storage_blocks/raw_gold>, 8.0, 1600);
 blastFurnace.addRecipe("blockrawzinctozinc_blast", <item:create:zinc_block>, <tag:items:forge:storage_blocks/raw_zinc>, 4.0, 800);
-blastFurnace.addRecipe("blockrawsilvertosilver_blast", <item:galosphere:silver_block>, <tag:items:forge:storage_blocks/raw_silver>, 4.0, 800);
+blastFurnace.addRecipe("blockrawsilvertosilver_blast", <item:caverns_and_chasms:silver_block>, <tag:items:forge:storage_blocks/raw_silver>, 4.0, 800);
 blastFurnace.addRecipe("blockrawcoppertocopper_blast", <item:minecraft:copper_block>, <tag:items:forge:storage_blocks/raw_copper>, 4.0, 800);
+blastFurnace.addRecipe("blockrawbismuthtobismuth_blast", <item:etcetera:bismuth_block>, <tag:items:forge:storage_blocks/raw_bismuth>, 4.0, 800);
 
 furnace.addRecipe("blockrawzinctozinc", <item:create:zinc_block>, <tag:items:forge:storage_blocks/raw_zinc>, 8.0, 1600);
-furnace.addRecipe("blockrawsilvertosilver", <item:galosphere:silver_block>, <tag:items:forge:storage_blocks/raw_silver>, 8.0, 1600);
+furnace.addRecipe("blockrawsilvertosilver", <item:caverns_and_chasms:silver_block>, <tag:items:forge:storage_blocks/raw_silver>, 8.0, 1600);
 furnace.addRecipe("blockrawcoppertocopper", <item:minecraft:copper_block>, <tag:items:forge:storage_blocks/raw_copper>, 8.0, 1600);
+furnace.addRecipe("blockrawbismuthtobismuth", <item:etcetera:bismuth_block>, <tag:items:forge:storage_blocks/raw_bismuth>, 8.0, 1600);
 # DIAMOND TOOLS RECYCLE
 blastFurnace.addRecipe("diamondtoolsrecycle1", <item:spelunkery:diamond_shard>, <item:minecraft:diamond_shovel>, 0.5, 150);
 blastFurnace.addRecipe("diamondtoolsrecycle2", <item:spelunkery:diamond_shard>, <item:minecraft:diamond_pickaxe>, 0.5, 150);
@@ -60,14 +63,22 @@ blastFurnace.addRecipe("diamondtoolsrecycle23", <item:spelunkery:diamond_shard>,
 # SIMPLE ITEMS
 craftingTable.remove(<item:minecraft:sandstone>);
 craftingTable.remove(<item:minecraft:red_sandstone>);
+craftingTable.remove(<item:atmospheric:arid_sandstone>);
+craftingTable.remove(<item:atmospheric:red_arid_sandstone>);
+craftingTable.remove(<item:natures_spirit:pink_sandstone>);
 craftingTable.addShapeless("simplesandstone", <item:minecraft:sandstone>, [<item:minecraft:sand>]);
 craftingTable.addShapeless("simpleredsandstone", <item:minecraft:red_sandstone>, [<item:minecraft:red_sand>]);
-craftingTable.addShapeless("simpletuff", <item:minecraft:tuff> * 2, [<item:minecraft:cobblestone>, <item:supplementaries:ash>]);
+craftingTable.addShapeless("simplearidsandstone", <item:atmospheric:arid_sandstone>, [<item:atmospheric:arid_sand>]);
+craftingTable.addShapeless("simplearidredsandstone", <item:atmospheric:red_arid_sandstone>, [<item:atmospheric:red_arid_sand>]);
+craftingTable.addShapeless("simplepinksandstone", <item:natures_spirit:pink_sandstone>, [<item:natures_spirit:pink_sand>]);
+craftingTable.addShapeless("simpletuff", <item:minecraft:tuff> * 2, [<item:minecraft:cobblestone> * 2, <item:supplementaries:ash>]);
 craftingTable.addShapeless("simplecalcite", <item:minecraft:calcite>, [<item:minecraft:cobblestone>, <item:minecraft:bone_meal>]);
 blastFurnace.addRecipe("plankstoash", <item:supplementaries:ash>, <tag:items:minecraft:planks>, 0.1, 150);
 # BANITEM
 craftingTable.remove(<item:l2complements:diffusion_wand>);
 craftingTable.remove(<item:create_sa:block_picker>);
+craftingTable.remove(<item:minecraft:enchanting_table>);
+craftingTable.remove(<item:etcetera:wrench>);
 craftingTable.remove(<item:supplementaries:slingshot>);
 craftingTable.remove(<item:quark:pickarang>);
 craftingTable.remove(<item:quark:flamerang>);

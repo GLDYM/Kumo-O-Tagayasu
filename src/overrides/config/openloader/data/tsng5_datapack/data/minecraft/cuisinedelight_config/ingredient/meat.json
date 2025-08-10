@@ -1,0 +1,242 @@
+{
+  "_comment": "Tsuri No Gatsu Modpack(Shortname:TSNG) file comments, It acts to preserve the original author(TskimiSeiran) information. According to the TSNG modpack usage agreement, users are allowed to create and distribute on the basis of TSNG modpack, but the original author information must be retained. TSNG modpack is free for users to download, if you spend real money in somewhere and download TSNG modpack, please avoid seller!",
+  "entries": [
+    {
+      "_comment": "注释：肉类-大分量-难熟",
+      "type": "MEAT",
+      "effects": [],
+      "ingredient": [
+      {
+        "item": "mynethersdelight:hoglin_loin"
+      },
+      {
+        "item": "netherexp:hogham"
+      },
+      {
+        "item": "immortalers_delight:raw_sniffer_steak"
+      },
+      {
+        "item": "neapolitan:mint_chops"
+      },
+      {
+        "item": "casualness_delight:raw_donkey_meat"
+      }
+      ],
+      "max_time": 360,
+      "min_time": 240,
+      "nutrition": 10,
+      "overcook_penalty": 0.3,
+      "raw_penalty": 0.5,
+      "size": 3,
+      "stir_time": 80
+    },
+    {
+      "_comment": "注释：肉类-大分量-较易熟",
+      "type": "MEAT",
+      "effects": [],
+      "ingredient": [
+        {
+          "item": "delightful:raw_goat"
+        },
+        {
+          "item": "youkaisfeasts:raw_venison"
+        }
+      ],
+      "max_time": 240,
+      "min_time": 180,
+      "nutrition": 10,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.5,
+      "size": 3,
+      "stir_time": 80
+    },
+    {
+      "_comment": "注释：肉类-中分量-易熟",
+      "type": "MEAT",
+      "effects": [],
+      "ingredient": [
+        {
+          "item": "farmersdelight:minced_beef"
+        },
+        {
+          "item": "farm_and_charm:minced_beef"
+        },
+        {
+          "tag": "forge:raw_bacon"
+        },
+        {
+          "item": "kaleidoscope_cookery:raw_pork_belly"
+        },
+        {
+          "item": "kaleidoscope_cookery:raw_cow_offal"
+        },
+        {
+          "item": "farm_and_charm:lamb_ham"
+        },
+        {
+          "item": "immortalers_delight:raw_sniffer_slice"
+        },
+        {
+          "item": "farmersdelight:mutton_chops"
+        },
+        {
+          "item": "youkaisfeasts:raw_venison_slice"
+        }
+      ],
+      "max_time": 240,
+      "min_time": 120,
+      "nutrition": 10,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.5,
+      "size": 2,
+      "stir_time": 80
+    },
+    {
+      "_comment": "注释：禽肉-中分量-较难熟",
+      "type": "MEAT",
+      "effects": [],
+      "ingredient": [
+        {
+          "item": "autumnity:turkey_piece"
+        },
+        {
+          "item": "minecraft:rabbit"
+        }
+      ],
+      "max_time": 240,
+      "min_time": 180,
+      "nutrition": 8,
+      "overcook_penalty": 0.3,
+      "raw_penalty": 1.0,
+      "size": 2,
+      "stir_time": 80
+    },
+    {
+      "_comment": "注释：禽肉-小分量-很易熟",
+      "type": "MEAT",
+      "effects": [],
+      "ingredient": [
+      {
+        "item": "farmersdelight:chicken_cuts"
+      },
+      {
+        "item": "biomemakeover:raw_toad"
+      },
+      {
+        "item": "farm_and_charm:chicken_parts"
+      },
+      {
+        "item": "tofucraft:soymeat"
+      },
+      {
+        "item": "tofucraft:tofuhamburg_raw"
+      }
+      ],
+      "max_time": 240,
+      "min_time": 120,
+      "nutrition": 8,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 1.0,
+      "size": 1,
+      "stir_time": 80
+    },
+    {
+      "_comment": "注释：水产-中分量-易熟",
+      "type": "SEAFOOD",
+      "effects": [],
+      "ingredient": [
+        {
+          "item": "upgrade_aquatic:pike"
+        },
+        {
+          "item": "upgrade_aquatic:perch"
+        },
+        {
+          "item": "upgrade_aquatic:lionfish"
+        },
+        {
+          "item": "youkaisfeasts:raw_tuna"
+        },
+        {
+          "item": "vintagedelight:salted_salmon"
+        },
+        {
+          "item": "vintagedelight:surstromming"
+        },
+        {
+          "item": "vintagedelight:salted_cod"
+        },
+        {
+          "item": "tofucraft:raw_tofufish"
+        },
+        {
+          "item": "biomemakeover:glowfish"
+        },
+        {
+          "item": "biomemakeover:raw_crab"
+        },
+        {
+          "item": "quark:crab_leg"
+        },
+        {
+          "item": "youkaisfeasts:crab"
+        },
+        {
+          "item": "youkaisfeasts:otoro"
+        },
+        {
+          "item": "youkaisfeasts:raw_lamprey_fillet"
+        }
+      ],
+      "max_time": 120,
+      "min_time": 60,
+      "nutrition": 12,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.5,
+      "size": 2,
+      "stir_time": 40
+    },
+    {
+      "_comment": "注释：水产-小分量-很易熟",
+      "type": "SEAFOOD",
+      "effects": [],
+      "ingredient": [
+        {
+          "item": "beachparty:raw_mussel_meat"
+        },
+        {
+          "item": "youkaisfeasts:raw_tuna_slice"
+        },
+        {
+          "item": "mynethersdelight:strider_slice"
+        }
+      ],
+      "max_time": 120,
+      "min_time": 60,
+      "nutrition": 12,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.5,
+      "size": 1,
+      "stir_time": 40
+    },
+    {
+      "type": "MEAT",
+      "effects": [],
+      "ingredient": [
+      {
+        "tag": "forge:eggs"
+      },
+      {
+        "item": "vintagedelight:pickled_egg"
+      }
+      ],
+      "max_time": 240,
+      "min_time": 60,
+      "nutrition": 8,
+      "overcook_penalty": 0.2,
+      "raw_penalty": 0.2,
+      "size": 1,
+      "stir_time": 80
+    }
+  ]
+}

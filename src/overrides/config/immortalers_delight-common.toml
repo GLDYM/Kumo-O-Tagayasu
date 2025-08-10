@@ -1,0 +1,45 @@
+#Whether to log the dirt block on common setup
+logDirtBlock = true
+#A magic number
+#Range: > 0
+magicNumber = 42
+#What you want the introduction message to be for the magic number
+magicNumberIntroduction = "The magic number is... "
+#A list of items to log on common setup.
+items = ["minecraft:iron_ingot"]
+#Whether to enable the health value display override for the weak potion effect
+useWeakPoisonOverLay = true
+#The number of #ancient_boat_need_1 that need to be held in hand to repair the ancient boat.
+#Range: 0 ~ 32767
+"count of [ancient_boat_need_1]" = 5
+#The number of #ancient_boat_need_2 that need to be held in hand to repair the ancient boat.
+#Range: 0 ~ 32767
+"count of [ancient_boat_need_2]" = 2
+#The number of #ancient_chest_boat_need_1 that need to be held in hand to repair the ancient chest boat.
+#Range: 0 ~ 32767
+"count of [ancient_chest_boat_need_1]" = 5
+#The number of #ancient_chest_boat_need_2 that need to be held in hand to repair the ancient chest boat.
+#Range: 0 ~ 32767
+"count of [ancient_chest_boat_need_2]" = 1
+#Greatly enhance effects and monsters. Use for that games using mods with additional cultivation content- such as Curios, any Skill mods or Guns mods.
+#true: Always enabled this mode.
+#default: Automatically determine whether to enable it based on the player's combat performance.
+#false: Never enabled this mode.
+powerBattleMode = "default"
+#After opening, you can right-click to harvest the crops of the module
+rightClickHarvest = true
+
+[ReverseNormalEffect]
+	#Potion effects that can be reversed. Effect in this Map will be remove every tick. 
+	#It does not prevent the application of effects, so it may not completely block the activation of harmful potion effects sometimes if only use this.
+	#"input-effect-n" means ID of the effect to be converted,"output-effect-n" means ID of the effect that conversion result.
+	#Format: [["input-effect-1", "output-effect-1"], ["input-effect-2", "output-effect-2"], ...etc]
+	reverseNormalEffect = [["minecraft:bad_omen", "minecraft:hero_of_the_village"], ["minecraft:unluck", "minecraft:luck"], ["minecraft:glowing", "minecraft:invisibility"], ["minecraft:slowness", "minecraft:speed"], ["minecraft:levitation", "minecraft:slow_falling"], ["minecraft:darkness", "minecraft:conduit_power"], ["minecraft:mining_fatigue", "minecraft:haste"], ["minecraft:weakness", "minecraft:strength"], ["minecraft:poison", "immortalers_delight:lingering_infusion"], ["minecraft:hunger", "immortalers_delight:satiated"], ["minecraft:wither", "immortalers_delight:vitality"], ["minecraft:nausea", "farmersdelight:nourishment"], ["minecraft:blindness", "minecraft:night_vision"], ["immortalers_delight:weak_poison", "farmersdelight:comfort"], ["immortalers_delight:weak_wither", "minecraft:regeneration"], ["twilightforest:frosty", "immortalers_delight:cool"], ["aether:inebriation", "aether:remedy"]]
+
+[ReverseInstantEffect]
+	#It takes effect when the effect in this Map is being applied, blocking its application and reversing it.
+	#It only takes effect when the effect is being added, so it alone cannot convert existing effects.
+	#"input-effect-n" means ID of the effect to be converted,"output-effect-n" means ID of the effect that conversion result.
+	#Format: [["input-effect-1", "output-effect-1"], ["input-effect-2", "output-effect-2"], ...etc]
+	reverseInstantEffect = [["minecraft:instant_damage", "minecraft:instant_health"], ["minecraft:blindness", "minecraft:night_vision"]]
+

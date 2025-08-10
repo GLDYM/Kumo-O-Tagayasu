@@ -2,7 +2,7 @@
   "type": "farm_and_charm:pot_cooking",
   "ingredients": [
     {
-      "item": "minecraft:sugar"
+      "tag": "forge:sugar"
     },
     {
       "tag": "farm_and_charm:water_bottles"

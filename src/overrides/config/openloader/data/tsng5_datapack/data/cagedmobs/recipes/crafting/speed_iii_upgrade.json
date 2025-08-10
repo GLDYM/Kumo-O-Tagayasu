@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "rBb",
+    "bQb"
+  ],
+  "key": {
+    "X": {
+      "item": "l2complements:sculkium_ingot"
+    },
+    "r": {
+      "tag": "forge:dusts/redstone"
+    },
+    "B": {
+      "item": "cagedmobs:speed_ii_upgrade"
+    },
+    "b": {
+      "item": "minecraft:blackstone"
+    },
+    "Q": {
+      "tag": "cagedmobs:ingots/star_infused_netherite"
+    }
+  },
+  "result": {
+    "item": "cagedmobs:speed_iii_upgrade"
+  }
+}

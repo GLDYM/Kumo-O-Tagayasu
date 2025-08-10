@@ -60,7 +60,7 @@
 		# or Brood Blocks. Bees will attack anyone that damages someone with the effect.
 		#
 		#Range: > 1
-		howLongProtectionOfTheHiveLasts = 1680
+		howLongProtectionOfTheHiveLasts = 6000
 
 	["Wrath of the Hive Options"."Bees Effects Options"]
 		# 

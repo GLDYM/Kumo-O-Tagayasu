@@ -24,6 +24,8 @@
 	#For modded enchantment categories, find them in their code through GitHub
 	#Example: 'WEAPON', 'DIGGER'
 	extraCompatibleEnchantmentCategories = []
+	#Default enchantments on crafted weapons
+	defaultEnchantmentOnWeapons = true
 
 ["Legendary Weapon Effects"]
 	#Shadow Hunter teleport distance
@@ -50,6 +52,9 @@
 	#Blade of illusion increase rate
 	#Range: 0.0 ~ 100.0
 	illusionRate = 1.0
+	#Increase damage by this factor of percentage of target health lost
+	#Range: 0.0 ~ 100.0
+	deathScytheMax = 1.0
 
 [Enchantments]
 	#Heavy enchantment reduction on attack speed
@@ -82,6 +87,9 @@
 	#Cooldown for Instant Throwing
 	#Range: 1 ~ 6000
 	instantThrowCooldown = 60
+	#Cooldown for Dagger Instant Throwing
+	#Range: 1 ~ 6000
+	daggerInstantThrowCooldown = 15
 
 ["Twilight Forest Compat"]
 	#Damage bonus to enemies not immune to fire

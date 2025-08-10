@@ -1,5 +1,5 @@
 {
-  "type": "youkaisfeasts:moka_pot",
+  "type": "youkaishomecoming:moka_pot",
   "container": {
     "item": "minecraft:glass_bottle"
   },
@@ -14,11 +14,11 @@
       "potion": "minecraft:water"
     },
     {
-      "item": "youkaisfeasts:bowl_of_cream"
+      "item": "youkaishomecoming:bowl_of_cream"
     }
   ],
   "recipe_book_tab": "drinks",
   "result": {
-    "item": "youkaisfeasts:macchiato"
+    "item": "youkaishomecoming:macchiato"
   }
 }

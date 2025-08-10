@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " XX",
+    "rBb",
+    "bQb"
+  ],
+  "key": {
+    "X": {
+      "tag": "forge:nuggets/nether_star"
+    },
+    "r": {
+      "tag": "forge:dusts/redstone"
+    },
+    "B": {
+      "item": "cagedmobs:speed_i_upgrade"
+    },
+    "b": {
+      "item": "minecraft:blackstone"
+    },
+    "Q": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "cagedmobs:speed_ii_upgrade"
+  }
+}

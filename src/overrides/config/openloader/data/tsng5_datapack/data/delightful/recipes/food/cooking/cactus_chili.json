@@ -1,0 +1,27 @@
+{
+  "_comment": "Tsuri No Gatsu Modpack(Shortname:TSNG) file comments, It acts to preserve the original author(TskimiSeiran) information. According to the TSNG modpack usage agreement, users are allowed to create and distribute on the basis of TSNG modpack, but the original author information must be retained. TSNG modpack is free for users to download, if you spend real money in somewhere and download TSNG modpack, please avoid seller!",
+  "type": "farmersdelight:cooking",
+  "container": {
+    "tag": "forge:bowls"
+  },
+  "cookingtime": 300,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "forge:raw_meat"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "item": "delightful:cactus_flesh"
+    },
+    {
+      "tag": "forge:crops/onion"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "delightful:cactus_chili"
+  }
+}

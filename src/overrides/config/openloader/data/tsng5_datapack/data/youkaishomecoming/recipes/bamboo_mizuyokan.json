@@ -1,7 +1,7 @@
 {
   "type": "farmersdelight:cooking",
   "container": {
-    "item": "youkaisfeasts:saucer"
+    "item": "youkaishomecoming:saucer"
   },
   "cookingtime": 200,
   "experience": 0.1,
@@ -21,6 +21,6 @@
     }
   ],
   "result": {
-    "item": "youkaisfeasts:bamboo_mizuyokan"
+    "item": "youkaishomecoming:bamboo_mizuyokan"
   }
 }

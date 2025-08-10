@@ -28,8 +28,8 @@
       "item": "minecraft:iron_nugget"
     },
     {
-      "chance": 0.1,
-      "item": "galosphere:silver_nugget"
+      "chance": 0.2,
+      "item": "caverns_and_chasms:silver_nugget"
     }
   ]
 }

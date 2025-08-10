@@ -8,10 +8,12 @@
       "item": "farm_and_charm:chicken_parts"
     },
     {
-      "item": "minecraft:carrot"
+      "tag": "forge:crops/carrot"
     }
   ],
-  "item": "farm_and_charm:roasted_chicken",
-  "count": 3,
+  "result": {
+    "item": "farm_and_charm:roasted_chicken",
+    "count": 3
+  },
   "experience": 0.3
 }

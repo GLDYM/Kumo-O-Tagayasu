@@ -645,6 +645,7 @@
 				""
 				"胶卷需要放到暗房中冲洗。"
 			]
+			hide_until_deps_complete: true
 			id: "4FBC5309BBFBBE18"
 			tasks: [{
 				id: "649A6FAC10F0A482"
@@ -662,6 +663,7 @@
 				""
 				"当然如果你在服务器的话可以用 /music 命令点歌，不过唱片机的好处是可以与世界交互，比较有节目效果。"
 			]
+			hide_until_deps_complete: true
 			id: "61B6F363A7BD3938"
 			tasks: [{
 				id: "0B00DA517EC20D2F"
@@ -678,6 +680,7 @@
 				""
 				"如果你在服务器，也可以将图片拖入聊天区来发送表情包。"
 			]
+			hide_until_deps_complete: true
 			id: "38177FEC4009CCFE"
 			tasks: [{
 				id: "172C6A1C853F9283"
@@ -690,77 +693,8 @@
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
-			description: [
-				"在战利品箱内，偶尔能够找到游戏卡带。如果你做出了游戏机，就能将卡带插入游戏机中游玩了。"
-				""
-				"当然，游戏机的制造可不简单。"
-			]
-			icon: {
-				Count: 1
-				id: "gamediscs:gaming_console"
-				tag: {
-					"gamediscs:FlappyBirdGame;Polaris_Light": 1
-				}
-			}
-			id: "0CCA1D6908CF1153"
-			rewards: [{
-				id: "25024C9FB1DD16CA"
-				item: "gamediscs:game_disc_pong"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5B9F1D20A7806979"
-				title: "游戏机"
-				type: "checkmark"
-			}]
-			title: "游戏机"
-			x: -4.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["3EC718092B2DD9AD"]
-			description: [
-				"你可以凭空放置天使方块，来方便地在空中获取一个落脚点。"
-				""
-				"当然也可以将天使手杖核心安装在手杖上来凭空放置，但是它放置的精准度不是很高。"
-			]
-			id: "0B94ADF506CF5B28"
-			rewards: [{
-				id: "1F45EA92FD9313D0"
-				item: "constructionwand:core_angel"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2E7B636A455AEA4A"
-				item: "angelblockrenewed:angel_block"
-				type: "item"
-			}]
-			title: "悬空放置"
-			x: -4.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["3EC718092B2DD9AD"]
-			description: ["在一些结构中可以找到带化石的泥土，清扫这些泥土可以找到化石。组装好的化石通常都有一些不错的功能，当然也可以作为装饰品。"]
-			id: "56CF7568D3F35D4C"
-			tasks: [{
-				id: "18D11379CA3993ED"
-				item: {
-					Count: 1
-					id: "betterarcheology:iron_brush"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "化石"
-			x: 1.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["3EC718092B2DD9AD"]
 			description: ["使用它来照亮你的小镇。"]
+			hide_until_deps_complete: true
 			id: "0A23AE8CEE05968E"
 			tasks: [{
 				id: "7FA987DB70EE2024"
@@ -774,8 +708,8 @@
 				type: "item"
 			}]
 			title: "照明魔杖"
-			x: -1.0d
-			y: 6.0d
+			x: -4.0d
+			y: 4.0d
 		}
 	]
 	title: "&e实用模组介绍 "

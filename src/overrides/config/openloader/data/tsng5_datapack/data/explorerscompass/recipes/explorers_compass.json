@@ -1,23 +1,35 @@
 {
+  "_comment": "Tsuri No Gatsu Modpack(Shortname:TSNG) file comments, It acts to preserve the original author(TskimiSeiran) information. According to the TSNG modpack usage agreement, users are allowed to create and distribute on the basis of TSNG modpack, but the original author information must be retained. TSNG modpack is free for users to download, if you spend real money in somewhere and download TSNG modpack, please avoid seller!",
   "type": "farmersdelight:cooking",
   "container": {
     "item": "minecraft:compass"
   },
-  "cookingtime": 300,
-  "experience": 1.0,
+  "cookingtime": 350,
+  "experience": 1.5,
   "ingredients": [
     {
-      "item": "minecraft:cobweb"
+      "tag": "forge:storage_blocks/gold"
     },
     {
-      "tag": "forge:storage_blocks/raw_iron"
+      "tag": "forge:storage_blocks/raw_silver"
     },
     {
-      "tag": "forge:vegetables"
+      "tag": "forge:ingots/zinc"
     },
     {
-      "tag": "forge:fruits"
+      "tag": "forge:gems"
+    },
+    {
+      "tag": "forge:leather"
+    },
+    [
+    {
+      "item": "minecraft:map"
+    },
+    {
+      "item": "minecraft:filled_map"
     }
+    ]
   ],
   "recipe_book_tab": "meals",
   "result": {

@@ -1,0 +1,9 @@
+
+["OEI Setting"]
+	#For example, now you can heal iron golem with eggs that replaced iron ingot.
+	DeeperReplace = false
+	#There won't any items in food list if items were replaced.
+	ClearFoodProperties = true
+	#Internal flag to track if the ModernFix warning has been shown. Do not modify manually.(You don't need to modify it)
+	modernfixWarningShown = true
+

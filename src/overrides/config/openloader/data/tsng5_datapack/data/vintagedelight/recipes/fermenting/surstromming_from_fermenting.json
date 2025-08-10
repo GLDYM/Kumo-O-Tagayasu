@@ -1,0 +1,16 @@
+{
+  "type": "vintagedelight:fermenting",
+  "processingTime": 2400,
+  "ingredients": [
+    {"tag": "forge:raw_fishes"},
+    {"tag": "forge:raw_fishes"},
+    {"tag": "forge:raw_fishes"},
+    {"tag": "forge:raw_fishes"},
+    {"tag": "forge:raw_fishes"},
+    {"tag": "forge:salt"}
+  ],
+  "output": {
+    "count": 5,
+    "item": "vintagedelight:surstromming"
+  }
+}

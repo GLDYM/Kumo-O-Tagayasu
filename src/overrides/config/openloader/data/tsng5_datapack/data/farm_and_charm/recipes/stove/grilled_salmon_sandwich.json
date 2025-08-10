@@ -11,7 +11,9 @@
       "tag": "forge:crops/cabbage"
     }
   ],
-  "item": "bakery:grilled_salmon_sandwich",
-  "count": 2,
+  "result": {
+    "item": "bakery:grilled_salmon_sandwich",
+    "count": 2
+  },
   "experience": 0.15
 }

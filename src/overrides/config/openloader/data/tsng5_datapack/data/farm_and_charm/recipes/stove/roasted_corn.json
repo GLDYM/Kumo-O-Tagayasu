@@ -11,7 +11,9 @@
       "tag": "forge:crops/onion"
     }
   ],
-  "item": "farm_and_charm:roasted_corn",
-  "count": 1,
+  "result": {
+    "item": "farm_and_charm:roasted_corn",
+    "count": 1
+  },
   "experience": 0.2
 }

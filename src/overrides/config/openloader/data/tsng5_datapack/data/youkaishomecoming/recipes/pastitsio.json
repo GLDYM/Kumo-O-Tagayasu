@@ -1,7 +1,7 @@
 {
   "type": "farmersdelight:cooking",
   "container": {
-    "item": "youkaisfeasts:saucer"
+    "item": "youkaishomecoming:saucer"
   },
   "cookingtime": 200,
   "experience": 0.1,
@@ -23,6 +23,6 @@
     }
   ],
   "result": {
-    "item": "youkaisfeasts:pastitsio"
+    "item": "youkaishomecoming:pastitsio"
   }
 }

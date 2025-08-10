@@ -1,0 +1,19 @@
+{
+        "type": "farmersdelight:cooking",
+        "cookingtime": 200,
+        "experience": 0.35,
+        "ingredients": [
+          {
+            "tag": "forge:dough"
+          },
+          {
+            "tag": "forge:cheese"
+          },
+          {
+            "tag": "forge:crab_meat"
+          }
+        ],
+        "result": {
+          "item": "delightful:crab_rangoon"
+        }
+}

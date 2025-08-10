@@ -1,0 +1,28 @@
+{
+  "_comment": "Tsuri No Gatsu Modpack(Shortname:TSNG) file comments, It acts to preserve the original author(TskimiSeiran) information. According to the TSNG modpack usage agreement, users are allowed to create and distribute on the basis of TSNG modpack, but the original author information must be retained. TSNG modpack is free for users to download, if you spend real money in somewhere and download TSNG modpack, please avoid seller!",
+  "type": "cuisinedelight:plate_cuisine",
+  "holderItem": "cuisinedelight:meat_fried_rice",
+  "list": [
+    {
+      "bonus": 0.1,
+      "ingredient": {
+        "tag": "forge:grain/rice"
+      },
+      "max": 1.6,
+      "min": 0.4,
+      "score": 1.0
+    },
+    {
+      "bonus": 0.1,
+      "ingredient": {
+        "type": "cuisinedelight:food_type",
+        "foodType": "MEAT"
+      },
+      "max": 1.7,
+      "min": 0.3,
+      "score": 1.0
+    }
+  ],
+  "saturationBonus": 0.0,
+  "saturationBonusModifier": 0.0
+}

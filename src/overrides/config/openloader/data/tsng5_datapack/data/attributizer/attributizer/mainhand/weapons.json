@@ -1,0 +1,86 @@
+{
+  "irons_spellbooks:amethyst_rapier":[
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -2.5,
+      "operation": "ADDITION"
+    }
+  ],
+  "irons_spellbooks:spellbreaker":[
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -3.5,
+      "operation": "ADDITION"
+    }
+  ],
+  "irons_spellbooks:keeper_flamberge":[
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -1,
+      "operation": "ADDITION"
+    }
+  ],
+  "irons_spellbooks:misery":[
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -2.5,
+      "operation": "ADDITION"
+    }
+  ],
+  "tofucraft:tofu_diamond_sword":[
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -1.5,
+      "operation": "ADDITION"
+    }
+  ],
+  "tofucraft:tofu_diamond_axe":[
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -1.5,
+      "operation": "ADDITION"
+    }
+  ],
+  "tofucraft:tofu_diamond_pickaxe":[
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -1.5,
+      "operation": "ADDITION"
+    }
+  ],
+  "tofucraft:tofu_diamond_shovel":[
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -1.5,
+      "operation": "ADDITION"
+    }
+  ],
+  "tofucraft:tofu_diamond_hoe":[
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -1,
+      "operation": "ADDITION"
+    }
+  ],
+  "create_sa:rose_quartz_sword":[
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -1.5,
+      "operation": "ADDITION"
+    }
+  ],
+  "create_sa:rose_quartz_pickaxe":[
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -1.5,
+      "operation": "ADDITION"
+    }
+  ],
+  "create_sa:rose_quartz_axe":[
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -1,
+      "operation": "ADDITION"
+    }
+  ]
+}

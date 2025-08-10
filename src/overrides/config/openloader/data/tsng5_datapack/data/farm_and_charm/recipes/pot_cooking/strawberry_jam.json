@@ -5,7 +5,7 @@
       "tag": "forge:fruits/strawberry"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "forge:sugar"
     }
   ],
   "container": {

@@ -1,0 +1,19 @@
+
+[Settings]
+	enableVanillaIngredientStorages = true
+
+[Storages]
+	enableAppleBag = true
+	enableBrownMushroomBag = true
+	enableCocoaBeanBag = true
+	enableCrimsonFungusBag = true
+	enableGlowBerryBag = true
+	enableGoldenAppleBag = true
+	enableGoldenCarrotCrate = true
+	enableEggBox = true
+	enableKelpBlock = true
+	enableRedMushroomBag = true
+	enableSugarCaneBale = true
+	enableSweetBerryBag = true
+	enableWarpedFungusBag = true
+

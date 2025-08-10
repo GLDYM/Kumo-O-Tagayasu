@@ -2,16 +2,16 @@
   "type": "farm_and_charm:crafting_bowl",
   "ingredients": [
     {
-      "item": "minecraft:carrot"
+      "tag": "forge:crops/carrot"
     },
     {
-      "item": "minecraft:potato"
+      "tag": "forge:crops/potato"
     },
     {
       "tag": "forge:crops/tomato"
     },
     {
-      "tag": "candlelight:bowls"
+      "tag": "forge:bowls"
     }
   ],
   "result": {

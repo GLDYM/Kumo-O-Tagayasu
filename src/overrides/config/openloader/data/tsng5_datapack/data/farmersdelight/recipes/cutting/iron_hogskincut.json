@@ -2,7 +2,7 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "nethersdelight:hoglin_hide"
+      "item": "mynethersdelight:hoglin_hide"
     }
   ],
   "result": [

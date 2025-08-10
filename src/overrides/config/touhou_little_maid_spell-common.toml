@@ -1,0 +1,44 @@
+#最大法术攻击范围 (默认: 24.0)
+#Maximum spell attack range
+#Range: 8.0 ~ 64.0
+maxSpellRange = 24.0
+#最佳法术攻击范围 (默认: 12.0)
+#Optimal spell attack range
+#Range: 4.0 ~ 32.0
+optimalSpellRange = 12.0
+#安全距离，女仆会尝试保持的最小距离 (默认: 8.0)
+#Safe distance that maids try to maintain
+#Range: 2.0 ~ 20.0
+safeDistance = 8.0
+#近战攻击范围 (默认: 2.5)
+#Melee attack range
+#Range: 1.0 ~ 5.0
+meleeRange = 2.5
+#基础法术冷却时间，tick (默认: 40)
+#Base spell cooldown in ticks
+#Range: 10 ~ 200
+baseSpellCooldown = 40
+#战术切换间隔，tick (默认: 100)
+#Tactical switching interval in ticks
+#Range: 20 ~ 400
+tacticalSwitchInterval = 100
+#法术伤害倍数 (默认: 1.0)
+#Spell damage multiplier
+#Range: 0.1 ~ 5.0
+spellDamageMultiplier = 1.0
+#启用智能目标选择 (默认: true)
+#Enable intelligent targeting
+enableIntelligentTargeting = true
+#启用动态模式切换 (默认: true)
+#Enable dynamic mode switching
+enableDynamicModeSwitching = true
+#启用距离管理 (默认: true)
+#Enable distance management
+enableDistanceManagement = true
+#启用调试日志 (默认: false)
+#Enable debug logging
+enableDebugLogging = false
+#启用性能监控 (默认: true)
+#Enable performance monitoring
+enablePerformanceMonitoring = true
+

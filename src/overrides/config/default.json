@@ -17,14 +17,24 @@
   "windRainWeather": 3.0,
   "windThunderWeather": 3.0,
   "repairSpeed": 0.025,
+  "repairExhaustion": 0.5,
   "collisionDamage": true,
+  "collisionDamageMultiplier": 40.0,
   "burnFuelInCreative": false,
   "acceptVanillaFuel": true,
   "useCustomKeybindSystem": true,
   "showHotbarEngineGauge": true,
   "weaponsAreDestructive": false,
+  "dropAircraft": true,
   "dropInventory": true,
   "dropUpgrades": false,
+  "regenerateHealthEveryNTicks": 0,
+  "requireShiftForRepair": false,
+  "bombBayEntity": {
+    "minecraft:egg": "minecraft:chicken"
+  },
+  "rotaryCannonDamage": 5.0,
+  "heavyCrossBowVelocity": 3.0,
   "fuelList": {
     "minecraft:blaze_powder": 1200
   },

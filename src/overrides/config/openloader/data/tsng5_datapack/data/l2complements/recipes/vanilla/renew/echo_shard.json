@@ -13,17 +13,14 @@
   ],
   "ingredients": [
     {
-      "item": "l2complements:resonant_feather"
+      "item": "cagedmobs:warden_receptor"
     },
     [
     {
-      "item": "galosphere:allurite_shard"
+      "tag": "forge:gems/ruby"
     },
     {
-      "item": "galosphere:lumiere_shard"
-    },
-    {
-      "item": "regions_unexplored:large_prismarite_cluster"
+      "item": "quark:indigo_corundum_cluster"
     }
     ],
     {

@@ -2,16 +2,16 @@
   "type": "farm_and_charm:roaster",
   "ingredients": [
     {
-      "tag": "bakery:eggs"
+      "tag": "forge:eggs"
     },
     {
       "tag": "forge:crops/onion"
     },
     {
-      "tag": "farm_and_charm:flour"
+      "tag": "forge:flour"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "forge:sugar"
     },
     {
       "tag": "forge:fruits/strawberry"

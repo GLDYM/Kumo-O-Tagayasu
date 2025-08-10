@@ -1,0 +1,21 @@
+{
+	id: "306639F5B45EB68A"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "l2complements:eternal"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{ item: "l2complements:eternium_nugget", weight: 99.0f }
+	]
+	title: "Eternal"
+}

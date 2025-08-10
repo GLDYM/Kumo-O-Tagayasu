@@ -1,0 +1,79 @@
+{
+  "create_sa:copper_chestplate":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": -2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.05,
+      "operation": "ADDITION"
+    }
+  ],
+  "create_sa:copper_leggings":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": -2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.05,
+      "operation": "ADDITION"
+    }
+  ],
+  "create_sa:copper_jetpack_chestplate":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": -2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": -0.5,
+      "operation": "ADDITION"
+    }
+  ],
+  "create_sa:andesite_jetpack_chestplate":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": -2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": -0.5,
+      "operation": "ADDITION"
+    }
+  ],
+  "create_sa:brass_jetpack_chestplate":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": -2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": -0.6,
+      "operation": "ADDITION"
+    }
+  ],
+  "create_sa:netherite_jetpack_chestplate":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": -3,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": -2.5,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": -0.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "fd_chocolate_pie",
+  "key": {
+    "O": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "c": {
+      "tag": "forge:chocolate"
+    },
+    "m": {
+      "tag": "forge:milk"
+    },
+    "x": {
+      "tag": "forge:sugar"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "mmm",
+    "xOx"
+  ],
+  "result": {
+    "item": "farmersdelight:chocolate_pie"
+  },
+  "show_notification": true
+}

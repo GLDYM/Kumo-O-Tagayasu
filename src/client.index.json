@@ -6,21 +6,6 @@
   "summary": "",
   "files": [
     {
-      "path": "mods/2Simply_Create_Model｜简单动力-mod-1.20.1-1.0.1.jar",
-      "hashes": {
-        "sha1": "b3e5ea791036423adc6e6b6c388c77848686024e",
-        "sha512": "90c0e148a226890f3d689dc3adb3b056b1ffab68fa099be407a33fa764bd4a56cbae56864f9686ae6428b3dc72e80945219abd7da2c7fc7a8b3c87e345a6d77f"
-      },
-      "env": {
-        "server": "unsupported",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/4cnrKlAs/versions/JxFgXWQF/Simply_Create_Model%EF%BD%9C%E7%AE%80%E5%8D%95%E5%8A%A8%E5%8A%9B-mod-1.20.1-1.0.1.jar"
-      ],
-      "fileSize": 1298614
-    },
-    {
       "path": "mods/2Controlling-forge-1.20.1-12.0.2.jar",
       "hashes": {
         "sha1": "6195a3d1464f8fb641d7e165163aea1a857ce08e",
@@ -201,21 +186,6 @@
       "fileSize": 269811
     },
     {
-      "path": "mods/2Xaeros_Minimap_25.2.10_Forge_1.20.jar",
-      "hashes": {
-        "sha512": "936d2608d74c9a4d702efce51e0197f19f947997af768cb558f4cc5323ea4c5f12ee11b519df4071bdbc8c2aca8caa1baa18f702ef32c24bc4ea78fdbac483b2",
-        "sha1": "1f23df114da3a8603dbe4781c07e8acf20f6d1ce"
-      },
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/1bokaNcj/versions/VfhlV9am/Xaeros_Minimap_25.2.10_Forge_1.20.jar"
-      ],
-      "fileSize": 1723029
-    },
-    {
       "path": "mods/2super_resolution-forge-1.20.1-0.8.0-alpha.1.jar.disabled",
       "hashes": {
         "sha512": "49d40689752e7716dc37b72468b6586a272379449e05e8b6b23e65d44624c09bc6b86ab88f0ea542e9616667ccf2ffab22fe85fc64954c90e51d48673705b2ea",
@@ -229,21 +199,6 @@
         "https://cdn.modrinth.com/data/Hf3Qz2H3/versions/qFrtLlI4/super_resolution-forge-1.20.1-0.8.0-alpha.1.jar"
       ],
       "fileSize": 19509350
-    },
-    {
-      "path": "mods/2XaerosWorldMap_1.39.12_Forge_1.20.jar",
-      "hashes": {
-        "sha1": "3c4005a400ba8270738bbe4c573526749ecf2f8f",
-        "sha512": "06d68367ec0a3eed9c13a6c02ce4a93d9375c6b32cb8c3e77a7c62f3e3ea6bfadbfae70d0e5f115e2b353d4b186e6cf80bcc73df5b13362d5d18f25fb2a9d6d1"
-      },
-      "env": {
-        "server": "unsupported",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/NcUtCpym/versions/ATTRzxT3/XaerosWorldMap_1.39.12_Forge_1.20.jar"
-      ],
-      "fileSize": 960799
     },
     {
       "path": "mods/2advancements_tracker_1.20.1-6.1.0.jar",

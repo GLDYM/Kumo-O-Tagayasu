@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 4,
-  "ingredient": {
-    "tag": "forge:storage_blocks/silver"
-  },
-  "result": "galosphere:silver_panel_slab"
-}

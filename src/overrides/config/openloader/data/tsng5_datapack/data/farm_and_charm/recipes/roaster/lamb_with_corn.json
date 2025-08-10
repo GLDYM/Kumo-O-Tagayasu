@@ -2,7 +2,7 @@
   "type": "farm_and_charm:roaster",
   "ingredients": [
     {
-      "item": "minecraft:carrot"
+      "tag": "forge:crops/carrot"
     },
     {
       "tag": "forge:crops/corn"

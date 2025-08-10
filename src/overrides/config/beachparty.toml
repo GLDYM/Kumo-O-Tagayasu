@@ -1,0 +1,17 @@
+#Generate Palm Trees
+spawnPalms = true
+#Generate Seashells
+spawnSeashells = true
+#Generate Sandwaves
+spawnSandwaves = true
+
+[messageInABottle]
+	#Allow spawning of Message in a Bottle
+	allowSpawning = true
+	#Maximum number of bottles that can exist simultaneously
+	#Range: > 1
+	maxCount = 2
+	#Interval in ticks between bottle spawn attempts
+	#Range: > 20
+	spawnInterval = 6000
+

@@ -1,0 +1,16 @@
+{
+  "type": "vintagedelight:fermenting",
+  "ingredients": [
+    { "tag": "forge:mushrooms" },
+    { "item": "minecraft:honey_bottle" },
+    { "item": "vintagedelight:gearo_berry" },
+    { "tag": "forge:sugar" },
+    { "item": "minecraft:bone_meal" }
+  ],
+  "output": {
+    "item": "minecraft:potion",
+    "count": 1,
+    "nbt": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:1,Amplifier:2,Duration:600},{Id:18,Amplifier:1,Duration:600}],CustomPotionColor:16771840,display:{Name:'{\"text\":\"Goblin\\'s Piss\",\"italic\":false}'}}"
+  },
+  "processingTime": 600
+}

@@ -6,7 +6,7 @@
 		# The name of your modpack.
 		# If blank, the modpack name will be auto-detected from supported launchers.
 		# This auto-detection isn't perfect, so you can override it here if needed.
-		modpackName = "Tsuri No Gatsu 5.2.9"
+		modpackName = "Tsuri No Gatsu - FDCraft Version 5.3.0"
 
 	[Display.WindowTitle]
 		# 
@@ -34,7 +34,7 @@
 		# - "ModpackName v2 based on %mc" = "ModpackName v2 based on Minecraft* 1.19.3"
 		# 
 		# Note: enableCustomWindowTitle must be enabled for this to take effect.
-		customWindowTitleText = "Tsuri No Gatsu 5.2.8"
+		customWindowTitleText = "Tsuri No Gatsu - FDCraft Version 5.3.0"
 
 	[Display.Icon]
 		# 
@@ -79,7 +79,7 @@
 		# 
 		# - If blank (default), itlt will use your modpack's name from [Display.General] modpackName.
 		# - Otherwise x will be whatever you put here.
-		customWelcomeHeaderModpackDisplayName = "Tsuri No Gatsu 5"
+		customWelcomeHeaderModpackDisplayName = "Tsuri No Gatsu 5 - FDCraft Version"
 
 [Java]
 

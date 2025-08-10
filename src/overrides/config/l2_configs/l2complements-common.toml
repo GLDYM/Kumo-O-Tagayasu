@@ -61,7 +61,7 @@ enableSpawnEggRecipe = true
 	#Sonic Shooter Damage
 	#Range: 1 ~ 1000
 	sonicShooterDamage = 10
-	#Hellfire Wand Damage
+	#Hellfire Wand Damage per second charged (max 3 seconds charged)
 	#Range: 1 ~ 1000
 	hellfireWandDamage = 10
 	#Base duration for iceBlade
@@ -118,6 +118,11 @@ enableSpawnEggRecipe = true
 	#2 for clearing negative only
 	#Range: 0 ~ 2
 	cleansePredicate = 0
+	#Cool down of Eternal Totem of Dream
+	#Range: 0 ~ 10000
+	eternalTotemCoolDown = 2400
+	#Whether Eternal Totem of Dream gives you warp stone
+	eternalTotemGiveWarpStone = true
 
 [enchantability]
 	#Allow enchantments on wands

@@ -153,6 +153,27 @@
 			x: -3.0d
 			y: -3.0d
 		}
+		{
+			can_repeat: true
+			description: ["&b如果你有多余的永恒锭，可以来这里尝试抽取永恒附魔书。"]
+			id: "3D2C042623ED2D26"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "740FB2B0CFFD0323"
+				table_id: 3487538688900904586L
+				type: "random"
+			}]
+			size: 3.0d
+			tasks: [{
+				consume_items: true
+				id: "6D43BAB2A5ABD494"
+				item: "l2complements:eternium_ingot"
+				type: "item"
+			}]
+			title: "&e附魔书：永恒"
+			x: 0.0d
+			y: -3.0d
+		}
 	]
 	title: "&5灰发之魔女"
 }

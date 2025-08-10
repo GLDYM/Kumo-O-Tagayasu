@@ -1,0 +1,13 @@
+{
+  "_comment": "Tsuri No Gatsu Modpack(Shortname:TSNG) file comments, It acts to preserve the original author(TskimiSeiran) information. According to the TSNG modpack usage agreement, users are allowed to create and distribute on the basis of TSNG modpack, but the original author information must be retained. TSNG modpack is free for users to download, if you spend real money in somewhere and download TSNG modpack, please avoid seller!",
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:crops/chilipepper"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:seeds_chili"
+  }
+}

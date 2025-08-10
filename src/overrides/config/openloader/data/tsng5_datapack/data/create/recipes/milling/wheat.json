@@ -6,9 +6,6 @@
       "item": "minecraft:wheat"
     },
     {
-      "tag": "forge:crops/rye"
-    },
-    {
       "tag": "forge:crops/barley"
     }
     ]

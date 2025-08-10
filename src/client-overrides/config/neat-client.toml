@@ -1,27 +1,69 @@
 
 [general]
-	"Max Distance" = 24
-	"Render with Interface Disabled (F1)" = false
-	"Height Above Mob" = 0.6
-	"Draw Background" = true
-	"Background Padding" = 2
-	"Background Height" = 6
-	"Health Bar Height" = 4
-	"Plate Size" = 25
-	"Plate Size (Boss)" = 50
-	"Show Attributes" = true
-	"Show Armor" = true
-	"Group Armor (condense 5 iron icons into 1 diamond icon)" = true
-	"Color Health Bar by Type (instead of health percentage)" = false
-	"HP Text Height" = 14
-	"Show Max HP" = true
-	"Show Current HP" = true
-	"Show HP Percentage" = true
-	"Display on Players" = false
-	"Display on Bosses" = false
-	"Only show the health bar for the entity looked at" = true
-	"Show entities with full health" = false
-	"Show Debug Info with F3" = true
+	#Maximum distance in blocks at which health bars should render
+	max_distance = 24
+	#Maximum distance in blocks at which health bars should render without line of sight
+	max_distance_without_line_of_sight = 8
+	#Whether health bars should render when the HUD is disabled with F1
+	render_without_gui = false
+	#How far above the mob the health bars should render
+	height_above_mob = 0.6
+	#Whether the gray background plate should be drawn
+	draw_background = true
+	#Amount of extra padding space around the background plate
+	background_padding = 2
+	#How tall the background plate should be
+	background_height = 6
+	#How tall the health bar should be
+	health_bar_height = 4
+	#How wide the health bar should be. If the entity has a long name, the bar will increase in size to match it.
+	plate_size = 25
+	#plateSize but for bosses
+	plate_size_boss = 50
+	#Show mob attributes such as arthropod or undead
+	show_attributes = true
+	#Show armor points
+	show_armor = true
+	#Group 5 iron icons into 1 diamond icon
+	group_armor = true
+	#Color health bar by mob type instead of health percentage
+	color_health_bar_by_type = false
+	#Text color in hex code format
+	text_color = "FFFFFF"
+	#Height of the text on the health bar
+	hp_text_height = 14
+	#Whether the maximum health of the mob should be shown
+	show_max_hp = true
+	#Whether the current health of the mob should be shown
+	show_current_hp = true
+	#Whether the percentage health of the mob should be shown
+	show_hp_percentage = true
+	#Whether bars on passive mobs should be shown
+	show_on_passive = true
+	#Whether bars on hostile mobs should be shown (does not include bosses)
+	show_on_hostile = true
+	#Whether bars on players should be shown
+	display_on_players = true
+	#Whether bars on bosses should be shown
+	display_on_bosses = true
+	#Only show bars for mobs you are targeting
+	only_health_bar_for_target = false
+	#Show bars for mobs that are at full health
+	show_entity_full_health = true
+	#Show extra debug info on the bar when F3 is enabled
+	show_debug_with_f3 = true
+	#Show entity name
+	show_entity_name = true
+	#Disables the rendering of the vanilla name tag
+	disable_name_tag = false
+	#If this is enabled and the "disableNameTag" option is true, the vanilla nametag is only hidden if the mob has a Neat healthbar rendered
+	disable_name_tag_if_healthbar = true
+	#Offsets the healtbar icons on the x axis
+	icon_offset_x = 0.0
+	#Offsets the healtbar icons on the y axis
+	icon_offset_y = 0.0
+	#This value changes the decimal format of the HP. Only change this value if you are familiar with how the decimal format works!
+	decimal_format = "#.##"
 	#Blacklist uses entity IDs, not their display names. Use F3 to see them in the Neat bar.
-	Blacklist = ["minecraft:shulker", "minecraft:armor_stand", "minecraft:cod", "minecraft:salmon", "minecraft:pufferfish", "minecraft:tropical_fish"]
+	blacklist = ["minecraft:shulker", "minecraft:armor_stand", "minecraft:cod", "minecraft:salmon", "minecraft:pufferfish", "minecraft:tropical_fish", "minecraft:tadpole"]
 

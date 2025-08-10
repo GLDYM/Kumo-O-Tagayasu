@@ -8,10 +8,10 @@
       "tag": "forge:crops/onion"
     },
     {
-      "item": "minecraft:potato"
+      "tag": "forge:crops/potato"
     },
     {
-      "item": "minecraft:carrot"
+      "tag": "forge:crops/carrot"
     },
     {
       "item": "farm_and_charm:minced_beef"

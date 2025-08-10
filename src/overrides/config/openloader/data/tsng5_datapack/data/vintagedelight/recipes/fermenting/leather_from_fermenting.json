@@ -1,0 +1,20 @@
+{
+  "type": "vintagedelight:fermenting",
+  "processingTime": 4800,
+  "ingredients": [
+    {"item": "minecraft:rotten_flesh"},
+    {"item": "minecraft:rotten_flesh"},
+    {"item": "farmersdelight:tree_bark"},
+    {"item": "farmersdelight:tree_bark"},
+    {"tag": "forge:salt"},
+    {"item": "vintagedelight:vinegar_bottle"}
+  ],
+  "output": {
+    "count": 2,
+    "item": "minecraft:leather"
+  },
+  "secondaryOutput": {
+    "count": 1,
+    "item": "minecraft:glass_bottle"
+  }
+}

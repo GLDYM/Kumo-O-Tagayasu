@@ -11,7 +11,9 @@
       "item": "farm_and_charm:yeast"
     }
   ],
-  "item": "bakery:chocolate_tart",
-  "count": 1,
+  "result": {
+    "item": "bakery:chocolate_tart",
+    "count": 1
+  },
   "experience": 0.35
 }

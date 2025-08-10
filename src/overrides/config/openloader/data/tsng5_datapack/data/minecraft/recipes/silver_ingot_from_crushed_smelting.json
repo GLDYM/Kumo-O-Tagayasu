@@ -4,7 +4,7 @@
   "ingredient": {
     "item": "create:crushed_raw_silver"
   },
-  "result": "galosphere:silver_ingot",
+  "result": "caverns_and_chasms:silver_ingot",
   "experience": 1.0,
   "cookingtime": 200
 }

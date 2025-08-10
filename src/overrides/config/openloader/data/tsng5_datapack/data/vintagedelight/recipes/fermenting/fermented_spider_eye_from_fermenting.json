@@ -1,0 +1,16 @@
+{
+  "type": "vintagedelight:fermenting",
+  "processingTime": 1200,
+  "ingredients": [
+    {"item": "minecraft:spider_eye"},
+    {"item": "minecraft:spider_eye"},
+    {"item": "minecraft:spider_eye"},
+    {"item": "minecraft:spider_eye"},
+    {"item": "minecraft:spider_eye"},
+    {"tag": "forge:sugar"}
+  ],
+  "output": {
+    "count": 5,
+    "item": "minecraft:fermented_spider_eye"
+  }
+}

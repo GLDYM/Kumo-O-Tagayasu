@@ -1,5 +1,5 @@
 {
-  "type": "youkaisfeasts:moka_pot",
+  "type": "youkaishomecoming:moka_pot",
   "container": {
     "item": "minecraft:glass_bottle"
   },
@@ -7,7 +7,7 @@
   "experience": 0.1,
   "ingredients": [
     {
-      "item": "youkaisfeasts:espresso"
+      "item": "youkaishomecoming:espresso"
     },
     {
       "tag": "forge:coffee_powder"
@@ -15,6 +15,6 @@
   ],
   "recipe_book_tab": "drinks",
   "result": {
-    "item": "youkaisfeasts:ristretto"
+    "item": "youkaishomecoming:ristretto"
   }
 }

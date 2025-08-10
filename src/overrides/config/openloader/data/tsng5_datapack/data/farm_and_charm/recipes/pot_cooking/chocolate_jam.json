@@ -2,13 +2,13 @@
   "type": "farm_and_charm:pot_cooking",
   "ingredients": [
     {
-      "tag": "bakery:milk"
+      "tag": "forge:milk"
     },
     {
       "tag": "forge:chocolate"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "forge:sugar"
     }
   ],
   "container": {

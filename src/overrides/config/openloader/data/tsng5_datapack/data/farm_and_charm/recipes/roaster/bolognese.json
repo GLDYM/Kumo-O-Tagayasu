@@ -14,7 +14,7 @@
       "tag": "forge:crops/onion"
     },
     {
-      "item": "minecraft:carrot"
+      "tag": "forge:crops/carrot"
     },
     {
       "tag": "candlelight:red_effect"

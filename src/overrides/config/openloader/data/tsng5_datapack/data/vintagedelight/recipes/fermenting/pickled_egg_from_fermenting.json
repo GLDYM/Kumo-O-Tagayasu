@@ -1,0 +1,16 @@
+{
+  "type": "vintagedelight:fermenting",
+  "processingTime": 2400,
+  "ingredients": [
+    {"tag": "forge:eggs"},
+    {"tag": "forge:eggs"},
+    {"tag": "forge:eggs"},
+    {"tag": "forge:eggs"},
+    {"tag": "forge:eggs"},
+    {"tag": "forge:salt"}
+  ],
+  "output": {
+    "count": 5,
+    "item": "vintagedelight:pickled_egg"
+  }
+}

@@ -1,0 +1,350 @@
+
+#Base Settings
+#基础设置
+[common]
+	#Enable or disable the option to 'Teleport Card'.
+	#是否启用传送卡。
+	teleportCard = false
+	#The number of Teleport Card that can be obtained daily.
+	#每日可获得的传送卡数量。
+	#Range: 0 ~ 9999
+	teleportCardDaily = 0
+	#Teleport Card Usage Modes:
+	#NONE: A teleport will consume one teleport card and also charge the teleport cost. If there are not enough teleport cards, the teleport will fail.
+	#LIKE_COST: A teleport will consume the same number of teleport cards as the teleport cost, and also charge the teleport cost. If there are not enough cards, the teleport will fail.
+	#REFUND_COST: A teleport will consume teleport cards at a 1:1 ratio to offset the teleport cost. If cards are insufficient, the remaining cost will be charged.
+	#REFUND_ALL_COST: A teleport will consume one teleport card to offset the entire teleport cost. If there are not enough cards, the full cost will be charged.
+	#REFUND_COOLDOWN: A teleport will consume one teleport card to skip the cooldown period, but the teleport cost still applies.
+	#REFUND_COST_AND_COOLDOWN: A teleport will consume teleport cards at a 1:1 ratio to offset both the teleport cost and cooldown. If cards are insufficient, the remaining cost will be charged.
+	#REFUND_ALL_COST_AND_COOLDOWN: A teleport will consume one teleport card to offset all teleport costs and cooldown. If there are not enough cards, the full cost will be charged.
+	#If both teleport cards and cost are insufficient, the teleport will fail. If you want teleport cards to cover the cost but prevent teleporting when insufficient, please set the cost to zero in the config.
+	#传送卡的使用方式：
+	#NONE: 传送会消耗一张传送卡，并同时收取代价。若传送卡不足，则无法传送。
+	#LIKE_COST: 传送会消耗与代价数量一致的传送卡，并同时收取代价。若传送卡不足，则无法传送。
+	#REFUND_COST: 传送会按一比一比例消耗传送卡以抵消对应代价。若传送卡不足，则收取剩余代价。
+	#REFUND_ALL_COST: 传送会消耗一张传送卡以抵消所有代价。若传送卡不足，则收取对应代价。
+	#REFUND_COOLDOWN: 传送会消耗一张传送卡并抵消冷却时间，但仍需支付代价。
+	#REFUND_COST_AND_COOLDOWN: 传送会按一比一比例消耗传送卡以抵消对应代价并同时抵消冷却时间。若传送卡不足，则收取剩余代价。
+	#REFUND_ALL_COST_AND_COOLDOWN: 传送会消耗一张传送卡以抵消所有代价并同时抵消冷却时间。若传送卡不足，则收取对应代价。
+	#若传送卡与代价都不足，则无法传送。若希望传送卡能够抵消代价但在不足时禁止传送，请在配置中将代价设置为零。
+	teleportCardType = "REFUND_ALL_COST"
+	#Whether to disable the original TP command.
+	#是否禁用原版TP指令。
+	removeOriginalTp = false
+
+#Function Switch
+#功能开关
+[switch]
+	#Enable or disable the option to 'Share coordinate'.
+	#是否启用坐标分享。
+	switchShare = true
+	#Enable or disable the option to 'Suicide or poisoning'.
+	#是否启用自杀或毒杀。
+	switchFeed = true
+	#Enable or disable the option to 'Teleport to the specified coordinates'.
+	#是否启用传送到指定坐标。
+	switchTpCoordinate = true
+	#Enable or disable the option to 'Teleport to the specified structure'.
+	#是否启用传送到指定结构。
+	switchTpStructure = true
+	#Enable or disable the option to 'Request to teleport oneself to other players'.
+	#是否启用传送请求。
+	switchTpAsk = true
+	#Enable or disable the option to 'Request the transfer of other players to oneself'.
+	#是否启用请求将玩家传送至当前位置。
+	switchTpHere = true
+	#Enable or disable the option to 'Teleport to a random location'.
+	#是否启用随机传送。
+	switchTpRandom = true
+	#Enable or disable the option to 'Teleport to the spawn of the player'.
+	#是否启用传送到玩家重生点。
+	switchTpSpawn = true
+	#Enable or disable the option to 'Teleport to the spawn of the world'.
+	#是否启用传送到世界重生点。
+	switchTpWorldSpawn = true
+	#Enable or disable the option to 'Teleport to the top of current position'.
+	#是否启用传送到顶部。
+	switchTpTop = true
+	#Enable or disable the option to 'Teleport to the bottom of current position'.
+	#是否启用传送到底部。
+	switchTpBottom = true
+	#Enable or disable the option to 'Teleport to the upper of current position'.
+	#是否启用传送到上方。
+	switchTpUp = true
+	#Enable or disable the option to 'Teleport to the lower of current position'.
+	#是否启用传送到下方。
+	switchTpDown = true
+	#Enable or disable the option to 'Teleport to the end of the line of sight'.
+	#This function is independent of the player's render distance setting.
+	#是否启用传送至视线尽头。
+	#该功能与玩家设置的视距无关。
+	switchTpView = true
+	#Enable or disable the option to 'Teleport to the home'.
+	#是否启用传送到家。
+	switchTpHome = true
+	#Enable or disable the option to 'Teleport to the stage'.
+	#是否启用传送到驿站。
+	switchTpStage = true
+	#Enable or disable the option to 'Teleport to the previous location'.
+	#是否启用传送到上次传送点。
+	switchTpBack = true
+
+#Custom Command Settings, don't add prefix '/'
+#自定义指令，请勿添加前缀'/'
+[command]
+	#The prefix of the command, please only use English characters and underscores, otherwise it may cause problems.
+	#指令前缀，请仅使用英文字母及下划线，否则可能会出现问题。
+	commandPrefix = "narcissus"
+	#This command is used to set the language.
+	#设置语言的指令。
+	commandLanguage = "language"
+	#This command is used to get the UUID of the player.
+	#获取玩家的UUID的指令。
+	commandUuid = "uuid"
+	#This command is used to get the dimension ID of the current world.
+	#获取当前世界的维度ID的指令。
+	commandDimension = "dim"
+	#This command is used to get the number of Teleport Card.
+	#获取传送卡数量的指令。
+	commandCard = "card"
+	#This command is used to share the stage, the personal home, and the current coordinate of player.
+	#分享驿站、玩家的私人传送点、玩家当前坐标的指令。
+	commandShare = "share"
+	#This command is used to suicide or poisoning, narcissus are poisonous and should not be eaten.
+	#自杀或毒杀的指令，水仙是有毒的可不能食用哦。
+	commandFeed = "suicide"
+	#This command is used to teleport to the specified coordinates.
+	#传送到指定坐标的指令。
+	commandTpCoordinate = "tpx"
+	#This command is used to teleport to the specified structure.
+	#传送到指定结构的指令。
+	commandTpStructure = "tpst"
+	#The command to teleport to a random location.
+	#随机传送的指令。
+	commandTpRandom = "tpr"
+	#The command to teleport to the spawn of the player.
+	#传送到玩家重生点的指令。
+	commandTpSpawn = "spawn"
+	#The command to teleport to the spawn of the world.
+	#传送到世界重生点的指令。
+	commandTpWorldSpawn = "wspawn"
+	#The command to teleport to the top of current position.
+	#传送到顶部的指令。
+	commandTpTop = "top"
+	#The command to teleport to the bottom of current position.
+	#传送到底部的指令。
+	commandTpBottom = "bottom"
+	#The command to teleport to the upper of current position.
+	#传送到上方的指令。
+	commandTpUp = "up"
+	#The command to teleport to the lower of current position.
+	#传送到下方的指令。
+	commandTpDown = "down"
+	#The command to teleport to the end of the line of sight.
+	#This function is independent of the player's render distance setting.
+	#传送至视线尽头的指令。
+	#该功能与玩家设置的视距无关。
+	commandTpView = "tpv"
+	#The command to teleport to the previous location.
+	#传送到上次传送点的指令。
+	commandTpBack = "back"
+	#The command to set virtual permission.
+	#设置虚拟权限的指令。
+	commandVirtualOp = "opv"
+
+	#Request to teleport oneself to other players
+	#请求传送至玩家
+	[command.TpAsk]
+		#This command is used to request to teleport oneself to other players.
+		#请求传送至玩家的指令。
+		commandTpAsk = "tpa"
+		#This command is used to accept teleportation of other players to oneself.
+		#I can't translate it clearly either, as long as you understand the meaning. >_<
+		#接受请求传送至玩家的指令。
+		#我也翻译不清楚了，你懂意思就行。>_<
+		commandTpAskYes = "tpay"
+		#This command is used to refuse teleportation of other players to oneself.
+		#I can't translate it clearly either, as long as you understand the meaning. >_<
+		#拒绝请求传送至玩家的指令。
+		#我也翻译不清楚了，你懂意思就行。>_<
+		commandTpAskNo = "tpan"
+		#This command is used to cancel the request to teleport to other players.
+		#取消请求传送至玩家的指令。
+		commandTpAskCancel = "tpac"
+
+	#Request the transfer of other players to oneself
+	#请求将玩家传送至当前位置
+	[command.TpHere]
+		#This command is used to request the transfer of other players to oneself.
+		#请求将玩家传送至当前位置的指令。
+		commandTpHere = "tph"
+		#This command is used to accept teleportation to other players.
+		#I can't translate it clearly either, as long as you understand the meaning. >_<
+		#接受请求将玩家传送至当前位置的指令。
+		#我也翻译不清楚了，你懂意思就行。>_<
+		commandTpHereYes = "tphy"
+		#This command is used to refuse teleportation to other players.
+		#I can't translate it clearly either, as long as you understand the meaning. >_<
+		#拒绝请求将玩家传送至当前位置的指令。
+		#我也翻译不清楚了，你懂意思就行。>_<
+		commandTpHereNo = "tphn"
+		#This command is used to cancel the request to teleport to other players.
+		#取消请求将玩家传送至当前位置的指令。
+		commandTpHereCancel = "tphc"
+
+	#Teleport to the home
+	#传送到家
+	[command.TpHome]
+		#The command to teleport to the home.
+		#传送到家的指令。
+		commandTpHome = "home"
+		#The command to set the home.
+		#设置家的指令。
+		commandTpHomeSet = "sethome"
+		#The command to delete the home.
+		#删除家的指令。
+		commandTpHomeDel = "delhome"
+		#The command to get the home info.
+		#查询家的信息的指令。
+		commandTpHomeGet = "gethome"
+
+	#Teleport to the stage
+	#传送到驿站
+	[command.TpStage]
+		#The command to teleport to the stage.
+		#传送到驿站的指令。
+		commandTpStage = "stage"
+		#The command to set the stage.
+		#设置驿站的指令。
+		commandTpStageSet = "setstage"
+		#The command to delete the stage.
+		#删除驿站的指令。
+		commandTpStageDel = "delstage"
+		#The command to get the stage info.
+		#查询驿站的信息的的指令。
+		commandTpStageGet = "getstage"
+
+#Concise Command Settings
+#简化指令
+[concise]
+	#Enable or disable the concise version of the 'Set the language' command.
+	#是否启用无前缀版本的 '设置语言' 指令。
+	conciseLanguage = false
+	#Enable or disable the concise version of the 'Get the UUID of the player' command.
+	#是否启用无前缀版本的 '获取玩家的UUID' 指令。
+	conciseUuid = false
+	#Enable or disable the concise version of the 'Get the dimension ID of the current world' command.
+	#是否启用无前缀版本的 '获取当前世界的维度ID' 指令。
+	conciseDimension = false
+	#Enable or disable the concise version of the 'Get the number of Teleport Card of the player' command.
+	#是否启用无前缀版本的 '获取玩家的传送卡数量' 指令。
+	conciseCard = false
+	#Enable or disable the concise version of the 'Share the stage, the personal home, and the current coordinate of player' command.
+	#是否启用无前缀版本的 '分享驿站、玩家的私人传送点、玩家当前坐标' 指令。
+	conciseShare = false
+	#Enable or disable the concise version of the 'Suicide or poisoning' command.
+	#是否启用无前缀版本的 '自杀或毒杀' 指令。
+	conciseFeed = false
+	#Enable or disable the concise version of the 'Teleport to the specified coordinates' command.
+	#是否启用无前缀版本的 '传送到指定坐标' 指令。
+	conciseTpCoordinate = false
+	#Enable or disable the concise version of the 'Teleport to the specified structure' command.
+	#是否启用无前缀版本的 '传送到指定结构' 指令。
+	conciseTpStructure = true
+	#Enable or disable the concise version of the 'Teleport to a random location' command.
+	#是否启用无前缀版本的 '随机传送' 指令。
+	conciseTpRandom = true
+	#Enable or disable the concise version of the 'Teleport to the spawn of the player' command.
+	#是否启用无前缀版本的 '传送到玩家重生点' 指令。
+	conciseTpSpawn = true
+	#Enable or disable the concise version of the 'Teleport to the spawn of the world' command.
+	#是否启用无前缀版本的 '传送到世界重生点' 指令。
+	conciseTpWorldSpawn = true
+	#Enable or disable the concise version of the 'Teleport to the top of current position' command.
+	#是否启用无前缀版本的 '传送到顶部' 指令。
+	conciseTpTop = true
+	#Enable or disable the concise version of the 'Teleport to the bottom of current position' command.
+	#是否启用无前缀版本的 '传送到底部' 指令。
+	conciseTpBottom = false
+	#Enable or disable the concise version of the 'Teleport to the upper of current position' command.
+	#是否启用无前缀版本的 '传送到上方' 指令。
+	conciseTpUp = false
+	#Enable or disable the concise version of the 'Teleport to the lower of current position' command.
+	#是否启用无前缀版本的 '传送到下方' 指令。
+	conciseTpDown = false
+	#Enable or disable the concise version of the 'Teleport to the end of the line of sight' command.
+	#This function is independent of the player's render distance setting.
+	#是否启用无前缀版本的 '传送至视线尽头' 指令。
+	#该功能与玩家设置的视距无关。
+	conciseTpView = false
+	#Enable or disable the concise version of the 'Teleport to the previous location' command.
+	#是否启用无前缀版本的 '传送到上次传送点' 指令。
+	conciseTpBack = true
+	#Enable or disable the concise version of the 'Set virtual permission' command.
+	#是否启用无前缀版本的 '设置虚拟权限' 指令。
+	conciseVirtualOp = false
+
+	#Request to teleport oneself to other players
+	#请求传送至玩家
+	[concise.TpAsk]
+		#Enable or disable the concise version of the 'Request to teleport oneself to other players' command.
+		#是否启用无前缀版本的 '请求传送至玩家' 指令。
+		conciseTpAsk = true
+		#Enable or disable the concise version of the 'Accept teleportation of other players to oneself' command.
+		#是否启用无前缀版本的 '接受请求传送至玩家' 指令。
+		conciseTpAskYes = true
+		#Enable or disable the concise version of the 'Refuse teleportation of other players to oneself' command.
+		#是否启用无前缀版本的 '拒绝请求传送至玩家' 指令。
+		conciseTpAskNo = true
+		#Enable or disable the concise version of the 'Cancel the request to teleport to other players' command.
+		#是否启用无前缀版本的 '取消请求传送至玩家' 指令。
+		conciseTpAskCancel = true
+
+	#Request the transfer of other players to oneself
+	#请求将玩家传送至当前位置
+	[concise.TpHere]
+		#Enable or disable the concise version of the 'Request the transfer of other players to oneself' command.
+		#是否启用无前缀版本的 '请求将玩家传送至当前位置' 指令。
+		conciseTpHere = true
+		#Enable or disable the concise version of the 'Accept teleportation to other players' command.
+		#是否启用无前缀版本的 '接受请求将玩家传送至当前位置' 指令。
+		conciseTpHereYes = true
+		#Enable or disable the concise version of the 'Refuse teleportation to other players' command.
+		#是否启用无前缀版本的 '拒绝请求将玩家传送至当前位置' 指令。
+		conciseTpHereNo = true
+		#Enable or disable the concise version of the 'Cancel the request to teleport to other players' command.
+		#是否启用无前缀版本的 '取消请求将玩家传送至当前位置' 指令。
+		conciseTpHereCancel = true
+
+	#Teleport to the home
+	#传送到家
+	[concise.TpHome]
+		#Enable or disable the concise version of the 'Teleport to the home' command.
+		#是否启用无前缀版本的 '传送到家' 指令。
+		conciseTpHome = true
+		#Enable or disable the concise version of the 'Set the home' command.
+		#是否启用无前缀版本的 '设置家' 指令。
+		conciseTpHomeSet = true
+		#Enable or disable the concise version of the 'Delete the home' command.
+		#是否启用无前缀版本的 '删除家' 指令。
+		conciseTpHomeDel = true
+		#Enable or disable the concise version of the 'Get the home info' command.
+		#是否启用无前缀版本的 '查询家' 指令。
+		conciseTpHomeGet = true
+
+	#Teleport to the stage
+	#传送到驿站
+	[concise.TpStage]
+		#Enable or disable the concise version of the 'Teleport to the stage' command.
+		#是否启用无前缀版本的 '传送到驿站' 指令。
+		conciseTpStage = true
+		#Enable or disable the concise version of the 'Set the stage' command.
+		#是否启用无前缀版本的 '设置驿站' 指令。
+		conciseTpStageSet = true
+		#Enable or disable the concise version of the 'Delete the stage' command.
+		#是否启用无前缀版本的 '删除驿站' 指令。
+		conciseTpStageDel = true
+		#Enable or disable the concise version of the 'Get the stage info' command.
+		#是否启用无前缀版本的 '查询驿站' 指令。
+		conciseTpStageGet = true
+

@@ -1,0 +1,8 @@
+
+["Let Me Feed You Config"]
+	#Normally it should be below 20, but you may have installed some mods that remove the limit.
+	#Range: > 1
+	"The Player can only be fed when the hunger is below……" = 40
+	#Food that should not be fed to other players
+	"Food Blacklist" = ["artifacts:everlasting_beef", "artifacts:eternal_steak"]
+

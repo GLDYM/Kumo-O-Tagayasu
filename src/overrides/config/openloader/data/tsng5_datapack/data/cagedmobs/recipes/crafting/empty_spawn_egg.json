@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "minecraft:ender_pearl"
+      "item": "minecraft:ghast_tear"
     },
     "B": {
-      "item": "minecraft:ghast_tear"
+      "item": "l2complements:totemic_gold_ingot"
     }
   },
   "pattern": [

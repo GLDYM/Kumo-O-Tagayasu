@@ -8,10 +8,12 @@
       "item": "minecraft:rabbit"
     },
     {
-      "item": "minecraft:carrot"
+      "tag": "forge:crops/carrot"
     }
   ],
-  "item": "farm_and_charm:stuffed_rabbit",
-  "count": 1,
+  "result": {
+    "item": "farm_and_charm:stuffed_rabbit",
+    "count": 1
+  },
   "experience": 0.6
 }

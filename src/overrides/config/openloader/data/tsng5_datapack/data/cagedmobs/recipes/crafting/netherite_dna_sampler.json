@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "l2complements:eternium_block"
+  },
+  "base": {
+    "item": "cagedmobs:diamond_dna_sampler"
+  },
+  "result": {
+    "item": "cagedmobs:netherite_dna_sampler"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

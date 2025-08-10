@@ -1,0 +1,17 @@
+{
+  "type": "vintagedelight:fermenting",
+  "ingredients": [
+    { "tag": "forge:hot_spice" },
+    { "tag": "forge:salt" },
+    { "item": "minecraft:crimson_fungus" },
+    { "item": "minecraft:fermented_spider_eye" },
+    { "item": "minecraft:ghast_tear" }
+  ],
+  "container": { "item": "minecraft:glass_bottle" },
+  "output": {
+    "item": "minecraft:potion",
+    "count": 1,
+    "nbt": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:5,Amplifier:2,Duration:600},{Id:11,Amplifier:3,Duration:600},{Id:20,Amplifier:0,Duration:400}],CustomPotionColor:11141120,display:{Name:'{\"text\":\"Berserker\\'s Brew\",\"italic\":false}'}}"
+  },
+  "processingTime": 400
+}

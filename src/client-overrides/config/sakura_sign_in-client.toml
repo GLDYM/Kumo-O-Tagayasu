@@ -1,0 +1,76 @@
+
+#Client Settings
+[client]
+	#theme textures path, can be external path: config/sakura_sign_in/themes/your_theme.png
+	#主题材质路径，可为外部路径： config/sakura_sign_in/themes/your_theme.png
+	theme = "textures/gui/sign_in_calendar_sakura.png"
+	#Whether or not to use the built-in theme special icons.
+	#是否使用内置主题特殊图标。
+	specialTheme = false
+	#The sign-in page displays last month's rewards. Someone said it didn't look good on display.
+	#签到页面是否显示上个月的奖励，有人说它显示出来不好看。
+	showLastReward = false
+	#The sign-in page displays next month's rewards. Someone said it didn't look good on display.
+	#签到页面是否显示下个月的奖励，有人说它显示出来不好看。
+	showNextReward = false
+	#Whether the rewards will be automatically claimed when you sign-in or re-sign-in.
+	#签到或补签时是否自动领取奖励。
+	autoRewarded = false
+	#The coordinate of the sign-in button in the inventory screen. If the coordinate is 0~1, it is the percentage position.
+	#背包界面签到按钮坐标，若坐标为0~1之间的小数则为百分比位置。
+	inventorySignInButtonCoordinate = "92,2"
+	#The coordinate of the reward option button in the inventory screen. If the coordinate is 0~1, it is the percentage position.
+	#背包界面奖励配置按钮坐标，若坐标为0~1之间的小数则为百分比位置。
+	inventoryRewardOptionButtonCoordinate = "72,2"
+	#Whether or not to display a prompt for action when you open the sign-in screen.
+	#打开签到页面时是否显示操作提示。
+	showSignInScreenTips = true
+
+	#Key Settings
+	[client.key]
+
+		#Reward Option
+		[client.key.rewardOption]
+			#Keys used to copy on the reward option screen
+			#奖励配置页面进行 复制操作 时所使用的按键
+			copy = ["LeftControl+C", "RightControl+C"]
+			#Keys used to paste on the reward option screen
+			#奖励配置页面进行 粘贴操作 时所使用的按键
+			paste = ["LeftControl+V", "RightControl+V"]
+			#Keys used to cut on the reward option screen
+			#奖励配置页面进行 裁剪操作 时所使用的按键
+			cut = ["LeftControl+X", "RightControl+X"]
+			#Keys used to delete on the reward option screen
+			#奖励配置页面进行 删除操作 时所使用的按键
+			delete = ["Delete", "LeftControl+Y", "LeftControl+MouseRight"]
+			#Keys used to undo on the reward option screen
+			#奖励配置页面进行 撤销操作 时所使用的按键
+			undo = ["LeftControl+Z", "RightControl+Z"]
+			#Keys used to redo on the reward option screen
+			#奖励配置页面进行 重做操作 时所使用的按键
+			redo = ["LeftShift+LeftControl+Z", "RightShift+RightControl+Z"]
+
+		#Sign
+		[client.key.sign]
+			#Keys used to sign in on the sign-in screen
+			#签到页面进行 签到操作 时所使用的按键
+			signIn = ["Enter", "MouseLeft"]
+			#Keys used to re-sign in on the sign-in screen
+			#签到页面进行 补签操作 时所使用的按键
+			reSignIn = ["LeftShift+Enter", "MouseRight"]
+			#Keys used to claim rewards on the sign-in screen
+			#签到页面进行 领取奖励操作 时所使用的按键
+			reward = ["LeftShift+Enter", "MouseRight"]
+			#Keys used to switch to the last month on the sign-in screen
+			#签到页面进行 切换到上个月 时所使用的按键
+			lastMonth = ["Left", "MouseLeft"]
+			#Keys used to switch to the next month on the sign-in screen
+			#签到页面进行 切换到下个月 时所使用的按键
+			nextMonth = ["Right", "MouseLeft"]
+			#Keys used to switch to the last year on the sign-in screen
+			#签到页面进行 切换到上一年 时所使用的按键
+			lastYear = ["Up", "MouseLeft"]
+			#Keys used to switch to the next year on the sign-in screen
+			#签到页面进行 切换到下一年 时所使用的按键
+			nextYear = ["Down", "MouseLeft"]
+

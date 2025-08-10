@@ -48,7 +48,6 @@
 	obsidian_infused_enderite_knife = true
 	onyx_knife = true
 	osmium_knife = true
-	pendorite_knife = true
 	refined_glowstone_knife = true
 	refined_obsidian_knife = true
 	rose_gold_knife = true
@@ -70,16 +69,9 @@
 	zanite_knife = true
 	zinc_knife = true
 	phoenix_knife = true
-
-["Pie Overhauls"]
-	blueberry_pie_slice = true
-	crimson_berry_pie_slice = true
-	gloomgourd_pie_slice = true
-	green_apple_pie_slice = true
-	nightshade_berry_pie_slice = true
-	pumpkin_pie_slice = true
-	salmonberry_pie_slice = true
-	source_berry_pie_slice = true
+	aluminum_knife = true
+	pearlescent_knife = true
+	resonarium_knife = true
 
 ["Registry & Recipes"]
 	acorn = true
@@ -100,23 +92,18 @@
 	cantaloupe_slice = true
 	cheeseburger = true
 	chopped_clover = true
-	chunk_nugget = true
 	chunkwich = true
 	coconut_curry = true
 	cooked_goat = false
 	cooked_marshmallow_stick = true
 	cooked_venison_chops = true
 	crab_rangoon = true
-	crimson_berry_sack = true
 	deluxe_cheeseburger = true
 	ender_nectar = true
 	field_salad = true
-	glow_jelly_bottle = true
 	green_apple_crate = true
 	green_tea_leaf = true
 	honey_glazed_walnut = true
-	jelly_bottle = true
-	joshua_fruit_crate = true
 	lavender_tea = true
 	marshmallow_stick = true
 	matcha = true
@@ -124,8 +111,6 @@
 	matcha_ice_cream_block = true
 	matcha_latte = true
 	mini_melon = true
-	nightshade_berry_sack = true
-	nut_butter_and_jelly_sandwich = true
 	nut_butter_bottle = true
 	prickly_pear_juice = true
 	quartz_cabinet = true
@@ -163,4 +148,41 @@
 	nut_dough = true
 	roasted_acorn = true
 	salmonberry_milkshake = true
+	baklava = true
+	baklava_slice = true
+	cactus_chili = true
+	cactus_soup = true
+	cactus_soup_cup = true
+	chorus_muffin = true
+	glow_jam_cookie = true
+	glow_jam_cookie_tile_slab = true
+	glow_jam_cookie_tile_stairs = true
+	glow_jam_cookie_tile_wall = true
+	glow_jam_cookie_tiles = true
+	glow_jam_jar = true
+	jam_jar = true
+	nut_butter_and_jam_sandwich = true
+	salmonberry_pie_slice = true
+	source_berry_cookie = true
+	source_berry_cookie_tile_slab = true
+	source_berry_cookie_tile_stairs = true
+	source_berry_cookie_tile_wall = true
+	source_berry_cookie_tiles = true
+	source_berry_gummy = true
+	source_berry_ice_cream = true
+	source_berry_ice_cream_block = true
+	source_berry_milkshake = true
+	venison_stew = true
+	venison_stew_cup = true
+	yucca_fruit_crate = true
+
+["Baked Good Overhauls"]
+	blueberry_pie_slice = true
+	chorus_pie_slice = true
+	gloomgourd_pie_slice = true
+	green_apple_pie_slice = true
+	mulberry_pie_slice = true
+	passion_fruit_tart_slice = true
+	pumpkin_pie_slice = true
+	source_berry_pie_slice = true
 

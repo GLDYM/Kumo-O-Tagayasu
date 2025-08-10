@@ -9,7 +9,7 @@
       "item": "minecraft:allium"
     },
     "C": {
-      "item": "youkaisfeasts:bowl_of_cream"
+      "item": "youkaishomecoming:bowl_of_cream"
     },
     "D": {
       "item": "minecraft:cornflower"
@@ -27,7 +27,7 @@
     "AEA"
   ],
   "result": {
-    "item": "youkaisfeasts:tarte_lune"
+    "item": "youkaishomecoming:tarte_lune"
   },
   "show_notification": true
 }

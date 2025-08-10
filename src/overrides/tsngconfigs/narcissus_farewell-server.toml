@@ -1,0 +1,693 @@
+
+#Base Settings
+#基础设置
+[common]
+	#The limit of teleport records, 0 means no limit.
+	#传送记录数量限制，数量为0表示不限制。
+	#Range: 0 ~ 99999
+	teleportRecordLimit = 0
+	#The teleport back skip type.
+	#传送回时忽略的传送类型。
+	#Allowed Values: [TP_COORDINATE, TP_STRUCTURE, TP_ASK, TP_HERE, TP_RANDOM, TP_SPAWN, TP_WORLD_SPAWN, TP_TOP, TP_BOTTOM, TP_UP, TP_DOWN, TP_VIEW, TP_HOME, TP_STAGE, TP_BACK, DEATH, OTHER]
+	teleportBackSkipType = ["TP_BACK"]
+	#Is the teleport across dimensions enabled?
+	#是否启用跨维度传送。
+	teleportAcrossDimension = true
+	#The distance calculation limit for teleport cost, 0 means no limit.
+	#(This config item is not the limit of teleport distance, but the limit of the distance multiplier used when calculating teleport cost.)
+	#传送代价中传送距离计算限制，值为0表示不限制。(此配置项并非限制传送距离，而是限制计算传送代价时使用的距离乘数。)
+	#Range: > 0
+	teleportDistanceLimit = 0
+	#The distance value for teleport cost when teleport across dimensions, 0 means no limit.
+	#跨维度传送时传送代价中传送距离取值，值为0表示不限制。
+	#Range: > 0
+	teleportDistanceAcrossDimension = 0
+	#The distance limit for teleporting to the view, 0 means no limit.
+	#传送至视线尽头时最远传送距离限制，值为0表示不限制。
+	#Range: > 0
+	teleportViewDistanceLimit = 1024
+	#The expire time for teleport request, in seconds.
+	#传送请求过期时间，单位为秒。
+	#Range: 0 ~ 3600
+	teleportRequestExpireTime = 45
+	#The method used to calculate the cooldown time for teleport requests.
+	#COMMON: All commands share the same global cooldown defined by 'teleportRequestCooldown'.
+	#INDIVIDUAL: Each command has a separate cooldown managed by the command itself.
+	#MIXED: Combines both methods, using both the global cooldown and individual cooldowns.
+	#传送请求冷却时间的计算方式：
+	#COMMON：所有传送共用全局冷却时间，由'teleportRequestCooldown'配置定义。
+	#INDIVIDUAL：每个指令有单独的冷却时间，由指令自身管理。
+	#MIXED：结合两种方式，同时使用全局冷却时间和单独冷却时间。
+	teleportRequestCooldownType = "INDIVIDUAL"
+	#The global cooldown time for teleport requests, measured in seconds.
+	#This value applies to all commands when the cooldown type is COMMON or MIXED.
+	#传送请求的全局冷却时间，单位为秒。
+	#当冷却时间计算方式为COMMON或MIXED时，此值对所有指令生效。
+	#Range: 0 ~ 86400
+	teleportRequestCooldown = 30
+	#The maximum distance limit for random teleportation or teleportation to a specified structure.
+	#随机传送与传送至指定结构的最大距离限制。
+	#Range: > 5
+	teleportRandomDistanceLimit = 4096
+	#The maximum number of homes that can be set by the player.
+	#玩家可设置的家的数量。
+	#Range: 1 ~ 9999
+	teleportHomeLimit = 10
+	#The header content of the help command.
+	#帮助指令信息头部内容。
+	helpHeader = "-----==== Narcissus Farewell Help (%d/%d) ====-----"
+	#The sound effect when teleporting.
+	#传送时的音效。
+	tpSound = "minecraft:entity.enderman.teleport"
+	#Whether to allow vehicles to be teleported together.
+	#是否允许载具一起传送。
+	tpWithVehicle = true
+	#Whether to allow followers to be teleported together.
+	#是否允许跟随的实体一起传送。
+	tpWithFollower = true
+	#The range of followers to be recognized, in blocks.
+	#跟随的实体识别范围半径。
+	#Range: 1 ~ 256
+	tpWithFollowerRange = 8
+	#The number of help information displayed per page.
+	#每页显示的帮助信息数量。
+	#Range: 1 ~ 9999
+	helpInfoNumPerPage = 8
+	#The default language of the server.
+	#服务器默认语言。
+	defaultLanguage = "zh_cn"
+	#Whether to restrict teleportation when the player is targeted (agroed) by hostile mobs.
+	#是否在被敌对生物锁定（仇恨）时限制玩家进行传送操作。
+	tpWithEnemy = false
+
+	#Safe Teleport
+	#安全传送
+	[common.Safe]
+		#The list of unsafe blocks, players will not be teleported to these blocks.
+		#不安全的方块列表，玩家不会传送到这些方块上。
+		unsafeBlocks = ["minecraft:lava", "minecraft:fire", "minecraft:campfire", "minecraft:soul_fire", "minecraft:soul_campfire", "minecraft:cactus", "minecraft:magma_block", "minecraft:sweet_berry_bush", "minecraft:powder_snow", "atmospheric:barrel_cactus", "atmospheric:yucca_flower", "atmospheric:tall_yucca_flower", "atmospheric:aloe_vera", "bloomingnature:marsh_block", "bloomingnature:quicksand", "spelunkery:portal_fluid", "rubinated_nether:molten_ruby_ore", "mynethersdelight:bullet_pepper", "netherexp:ancient_campfire", "caverns_and_chasms:cupric_campfire", "caverns_and_chasms:fragile_stone", "caverns_and_chasms:fragile_deepslate", "biomemakeover:barrel_cactus", "biomemakeover:barrel_cactus_flowered", "biomemakeover:saguaro_cactus"]
+		#The list of suffocating blocks, players will not be teleported to these blocks.
+		#窒息的方块列表，玩家头不会处于这些方块里面。
+		suffocatingBlocks = ["minecraft:lava", "minecraft:water", "spelunkery:spring_water", "tofucraft:bucket_soymilk", "netherexp:ectoplasm", "earthmobsmod:mud"]
+		#When performing a safe teleport, whether to place a block underfoot if a safe coordinate is not found.
+		#当进行安全传送时，如果未找到安全坐标，是否在脚下放置方块。
+		setBlockWhenSafeNotFound = false
+		#When performing a safe teleport, whether to only use placeable blocks from the player's inventory if a safe coordinate is not found.
+		#当进行安全传送时，如果未找到安全坐标，是否仅从背包中获取可放置的方块。
+		getBlockFromInventory = false
+		#When performing a safe teleport, the list of blocks to place if a safe coordinate is not found. If 'getBlockFromInventory' is set to false, the first block in the list will always be used.
+		#当进行安全传送时，如果未找到安全坐标，放置方块的列表。若'getBlockFromInventory'为false，则始终使用列表中的第一个方块。
+		safeBlocks = ["minecraft:cobblestone"]
+		#The chunk range for finding a safe coordinate, in chunks.
+		#当进行安全传送时，寻找安全坐标的半径，单位为区块。
+		#Range: 1 ~ 16
+		safeChunkRange = 1
+
+#Command Permission
+#指令权限
+[permission]
+
+	#Command Permission
+	#指令权限
+	[permission.command]
+		#The permission level required to use the 'Poisoning others' command.
+		#毒杀指令所需的权限等级。
+		#Range: 0 ~ 4
+		permissionFeedOther = 4
+		#The permission level required to use the 'Teleport to the specified coordinates' command.
+		#传送到指定坐标指令所需的权限等级。
+		#Range: 0 ~ 4
+		permissionTpCoordinate = 2
+		#The permission level required to use the 'Teleport to the specified structure' command.
+		#传送到指定结构指令所需的权限等级。
+		#Range: 0 ~ 4
+		permissionTpStructure = 2
+		#The permission level required to use the 'Request to teleport oneself to other players' command.
+		#请求传送至玩家指令所需的权限等级。
+		#Range: 0 ~ 4
+		permissionTpAsk = 0
+		#The permission level required to use the 'Request the transfer of other players to oneself' command.
+		#请求将玩家传送至当前位置指令所需的权限等级。
+		#Range: 0 ~ 4
+		permissionTpHere = 0
+		#The permission level required to use the 'Teleport to a random location' command.
+		#随机传送指令所需的权限等级。
+		#Range: 0 ~ 4
+		permissionTpRandom = 0
+		#The permission level required to use the 'Teleport to the spawn of the player' command.
+		#传送到玩家重生点指令所需的权限等级。
+		#Range: 0 ~ 4
+		permissionTpSpawn = 0
+		#The permission level required to use the 'Teleport to the spawn of the other player' command.
+		#传送到其他玩家重生点指令所需的权限等级。
+		#Range: 0 ~ 4
+		permissionTpSpawnOther = 2
+		#The permission level required to use the 'Teleport to the spawn of the world' command.
+		#传送到世界重生点指令所需的权限等级。
+		#Range: 0 ~ 4
+		permissionTpWorldSpawn = 0
+		#The permission level required to use the 'Teleport to the top of current position' command.
+		#传送到顶部指令所需的权限等级。
+		#Range: 0 ~ 4
+		permissionTpTop = 0
+		#The permission level required to use the 'Teleport to the bottom of current position' command.
+		#传送到底部指令所需的权限等级。
+		#Range: 0 ~ 4
+		permissionTpBottom = 2
+		#The permission level required to use the 'Teleport to the upper of current position' command.
+		#传送到上方指令所需的权限等级。
+		#Range: 0 ~ 4
+		permissionTpUp = 2
+		#The permission level required to use the 'Teleport to the lower of current position' command.
+		#传送到下方指令所需的权限等级。
+		#Range: 0 ~ 4
+		permissionTpDown = 2
+		#The permission level required to use the 'Teleport to the end of the line of sight' command.
+		#This function is independent of the player's render distance setting.
+		#传送至视线尽头指令所需的权限等级。
+		#该功能与玩家设置的视距无关。
+		#Range: 0 ~ 4
+		permissionTpView = 2
+		#The permission level required to use the 'Teleport to the home' command.
+		#传送到家指令所需的权限等级。
+		#Range: 0 ~ 4
+		permissionTpHome = 0
+		#The permission level required to use the 'Teleport to the stage' command.
+		#传送到驿站指令所需的权限等级。
+		#Range: 0 ~ 4
+		permissionTpStage = 0
+		#The permission level required to use the 'Set the stage' command.
+		#设置驿站指令所需的权限等级。
+		#Range: 0 ~ 4
+		permissionTpStageSet = 2
+		#The permission level required to use the 'Delete the stage' command.
+		#删除驿站指令所需的权限等级。
+		#Range: 0 ~ 4
+		permissionTpStageDel = 2
+		#The permission level required to use the 'Get the stage info' command.
+		#查询驿站指令所需的权限等级。
+		#Range: 0 ~ 4
+		permissionTpStageGet = 0
+		#The permission level required to use the 'Teleport to the previous location' command.
+		#传送到上次传送点指令所需的权限等级。
+		#Range: 0 ~ 4
+		permissionTpBack = 0
+		#The permission level required to use the 'Set virtual permission' command, and also used as the permission level for modifying server configuration.
+		#设置虚拟权限指令所需的权限等级，同时用于控制使用'修改服务器配置指令'的权限。
+		#Range: 0 ~ 4
+		permissionVirtualOp = 4
+		#The permission level required to use the 'Set the number of Teleport Card of the player' command.
+		#设置玩家传送卡数量指令所需的权限等级。
+		#Range: 0 ~ 4
+		permissionSetCard = 2
+
+	#Across dimensions Switch
+	#跨维度权限
+	[permission.across]
+		#The permission level required to use the 'Teleport to the specified coordinates' command across dimensions, -1 means disabled.
+		#跨维度传送到指定坐标指令所需的权限等级，若为-1则禁用跨维度传送。
+		#Range: -1 ~ 4
+		permissionTpCoordinateAcrossDimension = 2
+		#The permission level required to use the 'Teleport to the specified structure' command across dimensions, -1 means disabled.
+		#跨维度传送到指定结构指令所需的权限等级，若为-1则禁用跨维度传送。
+		#Range: -1 ~ 4
+		permissionTpStructureAcrossDimension = 2
+		#The permission level required to use the 'Request to teleport oneself to other players' command across dimensions, -1 means disabled.
+		#跨维度请求传送至玩家指令所需的权限等级，若为-1则禁用跨维度传送。
+		#Range: -1 ~ 4
+		permissionTpAskAcrossDimension = 0
+		#The permission level required to use the 'Teleport to the current position' command across dimensions, -1 means disabled.
+		#跨维度传送到当前位置指令所需的权限等级，若为-1则禁用跨维度传送。
+		#Range: -1 ~ 4
+		permissionTpHereAcrossDimension = 0
+		#The permission level required to use the 'Teleport to the random position' command across dimensions, -1 means disabled.
+		#跨维度传送到随机位置指令所需的权限等级，若为-1则禁用跨维度传送。
+		#Range: -1 ~ 4
+		permissionTpRandomAcrossDimension = 3
+		#The permission level required to use the 'Teleport to the spawn of the current dimension' command across dimensions, -1 means disabled.
+		#跨维度传送到当前维度的出生点指令所需的权限等级，若为-1则禁用跨维度传送。
+		#Range: -1 ~ 4
+		permissionTpSpawnAcrossDimension = 0
+		#The permission level required to use the 'Teleport to the world spawn of the current dimension' command across dimensions, -1 means disabled.
+		#跨维度传送到当前维度的世界出生点指令所需的权限等级，若为-1则禁用跨维度传送。
+		#Range: -1 ~ 4
+		permissionTpWorldSpawnAcrossDimension = 0
+		#The permission level required to use the 'Teleport to the home' command across dimensions, -1 means disabled.
+		#跨维度传送到家指令所需的权限等级，若为-1则禁用跨维度传送。
+		#Range: -1 ~ 4
+		permissionTpHomeAcrossDimension = 0
+		#The permission level required to use the 'Teleport to the stage' command across dimensions, -1 means disabled.
+		#跨维度传送到驿站指令所需的权限等级，若为-1则禁用跨维度传送。
+		#Range: -1 ~ 4
+		permissionTpStageAcrossDimension = 0
+		#The permission level required to use the 'Teleport to the previous location' command across dimensions, -1 means disabled.
+		#跨维度传送到上次传送点指令所需的权限等级，若为-1则禁用跨维度传送。
+		#Range: -1 ~ 4
+		permissionTpBackAcrossDimension = 3
+
+#Cooldown Time
+#冷却时间
+[cooldown]
+	#The cooldown time for 'Teleport to the specified coordinates', in seconds.
+	#传送到指定坐标的冷却时间，单位为秒。
+	#Range: 0 ~ 86400
+	cooldownTpCoordinate = 10
+	#The cooldown time for 'Teleport to the specified structure', in seconds.
+	#传送到指定结构的冷却时间，单位为秒。
+	#Range: 0 ~ 86400
+	cooldownTpStructure = 10
+	#The cooldown time for 'Request to teleport oneself to other players', in seconds.
+	#请求传送至玩家的冷却时间，单位为秒。
+	#Range: 0 ~ 86400
+	cooldownTpAsk = 0
+	#The cooldown time for 'Request the transfer of other players to oneself', in seconds.
+	#请求将玩家传送至当前位置的冷却时间，单位为秒。
+	#Range: 0 ~ 86400
+	cooldownTpHere = 0
+	#The cooldown time for 'Teleport to a random location', in seconds.
+	#随机传送的冷却时间，单位为秒。
+	#Range: 0 ~ 86400
+	cooldownTpRandom = 300
+	#The cooldown time for 'Teleport to the spawn of the player', in seconds.
+	#传送到玩家重生点的冷却时间，单位为秒。
+	#Range: 0 ~ 86400
+	cooldownTpSpawn = 0
+	#The cooldown time for 'Teleport to the spawn of the world', in seconds.
+	#传送到世界重生点的冷却时间，单位为秒。
+	#Range: 0 ~ 86400
+	cooldownTpWorldSpawn = 0
+	#The cooldown time for 'Teleport to the top of current position', in seconds.
+	#传送到顶部的冷却时间，单位为秒。
+	#Range: 0 ~ 86400
+	cooldownTpTop = 10
+	#The cooldown time for 'Teleport to the bottom of current position', in seconds.
+	#传送到底部的冷却时间，单位为秒。
+	#Range: 0 ~ 86400
+	cooldownTpBottom = 10
+	#The cooldown time for 'Teleport to the upper of current position', in seconds.
+	#传送到上方的冷却时间，单位为秒。
+	#Range: 0 ~ 86400
+	cooldownTpUp = 10
+	#The cooldown time for 'Teleport to the lower of current position', in seconds.
+	#传送到下方的冷却时间，单位为秒。
+	#Range: 0 ~ 86400
+	cooldownTpDown = 10
+	#The cooldown time for 'Teleport to the end of the line of sight', in seconds.
+	#This function is independent of the player's render distance setting.
+	#传送至视线尽头的冷却时间，单位为秒。
+	#该功能与玩家设置的视距无关。
+	#Range: 0 ~ 86400
+	cooldownTpView = 10
+	#The cooldown time for 'Teleport to the home', in seconds.
+	#传送到家的冷却时间，单位为秒。
+	#Range: 0 ~ 86400
+	cooldownTpHome = 0
+	#The cooldown time for 'Teleport to the stage', in seconds.
+	#传送到驿站的冷却时间，单位为秒。
+	#Range: 0 ~ 86400
+	cooldownTpStage = 45
+	#The cooldown time for 'Teleport to the previous location', in seconds.
+	#传送到上次传送点的冷却时间，单位为秒。
+	#Range: 0 ~ 86400
+	cooldownTpBack = 0
+
+#Teleport Cost
+#传送代价
+[cost]
+
+	#Teleport to the specified coordinates
+	#传送到指定坐标
+	[cost.TpCoordinate]
+		#The cost type for 'Teleport to the specified coordinates'
+		#传送到指定坐标的代价类型。
+		#Allowed Values: NONE, EXP_POINT, EXP_LEVEL, HEALTH, HUNGER, ITEM, COMMAND
+		costTpCoordinateType = "NONE"
+		#The number of cost for 'Teleport to the specified coordinates'
+		#传送到指定坐标的代价数量。
+		#Range: 0 ~ 9999
+		costTpCoordinateNum = 0
+		#The configuration for 'Teleport to the specified coordinates'.
+		#If the type is ITEM, the value should be the item ID with optional NBT data.
+		#If the type is COMMAND, the value should be a specific command string.
+		#In the command, the placeholder '[num]' can be used to represent the cost amount.
+		#传送到指定坐标的代价配置：
+		#若类型为 ITEM，则值为物品 ID，可包含 NBT 数据。
+		#若类型为 COMMAND，则值为具体的指令字符串。
+		#在指令中，可使用占位符 '[num]' 来表示代价数量。
+		costTpCoordinateConf = ""
+		#The cost rate for 'Teleport to the specified coordinates', the cost will be multiplied by the distance between the two coordinates.
+		#传送到指定坐标的代价倍率，代价会乘以传送前后坐标之间的距离。
+		#Range: 0.0 ~ 9999.0
+		costTpCoordinateRate = 0.0
+
+	#Teleport to the specified structure
+	#传送到指定结构
+	[cost.TpStructure]
+		#The cost type for 'Teleport to the specified structure'
+		#传送到指定结构的代价类型。
+		#Allowed Values: NONE, EXP_POINT, EXP_LEVEL, HEALTH, HUNGER, ITEM, COMMAND
+		costTpStructureType = "NONE"
+		#The number of cost for 'Teleport to the specified structure'
+		#传送到指定结构的代价数量。
+		#Range: 0 ~ 9999
+		costTpStructureNum = 0
+		#The configuration for 'Teleport to the specified structure'.
+		#If the type is ITEM, the value should be the item ID with optional NBT data.
+		#If the type is COMMAND, the value should be a specific command string.
+		#In the command, the placeholder '[num]' can be used to represent the cost amount.
+		#传送到指定结构的代价配置：
+		#若类型为 ITEM，则值为物品 ID，可包含 NBT 数据。
+		#若类型为 COMMAND，则值为具体的指令字符串。
+		#在指令中，可使用占位符 '[num]' 来表示代价数量。
+		costTpStructureConf = ""
+		#The cost rate for 'Teleport to the specified structure', the cost will be multiplied by the distance between the two coordinates.
+		#传送到指定结构的代价倍率，代价会乘以传送前后坐标之间的距离。
+		#Range: 0.0 ~ 9999.0
+		costTpStructureRate = 0.0
+
+	#Request to teleport oneself to other players
+	#请求传送至玩家
+	[cost.TpAsk]
+		#The cost type for 'Request to teleport oneself to other players'
+		#请求传送至玩家的代价类型。
+		#Allowed Values: NONE, EXP_POINT, EXP_LEVEL, HEALTH, HUNGER, ITEM, COMMAND
+		costTpAskType = "HUNGER"
+		#The number of cost for 'Request to teleport oneself to other players'
+		#请求传送至玩家的代价数量。
+		#Range: 0 ~ 9999
+		costTpAskNum = 4
+		#The configuration for 'Request to teleport oneself to other players'.
+		#If the type is ITEM, the value should be the item ID with optional NBT data.
+		#If the type is COMMAND, the value should be a specific command string.
+		#In the command, the placeholder '[num]' can be used to represent the cost amount.
+		#请求传送至玩家的代价配置：
+		#若类型为 ITEM，则值为物品 ID，可包含 NBT 数据。
+		#若类型为 COMMAND，则值为具体的指令字符串。
+		#在指令中，可使用占位符 '[num]' 来表示代价数量。
+		costTpAskConf = ""
+		#The cost rate for 'Request to teleport oneself to other players', the cost will be multiplied by the distance between the two players
+		#请求传送至玩家的代价倍率，代价会乘以两个玩家之间的距离。
+		#Range: 0.0 ~ 9999.0
+		costTpAskRate = 0.0
+
+	#Request the transfer of other players to oneself
+	#请求将玩家传送至当前位置
+	[cost.TpHere]
+		#The cost type for 'Request the transfer of other players to oneself'
+		#请求将玩家传送至当前位置的代价类型。
+		#Allowed Values: NONE, EXP_POINT, EXP_LEVEL, HEALTH, HUNGER, ITEM, COMMAND
+		costTpHereType = "HUNGER"
+		#The number of cost for 'Request the transfer of other players to oneself'
+		#请求将玩家传送至当前位置的代价数量。
+		#Range: 0 ~ 9999
+		costTpHereNum = 4
+		#The configuration for 'Request the transfer of other players to oneself'.
+		#If the type is ITEM, the value should be the item ID with optional NBT data.
+		#If the type is COMMAND, the value should be a specific command string.
+		#In the command, the placeholder '[num]' can be used to represent the cost amount.
+		#请求将玩家传送至当前位置的代价配置：
+		#若类型为 ITEM，则值为物品 ID，可包含 NBT 数据。
+		#若类型为 COMMAND，则值为具体的指令字符串。
+		#在指令中，可使用占位符 '[num]' 来表示代价数量。
+		costTpHereConf = ""
+		#The cost rate for 'Request the transfer of other players to oneself', the cost will be multiplied by the distance between the two players
+		#请求将玩家传送至当前位置的代价倍率，代价会乘以两个玩家之间的距离。
+		#Range: 0.0 ~ 9999.0
+		costTpHereRate = 0.0
+
+	#Teleport to a random location
+	#随机传送
+	[cost.TpRandom]
+		#The cost type for 'Teleport to a random location'
+		#随机传送的代价类型。
+		#Allowed Values: NONE, EXP_POINT, EXP_LEVEL, HEALTH, HUNGER, ITEM, COMMAND
+		costTpRandomType = "HUNGER"
+		#The number of cost for 'Teleport to a random location'
+		#随机传送的代价数量。
+		#Range: 0 ~ 9999
+		costTpRandomNum = 8
+		#The configuration for 'Teleport to a random location'.
+		#If the type is ITEM, the value should be the item ID with optional NBT data.
+		#If the type is COMMAND, the value should be a specific command string.
+		#In the command, the placeholder '[num]' can be used to represent the cost amount.
+		#随机传送的代价配置：
+		#若类型为 ITEM，则值为物品 ID，可包含 NBT 数据。
+		#若类型为 COMMAND，则值为具体的指令字符串。
+		#在指令中，可使用占位符 '[num]' 来表示代价数量。
+		costTpRandomConf = ""
+		#The cost rate for 'Teleport to a random location', the cost will be multiplied by the distance between the two coordinates.
+		#随机传送的代价倍率，代价会乘以传送前后坐标之间的距离。
+		#Range: 0.0 ~ 9999.0
+		costTpRandomRate = 0.0
+
+	#Teleport to the spawn of the player
+	#传送到玩家重生点
+	[cost.TpSpawn]
+		#The cost type for 'Teleport to the spawn of the player'
+		#传送到玩家重生点的代价类型。
+		#Allowed Values: NONE, EXP_POINT, EXP_LEVEL, HEALTH, HUNGER, ITEM, COMMAND
+		costTpSpawnType = "HUNGER"
+		#The number of cost for 'Teleport to the spawn of the player'
+		#传送到玩家重生点的代价数量。
+		#Range: 0 ~ 9999
+		costTpSpawnNum = 6
+		#The configuration for 'Teleport to the spawn of the player'.
+		#If the type is ITEM, the value should be the item ID with optional NBT data.
+		#If the type is COMMAND, the value should be a specific command string.
+		#In the command, the placeholder '[num]' can be used to represent the cost amount.
+		#传送到玩家重生点的代价配置：
+		#若类型为 ITEM，则值为物品 ID，可包含 NBT 数据。
+		#若类型为 COMMAND，则值为具体的指令字符串。
+		#在指令中，可使用占位符 '[num]' 来表示代价数量。
+		costTpSpawnConf = ""
+		#The cost rate for 'Teleport to the spawn of the player', the cost will be multiplied by the distance between the two coordinates.
+		#传送到玩家重生点的代价倍率，代价会乘以传送前后坐标之间的距离。
+		#Range: 0.0 ~ 9999.0
+		costTpSpawnRate = 0.0
+
+	#Teleport to the spawn of the world
+	#传送到世界重生点
+	[cost.TpWorldSpawn]
+		#The cost type for 'Teleport to the spawn of the world'
+		#传送到世界重生点的代价类型。
+		#Allowed Values: NONE, EXP_POINT, EXP_LEVEL, HEALTH, HUNGER, ITEM, COMMAND
+		costTpWorldSpawnType = "HUNGER"
+		#The number of cost for 'Teleport to the spawn of the world'
+		#传送到世界重生点的代价数量。
+		#Range: 0 ~ 9999
+		costTpWorldSpawnNum = 6
+		#The configuration for 'Teleport to the spawn of the world'.
+		#If the type is ITEM, the value should be the item ID with optional NBT data.
+		#If the type is COMMAND, the value should be a specific command string.
+		#In the command, the placeholder '[num]' can be used to represent the cost amount.
+		#传送到世界重生点的代价配置：
+		#若类型为 ITEM，则值为物品 ID，可包含 NBT 数据。
+		#若类型为 COMMAND，则值为具体的指令字符串。
+		#在指令中，可使用占位符 '[num]' 来表示代价数量。
+		costTpWorldSpawnConf = ""
+		#The cost rate for 'Teleport to the spawn of the world', the cost will be multiplied by the distance between the two coordinates.
+		#传送到世界重生点的代价倍率，代价会乘以传送前后坐标之间的距离。
+		#Range: 0.0 ~ 9999.0
+		costTpWorldSpawnRate = 0.0
+
+	#Teleport to the top of current position
+	#传送到顶部
+	[cost.TpTop]
+		#The cost type for 'Teleport to the top of current position'
+		#传送到顶部的代价类型。
+		#Allowed Values: NONE, EXP_POINT, EXP_LEVEL, HEALTH, HUNGER, ITEM, COMMAND
+		costTpTopType = "NONE"
+		#The number of cost for 'Teleport to the top of current position'
+		#传送到顶部的代价数量。
+		#Range: 0 ~ 9999
+		costTpTopNum = 0
+		#The configuration for 'Teleport to the top of current position'.
+		#If the type is ITEM, the value should be the item ID with optional NBT data.
+		#If the type is COMMAND, the value should be a specific command string.
+		#In the command, the placeholder '[num]' can be used to represent the cost amount.
+		#传送到顶部的代价配置：
+		#若类型为 ITEM，则值为物品 ID，可包含 NBT 数据。
+		#若类型为 COMMAND，则值为具体的指令字符串。
+		#在指令中，可使用占位符 '[num]' 来表示代价数量。
+		costTpTopConf = ""
+		#The cost rate for 'Teleport to the top of current position', the cost will be multiplied by the distance between the two coordinates.
+		#传送到顶部的代价倍率，代价会乘以传送前后坐标之间的距离。
+		#Range: 0.0 ~ 9999.0
+		costTpTopRate = 0.0
+
+	#Teleport to the bottom of current position
+	#传送到底部
+	[cost.TpBottom]
+		#The cost type for 'Teleport to the bottom of current position'
+		#传送到底部的代价类型。
+		costTpBottomType = "NONE"
+		#The number of cost for 'Teleport to the bottom of current position'
+		#传送到底部的代价数量。
+		#Range: 0 ~ 9999
+		costTpBottomNum = 0
+		#The configuration for 'Teleport to the bottom of current position'.
+		#If the type is ITEM, the value should be the item ID with optional NBT data.
+		#If the type is COMMAND, the value should be a specific command string.
+		#In the command, the placeholder '[num]' can be used to represent the cost amount.
+		#传送到底部的代价配置：
+		#若类型为 ITEM，则值为物品 ID，可包含 NBT 数据。
+		#若类型为 COMMAND，则值为具体的指令字符串。
+		#在指令中，可使用占位符 '[num]' 来表示代价数量。
+		costTpBottomConf = ""
+		#The cost rate for 'Teleport to the bottom of current position', the cost will be multiplied by the distance between the two coordinates.
+		#传送到底部的代价倍率，代价会乘以传送前后坐标之间的距离。
+		#Range: 0.0 ~ 9999.0
+		costTpBottomRate = 0.0
+
+	#Teleport to the upper of current position
+	#传送到上方
+	[cost.TpUp]
+		#The cost type for 'Teleport to the upper of current position'
+		#传送到上方的代价类型。
+		#Allowed Values: NONE, EXP_POINT, EXP_LEVEL, HEALTH, HUNGER, ITEM, COMMAND
+		costTpUpType = "NONE"
+		#The number of cost for 'Teleport to the upper of current position'
+		#传送到上方的代价数量。
+		#Range: 0 ~ 9999
+		costTpUpNum = 0
+		#The configuration for 'Teleport to the upper of current position'.
+		#If the type is ITEM, the value should be the item ID with optional NBT data.
+		#If the type is COMMAND, the value should be a specific command string.
+		#In the command, the placeholder '[num]' can be used to represent the cost amount.
+		#传送到上方的代价配置：
+		#若类型为 ITEM，则值为物品 ID，可包含 NBT 数据。
+		#若类型为 COMMAND，则值为具体的指令字符串。
+		#在指令中，可使用占位符 '[num]' 来表示代价数量。
+		costTpUpConf = ""
+		#The cost rate for 'Teleport to the upper of current position', the cost will be multiplied by the distance between the two coordinates.
+		#传送到上方的代价倍率，代价会乘以传送前后坐标之间的距离。
+		#Range: 0.0 ~ 9999.0
+		costTpUpRate = 0.0
+
+	#Teleport to the lower of current position
+	#传送到下方
+	[cost.TpDown]
+		#The cost type for 'Teleport to the lower of current position'
+		#传送到下方的代价类型。
+		#Allowed Values: NONE, EXP_POINT, EXP_LEVEL, HEALTH, HUNGER, ITEM, COMMAND
+		costTpDownType = "NONE"
+		#The number of cost for 'Teleport to the lower of current position'
+		#传送到下方的代价数量。
+		#Range: 0 ~ 9999
+		costTpDownNum = 0
+		#The configuration for 'Teleport to the lower of current position'.
+		#If the type is ITEM, the value should be the item ID with optional NBT data.
+		#If the type is COMMAND, the value should be a specific command string.
+		#In the command, the placeholder '[num]' can be used to represent the cost amount.
+		#传送到下方的代价配置：
+		#若类型为 ITEM，则值为物品 ID，可包含 NBT 数据。
+		#若类型为 COMMAND，则值为具体的指令字符串。
+		#在指令中，可使用占位符 '[num]' 来表示代价数量。
+		costTpDownConf = ""
+		#The cost rate for 'Teleport to the lower of current position', the cost will be multiplied by the distance between the two coordinates.
+		#传送到下方的代价倍率，代价会乘以传送前后坐标之间的距离。
+		#Range: 0.0 ~ 9999.0
+		costTpDownRate = 0.0
+
+	#Teleport to the end of the line of sight
+	#This function is independent of the player's render distance setting.
+	#传送至视线尽头
+	#该功能与玩家设置的视距无关。
+	[cost.TpView]
+		#The cost type for 'Teleport to the end of the line of sight'
+		#传送至视线尽头的代价类型。
+		#Allowed Values: NONE, EXP_POINT, EXP_LEVEL, HEALTH, HUNGER, ITEM, COMMAND
+		costTpViewType = "NONE"
+		#The number of cost for 'Teleport to the end of the line of sight'
+		#传送至视线尽头的代价数量。
+		#Range: 0 ~ 9999
+		costTpViewNum = 0
+		#The configuration for 'Teleport to the end of the line of sight'.
+		#If the type is ITEM, the value should be the item ID with optional NBT data.
+		#If the type is COMMAND, the value should be a specific command string.
+		#In the command, the placeholder '[num]' can be used to represent the cost amount.
+		#传送至视线尽头的代价配置：
+		#若类型为 ITEM，则值为物品 ID，可包含 NBT 数据。
+		#若类型为 COMMAND，则值为具体的指令字符串。
+		#在指令中，可使用占位符 '[num]' 来表示代价数量。
+		costTpViewConf = ""
+		#The cost rate for 'Teleport to the end of the line of sight', the cost will be multiplied by the distance between the two coordinates.
+		#传送至视线尽头的代价倍率，代价会乘以传送前后坐标之间的距离。
+		#Range: 0.0 ~ 9999.0
+		costTpViewRate = 0.0
+
+	#Teleport to the home
+	#传送到家
+	[cost.TpHome]
+		#The cost type for 'Teleport to the home'
+		#传送到家的代价类型。
+		#Allowed Values: NONE, EXP_POINT, EXP_LEVEL, HEALTH, HUNGER, ITEM, COMMAND
+		costTpHomeType = "HUNGER"
+		#The number of cost for 'Teleport to the home'
+		#传送到家的代价数量。
+		#Range: 0 ~ 9999
+		costTpHomeNum = 6
+		#The configuration for 'Teleport to the home'.
+		#If the type is ITEM, the value should be the item ID with optional NBT data.
+		#If the type is COMMAND, the value should be a specific command string.
+		#In the command, the placeholder '[num]' can be used to represent the cost amount.
+		#传送到家的代价配置：
+		#若类型为 ITEM，则值为物品 ID，可包含 NBT 数据。
+		#若类型为 COMMAND，则值为具体的指令字符串。
+		#在指令中，可使用占位符 '[num]' 来表示代价数量。
+		costTpHomeConf = ""
+		#The cost rate for 'Teleport to the home', the cost will be multiplied by the distance between the two coordinates.
+		#传送到家的代价倍率，代价会乘以传送前后坐标之间的距离。
+		#Range: 0.0 ~ 9999.0
+		costTpHomeRate = 0.0
+
+	#Teleport to the stage
+	#传送到驿站
+	[cost.TpStage]
+		#The cost type for 'Teleport to the stage'
+		#传送到驿站的代价类型。
+		#Allowed Values: NONE, EXP_POINT, EXP_LEVEL, HEALTH, HUNGER, ITEM, COMMAND
+		costTpStageType = "HUNGER"
+		#The number of cost for 'Teleport to the stage'
+		#传送到驿站的代价数量。
+		#Range: 0 ~ 9999
+		costTpStageNum = 4
+		#The configuration for 'Teleport to the stage'.
+		#If the type is ITEM, the value should be the item ID with optional NBT data.
+		#If the type is COMMAND, the value should be a specific command string.
+		#In the command, the placeholder '[num]' can be used to represent the cost amount.
+		#传送到驿站的代价配置：
+		#若类型为 ITEM，则值为物品 ID，可包含 NBT 数据。
+		#若类型为 COMMAND，则值为具体的指令字符串。
+		#在指令中，可使用占位符 '[num]' 来表示代价数量。
+		costTpStageConf = ""
+		#The cost rate for 'Teleport to the stage', the cost will be multiplied by the distance between the two coordinates.
+		#传送到驿站的代价倍率，代价会乘以传送前后坐标之间的距离。
+		#Range: 0.0 ~ 9999.0
+		costTpStageRate = 0.0
+
+	#Teleport to the previous location
+	#传送到上次传送点
+	[cost.TpBack]
+		#The cost type for 'Teleport to the previous location'
+		#传送到上次传送点的代价类型。
+		#Allowed Values: NONE, EXP_POINT, EXP_LEVEL, HEALTH, HUNGER, ITEM, COMMAND
+		costTpBackType = "HUNGER"
+		#The number of cost for 'Teleport to the previous location'
+		#传送到上次传送点的代价数量。
+		#Range: 0 ~ 9999
+		costTpBackNum = 6
+		#The configuration for 'Teleport to the previous location'.
+		#If the type is ITEM, the value should be the item ID with optional NBT data.
+		#If the type is COMMAND, the value should be a specific command string.
+		#In the command, the placeholder '[num]' can be used to represent the cost amount.
+		#传送到上次传送点的代价配置：
+		#若类型为 ITEM，则值为物品 ID，可包含 NBT 数据。
+		#若类型为 COMMAND，则值为具体的指令字符串。
+		#在指令中，可使用占位符 '[num]' 来表示代价数量。
+		costTpBackConf = ""
+		#The cost rate for 'Teleport to the previous location', the cost will be multiplied by the distance between the two coordinates.
+		#传送到上次传送点的代价倍率，代价会乘以传送前后坐标之间的距离。
+		#Range: 0.0 ~ 9999.0
+		costTpBackRate = 0.0
+

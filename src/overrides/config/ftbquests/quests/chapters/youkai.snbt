@@ -5,7 +5,7 @@
 	group: "65DBD493CCEDCEF5"
 	icon: "youkaishomecoming:udumbara_flower"
 	id: "4D403121650ECA4F"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -62,12 +62,12 @@
 			rewards: [{
 				count: 8
 				id: "05349051EF81F428"
-				item: "youkaishomecoming:redbean"
+				item: "neapolitan:adzuki_beans"
 				type: "item"
 			}]
 			tasks: [{
 				id: "4248AEF7A40D9A17"
-				item: "youkaishomecoming:redbean"
+				item: "neapolitan:adzuki_beans"
 				type: "item"
 			}]
 			title: "红豆"

@@ -5,7 +5,7 @@
 	group: "65DBD493CCEDCEF5"
 	icon: "tofucraft:tofudiamond"
 	id: "04C201630E99A57E"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -20,7 +20,7 @@
 			rewards: [{
 				count: 8
 				id: "4048288F43E3E658"
-				item: "tofucraft:seeds_soybeans"
+				item: "youkaishomecoming:soybean"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -28,7 +28,7 @@
 			tasks: [{
 				count: 4L
 				id: "1CA65F46B597264D"
-				item: "tofucraft:seeds_soybeans"
+				item: "youkaishomecoming:soybean"
 				type: "item"
 			}]
 			title: "&6豆腐工艺"
@@ -90,7 +90,7 @@
 			rewards: [{
 				count: 4
 				id: "1A15F322463AF901"
-				item: "tofucraft:tofumomen"
+				item: "youkaishomecoming:tofu"
 				type: "item"
 			}]
 			tasks: [{
@@ -130,7 +130,7 @@
 			rewards: [{
 				count: 16
 				id: "1027E93A3FF179A8"
-				item: "tofucraft:tofumomen"
+				item: "youkaishomecoming:tofu"
 				type: "item"
 			}]
 			tasks: [{
@@ -643,12 +643,12 @@
 			rewards: [{
 				count: 4
 				id: "7BA2DF251D805B2C"
-				item: "tofucraft:chili"
+				item: "vintagedelight:ghost_pepper"
 				type: "item"
 			}]
 			tasks: [{
 				id: "544BEBCEAC386150"
-				item: "tofucraft:chili"
+				item: "vintagedelight:ghost_pepper"
 				type: "item"
 			}]
 			title: "辛"

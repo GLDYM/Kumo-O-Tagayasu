@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "tag": "forge:storage_blocks/silver"
-  },
-  "result": "galosphere:silver_tiles_stairs"
-}

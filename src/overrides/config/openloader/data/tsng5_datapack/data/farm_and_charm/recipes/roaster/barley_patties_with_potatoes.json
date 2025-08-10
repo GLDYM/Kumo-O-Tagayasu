@@ -8,13 +8,13 @@
       "tag": "forge:crops/barley"
     },
     {
-      "item": "minecraft:potato"
+      "tag": "forge:crops/potato"
     },
     {
       "tag": "forge:crops/onion"
     },
     {
-      "tag": "bakery:eggs"
+      "tag": "forge:eggs"
     },
     {
       "tag": "forge:crops/cabbage"

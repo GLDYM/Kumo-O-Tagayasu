@@ -1,0 +1,457 @@
+{
+  "_comment": "Tsuri No Gatsu Modpack(Shortname:TSNG) file comments, It acts to preserve the original author(TskimiSeiran) information. According to the TSNG modpack usage agreement, users are allowed to create and distribute on the basis of TSNG modpack, but the original author information must be retained. TSNG modpack is free for users to download, if you spend real money in somewhere and download TSNG modpack, please avoid seller!",
+  "entries": [
+    {
+      "type": "VEG",
+      "effects": [
+        {
+          "effect": "minecraft:night_vision",
+          "level": 0,
+          "time": 400
+        },
+        {
+          "effect": "fruitsdelight:brightening",
+          "level": 0,
+          "time": 400
+        }
+      ],
+      "ingredient": {
+        "tag": "forge:crops/blueberry"
+      },
+      "max_time": 180,
+      "min_time": 60,
+      "nutrition": 6,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "type": "VEG",
+      "effects": [
+        {
+          "effect": "minecraft:health_boost",
+          "level": 0,
+          "time": 400
+        }
+      ],
+      "ingredient": {
+        "tag": "forge:fruits/cantaloupe"
+      },
+      "max_time": 180,
+      "min_time": 60,
+      "nutrition": 6,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "type": "VEG",
+      "effects": [
+        {
+          "effect": "fruitsdelight:appetizing",
+          "level": 0,
+          "time": 400
+        }
+      ],
+      "ingredient": {
+        "tag": "forge:crops/hawberry"
+      },
+      "max_time": 180,
+      "min_time": 60,
+      "nutrition": 6,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "type": "VEG",
+      "effects": [
+        {
+          "effect": "minecraft:strength",
+          "level": 2,
+          "time": 200
+        }
+      ],
+      "ingredient": {
+        "tag": "forge:crops/lychee"
+      },
+      "max_time": 180,
+      "min_time": 60,
+      "nutrition": 6,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "type": "VEG",
+      "effects": [
+        {
+          "effect": "minecraft:strength",
+          "level": 2,
+          "time": 400
+        },
+        {
+          "effect": "fruitsdelight:rage_aura",
+          "level": 0,
+          "time": 400
+        }
+      ],
+      "ingredient": {
+        "tag": "forge:crops/mango"
+      },
+      "max_time": 180,
+      "min_time": 60,
+      "nutrition": 6,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "type": "VEG",
+      "effects": [
+        {
+          "effect": "minecraft:regeneration",
+          "level": 0,
+          "time": 400
+        },
+        {
+          "effect": "fruitsdelight:recovering",
+          "level": 0,
+          "time": 400
+        }
+      ],
+      "ingredient": {
+        "tag": "forge:crops/orange"
+      },
+      "max_time": 180,
+      "min_time": 60,
+      "nutrition": 6,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "type": "VEG",
+      "effects": [
+        {
+          "effect": "fruitsdelight:heal_aura",
+          "level": 0,
+          "time": 200
+        }
+      ],
+      "ingredient": {
+        "tag": "forge:crops/peach"
+      },
+      "max_time": 180,
+      "min_time": 60,
+      "nutrition": 6,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "type": "VEG",
+      "effects": [
+        {
+          "effect": "fruitsdelight:lozenge",
+          "level": 0,
+          "time": 400
+        }
+      ],
+      "ingredient": {
+        "tag": "forge:crops/pear"
+      },
+      "max_time": 180,
+      "min_time": 60,
+      "nutrition": 6,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "type": "VEG",
+      "effects": [
+        {
+          "effect": "fruitsdelight:astringent",
+          "level": 0,
+          "time": 1600
+        }
+      ],
+      "ingredient": {
+        "tag": "forge:fruits/persimmon"
+      },
+      "max_time": 180,
+      "min_time": 60,
+      "nutrition": 6,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "type": "VEG",
+      "effects": [
+        {
+          "effect": "minecraft:speed",
+          "level": 0,
+          "time": 400
+        },
+        {
+          "effect": "fruitsdelight:sweetening",
+          "level": 0,
+          "time": 400
+        }
+      ],
+      "ingredient": {
+        "item": "fruitsdelight:pineapple_slice"
+      },
+      "max_time": 180,
+      "min_time": 60,
+      "nutrition": 6,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "type": "VEG",
+      "effects": [
+        {
+          "effect": "minecraft:haste",
+          "level": 0,
+          "time": 400
+        },
+        {
+          "effect": "fruitsdelight:refreshing",
+          "level": 0,
+          "time": 400
+        }
+      ],
+      "ingredient": {
+        "tag": "forge:crops/lemon"
+      },
+      "max_time": 180,
+      "min_time": 60,
+      "nutrition": 6,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "type": "VEG",
+      "effects": [
+        {
+          "effect": "fruitsdelight:shrinking",
+          "level": 0,
+          "time": 1600
+        }
+      ],
+      "ingredient": {
+        "tag": "forge:crops/cranberry"
+      },
+      "max_time": 180,
+      "min_time": 60,
+      "nutrition": 6,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "type": "VEG",
+      "effects": [
+        {
+          "effect": "fruitsdelight:sliding",
+          "level": 0,
+          "time": 1600
+        }
+      ],
+      "ingredient": {
+        "tag": "forge:fruits/mangosteen"
+      },
+      "max_time": 180,
+      "min_time": 60,
+      "nutrition": 6,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "type": "VEG",
+      "effects": [
+        {
+          "effect": "fruitsdelight:leaf_piercing",
+          "level": 0,
+          "time": 400
+        }
+      ],
+      "ingredient": {
+        "tag": "forge:fruits/bayberry"
+      },
+      "max_time": 180,
+      "min_time": 60,
+      "nutrition": 6,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "type": "VEG",
+      "effects": [
+        {
+          "effect": "fruitsdelight:cycling",
+          "level": 0,
+          "time": 80
+        }
+      ],
+      "ingredient": {
+        "tag": "forge:fruits/kiwi"
+      },
+      "max_time": 180,
+      "min_time": 60,
+      "nutrition": 6,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "type": "VEG",
+      "effects": [
+        {
+          "effect": "fruitsdelight:digesting",
+          "level": 0,
+          "time": 1600
+        }
+      ],
+      "ingredient": {
+        "tag": "forge:fruits/fig"
+      },
+      "max_time": 180,
+      "min_time": 60,
+      "nutrition": 6,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "type": "VEG",
+      "effects": [
+        {
+          "effect": "fruitsdelight:alienating",
+          "level": 0,
+          "time": 800
+        },
+        {
+          "effect": "fruitsdelight:suspicious_smell",
+          "level": 0,
+          "time": 1600
+        }
+      ],
+      "ingredient": {
+        "tag": "forge:fruits/durian"
+      },
+      "max_time": 180,
+      "min_time": 60,
+      "nutrition": 6,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "type": "VEG",
+      "effects": [],
+      "ingredient": [
+      {
+        "tag": "forge:crops/sweet_berries"
+      },
+      {
+        "tag": "forge:fruits/strawberry"
+      },
+      {
+        "tag": "forge:fruits/strawberries"
+      },
+      {
+        "tag": "forge:fruits/mulberry"
+      },
+      {
+        "tag": "forge:fruits/gearo_berry"
+      },
+      {
+        "tag": "forge:fruits/coconut"
+      },
+      {
+        "tag": "forge:crops/cherry"
+      },
+      {
+        "tag": "forge:crops/cherries"
+      },
+      {
+        "tag": "forge:crops/apricot"
+      },
+      {
+        "tag": "forge:crops/grape"
+      },
+      {
+        "tag": "forge:crops/grapes"
+      },
+      {
+        "tag": "forge:fruits/banana"
+      },
+      {
+        "tag": "forge:crops/olive"
+      },
+      {
+        "tag": "forge:crops/olives"
+      },
+      {
+        "tag": "forge:crops/yucca"
+      },
+      {
+        "tag": "forge:crops/currant"
+      },
+      {
+        "tag": "forge:crops/dragon_fruit"
+      },
+      {
+        "tag": "forge:crops/raspberry"
+      },
+      {
+        "tag": "forge:crops/raspberries"
+      },
+      {
+        "tag": "forge:crops/passion_fruit"
+      },
+      {
+        "tag": "forge:crops/passionfruit"
+      },
+      {
+        "item": "trailandtales_delight:lantern_fruit"
+      },
+      {
+        "item": "immortalers_delight:himekaido"
+      }
+      ],
+      "max_time": 180,
+      "min_time": 60,
+      "nutrition": 6,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 60
+    }
+  ]
+}

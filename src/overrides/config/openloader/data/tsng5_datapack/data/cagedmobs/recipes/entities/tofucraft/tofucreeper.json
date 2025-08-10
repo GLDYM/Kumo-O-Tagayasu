@@ -24,9 +24,6 @@
 				"output": {
 					"item": "tofucraft:tofukinu"
 				},
-				"output_cooked": {
-					"item": "tofucraft:todugrilled"
-				},
 				"minAmount": 1,
 				"maxAmount": 2
 		}

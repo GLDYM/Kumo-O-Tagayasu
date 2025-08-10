@@ -1,0 +1,375 @@
+{
+  "_comment": "Tsuri No Gatsu Modpack(Shortname:TSNG) file comments, It acts to preserve the original author(TskimiSeiran) information. According to the TSNG modpack usage agreement, users are allowed to create and distribute on the basis of TSNG modpack, but the original author information must be retained. TSNG modpack is free for users to download, if you spend real money in somewhere and download TSNG modpack, please avoid seller!",
+  "entries": [
+    {
+      "_comment": "注释：主食-难熟",
+      "type": "CARB",
+      "effects": [],
+      "ingredient": [
+        {
+          "tag": "forge:grain/rice"
+        },
+        {
+          "tag": "forge:crops/potato"
+        },
+        {
+          "tag": "forge:crops/corn"
+        },
+        {
+          "tag": "forge:dough"
+        },
+        {
+          "item": "tofucraft:blocktofumomen"
+        },
+        {
+          "item": "trailandtales_delight:pitcher_taro"
+        },
+        {
+          "item": "biomemakeover:bulbus_root"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 300,
+      "nutrition": 8,
+      "overcook_penalty": 0.5,
+      "raw_penalty": 0.7,
+      "size": 2,
+      "stir_time": 80
+    },
+    {
+      "_comment": "注释：主食-较难熟",
+      "type": "CARB",
+      "effects": [],
+      "ingredient": [
+        {
+          "tag": "forge:pasta"
+        },
+        {
+          "tag": "forge:seeds/corn"
+        },
+        {
+          "item": "tofucraft:blocktofukinu"
+        },
+        {
+          "item": "vintagedelight:raw_oats"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 180,
+      "nutrition": 8,
+      "overcook_penalty": 0.3,
+      "raw_penalty": 0.5,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "_comment": "注释：主食-较易熟",
+      "type": "CARB",
+      "effects": [],
+      "ingredient": [
+        {
+          "item": "tofucraft:tofukinu"
+        },
+        {
+          "item": "tofucraft:tofumomen"
+        },
+        {
+          "item": "youkaisfeasts:tofu"
+        },
+        {
+          "item": "tofucraft:tofumiso"
+        },
+        {
+          "item": "tofucraft:tofudried"
+        },
+        {
+          "item": "tofucraft:tofuegg"
+        },
+        {
+          "item": "tofucraft:tofuminced"
+        }
+      ],
+      "max_time": 300,
+      "min_time": 80,
+      "nutrition": 5,
+      "overcook_penalty": 0.2,
+      "raw_penalty": 0.0,
+      "size": 2,
+      "stir_time": 60
+    },
+    {
+      "_comment": "注释：蔬菜-难熟",
+      "type": "VEG",
+      "effects": [],
+      "ingredient": [
+        {
+          "tag": "forge:crops/beetroot"
+        },
+        {
+          "item": "vintagedelight:pickled_beetroot"
+        },
+        {
+          "tag": "forge:crops/carrot"
+        }
+      ],
+      "max_time": 360,
+      "min_time": 240,
+      "nutrition": 5,
+      "overcook_penalty": 0.2,
+      "raw_penalty": 0.2,
+      "size": 2,
+      "stir_time": 60
+    },
+    {
+      "_comment": "注释：蔬菜-较难熟",
+      "type": "VEG",
+      "effects": [],
+      "ingredient": [
+        {
+          "tag": "forge:crops/tomato"
+        },
+        {
+          "tag": "forge:crops/cabbage"
+        },
+        {
+          "tag": "forge:crops/onion"
+        },
+        {
+          "tag": "forge:crops/cucumber"
+        },
+        {
+          "item": "delightful:cactus_flesh"
+        },
+        {
+          "item": "vintagedelight:pickled_onion"
+        },
+        {
+          "item": "vintagedelight:pickle"
+        },
+        {
+          "tag": "forge:crops/turnip"
+        },
+        {
+          "tag": "forge:crops/eggplant"
+        },
+        {
+          "tag": "forge:crops/aloe"
+        },
+        {
+          "item": "some_assembly_required:chopped_carrot"
+        },
+        {
+          "item": "some_assembly_required:chopped_beetroot"
+        },
+        {
+          "item": "some_assembly_required:chopped_golden_carrot"
+        }
+      ],
+      "max_time": 320,
+      "min_time": 50,
+      "nutrition": 5,
+      "overcook_penalty": 0.2,
+      "raw_penalty": 0.0,
+      "size": 2,
+      "stir_time": 60
+    },
+    {
+      "_comment": "注释：蔬菜-易熟",
+      "type": "VEG",
+      "effects": [],
+      "ingredient": [
+      {
+        "item": "casualness_delight:potato_slice"
+      },
+      {
+        "item": "some_assembly_required:sliced_onion"
+      },
+      {
+        "item": "some_assembly_required:tomato_slices"
+      },
+      {
+        "item": "mynethersdelight:bullet_pepper"
+      },
+      {
+        "item": "vintagedelight:pickled_pepper"
+      },
+      {
+        "tag": "forge:crops/chilipepper"
+      },
+      {
+        "tag": "forge:crops/leek"
+      }
+      ],
+      "max_time": 240,
+      "min_time": 100,
+      "nutrition": 5,
+      "overcook_penalty": 0.2,
+      "raw_penalty": 0.0,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "_comment": "注释：蔬菜-很易熟",
+      "type": "VEG",
+      "effects": [],
+      "ingredient": [
+      {
+        "item": "some_assembly_required:apple_slices"
+      },
+      {
+        "item": "some_assembly_required:golden_apple_slices"
+      },
+      {
+        "item": "netherexp:cerebrage"
+      },
+      {
+        "item": "vintagedelight:kimchi"
+      },
+      {
+        "item": "delightful:chopped_clover"
+      },
+      {
+        "item": "some_assembly_required:enchanted_golden_apple_slices"
+      }
+      ],
+      "max_time": 180,
+      "min_time": 0,
+      "nutrition": 3,
+      "overcook_penalty": 0.3,
+      "raw_penalty": 0.3,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "_comment": "注释：酱料",
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "minecraft:speed",
+          "level": 0,
+          "time": 480
+        }
+      ],
+      "ingredient": [
+      {
+        "tag": "pizzacraft:ingredients/sauces/hot_sauce_layer"
+      },
+      {
+        "tag": "forge:soysauce/soysauce"
+      }
+      ],
+      "max_time": 200,
+      "min_time": 0,
+      "nutrition": 0,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.0,
+      "size": 0,
+      "stir_time": 25
+    },
+    {
+      "_comment": "注释：蘑菇",
+      "type": "VEG",
+      "effects": [],
+      "ingredient": {
+        "tag": "forge:mushrooms"
+      },
+      "max_time": 360,
+      "min_time": 60,
+      "nutrition": 4,
+      "overcook_penalty": 0.2,
+      "raw_penalty": 0.2,
+      "size": 1,
+      "stir_time": 60
+    },
+    {
+      "_comment": "注释：增香花朵-普通",
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "minecraft:saturation",
+          "level": 0,
+          "time": 5
+        }
+      ],
+      "ingredient": [
+      {
+        "item": "minecraft:dandelion"
+      },
+      {
+        "item": "minecraft:pink_petals"
+      },
+      {
+        "item": "minecraft:allium"
+      },
+      {
+        "item": "ends_delight:dried_chorus_flower"
+      }
+      ],
+      "max_time": 80,
+      "min_time": 60,
+      "nutrition": 0,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.0,
+      "size": 0,
+      "stir_time": 40
+    },
+    {
+      "_comment": "注释：增香花朵-悠然一派",
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "atmospheric:relief",
+          "level": 0,
+          "time": 260
+        }
+      ],
+      "ingredient": [
+      {
+        "item": "atmospheric:yellow_blossoms"
+      },
+      {
+        "item": "atmospheric:agave"
+      }
+      ],
+      "max_time": 80,
+      "min_time": 60,
+      "nutrition": 0,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.0,
+      "size": 0,
+      "stir_time": 40
+    },
+    {
+      "_comment": "注释：增香花朵-持久效果",
+      "type": "NONE",
+      "effects": [
+        {
+          "effect": "atmospheric:persistence",
+          "level": 0,
+          "time": 420
+        }
+      ],
+      "ingredient": [
+      {
+        "item": "atmospheric:gilia"
+      },
+      {
+        "item": "natures_spirit:lavender"
+      },
+      {
+        "item": "trailandtales_delight:cherry_petal"
+      },
+      {
+        "item": "trailandtales_delight:dried_cherry_petal"
+      }
+      ],
+      "max_time": 80,
+      "min_time": 60,
+      "nutrition": 0,
+      "overcook_penalty": 0.0,
+      "raw_penalty": 0.0,
+      "size": 0,
+      "stir_time": 40
+    }
+  ]
+}

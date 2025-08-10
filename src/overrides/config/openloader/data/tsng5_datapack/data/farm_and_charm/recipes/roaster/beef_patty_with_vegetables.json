@@ -5,16 +5,16 @@
       "item": "minecraft:beef"
     },
     {
-      "item": "minecraft:carrot"
+      "tag": "forge:crops/carrot"
     },
     {
       "tag": "forge:crops/onion"
     },
     {
-      "item": "minecraft:potato"
+      "tag": "forge:crops/potato"
     },
     {
-      "item": "minecraft:beetroot"
+      "tag": "forge:crops/beetroot"
     },
     {
       "tag": "forge:crops/cabbage"

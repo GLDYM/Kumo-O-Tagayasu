@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X  ",
+    " # ",
+    "  ."
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:glass/light_blue"
+    },
+    "X": {
+      "tag": "forge:gems/diamond"
+    },
+    ".": {
+      "item": "l2complements:sculkium_block"
+    }
+  },
+  "result": {
+    "item": "cagedmobs:diamond_dna_sampler"
+  }
+}

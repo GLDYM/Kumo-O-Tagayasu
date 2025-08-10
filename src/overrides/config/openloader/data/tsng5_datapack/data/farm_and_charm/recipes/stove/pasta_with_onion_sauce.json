@@ -11,7 +11,9 @@
       "tag": "forge:pasta"
     }
   ],
-  "item": "farm_and_charm:pasta_with_onion_sauce",
-  "count": 4,
+  "result": {
+    "item": "farm_and_charm:pasta_with_onion_sauce",
+    "count": 4
+  },
   "experience": 0.4
 }

@@ -1,4 +1,5 @@
 {
+  "_comment": "Tsuri No Gatsu Modpack(Shortname:TSNG) file comments, It acts to preserve the original author(TskimiSeiran) information. According to the TSNG modpack usage agreement, users are allowed to create and distribute on the basis of TSNG modpack, but the original author information must be retained. TSNG modpack is free for users to download, if you spend real money in somewhere and download TSNG modpack, please avoid seller!",
   "type": "farmersdelight:cooking",
   "cookingtime": 200,
   "experience": 2.0,
@@ -7,20 +8,25 @@
   },
   "ingredients": [
     {
-      "tag": "forge:vegetables/pepper"
+      "tag": "forge:crops/chilipepper"
     },
     {
-      "tag": "forge:vegetables/pepper"
+      "tag": "forge:crops/chilipepper"
     },
     {
-      "item": "minecraft:carrot"
+      "tag": "forge:crops/carrot"
     },
     {
       "tag": "forge:crops/tomato"
     },
+    [
     {
       "item": "farmersdelight:minced_beef"
+    },
+    {
+      "item": "farm_and_charm:minced_beef"
     }
+    ]
   ],
   "result": {
     "item": "vintagedelight:ghostly_chili"
