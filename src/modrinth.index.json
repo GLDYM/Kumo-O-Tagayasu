@@ -81,19 +81,19 @@
       "fileSize": 1347694
     },
     {
-      "path": "mods/amendments-1.20-2.0.5.jar",
+      "path": "mods/amendments-1.20-2.0.7.jar",
       "hashes": {
-        "sha512": "cc2366a37a44a22330d6bf65ba46e8933679946d6b617a57ae996e5e371a257524191ec9d5ee893354328d498fb01413470dea5e1ecce0371bbd1f7ea7c843e6",
-        "sha1": "82b8c642b9b07d113a3dc1c2ed5a7ea051dc5455"
+        "sha1": "4db4b16bf6f127a04a32c1fbcf0dee5e44a8fea3",
+        "sha512": "887af9768ba4e9afd2d84c5750832add33094f48e67462cb7c9b2d98b46a515a5fc6db968c1c85620cce8bf5c95fedd98eab0f51b620df5274a7d25852c61aac"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/6iTJugQR/versions/aBFxXrqG/amendments-1.20-2.0.5.jar"
+        "https://cdn.modrinth.com/data/6iTJugQR/versions/4v5cJnjh/amendments-1.20-2.0.7.jar"
       ],
-      "fileSize": 1267574
+      "fileSize": 1267278
     },
     {
       "path": "mods/handcrafted-forge-1.20.1-3.0.6.jar",
@@ -1026,19 +1026,19 @@
       "fileSize": 612451
     },
     {
-      "path": "mods/voicechat-forge-1.20.1-2.5.35.jar",
+      "path": "mods/voicechat-forge-1.20.1-2.5.36.jar",
       "hashes": {
-        "sha1": "db23cf4a833f764a97543d2435ba1cccc963ddf8",
-        "sha512": "b8d5cd18274c0fa5e5fd9986bf4c0334fbae8818195a10a620f0854d336e7693b9ac6ed7b26fcb1d6da352e8c8ab26224593fa3da9fc6af1e285f931653a8f86"
+        "sha512": "b551367707098dda7528ba6411f957933a736cc9017fd54312e189ddd1f0fee761dcfd1f6dd7ba4f9d0fc105469141723388a800ba5ed0ffd39cb76af9e86ac5",
+        "sha1": "5d8ec5198d2c6ea0109aa4af8ff446c183ea3ff9"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "server": "required",
+        "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/9eGKb6K1/versions/U9YDnOZe/voicechat-forge-1.20.1-2.5.35.jar"
+        "https://cdn.modrinth.com/data/9eGKb6K1/versions/r5eJrLh4/voicechat-forge-1.20.1-2.5.36.jar"
       ],
-      "fileSize": 8646989
+      "fileSize": 7628120
     },
     {
       "path": "mods/lithostitched-forge-1.20.1-1.4.11.jar",
@@ -2136,19 +2136,19 @@
       "fileSize": 309744
     },
     {
-      "path": "mods/youkaishomecoming-2.5.5.jar",
+      "path": "mods/youkaishomecoming-2.5.6.jar",
       "hashes": {
-        "sha512": "661a9122c07735f11b2a0ae3a49fc7d145eb48692a12431b4779e2309af366e105aa1f1b93d183d77283ab8af4cbd5a94a89cc49c17ea606d0d64450c7fa1aaa",
-        "sha1": "174595d698532d472a145f983058863b7fe73dff"
+        "sha1": "2acabeec3b4a0569959469fd1d1339385b5a9e6b",
+        "sha512": "844391b7059316e6cd2cef083001ecaec115ec3aeadf90ccd091b34e86ff5e80308661d167c1b5bdc1f7746d9b8586fcb33fe6ed5103d9d7289ecf34cf430ed9"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/uJT3ahxz/versions/KMVVRWgt/youkaishomecoming-2.5.5.jar"
+        "https://cdn.modrinth.com/data/uJT3ahxz/versions/r9qbiv8x/youkaishomecoming-2.5.6.jar"
       ],
-      "fileSize": 6019795
+      "fileSize": 6019870
     },
     {
       "path": "mods/touhou_little_maid_spell-1.4.2.jar",
@@ -2691,19 +2691,19 @@
       "fileSize": 74689
     },
     {
-      "path": "mods/1smsn-forge-1.2.5+mc1.20.1.jar",
+      "path": "mods/1smsn-forge-1.20.1-1.2.7.jar",
       "hashes": {
-        "sha512": "5d524a1be43de39ae8e38e0a89bf6e8478e1ba051c50d0faae9f1f8fb18062e6d933fe7278bf75430bf7773f212d48fdf27cc334e43ece8e0933986425bea7d8",
-        "sha1": "ebb0b77f81eb733e2ec8f6fe8d1ac996932f3e35"
+        "sha512": "4cf8f509957de637b4145ea195840fe6e968ffe924327cec814217827eff230938dccb14ca8766b6e0746207785793885bb9930160815080e56dab5648f0857a",
+        "sha1": "8607ef87f0c49e33bb995253751fe0944510cc6f"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/oXzIQwRj/versions/8EK0ryHJ/smsn-forge-1.2.5%2Bmc1.20.1.jar"
+        "https://cdn.modrinth.com/data/oXzIQwRj/versions/3KpzhovE/smsn-forge-1.20.1-1.2.7.jar"
       ],
-      "fileSize": 326705
+      "fileSize": 72311
     },
     {
       "path": "mods/packetfixer-3.1.4-1.18-1.20.4-merged.jar",

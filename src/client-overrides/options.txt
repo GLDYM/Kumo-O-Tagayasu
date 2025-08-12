@@ -227,7 +227,7 @@ key_key.modernui.openCenter:key.keyboard.unknown
 key_key.modernui.zoom:key.keyboard.unknown
 key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_advancements_tracker.keys.show_widget:key.keyboard.l:ALT
-key_advancements_tracker.keys.show_overview:key.keyboard.comma:CONTROL
+key_advancements_tracker.keys.show_overview:key.keyboard.l:CONTROL
 key_gui.xaero_open_map:key.keyboard.m
 key_gui.xaero_open_settings:key.keyboard.right.bracket
 key_gui.xaero_map_zoom_in:key.keyboard.unknown

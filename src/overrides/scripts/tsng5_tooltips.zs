@@ -118,6 +118,10 @@
 <item:crockpot:moqueca>.addTooltip("§e量大管饱。");
 <item:crockpot:meat_balls>.addTooltip("§e你就不能做点别的菜吗？");
 <item:crockpot:gnaws_coin>.addTooltip("§e美食初心者的证明。");
+<item:artifacts:everlasting_beef>.addTooltip("§e我不是很懂为什么你非要天天吃这个。")
+<item:artifacts:everlasting_beef>.addTooltip("§e你大概是从不种田的冒险玩家吧。")
+<item:artifacts:eternal_steak>.addTooltip("§e我不是很懂为什么你非要天天吃这个。")
+<item:artifacts:eternal_steak>.addTooltip("§e你大概是从不种田的冒险玩家吧。")
 # 为标签添加的物品吐槽
 <tag:items:forge:pasta>.asIIngredient().addTooltip("§7面条这个碳水,谁拼命吃都得胖。");
 <tag:items:forge:chocolate>.asIIngredient().addTooltip("§7食之甘甜滑润,入口回味无穷。");

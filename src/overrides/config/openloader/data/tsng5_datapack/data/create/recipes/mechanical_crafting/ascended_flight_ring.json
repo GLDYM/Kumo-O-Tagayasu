@@ -9,13 +9,13 @@
       "item": "minecraft:elytra"
     },
     "G": {
-      "item": "minecraft:gold_block"
+      "item": "l2complements:totemic_gold_block"
     },
     "N": {
-      "item": "minecraft:nether_star"
+      "tag": "cagedmobs:ingots/star_infused_netherite"
     },
     "S": {
-      "item": "minecraft:netherite_ingot"
+      "item": "l2complements:shulkerate_block"
     }
   },
   "pattern": [

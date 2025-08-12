@@ -1,0 +1,508 @@
+{
+  "baseRewards": [
+    {
+      "type": "ITEM",
+      "probability": 1,
+      "content": {
+        "item": "l2complements:sculkium_nugget",
+        "count": 1
+      }
+    },
+    {
+      "type": "ITEM",
+      "probability": 1,
+      "content": {
+        "item": "l2complements:eternium_nugget",
+        "count": 1
+      }
+    }
+  ],
+  "continuousRewards": {
+    "1": [
+      {
+        "type": "EXP_POINT",
+        "probability": 1,
+        "content": {
+          "expPoint": 50
+        }
+      }
+    ],
+    "4": [
+      {
+        "type": "EXP_POINT",
+        "probability": 1,
+        "content": {
+          "expPoint": 100
+        }
+      }
+    ],
+    "8": [
+      {
+        "type": "EXP_POINT",
+        "probability": 1,
+        "content": {
+          "expPoint": 200
+        }
+      }
+    ],
+    "14": [
+      {
+        "type": "EXP_POINT",
+        "probability": 1,
+        "content": {
+          "expPoint": 400
+        }
+      }
+    ]
+  },
+  "continuousRewardsRelation": {
+    "1": "1",
+    "4": "4",
+    "8": "8",
+    "14": "14"
+  },
+  "cycleRewards": {
+    "1": [
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "netmusic:music_cd",
+          "count": 4
+        }
+      }
+    ],
+    "2": [
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "netmusic:music_cd",
+          "count": 4
+        }
+      }
+    ],
+    "3": [
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "netmusic:music_cd",
+          "count": 4
+        }
+      },
+      {
+        "type": "SIGN_IN_CARD",
+        "probability": 1,
+        "content": {
+          "signInCard": 1
+        }
+      }
+    ]
+  },
+  "cycleRewardsRelation": {
+    "1": "1",
+    "2": "2",
+    "3": "3"
+  },
+  "yearRewards": {},
+  "monthRewards": {},
+  "weekRewards": {
+    "1": [
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "youkaishomecoming:moon_rocket",
+          "count": 1
+        }
+      }
+    ],
+    "2": [
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "immortalers_delight:vulcan_coktail",
+          "count": 1
+        }
+      }
+    ],
+    "3": [
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "immortalers_delight:clear_water_vodka",
+          "count": 1
+        }
+      }
+    ],
+    "4": [
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "immortalers_delight:leisamboo_tea",
+          "count": 1
+        }
+      }
+    ],
+    "5": [
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "immortalers_delight:golden_himekaido",
+          "count": 1
+        }
+      },
+      {
+        "type": "ITEM",
+        "probability": 0.1,
+        "content": {
+          "item": "immortalers_delight:enchanted_golden_himekaido",
+          "count": 1
+        }
+      }
+    ],
+    "6": [
+      {
+        "type": "EFFECT",
+        "probability": 1,
+        "content": {
+          "effect": "minecraft:luck",
+          "duration": 6000,
+          "amplifier": 1
+        }
+      },
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "farmersdelight:steak_and_potatoes",
+          "count": 1
+        }
+      },
+      {
+        "type": "SIGN_IN_CARD",
+        "probability": 1,
+        "content": {
+          "signInCard": 1
+        }
+      }
+    ],
+    "7": [
+      {
+        "type": "EFFECT",
+        "probability": 1,
+        "content": {
+          "effect": "minecraft:luck",
+          "duration": 7200,
+          "amplifier": 1
+        }
+      },
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "l2complements:sun_membrane",
+          "count": 1
+        }
+      },
+      {
+        "type": "SIGN_IN_CARD",
+        "probability": 1,
+        "content": {
+          "signInCard": 1
+        }
+      }
+    ]
+  },
+  "dateTimeRewards": {
+    "0000-04-01": [
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "youkaishomecoming:cirno_hairband",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        }
+      },
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "youkaishomecoming:cirno_wings",
+          "count": 1
+        }
+      },
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "youkaishomecoming:frozen_frog_cold",
+          "count": 64
+        }
+      },
+      {
+        "type": "MESSAGE",
+        "probability": 1,
+        "content": {
+          "text": "Baka Baka Baka Baka~",
+          "i18nType": "PLAIN",
+          "languageCode": "zh_cn",
+          "color": -1,
+          "bgColor": -1,
+          "shadow": false,
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false,
+          "children": [],
+          "args": []
+        }
+      }
+    ],
+    "0000-07-31": [
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "immortalers_delight:scarlet_devils_cake",
+          "count": 4
+        }
+      },
+      {
+        "type": "MESSAGE",
+        "probability": 1,
+        "content": {
+          "text": "今天是月见清兰的生日喵！",
+          "i18nType": "PLAIN",
+          "languageCode": "zh_cn",
+          "color": -1,
+          "bgColor": -1,
+          "shadow": false,
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false,
+          "children": [],
+          "args": []
+        }
+      }
+    ],
+    "0000-10-01~6": [
+      {
+        "type": "EFFECT",
+        "probability": 1,
+        "content": {
+          "effect": "minecraft:resistance",
+          "duration": 7200,
+          "amplifier": 2
+        }
+      },
+      {
+        "type": "EXP_LEVEL",
+        "probability": 1,
+        "content": {
+          "expLevel": 10
+        }
+      },
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "immortalers_delight:red_stuffed_bun",
+          "count": 16
+        }
+      },
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "immortalers_delight:scarlet_devils_cake",
+          "count": 1
+        }
+      },
+      {
+        "type": "MESSAGE",
+        "probability": 1,
+        "content": {
+          "text": "祖国母亲生日快乐~",
+          "i18nType": "PLAIN",
+          "languageCode": "zh_cn",
+          "color": -1,
+          "bgColor": -1,
+          "shadow": false,
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false,
+          "children": [],
+          "args": []
+        }
+      }
+    ],
+    "0000-11-27": [
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "immortalers_delight:scarlet_devils_cake",
+          "count": 4
+        }
+      },
+      {
+        "type": "MESSAGE",
+        "probability": 1,
+        "content": {
+          "text": "今天是 PL 的生日喵！",
+          "i18nType": "PLAIN",
+          "languageCode": "zh_cn",
+          "color": -1,
+          "bgColor": -1,
+          "shadow": false,
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false,
+          "children": [],
+          "args": []
+        }
+      }
+    ]
+  },
+  "dateTimeRewardsRelation": {
+    "0000-04-01": "0000-04-01",
+    "0000-07-31": "0000-07-31",
+    "0000-10-1": "0000-10-01~6",
+    "0000-10-2": "0000-10-01~6",
+    "0000-10-4": "0000-10-01~6",
+    "0000-10-7": "0000-10-01~6",
+    "0000-10-11": "0000-10-01~6",
+    "0000-10-16": "0000-10-01~6",
+    "0000-10-22": "0000-10-01~6",
+    "0000-11-27": "0000-11-27"
+  },
+  "cumulativeRewards": {
+    "1": [
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "majobroom:broom_item",
+          "count": 1
+        }
+      },
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "netmusic:music_player",
+          "count": 1
+        }
+      },
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "netmusic:cd_burner",
+          "count": 1
+        }
+      },
+      {
+        "type": "EFFECT",
+        "probability": 1,
+        "content": {
+          "effect": "minecraft:resistance",
+          "duration": 7200,
+          "amplifier": 2
+        }
+      }
+    ],
+    "3": [
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "crockpot:volt_goat_spawn_egg",
+          "count": 2
+        }
+      },
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "youkaishomecoming:frozen_frog_cold",
+          "count": 4
+        }
+      },
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "minecraft:turtle_spawn_egg",
+          "count": 4
+        }
+      }
+    ],
+    "64": [
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "minecraft:enchanted_book",
+          "count": 1,
+          "nbt": "{StoredEnchantments:[{id:\"l2complements:eternal\",lvl:1s}]}"
+        }
+      },
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "majobroom:majo_cloth",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        }
+      },
+      {
+        "type": "MESSAGE",
+        "probability": 1,
+        "content": {
+          "text": "这就是真正的养生大师吗！",
+          "i18nType": "PLAIN",
+          "languageCode": "zh_cn",
+          "color": -1,
+          "bgColor": -1,
+          "shadow": false,
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false,
+          "children": [],
+          "args": []
+        }
+      }
+    ]
+  },
+  "randomRewards": {
+    "0.25": [
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "artifacts:mimic_spawn_egg",
+          "count": 1
+        }
+      }
+    ]
+  },
+  "cdkRewards": []
+}
