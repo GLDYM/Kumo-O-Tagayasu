@@ -18,6 +18,10 @@
     <img src="https://img.shields.io/badge/version-5.2.9-9999FF" alt="version">
 </a>
 
+<a href="https://www.mcmod.cn/modpack/1017.html">
+    <img src="https://img.shields.io/badge/MCMOD-8A2BE2" alt="MCMOD">
+</a>
+
 </div>
 
 ## 简介
