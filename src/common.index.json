@@ -306,21 +306,6 @@
       "fileSize": 299601
     },
     {
-      "path": "mods/ctov-beautify-compat-2.0.jar",
-      "hashes": {
-        "sha512": "327891ba03becb4c2e70a40f09ff86ba8fb28ff0467f6d66901c7a86727464adced54841e32bcf2d96e90745b452bd7159e9f01d5af70d019c1faf101aaa7fc2",
-        "sha1": "b8201794c97213644177b3eaa2cc4a4275c5d50c"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/iunZDj0l/versions/elBmQR7P/ctov-beautify-compat-2.0.jar"
-      ],
-      "fileSize": 105598
-    },
-    {
       "path": "mods/exposure-1.20.1-1.7.16-forge.jar",
       "hashes": {
         "sha1": "b1ec92eeafdc97e88e0baacd5d89f4c1f89a4bbc",
@@ -424,21 +409,6 @@
         "https://cdn.modrinth.com/data/aq9qUUQG/versions/Z3P99xA8/create-stuff-additions1.20.1_v2.1.0.jar"
       ],
       "fileSize": 1347694
-    },
-    {
-      "path": "mods/ctov-3.4.14.jar",
-      "hashes": {
-        "sha1": "8fa73fd4c5ae58636e159e54321651adf555ac44",
-        "sha512": "66c5846c0065afb1bad3001bccaa32f58cb8e608c3914d6611a20e30fd145dd0487a6255ee410b72cfee6f28f06c19dda4216459b230ded693c2772b2576b28e"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/fgmhI8kH/versions/o7mg6MeV/%5Bforge%5Dctov-3.4.14.jar"
-      ],
-      "fileSize": 6772753
     },
     {
       "path": "mods/carryon-forge-1.20.1-2.1.2.7.jar",
@@ -949,21 +919,6 @@
         "https://cdn.modrinth.com/data/jCBrrLTs/versions/1SZb4aej/TaxFreeLevels-1.4.8-forge-1.20.1.jar"
       ],
       "fileSize": 222762
-    },
-    {
-      "path": "mods/ctov-farmers-delight-compat-2.1.jar",
-      "hashes": {
-        "sha512": "79724964a5e8c31356b2efa4c8811c928d2f5095016e19162de90d7d4c4fbba3dcaa49db003a5f3d588d177d7c7008551af8f77677f52831ec62e05f69547441",
-        "sha1": "b410287b852c235c7ef2735f7c683df8db84de3a"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/CdRC4fyI/versions/qWJ0YcQq/ctov-farmers-delight-compat-2.1.jar"
-      ],
-      "fileSize": 197762
     },
     {
       "path": "mods/ExplorersCompass-1.20.1-1.3.3-forge.jar",
@@ -1699,21 +1654,6 @@
         "https://cdn.modrinth.com/data/1bokaNcj/versions/VfhlV9am/Xaeros_Minimap_25.2.10_Forge_1.20.jar"
       ],
       "fileSize": 1723029
-    },
-    {
-      "path": "mods/ctov-chefs-delight-compat-2.0.jar",
-      "hashes": {
-        "sha512": "2922dcc2aaffb2e4861b30ca74fc9ad4ef5fd00161d032dc4a4543258f50dc59e8b4c6cadea2c7d1342048be97798637247308203925e9079295db0de633dde0",
-        "sha1": "6121998a194a0f423ba3bf199110d98f95dfb2fd"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/6PJbKvJH/versions/MVTYiQSv/ctov-chefs-delight-compat-2.0.jar"
-      ],
-      "fileSize": 100334
     },
     {
       "path": "mods/Quark-4.0-462.jar",
@@ -2556,21 +2496,6 @@
       "fileSize": 19471
     },
     {
-      "path": "mods/ctov-savage-and-ravage-compat-2.0.jar",
-      "hashes": {
-        "sha512": "cbc9f38b114679b0810c2837947f182210a25234fbb3afe0cb77ef70747ddd0357ee04bd741efe020e0b0084439f6af716bc8c037e08e3dacf2956166836988f",
-        "sha1": "ce522d05c41697a4106769c09ea881d099b1c2f5"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/p7P0HjJw/versions/j8sXQud0/ctov-savage-and-ravage-compat-2.0.jar"
-      ],
-      "fileSize": 10098
-    },
-    {
       "path": "mods/bagus_lib-1.20.1-5.4.0.jar",
       "hashes": {
         "sha512": "b19c0ff1aa2288984296802fac72eb4768c8850df686d99f4a2a0d4cb273b6fc0f1902bc68c07f1a99ce67eff27d61e960587c5eb54f6e62afd6577b4371cc06",
@@ -2599,21 +2524,6 @@
         "https://cdn.modrinth.com/data/c7m1mi73/versions/dCEO67fT/packetfixer-3.1.4-1.18-1.20.4-merged.jar"
       ],
       "fileSize": 163268
-    },
-    {
-      "path": "mods/ctov-irons-spells-n-spellbooks-compat-1.2.jar",
-      "hashes": {
-        "sha512": "18cba8699aaf157b88d42ce816edf112b1450c712fe9b930a0dc744c8f539e464eb668e54b841ec2a518eb99768831a81110111f5d151d8d86aae1acad7ed81f",
-        "sha1": "6d4d1491dfa1fd52b59e8a8050f1cb969cde300b"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/B8XiXauo/versions/o57gj0aQ/ctov-irons-spells-n-spellbooks-compat-1.2.jar"
-      ],
-      "fileSize": 122134
     },
     {
       "path": "mods/beautify-2.0.2.jar",

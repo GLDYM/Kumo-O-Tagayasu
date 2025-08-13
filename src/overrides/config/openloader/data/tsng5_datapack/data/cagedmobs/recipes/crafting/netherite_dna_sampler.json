@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "l2complements:eternium_block"
+    "item": "l2complements:poseidite_block"
   },
   "base": {
     "item": "cagedmobs:diamond_dna_sampler"
