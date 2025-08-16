@@ -5,7 +5,7 @@
 	group: "31669C96F582CF92"
 	icon: "majobroom:broom_item"
 	id: "1B290DA22A8E2132"
-	order_index: 1
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -155,11 +155,15 @@
 		}
 		{
 			can_repeat: true
-			description: ["&b如果你有多余的永恒锭，可以来这里尝试抽取永恒附魔书。"]
+			description: [
+				"&b如果你有多余的永恒锭，可以来这里尝试抽取永恒附魔书。"
+				""
+				"&b如果你对自己的运气没信心，还是合成吧。"
+			]
 			id: "3D2C042623ED2D26"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "740FB2B0CFFD0323"
+				icon: "minecraft:apple"
+				id: "49542460B248D01F"
 				table_id: 3487538688900904586L
 				type: "random"
 			}]

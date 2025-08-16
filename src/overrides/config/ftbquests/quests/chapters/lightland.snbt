@@ -11,7 +11,7 @@
 		}
 	}
 	id: "7E134D75B3BBB797"
-	order_index: 0
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -21,10 +21,13 @@
 				"&b这些挑战可能会非常红温，建议做好充足的准备再进行。铁魔法、机械动力等模组的内容对于某些材料的获取十分有帮助。"
 				""
 				"&a理论上本章的材料都可以进行量产。如果前面章节的量产对于你来说都太简单了，可以尝试本章材料的量产。"
+				""
+				"&a常见的生物量产方法：用笼子获取刷怪蛋，召唤生物后提取DNA，DNA置于笼子内后再次变成刷怪蛋。也可以搬刷怪笼。"
 			]
 			icon: "createdeco:decal_warning"
 			id: "2FD7C5E21DB6BB22"
-			size: 2.0d
+			size: 1.5d
+			subtitle: "本章作者：Wu_Zang, PL"
 			tasks: [{
 				id: "5DEF2D3ECB5EF5BD"
 				type: "checkmark"
@@ -35,7 +38,7 @@
 		}
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
-			description: ["使用玻璃瓶与幻翼膜合成"]
+			description: ["使用玻璃瓶与幻翼膜合成。"]
 			hide_until_deps_complete: true
 			id: "37311212A4BB2069"
 			tasks: [{
@@ -48,7 +51,11 @@
 		}
 		{
 			dependencies: ["37311212A4BB2069"]
-			description: ["起飞！"]
+			description: [
+				"起飞！"
+				""
+				"&a一种可能的思路：在雨天使用激流III三叉戟，从雪线向下加速飞。"
+			]
 			hide_until_deps_visible: true
 			id: "59C65D9F40BA247A"
 			tasks: [{
@@ -61,7 +68,11 @@
 		}
 		{
 			dependencies: ["37311212A4BB2069"]
-			description: ["潜影贝：？"]
+			description: [
+				"潜影贝：？"
+				""
+				"&a一种可能的思路：潜影贝的子弹只会直线飞，关在小空间连点右键就行。"
+			]
 			hide_until_deps_visible: true
 			id: "16B6CB0A599E084B"
 			tasks: [{
@@ -74,7 +85,11 @@
 		}
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
-			description: ["除了玩家亲自近战，在虚空之下可行的处死手段似乎还有不少？"]
+			description: [
+				"除了玩家亲自近战，在虚空之下可行的处死手段似乎还有不少？"
+				""
+				"&a一种可能的思路：绊线钩检测末影人下落，发射 TNT 下落炸死末影人。或用潜影贝搭建虚空中的平台，用水瓶处死。"
+			]
 			hide_until_deps_complete: true
 			id: "5E6DB02441CA7C01"
 			tasks: [{
@@ -103,6 +118,8 @@
 			description: [
 				"玩家：你敢违抗拥有80血和全套爆炸保护6的我吗？"
 				"末地水晶：？！"
+				""
+				"&a一种可能的思路：TNT 复制，用水流归正 TNT 与玩家。"
 			]
 			hide_until_deps_complete: true
 			id: "3EF0DFF0442CBF6A"
@@ -155,7 +172,7 @@
 		}
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
-			description: ["使用黑炎弹攻击猪灵蛮兵后杀死它。蛮兵的再生也是需要解决的一个难题。"]
+			description: ["使用黑炎弹攻击猪灵蛮兵后杀死它。"]
 			hide_until_deps_complete: true
 			id: "08BDB731A3E44277"
 			tasks: [{
@@ -169,8 +186,9 @@
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
 			description: [
-				"铁魔法：无所谓，我会出手"
-				"音爆法术和神圣守护可以轻松达成目标"
+				"铁魔法：无所谓，我会出手。"
+				""
+				"&a一种可能的思路：给鸡喷神龟药水后吸引监守者注意力或使用音爆枪。如果神圣守护能提供足够的血量也可以使用。"
 			]
 			hide_until_deps_complete: true
 			id: "4397B27C24F91911"
@@ -197,7 +215,11 @@
 		}
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
-			description: ["远古守卫者因为天天给海上航行的玩家上debuff，坏事做尽遭雷劈了。"]
+			description: [
+				"远古守卫者因为天天给海上航行的玩家上debuff，坏事做尽遭雷劈了。"
+				""
+				"&a一种可能的思路：用祭坛召唤闪电。"
+			]
 			hide_until_deps_complete: true
 			id: "64326EA00C211D2E"
 			tasks: [{
@@ -249,7 +271,11 @@
 		}
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
-			description: ["怎么感觉像把凋零的衣服扒了下来？"]
+			description: [
+				"怎么感觉像把凋零的衣服扒了下来？"
+				""
+				"&a一种可能的思路：需要搭建特殊的结构，见 MC 百科守护力场下的评论。"
+			]
 			hide_until_deps_complete: true
 			id: "69444301F9A3BB33"
 			tasks: [{

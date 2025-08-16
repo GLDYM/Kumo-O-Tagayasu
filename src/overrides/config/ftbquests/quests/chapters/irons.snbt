@@ -5,7 +5,7 @@
 	group: "65DBD493CCEDCEF5"
 	icon: {
 		Count: 1
-		id: "irons_spellbooks:priest_helmet"
+		id: "irons_spellbooks:gold_crown"
 		tag: {
 			Damage: 0
 		}
@@ -22,14 +22,15 @@
 				type: "xp"
 				xp: 3
 			}]
-			shape: "hexagon"
+			shape: "gear"
 			size: 1.5d
+			subtitle: "本章作者：RubicA"
 			tasks: [{
 				id: "3B9E02977C70193A"
 				title: "铁魔法"
 				type: "checkmark"
 			}]
-			title: "这就是法术的世界吗"
+			title: "&6这就是法术的世界吗"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -360,7 +361,7 @@
 		}
 		{
 			dependencies: ["39C2070939F19CD6"]
-			description: ["击杀死者之王后有50%概率掉落。"]
+			description: ["击杀死者之王后有 50% 概率掉落。"]
 			id: "419F499637503932"
 			tasks: [{
 				id: "762C7303AC863AC2"
@@ -518,6 +519,7 @@
 				item: { Count: 10, id: "irons_spellbooks:legendary_ink" }
 				type: "item"
 			}]
+			title: "传说墨水！"
 			x: -4.5d
 			y: -3.0d
 		}
@@ -538,6 +540,12 @@
 			dependencies: ["68621D90D8D1BFE4"]
 			description: ["自然法术"]
 			id: "1BF2C936A7D5FB3E"
+			rewards: [{
+				count: 8
+				id: "3065C169E60A8C46"
+				item: "minecraft:poisonous_potato"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F3B1D88A41DCD26"
 				item: "minecraft:poisonous_potato"
@@ -550,6 +558,12 @@
 			dependencies: ["68621D90D8D1BFE4"]
 			description: ["火焰法术"]
 			id: "15A107660676CCE9"
+			rewards: [{
+				count: 8
+				id: "4DD323DE567D35F8"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
 			tasks: [{
 				id: "712473A541B189D4"
 				item: "minecraft:blaze_rod"
@@ -562,6 +576,12 @@
 			dependencies: ["68621D90D8D1BFE4"]
 			description: ["寒冰法术"]
 			id: "6DD9A5CE192A43EE"
+			rewards: [{
+				count: 8
+				id: "574B755B6C83876E"
+				item: "irons_spellbooks:frozen_bone"
+				type: "item"
+			}]
 			tasks: [{
 				id: "25F45E7035FB2DD4"
 				item: "irons_spellbooks:frozen_bone"
@@ -572,8 +592,18 @@
 		}
 		{
 			dependencies: ["68621D90D8D1BFE4"]
-			description: ["雷电法术"]
+			description: [
+				"雷电法术"
+				""
+				"闪电苦力怕可以通过女仆模组的祭坛获得。"
+			]
 			id: "4467498CEB84DCAC"
+			rewards: [{
+				count: 8
+				id: "1070E1C8838A094F"
+				item: "irons_spellbooks:lightning_bottle"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3293DB0343078CD2"
 				item: "irons_spellbooks:lightning_bottle"
@@ -586,6 +616,12 @@
 			dependencies: ["68621D90D8D1BFE4"]
 			description: ["神圣法术"]
 			id: "7A5F81A362092844"
+			rewards: [{
+				count: 8
+				id: "50E93E16D950D95E"
+				item: "irons_spellbooks:divine_pearl"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7B42F06B8393A2FF"
 				item: "irons_spellbooks:divine_pearl"
@@ -598,6 +634,12 @@
 			dependencies: ["68621D90D8D1BFE4"]
 			description: ["末影法术"]
 			id: "710DB788C231666B"
+			rewards: [{
+				count: 8
+				id: "7A3E572A4ABC1320"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
 			tasks: [{
 				id: "30EA58FAB9E5904F"
 				item: "minecraft:ender_pearl"
@@ -610,6 +652,12 @@
 			dependencies: ["68621D90D8D1BFE4"]
 			description: ["鲜血法术"]
 			id: "2AA009E37D6F719A"
+			rewards: [{
+				count: 8
+				id: "500A3F3775FD5D6A"
+				item: "irons_spellbooks:blood_vial"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2C15D38DE72D7327"
 				item: "irons_spellbooks:blood_vial"
@@ -622,6 +670,12 @@
 			dependencies: ["68621D90D8D1BFE4"]
 			description: ["唤魔者法术"]
 			id: "7E3A5C9A5C6D1798"
+			rewards: [{
+				count: 8
+				id: "48DEFF940868D77D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "27D72E6452960760"
 				item: "minecraft:emerald"
@@ -689,7 +743,7 @@
 		}
 		{
 			dependencies: ["326A5AFAC46AD0DD"]
-			description: ["制作盔甲的基础素材,按U查看可制作的套装"]
+			description: ["制作盔甲的基础素材。"]
 			id: "073E0167CBBB303B"
 			tasks: [{
 				id: "17EC2A8C825A6044"
@@ -761,7 +815,7 @@
 		}
 		{
 			dependencies: ["3AF744C7CBA0E12C"]
-			description: ["每件装备最多可以强化三次，可以制作的升级法球种类详见jei&e（按U查看空白升级法球用途）"]
+			description: ["每件装备最多可以强化三次（服务器十次），可以制作的升级法球种类详见jei&e（按U查看空白升级法球用途）"]
 			id: "2A385A7B05BF4CC7"
 			tasks: [{
 				id: "62988A988028B0CA"
@@ -840,6 +894,7 @@
 		}
 		{
 			dependencies: ["4C9447A7A4986592"]
+			description: ["比较综合的过渡魔杖。"]
 			id: "640365359E108156"
 			tasks: [{
 				id: "51F2E7E1EA577A4C"
@@ -851,7 +906,13 @@
 		}
 		{
 			dependencies: ["4C9447A7A4986592"]
+			description: ["雷公助我！"]
 			id: "5645CEF5EA702B9B"
+			rewards: [{
+				id: "5359DAAA98101544"
+				item: "minecraft:lightning_rod"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3580EE750598AF32"
 				item: "irons_spellbooks:lightning_rod"
@@ -862,7 +923,7 @@
 		}
 		{
 			dependencies: ["4C9447A7A4986592"]
-			description: ["击败死者之王有概率获得"]
+			description: ["击败死者之王有 50% 概率获得。"]
 			id: "50BF4BFD465E2D22"
 			tasks: [{
 				id: "5C4043887BDC836E"
@@ -874,6 +935,7 @@
 		}
 		{
 			dependencies: ["4C9447A7A4986592"]
+			description: ["大概是综合属性最优秀的魔杖。"]
 			id: "3E003F4BD63182F4"
 			tasks: [{
 				id: "1A19A2F21E6B0345"
@@ -1012,6 +1074,29 @@
 			x: -4.5d
 			y: 4.5d
 		}
+		{
+			dependencies: ["13265541D3694F26"]
+			description: ["让我们庆祝王的诞生！"]
+			id: "5C9EE3F5BBE4BF4C"
+			rewards: [{
+				id: "1CCDB9BC2E636E36"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "41609FB6397B3BF5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:gold_crown"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
 	]
-	title: "&e铁锈魔法师"
+	title: "&a铁锈魔法师"
 }

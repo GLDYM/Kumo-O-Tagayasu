@@ -14,21 +14,21 @@
 				""
 				"&b本章的内容涉及大量流体之间的转化，因此最好先完成机械动力的基础部分。"
 				""
-				"&b不建议游玩豆腐工艺中豆腐能的部分，基本没有完成。"
+				"&b本章不讲述豆腐工艺中豆腐能的部分，请自行探索。"
 			]
 			id: "0D5E7A85B8DE2331"
 			rewards: [{
 				count: 8
 				id: "4048288F43E3E658"
-				item: "youkaishomecoming:soybean"
+				item: "tofucraft:seeds_soybeans"
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				count: 4L
 				id: "1CA65F46B597264D"
-				item: "youkaishomecoming:soybean"
+				item: "tofucraft:seeds_soybeans"
 				type: "item"
 			}]
 			title: "&6豆腐工艺"
@@ -616,7 +616,7 @@
 		{
 			dependencies: ["479E62299601502D"]
 			description: [
-				"fufu,fufufu!"
+				"fufu, fufufu!"
 				""
 				"用卤水桶倒水浇灭岩浆，用骨粉催熟这种天然生成的豆腐岩，可以得到大葱。"
 			]
@@ -656,5 +656,5 @@
 			y: 3.0d
 		}
 	]
-	title: "&e豆乳星来客"
+	title: "&a豆乳星来客"
 }

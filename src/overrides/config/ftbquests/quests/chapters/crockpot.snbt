@@ -11,8 +11,9 @@
 		{
 			description: ["打草的时候出现的神秘种子，可以种出什么东西呢？"]
 			id: "538C6EDD19720B13"
-			shape: "hexagon"
+			shape: "gear"
 			size: 1.5d
+			subtitle: "本章作者：PL"
 			tasks: [{
 				count: 16L
 				id: "630D6A2B0EF5A671"
@@ -26,6 +27,7 @@
 		{
 			dependencies: ["538C6EDD19720B13"]
 			description: ["你成功培育出了所有种类的种子，但是这只是美食之路的起点。"]
+			hide_until_deps_complete: true
 			id: "2845F0FDEB1FB737"
 			rewards: [{
 				count: 8
@@ -77,6 +79,7 @@
 		{
 			dependencies: ["538C6EDD19720B13"]
 			description: ["石头做的锅，十分有分量。"]
+			hide_until_deps_complete: true
 			id: "4D1373F5D677EC7B"
 			rewards: [{
 				id: "73A1B63218DCFE8B"
@@ -175,7 +178,7 @@
 			can_repeat: true
 			dependencies: ["2845F0FDEB1FB737"]
 			description: [
-				"吃遍烹饪锅能做出的所有美食，你就是一名美食初心者了。"
+				"吃遍烹饪锅的所有美食，你初窥了美食的门道。"
 				"&b暴食的赞赏可以使你无视饥饿值使用食物，这意味着你能将食物当做药水使用，也能更快品尝食物。"
 				"&a如果你不幸丢失了它，可以在这里领取。"
 			]
@@ -210,6 +213,7 @@
 				"&a一种可能的思路：用收割机收获可可豆后直接输入烹饪锅中，燃料使用地毯或者木炭。"
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "089DF322FA90D090"
 			rewards: [
 				{
@@ -242,6 +246,7 @@
 				"&a一种可能的思路：烤鸡机或者鸡笼。"
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "101B30A19ACB48F0"
 			rewards: [{
 				id: "22086FDC4FE3F043"
@@ -266,6 +271,7 @@
 				"&a一种可能的思路：主世界蘑菇用扩散的方式或者树场获取。下界蘑菇用刷花机获取。"
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "1D9CF53EE2410B1B"
 			rewards: [{
 				id: "1A5860570FE2511C"
@@ -287,25 +293,16 @@
 			description: [
 				"你才是猪鼻！"
 				""
-				"&b这个任务对于此前没有接触过生电或机械动力的玩家来说可能相当困难，前期可以跳过。"
-				""
-				"&a一种可能的思路：守卫者笼子产出海晶砂粒 ，粉碎之，获取石英与萤石粉。缠魂圆石获取黑石 ，粉碎获取黑石粉。合成尘土块，手动制作下界佳肴，机械手输入猪灵交易所获取猪鼻。"
+				"&a一种可能的思路：小刀砍疣猪兽。"
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "6612294ED0A39934"
-			rewards: [
-				{
-					count: 8
-					id: "3FA57642DF62799E"
-					item: "minecraft:nether_star"
-					type: "item"
-				}
-				{
-					id: "75C34A53B9F5F490"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-			]
+			rewards: [{
+				id: "75C34A53B9F5F490"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
 			tasks: [{
 				count: 64L
 				id: "6D7077CC15DE9D43"
@@ -320,6 +317,7 @@
 			dependencies: ["538C6EDD19720B13"]
 			description: ["我想，你并不是想吃肉丸，而是压根不会做菜，只能做出肉丸吧。（笑"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "10885F8F174002C4"
 			rewards: [{
 				id: "111DAA461AE2B34E"
@@ -343,6 +341,7 @@
 				""
 				"&b优秀的腐肉去处。"
 			]
+			hide_until_deps_complete: true
 			id: "77F2FF096747E31A"
 			rewards: [
 				{

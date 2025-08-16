@@ -53,6 +53,7 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:emerald"
 			id: "4AC580914BEDEC5E"
+			size: 1.5d
 			tasks: [{
 				id: "35CCBAF20595451D"
 				type: "checkmark"
@@ -66,6 +67,7 @@
 			description: ["将时间存储起来，然后对着方块shift+右键释放，你可以多次叠加这一操作，但是消耗的时间也会随之上升。"]
 			hide_until_deps_complete: true
 			id: "14DA7701558F10AC"
+			size: 1.5d
 			tasks: [{
 				id: "4CE807FFCEE823FC"
 				item: {
@@ -81,85 +83,6 @@
 		{
 			dependencies: ["3EC718092B2DD9AD"]
 			description: [
-				"拓展存储的箱子与桶适合存放杂乱的物品或不可堆叠物品，或者粘在移动结构上当存储。"
-				""
-				"大量的物品还是使用抽屉吧。"
-			]
-			hide_until_deps_complete: true
-			id: "1BB76F943AFA8ABC"
-			tasks: [{
-				id: "317026935502B44C"
-				item: "expandedstorage:copper_barrel"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3EC718092B2DD9AD"]
-			description: ["抽屉适合储存大量的单一物品。也可以用作物品过滤、分类与传输的工具。"]
-			hide_until_deps_complete: true
-			icon: "functionalstorage:oak_1"
-			id: "2172B6259E4FAE87"
-			tasks: [{
-				id: "19F79647AB81781E"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "functionalstorage:oak_1"
-							}
-							{
-								Count: 1b
-								id: "functionalstorage:spruce_1"
-							}
-							{
-								Count: 1b
-								id: "functionalstorage:birch_1"
-							}
-							{
-								Count: 1b
-								id: "functionalstorage:jungle_1"
-							}
-							{
-								Count: 1b
-								id: "functionalstorage:acacia_1"
-							}
-							{
-								Count: 1b
-								id: "functionalstorage:dark_oak_1"
-							}
-							{
-								Count: 1b
-								id: "functionalstorage:crimson_1"
-							}
-							{
-								Count: 1b
-								id: "functionalstorage:warped_1"
-							}
-							{
-								Count: 1b
-								id: "functionalstorage:mangrove_1"
-							}
-							{
-								Count: 1b
-								id: "functionalstorage:cherry_1"
-							}
-						]
-					}
-				}
-				type: "item"
-			}]
-			title: "功能性存储"
-			x: 0.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["3EC718092B2DD9AD"]
-			description: [
 				"@supplementaries"
 				""
 				"一堆杂乱但是有用的小玩意。"
@@ -168,6 +91,7 @@
 			]
 			hide_until_deps_complete: true
 			id: "6E48FFAB34C254A1"
+			size: 1.5d
 			tasks: [{
 				advancement: "supplementaries:adventure/globe"
 				criterion: ""
@@ -175,8 +99,8 @@
 				type: "advancement"
 			}]
 			title: "锦致装饰"
-			x: 2.0d
-			y: -4.0d
+			x: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
@@ -184,11 +108,12 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:enchanting_table"
 			id: "198EC6BDFF26EEDA"
+			size: 1.5d
 			tasks: [{
 				id: "0087568C66095B48"
 				type: "checkmark"
 			}]
-			title: "你不许附魔"
+			title: "你不许附魔!"
 			x: 4.0d
 			y: -2.0d
 		}
@@ -213,6 +138,7 @@
 				}
 			}
 			id: "05D4A62B5A723FD5"
+			size: 1.5d
 			tasks: [{
 				id: "0B08B397AD94E23A"
 				type: "checkmark"
@@ -227,6 +153,7 @@
 			hide_until_deps_complete: true
 			icon: "create:brass_hand"
 			id: "16E8F0B3BC974914"
+			size: 1.5d
 			tasks: [{
 				id: "683A1A362210AD62"
 				type: "checkmark"
@@ -245,31 +172,15 @@
 			hide_until_deps_complete: true
 			icon: "solcarrot:food_book"
 			id: "10E438A8A70C6D54"
+			size: 1.5d
 			tasks: [{
 				id: "6D699009B1A19E50"
 				item: "solcarrot:food_book"
 				type: "item"
 			}]
 			title: "生活调味料：胡萝卜版"
-			x: -4.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["3EC718092B2DD9AD"]
-			description: [
-				"提取DNA，然后使用生物笼轻松获得生物资源"
-				"@\"caged mobs\""
-			]
-			hide_until_deps_complete: true
-			icon: "cagedmobs:mob_cage"
-			id: "0667460178625A81"
-			tasks: [{
-				id: "39EA86AD1DD0C16F"
-				item: "cagedmobs:mob_cage"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 0.0d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
@@ -280,363 +191,15 @@
 			hide_until_deps_complete: true
 			icon: "lootr:trophy"
 			id: "377714924F6C8B21"
+			size: 1.5d
 			tasks: [{
 				id: "3B2D126AB7F9C8E4"
 				item: "lootr:trophy"
 				type: "item"
 			}]
 			title: "Lootr"
-			x: 0.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["1BB76F943AFA8ABC"]
-			id: "79E348C1C03FD321"
-			tasks: [{
-				id: "0647AF399B3DEB2D"
-				item: "expandedstorage:iron_barrel"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["79E348C1C03FD321"]
-			id: "3528E40C9DEE7786"
-			tasks: [{
-				id: "69FEBD69EED0C7C9"
-				item: "expandedstorage:gold_barrel"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["3528E40C9DEE7786"]
-			id: "335BAC34C6A9189C"
-			tasks: [{
-				id: "6B2CB565FD6B8E94"
-				item: "expandedstorage:diamond_barrel"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["4421EC8FFD80EFFD"]
-			id: "0832AFF19D87BE25"
-			tasks: [{
-				id: "01561CCE70EE9BAD"
-				item: "expandedstorage:netherite_barrel"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["335BAC34C6A9189C"]
-			id: "4421EC8FFD80EFFD"
-			tasks: [{
-				id: "23A54278816E88D2"
-				item: "expandedstorage:obsidian_barrel"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0667460178625A81"]
-			id: "23F1F3FC08E27B8D"
-			tasks: [{
-				id: "5587DDCE34FE3B29"
-				item: "cagedmobs:hopping_mob_cage"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["23F1F3FC08E27B8D"]
-			id: "2D505492770915E4"
-			tasks: [{
-				id: "563B946D5F6E680C"
-				item: "cagedmobs:dna_sampler"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["2D505492770915E4"]
-			id: "57F36EA6241614C9"
-			tasks: [{
-				id: "0DF82790B09A0BAB"
-				item: "cagedmobs:diamond_dna_sampler"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["57F36EA6241614C9"]
-			id: "777CDF4A7C3391EE"
-			tasks: [{
-				id: "3EBA7E0031F198F1"
-				item: "cagedmobs:netherite_dna_sampler"
-				type: "item"
-			}]
-			x: -8.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["23F1F3FC08E27B8D"]
-			id: "56CFF8E42B4FBEED"
-			tasks: [{
-				id: "365FC971E6CA4920"
-				item: "cagedmobs:speed_i_upgrade"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["56CFF8E42B4FBEED"]
-			id: "1316EA354357399C"
-			tasks: [{
-				id: "0D8133435888FE84"
-				item: "cagedmobs:speed_ii_upgrade"
-				type: "item"
-			}]
-			x: -6.0d
+			x: -4.0d
 			y: -4.0d
-		}
-		{
-			dependencies: ["1316EA354357399C"]
-			id: "3B9219BDD66895FB"
-			tasks: [{
-				id: "2CB6D85F53DC6CD4"
-				item: "cagedmobs:speed_iii_upgrade"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["23F1F3FC08E27B8D"]
-			id: "1397E4B4D62AE223"
-			tasks: [{
-				id: "5289FB9C89C0D812"
-				item: "cagedmobs:looting_upgrade"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["23F1F3FC08E27B8D"]
-			id: "7A099601D81518E9"
-			tasks: [{
-				id: "12195BBC21EC851B"
-				item: "cagedmobs:arrow_upgrade"
-				type: "item"
-			}]
-			x: -10.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["23F1F3FC08E27B8D"]
-			id: "165412A3BEEC66B1"
-			tasks: [{
-				id: "2EFA483A510CADD8"
-				item: "cagedmobs:cooking_upgrade"
-				type: "item"
-			}]
-			x: -10.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["23F1F3FC08E27B8D"]
-			id: "301681EE5023C06A"
-			tasks: [{
-				id: "7FD58161C2847AFA"
-				item: "cagedmobs:lightning_upgrade"
-				type: "item"
-			}]
-			x: -10.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["23F1F3FC08E27B8D"]
-			id: "3BB510696E3AA647"
-			tasks: [{
-				id: "715C6B76EC4A9B1A"
-				item: "cagedmobs:experience_upgrade"
-				type: "item"
-			}]
-			x: -10.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["2172B6259E4FAE87"]
-			id: "1A9C3892F5B82FEC"
-			tasks: [{
-				id: "7C918AFA3987E670"
-				item: "functionalstorage:compacting_drawer"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["2172B6259E4FAE87"]
-			id: "30DF91446AD30841"
-			tasks: [{
-				id: "0BD230D99AC9B126"
-				item: "functionalstorage:copper_upgrade"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["30DF91446AD30841"]
-			id: "091F6B94973BFE21"
-			tasks: [{
-				id: "1F754BF2E34EF68C"
-				item: "functionalstorage:gold_upgrade"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["091F6B94973BFE21"]
-			id: "4DF28C4B664830DD"
-			tasks: [{
-				id: "20109D1A0D5F5398"
-				item: "functionalstorage:diamond_upgrade"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["4DF28C4B664830DD"]
-			id: "6C5323D104906506"
-			tasks: [{
-				id: "143D55EFDE9CE9B2"
-				item: "functionalstorage:netherite_upgrade"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -8.5d
-		}
-		{
-			dependencies: ["2172B6259E4FAE87"]
-			id: "2061118F74FACAD3"
-			tasks: [{
-				id: "046B0314830F32CD"
-				item: "functionalstorage:iron_downgrade"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -10.0d
-		}
-		{
-			dependencies: ["2172B6259E4FAE87"]
-			id: "4498102EECF2C98F"
-			tasks: [{
-				id: "486189B55DE62C3F"
-				item: "functionalstorage:storage_controller"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["2172B6259E4FAE87"]
-			id: "6B7A16ADADA8DE8F"
-			tasks: [{
-				id: "7FA7134E653636E6"
-				item: {
-					Count: 1
-					id: "functionalstorage:linking_tool"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -3.0d
-			y: -8.5d
-		}
-		{
-			dependencies: ["2172B6259E4FAE87"]
-			id: "71BAB219FBD222D7"
-			tasks: [{
-				id: "741DED65E35F4C39"
-				item: "functionalstorage:configuration_tool"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -10.0d
-		}
-		{
-			dependencies: ["2172B6259E4FAE87"]
-			id: "13E9B4BD7AC319A9"
-			tasks: [{
-				id: "748F16D71FE73B78"
-				item: {
-					Count: 1
-					id: "functionalstorage:redstone_upgrade"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -1.5d
-			y: -10.0d
-		}
-		{
-			dependencies: ["2172B6259E4FAE87"]
-			id: "03E7A8A915780BC8"
-			tasks: [{
-				id: "17E7E9B186547214"
-				item: "functionalstorage:collector_upgrade"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -10.0d
-		}
-		{
-			dependencies: ["2172B6259E4FAE87"]
-			id: "6085EBB90CB8DFCF"
-			tasks: [{
-				id: "05BD7D30940C19F3"
-				item: "functionalstorage:puller_upgrade"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -8.5d
-		}
-		{
-			dependencies: ["2172B6259E4FAE87"]
-			id: "02441D519DC5909D"
-			tasks: [{
-				id: "2117CB44493CCCA4"
-				item: "functionalstorage:pusher_upgrade"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["2172B6259E4FAE87"]
-			id: "311C2AA6389FFD4D"
-			tasks: [{
-				id: "70780693405FF30C"
-				item: "functionalstorage:void_upgrade"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -10.0d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
@@ -647,6 +210,7 @@
 			]
 			hide_until_deps_complete: true
 			id: "4FBC5309BBFBBE18"
+			size: 1.5d
 			tasks: [{
 				id: "649A6FAC10F0A482"
 				item: "exposure:camera"
@@ -665,6 +229,7 @@
 			]
 			hide_until_deps_complete: true
 			id: "61B6F363A7BD3938"
+			size: 1.5d
 			tasks: [{
 				id: "0B00DA517EC20D2F"
 				item: "netmusic:music_player"
@@ -682,6 +247,7 @@
 			]
 			hide_until_deps_complete: true
 			id: "38177FEC4009CCFE"
+			size: 1.5d
 			tasks: [{
 				id: "172C6A1C853F9283"
 				item: "waterframes:frame"
@@ -696,6 +262,7 @@
 			description: ["使用它来照亮你的小镇。"]
 			hide_until_deps_complete: true
 			id: "0A23AE8CEE05968E"
+			size: 1.5d
 			tasks: [{
 				id: "7FA987DB70EE2024"
 				item: {
@@ -710,6 +277,31 @@
 			title: "照明魔杖"
 			x: -4.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: [
+				"在地下会生成营地，营地内的箱子有概率被替换为宝箱怪，击杀宝箱怪即可获得很多有用的饰品。"
+				""
+				"签到时也有 25% 直接刷一只宝箱怪出来。"
+			]
+			hide_until_deps_complete: true
+			icon: "artifacts:mimic_spawn_egg"
+			id: "0CC112B640B87CD2"
+			rewards: [{
+				id: "00A4D74D779F4264"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1B0E157A532CAB7C"
+				title: "奇异饰品"
+				type: "checkmark"
+			}]
+			title: "奇异饰品"
+			x: 0.0d
+			y: -4.0d
 		}
 	]
 	title: "&e实用模组介绍 "

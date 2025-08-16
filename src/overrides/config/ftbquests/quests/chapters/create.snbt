@@ -16,6 +16,7 @@
 				""
 				"为了让玩家们快速入门机械动力，以下用&4方块标识&r的为最重要的主线，即速通精密构件。齿轮形任务则标致每个阶段的节点，他们也是主线任务。"
 			]
+			hide_dependent_lines: true
 			icon: "createdeco:decal_warning"
 			id: "77102693683E4D96"
 			optional: true
@@ -27,6 +28,7 @@
 			}]
 			shape: "hexagon"
 			size: 3.0d
+			subtitle: "本章作者：Wu_Zang"
 			tasks: [{
 				id: "243AB9709660933E"
 				title: "按[w]进行思索"
@@ -399,11 +401,13 @@
 			y: 15.5d
 		}
 		{
+			dependencies: ["77102693683E4D96"]
 			description: [
 				"在机械动力里，安山岩从废石一跃成为最基础的资源。"
 				""
 				"别担心，你有很多方法实现安山岩自动化。"
 			]
+			hide_until_deps_complete: true
 			id: "46E4A63447ADBD49"
 			shape: "square"
 			tasks: [{
@@ -416,11 +420,13 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["77102693683E4D96"]
 			description: [
 				"合成安山合金的另一原料。"
 				""
 				"除了原版刷铁机，你同样有其他方法实现铁自动化。"
 			]
+			hide_until_deps_complete: true
 			id: "6850733703694301"
 			shape: "square"
 			tasks: [{
@@ -473,6 +479,8 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["77102693683E4D96"]
+			hide_until_deps_complete: true
 			id: "5C0559550404B37C"
 			shape: "square"
 			tasks: [{
@@ -492,8 +500,11 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["77102693683E4D96"]
 			description: ["也许你需要一个自然罗盘，但它并不好做。"]
+			hide_until_deps_complete: true
 			id: "737841D5CB9D44FA"
+			shape: "square"
 			tasks: [
 				{
 					id: "56D30B4A77054D98"
@@ -612,7 +623,9 @@
 			y: 15.5d
 		}
 		{
+			dependencies: ["77102693683E4D96"]
 			description: [""]
+			hide_until_deps_complete: true
 			id: "7AD1EC62E81E6964"
 			shape: "square"
 			tasks: [
@@ -673,7 +686,9 @@
 			y: 6.5d
 		}
 		{
+			dependencies: ["77102693683E4D96"]
 			description: ["有些资源不得不去下界采集，因此多挖一些吧。"]
+			hide_until_deps_complete: true
 			id: "4BC0D45AA088BBF6"
 			shape: "square"
 			tasks: [
@@ -1209,10 +1224,7 @@
 			y: 28.0d
 		}
 		{
-			dependencies: [
-				"7960D97A6163B412"
-				"3EC718092B2DD9AD"
-			]
+			dependencies: ["7960D97A6163B412"]
 			description: [
 				"在鼓风机前放置水/含水方块可以批量水洗物品，放置岩浆可以批量熔炼物品，放置篝火/烈焰人燃烧室/点燃的空的烈焰人燃烧室或点燃火可以批量烟熏物品，放置灵魂篝火/替换了灵魂土/灵魂沙的点燃的空的烈焰人燃烧室或者点燃灵魂火可以批量缠魂物品。"
 				"鼓风机可以批量处理鼓风方向上的所有掉落物以及放置在置物台上的物品，因此它可以同时处理大量物品。"
@@ -1886,8 +1898,11 @@
 			y: 11.0d
 		}
 		{
+			dependencies: ["77102693683E4D96"]
 			description: ["试试制作下界合金碎片自动化产线？"]
+			hide_until_deps_complete: true
 			id: "302FF52DFFBFC593"
+			shape: "square"
 			tasks: [{
 				id: "23F81664A4E11AC9"
 				item: "minecraft:netherite_scrap"
@@ -1945,7 +1960,10 @@
 			y: 6.5d
 		}
 		{
+			dependencies: ["77102693683E4D96"]
+			hide_until_deps_complete: true
 			id: "0D6619D2116509F6"
+			shape: "square"
 			tasks: [{
 				id: "61CF5769402FE239"
 				item: "minecraft:ender_pearl"
@@ -1966,8 +1984,11 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["77102693683E4D96"]
 			description: ["精准采集紫水晶簇并用粉碎轮粉碎可以增产紫水晶碎片，用镐子在砧板上处理紫水晶块可以将紫水晶块分解成4个紫水晶碎片。"]
+			hide_until_deps_complete: true
 			id: "421E950D9B12E876"
+			shape: "square"
 			tasks: [{
 				id: "24404673A2D4469E"
 				item: "minecraft:amethyst_shard"
@@ -2059,28 +2080,6 @@
 			}]
 			x: 40.5d
 			y: 19.0d
-		}
-		{
-			dependencies: ["6365710991E18101"]
-			id: "5F919409754D0099"
-			tasks: [{
-				id: "19BE89634E1912F4"
-				item: "immersive_aircraft:boiler"
-				type: "item"
-			}]
-			x: 39.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["5F919409754D0099"]
-			id: "3047EBCF13B883E3"
-			tasks: [{
-				id: "0ACCD293BC3A6337"
-				item: "immersive_aircraft:engine"
-				type: "item"
-			}]
-			x: 39.0d
-			y: -1.0d
 		}
 		{
 			dependencies: ["4EEBEF0D4102892B"]
@@ -2487,200 +2486,6 @@
 			]
 			x: 34.5d
 			y: 8.0d
-		}
-		{
-			dependencies: [
-				"3047EBCF13B883E3"
-				"1F52B0C3943F3CC6"
-			]
-			id: "5754F19C525AC43D"
-			tasks: [
-				{
-					id: "374A4417361DA602"
-					item: "immersive_aircraft:quadrocopter"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "1B42C9A2F2C122C0"
-					item: "immersive_aircraft:biplane"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "1AEC0E75F5C91140"
-					item: "immersive_aircraft:airship"
-					optional_task: true
-					type: "item"
-				}
-			]
-			title: "起飞"
-			x: 37.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["5754F19C525AC43D"]
-			id: "43BE2C3D9F6F0716"
-			tasks: [{
-				id: "35F44C8B0BDCB129"
-				item: "immersive_aircraft:cargo_airship"
-				type: "item"
-			}]
-			x: 39.0d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"3047EBCF13B883E3"
-				"43BE2C3D9F6F0716"
-			]
-			description: ["战争巨兽"]
-			id: "7FD7CACE48ED29ED"
-			tasks: [{
-				id: "6E523C1D7CCC5B7F"
-				item: "immersive_aircraft:warship"
-				type: "item"
-			}]
-			x: 40.5d
-			y: -2.5d
-		}
-		{
-			description: [""]
-			id: "1F52B0C3943F3CC6"
-			tasks: [
-				{
-					id: "1F2E5B6F93255D95"
-					item: "immersive_aircraft:hull"
-					type: "item"
-				}
-				{
-					id: "600F21DADB972D72"
-					item: "immersive_aircraft:sail"
-					type: "item"
-				}
-				{
-					id: "47115BCDE010B2B3"
-					item: "immersive_aircraft:propeller"
-					type: "item"
-				}
-			]
-			title: "机身零件"
-			x: 36.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["1F52B0C3943F3CC6"]
-			id: "21CA65061E525566"
-			tasks: [{
-				id: "50920B8C093C55BA"
-				item: "immersive_aircraft:gyrodyne"
-				type: "item"
-			}]
-			title: "Man"
-			x: 34.5d
-			y: -2.5d
-		}
-		{
-			dependencies: [
-				"21CA65061E525566"
-				"5754F19C525AC43D"
-			]
-			id: "2A5762C6F5440D2F"
-			tasks: [
-				{
-					id: "0A0B8BCC0248F0B9"
-					item: "immersive_aircraft:enhanced_propeller"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "05E6D10EDA8F82D8"
-					item: "immersive_aircraft:industrial_gears"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "4707AF343A7E2593"
-					item: "immersive_aircraft:sturdy_pipes"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "675FEA8B68B84C68"
-					item: "immersive_aircraft:gyroscope"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5DCE2FFD76F2A4EE"
-					item: "immersive_aircraft:hull_reinforcement"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "7CCB9F64CAF20DCB"
-					item: "immersive_aircraft:improved_landing_gear"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "102BA688C8CB82E6"
-					item: "immersive_aircraft:eco_engine"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "0800AA79EA25C5A3"
-					item: "immersive_aircraft:nether_engine"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "69B1D7740B093FAA"
-					item: "immersive_aircraft:steel_boiler"
-					optional_task: true
-					type: "item"
-				}
-			]
-			title: "飞机升级"
-			x: 36.0d
-			y: -2.5d
-		}
-		{
-			dependencies: [
-				"21CA65061E525566"
-				"5754F19C525AC43D"
-			]
-			id: "12660F738D4F1CC9"
-			tasks: [
-				{
-					id: "7C8897E6D3926C46"
-					item: "immersive_aircraft:rotary_cannon"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "0D17DD89DBBC9E3C"
-					item: "immersive_aircraft:heavy_crossbow"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "41295D397D32CB41"
-					item: "immersive_aircraft:telescope"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "32D29E81FBBA51E1"
-					item: "immersive_aircraft:bomb_bay"
-					optional_task: true
-					type: "item"
-				}
-			]
-			title: "薯条出锅咯"
-			x: 36.0d
-			y: -4.0d
 		}
 		{
 			dependencies: ["337274C3A2F18DAE"]

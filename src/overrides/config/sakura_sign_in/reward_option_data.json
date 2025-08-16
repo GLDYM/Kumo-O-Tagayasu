@@ -426,6 +426,26 @@
         }
       }
     ],
+    "2": [
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "net_music_list:music_list",
+          "count": 1,
+          "nbt": "{play_mode:0}"
+        }
+      },
+      {
+        "type": "ITEM",
+        "probability": 1,
+        "content": {
+          "item": "net_music_list:music_player",
+          "count": 1,
+          "nbt": "{Item:{}}"
+        }
+      }
+    ],
     "3": [
       {
         "type": "ITEM",
@@ -495,11 +515,10 @@
   "randomRewards": {
     "0.25": [
       {
-        "type": "ITEM",
+        "type": "COMMAND",
         "probability": 1,
         "content": {
-          "item": "artifacts:mimic_spawn_egg",
-          "count": 1
+          "command": "/summon artifacts:minic ~ ~ ~"
         }
       }
     ]

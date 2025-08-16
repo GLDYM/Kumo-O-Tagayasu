@@ -5,14 +5,14 @@
 	group: "31669C96F582CF92"
 	icon: "create:wrench"
 	id: "36388A6AEA2B477F"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"       &b本章节是对于其他章节的挑战任务的补充，用来指出那些最基本的需要量产的资源与那些因为篇幅原因无法列入主线章节的挑战。"
+				"&b本章节是对于其他章节的补充，指引整合包内基本资源的量产。其他的物品大多可如法炮制。"
 				""
-				"       &b与序章的详细路线引导不同，本章节假定你已经有了最基本的机械动力知识并已经拥有了足够的应力、最好已经拥有了无限岩浆源，因此只会指出大致的目标。"
+				"&b本章节假定已有无限岩浆源，只致命大致的流程。"
 			]
 			id: "2D8639FB72C3D3EF"
 			rewards: [{
@@ -33,11 +33,11 @@
 		}
 		{
 			description: [
-				"       相较于传统的路径，本整合包的凝灰岩路径可以一次性产出四种常用矿石，因而更适合用于获取矿石。"
+				"相较于传统的路径，本整合包的凝灰岩路径可以一次性产出四种常用矿石，因而更适合用于获取矿石。"
 				""
-				"       &a一种可能的思路：建造树场用抽屉收集来选择性输出原木。原木经过两次切割变成木板，燃烧木板变成灰烬。建造刷石机获取圆石。灰烬与圆石搅拌获取凝灰岩，粉碎后得到四种矿粒，输入控制存储器后用压缩抽屉收集。"
+				"&a一种可能的思路：建造树场用抽屉收集来选择性输出原木。原木经过两次切割变成木板，燃烧木板变成灰烬。建造刷石机获取圆石。灰烬与圆石搅拌获取凝灰岩，粉碎后得到四种矿粒，输入控制存储器后用压缩抽屉收集。"
 				""
-				"       &b过程中的难点有二，一是如何处理灰烬过分燃烧产生的灰烬砖，二是如何匹配树场、刷石机、搅拌三者之间的效率。"
+				"&b过程中的难点有二，一是如何处理灰烬过分燃烧产生的灰烬砖，二是如何匹配树场、刷石机、搅拌三者之间的效率。"
 			]
 			icon: "minecraft:tuff"
 			id: "4D99382DDE53E4C7"
@@ -74,11 +74,8 @@
 				}
 				{
 					count: 64L
-					id: "3C2DE0B85DD38E76"
-					item: {
-						Count: 64
-						id: "galosphere:silver_block"
-					}
+					id: "14C72276636F7162"
+					item: { Count: 64, id: "caverns_and_chasms:silver_block" }
 					type: "item"
 				}
 			]
@@ -88,11 +85,11 @@
 		}
 		{
 			description: [
-				"       需要大量使用的基本合金之一。"
+				"需要大量使用的基本合金之一。"
 				""
-				"       &a一种可能的思路：建造两台刷石机，一台粉碎后获取砂砾，另一台粉碎后水洗获取燧石与粗铁粒。粗铁粒冶炼获取铁粒，砂砾与燧石加入岩浆后锻压获取安山岩。安山岩与铁粒搅拌获取安山合金。"
+				"&a一种可能的思路：建造两台刷石机，一台粉碎后获取砂砾，另一台粉碎后水洗获取燧石与粗铁粒。粗铁粒冶炼获取铁粒，砂砾与燧石加入岩浆后锻压获取安山岩。安山岩与铁粒搅拌获取安山合金。"
 				""
-				"       &b难点同样在于如何平衡这几者之间的效率。如果接取岩浆有困难，可以试着做几个虚空流体储罐。"
+				"&b难点同样在于如何平衡这几者之间的效率。如果接取岩浆有困难，可以试着做几个虚空流体储罐。"
 			]
 			id: "1EB357E80C1DE3AD"
 			rewards: [{
@@ -114,12 +111,17 @@
 		{
 			dependencies: ["1EB357E80C1DE3AD"]
 			description: [
-				"       随着产线逐渐扩大，手搓传动元件已经不适合了，试着搭建一条基本传动元件的产线吧。"
+				"随着产线逐渐扩大，手搓传动元件已经不适合了，试着搭建一条基本传动元件的产线吧。"
 				""
-				"       &a一种可能的思路：搭建树场与安山合金机。安山合金经过黄铜隧道分二路，一路合成机壳，另一部分切成传动杆再分两路。原木切成去皮原木后经过黄铜隧道分两路，一部分合成机壳，另一部分切成木板后再分三路。一路传动杆与一路木板合成小齿轮，另一路传动杆与两路木板合成大齿轮。"
+				"&a一种可能的思路：搭建树场与安山合金机。安山合金经过黄铜隧道分二路，一路合成机壳，另一部分切成传动杆再分两路。原木切成去皮原木后经过黄铜隧道分两路，一部分合成机壳，另一部分切成木板后再分三路。一路传动杆与一路木板合成小齿轮，另一路传动杆与两路木板合成大齿轮。"
 			]
 			icon: "create:large_cogwheel"
 			id: "6CE900F3B017230E"
+			rewards: [{
+				id: "57381A0BD3C0E98D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			size: 1.5d
 			tasks: [
 				{
@@ -154,32 +156,42 @@
 		{
 			dependencies: ["4D99382DDE53E4C7"]
 			description: [
-				"       更高级机器的机壳。"
+				"更高级的金属锭。"
 				""
-				"       &a一种可能的思路：铜输入锌批量搅拌机器产出黄铜，烈焰人燃烧室使用岩浆或者豆油供能。再利用机械手搭建批量使用机器，从树场输入去皮原木。"
+				"&a一种可能的思路：虚空箱子输出铜锌，搅拌产出黄铜，烈焰人燃烧室使用岩浆或者豆油供能。"
 			]
 			id: "2E085F6E8F36F6C5"
+			rewards: [{
+				id: "6D980F23A027FDDD"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			size: 1.5d
 			tasks: [{
 				count: 128L
-				id: "6B81FD3E866D4058"
-				item: { Count: 128, id: "create:brass_casing" }
+				id: "2789C57EE78A5EBF"
+				item: { Count: 128, id: "create:brass_ingot" }
 				type: "item"
 			}]
-			title: "&6基本：黄铜机壳"
+			title: "&6基本：黄铜"
 			x: -2.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["4D99382DDE53E4C7"]
 			description: [
-				"       单纯为了在机器过多时方便接线。"
+				"单纯为了在机器过多时方便接线。"
 				""
-				"       &a一种可能的思路：搭建黑曜石机，与刷石机类似，但是岩浆的位置换成流体管道喷出岩浆源。末影珍珠与下界合金碎片从生物笼中得到，与凝灰岩产线中获得的金锭合成变为虚空钢锭。"
+				"&a一种可能的思路：搭建黑曜石机，与刷石机类似，但是岩浆的位置换成流体管道喷出岩浆源。末影珍珠与下界合金碎片从生物笼中得到，与凝灰岩产线中获得的金锭合成变为虚空钢锭。"
 				""
-				"       &b你可能需要一个小伙伴帮你收集远古骑士的DNA。"
+				"&b你可能需要一个小伙伴帮你收集远古骑士的DNA。"
 			]
 			id: "6996BB69BB9AB880"
+			rewards: [{
+				id: "01CBCB8C0EB963EA"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			size: 1.5d
 			tasks: [{
 				count: 64L
@@ -190,6 +202,232 @@
 			title: "&6基本：虚空机壳"
 			x: -2.5d
 			y: -2.5d
+		}
+		{
+			description: ["&a显而易见，这些材料都可以通过生物笼量产。"]
+			icon: "minecraft:netherite_scrap"
+			id: "3B335F2F37D87985"
+			rewards: [{
+				id: "18B8D9644BE560BA"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					count: 64L
+					id: "2507A6AD80AF821E"
+					item: { Count: 64, id: "minecraft:phantom_membrane" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "09D06924B1014F6C"
+					item: { Count: 64, id: "minecraft:slime_ball" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "1141FDFE562CD4DE"
+					item: { Count: 64, id: "minecraft:netherite_scrap" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "2C3ABE865FA6CB33"
+					item: { Count: 64, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4A590F61724E6FEE"
+					item: { Count: 64, id: "minecraft:prismarine_crystals" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "3A563817BB90C738"
+					item: { Count: 64, id: "minecraft:ender_pearl" }
+					type: "item"
+				}
+			]
+			title: "&6基础：生物材料 I"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CE900F3B017230E"]
+			description: [
+				"构建动力臂与转速控制器等器械的重要组件。"
+				""
+				"&a一种可能的思路：虚空箱子输出金锭、铁粒、大小齿轮，循环装配。"
+			]
+			id: "2C03FCA2B16B8B1C"
+			size: 1.5d
+			tasks: [{
+				count: 64L
+				id: "380F775DA3A63749"
+				item: { Count: 64, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			title: "&6基本：精密构件"
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3B335F2F37D87985"]
+			description: ["&a同样可以通过生物笼量产，不过这些 DNA 相对更难取得。"]
+			icon: "minecraft:nether_star"
+			id: "619FE19299AC0E38"
+			size: 1.5d
+			tasks: [
+				{
+					count: 64L
+					id: "7B89354AE77D0932"
+					item: { Count: 64, id: "minecraft:nether_star" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "12900E3638F1E388"
+					item: { Count: 64, id: "cagedmobs:warden_receptor" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "0A27751C95B28E50"
+					item: { Count: 64, id: "l2complements:totemic_gold_ingot" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "7329FDAA29E04E68"
+					item: { Count: 64, id: "l2complements:poseidite_ingot" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7418AF80FEF68ABD"
+					item: { Count: 16, id: "minecraft:dragon_head" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4FFCED9374982F74"
+					item: { Count: 64, id: "minecraft:shulker_shell" }
+					type: "item"
+				}
+			]
+			title: "&6基础：生物材料 II"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2E085F6E8F36F6C5"]
+			description: ["&a一种可能的思路：幽匿脉络与幽匿块可用紫水晶钻头收集。强化骨片可用机械手处死监守者，或通过永恒音爆枪获取共振之羽。"]
+			id: "3839C2F3EEA2FC3D"
+			rewards: [{
+				id: "340FB12C07773EE0"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			size: 1.5d
+			tasks: [{
+				count: 64L
+				id: "7FAC1AFCF1337098"
+				item: { Count: 64, id: "l2complements:sculkium_ingot" }
+				type: "item"
+			}]
+			title: "&6进阶：幽匿锭"
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			description: ["&a没啥好说的，力大砖飞就行。"]
+			id: "78157942C5F485D9"
+			rewards: [{
+				id: "0198C3D2F830A60D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				count: 256L
+				id: "553DF251EFE46D8C"
+				item: { Count: 64, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			title: "&6基础：钻石"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3B335F2F37D87985"]
+			description: ["&a一种可能的思路：蠹虫经验机提供经验以复制附魔书，皮革和末影珍珠通过笼子产出，破灭残片用 TNT 复制。"]
+			id: "629C486E4653B112"
+			rewards: [{
+				id: "57F3BD919F339A18"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			size: 1.5d
+			tasks: [{
+				count: 64L
+				id: "4CC12FE413CBB101"
+				item: { Count: 64, id: "l2complements:eternium_ingot" }
+				type: "item"
+			}]
+			title: "&6进阶：永恒锭"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			description: ["&a一种可能的思路：粉碎笼子产出的海晶砂粒，或者水洗灵魂沙。"]
+			id: "5D1473E56B6358EE"
+			rewards: [{
+				id: "3FA58A42127E7ED4"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				count: 256L
+				id: "5BA358B2ECC53687"
+				item: { Count: 256, id: "minecraft:quartz" }
+				type: "item"
+			}]
+			title: "&6基本：下界石英"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D1473E56B6358EE"]
+			description: ["&a一种可能的思路：沙子和纸合成砂纸，石英合成晶体后用砂纸磨制，与对应的金属板合成。"]
+			icon: "create:electron_tube"
+			id: "7D94DEBC573F4223"
+			rewards: [{
+				id: "3CEF0B6435D88C39"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					count: 64L
+					id: "21668772541856B8"
+					item: { Count: 64, id: "create:electron_tube" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "583B80C17F8D5A16"
+					item: { Count: 64, id: "createutilities:graviton_tube" }
+					type: "item"
+				}
+			]
+			title: "&6基础：电子管和真空管"
+			x: 5.0d
+			y: 2.5d
 		}
 	]
 	title: "&5资深工程师"

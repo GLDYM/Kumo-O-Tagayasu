@@ -40,7 +40,7 @@
   "resultItems": "vinery:white_grape"
   },
   {
-  "matchItems": ["farm_and_charm:dough", "create:dough", "bakeries:whole_wheat_dough"],
+  "matchItems": ["farm_and_charm:dough", "create:dough"],
   "resultItems": "farmersdelight:wheat_dough"
   },
   {
@@ -56,8 +56,8 @@
   "resultItems": "tofucraft:seeds_soybeans"
   },
   {
-  "matchItems": ["tofucraft:tofumomen"],
-  "resultItems": "youkaishomecoming:tofu"
+  "matchItems": ["youkaishomecoming:tofu"],
+  "resultItems": "tofucraft:tofumomen"
   },
   {
   "matchItems": ["youkaishomecoming:ice_cube"],
@@ -130,5 +130,21 @@
   {
   "matchItems": ["vintagedelight:oat_bale"],
   "resultItems": "farm_and_charm:oat_ball"
+  },
+  {
+  "matchItems": ["bakeries:ground_coffee"],
+  "resultItems": "youkaishomecoming:coffee_powder"
+  },
+  {
+  "matchItems": ["bakeries:olive"],
+  "resultItems": "natures_spirit:olives"
+  },
+  {
+  "matchItems": ["trailandtales_delight:cheese_wheel", "casualness_delight:cheese_wheel", "meadow:cheese_block"],
+  "resultItems": "vintagedelight:cheese_wheel"
+  },
+  {
+  "matchItems": ["trailandtales_delight:cheese_slice", "casualness_delight:cheese_wheel_slice", "meadow:piece_of_cheese", "bakeries:fresh_cheese_cube"],
+  "resultItems": "vintagedelight:cheese_slice"
   }
 ]

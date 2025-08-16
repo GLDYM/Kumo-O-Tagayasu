@@ -12,7 +12,9 @@
 			description: [
 				"&b感谢您下载并游玩钓月织梦5！&b用佛系的心，以及爱与魔法，创作每一个作品！"
 				""
-				"&b整合包的任务并不强制要求完成，更对起到对模组的介绍与引导作用。你可以选择跳过某些章节，或者只做各章节的挑战任务，或者完全不做任务。&2但是这个章节的任务请务必仔细看完。"
+				"&b整合包的任务不分先后，主要是引导模组流程，建议并行游玩。"
+				""
+				"&2这个章节的任务请务必仔细看完。"
 			]
 			icon: "chimes:amethyst_chimes"
 			id: "0B601BCA41EB2F50"
@@ -51,7 +53,7 @@
 			description: [
 				"通过这四个方块，可以到达虚空维度或者采矿维度，可以在其中建造机器或者进行采矿，而不用担心破坏主世界的地形。"
 				""
-				"&b建议将机器全部建造在虚空维度或采矿维度，这样可以防止游玩时因大量渲染机器造成的意外卡顿。"
+				"&e[WARN] &b建议将机器全部建造在虚空维度或采矿维度，这样可以防止游玩时因大量渲染机器造成的意外卡顿。"
 			]
 			id: "3F9AEF0173E0E139"
 			rewards: [{
@@ -83,7 +85,7 @@
 				}
 			]
 			title: "虚空与采矿"
-			x: 4.5d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -138,7 +140,7 @@
 				""
 				"       但是，如果&2\"玩家A\"&r和&2\"玩家B\"&r都在\"队伍1\"内，当&6\"玩家C\"&r与&2\"队伍1\"&r中的任何玩家结盟时，那么&2\"队伍1\"&r内的&2所有玩家&r都可以操作&6\"玩家C\"&r认领的区块。"
 				""
-				"       因此，&l&b推荐每一位玩家都建立一个队伍&r，可以避免在与其它队伍结盟时出现给其它队伍内的与自己不认识的玩家授权的情况。"
+				"       &aTL;DR: &l&b推荐每一位玩家都建立一个队伍&r，可以避免在与其它队伍结盟时出现给其它队伍内的与自己不认识的玩家授权的情况。"
 			]
 			icon: "createdeco:decal_creeper"
 			id: "27694D4475BD7343"
@@ -154,8 +156,8 @@
 				type: "checkmark"
 			}]
 			title: "关于领地系统"
-			x: -4.5d
-			y: 0.0d
+			x: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["0B601BCA41EB2F50"]
@@ -178,8 +180,8 @@
 				type: "checkmark"
 			}]
 			title: "关于键位"
-			x: 0.0d
-			y: 4.5d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0B601BCA41EB2F50"]
@@ -190,11 +192,19 @@
 			]
 			icon: "createdeco:decal_electrical"
 			id: "3CF891C9B8918248"
-			rewards: [{
-				id: "264EF97E1B535000"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "264EF97E1B535000"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "4FBC94D4CBF942D8"
+					item: "netmusic:music_cd"
+					type: "item"
+				}
+			]
 			size: 3.0d
 			tasks: [{
 				id: "6E4363EF82988D8A"
@@ -202,8 +212,60 @@
 				type: "checkmark"
 			}]
 			title: "关于语音\\&点歌"
-			x: 0.0d
-			y: -4.5d
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0B601BCA41EB2F50"]
+			description: [
+				"整合包使用开源的 Maple mono 字体，这个字体是中英文2:1等宽字体，此外还支持连字。如果你想使用其他的字体，可以去 Modern UI 的配置界面修改。"
+				""
+				"连字：!= !== \\\\ <= ## -> ~> ~@ |> "
+				""
+				"双箭头：|=>==<==>=|======|===|===>"
+				""
+				"箭头：<---|--|--------|-<->--<-|"
+				""
+				"[]：[INFO][WARN][ERROR][TODO]"
+			]
+			icon: "minecraft:birch_hanging_sign"
+			id: "169D11082217C28C"
+			rewards: [
+				{
+					id: "6C53E11F3FF6BA70"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "216CBD2DCD9B2ECA"
+					item: "minecraft:birch_sign"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				id: "25377FDFDB16EAA8"
+				title: "&4你真的读完了吗？"
+				type: "checkmark"
+			}]
+			title: "关于字体"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B601BCA41EB2F50"]
+			icon: "minecraft:cherry_leaves"
+			id: "11F285DA4FAB8F4D"
+			size: 3.0d
+			tasks: [{
+				id: "7E31582EFABB0658"
+				title: "&4你真的读完了吗？"
+				type: "checkmark"
+			}]
+			title: "关于签到系统"
+			x: -5.0d
+			y: 0.0d
 		}
 	]
 	title: "&b钓月耕云禅师"

@@ -26,16 +26,17 @@
 		{
 			dependencies: ["0E554BF316EB9E7B"]
 			description: ["黄豆是幻想乡最基本的材料，可以用来制作很多物品。野生黄豆可以在沼泽找到，摘下豆荚都切开就是黄豆了。"]
+			hide_until_deps_complete: true
 			id: "4F95CEB38DA8E48E"
 			rewards: [{
 				count: 4
 				id: "5B678E1C6657773F"
-				item: "youkaishomecoming:soybean"
+				item: "tofucraft:seeds_soybeans"
 				type: "item"
 			}]
 			tasks: [{
 				id: "3E0BF550D0E6F5F5"
-				item: "youkaishomecoming:soybean"
+				item: "tofucraft:seeds_soybeans"
 				type: "item"
 			}]
 			title: "黄豆"
@@ -45,7 +46,14 @@
 		{
 			dependencies: ["0E554BF316EB9E7B"]
 			description: ["在野外经常会有野生妖怪的家，里面住着一只露米娅。在妖怪的家里可以找到这种来源不明的肉。吃下这些肉似乎会发生奇怪的变化？"]
+			hide_until_deps_complete: true
 			id: "66ED77F022B4CB4F"
+			rewards: [{
+				count: 16
+				id: "64831DC239EF8F47"
+				item: "youkaishomecoming:flesh"
+				type: "item"
+			}]
 			tasks: [{
 				id: "21A4438324C11AED"
 				item: "youkaishomecoming:flesh"
@@ -616,6 +624,38 @@
 			x: 4.5d
 			y: 4.5d
 		}
+		{
+			dependencies: ["66ED77F022B4CB4F"]
+			description: ["半妖怪化或妖怪化状态下和琪露诺交易可以获得，比较廉价的飞行方式。"]
+			id: "24F89412A0CB51C9"
+			rewards: [{
+				count: 64
+				id: "2B1F99AED8CCB191"
+				item: "youkaishomecoming:light_blue_bubble_danmaku"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "42B028FBF06FCE46"
+					item: {
+						Count: 1
+						id: "youkaishomecoming:cirno_hairband"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0722C776714050A3"
+					item: "youkaishomecoming:cirno_wings"
+					type: "item"
+				}
+			]
+			title: "变身，变成baka！"
+			x: 0.0d
+			y: -1.5d
+		}
 	]
-	title: "&e幻想乡妖怪"
+	title: "&a幻想乡妖怪"
 }

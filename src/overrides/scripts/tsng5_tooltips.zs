@@ -23,8 +23,6 @@
 <item:quark:seed_pouch>.addTooltip("§e手持种子袋[右击耕地]可将种子种在耕地上,[潜行右击]耕地可一次性将种子种植在3*3的耕地上;");
 <item:quark:seed_pouch>.addTooltip("当种子袋在[主手]或[副手]时,从地上捡取的任何和种子袋内种类相同的种子都将自动进入种子袋。");
 <item:quark:gravisand>.addTooltip("§a收到红石信号时会变成重力方块,当重力沙子落下过程中被其它方块阻挡,会变成不受重力影响的状态。");
-<item:bakery:cake_dough>.addTooltip("§a【如何使用蛋糕面团制作糕点】");
-<item:bakery:cake_dough>.addTooltip("§a首先需要手持蛋糕面团并放置到烘焙站上，然后操作如下↓");
 <item:biomemakeover:altar>.addTooltip("§a随机为已附魔物品中的某个词条突破一级,但物品会被附加诅咒。");
 <item:quark:ancient_tome>.addTooltip("§a可直接提升附魔书的附魔等级,也可直接为物品上的附魔升级。");
 <item:quark:ancient_tome>.addTooltip("§a但物品会被附加随机的诅咒。");
@@ -37,12 +35,6 @@
 <item:supplementaries:cog_block>.addTooltip("§a能够提供紧凑的垂直红石信号。");
 <item:quark:trowel>.addTooltip("§a能够随机放置物品栏内的方块。");
 <item:minecraft:torch>.addTooltip("§a手持时攻击生物会短暂让其着火。");
-
-<item:bakery:cake_dough>.addTooltip("§a制作蛋糕：手持酱料右键");
-<item:bakery:cake_dough>.addTooltip("§a制作纸杯蛋糕：手持面包刀右键→手持酱料右键");
-<item:bakery:cake_dough>.addTooltip("§a制作釉面曲奇：手持面包刀右键→手持擀面杖右键→手持酱料右键");
-<item:bakery:bread_knife>.addTooltip("§a可在烘培站上制作糕点时使用它。");
-<item:bakery:rolling_pin>.addTooltip("§a可在烘培站上制作糕点时使用它。");
 <item:l2complements:eternium_hoe>.addTooltip("§a使用锄头左键可以打掉一大片草。小心作物！");
 <item:tofucraft:bottle_soyoil>.addTooltip("§a核动力大豆油，神秘的异星科技。");
 # 黄色字为作者的个人吐槽
@@ -104,8 +96,7 @@
 <item:vintagedelight:cucumber_salad>.addTooltip("§e你的减脂餐中可能会出现它。");
 <item:candlelight:salad>.addTooltip("§e你的减脂餐中可能会出现它。");
 <item:candlelight:beetroot_salad>.addTooltip("§e又甜又脆!就像是甜萝卜一样!");
-<item:bakery:baguette>.addTooltip("§e隔夜的法式长棍面包可以当穿甲弹用了。");
-<item:bakery:waffle>.addTooltip("§e是哪个松饼脑袋让他得到木头的?");
+<item:bakeries:baguette>.addTooltip("§e隔夜的法式长棍面包可以当穿甲弹用了。");
 <item:seasonals:mixed_berry_muffin>.addTooltip("§e是哪个松饼脑袋让他得到木头的?");
 <item:seasonals:chocolate_pumpkin_muffin>.addTooltip("§e是哪个松饼脑袋让他得到木头的?");
 <item:casualness_delight:green_tongue>.addTooltip("§e五毛一根,Q弹的苹果风味冰棍!");
@@ -118,10 +109,10 @@
 <item:crockpot:moqueca>.addTooltip("§e量大管饱。");
 <item:crockpot:meat_balls>.addTooltip("§e你就不能做点别的菜吗？");
 <item:crockpot:gnaws_coin>.addTooltip("§e美食初心者的证明。");
-<item:artifacts:everlasting_beef>.addTooltip("§e我不是很懂为什么你非要天天吃这个。")
-<item:artifacts:everlasting_beef>.addTooltip("§e你大概是从不种田的冒险玩家吧。")
-<item:artifacts:eternal_steak>.addTooltip("§e我不是很懂为什么你非要天天吃这个。")
-<item:artifacts:eternal_steak>.addTooltip("§e你大概是从不种田的冒险玩家吧。")
+<item:artifacts:everlasting_beef>.addTooltip("§e我不是很懂为什么你非要天天吃这个。");
+<item:artifacts:everlasting_beef>.addTooltip("§e你大概是从不种田的冒险玩家吧。");
+<item:artifacts:eternal_steak>.addTooltip("§e我不是很懂为什么你非要天天吃这个。");
+<item:artifacts:eternal_steak>.addTooltip("§e你大概是从不种田的冒险玩家吧。");
 # 为标签添加的物品吐槽
 <tag:items:forge:pasta>.asIIngredient().addTooltip("§7面条这个碳水,谁拼命吃都得胖。");
 <tag:items:forge:chocolate>.asIIngredient().addTooltip("§7食之甘甜滑润,入口回味无穷。");
