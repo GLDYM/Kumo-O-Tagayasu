@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "sakura:stripped_maple_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "sakura:plank_maple"
+  }
+}

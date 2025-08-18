@@ -1,10 +1,55 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "1.0.0",
-  "name": "TSNG Common",
+  "versionId": "5.3.0",
+  "name": "Kumo O Tagayasu Common PArt",
   "summary": "",
   "files": [
+    {
+      "path": "mods/cosmos-library-1.20.1-10.6.0.0-universal.jar",
+      "hashes": {
+        "sha512": "94b3a990b85df52318eca9bd7e6e6e4a6f851235dde88170a3d11222a1773321430919692b7776409614c785b5298545abd214f8fd83cc4863cb3e1215dd7275",
+        "sha1": "5f848371760272deee0d514e9b4d04269e05aa60"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/aDO1mrjk/versions/F3fTjJPL/cosmos-library-1.20.1-10.6.0.0-universal.jar"
+      ],
+      "fileSize": 1610301
+    },
+    {
+      "path": "mods/cosmosportals-1.20.1-7.5.0.0-universal.jar",
+      "hashes": {
+        "sha512": "e4a5f231515399660149e5dc8bfba2ccb89afa573d5da23ca79e3c4aff26912fab1918530341f518531838025f2738ad05cb7654137176a1eebabf756d8fb4f7",
+        "sha1": "d7b510bf4f8adf20585a01196fe05e6fc4d0109c"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/yUzONaQ5/versions/Db6EKT3b/cosmosportals-1.20.1-7.5.0.0-universal.jar"
+      ],
+      "fileSize": 1018706
+    },
+    {
+      "path": "mods/Sakura-1.1.12-1.20.1.jar",
+      "hashes": {
+        "sha512": "c75a54eb84fdb9ca856fe0c6d8dfaec14d9a4b962e13790a57f3e4dacfd396d6355813cdf35343ed9f1468b1d7b4afb48df4b9364508c7179937fba60a9f9876",
+        "sha1": "b23c60ad296e5864c03fbf0999a544067b1be5a2"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/U5QgI9Bi/versions/oREKAMEz/Sakura-1.1.12-1.20.1.jar"
+      ],
+      "fileSize": 2842802
+    },
     {
       "path": "mods/dimensionviewer-1.20-1.4.0.jar",
       "hashes": {

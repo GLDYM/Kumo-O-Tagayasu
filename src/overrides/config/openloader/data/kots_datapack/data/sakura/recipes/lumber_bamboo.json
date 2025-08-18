@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "forge:bamboo"
+    }
+  ],
+  "result": {
+    "item": "sakura:plank_bamboo"
+  }
+}

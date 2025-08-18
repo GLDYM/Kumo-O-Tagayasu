@@ -13,7 +13,7 @@ earlyWindowWidth = 1280
 #Early window starts maximized
 earlyWindowMaximized = false
 #Default config path for servers
-defaultConfigPath = "tsngconfigs"
+defaultConfigPath = "kotsconfigs"
 #Disables Optimized DFU client-side - already disabled on servers
 disableOptimizedDFU = true
 #Skip specific GL versions, may help with buggy graphics card drivers

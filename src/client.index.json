@@ -1,10 +1,25 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "1.0.0",
-  "name": "TSNG Client",
+  "versionId": "5.3.0",
+  "name": "Kumo O Tagayasu Client PArt",
   "summary": "",
   "files": [
+    {
+      "path": "mods/2GPUTape-1.18x-1.21x-1.0.5.1.jar",
+      "hashes": {
+        "sha512": "4bcfccf92a9b2e5842864b23caef9805da8a849928a711029ba9df0364cf50f66cf0f58bacca5316a0b7b1d10cb62569aca7e6d9f894c3a42100dc6d9a80cca7",
+        "sha1": "db4a84db628dd668e08898e42e881615d34f0629"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/5CTSrY8X/versions/mMc55fB1/2GPUTape-1.18x-1.21x-1.0.5.1.jar"
+      ],
+      "fileSize": 20295
+    },
     {
       "path": "mods/2Controlling-forge-1.20.1-12.0.2.jar",
       "hashes": {

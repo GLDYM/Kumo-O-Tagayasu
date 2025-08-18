@@ -4,10 +4,10 @@
     <img src="./icon.png" alt="icon" style="zoom:200%;">
 </a>
 
-# Tsuri No Gatsu 5 - FDCraft Version
+# Kumo O Tagayasu
 
 <a href="./LICENSE">
-    <img src="https://img.shields.io/github/license/FDCraft/TsuriNoGatsu5" alt="license">
+    <img src="https://img.shields.io/github/license/GLDYM/Kumo-O-Tagayasu" alt="license">
 </a>
 
 <a href="./LICENSE2">
@@ -26,7 +26,7 @@
 
 ## 简介
 
-继承于月见清兰的同名整合包，Tsuri No Gatsu 5 - FDCraft Version 是一个注重田园体验的综合整合包，旨在给予玩家一个休闲惬意的游戏体验。
+继承于 Tsuri No Gatsu，Kumo O Tagayasu 是一个注重田园体验的综合整合包，旨在给予玩家一个休闲惬意的游戏体验。
 
 原整合包地址：[https://www.mcmod.cn/modpack/626.html](https://www.mcmod.cn/modpack/626.html)
 
@@ -36,7 +36,7 @@
 
 要获得客户端，下载 Release 中的 `mrpack` 文件后拖入启动器中安装。
 
-要获得服务端，请从参考 [TSNG 服务端搭建指南](./Server.md)。
+要获得服务端，请从参考 [服务端搭建指南](./Server.md)。
 
 ## 修改方向
 
@@ -49,34 +49,34 @@
 
 本项目下有两个分项目：
 
-- Tsuri No Gatsu 5 - FDCraft Fork 整合包
-- Mandalas GUI - Dark Mode TSNG Compat：适配 Tsuri No Gatsu 5 整合包的 Mandalas GUI - Dark Mode 资源包拓展
+- Kumo O Tagayasu 整合包
+- Mandalas GUI - Dark Mode KOTS Compat：适配 Tsuri No Gatsu 与 Kumo O Tagayasu 整合包的 Mandalas GUI - Dark Mode 资源包拓展
 
 如果想要对本项目进行修改/PR，可以 Fork 本项目后 Clone 到本地进行修改。
 
->  需要注意，原整合包中有大量配方的修改使用数据包驱动而非常规的 CrT/KubeJS 驱动，这些配方位于 `src/overrides/config/openloader/data/tsng5_datapack/data`中。
+>  该整合包使用数据包驱动修改，这些配方位于 `src/overrides/config/openloader/data/kots_datapack/data`中。
 
 本整合包接受如下 PR：
 
 - 对于模组的增删修改，并说明如此修改的理由；
 - 对于整合包配方与tag的修改，并说明修改的理由；
 - 对于整合包配置文件的修改，并说明修改的理由；
-- 对整合包内置资源包与 Mandalas GUI - Dark Mode TSNG Compat 的补充。
+- 对整合包内置资源包与 Mandalas GUI - Dark Mode KOTS Compat 的补充。
 
 ## 关于任务
 
 本整合包的任务为社团内部分发，不对外公布。如果想为整合包制作任务，请 Fork 本项目制作，并注明任务是面向新手还是专家向。
 
-- 面向新手：模组的介绍或全流程引导。[这是](https://github.com/FDCraft/TsuriNoGatsu5/tree/master/quests-example/chapters/crockpot-beginner.snbt)一个针对烹饪锅模组的示例。
-- 专家向：各类量产挑战。[这是](https://github.com/FDCraft/TsuriNoGatsu5/tree/master/quests-example/chapters/crockpot-expert.snbt)一个烹饪锅模组的示例。
+- 面向新手：模组的介绍或全流程引导。[这是](https://github.com/GLDYM/Kumo-O-Tagayasu/tree/master/quests-example/chapters/crockpot-beginner.snbt)一个针对烹饪锅模组的示例。
+- 专家向：各类量产挑战。[这是](https://github.com/GLDYM/Kumo-O-Tagayasu/tree/master/quests-example/chapters/crockpot-expert.snbt)一个烹饪锅模组的示例。
 
 ## 协议
 
-本项目中 Tsuri No Gatsu 5 - FDCraft Fork 整合包使用 AGPL-v3 协议，Mandalas GUI - Dark Mode TSNG Compat 资源包使用 CC-BY-NC-SA 4.0 协议。如果你想要使用本项目去实现一些特殊需求，则你需要接受许可。
+使用 AGPL-v3 协议，Mandalas GUI - Dark Mode KOTS Compat 资源包使用 CC-BY-NC-SA 4.0 协议。如果你想要使用本项目去实现一些特殊需求，则你需要接受许可。
 
 以下为一些情况的具体说明：
 
-你被允许做的，但需要保留作者、原作信息与本项目地址（月见清兰 & 复旦大学基岩社，Tsuri No Gatsu 5）：
+你被允许做的，但需要保留作者、原作信息与本项目地址（月见清兰 & 北辰星光，Tsuri No Gatsu 5，Kumo O Tagayasu）：
 
 - 在不修改整合包或资源包自身的情况下，使用本整合包进行视频制作等多媒体创作并获利。
 - 在不修改整合包或资源包自身的情况下，将整合包或资源包进行转载、存储、供其他玩家下载或开设公益服务器。

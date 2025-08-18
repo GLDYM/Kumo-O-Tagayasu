@@ -1,0 +1,337 @@
+{
+	"cosmosportals.advancements.root.title": "宇宙传送门！",
+	"cosmosportals.advancements.root.desc": "宇宙传送门！",
+	"cosmosportals.advancements.container.title": "记录维度",
+	"cosmosportals.advancements.container.desc": "获得一个维度记录器",
+	"cosmosportals.advancements.dock.title": "掌控命运",
+	"cosmosportals.advancements.dock.desc": "获得一个传送门坞",
+	"cosmosportals.advancements.frame.title": "框选维度",
+	"cosmosportals.advancements.frame.desc": "获得一些传送门框架",
+	"cosmosportals.advancements.ingots.title": "联系宇宙",
+	"cosmosportals.advancements.ingots.desc": "制作一些宇宙锭",
+	"cosmosportals.advancements.material.title": "宇宙材料",
+	"cosmosportals.advancements.material.desc": "采掘一些宇宙矿",
+	"cosmosportals.advancements.use_container.title": "星际穿越",
+	"cosmosportals.advancements.use_container.desc": "将一个已连接的维度记录器放入传送门坞中",
+	
+	"itemGroup.cosmosportals": "宇宙传送门",
+	
+	"item.cosmosportals.item_dimension_container": "已连接的维度记录器",
+	"item.cosmosportals.item_dimension_container_unlinked": "维度记录器",
+	"item.cosmosportals.item_cosmic_material": "宇宙材料",
+	"item.cosmosportals.item_cosmic_ingot": "宇宙锭",
+	"item.cosmosportals.item_cosmic_pearl": "宇宙珍珠",
+	"item.cosmosportals.item_cosmic_gem": "宇宙宝石",
+	
+	"item.cosmosportals.item_cosmic_guide": "宇宙指南",
+	
+	"item.cosmosportals.item_cosmic_wrench": "宇宙扳手",
+	
+	"block.cosmosportals.block_portal": "维度传送门",
+	"block.cosmosportals.block_portal_frame": "传送门框架",
+	"block.cosmosportals.block_portal_dock": "传送门坞",
+	"block.cosmosportals.block_portal_dock_upgraded": "高级传送门坞",
+	
+	"block.cosmosportals.block_cosmic_ore": "宇宙矿",
+	"block.cosmosportals.block_deepslate_cosmic_ore": "深层宇宙矿",
+	"block.cosmosportals.block_cosmic": "宇宙块",
+	
+	"block.cosmosportals.block_container_workbench": "宇宙扳手",
+	
+	"block.cosmosportals.block_dock_controller": "传送门坞控制器",
+
+	"cosmosportals.modid": "宇宙传送门",
+	
+	"cosmosportals.gui.config.name": "传送门配置",
+	
+	"cosmosportals.gui.config.general_title": "通用",
+	"cosmosportals.gui.config.messages_title": "控制台消息",
+	"cosmosportals.gui.config.visual_title": "可见",
+	"cosmosportals.gui.config.missing": "缺少描述。",
+	
+	"cosmosportals.gui.config.size": "最大传送门大小",
+	"cosmosportals.gui.config.size_slide": "最大传送门大小：",
+	"cosmosportals.gui.config.size_info": "允许你修改传送门的最大大小",
+	"cosmosportals.gui.config.size_info_two": "警告：大传送门将会引起卡顿。",
+	"cosmosportals.gui.config.size_info_three": "范围在2到9之间", 
+	
+	"cosmosportals.gui.config.sound.travel": "传送门声音",
+	"cosmosportals.gui.config.sound.travel_info": "是否在传送门传送时播放声音",
+	
+	"cosmosportals.gui.config.sound.ambient": "传送门环境音",
+	"cosmosportals.gui.config.sound.ambient_info": "是否播放传送门环境音",
+	
+	"cosmosportals.gui.config.message.info": "打印信息",
+	"cosmosportals.gui.config.message.info_desc": "是否打印[INFO]信息到日志",
+	
+	"cosmosportals.gui.config.message.debug": "打印调试信息",
+	"cosmosportals.gui.config.message.debug_desc": "是否打印[DEBUG]调试信息到日志",
+	
+	"cosmosportals.gui.config.frame_textures": "传送门框架连接材质",
+	"cosmosportals.gui.config.frame_textures_info": "是否启用传送门框架的连接材质",
+	
+	"cosmosportals.gui.config.portal_textures": "传送门连接材质",
+	"cosmosportals.gui.config.portal_textures_info": "是否启用传送门方块的连接材质",
+	
+	"cosmosportals.gui.config.labels": "传送门标签",
+	"cosmosportals.gui.config.labels_info": "是否渲染传送门标签",
+	
+	"cosmosportals.gui.config.particles": "传送门粒子",
+	"cosmosportals.gui.config.particles_info": "是否渲染传送门粒子",
+	
+	"cosmosportals.gui.config.label_distance": "标签最大长度",
+	"cosmosportals.gui.config.label_distance_info": "决定传送门标签的最大长度",
+	"cosmosportals.gui.config.label_distance_slide": "最大标签长度:",
+	
+	"cosmosportals.gui.config.message.restart": "你需要重启服务器以应用修改。",
+	
+	"cosmosportals.gui.done": "完成",
+	
+	"cosmosportals.gui.dock": "传送门坞",
+	
+	"cosmosportals.gui.dock_upgraded": "高级传送门坞",
+	
+	"cosmosportals.gui.workbench": "传送门工作台",
+	
+	"cosmosportals.gui.dock.label_info": "显示或隐藏传送门维度标签",
+	"cosmosportals.gui.dock.label_value": "标签：",
+	"cosmosportals.gui.dock.label_shown": "显示",
+	"cosmosportals.gui.dock.label_hidden": "隐藏",
+	
+	"cosmosportals.gui.dock.sounds_info": "播放或静音传送门声音",
+	"cosmosportals.gui.dock.sounds_value": "声音：",
+	"cosmosportals.gui.dock.sounds_played": "播放",
+	"cosmosportals.gui.dock.sounds_muffled": "静音",
+	
+	"cosmosportals.gui.dock.entity_info": "切换实体过滤器",
+	"cosmosportals.gui.dock.entity_value": "允许通过的实体:",
+	
+	"cosmosportals.gui.dock.particle_info": "显示或隐藏粒子效果",
+	"cosmosportals.gui.dock.particle_value": "粒子效果:",
+	"cosmosportals.gui.dock.particle_shown": "显示",
+	"cosmosportals.gui.dock.particle_hidden": "隐藏",
+	
+	"cosmosportals.gui.dock.settings_title" :"传送门坞设置:",
+	"cosmosportals.gui.dock.settings": "打开设置界面",
+	
+	"cosmosportals.gui.dock.cycle_up": "上一个记录器",
+	"cosmosportals.gui.dock.cycle_up_value": "",
+	
+	"cosmosportals.gui.dock.cycle_down": "下一个记录器",
+	"cosmosportals.gui.dock.cycle_down_value": "",
+	
+	"cosmosportals.gui.button.text.clear": "清除文字",
+	"cosmosportals.gui.button.text.set": "设置显示名称",
+	"cosmosportals.gui.button.text.reset": "重置显示名称",
+	
+	"cosmosportals.ui.help.container": "维度记录器指示器",
+	"cosmosportals.ui.help.container_one": "如果一个传送门装有维度记录器，",
+	"cosmosportals.ui.help.container_two": "这个指示器就会显示。",
+	
+	"cosmosportals.ui.help.container_item": "维度记录器",
+	"cosmosportals.ui.help.container_item_one": "传送门坞中装载的维度记录器。",
+	"cosmosportals.ui.help.container_item_two": "",
+	
+	"cosmosportals.ui.help.container_items": "维度记录器",
+	"cosmosportals.ui.help.container_items_one": "传送门中装载的维度记录器。",
+	"cosmosportals.ui.help.container_items_two": "",
+	
+	"cosmosportals.ui.help.button_label": "传送门标签切换",
+	"cosmosportals.ui.help.button_label_one": "控制传送门标签的显示。",
+	"cosmosportals.ui.help.button_label_two": "",
+	
+	"cosmosportals.ui.help.button_sounds": "传送门声音切换",
+	"cosmosportals.ui.help.button_sounds_one": "控制传送门声音的播放。",
+	"cosmosportals.ui.help.button_sounds_two": "",
+	
+	"cosmosportals.ui.help.button_entity": "实体过滤器切换",
+	"cosmosportals.ui.help.button_entity_one": "控制生物过滤器，",
+	"cosmosportals.ui.help.button_entity_two": "决定什么生物能穿过传送门。",
+	"cosmosportals.ui.help.button_entity_three": "",
+	
+	"cosmosportals.ui.help.button_effects": "粒子效果切换",
+	"cosmosportals.ui.help.button_effects_one": "控制传送门粒子效果的显示。",
+	"cosmosportals.ui.help.button_effects_two": "",
+	
+	"cosmosportals.ui.help.button_settings": "设置按钮",
+	"cosmosportals.ui.help.button_settings_one": "控制传送门坞设置的显示",
+	"cosmosportals.ui.help.button_settings_two": "",
+	
+	"cosmosportals.ui.help.label": "传送门标签",
+	"cosmosportals.ui.help.label_one": "显示这个传送门连接的维度，",
+	"cosmosportals.ui.help.label_two": "或自定义的标签。",
+	"cosmosportals.ui.help.label_three": "",
+	
+	"cosmosportals.ui.help.name": "传送门标签名称",
+	"cosmosportals.ui.help.name_one": "在输入框中输入文字",
+	"cosmosportals.ui.help.name_two": "这个名字会替代维度名显示。",
+	"cosmosportals.ui.help.name_three": "",
+	
+	"cosmosportals.ui.help.clear": "清空输入框",
+	"cosmosportals.ui.help.clear_one": "清空输入框。",
+	"cosmosportals.ui.help.clear_two": "",
+	
+	"cosmosportals.ui.help.apply": "设置传送门名称",
+	"cosmosportals.ui.help.apply_one": "设置传送门标签的内容，",
+	"cosmosportals.ui.help.apply_two": "如果输入框为空则重置为维度名。",
+	"cosmosportals.ui.help.apply_three": "",
+	
+	"cosmosportals.ui.help.colour": "传送门颜色",
+	"cosmosportals.ui.help.colour_one": "切换传送门的颜色。",
+	"cosmosportals.ui.help.colour_two": "",
+	"cosmosportals.ui.help.colour_three": "",
+	
+	"cosmosportals.ui.help.colours": "传送门颜色",
+	"cosmosportals.ui.help.colours_one": "切换传送门的颜色。",
+	"cosmosportals.ui.help.colours_two": "",
+	"cosmosportals.ui.help.colours_three": "",
+	
+	"cosmosportals.ui.help.workbench.container": "记录器输入",
+	"cosmosportals.ui.help.workbench.container_one": "放入一个未连接的记录器",
+	"cosmosportals.ui.help.workbench.container_two": "以复制记录器的信息。",
+	"cosmosportals.ui.help.workbench.container_three": "",
+	
+	"cosmosportals.ui.help.workbench.container_linked": "要复制的记录器",
+	"cosmosportals.ui.help.workbench.container_linked_one": "放入你要复制的记录器。",
+	"cosmosportals.ui.help.workbench.container_linked_two": "",
+	
+	"cosmosportals.ui.help.workbench.container_copied": "新记录器",
+	"cosmosportals.ui.help.workbench.container_copied_one": "复制后输出的记录器。",
+	"cosmosportals.ui.help.workbench.container_copied_two": "",
+	
+	"cosmosportals.ui.help.workbench.button_apply": "应用设置",
+	"cosmosportals.ui.help.workbench.button_apply_one": "应用颜色与名称设置。",
+	"cosmosportals.ui.help.workbench.button_apply_two": "",
+	
+	"cosmosportals.ui.help.workbench.button_clear": "清空输入框",
+	"cosmosportals.ui.help.workbench.button_clear_one": "清空输入框",
+	
+	"cosmosportals.ui.help.workbench.text": "输入框",
+	"cosmosportals.ui.help.workbench.text_one": "输入文字以命名维度记录器。",
+	"cosmosportals.ui.help.workbench.text_two": "",
+	
+	"cosmosportals.ui.help.workbench.colour": "记录器颜色",
+	"cosmosportals.ui.help.workbench.colour_one": "切换记录器的颜色。",
+	"cosmosportals.ui.help.workbench.colour_two": "",
+	"cosmosportals.ui.help.workbench.colour_three": "",
+	
+	"cosmosportals.ui.help.cycle_up": "选择上一个记录器",
+	"cosmosportals.ui.help.cycle_up_one": "",
+	"cosmosportals.ui.help.cycle_up_two": "",
+	
+	"cosmosportals.ui.help.cycle_down": "选择下一个记录器",
+	"cosmosportals.ui.help.cycle_down_one": "",
+	"cosmosportals.ui.help.cycle_down_two": "",
+	
+	"cosmosportals.item_info.container": "一个记录你所在维度和位置的记录器。",
+	"cosmosportals.item_info.container_one": "可以放在传送门坞以使用。",
+	"cosmosportals.item_info.container_two": "潜行使用以记录。",
+	
+	"cosmosportals.item_info.container_linked": "一个已连接的维度记录器。",
+	"cosmosportals.item_info.container_linked_one": "潜行右键一个传送门坞以使用。",
+	"cosmosportals.item_info.container_linked_two": "单独合成以清除记录。",
+	"cosmosportals.item_info.container_linked_three": "记录的信息:",
+	"cosmosportals.item_info.container_linked_error": "这个记录器已经连接了，但没有记录信息！",
+	
+	"cosmosportals.item_info.container_display_name": "显示名称：",
+	"cosmosportals.item_info.container_position": "记录位置：",
+	"cosmosportals.item_info.container_dimension": "记录维度：",
+	"cosmosportals.item_message.container_recorded": "维度与位置已记录！",
+	"cosmosportals.item_warning.container_stored": "这个记录器已经记录信息了！潜行使用以清除记录。",
+	
+	"cosmosportals.item_info.guide": "宇宙传送门的指南！",
+	"cosmosportals.item_info.guide_one": "包括了配方与机制。",
+	"cosmosportals.item_info.guide_two": "使用指南以打开。",
+	
+	"cosmosportals.item_info.wrench": "一个配置工具",
+	"cosmosportals.item_info.wrench_one": "需要传送门坞控制器以使用。",
+	"cosmosportals.item_info.wrench_two": "潜行右键传送门坞以连接。",
+	"cosmosportals.item_info.wrench_three": "潜行右键控制器以设置。",
+	"cosmosportals.item_info.wrench_four": "如果你在背包内将扳手放在控制器上，其会显示连接的传送门坞。",
+	
+	"cosmosportals.item_info.wrench_info": "传送门坞位置：",
+	
+	"cosmosportals.block_info.frame": "宇宙传送门框架",
+	"cosmosportals.block_info.frame_one": "可以安全装饰。",
+	
+	"cosmosportals.block_info.dock": "传送门坞",
+	"cosmosportals.block_info.dock_one": "传送门的控制器，用于生成传送门。",
+	"cosmosportals.block_info.dock_two": "用已连接的维度记录器潜行右键以使用。",
+	"cosmosportals.block_info.dock_three": "右键打开 GUI。",
+	
+	"cosmosportals.block_info.dock_upgraded": "高级传送门坞",
+	"cosmosportals.block_info.dock_upgraded_one": "高级的传送门坞，可以放入四个维度记录器。",
+	"cosmosportals.block_info.dock_upgraded_two": "右键打开 GUI 以放入记录器。",
+	"cosmosportals.block_info.dock_upgraded_three": "",
+	
+	"cosmosportals.block_info.workbench": "记录器工作台",
+	"cosmosportals.block_info.workbench_one": "用来复制维度记录器。",
+	"cosmosportals.block_info.workbench_two": "右键打开 GUI",
+	"cosmosportals.block_info.workbench_limit": "你必须提供空的维度记录器。",
+	
+	"cosmosportals.block_info.dock_controller": "传送门坞控制器",
+	"cosmosportals.block_info.dock_controller_one": "控制传送门。",
+	"cosmosportals.block_info.dock_controller_two": "用一个宇宙扳手潜行右键以连接到传送门坞。",
+	"cosmosportals.block_info.dock_controller_three": "连接后右键数字按钮以切换槽位。",
+	
+	"cosmosportals.item.use.wrench_one": "成功存储传送门坞信息！",
+	"cosmosportals.item.use.wrench_two": "控制器离传送门坞太远了！",
+	"cosmosportals.item.use.wrench_three": "成功设置传送门坞！",
+	"cosmosportals.item.use.wrench_four": "没有传送门信息！",
+	"cosmosportals.item.use.wrench_five": "清除传送门坞信息。",
+	
+	"cosmosportals.guide.button_one": "离开",
+	"cosmosportals.guide.button_two": "主页",
+	"cosmosportals.guide.button_three": "下一页",
+	"cosmosportals.guide.button_four": "上一页",
+	
+	"cosmosportals.guide.page": "页数: ",
+	"cosmosportals.guide.heading": "宇宙指南",
+	
+	"cosmosportals.guide.one_body": "欢迎来到:<br>",
+	"cosmosportals.guide.one_body_one": "宇宙传送门!<br>",
+	"cosmosportals.guide.one_body_two": "<br>这本指南将帮助你理解并使用<br>这个模组！",
+	"cosmosportals.guide.one_body_heading": "内容：",
+	"cosmosportals.guide.foot_one": "内容",
+	
+	
+	"cosmosportals.guide.two_heading": "[1]: 介绍",
+	"cosmosportals.guide.two_body_one": "你已经准备好探索传送门的世界了吗？<br>那你就你来对地方了！",
+	"cosmosportals.guide.two_body_two": "在指南中，你将学习到：",
+	"cosmosportals.guide.two_sub_one": "－ 如何使用传送门",
+	"cosmosportals.guide.two_sub_two": "- 宇宙物品以及它们的使用方法",
+	"cosmosportals.guide.two_sub_three": "- 传送门的配置方法",
+	"cosmosportals.guide.two_sub_four": "- 宇宙物品的配方",
+	"cosmosportals.guide.two_body_three": "要继续请按右侧的菜单<br>或者底部的箭头。",
+	"cosmosportals.guide.foot_two": "介绍",
+	
+	
+	"cosmosportals.guide.three_heading": "[2]: 传送门",
+	"cosmosportals.guide.three_body_one": "This is a Portal Dock.<br>It is the heart of the Mod.<br>To use it: Shift-right click<br> with a linked Dimension Container<br>Thats it! It really is that simple.<br>This will create a<br>Portal to the linked Dimension",
+	"cosmosportals.guide.three_body_one_": "Portal Docks are highly<br>configurable.<br>You can choose to display<br>a label to show which<br>Dimension the Portal<br>links to, show particle<br>effects and much more!",
+	"cosmosportals.guide.foot_three": "Portals: ",
+	
+	
+	"cosmosportals.guide.four_heading": "[3]: Cosmic Items",
+	
+	"cosmosportals.guide.foot_four": "Items: ",
+	
+	
+	"cosmosportals.guide.five_heading": "[4]: Configuration",
+	
+	"cosmosportals.guide.foot_five": "Configuration: ",
+	
+	
+	"cosmosportals.guide.six_heading": "[5]: Recipes",
+	"cosmosportals.guide.six_heading_one": "Crafting Bench",
+	
+	"cosmosportals.guide.foot_six": "Recipes: ",
+	
+	
+	"cosmosportals.guide.seven_tab": "[6]: 致谢",
+	"cosmosportals.guide.seven_heading": "[6]: 开发团队",
+	
+	"cosmosportals.guide.foot_seven": "致谢: ",
+	
+	"cosmosportals.guide.": ""
+}

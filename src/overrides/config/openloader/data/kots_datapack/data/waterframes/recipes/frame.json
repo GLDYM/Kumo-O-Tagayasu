@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iGi",
+        "iTi",
+        "iSi"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "G": {
+            "item": "minecraft:glowstone"
+        },
+        "T": {
+            "item": "minecraft:tinted_glass"
+        },
+        "S": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "id": "waterframes:frame",
+        "item": "waterframes:frame",
+        "count": 1
+    }
+}
