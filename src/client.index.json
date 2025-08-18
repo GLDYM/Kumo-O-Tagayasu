@@ -13,7 +13,7 @@
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/5CTSrY8X/versions/mMc55fB1/2GPUTape-1.18x-1.21x-1.0.5.1.jar"
