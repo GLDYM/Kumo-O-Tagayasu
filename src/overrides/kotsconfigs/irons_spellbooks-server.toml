@@ -45,7 +45,7 @@
 	#Imbue Whitelist. Use an item's id to allow it to be imbued, ex: "minecraft:iron_sword"
 	imbueWhitelist = []
 	#Imbue Blacklist. Use an item's id to prevent it from being imbued, ex: "minecraft:iron_sword"
-	imbueBlacklist = []
+	imbueBlacklist = ["immortalers_delight:ancient_blade", "savage_and_ravage:cleaver_of_beheading"]
 
 [Worldgen]
 	#The weight of the priest house spawning in a village. Default: 4
@@ -443,14 +443,14 @@
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:black_hole"]
-		Enabled = false
+		Enabled = true
 		School = "irons_spellbooks:ender"
-		MaxLevel = 1
+		MaxLevel = 3
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 999.0
-		SpellPowerMultiplier = 0.1
-		CooldownInSeconds = 999.0
+		MinRarity = "RARE"
+		ManaCostMultiplier = 2.0
+		SpellPowerMultiplier = 0.5
+		CooldownInSeconds = 180.0
 		AllowCrafting = false
 
 	[Spells."irons_spellbooks:evasion"]
@@ -459,8 +459,8 @@
 		MaxLevel = 3
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "EPIC"
-		ManaCostMultiplier = 2.5
-		SpellPowerMultiplier = 0.85
+		ManaCostMultiplier = 2.4
+		SpellPowerMultiplier = 0.8
 		CooldownInSeconds = 180.0
 		AllowCrafting = true
 
@@ -543,7 +543,7 @@
 
 	#irons_spellbooks:eldritch
 	[Spells."irons_spellbooks:sculk_tentacles"]
-		Enabled = false
+		Enabled = true
 		School = "irons_spellbooks:eldritch"
 		MaxLevel = 1
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY

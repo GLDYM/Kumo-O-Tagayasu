@@ -40,7 +40,7 @@
   "resultItems": "vinery:white_grape"
   },
   {
-  "matchItems": ["farm_and_charm:dough", "create:dough"],
+  "matchItems": ["farm_and_charm:dough", "create:dough", "sakura:dough"],
   "resultItems": "farmersdelight:wheat_dough"
   },
   {
@@ -48,12 +48,16 @@
   "resultItems": "farmersdelight:raw_pasta"
   },
   {
-  "matchItems": ["create:wheat_flour", "bakeries:flour"],
+  "matchItems": ["create:wheat_flour", "bakeries:flour", "sakura:flour"],
   "resultItems": "farm_and_charm:flour"
   },
   {
-  "matchItems": ["youkaishomecoming:soybean"],
+  "matchItems": ["youkaishomecoming:soybean", "sakura:soybean"],
   "resultItems": "tofucraft:seeds_soybeans"
+  },
+  {
+  "matchItems": ["sakura:miso"],
+  "resultItems": "tofucraft:miso"
   },
   {
   "matchItems": ["youkaishomecoming:tofu"],
@@ -76,11 +80,11 @@
   "resultItems": "vintagedelight:salt_dust"
   },
   {
-  "matchItems": ["kaleidoscope_cookery:cooked_rice"],
+  "matchItems": ["kaleidoscope_cookery:cooked_rice", "sakura:rice_cooked"],
   "resultItems": "farmersdelight:cooked_rice"
   },
   {
-  "matchItems": ["kaleidoscope_cookery:rice", "tofucraft:seeds_rice"],
+  "matchItems": ["kaleidoscope_cookery:rice", "tofucraft:seeds_rice", "sakura:rice"],
   "resultItems": "farmersdelight:rice"
   },
   {
@@ -153,6 +157,10 @@
   },
   {
   "matchItems": ["sakura:plank_bamboo"],
-  "resultItems": "inecraft:bamboo_planks"
+  "resultItems": "minecraft:bamboo_planks"
+  },
+  {
+  "matchItems": ["tofucraft:bottle_soysause", "sakura:soysauce"],
+  "resultItems": "youkaishomecoming:soy_sauce_bottle"
   }
 ]

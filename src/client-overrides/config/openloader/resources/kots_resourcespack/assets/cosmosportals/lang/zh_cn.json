@@ -36,7 +36,7 @@
 	"block.cosmosportals.block_deepslate_cosmic_ore": "深层宇宙矿",
 	"block.cosmosportals.block_cosmic": "宇宙块",
 	
-	"block.cosmosportals.block_container_workbench": "宇宙扳手",
+	"block.cosmosportals.block_container_workbench": "记录器工作台",
 	
 	"block.cosmosportals.block_dock_controller": "传送门坞控制器",
 
@@ -247,7 +247,7 @@
 	"cosmosportals.item_info.wrench_one": "需要传送门坞控制器以使用。",
 	"cosmosportals.item_info.wrench_two": "潜行右键传送门坞以连接。",
 	"cosmosportals.item_info.wrench_three": "潜行右键控制器以设置。",
-	"cosmosportals.item_info.wrench_four": "如果你在背包内将扳手放在控制器上，其会显示连接的传送门坞。",
+	"cosmosportals.item_info.wrench_four": "如果你手持扳手对准控制器，会显示其连接的传送门坞。",
 	
 	"cosmosportals.item_info.wrench_info": "传送门坞位置：",
 	

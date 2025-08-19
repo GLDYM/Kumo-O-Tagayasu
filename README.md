@@ -7,7 +7,7 @@
 # Kumo O Tagayasu
 
 <a href="./LICENSE">
-    <img src="https://img.shields.io/github/license/GLDYM/Kumo-O-Tagayasu" alt="license">
+    <img src="https://img.shields.io/badge/license-AGPL--v3.0--or--later-8A2BE2" alt="license">
 </a>
 
 <a href="./LICENSE2">
@@ -26,7 +26,7 @@
 
 ## 简介
 
-继承于 Tsuri No Gatsu，Kumo O Tagayasu 是一个注重田园体验的综合整合包，旨在给予玩家一个休闲惬意的游戏体验。
+分叉于 Tsuri No Gatsu，Kumo O Tagayasu 是一个注重田园体验的综合整合包，旨在给予玩家一个休闲惬意的游戏体验。
 
 原整合包地址：[https://www.mcmod.cn/modpack/626.html](https://www.mcmod.cn/modpack/626.html)
 
@@ -72,9 +72,9 @@
 
 ## 协议
 
-使用 AGPL-v3 协议，Mandalas GUI - Dark Mode KOTS Compat 资源包使用 CC-BY-NC-SA 4.0 协议。如果你想要使用本项目去实现一些特殊需求，则你需要接受许可。
+许可证使用 AGPL-v3-or-later。如果你想要使用本项目去实现一些特殊需求，则你需要接受许可。
 
-以下为一些情况的具体说明：
+许可证补充：
 
 你被允许做的，但需要保留作者、原作信息与本项目地址（月见清兰 & 北辰星光，Tsuri No Gatsu 5，Kumo O Tagayasu）：
 

@@ -2,8 +2,6 @@
 craftingTable.addShapeless("wheatchange", <item:minecraft:wheat>, [<tag:items:forge:wheat>]);
 craftingTable.addShapeless("pepperchange1", <item:tofucraft:chili> * 2, [<item:vintagedelight:ghost_pepper>, <item:vintagedelight:ghost_pepper>]);
 craftingTable.addShapeless("pepperchange2", <item:vintagedelight:ghost_pepper> * 2, [<item:tofucraft:chili>, <item:tofucraft:chili>]);
-craftingTable.addShapeless("pepperchange3", <item:crockpot:pepper> * 2, [<item:vintagedelight:ghost_pepper>, <item:vintagedelight:ghost_pepper>]);
-craftingTable.addShapeless("pepperchange4", <item:vintagedelight:ghost_pepper> * 2, [<item:crockpot:pepper>, <item:crockpot:pepper>]);
 craftingTable.addShapeless("doughchange1", <item:farmersdelight:wheat_dough>, [<item:vintagedelight:oat_dough>]);
 craftingTable.addShapeless("doughchange2", <item:farm_and_charm:dough>, [<item:farmersdelight:wheat_dough>]);
 craftingTable.addShapeless("doughchange3", <item:vintagedelight:oat_dough>, [<item:farm_and_charm:dough>]);
@@ -20,8 +18,6 @@ craftingTable.addShapeless("birchchange", <item:minecraft:birch_log> * 2, [<tag:
 craftingTable.addShapeless("junglechange", <item:minecraft:jungle_log> * 2, [<tag:items:minecraft:jungle_logs>, <tag:items:minecraft:jungle_logs>]);
 craftingTable.addShapeless("darkoakchange", <item:minecraft:dark_oak_log> * 2, [<tag:items:minecraft:dark_oak_logs>, <tag:items:minecraft:dark_oak_logs>]);
 craftingTable.addShapeless("mangrovechange", <item:minecraft:mangrove_log> * 2, [<tag:items:minecraft:mangrove_logs>, <tag:items:minecraft:mangrove_logs>]);
-craftingTable.addShapeless("soysauce1", <item:youkaishomecoming:soy_sauce_bottle>, [<item:tofucraft:bottle_soysause>]);
-craftingTable.addShapeless("soysauce2", <item:tofucraft:bottle_soysause>, [<item:youkaishomecoming:soy_sauce_bottle>]);
 craftingTable.addShapeless("bronze1", <item:ultramarine:bronze_ingot>, [<item:create:brass_ingot>]);
 craftingTable.addShapeless("bronze2", <item:create:brass_ingot>, [<item:ultramarine:bronze_ingot>]);
 
@@ -85,3 +81,6 @@ craftingTable.remove(<item:quark:flamerang>);
 events.register<crafttweaker.forge.api.event.interact.RightClickBlockEvent>((e)=>{val blockstate=e.entity.level.getBlockState(e.blockPos);
 if(blockstate==<blockstate:minecraft:enchanting_table>||blockstate==<blockstate:minecraft:enchanting_table>){e.useBlock=<constant:forge:event/result:deny>;}
 if(e.itemStack.definition==<item:minecraft:enchanting_table>.definition){e.useItem=<constant:forge:event/result:deny>;}});
+import crafttweaker.api.food.FoodProperties;
+val nerfquarkcookedcrableg = FoodProperties.create(3, 1).setCanAlwaysEat(false);
+<item:quark:cooked_crab_leg>.setFood(nerfquarkcookedcrableg);

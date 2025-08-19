@@ -669,6 +669,7 @@
 <tag:items:forge:seeds/hamimelon>.add(<item:fruitsdelight:hamimelon_seeds>);
 <tag:items:forge:seeds/hamimelon>.add(<item:delightful:cantaloupe_seeds>);
 <tag:items:forge:seeds/strawberry>.add(<item:farm_and_charm:strawberry_seeds>);
+<tag:items:forge:seeds/chilipepper>.add(<item:vintagedelight:ghost_pepper_seeds>);
 # 坚果和谷物
 
 <tag:items:forge:crops>.add(<item:vintagedelight:peanut>);
@@ -725,6 +726,9 @@
 <tag:items:c:raw_fish>.add(<item:youkaishomecoming:raw_lamprey_fillet>);
 <tag:items:forge:meats>.add(<item:youkaishomecoming:raw_lamprey_fillet>);
 <tag:items:minecraft:is_meat>.add(<item:youkaishomecoming:raw_lamprey_fillet>);
+<tag:items:minecraft:fishes>.add(<item:youkaisfeasts:raw_lamprey_fillet>);
+<tag:items:forge:raw_fishes>.add(<item:youkaisfeasts:raw_lamprey_fillet>);
+<tag:items:c:raw_fish>.add(<item:youkaisfeasts:raw_lamprey_fillet>);
 <tag:items:forge:meats>.add(<item:youkaishomecoming:roasted_lamprey_fillet>);
 <tag:items:minecraft:is_meat>.add(<item:youkaishomecoming:roasted_lamprey_fillet>);
 <tag:items:minecraft:fishes>.add(<item:youkaishomecoming:roasted_lamprey_fillet>);
@@ -737,6 +741,7 @@
 <tag:items:forge:chocolate>.add(<tag:items:forge:bars/chocolate>);
 <tag:items:c:chocolate>.add(<tag:items:forge:chocolate>);
 <tag:items:farm_and_charm:chocolate>.add(<tag:items:forge:chocolate>);
+<tag:items:forge:chocolate>.add(<tag:items:forge:bars/chocolate>);
 # 切片
 <tag:items:forge:fruits>.add(<item:fruitsdelight:pineapple_slice>);
 <tag:items:forge:crops>.remove(<item:farmersdelight:cabbage_leaf>);
@@ -1011,6 +1016,16 @@
 <tag:items:forge:food/raw_pasta>.add(<item:farmersdelight:raw_pasta>);
 <tag:items:forge:food/raw_pasta>.add(<item:vintagedelight:cucumber_noodles>);
 <tag:items:forge:food/raw_pasta>.add(<item:farm_and_charm:raw_pasta>);
+<tag:items:the_bumblezone:crystalline_flower/cannot_consume>.add(<tag:items:forge:ice_cubes>);
+<tag:items:the_bumblezone:crystalline_flower/cannot_consume>.add(<tag:items:spelunkery:pebbles>);
+<tag:items:the_bumblezone:crystalline_flower/cannot_consume>.add(<tag:items:spelunkery:nuggets>);
+<tag:items:the_bumblezone:crystalline_flower/cannot_consume>.add(<tag:items:forge:nuggets>);
+<tag:items:the_bumblezone:crystalline_flower/cannot_consume>.add(<tag:items:minecraft:slabs>);
+<tag:items:the_bumblezone:crystalline_flower/cannot_consume>.add(<tag:items:minecraft:ice>);
+<tag:items:the_bumblezone:crystalline_flower/cannot_consume>.add(<tag:items:forge:glass_panes>);
+<tag:items:the_bumblezone:crystalline_flower/cannot_consume>.add(<item:cuisinedelight:plate>);
+<tag:items:the_bumblezone:crystalline_flower/cannot_consume>.add(<item:irons_spellbooks:blood_vial>);
+<tag:items:supplementaries:shulker_blacklist>.add(<item:the_bumblezone:crystalline_flower>);
 <tag:items:supplementaries:shulker_blacklist>.add(<item:some_assembly_required:sandwich>);
 <tag:items:supplementaries:shulker_blacklist>.add(<item:cuisinedelight:suspicious_mix>);
 <tag:items:supplementaries:shulker_blacklist>.add(<item:cuisinedelight:ham_fried_rice>);
