@@ -1,3 +1,3 @@
 [submodule "Mandalas-GUI-KOTS-Compat"]
 	path = Mandalas-GUI-KOTS-Compat
-	url = https://github.com/GLDYM/Mandalas-GUI-KOTS-Compat
+	url = git@github.com:GLDYM/Mandalas-GUI-KOTS-Compat.git
