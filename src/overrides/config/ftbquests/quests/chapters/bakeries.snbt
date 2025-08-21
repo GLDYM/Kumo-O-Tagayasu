@@ -314,7 +314,7 @@
 				type: "item"
 			}]
 			title: "面包刀"
-			x: 0.0d
+			x: 1.5d
 			y: -1.5d
 		}
 		{
@@ -490,6 +490,52 @@
 			title: "&6法棍大王"
 			x: -1.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["5502902A322A43A6"]
+			description: [
+				"你也可以把蛋糕坯做成蛋糕卷。首先同样是用面包刀将蛋糕坯切成两半，在桌上放上油纸再放上蛋糕胚切片。手持食材右键蛋糕坯切片，再空手右键就能制作出蛋糕卷。"
+				""
+				"蛋糕卷可以无视饥饿值食用。一个蛋糕卷最多能放四个食材，可以继承所有食材的效果（外加蛋糕卷本身的柔软效果）；但同一食材效果不叠加。食材要求：1. 无方块形式，2. 无容器，3. 无强制标签，4. 不是蛋糕卷。"
+			]
+			icon: {
+				Count: 1
+				id: "bakeries:cake_roll"
+				tag: { }
+			}
+			id: "68118C23BCF18634"
+			rewards: [
+				{
+					id: "1CC8A9D03CC8B3BB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "638DCA045FFB0CC2"
+					item: "bakeries:silicone_paper"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1806602B3C0BCB6C"
+					item: "bakeries:silicone_paper"
+					type: "item"
+				}
+				{
+					id: "7D0EE2FAAA590FDA"
+					item: {
+						Count: 1
+						id: "bakeries:cake_roll"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "蛋糕卷"
+			x: 0.0d
+			y: -1.5d
 		}
 	]
 	title: "&e小镇糕点师"

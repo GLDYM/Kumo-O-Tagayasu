@@ -2,11 +2,11 @@
   "game": "minecraft",
   "formatVersion": 1,
   "versionId": "5.3.0",
-  "name": "Kumo O Tagayasu Common PArt",
+  "name": "Kumo O Tagayasu Common Part",
   "summary": "",
   "files": [
     {
-      "path": "mods/cosmos-library-1.20.1-10.6.0.0-universal.jar",
+      "path": "mods/3cosmos-library-1.20.1-10.6.0.0-universal.jar",
       "hashes": {
         "sha512": "94b3a990b85df52318eca9bd7e6e6e4a6f851235dde88170a3d11222a1773321430919692b7776409614c785b5298545abd214f8fd83cc4863cb3e1215dd7275",
         "sha1": "5f848371760272deee0d514e9b4d04269e05aa60"
@@ -1954,21 +1954,6 @@
         "https://cdn.modrinth.com/data/T7XZLHGD/versions/q8Ght7Bo/vintagedelight-0.1.6.jar"
       ],
       "fileSize": 1120218
-    },
-    {
-      "path": "mods/invtweaks-1.20.1-1.2.0.jar",
-      "hashes": {
-        "sha512": "da66e64b3bca754076fec4a0d1e70d4a17c57ba3586ff38842d8ecff0ba4353f3a626ef24117f2fb3c41b5b87bec9dab9cbd6646d144b486e30eac94581f90bf",
-        "sha1": "d0a419f3b026b4949ed178119befbcf734deb6eb"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/uqnMI1kq/versions/eyPkQyNd/invtweaks-1.20.1-1.2.0.jar"
-      ],
-      "fileSize": 74689
     },
     {
       "path": "mods/letmedespawn-1.20.x-forge-1.5.0.jar",

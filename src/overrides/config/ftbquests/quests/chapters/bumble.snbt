@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bumble"
+	group: "65DBD493CCEDCEF5"
+	icon: {
+		Count: 1
+		id: "the_bumblezone:stingless_bee_helmet_1"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6D7D8225B036C476"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "&a黄金乡女王"
+}

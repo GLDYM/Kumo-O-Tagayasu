@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sakura"
+	group: "65DBD493CCEDCEF5"
+	icon: "minecraft:cherry_leaves"
+	id: "49998E6AB0C3764C"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		icon: "minecraft:cherry_leaves"
+		id: "1AA06E9A9A56001D"
+		rewards: [{
+			id: "362DFF96A2709C83"
+			type: "xp_levels"
+			xp_levels: 3
+		}]
+		tasks: [{
+			id: "00C3C8D3B8E215A2"
+			title: "开始旅途"
+			type: "checkmark"
+		}]
+		title: "&6樱 \\& 樱途乐事"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "&a清修悟道者"
+}

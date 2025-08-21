@@ -2,7 +2,7 @@
 [youkaifying_effect]
 	#Chance for flesh food to add Youkaifying effect for the first time
 	#Range: 0.0 ~ 1.0
-	youkaifyingChance = 0.2
+	youkaifyingChance = 0.8
 	#Confusion time when flesh food to add Youkaifying effect for the first time
 	#Range: 0 ~ 1000000
 	youkaifyingConfusionTime = 300
@@ -14,10 +14,10 @@
 	youkaifyingThreshold = 6000
 	#Youkaified duration once reached
 	#Range: 0 ~ 1000000
-	youkaifiedDuration = 3000
+	youkaifiedDuration = 24000
 	#Time for flesh food to add Youkaified effect
 	#Range: 0 ~ 1000000
-	youkaifiedProlongation = 400
+	youkaifiedProlongation = 6000
 
 [food_effect]
 	#Tea Healing Interval

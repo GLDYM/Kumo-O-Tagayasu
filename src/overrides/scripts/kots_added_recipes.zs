@@ -1,10 +1,5 @@
 # CHANGES
 craftingTable.addShapeless("wheatchange", <item:minecraft:wheat>, [<tag:items:forge:wheat>]);
-craftingTable.addShapeless("pepperchange1", <item:tofucraft:chili> * 2, [<item:vintagedelight:ghost_pepper>, <item:vintagedelight:ghost_pepper>]);
-craftingTable.addShapeless("pepperchange2", <item:vintagedelight:ghost_pepper> * 2, [<item:tofucraft:chili>, <item:tofucraft:chili>]);
-craftingTable.addShapeless("doughchange1", <item:farmersdelight:wheat_dough>, [<item:vintagedelight:oat_dough>]);
-craftingTable.addShapeless("doughchange2", <item:farm_and_charm:dough>, [<item:farmersdelight:wheat_dough>]);
-craftingTable.addShapeless("doughchange3", <item:vintagedelight:oat_dough>, [<item:farm_and_charm:dough>]);
 craftingTable.addShapeless("pumpkinchange", <item:minecraft:pumpkin> * 2, [<item:autumnity:large_pumpkin_slice>, <item:autumnity:large_pumpkin_slice>]);
 craftingTable.addShapeless("tinybeefchange1", <item:farmersdelight:minced_beef> * 2, [<item:farm_and_charm:minced_beef>, <item:farm_and_charm:minced_beef>]);
 craftingTable.addShapeless("tinybeefchange2", <item:farm_and_charm:minced_beef> * 2, [<item:farmersdelight:minced_beef>, <item:farmersdelight:minced_beef>]);
@@ -18,8 +13,6 @@ craftingTable.addShapeless("birchchange", <item:minecraft:birch_log> * 2, [<tag:
 craftingTable.addShapeless("junglechange", <item:minecraft:jungle_log> * 2, [<tag:items:minecraft:jungle_logs>, <tag:items:minecraft:jungle_logs>]);
 craftingTable.addShapeless("darkoakchange", <item:minecraft:dark_oak_log> * 2, [<tag:items:minecraft:dark_oak_logs>, <tag:items:minecraft:dark_oak_logs>]);
 craftingTable.addShapeless("mangrovechange", <item:minecraft:mangrove_log> * 2, [<tag:items:minecraft:mangrove_logs>, <tag:items:minecraft:mangrove_logs>]);
-craftingTable.addShapeless("bronze1", <item:ultramarine:bronze_ingot>, [<item:create:brass_ingot>]);
-craftingTable.addShapeless("bronze2", <item:create:brass_ingot>, [<item:ultramarine:bronze_ingot>]);
 
 # RAW ORE TO ORE BLOCK
 blastFurnace.addRecipe("blockrawirontoiron_blast", <item:minecraft:iron_block>, <tag:items:forge:storage_blocks/raw_iron>, 8.0, 1600);

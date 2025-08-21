@@ -1,0 +1,30 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "farmersdelight",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+		  "type": "farmersdelight:cutting",
+		  "ingredients": [
+			{
+			  "item": "farmersdelight:cabbage_leaf"
+			}
+		  ],
+		  "tool": {
+			"tag": "forge:tools/knives"
+		  },
+		  "result": [
+			{
+			  "item": "sakura:sliced_cabbage",
+			  "count": 2
+			}
+		  ]
+      }
+    }
+  ]
+}

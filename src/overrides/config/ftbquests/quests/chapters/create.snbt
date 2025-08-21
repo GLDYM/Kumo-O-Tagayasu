@@ -34,8 +34,8 @@
 				title: "按[w]进行思索"
 				type: "checkmark"
 			}]
-			x: 31.5d
-			y: -1.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -50,8 +50,8 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: 30.0d
-			y: 3.5d
+			x: -1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["368CA8E2BC9E7C34"]
@@ -65,8 +65,8 @@
 				type: "item"
 			}]
 			title: "开始传动"
-			x: 31.5d
-			y: 5.0d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["47E0087397FB656F"]
@@ -92,8 +92,8 @@
 				}
 			]
 			title: "小齿轮，大齿轮"
-			x: 30.0d
-			y: 6.5d
+			x: -1.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -113,8 +113,8 @@
 				type: "item"
 			}]
 			title: "套壳"
-			x: 28.5d
-			y: 5.0d
+			x: -3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -133,8 +133,8 @@
 				title: "选择你的动力源！"
 				type: "checkmark"
 			}]
-			x: 30.0d
-			y: 9.5d
+			x: -1.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["70CAF2F06F431D66"]
@@ -147,8 +147,8 @@
 				type: "item"
 			}]
 			title: "风车，中！"
-			x: 31.5d
-			y: 11.0d
+			x: 0.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["70CAF2F06F431D66"]
@@ -160,8 +160,8 @@
 				type: "item"
 			}]
 			title: "水任务"
-			x: 28.5d
-			y: 11.0d
+			x: -3.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["70CAF2F06F431D66"]
@@ -188,8 +188,8 @@
 				}
 			]
 			title: "梦回种植园"
-			x: 30.0d
-			y: 11.0d
+			x: -1.5d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -207,8 +207,8 @@
 				type: "item"
 			}]
 			title: "锵！"
-			x: 30.0d
-			y: 12.5d
+			x: -1.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["7F1950FD945AD26A"]
@@ -241,8 +241,8 @@
 				}
 			]
 			title: "这下看得清了吧"
-			x: 25.5d
-			y: 12.5d
+			x: -6.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["2329C39176B3274D"]
@@ -253,8 +253,8 @@
 				item: "create:iron_sheet"
 				type: "item"
 			}]
-			x: 30.0d
-			y: 15.5d
+			x: -1.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["2329C39176B3274D"]
@@ -265,8 +265,8 @@
 				type: "item"
 			}]
 			title: "金板"
-			x: 27.0d
-			y: 14.0d
+			x: -4.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["4041EB10C4BFB148"]
@@ -308,8 +308,8 @@
 				}
 			]
 			title: "Sail!"
-			x: 33.0d
-			y: 11.0d
+			x: 1.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["7960D97A6163B412"]
@@ -325,8 +325,8 @@
 				item: "create:empty_blaze_burner"
 				type: "item"
 			}]
-			x: 34.0d
-			y: 15.5d
+			x: 2.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["10F5E9BC794E4F3D"]
@@ -339,8 +339,8 @@
 				type: "item"
 			}]
 			title: "压块"
-			x: 33.0d
-			y: 12.5d
+			x: 1.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["7960D97A6163B412"]
@@ -351,8 +351,8 @@
 				item: "create:mechanical_mixer"
 				type: "item"
 			}]
-			x: 33.5d
-			y: 14.0d
+			x: 2.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["4408834AAB7F35AB"]
@@ -364,8 +364,8 @@
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			x: 36.0d
-			y: 14.0d
+			x: 4.5d
+			y: 15.5d
 		}
 		{
 			dependencies: [
@@ -384,8 +384,8 @@
 				type: "item"
 			}]
 			title: "第一块合金"
-			x: 37.5d
-			y: 12.5d
+			x: 6.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["3F3E0AFE8A2F054F"]
@@ -397,8 +397,8 @@
 				item: "create:brass_sheet"
 				type: "item"
 			}]
-			x: 37.5d
-			y: 15.5d
+			x: 6.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["77102693683E4D96"]
@@ -416,8 +416,8 @@
 				type: "item"
 			}]
 			title: "不再是废石"
-			x: 31.5d
-			y: 2.0d
+			x: 0.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["77102693683E4D96"]
@@ -435,8 +435,8 @@
 				type: "item"
 			}]
 			title: "来硬的"
-			x: 28.5d
-			y: 2.0d
+			x: -3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -462,8 +462,8 @@
 				}
 			]
 			title: "动力转向"
-			x: 27.0d
-			y: 6.5d
+			x: -4.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["737841D5CB9D44FA"]
@@ -475,8 +475,8 @@
 				type: "item"
 			}]
 			title: "不只是用来吃"
-			x: 33.0d
-			y: 3.5d
+			x: 1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["77102693683E4D96"]
@@ -496,8 +496,8 @@
 				type: "item"
 			}]
 			title: "要致富，先撸树"
-			x: 25.5d
-			y: 2.0d
+			x: -6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["77102693683E4D96"]
@@ -520,8 +520,8 @@
 				}
 			]
 			title: "跑图，或洗劫村庄？"
-			x: 34.5d
-			y: 2.0d
+			x: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["43604FF58BBCB62B"]
@@ -533,8 +533,8 @@
 				type: "item"
 			}]
 			title: "传动，还有更多"
-			x: 33.0d
-			y: 6.5d
+			x: 1.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0DA2C17A18E20BD0"]
@@ -546,8 +546,8 @@
 				type: "item"
 			}]
 			title: "更大，更好用"
-			x: 27.0d
-			y: 11.0d
+			x: -4.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["10F5E9BC794E4F3D"]
@@ -563,8 +563,8 @@
 				type: "item"
 			}]
 			title: "压板"
-			x: 30.0d
-			y: 14.0d
+			x: -1.5d
+			y: 15.5d
 		}
 		{
 			dependencies: [
@@ -583,8 +583,8 @@
 				type: "item"
 			}]
 			title: "飞起来！"
-			x: 28.5d
-			y: 12.5d
+			x: -3.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["7F1950FD945AD26A"]
@@ -603,8 +603,8 @@
 				type: "item"
 			}]
 			title: "小盒子真好用"
-			x: 25.5d
-			y: 14.0d
+			x: -6.0d
+			y: 15.5d
 		}
 		{
 			dependencies: [
@@ -619,8 +619,8 @@
 				item: "create:electron_tube"
 				type: "item"
 			}]
-			x: 22.5d
-			y: 15.5d
+			x: -9.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["77102693683E4D96"]
@@ -641,8 +641,8 @@
 				}
 			]
 			title: "再来点硬的"
-			x: 37.5d
-			y: 2.0d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["53C9FC83022CFEA1"]
@@ -654,8 +654,8 @@
 				item: "create:polished_rose_quartz"
 				type: "item"
 			}]
-			x: 22.5d
-			y: 11.0d
+			x: -9.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["4BC0D45AA088BBF6"]
@@ -682,8 +682,8 @@
 					type: "item"
 				}
 			]
-			x: 22.5d
-			y: 6.5d
+			x: -9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["77102693683E4D96"]
@@ -704,8 +704,8 @@
 				}
 			]
 			title: "赤石"
-			x: 22.5d
-			y: 2.0d
+			x: -9.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["70CAF2F06F431D66"]
@@ -717,8 +717,8 @@
 				title: "建造你的第一台蒸汽机"
 				type: "checkmark"
 			}]
-			x: 33.0d
-			y: 9.5d
+			x: 1.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["7AD1EC62E81E6964"]
@@ -728,8 +728,8 @@
 				item: "create:copper_casing"
 				type: "item"
 			}]
-			x: 36.0d
-			y: 3.5d
+			x: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7AD1EC62E81E6964"]
@@ -740,8 +740,8 @@
 				item: "create:copper_sheet"
 				type: "item"
 			}]
-			x: 39.0d
-			y: 2.0d
+			x: 7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -754,8 +754,8 @@
 				item: "create:spout"
 				type: "item"
 			}]
-			x: 34.5d
-			y: 3.5d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -768,8 +768,8 @@
 				item: "create:fluid_pipe"
 				type: "item"
 			}]
-			x: 39.0d
-			y: 3.5d
+			x: 7.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2565AA512F1494B1"]
@@ -779,8 +779,8 @@
 				item: "create:item_drain"
 				type: "item"
 			}]
-			x: 34.5d
-			y: 6.5d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2565AA512F1494B1"]
@@ -790,8 +790,8 @@
 				item: "create:hose_pulley"
 				type: "item"
 			}]
-			x: 36.0d
-			y: 6.5d
+			x: 4.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6365710991E18101"]
@@ -801,8 +801,8 @@
 				item: "create:fluid_tank"
 				type: "item"
 			}]
-			x: 40.5d
-			y: 3.5d
+			x: 9.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["715525F4018D0FFD"]
@@ -812,8 +812,8 @@
 				item: "create:mechanical_pump"
 				type: "item"
 			}]
-			x: 39.0d
-			y: 6.5d
+			x: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["715525F4018D0FFD"]
@@ -830,8 +830,8 @@
 					type: "item"
 				}
 			]
-			x: 40.5d
-			y: 5.0d
+			x: 9.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["715525F4018D0FFD"]
@@ -841,8 +841,8 @@
 				item: "create:smart_fluid_pipe"
 				type: "item"
 			}]
-			x: 40.5d
-			y: 6.5d
+			x: 9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -890,8 +890,8 @@
 				}
 			]
 			title: "小Tips"
-			x: 36.0d
-			y: 9.5d
+			x: 4.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["3F3E0AFE8A2F054F"]
@@ -902,8 +902,8 @@
 				type: "item"
 			}]
 			title: "黄铜时代"
-			x: 40.5d
-			y: 12.5d
+			x: 9.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["3F3E0AFE8A2F054F"]
@@ -939,8 +939,8 @@
 				}
 			]
 			title: "这不是黄铜镐……等等，你是谁？"
-			x: 39.0d
-			y: 11.0d
+			x: 7.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["6348F503BE4D481D"]
@@ -955,8 +955,8 @@
 				type: "item"
 			}]
 			title: "碾碎他们"
-			x: 28.5d
-			y: 8.0d
+			x: -3.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["1E64227C3B881C22"]
@@ -968,8 +968,8 @@
 				type: "item"
 			}]
 			title: "绿油油的"
-			x: 27.0d
-			y: 9.5d
+			x: -4.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["1ABA9FC6BC3C3796"]
@@ -988,8 +988,8 @@
 				type: "item"
 			}]
 			title: "面团"
-			x: 25.5d
-			y: 8.0d
+			x: -6.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -1007,8 +1007,8 @@
 				item: "minecraft:slime_ball"
 				type: "item"
 			}]
-			x: 25.5d
-			y: 9.5d
+			x: -6.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["1E64227C3B881C22"]
@@ -1020,8 +1020,8 @@
 				type: "item"
 			}]
 			title: "面粉"
-			x: 27.0d
-			y: 8.0d
+			x: -4.5d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -1036,8 +1036,8 @@
 				title: "真正的开始"
 				type: "checkmark"
 			}]
-			x: 30.0d
-			y: 19.0d
+			x: -1.5d
+			y: 20.5d
 		}
 		{
 			dependencies: ["4D0A14AFE96116EE"]
@@ -1049,8 +1049,8 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: 30.0d
-			y: 23.0d
+			x: -1.5d
+			y: 24.5d
 		}
 		{
 			dependencies: ["3CFA7DD8072CF1E2"]
@@ -1074,8 +1074,8 @@
 				}
 				type: "item"
 			}]
-			x: 25.5d
-			y: 11.0d
+			x: -6.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["441659AB8FACB014"]
@@ -1108,8 +1108,8 @@
 				}
 			]
 			title: "工作元件"
-			x: 26.5d
-			y: 21.0d
+			x: -5.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["441659AB8FACB014"]
@@ -1119,8 +1119,8 @@
 				title: "红石控制"
 				type: "checkmark"
 			}]
-			x: 26.5d
-			y: 25.0d
+			x: -5.0d
+			y: 26.5d
 		}
 		{
 			dependencies: ["441659AB8FACB014"]
@@ -1130,8 +1130,8 @@
 				title: "物流系统"
 				type: "checkmark"
 			}]
-			x: 33.5d
-			y: 25.0d
+			x: 2.0d
+			y: 26.5d
 		}
 		{
 			dependencies: ["441659AB8FACB014"]
@@ -1149,8 +1149,8 @@
 				}
 			]
 			title: "动态结构"
-			x: 33.5d
-			y: 21.0d
+			x: 2.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["441659AB8FACB014"]
@@ -1160,8 +1160,8 @@
 				title: "蓝图系统"
 				type: "checkmark"
 			}]
-			x: 22.5d
-			y: 23.0d
+			x: -9.0d
+			y: 24.5d
 		}
 		{
 			dependencies: [
@@ -1184,8 +1184,8 @@
 				}
 			]
 			title: "汽笛轰鸣"
-			x: 37.5d
-			y: 23.0d
+			x: 6.0d
+			y: 24.5d
 		}
 		{
 			dependencies: ["441659AB8FACB014"]
@@ -1197,8 +1197,8 @@
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			x: 30.0d
-			y: 27.0d
+			x: -1.5d
+			y: 28.5d
 		}
 		{
 			dependencies: ["377A792BA9C60871"]
@@ -1209,8 +1209,8 @@
 				item: "create:rotation_speed_controller"
 				type: "item"
 			}]
-			x: 31.5d
-			y: 28.0d
+			x: 0.0d
+			y: 29.5d
 		}
 		{
 			dependencies: ["377A792BA9C60871"]
@@ -1220,8 +1220,8 @@
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			x: 28.5d
-			y: 28.0d
+			x: -3.0d
+			y: 29.5d
 		}
 		{
 			dependencies: ["7960D97A6163B412"]
@@ -1252,8 +1252,8 @@
 				}
 			]
 			title: "批量处理"
-			x: 30.0d
-			y: 17.0d
+			x: -1.5d
+			y: 18.5d
 		}
 		{
 			dependencies: ["76C9C94DDEF5ACF4"]
@@ -1271,8 +1271,8 @@
 					type: "item"
 				}
 			]
-			x: 27.0d
-			y: 5.0d
+			x: -4.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["5EB094CADCCBFC23"]
@@ -1283,8 +1283,8 @@
 				item: "create:blaze_cake"
 				type: "item"
 			}]
-			x: 34.5d
-			y: 5.0d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1D38E61DAE2F18F4"]
@@ -1329,8 +1329,8 @@
 				}
 			]
 			title: "更多钻头"
-			x: 24.5d
-			y: 21.0d
+			x: -7.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["457092707832BB87"]
@@ -1340,8 +1340,8 @@
 				item: "create:schematicannon"
 				type: "item"
 			}]
-			x: 20.5d
-			y: 23.0d
+			x: -11.0d
+			y: 24.5d
 		}
 		{
 			dependencies: ["457092707832BB87"]
@@ -1369,8 +1369,8 @@
 				}
 			]
 			title: "更多投影"
-			x: 21.5d
-			y: 24.5d
+			x: -10.0d
+			y: 26.0d
 		}
 		{
 			dependencies: ["457092707832BB87"]
@@ -1380,8 +1380,8 @@
 				item: "create:crafting_blueprint"
 				type: "item"
 			}]
-			x: 21.5d
-			y: 21.5d
+			x: -10.0d
+			y: 23.0d
 		}
 		{
 			dependencies: ["192E44857CF6D97E"]
@@ -1414,8 +1414,8 @@
 				}
 			]
 			title: "你是布线大师吗"
-			x: 24.5d
-			y: 25.0d
+			x: -7.0d
+			y: 26.5d
 		}
 		{
 			dependencies: ["192E44857CF6D97E"]
@@ -1438,8 +1438,8 @@
 				}
 			]
 			title: "更多侦测器"
-			x: 28.5d
-			y: 25.0d
+			x: -3.0d
+			y: 26.5d
 		}
 		{
 			dependencies: ["192E44857CF6D97E"]
@@ -1479,8 +1479,8 @@
 				}
 			]
 			title: "无线遥控"
-			x: 27.5d
-			y: 26.0d
+			x: -4.0d
+			y: 27.5d
 		}
 		{
 			dependencies: ["192E44857CF6D97E"]
@@ -1503,8 +1503,8 @@
 				}
 			]
 			title: "可视化"
-			x: 25.5d
-			y: 24.0d
+			x: -6.0d
+			y: 25.5d
 		}
 		{
 			dependencies: ["192E44857CF6D97E"]
@@ -1532,8 +1532,8 @@
 				}
 			]
 			title: "操纵应力"
-			x: 26.5d
-			y: 27.0d
+			x: -5.0d
+			y: 28.5d
 		}
 		{
 			dependencies: ["368CA8E2BC9E7C34"]
@@ -1543,8 +1543,8 @@
 				item: "create:andesite_scaffolding"
 				type: "item"
 			}]
-			x: 28.5d
-			y: 3.5d
+			x: -3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["377A792BA9C60871"]
@@ -1589,8 +1589,8 @@
 				}
 			]
 			title: "小玩具"
-			x: 29.0d
-			y: 29.5d
+			x: -2.5d
+			y: 31.0d
 		}
 		{
 			dependencies: ["377A792BA9C60871"]
@@ -1602,8 +1602,8 @@
 				type: "item"
 			}]
 			title: "模组服略有失重感"
-			x: 31.0d
-			y: 29.5d
+			x: -0.5d
+			y: 31.0d
 		}
 		{
 			dependencies: ["3CFA7DD8072CF1E2"]
@@ -1614,8 +1614,8 @@
 				item: "create:sticker"
 				type: "item"
 			}]
-			x: 24.0d
-			y: 9.5d
+			x: -7.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["1D38E61DAE2F18F4"]
@@ -1661,8 +1661,8 @@
 				}
 			]
 			title: "学生卡"
-			x: 26.5d
-			y: 19.0d
+			x: -5.0d
+			y: 20.5d
 		}
 		{
 			dependencies: ["14D0CF503E4623CE"]
@@ -1700,8 +1700,8 @@
 				}
 			]
 			title: "物流时代"
-			x: 35.5d
-			y: 25.0d
+			x: 4.0d
+			y: 26.5d
 		}
 		{
 			dependencies: ["14D0CF503E4623CE"]
@@ -1718,8 +1718,8 @@
 					type: "item"
 				}
 			]
-			x: 31.5d
-			y: 25.0d
+			x: 0.0d
+			y: 26.5d
 		}
 		{
 			dependencies: ["14D0CF503E4623CE"]
@@ -1736,8 +1736,8 @@
 					type: "item"
 				}
 			]
-			x: 32.5d
-			y: 26.5d
+			x: 1.0d
+			y: 28.0d
 		}
 		{
 			dependencies: ["14D0CF503E4623CE"]
@@ -1747,8 +1747,8 @@
 				item: "create:item_vault"
 				type: "item"
 			}]
-			x: 34.5d
-			y: 26.5d
+			x: 3.0d
+			y: 28.0d
 		}
 		{
 			dependencies: ["4EEBEF0D4102892B"]
@@ -1774,8 +1774,8 @@
 				}
 			]
 			title: "动力活塞"
-			x: 33.5d
-			y: 19.0d
+			x: 2.0d
+			y: 20.5d
 		}
 		{
 			dependencies: ["4EEBEF0D4102892B"]
@@ -1794,8 +1794,8 @@
 				}
 			]
 			title: "轴承"
-			x: 31.5d
-			y: 21.0d
+			x: 0.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["4EEBEF0D4102892B"]
@@ -1814,8 +1814,8 @@
 				}
 			]
 			title: "绳索滑轮"
-			x: 32.0d
-			y: 19.5d
+			x: 0.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["4EEBEF0D4102892B"]
@@ -1839,8 +1839,8 @@
 				}
 			]
 			title: "矿车"
-			x: 35.0d
-			y: 19.5d
+			x: 3.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["7CF5FDD7D87F72CD"]
@@ -1857,8 +1857,8 @@
 					type: "item"
 				}
 			]
-			x: 43.5d
-			y: 12.5d
+			x: 12.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["3FBE7415DA61DA8B"]
@@ -1868,8 +1868,8 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: 43.5d
-			y: 15.0d
+			x: 12.0d
+			y: 16.5d
 		}
 		{
 			dependencies: [
@@ -1883,8 +1883,8 @@
 				item: "balancedflight:ascended_flight_ring"
 				type: "item"
 			}]
-			x: 45.0d
-			y: 11.0d
+			x: 13.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["3FBE7415DA61DA8B"]
@@ -1894,8 +1894,8 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: 42.0d
-			y: 11.0d
+			x: 10.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["77102693683E4D96"]
@@ -1909,8 +1909,8 @@
 				type: "item"
 			}]
 			title: "来点更硬的"
-			x: 43.5d
-			y: 2.0d
+			x: 12.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["302FF52DFFBFC593"]
@@ -1920,8 +1920,8 @@
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			x: 43.5d
-			y: 9.5d
+			x: 12.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -1941,8 +1941,8 @@
 				}
 				type: "item"
 			}]
-			x: 40.5d
-			y: 9.5d
+			x: 9.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -1956,8 +1956,8 @@
 				item: "createutilities:void_steel_ingot"
 				type: "item"
 			}]
-			x: 46.5d
-			y: 6.5d
+			x: 15.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["77102693683E4D96"]
@@ -1969,8 +1969,8 @@
 				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
-			x: 46.5d
-			y: 2.0d
+			x: 15.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4536A571975F7465"]
@@ -1980,8 +1980,8 @@
 				item: "createutilities:void_steel_sheet"
 				type: "item"
 			}]
-			x: 46.5d
-			y: 9.5d
+			x: 15.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["77102693683E4D96"]
@@ -1994,8 +1994,8 @@
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
-			x: 49.5d
-			y: 2.0d
+			x: 18.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["421E950D9B12E876"]
@@ -2005,8 +2005,8 @@
 				item: "createutilities:polished_amethyst"
 				type: "item"
 			}]
-			x: 49.5d
-			y: 6.5d
+			x: 18.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -2027,8 +2027,8 @@
 				}
 			]
 			title: "虚空时代"
-			x: 49.5d
-			y: 9.5d
+			x: 18.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["2D45F7A94972E66D"]
@@ -2056,8 +2056,8 @@
 					type: "item"
 				}
 			]
-			x: 46.5d
-			y: 12.5d
+			x: 15.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["683C407813E1E26F"]
@@ -2067,8 +2067,8 @@
 				item: "create:powdered_obsidian"
 				type: "item"
 			}]
-			x: 42.0d
-			y: 17.0d
+			x: 10.5d
+			y: 18.5d
 		}
 		{
 			dependencies: ["2DEAB5024710248C"]
@@ -2078,8 +2078,8 @@
 				item: "create:sturdy_sheet"
 				type: "item"
 			}]
-			x: 40.5d
-			y: 19.0d
+			x: 9.0d
+			y: 20.5d
 		}
 		{
 			dependencies: ["4EEBEF0D4102892B"]
@@ -2098,8 +2098,8 @@
 				}
 			]
 			title: "起重机"
-			x: 35.5d
-			y: 21.0d
+			x: 4.0d
+			y: 22.5d
 		}
 		{
 			dependencies: [
@@ -2113,8 +2113,8 @@
 				title: "批量处理机"
 				type: "checkmark"
 			}]
-			x: 31.5d
-			y: 17.0d
+			x: 0.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["7B484370EAEBC8EC"]
@@ -2148,8 +2148,8 @@
 				}
 			]
 			title: "更方便的传动"
-			x: 25.5d
-			y: 5.0d
+			x: -6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["338018BA42955654"]
@@ -2167,8 +2167,8 @@
 					type: "item"
 				}
 			]
-			x: 35.5d
-			y: 28.0d
+			x: 4.0d
+			y: 29.5d
 		}
 		{
 			dependencies: ["192E44857CF6D97E"]
@@ -2179,8 +2179,8 @@
 				title: "掌控你的应力"
 				type: "checkmark"
 			}]
-			x: 24.5d
-			y: 27.0d
+			x: -7.0d
+			y: 28.5d
 		}
 		{
 			dependencies: ["10FFF70BC5F48B23"]
@@ -2208,8 +2208,8 @@
 				}
 			]
 			title: "更多离合器"
-			x: 23.5d
-			y: 28.5d
+			x: -8.0d
+			y: 30.0d
 		}
 		{
 			dependencies: ["192AC79F5199E634"]
@@ -2230,8 +2230,8 @@
 				}
 			]
 			title: "更好的十字齿轮箱"
-			x: 33.5d
-			y: 28.0d
+			x: 2.0d
+			y: 29.5d
 		}
 		{
 			dependencies: ["10FFF70BC5F48B23"]
@@ -2242,8 +2242,8 @@
 				item: "create_connected:brake"
 				type: "item"
 			}]
-			x: 22.5d
-			y: 27.0d
+			x: -9.0d
+			y: 28.5d
 		}
 		{
 			dependencies: ["10FFF70BC5F48B23"]
@@ -2261,8 +2261,8 @@
 				}
 			]
 			title: "更多红石控制"
-			x: 25.5d
-			y: 28.5d
+			x: -6.0d
+			y: 30.0d
 		}
 		{
 			dependencies: [
@@ -2287,8 +2287,8 @@
 				}
 			]
 			title: "管理存储"
-			x: 36.5d
-			y: 26.5d
+			x: 5.0d
+			y: 28.0d
 		}
 		{
 			dependencies: ["690E79C0EBD77B76"]
@@ -2352,8 +2352,8 @@
 				}
 			]
 			title: "组装列车"
-			x: 40.5d
-			y: 23.0d
+			x: 9.0d
+			y: 24.5d
 		}
 		{
 			dependencies: ["7441511CE448C78C"]
@@ -2415,8 +2415,8 @@
 					type: "item"
 				}
 			]
-			x: 43.5d
-			y: 23.0d
+			x: 12.0d
+			y: 24.5d
 		}
 		{
 			dependencies: ["0EBD1283D2D956B1"]
@@ -2445,8 +2445,8 @@
 				}
 			]
 			title: "预制菜"
-			x: 36.0d
-			y: 15.5d
+			x: 4.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["2565AA512F1494B1"]
@@ -2484,8 +2484,8 @@
 					type: "item"
 				}
 			]
-			x: 34.5d
-			y: 8.0d
+			x: 3.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["337274C3A2F18DAE"]
@@ -2502,8 +2502,8 @@
 				type: "item"
 			}]
 			title: "龙息加工"
-			x: 28.5d
-			y: 17.0d
+			x: -3.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["38BD2B221B2A11E7"]
@@ -2521,8 +2521,8 @@
 					type: "item"
 				}
 			]
-			x: 46.0d
-			y: 23.0d
+			x: 14.5d
+			y: 24.5d
 		}
 	]
 	title: "&e新手机械师"

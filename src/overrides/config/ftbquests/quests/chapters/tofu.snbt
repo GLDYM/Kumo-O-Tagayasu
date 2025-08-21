@@ -90,7 +90,7 @@
 			rewards: [{
 				count: 4
 				id: "1A15F322463AF901"
-				item: "youkaishomecoming:tofu"
+				item: "tofucraft:tofumomen"
 				type: "item"
 			}]
 			tasks: [{
@@ -130,7 +130,7 @@
 			rewards: [{
 				count: 16
 				id: "1027E93A3FF179A8"
-				item: "youkaishomecoming:tofu"
+				item: "tofucraft:tofumomen"
 				type: "item"
 			}]
 			tasks: [{

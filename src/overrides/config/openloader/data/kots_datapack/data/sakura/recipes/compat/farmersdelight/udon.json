@@ -1,0 +1,30 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "farmersdelight",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+		  "type": "farmersdelight:cutting",
+		  "ingredients": [
+			{
+			  "item": "sakura:udon_block"
+			}
+		  ],
+		  "tool": {
+			"tag": "sakura:tools/knives/noodle"
+		  },
+		  "result": [
+			{
+			  "item": "sakura:udon_raw",
+			  "count": 2
+			}
+		  ]
+      }
+    }
+  ]
+}

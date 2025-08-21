@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:structure_void"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "item": "minecraft:structure_void"
+    }
+}

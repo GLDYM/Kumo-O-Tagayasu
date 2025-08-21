@@ -93,6 +93,28 @@
 <tag:items:minecraft:mangrove_logs>.add(<item:bloomingnature:swamp_cypress_log>);
 <tag:items:minecraft:mangrove_logs>.add(<item:bloomingnature:swamp_cypress_wood>);
 
+<tag:items:forge:stripped_logs>.add(<item:autumnity:stripped_maple_log>);
+<tag:items:forge:stripped_logs>.add(<item:autumnity:stripped_maple_wood>);
+<tag:items:forge:stripped_logs>.add(<item:autumnity:sappy_maple_wood>);
+<tag:items:forge:stripped_logs>.add(<item:autumnity:sappy_maple_log>);
+<tag:items:forge:stripped_logs>.add(<item:caverns_and_chasms:stripped_azalea_log>);
+<tag:items:forge:stripped_logs>.add(<item:caverns_and_chasms:stripped_azalea_wood>);
+<tag:items:forge:stripped_logs>.add(<item:endergetic:stripped_poise_stem>);
+<tag:items:forge:stripped_logs>.add(<item:endergetic:stripped_poise_wood>);
+<tag:items:forge:stripped_logs>.add(<item:upgrade_aquatic:stripped_driftwood_log>);
+<tag:items:forge:stripped_logs>.add(<item:upgrade_aquatic:stripped_driftwood>);
+<tag:items:forge:stripped_logs>.add(<item:upgrade_aquatic:stripped_river_log>);
+<tag:items:forge:stripped_logs>.add(<item:upgrade_aquatic:stripped_river_wood>);
+<tag:items:forge:stripped_logs>.add(<item:immortalers_delight:stripped_himekaido_wood>);
+<tag:items:forge:stripped_logs>.add(<item:immortalers_delight:stripped_himekaido_log>);
+<tag:items:forge:stripped_logs>.add(<item:immortalers_delight:stripped_ancient_wood_log>);
+<tag:items:forge:stripped_logs>.add(<item:immortalers_delight:stripped_ancient_wood>);
+
+<tag:items:forge:stripped_logs>.add(<item:sakura:stripped_sakura_log>);
+<tag:items:forge:stripped_logs>.add(<item:sakura:stripped_sakura_wood>);
+<tag:items:forge:stripped_logs>.add(<item:sakura:stripped_maple_log>);
+<tag:items:forge:stripped_logs>.add(<item:sakura:stripped_maple_wood>);
+
 # 蘑菇
 <tag:items:c:mushrooms>.add(<item:tofucraft:zundatofu_mushroom>);
 <tag:items:forge:mushrooms>.add(<item:tofucraft:zundatofu_mushroom>);
@@ -726,9 +748,9 @@
 <tag:items:c:raw_fish>.add(<item:youkaishomecoming:raw_lamprey_fillet>);
 <tag:items:forge:meats>.add(<item:youkaishomecoming:raw_lamprey_fillet>);
 <tag:items:minecraft:is_meat>.add(<item:youkaishomecoming:raw_lamprey_fillet>);
-<tag:items:minecraft:fishes>.add(<item:youkaisfeasts:raw_lamprey_fillet>);
-<tag:items:forge:raw_fishes>.add(<item:youkaisfeasts:raw_lamprey_fillet>);
-<tag:items:c:raw_fish>.add(<item:youkaisfeasts:raw_lamprey_fillet>);
+<tag:items:minecraft:fishes>.add(<item:youkaishomecoming:raw_lamprey_fillet>);
+<tag:items:forge:raw_fishes>.add(<item:youkaishomecoming:raw_lamprey_fillet>);
+<tag:items:c:raw_fish>.add(<item:youkaishomecoming:raw_lamprey_fillet>);
 <tag:items:forge:meats>.add(<item:youkaishomecoming:roasted_lamprey_fillet>);
 <tag:items:minecraft:is_meat>.add(<item:youkaishomecoming:roasted_lamprey_fillet>);
 <tag:items:minecraft:fishes>.add(<item:youkaishomecoming:roasted_lamprey_fillet>);
@@ -1021,8 +1043,8 @@
 <tag:items:the_bumblezone:crystalline_flower/cannot_consume>.add(<tag:items:spelunkery:nuggets>);
 <tag:items:the_bumblezone:crystalline_flower/cannot_consume>.add(<tag:items:forge:nuggets>);
 <tag:items:the_bumblezone:crystalline_flower/cannot_consume>.add(<tag:items:minecraft:slabs>);
-<tag:items:the_bumblezone:crystalline_flower/cannot_consume>.add(<tag:items:minecraft:ice>);
 <tag:items:the_bumblezone:crystalline_flower/cannot_consume>.add(<tag:items:forge:glass_panes>);
+<tag:items:the_bumblezone:crystalline_flower/cannot_consume>.add(<item:minecraft:ice>);
 <tag:items:the_bumblezone:crystalline_flower/cannot_consume>.add(<item:cuisinedelight:plate>);
 <tag:items:the_bumblezone:crystalline_flower/cannot_consume>.add(<item:irons_spellbooks:blood_vial>);
 <tag:items:supplementaries:shulker_blacklist>.add(<item:the_bumblezone:crystalline_flower>);

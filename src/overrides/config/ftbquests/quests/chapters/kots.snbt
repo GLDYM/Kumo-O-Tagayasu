@@ -165,6 +165,8 @@
 				"由于不同人的习惯不同，尽管已经尽量消除了按键重叠，请依然调整一下键位。"
 				""
 				"你可以按下&2 F9 &r来快速查看并调整某个键位对应的功能。"
+				""
+				"投影的&2 M &r键均替换为了&2 , &r键。"
 			]
 			icon: "createdeco:decal_up"
 			id: "78A51FD4EF36DBB8"
@@ -255,6 +257,11 @@
 		}
 		{
 			dependencies: ["0B601BCA41EB2F50"]
+			description: [
+				"在背包的左上角可以打开日历，右键相应日期领取签到奖励。"
+				""
+				"&e[WARN]&b领取签到奖励时有 50% 概率原地生成一只宝箱怪，请在保证自身安全时领取奖励。"
+			]
 			icon: "minecraft:cherry_leaves"
 			id: "11F285DA4FAB8F4D"
 			size: 3.0d

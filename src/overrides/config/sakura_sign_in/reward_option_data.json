@@ -9,11 +9,10 @@
       }
     },
     {
-      "type": "ITEM",
-      "probability": 1,
+      "type": "COMMAND",
+      "probability": 0.5,
       "content": {
-        "item": "l2complements:eternium_nugget",
-        "count": 1
+        "command": "/execute at @p run summon artifacts:mimic"
       }
     }
   ],
@@ -512,16 +511,6 @@
       }
     ]
   },
-  "randomRewards": {
-    "0.25": [
-      {
-        "type": "COMMAND",
-        "probability": 1,
-        "content": {
-          "command": "/summon artifacts:minic ~ ~ ~"
-        }
-      }
-    ]
-  },
+  "randomRewards": {},
   "cdkRewards": []
 }

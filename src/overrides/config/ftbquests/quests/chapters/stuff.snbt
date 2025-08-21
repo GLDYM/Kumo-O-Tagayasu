@@ -283,7 +283,7 @@
 			description: [
 				"在地下会生成营地，营地内的箱子有概率被替换为宝箱怪，击杀宝箱怪即可获得很多有用的饰品。"
 				""
-				"签到时也有 25% 直接刷一只宝箱怪出来。"
+				"&e[WARN]&b领取签到奖励时有 50% 概率原地生成一只宝箱怪。"
 			]
 			hide_until_deps_complete: true
 			icon: "artifacts:mimic_spawn_egg"
@@ -302,6 +302,29 @@
 			title: "奇异饰品"
 			x: 0.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: [
+				"@cosmosportals"
+				""
+				"在地下挖掘到宇宙的秘密，制作维度记录器记录维度与位置，并通过搭建传送门以快速到达其他维度。"
+			]
+			id: "772A86A6B98C03D9"
+			rewards: [{
+				id: "69E35A11A9BAAE7A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "603C44833D8E262A"
+				item: "cosmosportals:block_portal_dock_upgraded"
+				type: "item"
+			}]
+			title: "宇宙传送门"
+			x: 0.0d
+			y: 4.0d
 		}
 	]
 	title: "&e实用模组介绍 "

@@ -2,7 +2,7 @@
   "game": "minecraft",
   "formatVersion": 1,
   "versionId": "5.3.0",
-  "name": "Kumo O Tagayasu Client PArt",
+  "name": "Kumo O Tagayasu Client Part",
   "summary": "",
   "files": [
     {
@@ -16,7 +16,7 @@
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/5CTSrY8X/versions/mMc55fB1/2GPUTape-1.18x-1.21x-1.0.5.1.jar"
+        "https://cdn.modrinth.com/data/5CTSrY8X/versions/mMc55fB1/GPUTape-1.18x-1.21x-1.0.5.1.jar"
       ],
       "fileSize": 20295
     },
@@ -336,6 +336,21 @@
       "fileSize": 241482
     },
     {
+      "path": "mods/2ProPlacer-v8.0.3-1.20.1-Forge.jar",
+      "hashes": {
+        "sha512": "5180dc6cab1efbdedd71f38953cfe6b5f0cf9dfe359cafd434ab70b711c473d3ef4e1dc51f5903c909d87e4e8d31affcd31bfea54f85a23afb0099c85faeeffa",
+        "sha1": "18913e0d25348fc142aec252bc17004eb897e6ad"
+      },
+      "env": {
+        "server": "unsupported",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/LhK0LkWd/versions/nAAkM9HI/ProPlacer-v8.0.3-1.20.1-Forge.jar"
+      ],
+      "fileSize": 63234
+    },
+    {
       "path": "mods/2Forgematica-0.1.13-mc1.20.1.jar",
       "hashes": {
         "sha1": "d235d2ac0ce0143425d4d1e3d9a32d32fc994a93",
@@ -649,6 +664,21 @@
         "https://cdn.modrinth.com/data/GchcoXML/versions/iQ1SwGc3/oculus-mc1.20.1-1.8.0.jar"
       ],
       "fileSize": 2851119
+    },
+    {
+      "path": "mods/2clientsort-forge-2.0.0-beta.12+1.20.1.jar",
+      "hashes": {
+        "sha512": "ab4d4b1e9d34270f2213c41e9feb2e1a6e0c2dec0f4f14d1b3ad69b3a5f5d7f7d3148db21ab5485a515ca5d50d66adc3584f2b4dc0ae20dd108fbec95b30d0a1",
+        "sha1": "e935e7d00c419c6b60cbf51cb5aac98e86017ce1"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/K0AkAin6/versions/qJYjGx9p/clientsort-forge-2.0.0-beta.12%2B1.20.1.jar"
+      ],
+      "fileSize": 435380
     }
   ],
   "dependencies": {
