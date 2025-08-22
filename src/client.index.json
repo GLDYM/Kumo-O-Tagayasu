@@ -186,6 +186,21 @@
       "fileSize": 521709
     },
     {
+      "path": "mods/2flerovium-forge-1.20.1-1.2.15-all.jar",
+      "hashes": {
+        "sha512": "dd464cc3c16d6c83513d3c363f42b8a68058d299fe60916ea8fd957060ff28a65eb059ece4d89e5945b29bb5b1b5babe0c3c160d945501317d0e5f034c27cad6",
+        "sha1": "bdddd8b5b32c3efe38c7e8cda654e6382eb4d817"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/4Rh1Mobu/versions/hLjmp0IN/flerovium-forge-1.20.1-1.2.15-all.jar"
+      ],
+      "fileSize": 232403
+    },
+    {
       "path": "mods/2chat_heads-0.13.18-forge-1.20.jar",
       "hashes": {
         "sha512": "626e418bfab8262970533f790b76257d366b4f6ca595255dd6f6b09ba874bfcdcfad90d1a4136144efc5406c7313a7defef5e8787284ead276f7a52b4d9e5db1",

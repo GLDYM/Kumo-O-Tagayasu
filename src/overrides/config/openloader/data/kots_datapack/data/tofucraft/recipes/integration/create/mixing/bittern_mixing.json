@@ -1,0 +1,31 @@
+{
+  "_comment":"Oriun Tagayasu modpack(Shortname:OTSU) file comments, It acts to preserve the original modpack author(TskimiSeiran) information. According to the Oriun Tagayasu modpack usage agreement, users are allowed to create and distribute on the basis of Oriun Tagayasu modpack, but the original modpack author information must be retained. Oriun Tagayasu modpack is free for users to download, if you spend real money in somewhere and download Oriun Tagayasu modpack, please avoid seller!",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "amount": 1000,
+      "fluid": "minecraft:water"
+    },
+    {
+      "tag": "forge:salt",
+      "count": 1
+    },
+    {
+      "item": "minecraft:bone_meal",
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "fluid": "tofucraft:bittern",
+      "amount": 500
+    }
+  ],
+  "heatRequirement": "heated"
+}

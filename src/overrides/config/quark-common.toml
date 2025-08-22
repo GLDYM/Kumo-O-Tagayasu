@@ -7,7 +7,7 @@
 	#Allowed values: (0,)
 	"Advancement Visibility Depth" = 2
 	#Blocks that Quark should treat as Shulker Boxes.
-	"Shulker Boxes" = ["minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box"]
+	"Shulker Boxes" = ["minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box", "functionalstorage:oak_1", "functionalstorage:oak_2", "functionalstorage:oak_4", "functionalstorage:spruce_1", "functionalstorage:spruce_2", "functionalstorage:spruce_4", "functionalstorage:birch_1", "functionalstorage:birch_2", "functionalstorage:birch_4", "functionalstorage:jungle_1", "functionalstorage:jungle_2", "functionalstorage:jungle_4", "functionalstorage:acacia_1", "functionalstorage:acacia_2", "functionalstorage:acacia_4", "functionalstorage:dark_oak_1", "functionalstorage:dark_oak_2", "functionalstorage:dark_oak_4", "functionalstorage:crimson_1", "functionalstorage:crimson_2", "functionalstorage:crimson_4", "functionalstorage:warped_1", "functionalstorage:warped_2", "functionalstorage:warped_4", "functionalstorage:mangrove_1", "functionalstorage:mangrove_2", "functionalstorage:mangrove_4", "functionalstorage:cherry_1", "functionalstorage:cherry_2", "functionalstorage:cherry_4", "functionalstorage:framed_1", "functionalstorage:framed_2", "functionalstorage:framed_4", "functionalstorage:fluid_1", "functionalstorage:fluid_2", "functionalstorage:fluid_4", "functionalstorage:ender_drawer", "functionalstorage:compacting_drawer", "functionalstorage:compacting_framed_drawer", "functionalstorage:simple_compacting_drawer", "functionalstorage:armory_cabinet", "create:white_toolbox", "create:orange_toolbox", "create:magenta_toolbox", "create:light_blue_toolbox", "create:yellow_toolbox", "create:lime_toolbox", "create:pink_toolbox", "create:gray_toolbox", "create:light_gray_toolbox", "create:cyan_toolbox", "create:purple_toolbox", "create:blue_toolbox", "create:brown_toolbox", "create:green_toolbox", "create:red_toolbox", "create:black_toolbox", "supplementaries:sack", "furnish:oak_crate", "furnish:spruce_crate", "furnish:birch_crate", "furnish:jungle_crate", "furnish:acacia_crate", "furnish:dark_oak_crate", "furnish:crimson_crate", "furnish:warped_crate", "furnish:mangrove_crate", "furnish:bamboo_crate", "furnish:cherry_crate"]
 	#Should Quark treat anything with 'shulker_box' in its item identifier as a shulker box?
 	"Interpret Shulker Box Like Blocks" = true
 	#Set to true if you need to find the class name for a screen that's causing problems
@@ -17,7 +17,7 @@
 	#If set to true, the 'Allowed Screens' option will work as a Blacklist rather than a Whitelist. WARNING: Use at your own risk as some mods may not support this.
 	"Use Screen List Blacklist" = false
 	#If 'true' and TerraBlender is present, Quark will add a TerraBlender region. The region will contain vanilla biomes and the Glimmering Weald.
-	"Terrablender Add Region" = false
+	"Terrablender Add Region" = true
 	#Quark will set this weight for its TerraBlender region.
 	"Terrablender Region Weight" = 1
 	#If 'true', Quark will modify the `minecraft:overworld` MultiNoiseBiomeSourceParameterList preset, even when Terrablender is installed.
@@ -39,15 +39,15 @@
 		"Middle Y" = 0
 
 [categories]
-	automation = false
+	automation = true
 	building = true
 	management = true
 	tools = true
 	tweaks = true
-	world = false
+	world = true
 	mobs = true
 	client = true
-	experimental = false
+	experimental = true
 	oddities = true
 
 [automation]
@@ -157,14 +157,14 @@
 		"Enable Charcoal Block" = true
 		"Enable Sugar Cane Block" = true
 		"Enable Cactus Block" = true
-		"Enable Chorus Fruit Block" = true
+		"Enable Chorus Fruit Block" = false
 		"Enable Stick Block" = true
-		"Enable Apple Crate" = true
+		"Enable Apple Crate" = false
 		"Enable Golden Apple Crate" = true
-		"Enable Potato Crate" = true
-		"Enable Carrot Crate" = true
+		"Enable Potato Crate" = false
+		"Enable Carrot Crate" = false
 		"Enable Golden Carrot Crate" = true
-		"Enable Beetroot Crate" = true
+		"Enable Beetroot Crate" = false
 		"Enable Cocoa Bean Sack" = true
 		"Enable Nether Wart Sack" = true
 		"Enable Gunpowder Sack" = true
@@ -244,7 +244,7 @@
 		"Ignore Anti Overlap" = false
 
 	[building.variant_bookshelves]
-		"Change Names" = true
+		"Change Names" = false
 		#This feature disables itself if any of the following mods are loaded:
 		# - woodster
 		# - woodworks
@@ -264,7 +264,7 @@
 		"Ignore Anti Overlap" = false
 
 	[building.variant_ladders]
-		"Change Names" = true
+		"Change Names" = false
 		#This feature disables itself if any of the following mods are loaded:
 		# - woodster
 		# - woodworks
@@ -282,9 +282,9 @@
 		"Enable Pillar" = true
 
 [management]
-	"Automatic Tool Restock" = false
+	"Automatic Tool Restock" = true
 	"Easy Transfering" = false
-	"Expanded Item Interactions" = false
+	"Expanded Item Interactions" = true
 	"Hotbar Changer" = true
 	"Inventory Sorting" = false
 	"Item Sharing" = true
@@ -309,7 +309,7 @@
 		"Ignore Anti Overlap" = false
 
 	[management.easy_transfering]
-		"Enable Shift Lock" = true
+		"Enable Shift Lock" = false
 
 	[management.expanded_item_interactions]
 		"Enable Armor Interaction" = true
@@ -319,11 +319,11 @@
 		"Allow Rotating Bundles" = true
 
 	[management.inventory_sorting]
-		"Enable Player Inventory" = true
-		"Enable Player Inventory In Chests" = true
-		"Enable Chests" = true
+		"Enable Player Inventory" = false
+		"Enable Player Inventory In Chests" = false
+		"Enable Chests" = false
 		#Play a click when sorting inventories using keybindings
-		"Satisfying Click" = true
+		"Satisfying Click" = false
 
 	[management.item_sharing]
 		#In ticks.
@@ -378,9 +378,9 @@
 		"Deepslate Tweak" = true
 		"Deepslate Tweak Needs Haste2" = true
 		#Master Librarians will offer to exchange Ancient Tomes, provided you give them a max-level Enchanted Book of the Tome's enchantment too.
-		"Librarians Exchange Ancient Tomes" = true
+		"Librarians Exchange Ancient Tomes" = false
 		#Applying a tome will also randomly curse your item
-		"Curse Gear" = false
+		"Curse Gear" = true
 		#Allows combining tomes with normal books
 		"Combine With Books" = true
 		#Whether a sanity check is performed on the valid enchantments. If this is turned off, enchantments such as Silk Touch will be allowed to generate Ancient Tomes, if explicitly added to the Valid Enchantments.
@@ -512,7 +512,7 @@
 
 [tweaks]
 	"Armed Armor Stands" = true
-	"Automatic Recipe Unlock" = true
+	"Automatic Recipe Unlock" = false
 	"Better Elytra Rocket" = true
 	"Campfires Boost Elytra" = true
 	"Compasses Work Everywhere" = true
@@ -534,6 +534,7 @@
 	"Map Washing" = true
 	"More Banner Layers" = true
 	"More Note Block Sounds" = true
+	"More Villagers" = true
 	"No Durability On Cosmetics" = true
 	"Pat The Dogs" = true
 	"Petals On Water" = true
@@ -552,13 +553,12 @@
 	"Vexes Die With Their Masters" = true
 	"Villagers Follow Emeralds" = true
 	"Zombie Villagers On Normal" = true
-	"More Villagers" = true
 
 	[tweaks.automatic_recipe_unlock]
 		#A list of recipe names that should NOT be added in by default
 		"Ignored Recipes" = []
 		"Force Limited Crafting" = false
-		"Disable Recipe Book" = false
+		"Disable Recipe Book" = true
 		#If enabled, advancements granting recipes will be stopped from loading, potentially reducing the lagspike on first world join.
 		"Filter Recipe Advancements" = true
 		#This feature disables itself if any of the following mods are loaded:
@@ -631,7 +631,7 @@
 
 	[tweaks.hoe_harvesting]
 		#Allowed values: [1,5]
-		"Regular Hoe Radius" = 2
+		"Regular Hoe Radius" = 3
 		#Allowed values: [1,5]
 		"High Tier Hoe Radius" = 3
 
@@ -661,6 +661,10 @@
 
 	[tweaks.more_note_block_sounds]
 		"Enable Amethyst Sound" = true
+
+	[tweaks.more_villagers]
+		"Ocean Villager" = true
+		"Beach Villager" = true
 
 	[tweaks.no_durability_on_cosmetics]
 		#Allow applying cosmetic items such as color runes with no anvil durability usage? Cosmetic items are defined in the quark:cosmetic_anvil_items tag
@@ -760,10 +764,6 @@
 		"Easy Sticks" = true
 		#Can raw ore blocks be smelted, taking 9x the time a normal item?
 		"Smelt Raw Ore Blocks" = true
-
-	[tweaks.more_villagers]
-		"Ocean Villager" = true
-		"Beach Villager" = true
 
 [world]
 	"Ancient Wood" = true
@@ -1128,14 +1128,14 @@
 			Dimensions = ["minecraft:overworld"]
 
 	[world.fallen_logs]
+		#Percentage of fallen logs spawning as hollow. Requires Hollow Logs Module to be enabled
+		"Hollow Chance" = 0.7
 		Rarity = 5
+		#Chance for logs to spawn on water
+		"On Water Chance" = 0.1
 		"Sparse Biome Rarity" = 12
 		#Tags that define which biomes can have which wood types
 		"Biome Tags" = ["quark:has_fallen_acacia=minecraft:acacia_log", "quark:has_fallen_birch=minecraft:birch_log", "quark:has_fallen_cherry=minecraft:cherry_log", "quark:has_fallen_dark_oak=minecraft:dark_oak_log", "quark:has_fallen_jungle=minecraft:jungle_log", "quark:has_fallen_mangrove=minecraft:mangrove_log", "quark:has_fallen_oak=minecraft:oak_log", "quark:has_fallen_spruce=minecraft:spruce_log"]
-		#Percentage of fallen logs spawning as hollow. Requires Hollow Logs Module to be enabled
-		"Hollow Chance" = 0.7
-		#Chance for logs to spawn on water
-		"On Water Chance" = 0.1
 
 		[world.fallen_logs.dimensions]
 			"Is Blacklist" = false
@@ -1656,7 +1656,7 @@
 		"Enable Shiny Llama" = true
 		"Enable Shiny Dolphin" = true
 		"Enable Shiny Slime" = true
-		"Enable L G B T Bees" = true
+		"Enable L G B T Bees" = false
 		"Every Bee Is L G B T" = false
 		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
 		"Shiny Animal Chance" = 2048
@@ -1745,12 +1745,12 @@
 		"Disable Mushroom Block Removal" = true
 		#Makes tripwire hooks unable to be duplicated
 		"Disable Tripwire Hook Dupe" = true
-		"Non Griefing Entities" = ["minecraft:creeper", "minecraft:enderman"]
-		"Elytra Allowed Dimensions" = ["minecraft:the_end"]
 		#Makes villages spawn less often when close to spawn
 		"Village Spawn Nerf" = false
 		#Distance at which villages will spawn as normal. Effect scales linearly from world spawn
 		"Village Spawn Nerf Distance" = 7000
+		"Non Griefing Entities" = ["minecraft:creeper", "minecraft:enderman"]
+		"Elytra Allowed Dimensions" = ["minecraft:the_end"]
 
 	[experimental.overlay_shader]
 		#Sets the name of the shader to load on a regular basis. This can load any shader the Camera module can (and requires the Camera module enabled to apply said logic).
@@ -1788,7 +1788,7 @@
 			"Variant Types" = ["slab", "stairs", "wall", "fence", "fence_gate", "vertical_slab"]
 			#By default, only a mod's namespace is scanned for variants for its items (e.g. if coolmod adds coolmod:fun_block, it'll search only for coolmod:fun_block_stairs).
 			# Mods in this list are also scanned for variants if none are found in itself (e.g. if quark is in the list and coolmod:fun_block_stairs doesn't exist, it'll try to look for quark:fun_block_stairs next)
-			"Tested Mods" = ["quark"]
+			"Tested Mods" = ["quark", "everycomp", "v_slab_compat"]
 			"Print Variant Map To Log" = false
 			#Format is 'alias=original' in each value (e.g. 'wall=fence' means that a failed search for, minecraft:cobblestone_fence will try cobblestone_wall next)
 			Aliases = ["carpet=slab", "pane=fence"]
@@ -1849,6 +1849,8 @@
 		#Block/Item IDs to force-disable magnetism on, regardless of their crafting recipe
 		"Magnetic Blacklist" = ["minecraft:tripwire_hook", "minecraft:map"]
 		"Use Pre End Recipe" = false
+		#When true magnets will never push something that pistons cant push. Disable to have further control. This allows iron rods to break obsidian for example
+		"Use Piston Logic" = true
 		#Allows magnets to push and pull entities in the 'affected_by_magnets' tag (edit it with datapack). Turning off can reduce lag
 		"Affect Entities" = true
 		#Allows magnets to push and pull entities having magnetic armor. Requires 'magnetic_entities' config ON
@@ -1857,8 +1859,6 @@
 		"Entities Pull Force" = 0.18000000715255737
 		#Stonecutters pulled by magnets will silk touch the blocks they cut.
 		"Stone Cutter Silk Touch" = true
-		#When true magnets will never push something that pistons cant push. Disable to have further control. This allows iron rods to break obsidian for example
-		"Use Piston Logic" = true
 		#The maximum hardness of a block that a stonecutter pushed by magnets can cut through.
 		"Stone Cutter Max Hardness" = 3.0
 

@@ -1,40 +1,188 @@
 {
-  "fluidTransform": {},
+  "_comment":"Oriun Tagayasu modpack(Shortname:OTSU) file comments, It acts to preserve the original modpack author(TskimiSeiran) information. According to the Oriun Tagayasu modpack usage agreement, users are allowed to create and distribute on the basis of Oriun Tagayasu modpack, but the original modpack author information must be retained. Oriun Tagayasu modpack is free for users to download, if you spend real money in somewhere and download Oriun Tagayasu modpack, please avoid seller!",
+  "fluidTransform": {
+    "vintagedelight:pepper_jam_bottle": {
+      "color": -2007266
+    },
+    "vintagedelight:pepper_jam_jar": {
+      "color": -2007266
+    },
+    "vintagedelight:pepper_jam_mason_jar": {
+      "color": -2007266
+    },
+    "farmersdelight:tomato_sauce": {
+      "color": -3925425
+    },
+    "youkaisfeasts:soy_sauce_bottle": {
+      "color": -11267787
+    },
+    "tofucraft:bottle_soysause": {
+      "color": -11267787
+    }
+  },
   "itemTransform": {
-    "delightful:venison_chops": {
-      "next": "delightful:cooked_venison_chops",
+    "kaleidoscope_cookery:raw_pork_belly": {
+      "next": "kaleidoscope_cookery:cooked_pork_belly",
       "stage": "COOKED"
     },
-    "delightful:cactus_flesh": {
-      "next": "delightful:cactus_steak",
+    "kaleidoscope_cookery:raw_cow_offal": {
+      "next": "kaleidoscope_cookery:cooked_cow_offal",
+      "stage": "COOKED"
+    },
+    "trailandtales_delight:pitcher_taro": {
+      "next": "trailandtales_delight:cooked_pitcher_taro",
+      "stage": "COOKED"
+    },
+    "immortalers_delight:raw_sniffer_steak": {
+      "next": "immortalers_delight:cooked_sniffer_steak",
+      "stage": "COOKED"
+    },
+    "immortalers_delight:raw_sniffer_slice": {
+      "next": "immortalers_delight:cooked_sniffer_slice",
+      "stage": "COOKED"
+    },
+    "mynethersdelight:hoglin_loin": {
+      "next": "mynethersdelight:cooked_loin",
+      "stage": "COOKED"
+    },
+    "netherexp:hogham": {
+      "next": "netherexp:cooked_hogham",
+      "stage": "COOKED"
+    },
+    "tofucraft:blocktofukinu": {
+      "next": "tofucraft:blocktofugrilled",
+      "stage": "COOKED"
+    },
+    "tofucraft:blocktofumomen": {
+      "next": "tofucraft:blocktofugrilled",
+      "stage": "COOKED"
+    },
+    "neapolitan:mint_chops": {
+      "next": "neapolitan:cooked_mint_chops",
+      "stage": "COOKED"
+    },
+    "delightful:raw_goat": {
+      "next": "delightful:cooked_goat",
       "stage": "COOKED"
     },
     "youkaishomecoming:flesh": {
       "next": "youkaishomecoming:cooked_flesh",
       "stage": "COOKED"
     },
-    "casualness_delight:raw_donkey_meat": {
-      "next": "casualness_delight:cooked_donkey_meat",
+    "farm_and_charm:minced_beef": {
+      "next": "farmersdelight:beef_patty",
       "stage": "COOKED"
     },
-    "youkaishomecoming:raw_lamprey_fillet": {
-      "next": "youkaishomecoming:roasted_lamprey_fillet",
+    "farm_and_charm:chicken_parts": {
+      "next": "farmersdelight:cooked_chicken_cuts",
       "stage": "COOKED"
     },
-    "biomemakeover:bulbus_root": {
-      "next": "biomemakeover:roasted_bulbus_root",
+    "autumnity:turkey_piece": {
+      "next": "autumnity:cooked_turkey_piece",
       "stage": "COOKED"
     },
-    "quark:crab_leg": {
-      "next": "quark:cooked_crab_leg",
+    "biomemakeover:raw_toad": {
+      "next": "biomemakeover:cooked_toad",
+      "stage": "COOKED"
+    },
+    "tofucraft:soymeat": {
+      "next": "tofucraft:tofusteak",
+      "stage": "COOKED"
+    },
+    "tofucraft:tofuhamburg_raw": {
+      "next": "tofucraft:tofuhamburg",
+      "stage": "COOKED"
+    },
+    "upgrade_aquatic:pike": {
+      "next": "upgrade_aquatic:cooked_pike",
+      "stage": "COOKED"
+    },
+    "upgrade_aquatic:perch": {
+      "next": "upgrade_aquatic:cooked_perch",
+      "stage": "COOKED"
+    },
+    "upgrade_aquatic:lionfish": {
+      "next": "upgrade_aquatic:cooked_lionfish",
+      "stage": "COOKED"
+    },
+    "tofucraft:raw_tofufish": {
+      "next": "tofucraft:cooked_tofufish",
+      "stage": "COOKED"
+    },
+    "biomemakeover:glowfish": {
+      "next": "biomemakeover:cooked_glowfish",
       "stage": "COOKED"
     },
     "biomemakeover:raw_crab": {
       "next": "biomemakeover:cooked_crab",
       "stage": "COOKED"
     },
-    "biomemakeover:glowfish": {
-      "next": "biomemakeover:cooked_glowfish",
+    "quark:crab_leg": {
+      "next": "quark:cooked_crab_leg",
+      "stage": "COOKED"
+    },
+    "youkaishomecoming:raw_lamprey_fillet": {
+      "next": "youkaisfeasts:roasted_lamprey_fillet",
+      "stage": "COOKED"
+    },
+    "beachparty:raw_mussel_meat": {
+      "next": "beachparty:cooked_mussel_meat",
+      "stage": "COOKED"
+    },
+    "abnormals_delight:pike_slice": {
+      "next": "abnormals_delight:cooked_pike_slice",
+      "stage": "COOKED"
+    },
+    "abnormals_delight:perch_slice": {
+      "next": "abnormals_delight:cooked_perch_slice",
+      "stage": "COOKED"
+    },
+    "youkaishomecoming:raw_tuna": {
+      "next": "youkaisfeasts:seared_tuna",
+      "stage": "COOKED"
+    },
+    "youkaishomecoming:raw_tuna_slice": {
+      "next": "youkaisfeasts:seared_tuna_slice",
+      "stage": "COOKED"
+    },
+    "youkaishomecoming:crab": {
+      "next": "youkaisfeasts:steamed_crab",
+      "stage": "COOKED"
+    },
+    "youkaishomecoming:raw_venison": {
+      "next": "youkaisfeasts:grilled_venison",
+      "stage": "COOKED"
+    },
+    "youkaishomecoming:raw_venison_slice": {
+      "next": "youkaisfeasts:grilled_venison_slice",
+      "stage": "COOKED"
+    },
+    "biomemakeover:bulbus_root": {
+      "next": "biomemakeover:roasted_bulbus_root",
+      "stage": "COOKED"
+    },
+    "tofucraft:tofukinu": {
+      "next": "tofucraft:tofugrilled",
+      "stage": "COOKED"
+    },
+    "tofucraft:tofumomen": {
+      "next": "tofucraft:tofugrilled",
+      "stage": "COOKED"
+    },
+    "youkaishomecoming:tofu": {
+      "next": "youkaisfeasts:oily_bean_curd",
+      "stage": "COOKED"
+    },
+    "delightful:cactus_flesh": {
+      "next": "delightful:cactus_steak",
+      "stage": "COOKED"
+    },
+    "casualness_delight:potato_slice": {
+      "next": "casualness_delight:potato_chip",
+      "stage": "COOKED"
+    },
+    "farm_and_charm:bacon": {
+      "next": "farmersdelight:cooked_bacon",
       "stage": "COOKED"
     }
   }

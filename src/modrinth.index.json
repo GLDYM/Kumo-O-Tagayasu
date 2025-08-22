@@ -1296,6 +1296,21 @@
       "fileSize": 370743
     },
     {
+      "path": "mods/immersive_furniture-forge-0.0.9+1.20.1.jar",
+      "hashes": {
+        "sha512": "3f84d79b40fea3c38fe4eb7700264b8f8eccf6adbb38ff1285a1cbcc3c1f253d10494af1ef22ed61aac44e4b5b598079032a757f35b74b87cf5295378c4a8703",
+        "sha1": "6f1f460972f5565c40e9cfd24f1052cde25f9274"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/SvN6UGeF/versions/3C5JmWYf/immersive_furniture-forge-0.0.9%2B1.20.1.jar"
+      ],
+      "fileSize": 867366
+    },
+    {
       "path": "mods/Xaeros_Minimap_25.2.10_Forge_1.20.jar",
       "hashes": {
         "sha512": "936d2608d74c9a4d702efce51e0197f19f947997af768cb558f4cc5323ea4c5f12ee11b519df4071bdbc8c2aca8caa1baa18f702ef32c24bc4ea78fdbac483b2",
@@ -2074,6 +2089,21 @@
         "https://cdn.modrinth.com/data/cRh6MJ6n/versions/F0pPtIPH/autumnity-1.20.1-5.0.2.jar"
       ],
       "fileSize": 1221037
+    },
+    {
+      "path": "mods/drinkbeer-refill-1.20.1-1.0.5.jar",
+      "hashes": {
+        "sha1": "ab77c672b884def3a3957f36a764919b2417458e",
+        "sha512": "f78966887ff311e359cd32dd8113e4c95592dd731cd9e21db4feb9e3fbe36e6e3b1288c19665dade0a3edd139ac97400a3e1b9cbbff99f80a629b20da6b2efd4"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/RZwVw5iA/versions/rOSCLvXP/drinkbeer-refill-1.20.1-1.0.5.jar"
+      ],
+      "fileSize": 1520963
     },
     {
       "path": "mods/letsdo-farm_and_charm-forge-1.0.12.jar",
@@ -2869,6 +2899,21 @@
         "https://cdn.modrinth.com/data/SKI34J7B/versions/adXONMb5/MaFgLib-0.1.14-mc1.20.1.jar"
       ],
       "fileSize": 521709
+    },
+    {
+      "path": "mods/2flerovium-forge-1.20.1-1.2.15-all.jar",
+      "hashes": {
+        "sha512": "dd464cc3c16d6c83513d3c363f42b8a68058d299fe60916ea8fd957060ff28a65eb059ece4d89e5945b29bb5b1b5babe0c3c160d945501317d0e5f034c27cad6",
+        "sha1": "bdddd8b5b32c3efe38c7e8cda654e6382eb4d817"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/4Rh1Mobu/versions/hLjmp0IN/flerovium-forge-1.20.1-1.2.15-all.jar"
+      ],
+      "fileSize": 232403
     },
     {
       "path": "mods/2chat_heads-0.13.18-forge-1.20.jar",
