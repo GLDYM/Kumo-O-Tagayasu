@@ -801,19 +801,19 @@
       "fileSize": 84059
     },
     {
-      "path": "mods/youkaishomecoming-2.5.6.jar",
+      "path": "mods/youkaishomecoming-2.5.8.jar",
       "hashes": {
-        "sha512": "844391b7059316e6cd2cef083001ecaec115ec3aeadf90ccd091b34e86ff5e80308661d167c1b5bdc1f7746d9b8586fcb33fe6ed5103d9d7289ecf34cf430ed9",
-        "sha1": "2acabeec3b4a0569959469fd1d1339385b5a9e6b"
+        "sha512": "69163e65f399992de724dc0fa46f6fe0a43e4e7b17ef13c619e1b31013a8ddfd77d1b41d765aca56d751e1d189f799226fd97dd357cf2c1e3a1b134b19083ad7",
+        "sha1": "e747647228e31f9d1d02dce5cd6ce7f13f7fee7e"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "server": "required",
+        "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/uJT3ahxz/versions/r9qbiv8x/youkaishomecoming-2.5.6.jar"
+        "https://cdn.modrinth.com/data/uJT3ahxz/versions/pKQ6YpB6/youkaishomecoming-2.5.8.jar"
       ],
-      "fileSize": 6019870
+      "fileSize": 6021146
     },
     {
       "path": "mods/net_music_list-1.5.3.jar",
@@ -1491,19 +1491,19 @@
       "fileSize": 1343694
     },
     {
-      "path": "mods/touhou_little_maid_spell-1.4.2.jar",
+      "path": "mods/touhou_little_maid_spell-1.20-1.4.7.1.jar",
       "hashes": {
-        "sha1": "920f0a310a6f35bff5f3b760e06273bcab5fe8f6",
-        "sha512": "93631c9a44151ed12a38ad4bf598ff8f44cc85363104853d0d9a21a2178f4b6d46bbc8203d0c7946da3731d40dbff169d58857ef1b35c7ecb29d75e6f6b7c1c8"
+        "sha512": "6267d9f37e0c1df71de0d5bc5847b5fc3d05d6fa125a6efe4590bc7dda2f3f9b7846f2981cc7ae54e08a1e4b79faf73b7618bd28b022aa4f6e8947c0cc7f8343",
+        "sha1": "b2d6d97ce53c26dcb97890aab7dbb4434f714c02"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "server": "required",
+        "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/QHB4kBBS/versions/TCwbFrAO/touhou_little_maid_spell-1.4.2.jar"
+        "https://cdn.modrinth.com/data/QHB4kBBS/versions/XErW9XWj/touhou_little_maid_spell-1.20-1.4.7.1.jar"
       ],
-      "fileSize": 109249
+      "fileSize": 199283
     },
     {
       "path": "mods/savage_and_ravage-1.20.1-6.0.0.jar",
@@ -2256,19 +2256,19 @@
       "fileSize": 20245
     },
     {
-      "path": "mods/touhoulittlemaid-1.20.1-release-1.3.6.jar",
+      "path": "mods/touhoulittlemaid-1.3.8-forge+mc1.20.1.jar",
       "hashes": {
-        "sha512": "cb65011bdd90940ddb749474358a72c2a1bea313fa1974d80a2c3304034ff941ad3b1835b2d8cfb44ce5e241225c62105d893447d2839d202468f7e0e252e8cf",
-        "sha1": "f99dc4d1b2fb61be8e792da0f2498b72ca3cf4fb"
+        "sha1": "f001049034ba645988a8f8ff3c127995ddd95e0d",
+        "sha512": "d27468c5888a38dc473f40bd50bf28654eb41432fb5852925a933a9cf7305cee37b0bb731dfb7884ac086da58d574499f04b94c627cc3e8167885d4c87f5580a"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "server": "required",
+        "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/R0bDWFAW/versions/4GZKHcUI/touhoulittlemaid-1.20.1-release-1.3.6.jar"
+        "https://cdn.modrinth.com/data/R0bDWFAW/versions/kkdKN8dZ/touhoulittlemaid-1.3.8-forge%2Bmc1.20.1.jar"
       ],
-      "fileSize": 20724106
+      "fileSize": 20780718
     },
     {
       "path": "mods/3architectury-9.2.14-forge.jar",
@@ -2466,19 +2466,19 @@
       "fileSize": 2425050
     },
     {
-      "path": "mods/supplementaries-1.20-3.1.36.jar",
+      "path": "mods/supplementaries-1.20-3.1.37.jar",
       "hashes": {
-        "sha512": "9f35db45279fa0fdbb9bf7e0020832991849a7c8d1de3da00e9d3098a5791230e544611fa36689f7edae768d093eb6a366ef955066e54f867e307d2c4236828d",
-        "sha1": "58145767061a4d5bf9229fbacc78451098b9d0c8"
+        "sha512": "664eded3f25c1264004e98979afe1817e750ff8d33d549b3303d126cbe64a1e269de6486abf03c2ccbc8890bada483ab63d0bc3b7f2462b8567236c16a7e5f97",
+        "sha1": "b5c6518b97c4ce0c70a2065090ba91e6d3b6115b"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/fFEIiSDQ/versions/gY8LSKD4/supplementaries-1.20-3.1.36.jar"
+        "https://cdn.modrinth.com/data/fFEIiSDQ/versions/FIy84Umq/supplementaries-1.20-3.1.37.jar"
       ],
-      "fileSize": 13623263
+      "fileSize": 13647512
     },
     {
       "path": "mods/curios-forge-5.14.1+1.20.1.jar",

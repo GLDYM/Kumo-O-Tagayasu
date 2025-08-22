@@ -153,14 +153,6 @@
     "resultItems": "vintagedelight:cheese_slice"
   },
   {
-    "matchItems": ["sakura:plank_sakura"],
-    "resultItems": "minecraft:cherry_planks"
-  },
-  {
-    "matchItems": ["sakura:plank_bamboo"],
-    "resultItems": "minecraft:bamboo_planks"
-  },
-  {
     "matchItems": ["tofucraft:bottle_soysause", "sakura:soysauce"],
     "resultItems": "youkaishomecoming:soy_sauce_bottle"
   },
@@ -171,5 +163,13 @@
   {
     "matchItems": ["sakura:machined_fish"],
     "resultItems": "farmersdelight:cod_slice"
+  },
+  {
+    "matchItems": ["sakura:straw"],
+    "resultItems": "farmersdelight:straw"
+  },
+  {
+    "matchItems": ["farm_and_charm:yeast"],
+    "resultItems": "sakura:yeast"
   }
 ]

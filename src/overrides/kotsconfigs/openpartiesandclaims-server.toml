@@ -1,7 +1,7 @@
 
 [serverConfig]
 	#The default language used for server-side localization for players that don't have the mod installed.
-	defaultLanguage = "en_us"
+	defaultLanguage = "zh_cn"
 	#How often to auto-save modified data, e.g. parties, claims, player configs (in minutes).
 	#Range: > 1
 	autosaveInterval = 30
@@ -122,7 +122,7 @@
 			#Prefix "anything$" is the same as no prefix but allows interaction with any item held in the hand. Please make sure that no item does anything bad when used at a block with such an exception.
 			#Add the same block/tag multiple times to use multiple prefixes. Supports patterns with special characters *, (, ) and |, where * matches anything, ( ) are used for grouping and | means OR.
 			#For example ["minecraft:lever", "minecraft:*_button", "break$minecraft:*_button", "break$minecraft:(*_|)sand"]
-			forcedBlockProtectionExceptionList = ["minecraft:crafting_table"]
+			forcedBlockProtectionExceptionList = ["minecraft:crafting_table", "anything$polaristrading:*", "anything$create:*_table_cloth", "anything$create:blaze_burner"]
 			#Custom groups of blocks that a player/claim config should be able to make protection exceptions for. Each group can consist of multiple blocks and block tags.
 			#A group without a prefix creates a player config option for the right-click interaction with the group blocks. The format for a block group is <group ID>{<blocks/tags/wildcards separated by ,>}.
 			#The group ID should consist of at most 32 characters that are letters A-Z, numbers 0-9 or the - and _ characters, e.g. "ePiC-DIRT35{minecraft:dirt, minecraft:grass_block, minecraft:(oak|spruce)_*}".
@@ -244,7 +244,7 @@
 			#By default, most item right-click uses are disabled in protected chunks. To make an exception for a specific item, add it to this list. This option has a higher priority than "additionalBannedItemsList".
 			#This list applies to both using an item at air and using it at a block/entity. Supports item tags. Supports patterns with special characters *, (, ) and |, where * matches anything, ( ) are used for grouping and | means OR.
 			#For example ["minecraft:fishing_rod", "minecraft:ender_pearl", "minecraft:(red|green)_bed", "#minecraft:beds"]
-			itemUseProtectionExceptionList = ["minecraft:firework_rocket"]
+			itemUseProtectionExceptionList = ["minecraft:firework_rocket", "#minecraft:beds"]
 			#Custom groups of items that a player/claim config should be able to make protection exceptions for. Each group can consist of multiple items and item tags.
 			#Each group creates a player config option for the right-click use of the group items. The format for an item group is <group ID>{<items/tags/wildcards separated by ,>}.
 			#The group ID should consist of at most 32 characters that are letters A-Z, numbers 0-9 or the - and _ characters, e.g. "ePiC-stuff98{minecraft:(writable|written)_book, minecraft:*_book, #minecraft:compasses}".

@@ -16,6 +16,7 @@
 	quests: [
 		{
 			description: ["&b这个章节均为存储类模组相关。"]
+			icon: "functionalstorage:creative_vending_upgrade"
 			id: "7F74368BCB1C72F8"
 			shape: "gear"
 			size: 1.5d

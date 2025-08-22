@@ -204,8 +204,8 @@
 				type: "item"
 			}]
 			title: "沃土"
-			x: 0.0d
-			y: 4.5d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6932BE3FBDD3A55D"]

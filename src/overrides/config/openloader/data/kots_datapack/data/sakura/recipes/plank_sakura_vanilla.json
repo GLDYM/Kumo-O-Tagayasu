@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:cherry_planks"
+    }
+  },
+  "pattern": [
+    " #",s
+    "# "
+  ],
+  "result": {
+    "count": 2,
+    "item": "sakura:lumber_sakura"
+  },
+  "show_notification": true
+}
