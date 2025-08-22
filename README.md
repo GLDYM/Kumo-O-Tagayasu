@@ -4,7 +4,7 @@
     <img src="./icon.png" alt="icon" style="zoom:200%;">
 </a>
 
-# Kumo O Tagayasu
+# Kumo O Tagayasu 耕云钓月
 
 <a href="./LICENSE">
     <img src="https://img.shields.io/badge/license-AGPL--v3.0--or--later-8A2BE2" alt="license">
@@ -15,7 +15,7 @@
 </a>
 
 <a href="./Changelog.md">
-    <img src="https://img.shields.io/badge/version-5.2.9-9999FF" alt="version">
+    <img src="https://img.shields.io/badge/version-5.3.0--beta.4-9999FF" alt="version">
 </a>
 
 <a href="https://www.mcmod.cn/modpack/1017.html">
@@ -26,7 +26,7 @@
 
 ## 简介
 
-分叉于 Tsuri No Gatsu，Kumo O Tagayasu 是一个注重田园体验的综合整合包，旨在给予玩家一个休闲惬意的游戏体验。
+分叉于织彩钓月，Kumo O Tagayasu 耕云钓月是一个注重田园体验的综合整合包，补全了大部分材料的量产，旨在给予玩家一个休闲惬意的游戏体验。
 
 原整合包地址：[https://www.mcmod.cn/modpack/626.html](https://www.mcmod.cn/modpack/626.html)
 
@@ -38,37 +38,26 @@
 
 要获得服务端，请从参考 [服务端搭建指南](./Server.md)。
 
-## 修改方向
-
-- 如果一个物品可再生，一定可以使用红石 / 机械动力等工具类模组量产它。
-- 如果一个物品不可再生或者难以量产，构建已有配方的合理延伸使之能量产。
-- 思路比数量更重要。
-- 注重模组之间的结合，一个模组中的某个物品可以极大简化另一个模组的流程。
-
 ## 开发
 
 本项目下有两个分项目：
 
-- Kumo O Tagayasu 整合包
-- Mandalas GUI - Dark Mode KOTS Compat：适配 Tsuri No Gatsu 与 Kumo O Tagayasu 整合包的 Mandalas GUI - Dark Mode 资源包拓展
+- Kumo O Tagayasu 耕云钓月整合包
+- Mandalas GUI - Dark Mode KOTS Compat：适配织彩钓月与耕云钓月整合包的 Mandalas GUI - Dark Mode 资源包拓展
 
 如果想要对本项目进行修改/PR，可以 Fork 本项目后 Clone 到本地进行修改。
 
 >  该整合包使用数据包驱动修改，这些配方位于 `src/overrides/config/openloader/data/kots_datapack/data`中。
 
-本整合包接受如下 PR：
+整合包接受如下 PR：
 
-- 对于模组的增删修改，并说明如此修改的理由；
-- 对于整合包配方与tag的修改，并说明修改的理由；
+- FTBQ 任务；
+- Tag 缺失；
+- 对于模组的增删修改，并说明增删修改的理由；
+- 对于整合包配方的修改，并说明修改的理由；
 - 对于整合包配置文件的修改，并说明修改的理由；
 - 对整合包内置资源包与 Mandalas GUI - Dark Mode KOTS Compat 的补充。
 
-## 关于任务
-
-本整合包的任务为社团内部分发，不对外公布。如果想为整合包制作任务，请 Fork 本项目制作，并注明任务是面向新手还是专家向。
-
-- 面向新手：模组的介绍或全流程引导。[这是](https://github.com/GLDYM/Kumo-O-Tagayasu/tree/master/quests-example/chapters/crockpot-beginner.snbt)一个针对烹饪锅模组的示例。
-- 专家向：各类量产挑战。[这是](https://github.com/GLDYM/Kumo-O-Tagayasu/tree/master/quests-example/chapters/crockpot-expert.snbt)一个烹饪锅模组的示例。
 
 ## 协议
 
@@ -76,7 +65,7 @@
 
 许可证补充：
 
-你被允许做的，但需要保留作者、原作信息与本项目地址（月见清兰 & 北辰星光，Tsuri No Gatsu 5，Kumo O Tagayasu）：
+你被允许做的，但需要保留作者、原作信息与本项目地址（月见清兰 & 北辰星光，Kumo O Tagayasu）：
 
 - 在不修改整合包或资源包自身的情况下，使用本整合包进行视频制作等多媒体创作并获利。
 - 在不修改整合包或资源包自身的情况下，将整合包或资源包进行转载、存储、供其他玩家下载或开设公益服务器。
