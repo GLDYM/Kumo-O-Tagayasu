@@ -336,21 +336,6 @@
       "fileSize": 638697
     },
     {
-      "path": "mods/mcw-fences-1.2.0-1.20.1forge.jar",
-      "hashes": {
-        "sha1": "45bb2cd2be580c0a85d3da719d6d2b850fa1c6b3",
-        "sha512": "0c34a3919bdfeebe8e57f8b1e8097e0532a7710b91ff3ed0c18603e424c166ef65fee7cbb62f37113cadc6ad6b25ca9bb897e78465649e82128eb0b79d8f36f0"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/GmwLse2I/versions/p0mowM7n/mcw-fences-1.2.0-1.20.1forge.jar"
-      ],
-      "fileSize": 695815
-    },
-    {
       "path": "mods/ends_delight-2.5.1+forge.1.20.1.jar",
       "hashes": {
         "sha1": "535c442625be4bd26ee637cdf7055c30b79a0b65",
@@ -379,21 +364,6 @@
         "https://cdn.modrinth.com/data/OlAQOlqx/versions/eutWUJuz/traderefresh-2.4.5.jar"
       ],
       "fileSize": 101130
-    },
-    {
-      "path": "mods/mcw-stairs-1.0.1-1.20.1forge.jar",
-      "hashes": {
-        "sha512": "21632ee3d07aeb2f25bb676f172609bd1c99da409b70ad156198a589af8cda21ef93820754d5e13b626b4a67f13eb771b831237fede9d330d96adc9c67abfd39",
-        "sha1": "90f3a4002518d5c03353891498f8ad7b55332d2d"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/iP3wH1ha/versions/BKaABdta/mcw-stairs-1.0.1-1.20.1forge.jar"
-      ],
-      "fileSize": 540915
     },
     {
       "path": "mods/Steam_Rails-1.6.12-alpha+forge-mc1.20.1.jar",
@@ -606,21 +576,6 @@
       "fileSize": 50042
     },
     {
-      "path": "mods/mcw-bridges-3.1.0-mc1.20.1forge.jar",
-      "hashes": {
-        "sha512": "830c2c31d00b9aa170570ae0b6959d086c3bccfdb40575f94d40c0411b051978ecd82da0e8c07c8d4b3753f9b88c0e6e06426934c6f97cd7a113d6acb358a02e",
-        "sha1": "7a94bff9e9c2408c6c36e64d5c911e5759cddc10"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/GURcjz8O/versions/XSLsYKYH/mcw-bridges-3.1.0-mc1.20.1forge.jar"
-      ],
-      "fileSize": 684392
-    },
-    {
       "path": "mods/OctoLib-FORGE-0.5.0.1+1.20.1.jar",
       "hashes": {
         "sha512": "e0bbe3a999f3a8c32b7dc0fd5bae61f62915dc5be40ac97a777f0784cdfaaed74b74f48cd407b9a8abb081ff331fbd272c9d4e08125f48f091435c926468d5c6",
@@ -756,21 +711,6 @@
       "fileSize": 123034
     },
     {
-      "path": "mods/mcw-furniture-3.3.0-mc1.20.1forge.jar",
-      "hashes": {
-        "sha1": "997ff389bebed728e1e8094ba5438e7beb059ef3",
-        "sha512": "aeb7537b9bb41615418e32d8383d6a0ea8b337554593752aa39ed955d50e1faa025c35a1d4bdb66fe49f9930a33d3becb8c897ee438c353da44d5fc8b7dfbdb8"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/dtWC90iB/versions/jQcvCX79/mcw-furniture-3.3.0-mc1.20.1forge.jar"
-      ],
-      "fileSize": 1882792
-    },
-    {
       "path": "mods/plushies-1.4.0-forge.jar",
       "hashes": {
         "sha1": "2cf9b180f3d1f344d52d3d8153a84bb6b21ef3cb",
@@ -904,21 +844,6 @@
         "https://cdn.modrinth.com/data/40FYwb4z/versions/mRry0DgY/caelus-forge-3.2.0%2B1.20.1.jar"
       ],
       "fileSize": 40125
-    },
-    {
-      "path": "mods/mcw-doors-1.1.2-mc1.20.1forge.jar",
-      "hashes": {
-        "sha1": "731069f0a9c1377da0681415b6523e71439ae014",
-        "sha512": "447b00a2d0a2721af4a36c4330b0b0e7c04a8c9b2f003cb3121015969d2f41cd3b4839eb300d125f52d9db30dea3333bb4e23c9f2f13f3a869453e854a370404"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/kNxa8z3e/versions/yP3Gpe6J/mcw-doors-1.1.2-mc1.20.1forge.jar"
-      ],
-      "fileSize": 1250199
     },
     {
       "path": "mods/XaerosWorldMap_1.39.12_Forge_1.20.jar",
@@ -1249,21 +1174,6 @@
         "https://cdn.modrinth.com/data/Adega8YN/versions/zAahRq2q/dummmmmmy-1.20-2.0.9.jar"
       ],
       "fileSize": 363044
-    },
-    {
-      "path": "mods/mcw-windows-2.4.0-1.20.1forge.jar",
-      "hashes": {
-        "sha1": "729457d0adb369f8151618e71d3638df148623f5",
-        "sha512": "c61c89491a1e50989b6ef8f605368dd327690600be073e5475c9a26b6d12b8020305f9199518c573b92041a8eceb869cca3bcfdad16e4a3376d3b542fec77f32"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/C7I0BCni/versions/KzTPAR92/mcw-windows-2.4.0-1.20.1forge.jar"
-      ],
-      "fileSize": 1320945
     },
     {
       "path": "mods/exposure_catalog-1.20.1-1.0.3-forge.jar",
@@ -2361,21 +2271,6 @@
       "fileSize": 245317
     },
     {
-      "path": "mods/mcw-lights-1.1.2-mc1.20.1forge.jar",
-      "hashes": {
-        "sha512": "2ee82b5ca8d964cff83ea41d38bfa5e4c9a9bedb7bccf891ce269d25238bfeb3f46b428a4d6ff6695a69907046cec22b356f3feefe94564bfa4cc081df8fcb72",
-        "sha1": "06b43ce0ad41b86ff904b6684cdb2331cec21123"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/w4an97C2/versions/gqevfDHf/mcw-lights-1.1.2-mc1.20.1forge.jar"
-      ],
-      "fileSize": 539623
-    },
-    {
       "path": "mods/TofuCraftReload-1.20.1-5.17.1.0.jar",
       "hashes": {
         "sha1": "21b036aafc3ba5e45fd499793b67e7bfe2efabe2",
@@ -2524,21 +2419,6 @@
         "https://cdn.modrinth.com/data/btq68HMO/versions/TDatHO4i/create_central_kitchen-1.20.1-for-create-6.0.4-1.4.1.jar"
       ],
       "fileSize": 790450
-    },
-    {
-      "path": "mods/mcw-paths-1.1.0forge-mc1.20.1.jar",
-      "hashes": {
-        "sha512": "8703058cfecdf491c0e25363aaa36a4c70f0061483dc207b7cc1f3608e1232caeed0384619a120f551e7db01032b4d5a306d85f4c83dacc5c91ac0d301980c95",
-        "sha1": "67e3b94d014739ae3c3ecf25320c32d741ec19c4"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/VRLhWB91/versions/1Gry6fOe/mcw-paths-1.1.0forge-mc1.20.1.jar"
-      ],
-      "fileSize": 811836
     },
     {
       "path": "mods/exposure-1.20.1-1.7.16-forge.jar",
@@ -2704,21 +2584,6 @@
         "https://cdn.modrinth.com/data/aQ7h7gal/versions/tRalrohW/DramaticDoors-QuiFabrge-1.20.1-3.3.1.jar"
       ],
       "fileSize": 13305007
-    },
-    {
-      "path": "mods/mcw-roofs-2.3.2-mc1.20.1forge.jar",
-      "hashes": {
-        "sha512": "ff7d8be7efb2c427dba8898ed181804b93d2d7523227a190a4c100370f485e5e734c83930b6888652c9469bf01b89a3c7fd2cd00e37c5b6021ec9bd3aa6ea3e3",
-        "sha1": "2b02beb2bd177aa695dc6fc030fc3bb230ca96b1"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/B8jaH3P1/versions/31e80GhE/mcw-roofs-2.3.2-mc1.20.1forge.jar"
-      ],
-      "fileSize": 1864023
     },
     {
       "path": "mods/2GPUTape-1.18x-1.21x-1.0.5.1.jar",
