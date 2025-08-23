@@ -11,24 +11,25 @@
 ## 获取服务端
 
 - 下载 Release 中的 `mrpack` 文件。
-- 下载 [forge-1.20.1-47.3.7-installer.jar](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-installer.jar)  与 相应平台的 [mrpack-install](https://github.com/nothub/mrpack-install/releases) ，与`mrpack` 文件置于同一文件夹。
+- 下载 [forge-1.20.1-47.4.6-installer.jar](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.6/forge-1.20.1-47.4.6-installer.jar)  与 相应平台的 [mrpack-install](https://github.com/nothub/mrpack-install/releases) ，与`mrpack` 文件置于同一文件夹。
 - 启动命令行。
-- 运行 `java -jar forge-1.20.1-47.3.7-installer.jar --installServer`
-- 运行 `mrpack-install-linux <filename>.mrpack --server-file ./forge-1.20.1-47.3.7-installer.jar --server-dir ./`，其中 `<filename>`是你下载的`mrpack` 文件的文件名。
+- 运行 `java -jar forge-1.20.1-47.4.6-installer.jar --installServer`
+- 运行 `mrpack-install-linux <filename>.mrpack --server-file ./forge-1.20.1-47.4.6-installer.jar --server-dir ./`，其中 `<filename>`是你下载的`mrpack` 文件的文件名。
 
 ## 关于 Java 版本
 
 建议使用 **Java 21** 而非 **Java 17**，更高的 Java 版本号通常拥有更好的性能。发行版随意，可以使用 Zulu JDK，相对易用。
 
-## 关于备份
+## 备份
 
-服务端并没有自带备份模组，请自行备份。有如下几种方案可供选择：
+服务端并没有自带备份模组，请自行选择方案备份。有如下几种方案可供选择：
 
-- 搭建 MCDR ，使用 [Prime Backup](https://tisunion.github.io/PrimeBackup/zh/) 进行备份。
-- 使用 [RClone](https://rclone.org/) 上传至网盘。
-- 全盘 / 全机的异地备份。
+- 使用 [FTBBackup2]([FTB Backups 2 - Minecraft Mods - CurseForge](https://www.curseforge.com/minecraft/mc-mods/ftb-backups-2)) 进行备份。优点：简单易懂 缺点：速度慢，占用大，无回档指令
+- 使用 [Advanced Backups](Advanced Backups) 进行备份。优点：占用小 缺点：回档较为麻烦，对技术要求高
+- 搭建 MCDR ，使用 [Prime Backup](https://tisunion.github.io/PrimeBackup/zh/) 进行备份。优点：占用小，可以快速回档 缺点：需要 Python3 环境
+- 使用 [RClone](https://rclone.org/) 上传至网盘。优点：稳定！缺点：配置较为麻烦，需要完整环境
+- 全盘 / 全机的异地备份。优点：稳定！缺点：需要另一台内容存储服务器
 
-## 关于差异
+## 差异
 
-- 铁魔法：单人游戏中在一件装备上最大可使用 10 个升级法球，而服务端为 3 个。
 - 村庄出生点：单人游戏出生点在村庄，而服务端不在，以减少出生点卡顿。

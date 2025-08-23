@@ -2931,6 +2931,21 @@
       "fileSize": 269811
     },
     {
+      "path": "mods/2BetterAdvancements-Forge-1.20.1-0.4.2.25.jar",
+      "hashes": {
+        "sha1": "c747ebbb7654b67c2b62b669605bcda041970ca4",
+        "sha512": "e3791b9be003a25a432f4d68ca8c63e1d4a0fc855ab82d7ce426ecbf3a2f9a5f390ce130e6a2838ea66fdee6216f41a9dd6138156cee89740cc0ebf100e1b8fe"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Q2OqKxDG/versions/aKhX4498/BetterAdvancements-Forge-1.20.1-0.4.2.25.jar"
+      ],
+      "fileSize": 98124
+    },
+    {
       "path": "mods/2super_resolution-forge-1.20.1-0.8.0-alpha.1.jar",
       "hashes": {
         "sha512": "49d40689752e7716dc37b72468b6586a272379449e05e8b6b23e65d44624c09bc6b86ab88f0ea542e9616667ccf2ffab22fe85fc64954c90e51d48673705b2ea",
@@ -3229,21 +3244,6 @@
         "https://cdn.modrinth.com/data/rVTSwggw/versions/CO33qNoa/classicandsimplestatusbars-Forge-1.1.jar"
       ],
       "fileSize": 280704
-    },
-    {
-      "path": "mods/villagespawnpoint-1.20.1-4.6.jar",
-      "hashes": {
-        "sha512": "a4ac6d49b9972d8a750546b7d240ce734bb0b39168eb77609acd3f794440210b81a74a031546aa1e5901f89cb7beea4d31563423fd22c571dc8747f52d2ead3b",
-        "sha1": "1f121bbe2914a71807c6723860a818b48196d972"
-      },
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/KplTt9Ku/versions/iFxBy0Mn/villagespawnpoint-1.20.1-4.6.jar"
-      ],
-      "fileSize": 35796
     },
     {
       "path": "mods/2Neat-1.20.1-41-FORGE.jar",
