@@ -1,5 +1,5 @@
 *.mrpack
-forge-1.20.1-47.3.7-installer.jar
+forge-1.20.1-*-installer.jar
 mrpack-install-windows.exe
 mrpack-install-linux
 
