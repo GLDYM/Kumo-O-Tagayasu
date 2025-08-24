@@ -222,8 +222,8 @@
 				}
 			]
 			title: "古代种子"
-			x: -1.5d
-			y: -1.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0B6A89B7DFED875C"]
@@ -273,6 +273,25 @@
 				item: "immortalers_delight:enchanted_golden_himekaido"
 				type: "item"
 			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B6A89B7DFED875C"]
+			description: ["魔凝机可以提取出食材的精华。它需要输入青金石作为能量来源。"]
+			id: "578E88E25201A887"
+			rewards: [{
+				count: 64
+				id: "5448EBFD093B542A"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27CCA917DE7DD7F7"
+				item: "immortalers_delight:enchantal_cooler"
+				type: "item"
+			}]
+			title: "魔凝机"
 			x: -1.5d
 			y: -3.0d
 		}

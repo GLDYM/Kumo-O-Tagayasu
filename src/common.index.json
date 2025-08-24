@@ -261,19 +261,19 @@
       "fileSize": 1277768
     },
     {
-      "path": "mods/moonlight-1.20-2.15.7-forge.jar",
+      "path": "mods/moonlight-1.20-2.16.5-forge.jar",
       "hashes": {
-        "sha1": "03618c3ea436611623d054c2b941c9b65b5dc4d2",
-        "sha512": "1962bb86c1de944abbb3c23941f8eca0ab91ae2ec3946d70e09af3572293f08f9afa886b0791a242ff7ee7e8e8aaa596a2e2178a0d6291a8f40110f029aaafee"
+        "sha1": "461b979a7c1f100a17af4558910f34f259bb56b2",
+        "sha512": "c160493b99be1fab942f7eb64c491985d51a72c16dbda18c345fd14cbf8cfb0bd899c1b7627714e507f079a68bf1917b4d4e407340c2ff3b44359e1996e6c2d7"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "server": "required",
+        "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/twkfQtEc/versions/NkvYIxzd/moonlight-1.20-2.15.7-forge.jar"
+        "https://cdn.modrinth.com/data/twkfQtEc/versions/uiOJ4NEz/moonlight-1.20-2.16.5-forge.jar"
       ],
-      "fileSize": 1294347
+      "fileSize": 1326648
     },
     {
       "path": "mods/carryon-forge-1.20.1-2.1.2.7.jar",
@@ -2554,21 +2554,6 @@
         "https://cdn.modrinth.com/data/Ua7DFN59/versions/PJOYAmAs/YungsApi-1.20-Forge-4.0.6.jar"
       ],
       "fileSize": 370524
-    },
-    {
-      "path": "mods/watermedia-2.1.30.jar",
-      "hashes": {
-        "sha512": "4793fd5c1f9896679eb03ff9f2a1aa244f242bf5eef4b90f156d79a10b2883de878bc7a63f423a13f4bfcd1d7e8b8e2113970f7eebd53421d55c0ceb1b87a1ca",
-        "sha1": "d2ac566dc3416101c94b807dcade279c32d4d601"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/G922NeHS/versions/o2Z6JjwX/watermedia-2.1.30.jar"
-      ],
-      "fileSize": 37857356
     },
     {
       "path": "mods/DramaticDoors-QuiFabrge-1.20.1-3.3.1.jar",

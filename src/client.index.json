@@ -6,6 +6,21 @@
   "summary": "",
   "files": [
     {
+      "path": "mods/2watermedia-2.1.30.jar",
+      "hashes": {
+        "sha512": "4793fd5c1f9896679eb03ff9f2a1aa244f242bf5eef4b90f156d79a10b2883de878bc7a63f423a13f4bfcd1d7e8b8e2113970f7eebd53421d55c0ceb1b87a1ca",
+        "sha1": "d2ac566dc3416101c94b807dcade279c32d4d601"
+      },
+      "env": {
+        "server": "unsupported",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/G922NeHS/versions/o2Z6JjwX/watermedia-2.1.30.jar"
+      ],
+      "fileSize": 37857356
+    },
+    {
       "path": "mods/2GPUTape-1.18x-1.21x-1.0.5.1.jar",
       "hashes": {
         "sha512": "4bcfccf92a9b2e5842864b23caef9805da8a849928a711029ba9df0364cf50f66cf0f58bacca5316a0b7b1d10cb62569aca7e6d9f894c3a42100dc6d9a80cca7",
@@ -298,7 +313,7 @@
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/WMDesFsZ/versions/bJY9G53S/IMBlocker-5.4.1.1-forge%2B1.17-1.20.4.jar"
