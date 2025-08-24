@@ -15,7 +15,7 @@
 </a>
 
 <a href="./Changelog.md">
-    <img src="https://img.shields.io/badge/version-5.3.0--beta.4-9999FF" alt="version">
+    <img src="https://img.shields.io/badge/version-5.3.0--beta-9999FF" alt="version">
 </a>
 
 <a href="https://www.mcmod.cn/modpack/1017.html">
