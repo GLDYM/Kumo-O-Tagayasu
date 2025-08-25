@@ -39,7 +39,7 @@
           "item": "delightful:raw_goat"
         },
         {
-          "item": "youkaisfeasts:raw_venison"
+          "item": "youkaishomecoming:raw_venison"
         }
       ],
       "max_time": 240,
@@ -80,7 +80,7 @@
           "item": "farmersdelight:mutton_chops"
         },
         {
-          "item": "youkaisfeasts:raw_venison_slice"
+          "item": "youkaishomecoming:raw_venison_slice"
         }
       ],
       "max_time": 240,
@@ -155,7 +155,7 @@
           "item": "upgrade_aquatic:lionfish"
         },
         {
-          "item": "youkaisfeasts:raw_tuna"
+          "item": "youkaishomecoming:raw_tuna"
         },
         {
           "item": "vintagedelight:salted_salmon"
@@ -179,13 +179,13 @@
           "item": "quark:crab_leg"
         },
         {
-          "item": "youkaisfeasts:crab"
+          "item": "youkaishomecoming:crab"
         },
         {
-          "item": "youkaisfeasts:otoro"
+          "item": "youkaishomecoming:otoro"
         },
         {
-          "item": "youkaisfeasts:raw_lamprey_fillet"
+          "item": "youkaishomecoming:raw_lamprey_fillet"
         }
       ],
       "max_time": 120,
@@ -205,7 +205,7 @@
           "item": "beachparty:raw_mussel_meat"
         },
         {
-          "item": "youkaisfeasts:raw_tuna_slice"
+          "item": "youkaishomecoming:raw_tuna_slice"
         },
         {
           "item": "mynethersdelight:strider_slice"

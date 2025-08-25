@@ -1,0 +1,20 @@
+{
+  "type": "tofucraft:tofu_pot_shapeless",
+  "category": "meal",
+  "cook_time": 300,
+  "exp": 0.5,
+  "fluid": {
+    "fluid": "tofucreate:soyoil"
+  },
+  "ingredients": [
+    {
+      "item": "tofucraft:soymeat"
+    },
+    {
+      "item": "tofucraft:bottle_soysause"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:soy_karaage"
+  }
+}

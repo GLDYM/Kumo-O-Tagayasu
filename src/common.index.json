@@ -1866,21 +1866,6 @@
       "fileSize": 74499
     },
     {
-      "path": "mods/vintagedelight-0.1.6.jar",
-      "hashes": {
-        "sha512": "aa8a527c0db8f0b24f3444bf072ca98130fb1cf4e59a273922d874cd6a2bf1c992d5b717db278e778543aaa967a5b78131b25ae318beeb6eb63b5e3b3bb29e56",
-        "sha1": "279a68afc8d815e957cabc689e925cdaf7578109"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/T7XZLHGD/versions/q8Ght7Bo/vintagedelight-0.1.6.jar"
-      ],
-      "fileSize": 1120218
-    },
-    {
       "path": "mods/letmedespawn-1.20.x-forge-1.5.0.jar",
       "hashes": {
         "sha512": "22e5e7a3e4eb1e238ff420108f6fb138e2fc47335a8fbe4cef093cef32d7aaf710de00ba0450bfee570aa2857989b0e9d7abb8600720386e185ffac5670505c1",

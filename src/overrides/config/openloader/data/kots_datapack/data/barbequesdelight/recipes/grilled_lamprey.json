@@ -3,9 +3,9 @@
   "type": "barbequesdelight:grilling",
   "barbecuingTime": 360,
   "ingredient": {
-    "item": "youkaisfeasts:raw_lamprey"
+    "item": "youkaishomecoming:raw_lamprey"
   },
   "output": {
-    "item": "youkaisfeasts:roasted_lamprey"
+    "item": "youkaishomecoming:roasted_lamprey"
   }
 }

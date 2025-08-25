@@ -1,30 +1,30 @@
 {
   "_comment":"Oriun Tagayasu modpack(Shortname:OTSU) file comments, It acts to preserve the original modpack author(TskimiSeiran) information. According to the Oriun Tagayasu modpack usage agreement, users are allowed to create and distribute on the basis of Oriun Tagayasu modpack, but the original modpack author information must be retained. Oriun Tagayasu modpack is free for users to download, if you spend real money in somewhere and download Oriun Tagayasu modpack, please avoid seller!",
   "type": "farmersdelight:cooking",
-        "cookingtime": 200,
-        "experience": 0.35,
-        "ingredients": [
-          {
-            "tag": "forge:coconut"
-          },
-          {
-            "tag": "forge:raw_chicken"
-          },
-          {
-            "tag": "forge:crops/tomato"
-          },
-          {
-            "tag": "forge:tea_leaves"
-          },
-          {
-            "tag": "forge:crops/chilipepper"
-          },
-          {
-            "tag": "forge:crops/onion"
-          }
-        ],
-        "recipe_book_tab": "meals",
-        "result": {
-          "item": "delightful:coconut_curry"
-        }
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "tag": "forge:coconut"
+    },
+    {
+      "tag": "forge:raw_chicken"
+    },
+    {
+      "tag": "forge:crops/tomato"
+    },
+    {
+      "tag": "forge:tea_leaves"
+    },
+    {
+      "tag": "forge:crops/chilipepper"
+    },
+    {
+      "tag": "forge:crops/onion"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "delightful:coconut_curry"
+  }
 }

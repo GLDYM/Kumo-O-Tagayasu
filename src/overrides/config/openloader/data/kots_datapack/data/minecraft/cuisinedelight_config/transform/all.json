@@ -13,7 +13,7 @@
     "farmersdelight:tomato_sauce": {
       "color": -3925425
     },
-    "youkaisfeasts:soy_sauce_bottle": {
+    "youkaishomecoming:soy_sauce_bottle": {
       "color": -11267787
     },
     "tofucraft:bottle_soysause": {
@@ -122,7 +122,7 @@
       "stage": "COOKED"
     },
     "youkaishomecoming:raw_lamprey_fillet": {
-      "next": "youkaisfeasts:roasted_lamprey_fillet",
+      "next": "youkaishomecoming:roasted_lamprey_fillet",
       "stage": "COOKED"
     },
     "beachparty:raw_mussel_meat": {
@@ -138,23 +138,23 @@
       "stage": "COOKED"
     },
     "youkaishomecoming:raw_tuna": {
-      "next": "youkaisfeasts:seared_tuna",
+      "next": "youkaishomecoming:seared_tuna",
       "stage": "COOKED"
     },
     "youkaishomecoming:raw_tuna_slice": {
-      "next": "youkaisfeasts:seared_tuna_slice",
+      "next": "youkaishomecoming:seared_tuna_slice",
       "stage": "COOKED"
     },
     "youkaishomecoming:crab": {
-      "next": "youkaisfeasts:steamed_crab",
+      "next": "youkaishomecoming:steamed_crab",
       "stage": "COOKED"
     },
     "youkaishomecoming:raw_venison": {
-      "next": "youkaisfeasts:grilled_venison",
+      "next": "youkaishomecoming:grilled_venison",
       "stage": "COOKED"
     },
     "youkaishomecoming:raw_venison_slice": {
-      "next": "youkaisfeasts:grilled_venison_slice",
+      "next": "youkaishomecoming:grilled_venison_slice",
       "stage": "COOKED"
     },
     "biomemakeover:bulbus_root": {
@@ -170,7 +170,7 @@
       "stage": "COOKED"
     },
     "youkaishomecoming:tofu": {
-      "next": "youkaisfeasts:oily_bean_curd",
+      "next": "youkaishomecoming:oily_bean_curd",
       "stage": "COOKED"
     },
     "delightful:cactus_flesh": {

@@ -1,30 +1,26 @@
 {
   "_comment":"Oriun Tagayasu modpack(Shortname:OTSU) file comments, It acts to preserve the original modpack author(TskimiSeiran) information. According to the Oriun Tagayasu modpack usage agreement, users are allowed to create and distribute on the basis of Oriun Tagayasu modpack, but the original modpack author information must be retained. Oriun Tagayasu modpack is free for users to download, if you spend real money in somewhere and download Oriun Tagayasu modpack, please avoid seller!",
-      "recipe": {
-        "type": "farmersdelight:cooking",
-        "cookingtime": 200,
-        "experience": 0.35,
-        "ingredients": [
-          {
-            "tag": "forge:crops/glow_berries"
-          },
-          {
-            "tag": "forge:crops/glow_berries"
-          },
-          {
-            "tag": "forge:dusts/glowstone"
-          },
-          {
-            "tag": "forge:sugar"
-          },
-          {
-            "tag": "forge:sugar"
-          }
-        ],
-        "result": {
-          "item": "delightful:glow_jam_jar"
-        }
-      }
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "tag": "forge:crops/glow_berries"
+    },
+    {
+      "tag": "forge:crops/glow_berries"
+    },
+    {
+      "tag": "forge:dusts/glowstone"
+    },
+    {
+      "tag": "forge:sugar"
+    },
+    {
+      "tag": "forge:sugar"
     }
-  ]
+  ],
+  "result": {
+    "item": "delightful:glow_jam_jar"
+  }
 }

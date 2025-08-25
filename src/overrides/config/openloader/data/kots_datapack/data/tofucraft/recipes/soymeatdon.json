@@ -1,0 +1,26 @@
+{
+  "type": "tofucraft:tofu_pot_shapeless",
+  "category": "meal",
+  "cook_time": 300,
+  "exp": 0.5,
+  "fluid": {
+    "fluid": "minecraft:water"
+  },
+  "ingredients": [
+    {
+      "item": "tofucraft:soymeat"
+    },
+    {
+      "item": "tofucraft:bottle_soysause"
+    },
+    {
+      "item": "tofucraft:leek"
+    },
+    {
+      "item": "tofucraft:rice"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:soymeatdon"
+  }
+}

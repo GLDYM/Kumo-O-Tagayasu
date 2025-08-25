@@ -1,0 +1,5 @@
+
+[logbegone]
+	phrases = ["Registering C2S receiver", "Registry entry listened Registry Entry", "Load My Fucking Tags", "Constructing module", "Skipping loading recipe", " Loaded EntityData recipe", "Loaded EnvironmentData recipe", "Loaded AdditionalLootData recipe", "Non-unique structure_set salt", "idas", "observable", "immortalers_delight", "worldedit"]
+	regex = []
+

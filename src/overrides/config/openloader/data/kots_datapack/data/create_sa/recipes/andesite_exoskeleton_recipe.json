@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "0": {
+      "item": "create:andesite_alloy"
+    },
+    "1": {
+      "item": "create:shaft"
+    },
+    "2": {
+      "item": "create:belt_connector"
+    },
+    "3": {
+      "item": "create_sa:heat_engine"
+    },
+    "4": {
+      "tag": "c:ingots/zinc"
+    },
+    "5": {
+      "tag": "c:stones"
+    }
+  },
+  "pattern": [
+    "01210",
+    "00300",
+    "54045"
+  ],
+  "result": {
+    "count": 1,
+    "item": "create_sa:andesite_exoskeleton_chestplate"
+  },
+  "show_notification": false
+}
