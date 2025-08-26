@@ -1401,21 +1401,6 @@
       "fileSize": 1343694
     },
     {
-      "path": "mods/touhou_little_maid_spell-1.20-1.4.7.1.jar",
-      "hashes": {
-        "sha512": "6267d9f37e0c1df71de0d5bc5847b5fc3d05d6fa125a6efe4590bc7dda2f3f9b7846f2981cc7ae54e08a1e4b79faf73b7618bd28b022aa4f6e8947c0cc7f8343",
-        "sha1": "b2d6d97ce53c26dcb97890aab7dbb4434f714c02"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/QHB4kBBS/versions/XErW9XWj/touhou_little_maid_spell-1.20-1.4.7.1.jar"
-      ],
-      "fileSize": 199283
-    },
-    {
       "path": "mods/savage_and_ravage-1.20.1-6.0.0.jar",
       "hashes": {
         "sha512": "1b0ca038a5ecf8f1b23f5753ec97e22d989c6e469620e6db5a009f372d3395967fd9e545be2a8fcd7a10ea059aa67f7dbaf97b43022f7ee9c818cba0acfc239b",
