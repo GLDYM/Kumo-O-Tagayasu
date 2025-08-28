@@ -3,8 +3,38 @@
   "formatVersion": 1,
   "versionId": "5.3.0",
   "name": "Kumo O Tagayasu",
-  "summary": "Fork of Tsuri No Gatsu. Original: https://www.mcmod.cn/modpack/626.html",
+  "summary": "Fork of Oriun Tagayasu. Original: https://www.mcmod.cn/modpack/626.html",
   "files": [
+    {
+      "path": "mods/3Jupiter-2.2.2-forge.jar",
+      "hashes": {
+        "sha512": "c033aa967ae0597e1a4f34b4d5f7ef3278432385ef795addeb6c5c11c046e7692eeecfec751bae0fa1c35d59f69360b36bf0c6dd233547c9d588ecbe7abdf195",
+        "sha1": "dfdc5d2ba888a412cc89d38280c56c6fc4991e7e"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/XbiLGMMU/versions/ZmYt4jjp/Jupiter-2.2.2-forge.jar"
+      ],
+      "fileSize": 186824
+    },
+    {
+      "path": "mods/OneEnoughItem-1.0.5-all.jar",
+      "hashes": {
+        "sha512": "1a0638e935a210bd0b4b245c4da049ffca3bbc7d97861a669daeec1f6762e77a2f079e5d028a56361f619b3c4b28806ee4e1715aaca05009b563444252950648",
+        "sha1": "aad9f7de75b22a90f37d2518c16ab892ba29f266"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/7pCNymxz/versions/U6A3JZBT/OneEnoughItem-1.0.5-all.jar"
+      ],
+      "fileSize": 1003702
+    },
     {
       "path": "mods/3cosmos-library-1.20.1-10.6.0.0-universal.jar",
       "hashes": {
@@ -2046,21 +2076,6 @@
       "fileSize": 14935230
     },
     {
-      "path": "mods/OneEnoughItem-1.0.3_hotfix-all.jar",
-      "hashes": {
-        "sha1": "4bbbeb6888529104a1df98ce47bfdc594af0ea8e",
-        "sha512": "797aed517ca704a060c6afcda1ef050464ac4c9446d49e104b627fc1b1461944aa86cc0de548d926d020e385f9621b885eae71d516c5094904e77aef50ad314b"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/7pCNymxz/versions/Zd3O5E52/OneEnoughItem-1.0.3_hotfix-all.jar"
-      ],
-      "fileSize": 183494
-    },
-    {
       "path": "mods/3resourcefullib-forge-1.20.1-2.1.29.jar",
       "hashes": {
         "sha512": "8dbe951d431545a7d18081a8b11a52a248e6d8ff9862ae6462b0f5a6f57ff523af12704c3adb071ae99a7c5c1dd895bd7875dea59f9c4956c1597a668b6e8820",
@@ -2511,21 +2526,6 @@
       "fileSize": 18898
     },
     {
-      "path": "mods/3YungsApi-1.20-Forge-4.0.6.jar",
-      "hashes": {
-        "sha512": "7d83d94a90e55a712f6508485c044ff202916e9b9b9166b75177cb8f2eb919543bbbe1547d11c41cfd4763820f934235f47c0b26dd9e89bc1030954afa9fb889",
-        "sha1": "af584b690f5646c6032002b58abc4591beed3833"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/Ua7DFN59/versions/PJOYAmAs/YungsApi-1.20-Forge-4.0.6.jar"
-      ],
-      "fileSize": 370524
-    },
-    {
       "path": "mods/DramaticDoors-QuiFabrge-1.20.1-3.3.1.jar",
       "hashes": {
         "sha512": "b9e63c30af2a0e4f255c679a478cb87e8a571bfe4fb3509010281663e0e2b5620d59c185477057a876440d9c8838fd1824411a170ddd6ce6df84e0d477c72009",
@@ -2539,6 +2539,36 @@
         "https://cdn.modrinth.com/data/aQ7h7gal/versions/tRalrohW/DramaticDoors-QuiFabrge-1.20.1-3.3.1.jar"
       ],
       "fileSize": 13305007
+    },
+    {
+      "path": "mods/2fast-ip-ping-v1.0.7-mc1.20.4-forge.jar",
+      "hashes": {
+        "sha1": "253d21fd87657e6dc1e451c9758f5daaa71b86c8",
+        "sha512": "5223cd922b4f32faf8e6263976d39ead51e12dc332a16eacfddd11196872609b1d905673ab707f38d62f5d3f9c243dc51bb62bf3f8179d15a006c616feb48be8"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/9mtu0sUO/versions/W1Wnmkqh/fast-ip-ping-v1.0.7-mc1.20.4-forge.jar"
+      ],
+      "fileSize": 10557
+    },
+    {
+      "path": "mods/2BetterPingDisplay-1.20.1-1.1.jar",
+      "hashes": {
+        "sha1": "6347a5bff9405c59ec7d428e5e24115f5b17a90b",
+        "sha512": "dce676dd2ad95dc0ed1d4d5ebdbdc65880d8654a457c8e9e37c560ee985806b12f7f7503fb332a6873bc69059be6587635d037cb9160838e8f93218e1e7c6e20"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/ZvaHbwoZ/versions/jXuIS25Y/BetterPingDisplay-1.20.1-1.1.jar"
+      ],
+      "fileSize": 15889
     },
     {
       "path": "mods/2watermedia-2.1.30.jar",

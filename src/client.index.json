@@ -6,6 +6,36 @@
   "summary": "",
   "files": [
     {
+      "path": "mods/2fast-ip-ping-v1.0.7-mc1.20.4-forge.jar",
+      "hashes": {
+        "sha1": "253d21fd87657e6dc1e451c9758f5daaa71b86c8",
+        "sha512": "5223cd922b4f32faf8e6263976d39ead51e12dc332a16eacfddd11196872609b1d905673ab707f38d62f5d3f9c243dc51bb62bf3f8179d15a006c616feb48be8"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/9mtu0sUO/versions/W1Wnmkqh/fast-ip-ping-v1.0.7-mc1.20.4-forge.jar"
+      ],
+      "fileSize": 10557
+    },
+    {
+      "path": "mods/2BetterPingDisplay-1.20.1-1.1.jar",
+      "hashes": {
+        "sha1": "6347a5bff9405c59ec7d428e5e24115f5b17a90b",
+        "sha512": "dce676dd2ad95dc0ed1d4d5ebdbdc65880d8654a457c8e9e37c560ee985806b12f7f7503fb332a6873bc69059be6587635d037cb9160838e8f93218e1e7c6e20"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/ZvaHbwoZ/versions/jXuIS25Y/BetterPingDisplay-1.20.1-1.1.jar"
+      ],
+      "fileSize": 15889
+    },
+    {
       "path": "mods/2watermedia-2.1.30.jar",
       "hashes": {
         "sha512": "4793fd5c1f9896679eb03ff9f2a1aa244f242bf5eef4b90f156d79a10b2883de878bc7a63f423a13f4bfcd1d7e8b8e2113970f7eebd53421d55c0ceb1b87a1ca",

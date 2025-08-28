@@ -1,0 +1,29 @@
+{
+  "common": {
+    "Deeper_Replace": true,
+    "Clear_Food_Properties": true,
+    "Enable_Lite": false,
+    "Data_Rewrite_Mode": 2,
+    "Tag_Rewrite_Mode": 1
+  },
+  "recipe": {
+    "Data_Dir_Rules": [
+      {
+        "directory": "recipes",
+        "fields": [
+          "item",
+          "id",
+          "result"
+        ],
+        "deepReplace": true
+      },
+      {
+        "directory": "advancements",
+        "fields": [
+          "item"
+        ],
+        "deepReplace": false
+      }
+    ]
+  }
+}

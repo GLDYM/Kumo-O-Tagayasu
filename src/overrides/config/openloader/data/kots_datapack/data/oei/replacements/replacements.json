@@ -41,16 +41,16 @@
     "resultItems": "vinery:white_grape"
   },
   {
-    "matchItems": ["farm_and_charm:dough", "create:dough", "farmersdelight:wheat_dough", "sakura:dough"],
-    "resultItems": "bakeries:whole_wheat_dough"
+    "matchItems": ["farm_and_charm:dough", "farmersdelight:wheat_dough", "sakura:dough"],
+    "resultItems": "create:dough"
   },
   {
     "matchItems": ["farm_and_charm:raw_pasta"],
     "resultItems": "farmersdelight:raw_pasta"
   },
   {
-    "matchItems": ["create:wheat_flour", "bakeries:whole_wheat_flour", "sakura:flour"],
-    "resultItems": "farm_and_charm:flour"
+    "matchItems": ["farm_and_charm:flour", "sakura:flour"],
+    "resultItems": "create:wheat_flour"
   },
   {
     "matchItems": ["youkaishomecoming:soybean", "sakura:soybean"],
@@ -77,7 +77,7 @@
     "resultItems": "farmersdelight:milk_bottle"
   },
   {
-    "matchItems": ["vintagedelight:salt", "bakeries:salt", "spelunkery:salt"],
+    "matchItems": ["vintagedelight:salt", "bakeries:salt", "spelunkery:salt", "sakura:salt", "tofucraft:salt"],
     "resultItems": "vintagedelight:salt_dust"
   },
   {
