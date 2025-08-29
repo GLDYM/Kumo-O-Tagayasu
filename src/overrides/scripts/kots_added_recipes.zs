@@ -15,11 +15,8 @@ craftingTable.addShapeless("darkoakchange", <item:minecraft:dark_oak_log> * 2, [
 craftingTable.addShapeless("mangrovechange", <item:minecraft:mangrove_log> * 2, [<tag:items:minecraft:mangrove_logs>, <tag:items:minecraft:mangrove_logs>]);
 
 # RAW ORE TO ORE BLOCK
-blastFurnace.addRecipe("blockrawirontoiron_blast", <item:minecraft:iron_block>, <tag:items:forge:storage_blocks/raw_iron>, 8.0, 1600);
-blastFurnace.addRecipe("blockrawgoldtogold_blast", <item:minecraft:gold_block>, <tag:items:forge:storage_blocks/raw_gold>, 8.0, 1600);
 blastFurnace.addRecipe("blockrawzinctozinc_blast", <item:create:zinc_block>, <tag:items:forge:storage_blocks/raw_zinc>, 4.0, 800);
 blastFurnace.addRecipe("blockrawsilvertosilver_blast", <item:caverns_and_chasms:silver_block>, <tag:items:forge:storage_blocks/raw_silver>, 4.0, 800);
-blastFurnace.addRecipe("blockrawcoppertocopper_blast", <item:minecraft:copper_block>, <tag:items:forge:storage_blocks/raw_copper>, 4.0, 800);
 blastFurnace.addRecipe("blockrawbismuthtobismuth_blast", <item:etcetera:bismuth_block>, <tag:items:forge:storage_blocks/raw_bismuth>, 4.0, 800);
 
 furnace.addRecipe("blockrawzinctozinc", <item:create:zinc_block>, <tag:items:forge:storage_blocks/raw_zinc>, 8.0, 1600);
