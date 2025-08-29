@@ -1,0 +1,38 @@
+name: Auto Package and Release
+
+on:
+  workflow_dispatch:
+    ~
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set build number
+        run: echo "BUILD_NUMBER=${{ github.run_number }}" >> $GITHUB_ENV
+
+      - name: Create ZIP archive with build number
+        run: |
+          cd src
+          zip -r "KumoOTagayasu-build-${BUILD_NUMBER}.mrpack" ./*
+
+      - name: Create GitHub Release
+        id: create_release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: "build-${{ env.BUILD_NUMBER }}"
+          name: "Build ${{ env.BUILD_NUMBER }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload .mrpack file to release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: "KumoOTagayasu-build-${{ env.BUILD_NUMBER }}.mrpack"
