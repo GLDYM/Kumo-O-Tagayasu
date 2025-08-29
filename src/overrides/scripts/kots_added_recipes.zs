@@ -60,6 +60,14 @@ craftingTable.addShapeless("simplepinksandstone", <item:natures_spirit:pink_sand
 craftingTable.addShapeless("simpletuff", <item:minecraft:tuff> * 2, [<item:minecraft:cobblestone> * 2, <item:supplementaries:ash>]);
 craftingTable.addShapeless("simplecalcite", <item:minecraft:calcite>, [<item:minecraft:cobblestone>, <item:minecraft:bone_meal>]);
 blastFurnace.addRecipe("plankstoash", <item:supplementaries:ash>, <tag:items:minecraft:planks>, 0.1, 150);
+
+var i = 0;
+for flower in <tag:items:minecraft:flowers> {
+    var name as string = "flower" + i;
+    craftingTable.addShapeless(name, flower.defaultInstance * 2, [flower.defaultInstance, <item:minecraft:bone_meal>]);
+    i += 1;
+}
+
 # BANITEM
 craftingTable.remove(<item:l2complements:diffusion_wand>);
 craftingTable.remove(<item:create_sa:block_picker>);
