@@ -29,10 +29,14 @@ jobs:
         with:
           tag_name: "build-${{ env.BUILD_NUMBER }}"
           name: "Build ${{ env.BUILD_NUMBER }}"
+          prerelease：true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload .mrpack file to release
         uses: softprops/action-gh-release@v1
         with:
+          tag_name: "build-${{ env.BUILD_NUMBER }}"
           files: "KumoOTagayasu-build-${{ env.BUILD_NUMBER }}.mrpack"
+          
+
