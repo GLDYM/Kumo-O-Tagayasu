@@ -133,7 +133,7 @@
 		#The permission level required to use the 'Teleport to a random location' command.
 		#随机传送指令所需的权限等级。
 		#Range: 0 ~ 4
-		permissionTpRandom = 0
+		permissionTpRandom = 2
 		#The permission level required to use the 'Teleport to the spawn of the player' command.
 		#传送到玩家重生点指令所需的权限等级。
 		#Range: 0 ~ 4

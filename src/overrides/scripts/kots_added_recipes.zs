@@ -74,6 +74,9 @@ craftingTable.remove(<item:quark:flamerang>);
 events.register<crafttweaker.forge.api.event.interact.RightClickBlockEvent>((e)=>{val blockstate=e.entity.level.getBlockState(e.blockPos);
 if(blockstate==<blockstate:minecraft:enchanting_table>||blockstate==<blockstate:minecraft:enchanting_table>){e.useBlock=<constant:forge:event/result:deny>;}
 if(e.itemStack.definition==<item:minecraft:enchanting_table>.definition){e.useItem=<constant:forge:event/result:deny>;}});
+
 import crafttweaker.api.food.FoodProperties;
 val nerfquarkcookedcrableg = FoodProperties.create(3, 1).setCanAlwaysEat(false);
 <item:quark:cooked_crab_leg>.setFood(nerfquarkcookedcrableg);
+
+<item:minecraft:golden_carrot>.setFood(FoodProperties.create(5, 0.5).setCanAlwaysEat(false));
