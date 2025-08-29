@@ -21,7 +21,7 @@ jobs:
       - name: Create ZIP archive with build number
         run: |
           cd src
-          zip -r "KumoOTagayasu-build-${BUILD_NUMBER}.mrpack" ./*
+          zip -r "../KumoOTagayasu-build-${BUILD_NUMBER}.mrpack" ./*
 
       - name: Create GitHub Release
         id: create_release
@@ -38,4 +38,6 @@ jobs:
         with:
           tag_name: "build-${{ env.BUILD_NUMBER }}"
           files: "KumoOTagayasu-build-${{ env.BUILD_NUMBER }}.mrpack"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
