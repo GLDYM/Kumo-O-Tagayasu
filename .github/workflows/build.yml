@@ -30,6 +30,7 @@ jobs:
           tag_name: "build-${{ env.BUILD_NUMBER }}"
           name: "Build ${{ env.BUILD_NUMBER }}"
           prerelease: true
+          generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
