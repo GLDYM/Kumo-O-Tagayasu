@@ -244,6 +244,8 @@
 				"在框架或者投影仪填入图片或视频的直链，就可以在游戏内摆放表情包/播放视频了。"
 				""
 				"如果你在服务器，也可以将图片拖入聊天区来发送表情包。"
+				""
+				"[INFO]现在也支持B站的 bilibili 链接与 b23 链接。"
 			]
 			hide_until_deps_complete: true
 			id: "38177FEC4009CCFE"
@@ -310,6 +312,7 @@
 				""
 				"在地下挖掘到宇宙的秘密，制作维度记录器记录维度与位置，并通过搭建传送门以快速到达其他维度。"
 			]
+			hide_until_deps_complete: true
 			id: "772A86A6B98C03D9"
 			rewards: [{
 				id: "69E35A11A9BAAE7A"
@@ -326,6 +329,57 @@
 			x: 0.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: [
+				"@polaristrading"
+				""
+				"手持市场工具右键市场方块可以认领，并打开市场方块的界面。左下设置交易的物品与数量，左上的交易得到的物品，右侧是待交易物品的仓库。"
+				""
+				"手持物品右键市场方块即可交易，市场方块在领地内也可以交易。"
+				""
+				"如果需要自动化输入输出，建议使用机械动力的桌布，并使用烈焰人燃烧室作为店长；这样也可以在领地内交易。"
+			]
+			hide_until_deps_complete: true
+			id: "1F357EC4339BB73B"
+			size: 1.5d
+			tasks: [{
+				id: "29B3EBC590B9CDA7"
+				item: "polaristrading:shop_tool"
+				type: "item"
+			}]
+			title: "市场 \\& 交易"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: [
+				"@the_bumblezone"
+				""
+				"黄蜂领域是整合包内少有的“冒险”模组，其提供了很多蜂蜜资源以及不错的毕业物品。"
+				""
+				"类似于暮色森林，黄蜂领域的流程强依赖于进度，因此建议按照进度游玩。"
+				""
+				"向蜂巢内丢末影珍珠即可进入黄蜂领域。"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:bee_nest"
+			id: "2FE44DE4F0153111"
+			rewards: [{
+				id: "73EF1282D411FBA8"
+				item: "minecraft:bee_nest"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "598EEC9B2E3383FF"
+				type: "checkmark"
+			}]
+			title: "黄蜂领域"
+			x: -4.0d
+			y: 0.0d
+		}
 	]
-	title: "&e实用模组介绍 "
+	title: "&b实用模组介绍 "
 }

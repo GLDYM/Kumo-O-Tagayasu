@@ -34,6 +34,7 @@
 				item: "bakeries:blender"
 				type: "item"
 			}]
+			title: "&6搅拌机"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -44,6 +45,7 @@
 				""
 				"你也可以通过与面包师交易获取酵母。"
 			]
+			hide_until_deps_complete: true
 			icon: "bakeries:bottle_yeast"
 			id: "3A4F161688C43FAC"
 			rewards: [{
@@ -296,6 +298,7 @@
 		{
 			dependencies: ["3FE1E7E6127BA18A"]
 			description: ["作为糕点师，怎么能没有自己的面包刀呢？"]
+			hide_until_deps_complete: true
 			id: "6099E2DE1A3DE1C0"
 			rewards: [{
 				id: "11B093851527BA90"
@@ -324,6 +327,7 @@
 				""
 				"将二者置于搅拌机内打发后再混合，就能得到蛋糕糊。"
 			]
+			hide_until_deps_complete: true
 			id: "033391C05A008D51"
 			rewards: [{
 				count: 2
@@ -406,6 +410,7 @@
 		{
 			dependencies: ["3FE1E7E6127BA18A"]
 			description: ["向发酵罐内放入牛奶与盐，一段时间后即可变为干酪，右键可以去除。"]
+			hide_until_deps_complete: true
 			id: "4C2C3E806258FA45"
 			rewards: [{
 				count: 8

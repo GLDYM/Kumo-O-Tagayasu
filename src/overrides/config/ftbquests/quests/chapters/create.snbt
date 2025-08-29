@@ -1016,7 +1016,7 @@
 			id: "1ABA9FC6BC3C3796"
 			tasks: [{
 				id: "4936E68832A7385A"
-				item: "farm_and_charm:flour"
+				item: "create:wheat_flour"
 				type: "item"
 			}]
 			title: "面粉"
@@ -2523,6 +2523,22 @@
 			]
 			x: 14.5d
 			y: 24.5d
+		}
+		{
+			id: "4FEF5002BE8160A3"
+			rewards: [{
+				id: "32BA2205ABD930EE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "55B4FE3209DD14F2"
+				type: "checkmark"
+			}]
+			title: "起始任务在左上角"
+			x: 3.5d
+			y: 12.5d
 		}
 	]
 	title: "&e新手机械师"

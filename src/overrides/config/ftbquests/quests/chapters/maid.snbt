@@ -16,6 +16,13 @@
 	quests: [
 		{
 			description: ["由稗田阿求所著，记录了女仆的方方面面。"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+				}
+			}
 			id: "1B3B25F7487DF758"
 			rewards: [{
 				count: 8
@@ -26,17 +33,24 @@
 			shape: "gear"
 			size: 1.5d
 			subtitle: "本章作者：PL"
-			tasks: [{
-				id: "67EDECD02F80B9A3"
-				item: {
-					Count: 1
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+			tasks: [
+				{
+					id: "67EDECD02F80B9A3"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5D0608392F923E6B"
+					title: "打开记忆"
+					type: "checkmark"
+				}
+			]
 			title: "&6幻想乡记忆"
 			x: 0.0d
 			y: 0.0d
