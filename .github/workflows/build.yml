@@ -50,7 +50,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: "build-${{ env.BUILD_NUMBER }}"
-          name: "Build ${{ env.BUILD_NUMBER }}"
+          name: "Kumo O Tagayasu Build-${{ env.BUILD_NUMBER }}"
           prerelease: true
           generate_release_notes: true
         env:
