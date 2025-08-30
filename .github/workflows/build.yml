@@ -25,6 +25,7 @@ jobs:
         with:
           comment: "true"
           base_dir: "src"
+          exclude_file: "exclude.txt"
 
   build-and-release:
     runs-on: ubuntu-latest

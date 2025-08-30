@@ -1,0 +1,2 @@
+src/overrides/config/ftbbackups2.json
+src/overrides/config/lithostitched.json
