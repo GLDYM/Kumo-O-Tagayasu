@@ -6,6 +6,21 @@
   "summary": "Fork of Oriun Tagayasu. Original: https://www.mcmod.cn/modpack/626.html",
   "files": [
     {
+      "path": "mods/minopp-1.4.0+1.20.1+forge.jar",
+      "hashes": {
+        "sha512": "784a899c88a3441b9c87a58ce36b2a78ce825debb323361b35ada0b958fd63ce16f6646f713b7cb63b0da7b0695b16a2a89cd9fce0fc54dec7cfbdc4722469d7",
+        "sha1": "0cf360603f6eaeca78b3d467e3c010cc62e74e35"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/4QitwNm0/versions/j5C8sn6g/minopp-1.4.0%2B1.20.1%2Bforge.jar"
+      ],
+      "fileSize": 298427
+    },
+    {
       "path": "mods/3Jupiter-2.2.2-forge.jar",
       "hashes": {
         "sha512": "c033aa967ae0597e1a4f34b4d5f7ef3278432385ef795addeb6c5c11c046e7692eeecfec751bae0fa1c35d59f69360b36bf0c6dd233547c9d588ecbe7abdf195",
