@@ -6,6 +6,36 @@
   "summary": "",
   "files": [
     {
+      "path": "mods/1Krypton-FNP-forge-1.20.1-0.2.20-lite.jar",
+      "hashes": {
+        "sha512": "f019c6583ce71de1b3d278476f51cb6ae7bb253ed055c240311c1a1c1562f8f95c08f66c7cda746fb1d909866634e39271ef03eae4d2a679e0a997f8b3285311",
+        "sha1": "ce5101a8371cfeadc392fb3231e3e8cb331856b8"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/JkxWVYwU/versions/kPodu6lT/Krypton%20FNP-forge-1.20.1-0.2.20-lite.jar"
+      ],
+      "fileSize": 1365466
+    },
+    {
+      "path": "mods/3yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+      "hashes": {
+        "sha512": "7fdd923ae94c1ada9bf0524f21cdfbb4f870ea93b26d02f369829585892fc5a2f61e60f43a6686ee611ff11bde8f123f178279e2de453c8fb320264153a0e8d9",
+        "sha1": "644731e321c53a35a0b3177a3cc6347fe38002f4"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/1eAoo2KR/versions/sCWgXDYQ/yet_another_config_lib_v3-3.6.6%2B1.20.1-forge.jar"
+      ],
+      "fileSize": 1105891
+    },
+    {
       "path": "mods/minopp-1.4.0+1.20.1+forge.jar",
       "hashes": {
         "sha512": "784a899c88a3441b9c87a58ce36b2a78ce825debb323361b35ada0b958fd63ce16f6646f713b7cb63b0da7b0695b16a2a89cd9fce0fc54dec7cfbdc4722469d7",

@@ -6,6 +6,21 @@
   "summary": "",
   "files": [
     {
+      "path": "mods/2AsyncParticles-2.3.6+1.20.1.jar",
+      "hashes": {
+        "sha512": "49b45bb479fd481c780e639e66cecfcfe5970b3ae154c026a94b6f735bd65c6956a6d0c42a950bf2169567468978a1bd1962bb5e396941dc4bb40b2e0751c9a1",
+        "sha1": "dd39472a38bd9b26697fba35864c1beb312192c5"
+      },
+      "env": {
+        "server": "unsupported",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/c3onkd5k/versions/A5FtUkzN/AsyncParticles-2.3.6%2B1.20.1.jar"
+      ],
+      "fileSize": 1264140
+    },
+    {
       "path": "mods/2fast-ip-ping-v1.0.7-mc1.20.4-forge.jar",
       "hashes": {
         "sha1": "253d21fd87657e6dc1e451c9758f5daaa71b86c8",
