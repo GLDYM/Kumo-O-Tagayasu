@@ -22,6 +22,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "本章作者：PL"
 			tasks: [{
 				id: "2EC7949A4DB5262C"
 				title: "量产章节"

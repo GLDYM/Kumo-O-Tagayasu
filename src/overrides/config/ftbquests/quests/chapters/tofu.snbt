@@ -25,6 +25,7 @@
 			}]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "本章作者：PL"
 			tasks: [{
 				count: 4L
 				id: "1CA65F46B597264D"

@@ -14,6 +14,7 @@
 			id: "43779E819BF3A6AD"
 			shape: "gear"
 			size: 3.0d
+			subtitle: "本章作者：PL"
 			tasks: [{
 				id: "356AD252DFFD1280"
 				type: "checkmark"

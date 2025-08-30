@@ -18,6 +18,7 @@
 			}]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "本章作者：PL"
 			tasks: [{
 				id: "00C3C8D3B8E215A2"
 				title: "开始旅途"

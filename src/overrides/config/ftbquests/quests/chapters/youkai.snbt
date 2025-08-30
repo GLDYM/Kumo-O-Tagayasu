@@ -14,6 +14,7 @@
 			id: "0E554BF316EB9E7B"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "本章作者：PL"
 			tasks: [{
 				id: "41D6D62AC69E22B5"
 				title: "&6开始幻想乡之旅"
