@@ -3167,5 +3167,5 @@
 	"quark.config.oddities.totem_of_holding.destroy_lost_items.desc": "设为true后，图腾被破坏时会销毁容纳的物品，而不是掉落它们。",
 	"quark.config.oddities.totem_of_holding.spawn_totem_on_pvp_kill.name": "死于PVP也会生成图腾",
 	"quark.config.oddities.totem_of_holding.spawn_totem_on_pvp_kill.desc": "玩家被玩家杀死时，也会生成图腾，自杀也算。",
-	"_comment": "Hanekmio Instance Modpack(Shortname:HMI) file comments, It acts to preserve the original author(Hanekmio) information. According to the HMI usage agreement, users are allowed to create and distribute on the basis of HMI, but the original author information must be retained. HMI is free for users to download, if you spend real money in somewhere and download HMI, please avoid seller!"
+	"_comment":"Oriun Tagayasu modpack(Shortname:OTSU) file comments, It acts to preserve the original author(TskimiSeiran) information. According to the Oriun Tagayasu modpack usage agreement, users are allowed to create and distribute on the basis of Oriun Tagayasu modpack, but the original modpack author information must be retained. Oriun Tagayasu modpack is free for users to download, if you spend real money in somewhere and download Oriun Tagayasu modpack, please avoid seller!"
 }

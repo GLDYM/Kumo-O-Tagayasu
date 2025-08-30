@@ -101,5 +101,6 @@
   "item.zetter.warped_plated_frame": "带名牌的诡异木画框",
   "painting.zetter.banned": "这幅画作已被服务器管理员禁用，现在使用的是其替代品",
   "forge.configgui.zetter.painting.resolution": "画作分辨率",
-  "forge.configgui.zetter.gui.helpButton": "显示“帮助”按钮"
+  "forge.configgui.zetter.gui.helpButton": "显示“帮助”按钮",
+  "_comment":"Oriun Tagayasu modpack(Shortname:OTSU) file comments, It acts to preserve the original author(TskimiSeiran) information. According to the Oriun Tagayasu modpack usage agreement, users are allowed to create and distribute on the basis of Oriun Tagayasu modpack, but the original modpack author information must be retained. Oriun Tagayasu modpack is free for users to download, if you spend real money in somewhere and download Oriun Tagayasu modpack, please avoid seller!"
 }

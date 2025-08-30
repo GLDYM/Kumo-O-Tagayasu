@@ -270,6 +270,6 @@
     "gui.xaero_toggle_dimension": "切换尺寸",
     "gui.xaero_switched_to_dimension": "切换到§2%s§r",
     "gui.xaero_switched_to_current_dimension": "切换到§2%s§r（当前）",
-    "gui.xaero_pac_claim_selection_out_of_dimension": "§8（声明）超出维度..."
-	
+    "gui.xaero_pac_claim_selection_out_of_dimension": "§8（声明）超出维度...",
+	"_comment":"Oriun Tagayasu modpack(Shortname:OTSU) file comments, It acts to preserve the original author(TskimiSeiran) information. According to the Oriun Tagayasu modpack usage agreement, users are allowed to create and distribute on the basis of Oriun Tagayasu modpack, but the original modpack author information must be retained. Oriun Tagayasu modpack is free for users to download, if you spend real money in somewhere and download Oriun Tagayasu modpack, please avoid seller!"
 }

@@ -1,0 +1,10 @@
+{
+  "screen.quitornot.confirm.title": "退出游戏前确认",
+  "screen.quitornot.confirm.title.game": "是否离开织彩钓月？我们欢迎您再次回来。",
+  "screen.quitornot.confirm.title.singleplayer": "返回到标题屏幕",
+  "screen.quitornot.confirm.title.multiplayer": "返回到标题屏幕",
+  "toast.quitornot.confirm.title": "退出游戏前确认",
+  "toast.quitornot.confirm.title.game": "再按一次以退出游戏。",
+  "toast.quitornot.confirm.title.singleplayer": "是否退出当前游戏？再按一次以回到标题屏幕。",
+  "toast.quitornot.confirm.title.multiplayer": "是否退出当前游戏？再按一次以回到标题屏幕。"
+}

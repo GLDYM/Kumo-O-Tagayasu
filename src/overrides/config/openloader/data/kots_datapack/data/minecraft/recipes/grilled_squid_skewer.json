@@ -1,0 +1,10 @@
+{
+  "type": "barbequesdelight:grilling",
+  "barbecuingTime": 260,
+  "ingredient": {
+    "item": "oceansdelight:tentacle_on_a_stick"
+  },
+  "output": {
+    "item": "oceansdelight:baked_tentacle_on_a_stick"
+  }
+}

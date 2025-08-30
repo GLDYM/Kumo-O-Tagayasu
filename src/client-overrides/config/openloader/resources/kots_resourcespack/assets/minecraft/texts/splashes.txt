@@ -18,7 +18,6 @@ AWSL
 AMD YES!
 草（一种植物）
 世界之大为何我们相遇,难道是缘分？难道是天意？
-Also Try TskimiCanopyCraft!
 以普遍理性而论，确实。
 要成为光,因为有怕黑的人。
 即使天无雨,我亦留此地。
@@ -102,8 +101,6 @@ Be careful, young man!
 执着与进退？这是个问题。
 她同意了
 山谷的最低点正是山的起点。
-耕云钓月，启动！
-Also Try Tsuri No Gatsu 5!
 风向是会转变的。
 java.util.ConcurrentModificationException
 细节决成败,态度决未来。

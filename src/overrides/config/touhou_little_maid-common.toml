@@ -6,13 +6,6 @@
 	#The item that can temptation maid
 	#Use the registered name of the item directly or write tag name with # as prefix
 	MaidTemptationItem = "minecraft:cake"
-	#Maid can switch models freely
-	MaidChangeModel = true
-	#The maximum number of maids the player own
-	#Range: > 0
-	OwnerMaxMaidNum = 8
-	#The entity that the maid will not hurt when in ranged attack
-	MaidRangedAttackIgnore = []
 	#The max range of maid work mode
 	#Range: 3 ~ 64
 	MaidWorkRange = 12
@@ -28,35 +21,46 @@
 	#The max number of animals around when the maid breeds animals
 	#Range: 6 ~ 65536
 	FeedAnimalMaxNumber = 50
+	#Maid can switch models freely
+	MaidChangeModel = true
 	#Maid can only play gomoku with her owner
-	MaidGomokuOwnerLimit = true
+	MaidGomokuOwnerLimit = false
+	#The maximum number of maids the player own
+	#Range: > 0
+	OwnerMaxMaidNum = 64
 	#These items cannot be placed in the maid backpack
 	MaidBackpackBlackList = []
 	#The entity that the maid will not recognize as targets for attack
-	MaidAttackIgnore = []
+	MaidAttackIgnore = ["minecraft:armor_stand", "minecraft:painting", "minecraft:area_effect_cloud", "minecraft:firework_rocket", "minecraft:interaction", "minecraft:text_display", "minecraft:lightning_bolt", "dummmmmmy:target_dummy", "youkaishomecoming:item_danmaku", "youkaishomecoming:item_laser", "atmospheric:dragon_fruit", "atmospheric:orange_vapor_cloud", "atmospheric:passion_fruit_seed", "xercapaint:canvas", "xercapaint:easel", "immersive_paintings:glow_graffiti", "immersive_paintings:glow_painting", "immersive_paintings:graffiti", "immersive_paintings:painting", "tiab:time_accelerator_entity_type"]
+	#The entity that the maid will not hurt when in ranged attack
+	MaidRangedAttackIgnore = ["minecraft:armor_stand", "minecraft:painting", "minecraft:area_effect_cloud", "minecraft:firework_rocket", "minecraft:interaction", "minecraft:text_display", "minecraft:lightning_bolt", "dummmmmmy:target_dummy", "youkaishomecoming:item_danmaku", "youkaishomecoming:item_laser", "atmospheric:dragon_fruit", "atmospheric:orange_vapor_cloud", "atmospheric:passion_fruit_seed", "xercapaint:canvas", "xercapaint:easel", "immersive_paintings:glow_graffiti", "immersive_paintings:glow_painting", "immersive_paintings:graffiti", "immersive_paintings:painting", "tiab:time_accelerator_entity_type"]
+	#Percentage chance of replace Allays spawn in pillager outposts with Maids
+	#Range: 0.0 ~ 1.0
+	ReplaceAllayPercent = 0.2
 	#These items cannot be used as a maid's work meals
-	MaidWorkMealsBlockList = ["minecraft:pufferfish", "minecraft:poisonous_potato", "minecraft:rotten_flesh", "minecraft:spider_eye", "minecraft:chorus_fruit"]
+	MaidWorkMealsBlockList = ["minecraft:pufferfish", "minecraft:poisonous_potato", "minecraft:rotten_flesh", "minecraft:spider_eye", "minecraft:suspicious_stew", "minecraft:chorus_fruit", "barbequesdelight:burnt_skewer", "adventuresmod:chorus_cookie", "ends_delight:dragon_breath_and_chorus_soup", "ends_delight:chorus_fruit_popsicle", "fruitsdelight:chorus_jello", "fruitsdelight:chorus_jelly", "vinery:chorus_wine", "atmospheric:passion_fruit", "atmospheric:shimmering_passion_fruit"]
 	#These items cannot be used as a maid's home meals
-	MaidHomeMealsBlockList = ["minecraft:pufferfish", "minecraft:poisonous_potato", "minecraft:rotten_flesh", "minecraft:spider_eye", "minecraft:chorus_fruit"]
+	MaidHomeMealsBlockList = ["minecraft:pufferfish", "minecraft:poisonous_potato", "minecraft:rotten_flesh", "minecraft:spider_eye", "minecraft:suspicious_stew", "minecraft:chorus_fruit", "barbequesdelight:burnt_skewer", "adventuresmod:chorus_cookie", "ends_delight:dragon_breath_and_chorus_soup", "ends_delight:chorus_fruit_popsicle", "fruitsdelight:chorus_jello", "fruitsdelight:chorus_jelly", "vinery:chorus_wine", "atmospheric:passion_fruit", "atmospheric:shimmering_passion_fruit"]
 	#These items cannot be used as a maid's heal meals
-	MaidHealMealsBlockList = ["minecraft:pufferfish", "minecraft:poisonous_potato", "minecraft:rotten_flesh", "minecraft:spider_eye"]
+	MaidHealMealsBlockList = ["minecraft:pufferfish", "minecraft:poisonous_potato", "minecraft:rotten_flesh", "minecraft:spider_eye", "minecraft:suspicious_stew", "minecraft:chorus_fruit", "barbequesdelight:burnt_skewer", "adventuresmod:chorus_cookie", "ends_delight:dragon_breath_and_chorus_soup", "ends_delight:chorus_fruit_popsicle", "fruitsdelight:chorus_jello", "fruitsdelight:chorus_jelly", "vinery:chorus_wine", "atmospheric:passion_fruit", "atmospheric:shimmering_passion_fruit"]
 	#These items cannot be used as a maid's work meals which match the regex
 	MaidWorkMealsBlockListRegEx = []
 	#These items cannot be used as a maid's home meals which match the regex
 	MaidHomeMealsBlockListRegEx = []
 	#These items cannot be used as a maid's heal meals which match the regex
 	MaidHealMealsBlockListRegEx = []
-	#Percentage chance of replace Allays spawn in pillager outposts with Maids
-	#Range: 0.0 ~ 1.0
-	ReplaceAllayPercent = 0.2
 	#These entries configure the container returned after a maid has eaten
 	#Eg: ["minecraft:beetroot_soup", "minecraft:bowl"]
 	MaidEatenReturnContainerList = []
-	#This is a global config that applies to all maids: how often maids speak
-	#Range: 0 ~ 100
-	GlobalMaidSoundFrequency = 100
-	#This is a global config that applies to all maids: Whether or not to display chat bubbles
-	GlobalMaidShowChatBubble = true
+	#Recognition distance of a maid under the gun task, Suitable for sniper rifles
+	#Range: 0 ~ 512
+	MaidGunLongDistance = 64
+	#Recognition distance of a maid under the gun task, Suitable for most types
+	#Range: 0 ~ 512
+	MaidGunMediumDistance = 48
+	#Recognition distance of a maid under the gun task, Suitable for pistols and shotguns
+	#Range: 0 ~ 512
+	MaidGunNearDistance = 32
 	#The max range of maid's bow attack
 	#Range: 8 ~ 192
 	BowRange = 48
@@ -69,15 +73,11 @@
 	#The max range of maid's trident attack
 	#Range: 8 ~ 192
 	TridentRange = 48
-	#Recognition distance of a maid under the gun task, Suitable for sniper rifles
-	#Range: 0 ~ 512
-	MaidGunLongDistance = 64
-	#Recognition distance of a maid under the gun task, Suitable for most types
-	#Range: 0 ~ 512
-	MaidGunMediumDistance = 48
-	#Recognition distance of a maid under the gun task, Suitable for pistols and shotguns
-	#Range: 0 ~ 512
-	MaidGunNearDistance = 32
+	#This is a global config that applies to all maids: how often maids speak
+	#Range: 0 ~ 100
+	GlobalMaidSoundFrequency = 100
+	#This is a global config that applies to all maids: Whether or not to display chat bubbles
+	GlobalMaidShowChatBubble = true
 
 [chair]
 	#Chair can switch models freely
@@ -88,10 +88,10 @@
 [misc]
 	#Maid fairy's power point
 	#Range: 0.0 ~ 5.0
-	MaidFairyPowerPoint = 0.16
+	MaidFairyPowerPoint = 0.2
 	#Maid fairy's spawn probability (zombie is 100, enderman is 10)
 	#Range: > 0
-	MaidFairySpawnProbability = 1
+	MaidFairySpawnProbability = 50
 	#The following dimension do not spawn maid fairy
 	MaidFairyBlacklistDimension = ["minecraft:the_nether", "minecraft:the_end", "twilightforest:twilight_forest"]
 	#Loss power point after player death
@@ -99,22 +99,22 @@
 	PlayerDeathLossPowerPoint = 1.0
 	#Give a soul spell item for player first join
 	GiveSoulSpell = true
+	#Give the Memorizable Gensokyo book item for player first join
+	GivePatchouliBook = false
 	#Shrine Lamp Effect Cost (Power Point/Per Hour)
 	#Range: 0.0 ~ 1.7976931348623157E308
-	ShrineLampEffectCost = 0.9
+	ShrineLampEffectCost = 1.0
 	#Shrine Lamp Max Storage Power Point
 	#Range: 0.0 ~ 1.7976931348623157E308
 	ShrineLampMaxStorage = 100.0
 	#Shrine Lamp Max Range Of Absorb Power Point
 	#Range: > 0
-	ShrineLampMaxRange = 6
-	#Give the Memorizable Gensokyo book item for player first join
-	GivePatchouliBook = true
+	ShrineLampMaxRange = 8
 	#Whether to turn off the Optifine warning
 	CloseOptifineWarning = false
 	#The range of the scarecrow to prevent the fairy maid from spawning
 	#Range: > 0
-	ScarecrowRange = 48
+	ScarecrowRange = 56
 	#Whether to use the new version of the Fairy Maid model
 	UseNewMaidFairyModel = true
 	#Whether to enable model icon caching

@@ -19,7 +19,7 @@
   "chloride.interface.fps.system.gpu_only": "仅显卡",
   "chloride.interface.fps.system.ram_only": "仅内存",
   "chloride.interface.fps.system.all": "显示全部",
-  "chloride.interface.fps": "帧",
+  "chloride.interface.fps": "帧 - 织彩钓月",
   "chloride.interface.fps.min": "最低",
   "chloride.interface.fps.avg": "平均",
   "chloride.interface.fps.gpu": "显卡",
@@ -152,5 +152,6 @@
   "chloride.zoom.desc": "启用缩放功能，可按下绑定的键位激活。",
   "chloride.zoom.forbidden": "检测到JustZoom或Zume，Chloride缩放现已禁用。",
   "chloride.zoom.max.title": "最大缩放程度",
-  "chloride.zoom.max.desc": "使用鼠标滚轮设置可能的最大缩放程度。"
+  "chloride.zoom.max.desc": "使用鼠标滚轮设置可能的最大缩放程度。",
+  "_comment":"Oriun Tagayasu modpack(Shortname:OTSU) file comments, It acts to preserve the original modpack author(TskimiSeiran) information. According to the Oriun Tagayasu modpack usage agreement, users are allowed to create and distribute on the basis of Oriun Tagayasu modpack, but the original modpack author information must be retained. Oriun Tagayasu modpack is free for users to download, if you spend real money in somewhere and download Oriun Tagayasu modpack, please avoid seller!"
 }

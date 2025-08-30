@@ -2,7 +2,7 @@
 [general]
 	"Enable 'q' Button" = true
 	"'q' Button on the Right" = false
-	"Disable Q Menu Effects" = false
+	"Disable Q Menu Effects" = true
 	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
 	#Allowed values: (0,)
 	"Advancement Visibility Depth" = 2

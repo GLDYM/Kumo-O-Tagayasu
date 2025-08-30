@@ -290,7 +290,7 @@
 	"gui.xaero_light_overlay_min_light" : "最小光照等级",
 	"gui.xaero_toggle_light_overlay" : "切换光照叠加层",
 	"gui.xaero_box_light_overlay_type" : "使用此叠加层会对游戏性能产生负面影响， 因为它目前不使用世界地图模组区块并增加小地图更新频率。 不要一直保持在开启状态。",
-	"gui.xaero_day" : "天",
+	"gui.xaero_day" : "织彩钓月 - 天数",
 	"gui.xaero_tamed" : "驯服的生物",
 	"gui.xaero_untamed_color" : "未驯服颜色",
 	"gui.xaero_icons_list" : "玩家列表",
@@ -531,5 +531,6 @@
 	"gui.xaero_alternative_list_players" : "“玩家列表”第二键位",
 	"gui.xaero_display_stained_glass" : "显示染色玻璃",
 	"gui.xaero_waypoint_onmap_scale" : "地图上路径点大小",
-	"gui.xaero_waypoint_onmap_scale_auto" : "自动"
+	"gui.xaero_waypoint_onmap_scale_auto" : "自动",
+	"_comment":"Oriun Tagayasu modpack(Shortname:OTSU) file comments, It acts to preserve the original modpack author(TskimiSeiran) information. According to the Oriun Tagayasu modpack usage agreement, users are allowed to create and distribute on the basis of Oriun Tagayasu modpack, but the original modpack author information must be retained. Oriun Tagayasu modpack is free for users to download, if you spend real money in somewhere and download Oriun Tagayasu modpack, please avoid seller!"
 }

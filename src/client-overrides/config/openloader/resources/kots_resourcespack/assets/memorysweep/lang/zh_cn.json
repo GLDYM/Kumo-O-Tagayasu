@@ -1,0 +1,5 @@
+{
+  "memorysweep.gc.start": "[织彩钓月]正在清理内存，当前JVM占用%dG内存。",
+  "memorysweep.gc.end": "[织彩钓月]完成内存清理，当前JVM占用%dG内存。",
+  "memorysweep.gc.failed": "[织彩钓月]当前无法清理内存，因为%s"
+}

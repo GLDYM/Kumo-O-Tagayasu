@@ -190,12 +190,6 @@
 	# Allow Bee Queen to respawn in Throne Pillar when located with fresh Throne Honey Compass.
 	#
 	beeQueenRespawning = true
-	# 
-	#-----------------------------------------------------
-	#
-	# Allow Bee Queen to pick up items off ground to do trading.
-	#
-	beeQueenGroundPickup = true
 
 ["Essence Options"]
 	# 
@@ -308,12 +302,6 @@
 	# Adding or removing numbers will change the maximum number of rage tiers too.
 	#
 	ragingEssenceStrengthLevels = [1, 2, 3, 5, 10, 15, 20]
-	# 
-	#-----------------------------------------------------
-	#
-	# Whether the Blue Arena in Sempiternal Sanctum has the moving bubble block mechanic.
-	#
-	blueArenaBubblesMechanic = true
 
 ["Enchantments Options"]
 	# 
@@ -418,20 +406,4 @@
 	#
 	#Range: 0 ~ 1000000
 	musicDiscDrowningInDespair = 570
-	# 
-	#-----------------------------------------------------
-	#
-	# How long in seconds this music disc will be playing music.
-	# This is used for the server to know when to make Allays stop dancing when Jukebox stops playing this music disc.
-	#
-	#Range: 0 ~ 1000000
-	musicDiscTimeLengthRiversOfHoney = 224
-	# 
-	#-----------------------------------------------------
-	#
-	# How long in seconds this music disc will be playing music.
-	# This is used for the server to know when to make Allays stop dancing when Jukebox stops playing this music disc.
-	#
-	#Range: 0 ~ 1000000
-	musicDiscBeennaBox = 251
 

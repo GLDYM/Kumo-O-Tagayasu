@@ -520,5 +520,6 @@
   "tooltip.upgrade_aquatic.yellow_jelly_torch": "黄色凝胶火把",
   "tooltip.upgrade_aquatic.yielding_jelly_torch": "产出：",
   "tooltip.upgrade_aquatic.yielding_jelly_torch.or": "或",
-  "trim_material.upgrade_aquatic.tooth": "长尾鲨齿质"
+  "trim_material.upgrade_aquatic.tooth": "长尾鲨齿质",
+  "_comment":"Oriun Tagayasu modpack(Shortname:OTSU) file comments, It acts to preserve the original author(TskimiSeiran) information. According to the Oriun Tagayasu modpack usage agreement, users are allowed to create and distribute on the basis of Oriun Tagayasu modpack, but the original modpack author information must be retained. Oriun Tagayasu modpack is free for users to download, if you spend real money in somewhere and download Oriun Tagayasu modpack, please avoid seller!"
 }
