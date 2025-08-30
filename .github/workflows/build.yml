@@ -1,12 +1,16 @@
-name: Auto Package and Release
+name: Auto Validate Package and Release
 
 on:
   workflow_dispatch:
     ~
   push:
     branches: [master]
+    paths:
+      - "src/**"
   pull_request:
     branches: [master]
+    paths:
+      - "src/**"
 
 permissions:
   contents: read
