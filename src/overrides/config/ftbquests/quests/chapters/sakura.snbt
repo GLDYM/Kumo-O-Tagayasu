@@ -177,6 +177,8 @@
 				""
 				"瓦斯麦：绯红森林，种植于耕地、灵魂土、灵魂沙"
 				""
+				"诡怨桂：诡异森林，种植于耕地"
+				""
 				"古苜蓿、火把花、瓶子草：全群系，种植于耕地。"
 			]
 			id: "5164A50FADE97246"
@@ -219,6 +221,11 @@
 				{
 					id: "58CD8445C2759FC5"
 					item: "minecraft:pitcher_pod"
+					type: "item"
+				}
+				{
+					id: "2890898D35159BF9"
+					item: "immortalers_delight:warped_laurel_seeds"
 					type: "item"
 				}
 			]
