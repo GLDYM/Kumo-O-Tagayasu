@@ -2706,21 +2706,6 @@
       "fileSize": 16472
     },
     {
-      "path": "mods/2Quit-Forge-1.20.2-1.0.0.jar",
-      "hashes": {
-        "sha1": "f31c3276a66e47e1b1c95ac8fdd12e19119c1cc4",
-        "sha512": "377bf13bd3910099dca6c47112fdb3a0a37dd0515fbf1b87cd563df85d882b58005e2c12206843f3648b28831e319f2ebccf8450fa5df800c07f8ab15e9b20fa"
-      },
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/bcIar9jW/versions/4Ah7v81t/Quit-Forge-1.20.2-1.0.0.jar"
-      ],
-      "fileSize": 14845
-    },
-    {
       "path": "mods/2Tweakerge-0.1.5-mc1.20.1.jar",
       "hashes": {
         "sha1": "6b0eaf253e42e90836a2e934c318488b9ff59a24",
