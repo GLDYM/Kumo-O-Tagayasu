@@ -18,6 +18,14 @@ class KOTSHandler(ForgeHandler):
 			result.player, result.content = parsed['name'].split(" ", 1)[0], parsed['message']
 		return result
 
+	@override
+	def parse_player_left(self, info):
+		if not info.is_user:
+			if (m := re.compile(r'(?P<name>[^ ]+) left the game').fullmatch(info.content)) is not None:
+				if self._verify_player_name(m['name'].split(" ", 1)[0]):
+					return m['name']
+		return None
+
 if __name__ == '__main__':
 	handler = KOTSHandler()
 	test = handler.parse_server_stdout('[01:02:03] [Server thread/INFO]: <PlayerName (虚空)> Message')
