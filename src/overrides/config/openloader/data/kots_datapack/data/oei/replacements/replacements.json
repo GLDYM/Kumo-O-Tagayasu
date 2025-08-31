@@ -85,7 +85,7 @@
     "resultItems": "farmersdelight:cooked_rice"
   },
   {
-    "matchItems": ["kaleidoscope_cookery:rice", "tofucraft:seeds_rice", "sakura:rice"],
+    "matchItems": ["kaleidoscope_cookery:rice", "tofucraft:seeds_rice", "sakura:rice", "sakura:rice_seeds"],
     "resultItems": "farmersdelight:rice"
   },
   {
