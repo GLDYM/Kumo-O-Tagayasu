@@ -100,7 +100,7 @@
 	#Give a soul spell item for player first join
 	GiveSoulSpell = true
 	#Give the Memorizable Gensokyo book item for player first join
-	GivePatchouliBook = false
+	GivePatchouliBook = true
 	#Shrine Lamp Effect Cost (Power Point/Per Hour)
 	#Range: 0.0 ~ 1.7976931348623157E308
 	ShrineLampEffectCost = 1.0
