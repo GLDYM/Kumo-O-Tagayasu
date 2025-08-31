@@ -66,19 +66,19 @@
       "fileSize": 186824
     },
     {
-      "path": "mods/OneEnoughItem-1.0.5-all.jar",
+      "path": "mods/OneEnoughItem-Forge-1.0.5.1.jar",
       "hashes": {
-        "sha512": "1a0638e935a210bd0b4b245c4da049ffca3bbc7d97861a669daeec1f6762e77a2f079e5d028a56361f619b3c4b28806ee4e1715aaca05009b563444252950648",
-        "sha1": "aad9f7de75b22a90f37d2518c16ab892ba29f266"
+        "sha512": "e0add0503159bf3f0412275293b229d7891709e0c754855989abbbb1e15782c0aba3aed524d7cf86f4aa7d47eb303417d005053c5c39812f586d87e1acafdce7",
+        "sha1": "60d10a2158f2523fcda7209f70affbea83e68101"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/7pCNymxz/versions/U6A3JZBT/OneEnoughItem-1.0.5-all.jar"
+        "https://cdn.modrinth.com/data/7pCNymxz/versions/TkHRus8b/OneEnoughItem-Forge-1.0.5.1.jar"
       ],
-      "fileSize": 1003702
+      "fileSize": 301862
     },
     {
       "path": "mods/3cosmos-library-1.20.1-10.6.0.0-universal.jar",
@@ -246,19 +246,19 @@
       "fileSize": 2675251
     },
     {
-      "path": "mods/l2complements-2.5.7.jar",
+      "path": "mods/l2complements-2.5.8.jar",
       "hashes": {
-        "sha1": "722e08cf2045483d4cd74aceb6433feedcf2ebbe",
-        "sha512": "6ebb34ff3b7793a7ea9c5412c6e83c73c6b61be547476eebc3d29ac8590642f88af77d189140611457781a71d9117cb72c87372af832e7ee324068d1e3c194b7"
+        "sha512": "4043e33fa4904ec13639fc01de030ac3c6173d9958bc3187435aae730776a742e15ba1458777e8a3ec2062417de52799a0fb598f82eae4ec0507ab765dd436a8",
+        "sha1": "159573ce8f71cf58db3f54831a7af02b7bf647cb"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "server": "required",
+        "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/oPrh2Lz3/versions/91QRLe2B/l2complements-2.5.7.jar"
+        "https://cdn.modrinth.com/data/oPrh2Lz3/versions/x0aJXeFS/l2complements-2.5.8.jar"
       ],
-      "fileSize": 1145817
+      "fileSize": 1145909
     },
     {
       "path": "mods/TerraBlender-forge-1.20.1-3.0.1.10.jar",
@@ -321,34 +321,34 @@
       "fileSize": 358535
     },
     {
-      "path": "mods/amendments-1.20-2.1.1.jar",
+      "path": "mods/amendments-1.20-2.2.1.jar",
       "hashes": {
-        "sha1": "8eceb67075ec49be1a29a4251391cf826bbbe50a",
-        "sha512": "b826c859b5fe46a209e466ba2cde915f38675ce6b3e5191df510387fbdc406423f3d36745735a3aad2ceb5bf6d60b48a49cf32f4e30764e9238db904a58bedec"
+        "sha512": "044151db542b273e34be424576a500f0496828581451904927662fa6cc352c890127888c9d257d88e8c6f98552be77164b709db62626094e1e8685bdaa66205d",
+        "sha1": "5b83b3cd9143b95ecb4ce82b71e26d3727040e79"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/6iTJugQR/versions/kMDT4Uhw/amendments-1.20-2.1.1.jar"
+        "https://cdn.modrinth.com/data/6iTJugQR/versions/3iFSTYky/amendments-1.20-2.2.1.jar"
       ],
-      "fileSize": 1277768
+      "fileSize": 1298659
     },
     {
-      "path": "mods/moonlight-1.20-2.16.5-forge.jar",
+      "path": "mods/moonlight-1.20-2.16.8-forge.jar",
       "hashes": {
-        "sha1": "461b979a7c1f100a17af4558910f34f259bb56b2",
-        "sha512": "c160493b99be1fab942f7eb64c491985d51a72c16dbda18c345fd14cbf8cfb0bd899c1b7627714e507f079a68bf1917b4d4e407340c2ff3b44359e1996e6c2d7"
+        "sha1": "3cde645d204a3cc5e1550b839e2954ee5b70d454",
+        "sha512": "b4cbaddad5ca2b917086a59e2c6d6b7c03cba3d57bf792178c9c5d1dfa27dcd95141ca66a414ce9d68b0ae66c43707dbcd5031a2871200bb58e5899640ecf347"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/twkfQtEc/versions/uiOJ4NEz/moonlight-1.20-2.16.5-forge.jar"
+        "https://cdn.modrinth.com/data/twkfQtEc/versions/sWagczEr/moonlight-1.20-2.16.8-forge.jar"
       ],
-      "fileSize": 1326648
+      "fileSize": 1332010
     },
     {
       "path": "mods/carryon-forge-1.20.1-2.1.2.7.jar",
@@ -381,19 +381,19 @@
       "fileSize": 155257
     },
     {
-      "path": "mods/CraftTweaker-forge-1.20.1-14.0.57.jar",
+      "path": "mods/CraftTweaker-forge-1.20.1-14.0.59.jar",
       "hashes": {
-        "sha1": "d4f1a8adc4f7312176ae9321dc2b1395d600c499",
-        "sha512": "8271bf67aeb889bccbda6978a6444a503046f6db965682f718a15444e2f81a84e86042163d45d999a4ff29ee7bb66d057b8ddbf7eef6c70d5a6bad59b67f2122"
+        "sha1": "6f223f2867a12cee2fb9d0951123826456a8b464",
+        "sha512": "6265ff4b290889b4950fa4c44823ccaaaa568aa511b5ad00efff190b44c665b15407846809154a19070f1c75fb894837c8f7a385a18d22a5e9ee64800054f3c6"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/Xg35A4rS/versions/SvO5ZSvt/CraftTweaker-forge-1.20.1-14.0.57.jar"
+        "https://cdn.modrinth.com/data/Xg35A4rS/versions/EKnWm7CI/CraftTweaker-forge-1.20.1-14.0.59.jar"
       ],
-      "fileSize": 3267904
+      "fileSize": 3269064
     },
     {
       "path": "mods/netmusic-1.1.8-forge+mc1.20.1.jar",
@@ -456,17 +456,17 @@
       "fileSize": 10035863
     },
     {
-      "path": "mods/mysterious_mountain_lib-1.5.22-1.20.1.jar",
+      "path": "mods/mysterious_mountain_lib-1.5.23-1.20.1.jar",
       "hashes": {
-        "sha1": "541526a73a93ecd2fade340cbdb280bc0cf222a9",
-        "sha512": "be896ab0cad63779b4a5ddd5519b5151c11979babfc213fce4ce82bc77a2751223f0c300a3ff2bf993e89d3f4c8de77a3bfbd3669641831d90008eb43472046a"
+        "sha512": "384619e2f6c96de309c9333780258ea996d2167b25eec564896478bdafd42a21f9a963832cd5ea341af49094866d471f620aef7d0deaa8b4d71cb228f6351eee",
+        "sha1": "735ca96668dc011bce79218d1e85c87a02cf0f17"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "server": "required",
+        "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/ntMyNH8c/versions/GCX4PZJn/mysterious_mountain_lib-1.5.22-1.20.1.jar"
+        "https://cdn.modrinth.com/data/ntMyNH8c/versions/7FI8buGO/mysterious_mountain_lib-1.5.23-1.20.1.jar"
       ],
       "fileSize": 309744
     },
@@ -591,19 +591,19 @@
       "fileSize": 6780712
     },
     {
-      "path": "mods/packetfixer-3.1.4-1.18-1.20.4-merged.jar",
+      "path": "mods/packetfixer-3.3.0-1.18-1.20.4-merged.jar",
       "hashes": {
-        "sha1": "1cdf5d8b637922b12bc72c575ce1428f1f2cae2a",
-        "sha512": "b6a5b6f684c538ee907e99362be5d8c86b4b923bb2ef9789a1a7ed739f054dc73a7eca8ddf174f97f102f848d74105cd3b6011d8930a5ff001e71d9efad65dcf"
+        "sha512": "0f86b9b03672e67e5eac23146bfc56a536f8985daecaec3bf089ee489240b5afec1571c733fc058c335fdd9e8ace94796c257e4c59a33be7cf1dcba32009c2a1",
+        "sha1": "e07b58008aeae90d61c5324c740cbbd66bbb34e3"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/c7m1mi73/versions/dCEO67fT/packetfixer-3.1.4-1.18-1.20.4-merged.jar"
+        "https://cdn.modrinth.com/data/c7m1mi73/versions/Jt7R7s5s/packetfixer-3.3.0-1.18-1.20.4-merged.jar"
       ],
-      "fileSize": 163268
+      "fileSize": 190422
     },
     {
       "path": "mods/DungeonsAriseSevenSeas-1.19.2-1.0.2-forge.jar",
@@ -816,19 +816,19 @@
       "fileSize": 84059
     },
     {
-      "path": "mods/youkaishomecoming-2.5.8.jar",
+      "path": "mods/youkaishomecoming-2.5.9.jar",
       "hashes": {
-        "sha512": "69163e65f399992de724dc0fa46f6fe0a43e4e7b17ef13c619e1b31013a8ddfd77d1b41d765aca56d751e1d189f799226fd97dd357cf2c1e3a1b134b19083ad7",
-        "sha1": "e747647228e31f9d1d02dce5cd6ce7f13f7fee7e"
+        "sha1": "ac5cd2ee10c839c5bcfb6af6d741e88150b6dfef",
+        "sha512": "fd99b7e522c640d1530d9df5ebb4b43623fe069fc6ae5b35796cb842cd29b6e8117173116d7f0f7209df91dd46c79ae655283a56d84ac232d45d1eb5478bbd56"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/uJT3ahxz/versions/pKQ6YpB6/youkaishomecoming-2.5.8.jar"
+        "https://cdn.modrinth.com/data/uJT3ahxz/versions/qcl8YZaG/youkaishomecoming-2.5.9.jar"
       ],
-      "fileSize": 6021146
+      "fileSize": 6027969
     },
     {
       "path": "mods/net_music_list-1.5.3.jar",
@@ -1086,19 +1086,19 @@
       "fileSize": 28105
     },
     {
-      "path": "mods/some-assembly-required-1.20.1-4.2.0.jar",
+      "path": "mods/some-assembly-required-1.20.1-4.2.1.jar",
       "hashes": {
-        "sha512": "62269c2832e7510223132723db99821193fb92d86a98e0e59fd0d2d7b2e955746f2600599234f5695b03dd8d3d801f0db298a8ac9dd193f7503178ae88035a4d",
-        "sha1": "35c5d994329aacdca12dae53c052e4fd2acfd42f"
+        "sha1": "1aefadfbf375bde0376342efcb139347c660a79a",
+        "sha512": "ea995df0cbf7dcf602ed07a03a551a22d5f9ec072b724750bcfc59f91146eb5b284df98c70c8a93f20df6df2efcd4e3008dfca9862cdd321fa6fb8a399e2a746"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/jZi8ogTA/versions/pAZObJ4k/some-assembly-required-1.20.1-4.2.0.jar"
+        "https://cdn.modrinth.com/data/jZi8ogTA/versions/2wWXmKdR/some-assembly-required-1.20.1-4.2.1.jar"
       ],
-      "fileSize": 421366
+      "fileSize": 419278
     },
     {
       "path": "mods/nightlights-1.20.1-1.1.jar",
@@ -1401,19 +1401,19 @@
       "fileSize": 279657
     },
     {
-      "path": "mods/PuzzlesLib-v8.1.32-1.20.1-Forge.jar",
+      "path": "mods/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
       "hashes": {
-        "sha1": "1f24a25582fa6bb2569e32401a232ee90d34cc1a",
-        "sha512": "f6420b4884583727ee66d7410ce5ad3ce2a5fd9aed49700ea4bba1fd944a4b63d2d3f15a3d0d64afa2ec1aa261f8ef52b6277712c7d19e6dd31ff9d9360f05ae"
+        "sha512": "4e0a6243f70a7f99bb631940bfeca49f31b13ec34f338d994fe129f0445e738ffd925e5c440f4e6bf822f9013bb8c2156de6dfcd62741d85c3ca3e8221d86a19",
+        "sha1": "285b7c7616971338ccbe0022c9ea0f8ad3036aaf"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/QAGBst4M/versions/YFZdsqXl/PuzzlesLib-v8.1.32-1.20.1-Forge.jar"
+        "https://cdn.modrinth.com/data/QAGBst4M/versions/mIyVGf3d/PuzzlesLib-v8.1.33-1.20.1-Forge.jar"
       ],
-      "fileSize": 1342204
+      "fileSize": 1342987
     },
     {
       "path": "mods/Jade-1.20.1-Forge-11.13.2.jar",
@@ -1566,19 +1566,19 @@
       "fileSize": 12526
     },
     {
-      "path": "mods/lootr-forge-1.20-0.7.35.91.jar",
+      "path": "mods/lootr-forge-1.20-0.7.35.92.jar",
       "hashes": {
-        "sha1": "4175b32e3bc25b05c45cc84f70b585279a871d3c",
-        "sha512": "9b576ec6008a5c86ce9ea218285bc133f49e9eaf8f4b854fa49170a9cc3c8de028b236f2e563493405732277fd1d2909520d5961076b3ddbffcb0c7c539b4826"
+        "sha512": "903ae0ba7077c86719399c32b4dba5726ce78c19f5eed8bb21acdbe1350cd3572fa2f1278a6b04d352b45ea12284bc97c24e77eab97500a44c0835e92288a0a2",
+        "sha1": "6e0c4289f06552c89bfe63b6d43a0609fecd6935"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "server": "required",
+        "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/EltpO5cN/versions/HmhkyU8X/lootr-forge-1.20-0.7.35.91.jar"
+        "https://cdn.modrinth.com/data/EltpO5cN/versions/9viyYois/lootr-forge-1.20-0.7.35.92.jar"
       ],
-      "fileSize": 458532
+      "fileSize": 458609
     },
     {
       "path": "mods/caverns_and_chasms-1.20.1-2.0.0.jar",
@@ -1641,19 +1641,19 @@
       "fileSize": 36703
     },
     {
-      "path": "mods/bagus_lib-1.20.1-5.4.0.jar",
+      "path": "mods/bagus_lib-1.20.1-5.6.1.jar",
       "hashes": {
-        "sha512": "b19c0ff1aa2288984296802fac72eb4768c8850df686d99f4a2a0d4cb273b6fc0f1902bc68c07f1a99ce67eff27d61e960587c5eb54f6e62afd6577b4371cc06",
-        "sha1": "cb48d0f352f0ab0dd240e0616ff6d956dfa23d69"
+        "sha1": "d62b6b77efc3c6a25eb72b2f7bcf53b6d09d47ba",
+        "sha512": "a381b51a7c26551e833c5475c5bfeedb31f97101d5a121b80cc6bee4fd939825ac27c2abe4b4d823e45db152ab33ae2bc2a071987710dfa1fd055dc894a05f2f"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "server": "required",
+        "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/95nSN4Rd/versions/uoaNU9Ph/bagus_lib-1.20.1-5.4.0.jar"
+        "https://cdn.modrinth.com/data/95nSN4Rd/versions/EutpppUn/bagus_lib-1.20.1-5.6.1.jar"
       ],
-      "fileSize": 160040
+      "fileSize": 185510
     },
     {
       "path": "mods/create-1.20.1-6.0.6.jar",
@@ -1761,19 +1761,19 @@
       "fileSize": 38848
     },
     {
-      "path": "mods/FarmersDelight-1.20.1-1.2.8.jar",
+      "path": "mods/FarmersDelight-1.20.1-1.2.9.jar",
       "hashes": {
-        "sha1": "a3402ee46cf12583416b8fbe84a97dd20ba1401a",
-        "sha512": "e9e8f234a08570806da9f35ce943d0bfe36a00b3c1a0da45acb52fe166e6bd9762d6d85b2de071e2da515e90cd7618d28e69be08ce42e002a01833dd8e3b307a"
+        "sha1": "ca9417c369e75d38dacdac59937223e5f6adcc18",
+        "sha512": "b628f9818301788dfba535615dde964e1727b8b3b22884f26df1f8a2b5a11a063f3803de00bc6eb8d148440286d43a29b98352afb33bd447b847c21b870442cb"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "server": "required",
+        "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/R2OftAxM/versions/YWFFrKk6/FarmersDelight-1.20.1-1.2.8.jar"
+        "https://cdn.modrinth.com/data/R2OftAxM/versions/8rPF1pFi/FarmersDelight-1.20.1-1.2.9.jar"
       ],
-      "fileSize": 2962947
+      "fileSize": 2978080
     },
     {
       "path": "mods/carrasconlib-forge-1.20.1-0.1.jar",
@@ -1911,19 +1911,19 @@
       "fileSize": 80063
     },
     {
-      "path": "mods/tofudelight-1.20.1-3.2.0.jar",
+      "path": "mods/tofudelight-1.20.1-4.0.0.jar",
       "hashes": {
-        "sha1": "91f45fc7ba5494966d96a8326a53b91728346299",
-        "sha512": "1f54f8652c0ea8ba5b9cf0f1c08e2140d386fd35ef668975b920f12f63d51e40c4aaeddbcf5846b772d66fbd77c987c72c3151f90d7d90801edb43800f2f5e2f"
+        "sha512": "1609a2ec1679392b7e1b2155ca01576d7daf6f4f3ed9d7a170a52d790e1d4559c8ed7a4916f00bc42cc240fe2362a6a2a5190ea63b0dec03e1a8f7438656e771",
+        "sha1": "ffe00f349f3c3c0e5bcdf2ba186297ad96f279bb"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/aRSw5ou4/versions/IunHe4gQ/tofudelight-1.20.1-3.2.0.jar"
+        "https://cdn.modrinth.com/data/aRSw5ou4/versions/lsZpaEfr/tofudelight-1.20.1-4.0.0.jar"
       ],
-      "fileSize": 74499
+      "fileSize": 74319
     },
     {
       "path": "mods/letmedespawn-1.20.x-forge-1.5.0.jar",
@@ -2016,19 +2016,19 @@
       "fileSize": 783106
     },
     {
-      "path": "mods/the_bumblezone-7.8.0+1.20.1-forge.jar",
+      "path": "mods/the_bumblezone-7.8.2+1.20.1-forge.jar",
       "hashes": {
-        "sha512": "55f5d732e1d0e55318f4dea1a0e391f0be17269ca50e45366d2dea8c1691b8c87747e8ec2b57f4e55afbaab40e3072aaff22328e3665c2d69466717c8902ddd0",
-        "sha1": "1a83862c31329957c5ac6cfb9ee549016a464385"
+        "sha1": "dbe034d74fb20d6d97cd9f582e38f7c8f75e1d16",
+        "sha512": "d211d5fd7fe7e40016cac7c39d2234ee2a0de8419bca9daef3d1a4fcf71e9b61f476a4369bd5359b6b1afedf0452cd10f2160c5ee234a81532d8239d16505d13"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/38tpSycf/versions/tMviU9nd/the_bumblezone-7.8.0%2B1.20.1-forge.jar"
+        "https://cdn.modrinth.com/data/38tpSycf/versions/qCZPeE3p/the_bumblezone-7.8.2%2B1.20.1-forge.jar"
       ],
-      "fileSize": 69043604
+      "fileSize": 69077174
     },
     {
       "path": "mods/autumnity-1.20.1-5.0.2.jar",
@@ -2301,34 +2301,34 @@
       "fileSize": 245317
     },
     {
-      "path": "mods/TofuCraftReload-1.20.1-5.17.1.0.jar",
+      "path": "mods/TofuCraftReload-1.20.1-5.17.3.0.jar",
       "hashes": {
-        "sha1": "21b036aafc3ba5e45fd499793b67e7bfe2efabe2",
-        "sha512": "73e7aa226f35872ce1a4708737129fd159c5cd14404f94e25452e801cc9c75afabb5df7bd2916cb6d8306f4a5cdf5bb94a5b1862e6c4053ec1abb1e905b7120d"
+        "sha512": "92b01aee1e093771b6c49c946871edfc18f93d90b2208663e7308e1cf2c1813651fad1111412fa09b99fdcfa8c45721db7999f03dfecb8fe07aae684db961a9f",
+        "sha1": "1791d110d9c41743b4ab91ce92ee2c79cb337c11"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/69rMY8bC/versions/ipqDj1oq/TofuCraftReload-1.20.1-5.17.1.0.jar"
+        "https://cdn.modrinth.com/data/69rMY8bC/versions/rDKj9wvS/TofuCraftReload-1.20.1-5.17.3.0.jar"
       ],
-      "fileSize": 10472026
+      "fileSize": 10475018
     },
     {
-      "path": "mods/smsn-forge-1.20.1-1.2.7.jar",
+      "path": "mods/smsn-forge-1.2.9-1.20.1.jar",
       "hashes": {
-        "sha512": "4cf8f509957de637b4145ea195840fe6e968ffe924327cec814217827eff230938dccb14ca8766b6e0746207785793885bb9930160815080e56dab5648f0857a",
-        "sha1": "8607ef87f0c49e33bb995253751fe0944510cc6f"
+        "sha1": "1b500f0a337ff5e444078df015de04dc84fec714",
+        "sha512": "77404d8d2ec97d602a5b2e7688c88ab4a0894683734b3d28b6cf239a3ec2963c6db17f9b6493710b1c50c9f80aa89d3ef15d86fd841e876674cb999c3d11c74d"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/oXzIQwRj/versions/3KpzhovE/smsn-forge-1.20.1-1.2.7.jar"
+        "https://cdn.modrinth.com/data/oXzIQwRj/versions/K4gFcgKB/smsn-forge-1.2.9-1.20.1.jar"
       ],
-      "fileSize": 72311
+      "fileSize": 89786
     },
     {
       "path": "mods/zetter-1.20.1-0.21.5.jar",
@@ -2541,19 +2541,19 @@
       "fileSize": 3010
     },
     {
-      "path": "mods/Kiwi-1.20.1-Forge-11.8.31.jar",
+      "path": "mods/Kiwi-1.20.1-Forge-11.9.2.jar",
       "hashes": {
-        "sha512": "1b20352d83978305c306ecfba75a39295ab25ba7e32f1a374fc10d11e9da438f63cef7ef9f381e92fe605eb1c274d5ead891611f1592f212f9461a56d11b5aa1",
-        "sha1": "3d93f70daf0e8a9efd7f465785602429086765dc"
+        "sha1": "8e056749be2b26f520c9ca0a7130a7280bffc288",
+        "sha512": "db1194c73b814eafbf5bfa0631760bce7f6a48697fa8672a85ccd887b12d9650a8c7be1a062973fe3e673fef7998e83334beb830b66821da1db3aea79a6753bc"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/ufdDoWPd/versions/MuVJPnGY/Kiwi-1.20.1-Forge-11.8.31.jar"
+        "https://cdn.modrinth.com/data/ufdDoWPd/versions/u7HrABzs/Kiwi-1.20.1-Forge-11.9.2.jar"
       ],
-      "fileSize": 1632951
+      "fileSize": 1661318
     },
     {
       "path": "mods/GlobalGameRules-1.20-8.0.0.11.jar",
@@ -2631,19 +2631,19 @@
       "fileSize": 15889
     },
     {
-      "path": "mods/2watermedia-2.1.30.jar",
+      "path": "mods/2watermedia-2.1.32.jar",
       "hashes": {
-        "sha512": "4793fd5c1f9896679eb03ff9f2a1aa244f242bf5eef4b90f156d79a10b2883de878bc7a63f423a13f4bfcd1d7e8b8e2113970f7eebd53421d55c0ceb1b87a1ca",
-        "sha1": "d2ac566dc3416101c94b807dcade279c32d4d601"
+        "sha512": "f4a3ed3acdc245e839f30d9bccaa5ab606c6f8c11c726923a71fd8b63d536a53539c773133d4c33b7635eeb78d08311618d4efaff291194dca0090dc11bfd024",
+        "sha1": "7b7436208799aae9f71098397dc8b47e98295e6e"
       },
       "env": {
         "server": "unsupported",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/G922NeHS/versions/o2Z6JjwX/watermedia-2.1.30.jar"
+        "https://cdn.modrinth.com/data/G922NeHS/versions/b3UyB3Yq/watermedia-2.1.32.jar"
       ],
-      "fileSize": 37857356
+      "fileSize": 37857390
     },
     {
       "path": "mods/2GPUTape-1.18x-1.21x-1.0.5.1.jar",

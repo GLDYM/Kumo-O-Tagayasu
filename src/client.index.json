@@ -51,19 +51,19 @@
       "fileSize": 15889
     },
     {
-      "path": "mods/2watermedia-2.1.30.jar",
+      "path": "mods/2watermedia-2.1.32.jar",
       "hashes": {
-        "sha512": "4793fd5c1f9896679eb03ff9f2a1aa244f242bf5eef4b90f156d79a10b2883de878bc7a63f423a13f4bfcd1d7e8b8e2113970f7eebd53421d55c0ceb1b87a1ca",
-        "sha1": "d2ac566dc3416101c94b807dcade279c32d4d601"
+        "sha512": "f4a3ed3acdc245e839f30d9bccaa5ab606c6f8c11c726923a71fd8b63d536a53539c773133d4c33b7635eeb78d08311618d4efaff291194dca0090dc11bfd024",
+        "sha1": "7b7436208799aae9f71098397dc8b47e98295e6e"
       },
       "env": {
         "server": "unsupported",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/G922NeHS/versions/o2Z6JjwX/watermedia-2.1.30.jar"
+        "https://cdn.modrinth.com/data/G922NeHS/versions/b3UyB3Yq/watermedia-2.1.32.jar"
       ],
-      "fileSize": 37857356
+      "fileSize": 37857390
     },
     {
       "path": "mods/2GPUTape-1.18x-1.21x-1.0.5.1.jar",
