@@ -1,0 +1,29 @@
+{
+  "type": "tofucraft:tofu_pot_shapeless",
+  "category": "meal",
+  "cook_time": 400,
+  "exp": 0.6,
+  "fluid": {
+    "fluid": "minecraft:water"
+  },
+  "ingredients": [
+    {
+      "item": "tofucraft:tofuhell"
+    },
+    {
+      "item": "minecraft:cooked_cod"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:red_soup"
+  }
+}

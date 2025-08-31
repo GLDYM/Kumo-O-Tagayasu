@@ -1,0 +1,37 @@
+{
+  "type": "tofucraft:tofu_pot_shapeless",
+  "category": "meal",
+  "cook_time": 400,
+  "exp": 0.6,
+  "fluid": {
+    "fluid": "minecraft:water"
+  },
+  "ingredients": [
+    [
+      {
+        "item": "tofucraft:tofukinu"
+      },
+      {
+        "item": "tofucraft:tofumomen"
+      }
+    ],
+    {
+      "item": "tofucraft:starch"
+    },
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "tofucraft:bottle_soysause"
+    },
+    {
+      "item": "tofucraft:doubanjiang"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:mabodofu"
+  }
+}

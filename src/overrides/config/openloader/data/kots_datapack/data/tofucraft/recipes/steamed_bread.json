@@ -1,0 +1,26 @@
+{
+  "type": "tofucraft:tofu_pot_shapeless",
+  "category": "misc",
+  "cook_time": 300,
+  "exp": 0.5,
+  "fluid": {
+    "fluid": "tofucraft:soymilk"
+  },
+  "ingredients": [
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:crops/wheat"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "result": {
+    "item": "tofucraft:steamed_bread"
+  }
+}
