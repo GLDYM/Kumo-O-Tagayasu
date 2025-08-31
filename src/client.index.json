@@ -186,19 +186,19 @@
       "fileSize": 568608
     },
     {
-      "path": "mods/2skinlayers3d-forge-1.8.2-mc1.20.1.jar",
+      "path": "mods/2skinlayers3d-forge-1.9.0-mc1.20.1.jar",
       "hashes": {
-        "sha1": "66fbcca03360453f07ede303d9fcf97750f167f7",
-        "sha512": "ae9361ac230f2773f99cf9cfa969bcaa794102f4209f6a510b83374fef034919ce89b2c706b57a918112237946fcbe78c6b9b9f95fc74bc12bbc384ae8547239"
+        "sha512": "fbe53dd2918627b34c7f62615013407bb22b4e9f65a6f742bab96750fc70a1984305d411ea167c053d5b2baeaae5213fab9f2f23468177a0196c40d3fa492e76",
+        "sha1": "be3070725cc01e3df10560b29b4f340126d1ec46"
       },
       "env": {
-        "server": "unsupported",
-        "client": "required"
+        "client": "required",
+        "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/zV5r3pPn/versions/Sl4iZKoJ/skinlayers3d-forge-1.8.2-mc1.20.1.jar"
+        "https://cdn.modrinth.com/data/zV5r3pPn/versions/PXEUtoct/skinlayers3d-forge-1.9.0-mc1.20.1.jar"
       ],
-      "fileSize": 878668
+      "fileSize": 880065
     },
     {
       "path": "mods/2embeddium-0.3.31+mc1.20.1.jar",
@@ -666,34 +666,34 @@
       "fileSize": 4633
     },
     {
-      "path": "mods/2notenoughanimations-forge-1.10.1-mc1.20.1.jar",
+      "path": "mods/2notenoughanimations-forge-1.10.2-mc1.20.1.jar",
       "hashes": {
-        "sha1": "ed3c4929d6bb08deebe7397b878cfbcb08172d71",
-        "sha512": "bee73667587c2a952507b6feb7f5d5288559583a5f2547388678c3b03aabf9862f41bf44943ce7d7cf17dba6edaa6b62c676a2173b387a73e1c66577c72aafa5"
+        "sha512": "d85b3c70d950e1c705d6ac5771f4d289e30717178b806ac915025297e6e21b74ac58707b1bd022cdf51b8e3f6300ae0d663343b62a39c8a3948fd7b3209cf85d",
+        "sha1": "b31ffefa9579649de8acbac53ac0792830f71e60"
       },
       "env": {
         "server": "unsupported",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/MPCX6s5C/versions/dG98B4oD/notenoughanimations-forge-1.10.1-mc1.20.1.jar"
+        "https://cdn.modrinth.com/data/MPCX6s5C/versions/zc852ea9/notenoughanimations-forge-1.10.2-mc1.20.1.jar"
       ],
-      "fileSize": 847497
+      "fileSize": 845556
     },
     {
-      "path": "mods/2ChatImpressiveAnimation-forge-1.3.0+mc1.20.4.jar",
+      "path": "mods/2ChatImpressiveAnimation-forge-1.4.0+mc1.20.4.jar",
       "hashes": {
-        "sha1": "2444fa3d80efa4ce776b68f9dbe4cb3fff347e30",
-        "sha512": "538cea1a7fb6b91ba3165a3461a9b69211129fc950dc77db53e0a5dd995858dd534f974c41bb648fe02b45265c0b71fd5fc3d1496b3190c829f0b248e0210589"
+        "sha512": "20c41f4ee84d5c26bd95e73dd09c01acfa4978dd7b2e64bee44cb2df899827ac35110a6600d4cf5c0b64624c3cd7c184696f299ddb3c0ed8f2cf6719c80cc6b7",
+        "sha1": "42983b5b6241fe66b144f941a28b192ece0a4fdb"
       },
       "env": {
         "server": "unsupported",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/DnL1AGAI/versions/mJDIVf1e/ChatImpressiveAnimation-forge-1.3.0%2Bmc1.20.4.jar"
+        "https://cdn.modrinth.com/data/DnL1AGAI/versions/aSiRovdV/ChatImpressiveAnimation-forge-1.4.0%2Bmc1.20.4.jar"
       ],
-      "fileSize": 253755
+      "fileSize": 254241
     },
     {
       "path": "mods/2MouseTweaks-forge-mc1.20.1-2.25.1.jar",
@@ -726,19 +726,19 @@
       "fileSize": 2851119
     },
     {
-      "path": "mods/2clientsort-forge-2.0.0-beta.12+1.20.1.jar",
+      "path": "mods/2clientsort-forge-2.0.0-beta.14+1.20.1.jar",
       "hashes": {
-        "sha512": "ab4d4b1e9d34270f2213c41e9feb2e1a6e0c2dec0f4f14d1b3ad69b3a5f5d7f7d3148db21ab5485a515ca5d50d66adc3584f2b4dc0ae20dd108fbec95b30d0a1",
-        "sha1": "e935e7d00c419c6b60cbf51cb5aac98e86017ce1"
+        "sha512": "502c2d24d1b7586bbcec25409225acba9232bc6735e30e97e73124b8a38f24240ecf47261ae84d76210675635e099f7fd48c00e9791191ab77c3ea07ec8663a5",
+        "sha1": "4054132266932945741203e34c86856c1a83f039"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/K0AkAin6/versions/qJYjGx9p/clientsort-forge-2.0.0-beta.12%2B1.20.1.jar"
+        "https://cdn.modrinth.com/data/K0AkAin6/versions/uCXIvfFv/clientsort-forge-2.0.0-beta.14%2B1.20.1.jar"
       ],
-      "fileSize": 435380
+      "fileSize": 449747
     }
   ],
   "dependencies": {
