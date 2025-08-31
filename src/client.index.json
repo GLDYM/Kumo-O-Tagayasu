@@ -6,6 +6,21 @@
   "summary": "",
   "files": [
     {
+      "path": "mods/2createbetterfps-1.20.1-1.1.1.jar",
+      "hashes": {
+        "sha1": "519f436f67c316db546cbab54a03fdbfd17fe9f1",
+        "sha512": "27a24d6b1c473fe2b3fe31364088739d7bf7ee379fb835a50fea356f2c3e57f895dd61255baadbbd5c124518d1ee370782a091399135bbc03b64e470483e38da"
+      },
+      "env": {
+        "server": "unsupported",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/lMYIHZNH/versions/G8AvMFll/createbetterfps-1.20.1-1.1.1.jar"
+      ],
+      "fileSize": 24819
+    },
+    {
       "path": "mods/2AsyncParticles-2.3.6+1.20.1.jar",
       "hashes": {
         "sha512": "49b45bb479fd481c780e639e66cecfcfe5970b3ae154c026a94b6f735bd65c6956a6d0c42a950bf2169567468978a1bd1962bb5e396941dc4bb40b2e0751c9a1",
