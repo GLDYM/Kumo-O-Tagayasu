@@ -93,27 +93,29 @@
 <tag:items:minecraft:mangrove_logs>.add(<item:bloomingnature:swamp_cypress_log>);
 <tag:items:minecraft:mangrove_logs>.add(<item:bloomingnature:swamp_cypress_wood>);
 
-<tag:items:forge:stripped_logs>.add(<item:autumnity:stripped_maple_log>);
-<tag:items:forge:stripped_logs>.add(<item:autumnity:stripped_maple_wood>);
-<tag:items:forge:stripped_logs>.add(<item:autumnity:sappy_maple_wood>);
-<tag:items:forge:stripped_logs>.add(<item:autumnity:sappy_maple_log>);
-<tag:items:forge:stripped_logs>.add(<item:caverns_and_chasms:stripped_azalea_log>);
-<tag:items:forge:stripped_logs>.add(<item:caverns_and_chasms:stripped_azalea_wood>);
-<tag:items:forge:stripped_logs>.add(<item:endergetic:stripped_poise_stem>);
-<tag:items:forge:stripped_logs>.add(<item:endergetic:stripped_poise_wood>);
-<tag:items:forge:stripped_logs>.add(<item:upgrade_aquatic:stripped_driftwood_log>);
-<tag:items:forge:stripped_logs>.add(<item:upgrade_aquatic:stripped_driftwood>);
-<tag:items:forge:stripped_logs>.add(<item:upgrade_aquatic:stripped_river_log>);
-<tag:items:forge:stripped_logs>.add(<item:upgrade_aquatic:stripped_river_wood>);
-<tag:items:forge:stripped_logs>.add(<item:immortalers_delight:stripped_himekaido_wood>);
-<tag:items:forge:stripped_logs>.add(<item:immortalers_delight:stripped_himekaido_log>);
-<tag:items:forge:stripped_logs>.add(<item:immortalers_delight:stripped_ancient_wood_log>);
-<tag:items:forge:stripped_logs>.add(<item:immortalers_delight:stripped_ancient_wood>);
+<tag:items:create:modded_stripped_logs>.add(<item:atmospheric:stripped_laurel_log>);
+<tag:items:create:modded_stripped_wood>.add(<block:atmospheric:stripped_laurel_wood>);
+<tag:items:create:modded_stripped_logs>.add(<item:autumnity:stripped_maple_log>);
+<tag:items:create:modded_stripped_wood>.add(<item:autumnity:stripped_maple_wood>);
+<tag:items:create:modded_stripped_wood>.add(<item:autumnity:sappy_maple_wood>);
+<tag:items:create:modded_stripped_logs>.add(<item:autumnity:sappy_maple_log>);
+<tag:items:create:modded_stripped_logs>.add(<item:caverns_and_chasms:stripped_azalea_log>);
+<tag:items:create:modded_stripped_wood>.add(<item:caverns_and_chasms:stripped_azalea_wood>);
+<tag:items:create:modded_stripped_logs>.add(<item:endergetic:stripped_poise_stem>);
+<tag:items:create:modded_stripped_wood>.add(<item:endergetic:stripped_poise_wood>);
+<tag:items:create:modded_stripped_logs>.add(<item:upgrade_aquatic:stripped_driftwood_log>);
+<tag:items:create:modded_stripped_wood>.add(<item:upgrade_aquatic:stripped_driftwood>);
+<tag:items:create:modded_stripped_logs>.add(<item:upgrade_aquatic:stripped_river_log>);
+<tag:items:create:modded_stripped_wood>.add(<item:upgrade_aquatic:stripped_river_wood>);
+<tag:items:create:modded_stripped_wood>.add(<item:immortalers_delight:stripped_himekaido_wood>);
+<tag:items:create:modded_stripped_logs>.add(<item:immortalers_delight:stripped_himekaido_log>);
+<tag:items:create:modded_stripped_logs>.add(<item:immortalers_delight:stripped_ancient_wood_log>);
+<tag:items:create:modded_stripped_wood>.add(<item:immortalers_delight:stripped_ancient_wood>);
 
-<tag:items:forge:stripped_logs>.add(<item:sakura:stripped_sakura_log>);
-<tag:items:forge:stripped_logs>.add(<item:sakura:stripped_sakura_wood>);
-<tag:items:forge:stripped_logs>.add(<item:sakura:stripped_maple_log>);
-<tag:items:forge:stripped_logs>.add(<item:sakura:stripped_maple_wood>);
+<tag:items:create:modded_stripped_logs>.add(<item:sakura:stripped_sakura_log>);
+<tag:items:create:modded_stripped_wood>.add(<item:sakura:stripped_sakura_wood>);
+<tag:items:create:modded_stripped_logs>.add(<item:sakura:stripped_maple_log>);
+<tag:items:create:modded_stripped_wood>.add(<item:sakura:stripped_maple_wood>);
 
 # 蘑菇
 <tag:items:c:mushrooms>.add(<item:tofucraft:zundatofu_mushroom>);
