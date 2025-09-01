@@ -6,6 +6,36 @@
   "summary": "Fork of Oriun Tagayasu. Original: https://www.mcmod.cn/modpack/626.html",
   "files": [
     {
+      "path": "mods/XeKr's Decoration-1.20.1-Forge-0.9.2.jar",
+      "hashes": {
+        "sha512": "a9dee510d6e7e69e00d52f4457d4f8c7db0f532d6bdea6104da81afe1f49b01045ddaffb4d60e2f1fd0657fd40f6ee9daad32a637fb2b1fbe133bda62f419e84",
+        "sha1": "d4f37eb602b45d0d97d25f4b4d22dc594efd7b65"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/XlwMlNhH/versions/hIqHq91M/XeKr%27s%20Decoration-1.20.1-Forge-0.9.2.jar"
+      ],
+      "fileSize": 2205232
+    },
+    {
+      "path": "mods/3fabric-api-0.92.6+1.11.14+1.20.1.jar",
+      "hashes": {
+        "sha1": "285c22b2567b9fdf98ef9808eceb5557de9611d3",
+        "sha512": "3b84ea415d9255861bcbf78cfda3987b78aa452361bf44ba6a0223501a25ab5c5c55cb0eac6f460c88b8cec958f2b59211e488277c26e3432a08196f62049e7c"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Aqlf1Shp/versions/XweDEycJ/fabric-api-0.92.6%2B1.11.14%2B1.20.1.jar"
+      ],
+      "fileSize": 3065813
+    },
+    {
       "path": "mods/1Krypton-FNP-forge-1.20.1-0.2.20-lite.jar",
       "hashes": {
         "sha512": "f019c6583ce71de1b3d278476f51cb6ae7bb253ed055c240311c1a1c1562f8f95c08f66c7cda746fb1d909866634e39271ef03eae4d2a679e0a997f8b3285311",
@@ -859,21 +889,6 @@
         "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar"
       ],
       "fileSize": 1181413
-    },
-    {
-      "path": "mods/nbtedit-forge-5.2.8.jar",
-      "hashes": {
-        "sha1": "f4f013ebdb771424084ceb8fbc7a30ba6242b38a",
-        "sha512": "612282336d2997b3c5ab8b396db3bbb944ce979206aca72fb02daf040936b7b80845e25192505b7fbaa2e8b64f3b1c08a011544857756b68d4c08cc0f3658b91"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/Vr2eDeCw/versions/tR4Z5Ijy/nbtedit-forge-5.2.8.jar"
-      ],
-      "fileSize": 612451
     },
     {
       "path": "mods/jeed-1.20-2.2.5.jar",
@@ -2901,21 +2916,6 @@
       "fileSize": 105676
     },
     {
-      "path": "mods/1observable-4.4.2.jar.disabled",
-      "hashes": {
-        "sha1": "c8a0ae25512d0cedef478df411c87e43703ae237",
-        "sha512": "edb20a8f7d27f7a01340cd3bc0fa08124de4ba651ce2872bec5cfcf8d275f03e7b160f38073143f0da61c0916aba2c5628b9a7ca657d10e397aa9ced6898dff7"
-      },
-      "env": {
-        "server": "unsupported",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/VYRu7qmG/versions/QtSVNyjm/observable-4.4.2.jar"
-      ],
-      "fileSize": 470536
-    },
-    {
       "path": "mods/2Searchables-forge-1.20.1-1.0.3.jar",
       "hashes": {
         "sha1": "5b976f6e76ec74cdef21865e31f56bcb11558db7",
@@ -3334,6 +3334,66 @@
         "https://cdn.modrinth.com/data/K0AkAin6/versions/uCXIvfFv/clientsort-forge-2.0.0-beta.14%2B1.20.1.jar"
       ],
       "fileSize": 449747
+    },
+    {
+      "path": "mods/5observable-4.4.2.jar.disabled",
+      "hashes": {
+        "sha1": "c8a0ae25512d0cedef478df411c87e43703ae237",
+        "sha512": "edb20a8f7d27f7a01340cd3bc0fa08124de4ba651ce2872bec5cfcf8d275f03e7b160f38073143f0da61c0916aba2c5628b9a7ca657d10e397aa9ced6898dff7"
+      },
+      "env": {
+        "server": "unsupported",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/VYRu7qmG/versions/QtSVNyjm/observable-4.4.2.jar"
+      ],
+      "fileSize": 470536
+    },
+    {
+      "path": "mods/5observable-4.4.2.jar",
+      "hashes": {
+        "sha1": "c8a0ae25512d0cedef478df411c87e43703ae237",
+        "sha512": "edb20a8f7d27f7a01340cd3bc0fa08124de4ba651ce2872bec5cfcf8d275f03e7b160f38073143f0da61c0916aba2c5628b9a7ca657d10e397aa9ced6898dff7"
+      },
+      "env": {
+        "server": "required",
+        "client": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/VYRu7qmG/versions/QtSVNyjm/observable-4.4.2.jar"
+      ],
+      "fileSize": 470536
+    },
+    {
+      "path": "mods/5nbtedit-forge-5.2.8.jar.disabled",
+      "hashes": {
+        "sha1": "f4f013ebdb771424084ceb8fbc7a30ba6242b38a",
+        "sha512": "612282336d2997b3c5ab8b396db3bbb944ce979206aca72fb02daf040936b7b80845e25192505b7fbaa2e8b64f3b1c08a011544857756b68d4c08cc0f3658b91"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Vr2eDeCw/versions/tR4Z5Ijy/nbtedit-forge-5.2.8.jar"
+      ],
+      "fileSize": 612451
+    },
+    {
+      "path": "mods/5nbtedit-forge-5.2.8.jar",
+      "hashes": {
+        "sha1": "f4f013ebdb771424084ceb8fbc7a30ba6242b38a",
+        "sha512": "612282336d2997b3c5ab8b396db3bbb944ce979206aca72fb02daf040936b7b80845e25192505b7fbaa2e8b64f3b1c08a011544857756b68d4c08cc0f3658b91"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Vr2eDeCw/versions/tR4Z5Ijy/nbtedit-forge-5.2.8.jar"
+      ],
+      "fileSize": 612451
     },
     {
       "path": "mods/Log-Begone-Forge-1.20.1-1.0.8.jar",
