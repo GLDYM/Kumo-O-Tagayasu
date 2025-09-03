@@ -89,6 +89,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: "build-${{ env.BUILD_NUMBER }}"
-          files: "Server-KumoOTagayasu-build-${BUILD_NUMBER}.zip"
+          files: "Server-KumoOTagayasu-build-${env.BUILD_NUMBER}.zip"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
