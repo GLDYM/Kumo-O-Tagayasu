@@ -37,30 +37,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set build number
-        run: echo "BUILD_NUMBER=${{ github.run_number }}" >> $GITHUB_ENV
-
       - name: Create ZIP archive with build number
         run: |
           cd src
-          zip -r "../KumoOTagayasu-build-${BUILD_NUMBER}.mrpack" ./*
+          zip -r "../KumoOTagayasu-build.mrpack" ./*
 
-      - name: Create GitHub Release
-        id: create_release
-        uses: softprops/action-gh-release@v1
+      - name: Delete existing release assets
+        uses: mknejp/delete-release-assets@v1
         with:
-          tag_name: "build-${{ env.BUILD_NUMBER }}"
-          name: "Kumo O Tagayasu Build-${{ env.BUILD_NUMBER }}"
-          prerelease: true
-          generate_release_notes: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          tag: “build”
+          assets: |
+            KumoOTagayasu-build.mrpack
+            Server-KumoOTagayasu-build.zip
+          token: ${{ secrets.GITHUB_TOKEN }} # Required for authentication
 
       - name: Upload .mrpack file to release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: "build-${{ env.BUILD_NUMBER }}"
-          files: "KumoOTagayasu-build-${{ env.BUILD_NUMBER }}.mrpack"
+          tag_name: "build"
+          files: "KumoOTagayasu-build.mrpack"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -73,23 +68,23 @@ jobs:
       - name: Build server
         run: |
           mkdir server
-          mv "KumoOTagayasu-build-${BUILD_NUMBER}.mrpack" ./server
+          mv "KumoOTagayasu-build.mrpack" ./server
           cd server
           wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.6/forge-1.20.1-47.4.6-installer.jar
           java -jar forge-1.20.1-47.4.6-installer.jar --installServer
           wget https://github.com/nothub/mrpack-install/releases/download/v0.16.10/mrpack-install-linux
           chmod 755 mrpack-install-linux
-          ./mrpack-install-linux "KumoOTagayasu-build-${BUILD_NUMBER}.mrpack" --server-dir ./ --server-file ./forge-1.20.1-47.4.6-installer.jar
-          rm -f "KumoOTagayasu-build-${BUILD_NUMBER}.mrpack"
+          ./mrpack-install-linux "KumoOTagayasu-build.mrpack" --server-dir ./ --server-file ./forge-1.20.1-47.4.6-installer.jar
+          rm -f "KumoOTagayasu-build.mrpack"
           rm -f mrpack-install-linux
           rm -f forge-1.20.1-47.4.6-installer.jar
           rm -f install.log
-          zip -r "../Server-KumoOTagayasu-build-${BUILD_NUMBER}.zip" ./*
+          zip -r "../Server-KumoOTagayasu-build.zip" ./*
           
       - name: Upload server file to release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: "build-${{ env.BUILD_NUMBER }}"
-          files: "Server-KumoOTagayasu-build-${{env.BUILD_NUMBER}}.zip"
+          tag_name: "build"
+          files: "Server-KumoOTagayasu-build.zip"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
