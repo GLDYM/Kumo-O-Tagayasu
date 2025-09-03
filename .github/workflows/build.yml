@@ -64,3 +64,32 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Setup JDK 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      - name: Build server
+        run: |
+          mkdir server
+          mv "KumoOTagayasu-build-${BUILD_NUMBER}.mrpack" ./server
+          cd server
+          mkdir mc
+          wget https://github.com/nothub/mrpack-install/releases/download/v0.16.10/mrpack-install-linux
+          chmod 755 mrpack-install-linux
+          ./mrpack-install-linux "KumoOTagayasu-build-${BUILD_NUMBER}.mrpack"
+          cd mc
+          wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.6/forge-1.20.1-47.4.6-installer.jar
+          java -jar forge-1.20.1-47.4.6-installer.jar --installServer
+          rm -f forge-1.20.1-47.4.6-installer.jar
+          rm -f install.log
+          zip -r "../../Server-KumoOTagayasu-build-${BUILD_NUMBER}.zip" ./*
+          
+      - name: Upload server file to release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: "build-${{ env.BUILD_NUMBER }}"
+          files: "Server-KumoOTagayasu-build-${BUILD_NUMBER}.zip"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
