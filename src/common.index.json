@@ -6,6 +6,21 @@
   "summary": "",
   "files": [
     {
+      "path": "mods/createmoredrillheads-2.1.0-1.20.1.jar",
+      "hashes": {
+        "sha512": "1eeb4ac9f52ea97fd9c5630367e0ecce33c2a1f20290c53c61f29656dc352f1d1ce0052db8e6aa82afc5cc987c81a9cdb6c45df7f5ffe6e280f2700051857581",
+        "sha1": "c3f3acb88dc3668f60261b216fbbe11b6e4fcacf"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/9MEmQKkF/versions/en7Il1ez/createmoredrillheads-2.1.0-1.20.1.jar"
+      ],
+      "fileSize": 127773
+    },
+    {
       "path": "mods/XeKr's Decoration-1.20.1-Forge-0.9.2.jar",
       "hashes": {
         "sha512": "a9dee510d6e7e69e00d52f4457d4f8c7db0f532d6bdea6104da81afe1f49b01045ddaffb4d60e2f1fd0657fd40f6ee9daad32a637fb2b1fbe133bda62f419e84",
@@ -2524,21 +2539,6 @@
         "https://cdn.modrinth.com/data/sMvUb4Rb/versions/e9gaSRMd/createdeco-2.0.3-1.20.1-forge.jar"
       ],
       "fileSize": 3509013
-    },
-    {
-      "path": "mods/showcaseitem-1.20.1-1.2.jar",
-      "hashes": {
-        "sha1": "282e08fc46b7e4bab61a8651b5fcc1ee1befddd9",
-        "sha512": "255c51b15703de0e7b6c4ea6ee4e00cbadf830619ea5eb872144c2a29ca7b60f7727bff5899b7a035448dad4dda4cc57ae2a4b3a112bea4ac6fb1da88016ee66"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/P5Jjjezm/versions/Q5HI3IfP/showcaseitem-1.20.1-1.2.jar"
-      ],
-      "fileSize": 32044
     },
     {
       "path": "mods/artifacts-forge-9.5.16.jar",

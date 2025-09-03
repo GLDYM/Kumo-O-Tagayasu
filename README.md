@@ -15,7 +15,7 @@
 </a>
 
 <a href="./Changelog.md">
-    <img src="https://img.shields.io/badge/version-5.3.0--beta-9999FF" alt="version">
+    <img src="https://img.shields.io/badge/version-5.3.0-9999FF" alt="version">
 </a>
 
 <a href="https://www.mcmod.cn/modpack/1017.html">
@@ -28,7 +28,7 @@
 
 分叉于织彩钓月，Kumo O Tagayasu 耕云钓月是一个注重田园体验的综合整合包，补全了大部分材料的量产，旨在给予玩家一个休闲惬意的游戏体验。
 
-原整合包地址：[https://www.mcmod.cn/modpack/626.html](https://www.mcmod.cn/modpack/626.html)
+整合包分发地址：[https://www.mcmod.cn/modpack/1017.html](https://www.mcmod.cn/modpack/1017.html)
 
 ## 如何使用
 
@@ -80,9 +80,7 @@
 ## 特别感谢
 
 - [Modrinth](https://modrinth.com/)
+- [baguchan](https://github.com/baguchi)
 - [innnky/majobroom_forge](https://github.com/innnky/majobroom_forge)
 - [Gu-ZT/Curtain](https://github.com/Gu-ZT/Curtain)
-- [KasugaLibGroup/KasugaLib](https://github.com/KasugaLibGroup/KasugaLib)
-- [KuaYueTeam/NeoKuayue](https://github.com/KuaYueTeam/NeoKuayue)
-- [Nova-Committee/Ultramarine-unofficial](https://github.com/Nova-Committee/Ultramarine-unofficial)
-- [baguchi/TofuCreate](https://github.com/baguchi/TofuCreate)
+
