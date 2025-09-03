@@ -45,6 +45,7 @@ jobs:
       - name: Delete existing release assets
         uses: mknejp/delete-release-assets@v1
         with:
+          fail-if-no-assets: false
           tag: build
           assets: |
             KumoOTagayasu-build.mrpack
