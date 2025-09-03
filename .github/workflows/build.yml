@@ -80,6 +80,7 @@ jobs:
           wget https://github.com/nothub/mrpack-install/releases/download/v0.16.10/mrpack-install-linux
           chmod 755 mrpack-install-linux
           ./mrpack-install-linux "KumoOTagayasu-build-${BUILD_NUMBER}.mrpack" --server-dir ./ --server-file ./forge-1.20.1-47.4.6-installer.jar
+          rm -f "KumoOTagayasu-build-${BUILD_NUMBER}.mrpack"
           rm -f mrpack-install-linux
           rm -f forge-1.20.1-47.4.6-installer.jar
           rm -f install.log
@@ -89,6 +90,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: "build-${{ env.BUILD_NUMBER }}"
-          files: "Server-KumoOTagayasu-build-${env.BUILD_NUMBER}.zip"
+          files: "Server-KumoOTagayasu-build-${{env.BUILD_NUMBER}}.zip"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
