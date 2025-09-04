@@ -6,6 +6,21 @@
   "summary": "Fork of Oriun Tagayasu. Original: https://www.mcmod.cn/modpack/626.html",
   "files": [
     {
+      "path": "mods/touhou_little_maid_spell-1.20-1.5.1.jar",
+      "hashes": {
+        "sha512": "3fee3044ffd9ceefb51f9f8bffa5bb21f634b88c4b51dce9a3bf6865405f3783479d5eefa8123884ee46af19e6f28478da4c550a7e8dec7f0255807c1f730626",
+        "sha1": "ab6c4ef9bb275d2c29477a5a4e5e2efb8033da4b"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/QHB4kBBS/versions/pj2LND8H/touhou_little_maid_spell-1.20-1.5.1.jar"
+      ],
+      "fileSize": 401727
+    },
+    {
       "path": "mods/createmoredrillheads-2.1.0-1.20.1.jar",
       "hashes": {
         "sha512": "1eeb4ac9f52ea97fd9c5630367e0ecce33c2a1f20290c53c61f29656dc352f1d1ce0052db8e6aa82afc5cc987c81a9cdb6c45df7f5ffe6e280f2700051857581",
@@ -156,19 +171,19 @@
       "fileSize": 1018706
     },
     {
-      "path": "mods/Sakura-1.1.12-1.20.1.jar",
+      "path": "mods/Sakura-1.1.15-1.20.1.jar",
       "hashes": {
-        "sha512": "c75a54eb84fdb9ca856fe0c6d8dfaec14d9a4b962e13790a57f3e4dacfd396d6355813cdf35343ed9f1468b1d7b4afb48df4b9364508c7179937fba60a9f9876",
-        "sha1": "b23c60ad296e5864c03fbf0999a544067b1be5a2"
+        "sha1": "db744d0fef382ddf88ccf44f7ce057ed084d97f2",
+        "sha512": "159ee620641fed9960fe7da02c6c8682c8cd0d0d9d4146c702cbe1351a8837d58004a2ca17eebe09554f03d072c8250dedeed59072789f909bf708e6592698be"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/U5QgI9Bi/versions/oREKAMEz/Sakura-1.1.12-1.20.1.jar"
+        "https://cdn.modrinth.com/data/U5QgI9Bi/versions/HKpu6HV1/Sakura-1.1.15-1.20.1.jar"
       ],
-      "fileSize": 2842802
+      "fileSize": 2857748
     },
     {
       "path": "mods/dimensionviewer-1.20-1.4.0.jar",
@@ -501,19 +516,19 @@
       "fileSize": 10035863
     },
     {
-      "path": "mods/mysterious_mountain_lib-1.5.23-1.20.1.jar",
+      "path": "mods/mysterious_mountain_lib-1.5.24-1.20.1.jar",
       "hashes": {
-        "sha512": "384619e2f6c96de309c9333780258ea996d2167b25eec564896478bdafd42a21f9a963832cd5ea341af49094866d471f620aef7d0deaa8b4d71cb228f6351eee",
-        "sha1": "735ca96668dc011bce79218d1e85c87a02cf0f17"
+        "sha512": "f9aaa8f0e830f36e0f7b2dc11d01f5d256e9295c0ceebe4290ce325e7df29c262f06c05e1cead0ddd6512128389a617a734f9a7d47627ad6d1e4f09269e6fdb2",
+        "sha1": "3d8faf3c9e7a727758d6a76d284cf923f987146b"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/ntMyNH8c/versions/7FI8buGO/mysterious_mountain_lib-1.5.23-1.20.1.jar"
+        "https://cdn.modrinth.com/data/ntMyNH8c/versions/mSVq2uKf/mysterious_mountain_lib-1.5.24-1.20.1.jar"
       ],
-      "fileSize": 309744
+      "fileSize": 314651
     },
     {
       "path": "mods/Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar",
@@ -861,19 +876,19 @@
       "fileSize": 84059
     },
     {
-      "path": "mods/youkaishomecoming-2.5.9.jar",
+      "path": "mods/youkaishomecoming-2.6.1.jar",
       "hashes": {
-        "sha1": "ac5cd2ee10c839c5bcfb6af6d741e88150b6dfef",
-        "sha512": "fd99b7e522c640d1530d9df5ebb4b43623fe069fc6ae5b35796cb842cd29b6e8117173116d7f0f7209df91dd46c79ae655283a56d84ac232d45d1eb5478bbd56"
+        "sha1": "a9f80eeff850790881cada839b562edfc430fd89",
+        "sha512": "8b46f1efd67293809d5481c1d5893ec09237f85296470019f3cbcb0bcf968132b0c278035fa04e5dbaca6ee7d895e65e5dcb85d3213465270986ce5496862f1a"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/uJT3ahxz/versions/qcl8YZaG/youkaishomecoming-2.5.9.jar"
+        "https://cdn.modrinth.com/data/uJT3ahxz/versions/aLyugkCh/youkaishomecoming-2.6.1.jar"
       ],
-      "fileSize": 6027969
+      "fileSize": 6044519
     },
     {
       "path": "mods/net_music_list-1.5.3.jar",
@@ -1881,19 +1896,19 @@
       "fileSize": 715706
     },
     {
-      "path": "mods/voicechat-forge-1.20.1-2.5.36.jar",
+      "path": "mods/voicechat-forge-1.20.1-2.6.1.jar",
       "hashes": {
-        "sha512": "b551367707098dda7528ba6411f957933a736cc9017fd54312e189ddd1f0fee761dcfd1f6dd7ba4f9d0fc105469141723388a800ba5ed0ffd39cb76af9e86ac5",
-        "sha1": "5d8ec5198d2c6ea0109aa4af8ff446c183ea3ff9"
+        "sha1": "db75917ff5b8b3874e3dcf093f0548067ad34999",
+        "sha512": "3afd7b7f0b981734ed600118c9bb9c289d6ad070a51fe773b6faf67b72a39f1480906ec93f88cb1b3f3231f12e94177c5dcf3aef0ddae39f4196eed5348c0c78"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/9eGKb6K1/versions/r5eJrLh4/voicechat-forge-1.20.1-2.5.36.jar"
+        "https://cdn.modrinth.com/data/9eGKb6K1/versions/3jUMKnjW/voicechat-forge-1.20.1-2.6.1.jar"
       ],
-      "fileSize": 7628120
+      "fileSize": 4881013
     },
     {
       "path": "mods/cagedmobs-1.20.1-forge-2.0.5.jar",
@@ -1971,19 +1986,19 @@
       "fileSize": 14789
     },
     {
-      "path": "mods/maidsoulkitchen-1.20.1-alpha-v0.2.5-all.jar",
+      "path": "mods/maidsoulkitchen-1.20.1-alpha-v0.2.5.1-all.jar",
       "hashes": {
-        "sha512": "d4c2d1a496cb527dad16e28b0d00b1a5efd29fe18fcb9c21638d4dd12131f269b8a819586d6cafbff9db66f95d94cf6fd63b5d1aaea808bd5b51e387946eb01a",
-        "sha1": "14cf4bb4dc82a18b5f5368364b458ca8f8516e6f"
+        "sha512": "f48179dc9de94e94d1b0a3cf3d8969e146537aa904096d2bb89f9b01404fffc5876f1f8717eb5b4aa8cbd2543543b1ce7981324d8979aeb28a33598ab661a7ac",
+        "sha1": "a37ec547d9b90b711a7532537e323860c28d620a"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/Q5ZXy0QB/versions/2V4eQlsq/maidsoulkitchen-1.20.1-alpha-v0.2.5-all.jar"
+        "https://cdn.modrinth.com/data/Q5ZXy0QB/versions/ujJGThF0/maidsoulkitchen-1.20.1-alpha-v0.2.5.1-all.jar"
       ],
-      "fileSize": 1562712
+      "fileSize": 1561858
     },
     {
       "path": "mods/create_misc_and_things_ 1.20.1_4.0A.jar",
@@ -2106,19 +2121,19 @@
       "fileSize": 2319050
     },
     {
-      "path": "mods/fruitsdelight-1.0.22.jar",
+      "path": "mods/fruitsdelight-1.1.1.jar",
       "hashes": {
-        "sha1": "ab6144a62830491896fad9c3206976bdfbd9976e",
-        "sha512": "bb1243cfa94dff5292e4ec2760c1e78bd217679753aa7625c1ac5b413b2a97b08e18912215c3f656fb04aed51f1576ffc289c436adca86177db6f295019be29c"
+        "sha1": "1461c33f3aeeb4703b41c3603238db26f52d5604",
+        "sha512": "21aa0f50df1d4f9c6bbee6913eba3369b47cc7f0cee4e20f7dc1d7f4d2f3f3da4e4df8cc11eb94c0d5e17f264f3909f78ee23ebcc93db24c9f149823202d7f68"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/g6sbyCTu/versions/gSG5A9TX/fruitsdelight-1.0.22.jar"
+        "https://cdn.modrinth.com/data/g6sbyCTu/versions/qPyefm6m/fruitsdelight-1.1.1.jar"
       ],
-      "fileSize": 1879106
+      "fileSize": 1892593
     },
     {
       "path": "mods/3titanium-1.20.1-3.8.32.jar",
@@ -2331,34 +2346,34 @@
       "fileSize": 245317
     },
     {
-      "path": "mods/TofuCraftReload-1.20.1-5.17.3.0.jar",
+      "path": "mods/TofuCraftReload-1.20.1-5.18.0.0.jar",
       "hashes": {
-        "sha512": "92b01aee1e093771b6c49c946871edfc18f93d90b2208663e7308e1cf2c1813651fad1111412fa09b99fdcfa8c45721db7999f03dfecb8fe07aae684db961a9f",
-        "sha1": "1791d110d9c41743b4ab91ce92ee2c79cb337c11"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/69rMY8bC/versions/rDKj9wvS/TofuCraftReload-1.20.1-5.17.3.0.jar"
-      ],
-      "fileSize": 10475018
-    },
-    {
-      "path": "mods/smsn-forge-1.2.9-1.20.1.jar",
-      "hashes": {
-        "sha1": "1b500f0a337ff5e444078df015de04dc84fec714",
-        "sha512": "77404d8d2ec97d602a5b2e7688c88ab4a0894683734b3d28b6cf239a3ec2963c6db17f9b6493710b1c50c9f80aa89d3ef15d86fd841e876674cb999c3d11c74d"
+        "sha1": "21aa177451d837e315a7b96c22a25b519e7ba41f",
+        "sha512": "b46cc2e810489a20a768860f87f948bed16669891995408a668aa3e0f15e575f06fe2792504c242d0a83d54b0af5be3b4cdeeeaa8210965dac0b08cf53cd3675"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/oXzIQwRj/versions/K4gFcgKB/smsn-forge-1.2.9-1.20.1.jar"
+        "https://cdn.modrinth.com/data/69rMY8bC/versions/QYkiJrtR/TofuCraftReload-1.20.1-5.18.0.0.jar"
       ],
-      "fileSize": 89786
+      "fileSize": 10481054
+    },
+    {
+      "path": "mods/smsn-forge-1.2.10-1.20.1.jar",
+      "hashes": {
+        "sha1": "dcbfacb30202f44fb556558fff799b3c896c2b47",
+        "sha512": "0f187d70b7d66a810b6f7321eb2e266063fdc6df011faa47916d3a7111bdf64d338fd0ea9fcdc3ccbf282a09151d0a7ec6d16b95c78d1d17141b43cc7982b139"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/oXzIQwRj/versions/Q8QHYZ43/smsn-forge-1.2.10-1.20.1.jar"
+      ],
+      "fileSize": 92756
     },
     {
       "path": "mods/zetter-1.20.1-0.21.5.jar",
@@ -2661,19 +2676,19 @@
       "fileSize": 15889
     },
     {
-      "path": "mods/2watermedia-2.1.32.jar",
+      "path": "mods/2watermedia-2.1.33.jar",
       "hashes": {
-        "sha512": "f4a3ed3acdc245e839f30d9bccaa5ab606c6f8c11c726923a71fd8b63d536a53539c773133d4c33b7635eeb78d08311618d4efaff291194dca0090dc11bfd024",
-        "sha1": "7b7436208799aae9f71098397dc8b47e98295e6e"
+        "sha512": "6828136316a8077f9ad18d9ea88dddf9609c301ef7dc31dcb2e0ade8637ca45c36131d829441206651c705de8587696e8047bf8091064e030457517192735fd1",
+        "sha1": "74d72fe874f75e50bfbf05c2ef661703351c78e0"
       },
       "env": {
         "server": "unsupported",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/G922NeHS/versions/b3UyB3Yq/watermedia-2.1.32.jar"
+        "https://cdn.modrinth.com/data/G922NeHS/versions/uJgGeNEY/watermedia-2.1.33.jar"
       ],
-      "fileSize": 37857390
+      "fileSize": 37857578
     },
     {
       "path": "mods/2GPUTape-1.18x-1.21x-1.0.5.1.jar",

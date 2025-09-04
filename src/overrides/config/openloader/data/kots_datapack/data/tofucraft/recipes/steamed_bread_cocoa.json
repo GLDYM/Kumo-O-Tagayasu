@@ -4,7 +4,9 @@
   "cook_time": 300,
   "exp": 0.5,
   "fluid": {
-    "fluid": "tofucraft:soymilk"
+    "amount": 250,
+    "fluid": "tofucraft:soymilk",
+    "nbt": {}
   },
   "ingredients": [
     {

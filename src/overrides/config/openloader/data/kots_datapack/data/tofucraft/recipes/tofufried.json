@@ -4,7 +4,9 @@
   "cook_time": 100,
   "exp": 0.1,
   "fluid": {
-    "fluid": "tofucreate:soyoil"
+    "amount": 250,
+    "fluid": "tofucreate:soyoil",
+    "nbt": {}
   },
   "ingredients": [
     [
