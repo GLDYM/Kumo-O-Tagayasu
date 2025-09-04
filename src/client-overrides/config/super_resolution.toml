@@ -1,0 +1,47 @@
+#This option enables the use of a compatibility shader compiler for compiling shaders when set to true.
+compat_shader_compiler = true
+#List of post-processing chains to skip injection
+inject_post_chain_blacklist = []
+#Screen capture mode
+capture_mode = "A"
+#Upscale ratio factor
+upscale_ratio = 1.7
+#Algorithm used for upscaling
+upscale_algo = "sgsr1"
+#Sharpness adjustment factor
+sharpness = 0.55
+#Enable super-resolution upscaling
+enable_upscale = false
+#Pause game when GUI is open
+pause_game_on_gui = false
+enable_dataset_generator = false
+
+#Algorithm special configuration
+[special]
+
+	[special.sgsr2]
+		variant = "CS_2"
+
+	[special.fsr1]
+		fp16 = true
+
+	[special.fsr2]
+		version = "V233"
+		fp16 = true
+
+[debug]
+	#Skip Vulkan initialization (auto-set based on OS)
+	skip_init_vulkan = true
+	#Enable RenderDoc integration (auto-disabled on incompatible OS)
+	enable_render_doc = false
+	#Enable ImGui debug interface (auto-disabled on incompatible OS)
+	enable_imgui = false
+	#Dump shaders for debugging purposes
+	debug_dump_shader = false
+	#Enable more detailed performance profiling for advanced analysis.
+	enable_detailed_profiling = false
+
+[experiment]
+	#Generate motion vectors for advanced effects
+	generate_motion_vectors = false
+

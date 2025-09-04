@@ -12,11 +12,16 @@
 
 ### 获取服务端
 
+#### 自动构建
+
+现在 Github Release 中已提供从 `mrpack` 自动构建的服务端，请直接下载。
+
+#### 手动构建
+
 - 下载 Release 中的 `mrpack` 文件。
-- 下载 [forge-1.20.1-47.4.6-installer.jar](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.6/forge-1.20.1-47.4.6-installer.jar)  与 相应平台的 [mrpack-install](https://github.com/nothub/mrpack-install/releases) ，与`mrpack` 文件置于同一文件夹。
+- 下载相应平台的 [mrpack-install](https://github.com/nothub/mrpack-install/releases/tag/v0.21.0-beta) ，与`mrpack` 文件置于同一文件夹。
 - 启动命令行。
-- 运行 `java -jar forge-1.20.1-47.4.6-installer.jar --installServer`
-- 运行 `mrpack-install-linux <filename>.mrpack --server-file ./forge-1.20.1-47.4.6-installer.jar --server-dir ./`，其中 `<filename>`是你下载的`mrpack` 文件的文件名。
+- 运行 `mrpack-install-linux <filename>.mrpack --server-dir ./`，其中 `<filename>`是你下载的`mrpack` 文件的文件名。
 
 ### 关于 Java 版本
 
