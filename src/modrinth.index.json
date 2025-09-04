@@ -6,6 +6,21 @@
   "summary": "Fork of Oriun Tagayasu. Original: https://www.mcmod.cn/modpack/626.html",
   "files": [
     {
+      "path": "mods/nbtedit-forge-5.2.8.jar",
+      "hashes": {
+        "sha1": "f4f013ebdb771424084ceb8fbc7a30ba6242b38a",
+        "sha512": "612282336d2997b3c5ab8b396db3bbb944ce979206aca72fb02daf040936b7b80845e25192505b7fbaa2e8b64f3b1c08a011544857756b68d4c08cc0f3658b91"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Vr2eDeCw/versions/tR4Z5Ijy/nbtedit-forge-5.2.8.jar"
+      ],
+      "fileSize": 612451
+    },
+    {
       "path": "mods/touhou_little_maid_spell-1.20-1.5.1.jar",
       "hashes": {
         "sha512": "3fee3044ffd9ceefb51f9f8bffa5bb21f634b88c4b51dce9a3bf6865405f3783479d5eefa8123884ee46af19e6f28478da4c550a7e8dec7f0255807c1f730626",
@@ -3379,36 +3394,6 @@
         "https://cdn.modrinth.com/data/VYRu7qmG/versions/QtSVNyjm/observable-4.4.2.jar"
       ],
       "fileSize": 470536
-    },
-    {
-      "path": "mods/5nbtedit-forge-5.2.8.jar.disabled",
-      "hashes": {
-        "sha1": "f4f013ebdb771424084ceb8fbc7a30ba6242b38a",
-        "sha512": "612282336d2997b3c5ab8b396db3bbb944ce979206aca72fb02daf040936b7b80845e25192505b7fbaa2e8b64f3b1c08a011544857756b68d4c08cc0f3658b91"
-      },
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/Vr2eDeCw/versions/tR4Z5Ijy/nbtedit-forge-5.2.8.jar"
-      ],
-      "fileSize": 612451
-    },
-    {
-      "path": "mods/5nbtedit-forge-5.2.8.jar",
-      "hashes": {
-        "sha1": "f4f013ebdb771424084ceb8fbc7a30ba6242b38a",
-        "sha512": "612282336d2997b3c5ab8b396db3bbb944ce979206aca72fb02daf040936b7b80845e25192505b7fbaa2e8b64f3b1c08a011544857756b68d4c08cc0f3658b91"
-      },
-      "env": {
-        "client": "unsupported",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/Vr2eDeCw/versions/tR4Z5Ijy/nbtedit-forge-5.2.8.jar"
-      ],
-      "fileSize": 612451
     },
     {
       "path": "mods/Log-Begone-Forge-1.20.1-1.0.8.jar",

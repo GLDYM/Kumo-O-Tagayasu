@@ -9,6 +9,6 @@ debug:
   debugTooltipMsg: false
   tagsTooltipAppendKeybindHint: true
   tagsPerPage: 6
-  NBTTooltip: true
+  NBTTooltip: false
   F3CopyInInventory: true
 suppressExperimentalSettingsWarning: false
