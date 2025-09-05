@@ -169,6 +169,10 @@
     "resultItems": "farmersdelight:straw"
   },
   {
+    "matchItems": ["sakura:bun"],
+    "resultItems": "some_assembly_required:burger_bun"
+  },
+  {
     "matchItems": ["farm_and_charm:yeast"],
     "resultItems": "sakura:yeast"
   }

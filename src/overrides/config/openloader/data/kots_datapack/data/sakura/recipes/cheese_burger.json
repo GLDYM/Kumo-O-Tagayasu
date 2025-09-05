@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "some_assembly_required:burger_bun_top"
+    },
+    {
+      "item": "some_assembly_required:burger_bun_bottom"
+    },
+    {
+      "item": "sakura:burger"
+    },
+    {
+      "item": "sakura:tomato_sauce"
+    },
+    {
+      "tag": "forge:cheese"
+    }
+  ],
+  "result": {
+    "item": "sakura:cheese_burger"
+  }
+}
