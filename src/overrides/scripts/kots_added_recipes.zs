@@ -71,7 +71,6 @@ for flower in <tag:items:minecraft:flowers> {
 # BANITEM
 craftingTable.remove(<item:l2complements:diffusion_wand>);
 craftingTable.remove(<item:create_sa:block_picker>);
-craftingTable.remove(<item:minecraft:enchanting_table>);
 craftingTable.remove(<item:etcetera:wrench>);
 craftingTable.remove(<item:supplementaries:slingshot>);
 craftingTable.remove(<item:quark:pickarang>);
