@@ -1626,19 +1626,19 @@
       "fileSize": 12526
     },
     {
-      "path": "mods/lootr-forge-1.20-0.7.35.92.jar",
+      "path": "mods/lootr-forge-1.20-0.7.35.93.jar",
       "hashes": {
-        "sha512": "903ae0ba7077c86719399c32b4dba5726ce78c19f5eed8bb21acdbe1350cd3572fa2f1278a6b04d352b45ea12284bc97c24e77eab97500a44c0835e92288a0a2",
-        "sha1": "6e0c4289f06552c89bfe63b6d43a0609fecd6935"
+        "sha1": "a109f9d34f39af38a394a58fc506583eb078704d",
+        "sha512": "5080f9a48e4dfa9854de5f21584dba62e75bdb064bab3974c7a427072435740d04e63c548ff27eda0fc30d163c26595034833e6703edb8ca54a3994c06ae53fb"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/EltpO5cN/versions/9viyYois/lootr-forge-1.20-0.7.35.92.jar"
+        "https://cdn.modrinth.com/data/EltpO5cN/versions/pvIQeqjt/lootr-forge-1.20-0.7.35.93.jar"
       ],
-      "fileSize": 458609
+      "fileSize": 460882
     },
     {
       "path": "mods/caverns_and_chasms-1.20.1-2.0.0.jar",
@@ -1911,19 +1911,19 @@
       "fileSize": 715706
     },
     {
-      "path": "mods/voicechat-forge-1.20.1-2.6.1.jar",
+      "path": "mods/voicechat-forge-1.20.1-2.6.2.jar",
       "hashes": {
-        "sha1": "db75917ff5b8b3874e3dcf093f0548067ad34999",
-        "sha512": "3afd7b7f0b981734ed600118c9bb9c289d6ad070a51fe773b6faf67b72a39f1480906ec93f88cb1b3f3231f12e94177c5dcf3aef0ddae39f4196eed5348c0c78"
+        "sha1": "496cccd14f1ce842f28094f3a3d5b60d04a30202",
+        "sha512": "ee481e90ae8822546f1b79f975336eb65438f4d2bc18d6d29f5a759d17380480b610ef1f7786ba563451a08a3b8e3fb206dd619e5db72eab937b93254111ca04"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/9eGKb6K1/versions/3jUMKnjW/voicechat-forge-1.20.1-2.6.1.jar"
+        "https://cdn.modrinth.com/data/9eGKb6K1/versions/1xDXtC4P/voicechat-forge-1.20.1-2.6.2.jar"
       ],
-      "fileSize": 4881013
+      "fileSize": 4881056
     },
     {
       "path": "mods/cagedmobs-1.20.1-forge-2.0.5.jar",
@@ -2076,19 +2076,19 @@
       "fileSize": 783106
     },
     {
-      "path": "mods/the_bumblezone-7.8.2+1.20.1-forge.jar",
+      "path": "mods/the_bumblezone-7.8.3+1.20.1-forge.jar",
       "hashes": {
-        "sha1": "dbe034d74fb20d6d97cd9f582e38f7c8f75e1d16",
-        "sha512": "d211d5fd7fe7e40016cac7c39d2234ee2a0de8419bca9daef3d1a4fcf71e9b61f476a4369bd5359b6b1afedf0452cd10f2160c5ee234a81532d8239d16505d13"
+        "sha1": "16d8d0be268d9f32aa12f6510b15f714729a2831",
+        "sha512": "eb05bb0c827c6763b2ad9a4871f2bfbe3b5ffda198001ff491b8d84f459baf2c18f5188b95bb810f7c03c15403e294a777154e06c089fc0265ce4a1d282db1ca"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/38tpSycf/versions/qCZPeE3p/the_bumblezone-7.8.2%2B1.20.1-forge.jar"
+        "https://cdn.modrinth.com/data/38tpSycf/versions/aGlAIlzO/the_bumblezone-7.8.3%2B1.20.1-forge.jar"
       ],
-      "fileSize": 69077174
+      "fileSize": 69076815
     },
     {
       "path": "mods/autumnity-1.20.1-5.0.2.jar",
@@ -2646,19 +2646,19 @@
       "fileSize": 24819
     },
     {
-      "path": "mods/2AsyncParticles-2.3.6+1.20.1.jar",
+      "path": "mods/2AsyncParticles-2.3.8+1.20.1.jar",
       "hashes": {
-        "sha512": "49b45bb479fd481c780e639e66cecfcfe5970b3ae154c026a94b6f735bd65c6956a6d0c42a950bf2169567468978a1bd1962bb5e396941dc4bb40b2e0751c9a1",
-        "sha1": "dd39472a38bd9b26697fba35864c1beb312192c5"
+        "sha1": "c44ea54512919b34adc3356533c1c9d0d4a4e9aa",
+        "sha512": "96e8b2b5d9b9c0ef10dc7852fe6968186cf714abb5a75926d1a7e7f126c3cddfee6e1e3e21e73902f4d66da2ed7a4702f78895850cda2aa72e10246e1b0d367d"
       },
       "env": {
         "server": "unsupported",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/c3onkd5k/versions/A5FtUkzN/AsyncParticles-2.3.6%2B1.20.1.jar"
+        "https://cdn.modrinth.com/data/c3onkd5k/versions/gN6qVovu/AsyncParticles-2.3.8%2B1.20.1.jar"
       ],
-      "fileSize": 1264140
+      "fileSize": 1265991
     },
     {
       "path": "mods/2fast-ip-ping-v1.0.7-mc1.20.4-forge.jar",
@@ -3156,19 +3156,19 @@
       "fileSize": 123109
     },
     {
-      "path": "mods/2ModernUI-Forge-1.20.1-3.12.0.1-universal.jar",
+      "path": "mods/2ModernUI-Forge-1.20.1-3.11.1.6-universal.jar",
       "hashes": {
-        "sha512": "cf9a1bfa25f956a9277639da833a86d59a6a55bc690b6c03d4292bb240cb775c32ecf7ae253db7779757e2c74c5adf2c272c4ecdb35b907027de3ec7534bbd27",
-        "sha1": "fcebe51e3c2ca34793f9b132fa05b5494ffc76a4"
+        "sha1": "3bfee05da6f51a239f644dc37c56c13dd8a1c326",
+        "sha512": "a9589a4ee47941bf52b8c79dfb96887bcafab72ddb789f7a2ce1d540f3d1e231bb2dc0d1754d420860a20e5f80f018079b10fb41189d565da8313079e57535da"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/3sjzyvGR/versions/6ksT8CWg/ModernUI-Forge-1.20.1-3.12.0.1-universal.jar"
+        "https://cdn.modrinth.com/data/3sjzyvGR/versions/bFqOmRXG/ModernUI-Forge-1.20.1-3.11.1.6-universal.jar"
       ],
-      "fileSize": 25104473
+      "fileSize": 25745365
     },
     {
       "path": "mods/2cycletitlescreensplash-1.20.1-1.3.jar",
@@ -3351,19 +3351,19 @@
       "fileSize": 2851119
     },
     {
-      "path": "mods/2clientsort-forge-2.0.0-beta.14+1.20.1.jar",
+      "path": "mods/2clientsort-forge-2.0.0-beta.15+1.20.1.jar",
       "hashes": {
-        "sha512": "502c2d24d1b7586bbcec25409225acba9232bc6735e30e97e73124b8a38f24240ecf47261ae84d76210675635e099f7fd48c00e9791191ab77c3ea07ec8663a5",
-        "sha1": "4054132266932945741203e34c86856c1a83f039"
+        "sha512": "d1b8ad86a5d700f46078b7769c3e1818a7e2a811a68148aed64e3dd1739dd969bc2be1b27fff29076f4656a900bbfaa57ff11a9d81d261a4ef6ad4dcec18fffc",
+        "sha1": "62c6e30435cf0e700ffd0a0ae8abf22ffaf91b96"
       },
       "env": {
-        "client": "required",
-        "server": "unsupported"
+        "server": "unsupported",
+        "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/K0AkAin6/versions/uCXIvfFv/clientsort-forge-2.0.0-beta.14%2B1.20.1.jar"
+        "https://cdn.modrinth.com/data/K0AkAin6/versions/DhJAsYMT/clientsort-forge-2.0.0-beta.15%2B1.20.1.jar"
       ],
-      "fileSize": 449747
+      "fileSize": 463405
     },
     {
       "path": "mods/5observable-4.4.2.jar.disabled",
