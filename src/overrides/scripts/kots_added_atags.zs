@@ -94,7 +94,7 @@
 <tag:items:minecraft:mangrove_logs>.add(<item:bloomingnature:swamp_cypress_wood>);
 
 <tag:items:create:modded_stripped_logs>.add(<item:atmospheric:stripped_laurel_log>);
-<tag:items:create:modded_stripped_wood>.add(<block:atmospheric:stripped_laurel_wood>);
+<tag:items:create:modded_stripped_wood>.add(<item:atmospheric:stripped_laurel_wood>);
 <tag:items:create:modded_stripped_logs>.add(<item:autumnity:stripped_maple_log>);
 <tag:items:create:modded_stripped_wood>.add(<item:autumnity:stripped_maple_wood>);
 <tag:items:create:modded_stripped_wood>.add(<item:autumnity:sappy_maple_wood>);
