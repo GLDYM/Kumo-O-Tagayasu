@@ -33,6 +33,7 @@
     "highlightBlockInInventory": false,
     "itemUsePacketCheckBypass": true,
     "layerModeFollowsPlayer": false,
+    "materialListIgnoreState": false,
     "pasteAlwaysUseFill": false,
     "pasteIgnoreBlockEntitiesEntirely": false,
     "pasteIgnoreBlockEntitiesFromFill": true,
@@ -64,13 +65,14 @@
     "commandNameSetblock": "setblock",
     "commandNameSummon": "summon",
     "commandTaskInterval": 1,
+    "customSchematicBaseDirectory": "D:\\MineCraft\\.minecraft\\versions\\TsuriNoGatsu5 - FDCraft Version\\schematics",
     "easyPlaceSwapInterval": 0,
     "pickBlockableSlots": "1,2,3,4,5",
     "toolItem": "minecraft:golden_sword"
   },
   "Hotkeys": {
     "addSelectionBox": {
-      "keys": "M,A"
+      "keys": "COMMA,A"
     },
     "cloneSelection": {
       "keys": ""
@@ -94,10 +96,10 @@
       "keys": ""
     },
     "layerModeNext": {
-      "keys": "M,PAGE_UP"
+      "keys": "COMMA,PAGE_UP"
     },
     "layerModePrevious": {
-      "keys": "M,PAGE_DOWN"
+      "keys": "COMMA,PAGE_DOWN"
     },
     "layerNext": {
       "keys": "PAGE_UP"
@@ -124,28 +126,28 @@
       "keys": ""
     },
     "openGuiMainMenu": {
-      "keys": "M"
+      "keys": "COMMA"
     },
     "openGuiMaterialList": {
-      "keys": "M,L"
+      "keys": "COMMA,L"
     },
     "openGuiPlacementSettings": {
       "keys": "KP_SUBTRACT"
     },
     "openGuiSchematicPlacements": {
-      "keys": "M,P"
+      "keys": "COMMA,P"
     },
     "openGuiSchematicProjects": {
       "keys": ""
     },
     "openGuiSchematicVerifier": {
-      "keys": "M,V"
+      "keys": "COMMA,V"
     },
     "openGuiSelectionManager": {
-      "keys": "M,S"
+      "keys": "COMMA,S"
     },
     "openGuiSettings": {
-      "keys": "M,C"
+      "keys": "COMMA,C"
     },
     "operationModeChangeModifier": {
       "keys": "LEFT_CONTROL"
@@ -166,7 +168,7 @@
       "keys": "RIGHT_CONTROL"
     },
     "rerenderSchematic": {
-      "keys": "F3,M"
+      "keys": "F3,COMMA"
     },
     "saveAreaAsInMemorySchematic": {
       "keys": ""
@@ -214,7 +216,7 @@
       "keys": "LEFT_ALT"
     },
     "selectionModeCycle": {
-      "keys": "LEFT_CONTROL,M"
+      "keys": "LEFT_CONTROL,COMMA"
     },
     "selectionShrink": {
       "keys": ""
@@ -229,7 +231,7 @@
       "keys": ""
     },
     "toggleAllRendering": {
-      "keys": "M,R"
+      "keys": "COMMA,R"
     },
     "toggleAreaSelectionBoxesRendering": {
       "keys": ""
