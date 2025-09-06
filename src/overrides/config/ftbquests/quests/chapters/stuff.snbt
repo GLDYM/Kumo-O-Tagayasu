@@ -405,6 +405,7 @@
 				""
 				"- +4 只有没有其他牌可以出的时候才可以打出来。"
 			]
+			hide_until_deps_complete: true
 			icon: "minopp:mino_table"
 			id: "519FF2D319A99D35"
 			size: 1.5d

@@ -700,6 +700,7 @@
 				""
 				"神社亭灯被采集时候会保留其中的P点，因此也可以作为存储 P 点的装置。"
 			]
+			hide_until_deps_complete: true
 			id: "1618FAA4D7E93E25"
 			rewards: [{
 				count: 8
