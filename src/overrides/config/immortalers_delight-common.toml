@@ -26,7 +26,6 @@ useWeakPoisonOverLay = true
 #default: Automatically determine whether to enable it based on the player's combat performance.
 #false: Never enabled this mode.
 powerBattleMode = "true"
-powerBattleModeHint = "true"
 #After opening, you can right-click to harvest the crops of the module
 rightClickHarvest = true
 
