@@ -249,8 +249,8 @@
         "value": -1
       },
       "max": {
-        "default": 999,
-        "value": 999
+        "default": 1000,
+        "value": 1000
       }
     },
     "l2weaponry:shield_defense": {
@@ -403,8 +403,8 @@
         "value": -1
       },
       "max": {
-        "default": 999,
-        "value": 999
+        "default": 1000,
+        "value": 1000
       }
     },
     "irons_spellbooks:holy_spell_power": {
@@ -656,8 +656,8 @@
         "value": -1
       },
       "max": {
-        "default": 999,
-        "value": 999
+        "default": 1000,
+        "value": 1000
       }
     },
     "minecraft:generic.max_health": {
@@ -722,8 +722,8 @@
         "value": 0
       },
       "max": {
-        "default": 10000,
-        "value": 10000
+        "default": 20000,
+        "value": 20000
       }
     },
     "minecraft:generic.knockback_resistance": {

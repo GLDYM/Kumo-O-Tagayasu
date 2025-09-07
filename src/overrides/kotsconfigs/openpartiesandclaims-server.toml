@@ -96,7 +96,7 @@
 			#Supports patterns with special characters *, (, ) and |, where * matches anything, ( ) are used for grouping and | means OR.
 			#For example ["*:villager", "minecraft:m(ule|ooshroom)", "#minecraft:axolotl_hunt_targets"].
 			#By default the list is empty with the type set to ALL_BUT, which means that all friendly entities are included.
-			friendlyChunkProtectedEntityList = ["minecraft:boat"]
+			friendlyChunkProtectedEntityList = ["minecraft:boat", "minecraft:player"]
 			#The type of the list defined in "hostileChunkProtectedEntityList". ONLY - include only the listed entities. ALL_BUT - include all but the listed entities.
 			#Allowed Values: ONLY, ALL_BUT
 			hostileChunkProtectedEntityListType = "ONLY"
@@ -139,7 +139,7 @@
 			#Prefix "anything$" is the same as no prefix but allows interaction with any item held in the hand. Please make sure that no item does anything bad when used at an entity with such an exception.
 			#Add the same entity/tag multiple times to use multiple prefixes. Supports patterns with special characters *, (, ) and |, where * matches anything, ( ) are used for grouping and | means OR.
 			#For example ["minecraft:villager", "break$minecraft:villager", "break$minecraft:(trader_|)llama"]
-			forcedEntityProtectionExceptionList = ["minecraft:minecart"]
+			forcedEntityProtectionExceptionList = ["minecraft:minecart", "minecraft:player"]
 			#Custom groups of entities that a player/claim config should be able to make protection exceptions for. Each group can consist of multiple entities and entity tags.
 			#A group without a prefix creates a player config option for the right-click interaction with the group entities. The format for an entity group is <group ID>{<entities/tags/wildcards separated by ,>}.
 			#The group ID should consist of at most 32 characters that are letters A-Z, numbers 0-9 or the - and _ characters, e.g. "ePiC-GUYS98{minecraft:pig, minecraft:c(ow|at), #minecraft:beehive_inhabitors}".

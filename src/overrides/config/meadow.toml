@@ -1,9 +1,0 @@
-
-[Blocks]
-
-	[Blocks.Banner]
-		#Set to false to disable the banner's effect.
-		giveEffect = true
-		#Set to false to hide the banner's tooltip. If giveEffect is false, showTooltip is automatically false.
-		showTooltip = true
-
