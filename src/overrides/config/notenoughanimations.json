@@ -8,7 +8,7 @@
     "minecraft:recovery_compass",
     "minecraft:soul_lantern",
     "minecraft:torch",
-    "minecraft:lantern",
+    "minecraft:lantern"
   ],
   "enableAnimationSmoothing": true,
   "enableInWorldMapRendering": true,
