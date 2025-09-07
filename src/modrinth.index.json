@@ -6,6 +6,36 @@
   "summary": "Fork of Oriun Tagayasu. Original: https://www.mcmod.cn/modpack/626.html",
   "files": [
     {
+      "path": "mods/XeKr's Decoration-1.20.1-Forge-0.9.3.jar",
+      "hashes": {
+        "sha1": "6b279cc5a3b9dd8bb32714d5064da5d092a62026",
+        "sha512": "d9c2d0dd892235ae8b92fd731994ef595fb411074dfa9dc5a4920a4ef882bc5cd710d5fb8d1d339e9f6b51f8be5e0e96b8b0cfe1deb2f47e6760e7fbf0727999"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/XlwMlNhH/versions/W17Y8pUb/XeKr%27s%20Decoration-1.20.1-Forge-0.9.3.jar"
+      ],
+      "fileSize": 2207693
+    },
+    {
+      "path": "mods/fabric-api-0.92.6+1.11.14+1.20.1.jar",
+      "hashes": {
+        "sha1": "285c22b2567b9fdf98ef9808eceb5557de9611d3",
+        "sha512": "3b84ea415d9255861bcbf78cfda3987b78aa452361bf44ba6a0223501a25ab5c5c55cb0eac6f460c88b8cec958f2b59211e488277c26e3432a08196f62049e7c"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Aqlf1Shp/versions/XweDEycJ/fabric-api-0.92.6%2B1.11.14%2B1.20.1.jar"
+      ],
+      "fileSize": 3065813
+    },
+    {
       "path": "mods/nbtedit-forge-5.2.8.jar",
       "hashes": {
         "sha1": "f4f013ebdb771424084ceb8fbc7a30ba6242b38a",
@@ -2646,19 +2676,19 @@
       "fileSize": 15889
     },
     {
-      "path": "mods/2watermedia-2.1.33.jar",
+      "path": "mods/2watermedia-2.1.34.jar",
       "hashes": {
-        "sha512": "6828136316a8077f9ad18d9ea88dddf9609c301ef7dc31dcb2e0ade8637ca45c36131d829441206651c705de8587696e8047bf8091064e030457517192735fd1",
-        "sha1": "74d72fe874f75e50bfbf05c2ef661703351c78e0"
+        "sha1": "a698f1220daa256154e0d46670e2a3f048058b1b",
+        "sha512": "8b46ab035f7de4218fb0170ddc8a3ca4bd0981afaf3def82ed2217132e148dbc303bdbd04347fca9a18c0b586b8e7db30aad2ac5e07b877f75d16571069a4815"
       },
       "env": {
         "server": "unsupported",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/G922NeHS/versions/uJgGeNEY/watermedia-2.1.33.jar"
+        "https://cdn.modrinth.com/data/G922NeHS/versions/qGhHJv6H/watermedia-2.1.34.jar"
       ],
-      "fileSize": 37857578
+      "fileSize": 37857681
     },
     {
       "path": "mods/2GPUTape-1.18x-1.21x-1.0.5.1.jar",

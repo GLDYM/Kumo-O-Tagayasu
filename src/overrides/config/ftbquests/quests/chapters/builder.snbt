@@ -484,6 +484,12 @@
 					item: "ultramarine:cyan_bricks"
 					type: "item"
 				}
+				{
+					count: 64
+					id: "70381BF5A3819210"
+					item: "xkdeco:mud_wall_block"
+					type: "item"
+				}
 			]
 			size: 1.5d
 			tasks: [{
