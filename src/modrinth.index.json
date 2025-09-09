@@ -6,6 +6,51 @@
   "summary": "Fork of Oriun Tagayasu. Original: https://www.mcmod.cn/modpack/626.html",
   "files": [
     {
+      "path": "mods/createnuclear-1.3.0-forge.jar",
+      "hashes": {
+        "sha512": "a2c18446951a0df783ff3eac08c720964d6814f408e3c94b7a98a8abf11918231854651ec45f8c9408705f9e2a1a97b71bf175ca2e8258b7500f7cecd933a099",
+        "sha1": "281518d3502ce74f6faedec67e86e23cbeb1eee4"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/z611fdf7/versions/giA0FVYY/createnuclear-1.3.0-forge.jar"
+      ],
+      "fileSize": 1845105
+    },
+    {
+      "path": "mods/create_high_pressure-1.1.0.jar",
+      "hashes": {
+        "sha1": "1a02f62110e1ad1636cc518fc31a9309a075e811",
+        "sha512": "ba350d99f1d3cddcf01f96a9db21921fde74600b59867a2cde2663957f966cf997a053e66bd741fc3bccb2f2dcf51b94131947a06034f3d21c53e379bb123c3a"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Mn8ziD0c/versions/Say8KKfn/create_high_pressure-1.1.0.jar"
+      ],
+      "fileSize": 149755
+    },
+    {
+      "path": "mods/pattern_schematics-1.2.3+forge-1.20.1.jar",
+      "hashes": {
+        "sha512": "a6353f740c91324e1c6d5568292fa7caa2a30fd2776c357ac962ef85dafb544f490f6b7df1343baf3b9d5543602d1704c421e4cec949f441abba200979afa9d8",
+        "sha1": "d752660d32d4f87b4c4d7fee49bafdf9d011529e"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/cpqKG67r/versions/bLe1pVfd/pattern_schematics-1.2.3%2Bforge-1.20.1.jar"
+      ],
+      "fileSize": 221150
+    },
+    {
       "path": "mods/XeKr's Decoration-1.20.1-Forge-0.9.3.jar",
       "hashes": {
         "sha1": "6b279cc5a3b9dd8bb32714d5064da5d092a62026",
@@ -2974,21 +3019,6 @@
         "https://cdn.modrinth.com/data/laNoi025/versions/GE608lKF/screenshot_viewer-1.3.2-forge-mc1.20.1.jar"
       ],
       "fileSize": 113495
-    },
-    {
-      "path": "mods/2WorldEditCUI-1.20+01.jar",
-      "hashes": {
-        "sha1": "5f0676a7369999e7414e7b2ab4f90da1f51471d4",
-        "sha512": "72d5eb0bdb2fdb21b5a19a65208fc07f8e92c32976b614e5b293677e0801fdc42a01d10e82345f63fec5a89f21b016c077dd98ef94d7c56c7a83a9114cdf3630"
-      },
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/lOELapP1/versions/SRJCpmta/WorldEditCUI-1.20%2B01.jar"
-      ],
-      "fileSize": 168681
     },
     {
       "path": "mods/2chloride-FORGE-mc1.20.1-v1.7.2.jar",

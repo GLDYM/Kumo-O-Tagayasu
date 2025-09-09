@@ -28,6 +28,11 @@ useWeakPoisonOverLay = true
 powerBattleMode = "true"
 #After opening, you can right-click to harvest the crops of the module
 rightClickHarvest = true
+#After being turned off, when the Power Battle Mode is enabled, the prompt field will no longer be displayed in the game
+powerBattleModeHint = false
+#Set the probability of the sniffer beast mining Mod items
+#Range: 0.0 ~ 1.0
+mininProbability = 0.5
 
 [ReverseNormalEffect]
 	#Potion effects that can be reversed. Effect in this Map will be remove every tick. 

@@ -1,6 +1,4 @@
 # 绿色字为补充物品的额外用法
-<item:minecraft:command_block_minecart>.addTooltip("§a此工具已绑定创世神模组的传送功能,若要使用需开启作弊模式或者在多人游戏中有相应权限。");
-<item:minecraft:golden_axe>.addTooltip("§a此工具已绑定创世神模组的世界编辑功能,若要使用需开启作弊模式或者在多人游戏中有相应权限。");
 <item:minecraft:golden_sword>.addTooltip("§a此工具已绑定投影模组工具。");
 <item:chimes:bamboo_chimes>.addTooltip("§a站在风铃附近,风铃能为你驱散接近的幻翼!");
 <item:chimes:iron_chimes>.addTooltip("§a站在风铃附近,风铃能为你驱散接近的幻翼!");
