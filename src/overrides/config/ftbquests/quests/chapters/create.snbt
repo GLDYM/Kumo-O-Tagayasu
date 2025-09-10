@@ -12,9 +12,11 @@
 			description: [
 				"机械动力有着有史以来“最先进”的 游戏内教学系统，用生动流畅的实际场景说明模组内容，完全避免了说明书枯燥乏味和不够详细的问题。每个方块都有一个或多个专属的教学场景可供观看，保证玩家可以轻松掌握，十分贴心。"
 				""
-				"鼠标指针悬停在物品上，按[w]进行思索，就可以看到该物品的使用方法了。具体用法可以查阅&bhttps://www.mcmod.cn/class/2021.html&r。"
+				"鼠标指针悬停在物品上，按&a[W]&r进行思索，就可以看到该物品的使用方法了。具体用法可以查阅&bhttps://www.mcmod.cn/class/2021.html&r。"
 				""
 				"为了让玩家们快速入门机械动力，以下用&4方块标识&r的为最重要的主线，即速通精密构件。齿轮形任务则标致每个阶段的节点，他们也是主线任务。"
+				""
+				"本任务书仅涵盖 Create v5 的内容，不包括高级物流系统，请自己用思索学习。"
 			]
 			hide_dependent_lines: true
 			icon: "createdeco:decal_warning"
@@ -902,8 +904,8 @@
 				type: "item"
 			}]
 			title: "黄铜时代"
-			x: 9.0d
-			y: 14.0d
+			x: 8.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["3F3E0AFE8A2F054F"]
@@ -939,8 +941,8 @@
 				}
 			]
 			title: "这不是黄铜镐……等等，你是谁？"
-			x: 7.5d
-			y: 12.5d
+			x: 9.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["6348F503BE4D481D"]
@@ -1858,7 +1860,7 @@
 				}
 			]
 			x: 12.0d
-			y: 14.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["3FBE7415DA61DA8B"]
@@ -1869,7 +1871,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 16.5d
+			y: 18.5d
 		}
 		{
 			dependencies: [
@@ -1883,19 +1885,20 @@
 				item: "balancedflight:ascended_flight_ring"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 12.5d
+			x: 13.0d
+			y: 13.5d
 		}
 		{
-			dependencies: ["3FBE7415DA61DA8B"]
+			description: ["地位非常尴尬的矿物"]
 			id: "3C7033AA6D78E4C9"
+			shape: "square"
 			tasks: [{
 				id: "299BF90EA3F1D1CD"
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 12.5d
+			x: 11.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["77102693683E4D96"]
@@ -1909,7 +1912,7 @@
 				type: "item"
 			}]
 			title: "来点更硬的"
-			x: 12.0d
+			x: 13.5d
 			y: 3.5d
 		}
 		{
@@ -1920,7 +1923,7 @@
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.5d
 			y: 11.0d
 		}
 		{
@@ -1941,7 +1944,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 11.5d
 			y: 11.0d
 		}
 		{
@@ -1956,7 +1959,7 @@
 				item: "createutilities:void_steel_ingot"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 16.0d
 			y: 8.0d
 		}
 		{
@@ -1969,7 +1972,7 @@
 				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 16.0d
 			y: 3.5d
 		}
 		{
@@ -1980,7 +1983,7 @@
 				item: "createutilities:void_steel_sheet"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 16.0d
 			y: 11.0d
 		}
 		{
@@ -2056,8 +2059,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: 14.0d
+			x: 20.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["683C407813E1E26F"]
@@ -2068,7 +2071,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 18.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["2DEAB5024710248C"]
@@ -2079,7 +2082,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 20.5d
+			y: 21.5d
 		}
 		{
 			dependencies: ["4EEBEF0D4102892B"]
@@ -2293,47 +2296,83 @@
 		{
 			dependencies: ["690E79C0EBD77B76"]
 			description: [
+				"&6放置列车站与转向架"
+				""
 				"放置列车站之前需要对一个列车轨道右击以将其设置为目标。随后可以将列车站放在目标列车轨道附近的任意位置。"
 				""
-				"右击列车站以打开 GUI，然后点击 GUI 的“创建新列车”按钮，这时列车站会升起一面蓝色旗子。"
-				"被标记的列车轨道会出现蓝色的标记，此时使用列车机壳对标记右击即可创建一个转向架。在第一个转向架创建后，玩家能够在其后方创建更多转向架。"
+				"右击列车站以打开 GUI，然后点击“创建新列车”按钮，这时列车站会升起一面蓝色旗子。"
+				""
+				"列车站后方会有一个列车轨道出现蓝色标记，使用列车机壳对标记右击即可创建一个转向架。在第一个转向架创建后，玩家能够在其后方创建更多转向架。"
+				""
 				"玩家可以在转向架上搭建结构，并确保结构保持粘合并带有一个列车驾驶台。搭建完成后，可在 GUI 将方块结构组装为列车结构，所有转向架将会被连接。"
+				""
 				"列车站的目标轨道为弯道时，列车不能被创建。"
 				""
-				"玩家操控列车时，如前方的轨道存在列车站，能够长按空格键驶进站点。"
-				"玩家也可以使用列车时刻表让列车驶进列车站，但列车方向必须与列车站方向相同。"
-				"当站点的名称相同时，会被认为是同一个车站的不同站台，列车会选择空的站台停靠。"
+				"{@pagebreak}"
+				"&6创建列车"
+				""
+				"列车结构需要使用强力胶粘合，且必须有一个向前的列车驾驶台。"
+				""
+				"要使生物驾驶列车，必须将坐垫或烈焰人燃烧室放到列车驾驶台前。"
+				""
+				"可以在一个列车结构上安装两个列车驾驶台来使其能够双向驾驶。"
+				""
+				"{@pagebreak}"
+				"&6列车进站"
+				""
+				"玩家操控列车时，如前方的轨道存在列车站，能够长按空格键驶进站点。也可以使用列车时刻表让列车驶进列车站，但列车方向必须与列车站方向相同。"
+				""
+				"当列车站的名称相同时，会被认为是同一个车站的不同站台，列车会选择空的站台停靠。"
+				""
 				"在站点的 GUI 里，可以设置当列车靠站时开启哪一侧的车门。"
-				"列车驶进列车站后，会升起一面红色旗子。"
+				""
+				"列车驶进列车站后，列车站会升起一面红色旗子。"
 				""
 				"列车驶进列车站后，玩家可以点击 GUI 中的“拆解列车”来将列车拆解为方块状态。"
 				""
 				"{@pagebreak}"
-				"每个列车结构必须含有一个列车驾驶台。玩家需要在组装列车时将列车驾驶台粘合到结构上。"
-				"要使生物驾驶列车，必须将坐垫或烈焰人燃烧室放到列车驾驶台前。"
-				"可以在一个列车结构上安装两个列车驾驶台来使其能够双向驾驶。"
+				"&6操控列车"
 				""
 				"组装列车后，列车驾驶台会出现两个控制杆。玩家可以右击列车驾驶台来进入控制状态。"
+				""
 				"进入操控状态后，玩家的经验条会被替换为速度条。"
+				""
 				"此时玩家能够使用移动键（WASD）操控列车的移动，速度条显示着目前列车的速度。速度条分为 18 节，并分为五个阶段。"
+				""
 				"当列车转弯时，速度会被降低。"
+				""
 				"滑动滚轮可以调节速度的上限，速度上限以黄铜滑块的位置表示。"
+				""
 				"速度条上方的箭头代表着火车的前进方向在玩家视角中的方向。"
-				"如列车上装有汽笛时按 Ctrl 键可鸣笛。"
+				""
+				"如列车上装有汽笛，按 Ctrl 键可鸣笛。"
 				""
 				"{@pagebreak}"
-				"右击一个列车轨道，然后在其附近放置连挂器。如果轨道长度合适，那么连挂器会在轨道上生成两个钩位，其中一个在开始选择的轨道上，另一个在玩家视角所朝方向的轨道上。"
-				"钩位成对存在，它们的绿色标志朝向内侧，红色标志朝向外侧。并且钩位可以与其他列车元件共存，它的图标会在共存时往两侧移动。"
-				"手执扳手时，玩家可以在连挂器顶部配置两个钩位之间的距离，单位为米。钩位之间的距离默认为 5m，最短为 3m，最长为 15m。"
-				"同时，玩家可以手执扳手右击连挂器来更改其模式，模式可以观察它和钩位的纹理或佩戴 工程师护目镜 来确定。手持扳手时准心指向列车连挂器或其钩位时，两者及之间的连线会高亮显示。"
+				"&6连挂列车"
 				""
-				"进行作业前，先要将需要处理的列车停稳。首先，相邻车厢的相邻转向架都要在钩位正上方，可以使用列车站来辅助列车对齐，但列车不一定要停靠在列车站。"
+				"右击一个列车轨道，然后在其附近放置连挂器。如果轨道长度合适，那么连挂器会在轨道上生成两个钩位，其中一个在开始选择的轨道上，另一个在玩家视角所朝方向的轨道上。"
+				""
+				"钩位成对存在，它们的绿色标志朝向内侧，红色标志朝向外侧。并且钩位可以与其他列车元件共存，它的图标会在共存时往两侧移动。"
+				""
+				"手执扳手时，玩家可以在连挂器顶部配置两个钩位之间的距离，单位为米。钩位之间的距离默认为 5m，最短为 3m，最长为 15m。"
+				""
+				"同时，玩家可以手执扳手右击连挂器来更改其模式，模式可以观察它和钩位的纹理或佩戴 &e工程师护目镜&r 来确定。手持扳手时准心指向列车连挂器或其钩位时，两者及之间的连线会高亮显示。"
+				""
+				"{@pagebreak}"
+				"&6连挂列车2"
+				""
+				"进行连挂作业前，先要将需要处理的列车停稳。首先，相邻车厢的相邻转向架都要在钩位正上方，可以使用列车站来辅助列车对齐，但列车不一定要停靠在列车站。"
+				""
 				"列车对齐后，充能连挂器即可完成连挂或摘车作业（取决于其模式和车厢间的具体关系）。"
+				""
 				"两列车连挂后，位于后方的列车将转化为位于前方的列车的一部分，列车ID丢失，携带的列车时刻表将于其对应钩位处掉落，被分配的列车时刻表将被废弃。"
+				""
 				"若位于后方的列车靠近钩位的转向架在摘车时处于列车站标志后方一格（如连挂时使用列车站辅助对齐的情况），则位于后方的列车将自动视为停靠于该列车站。"
 				""
 				"在使用列车站创建新列车时，我们规定列车站所指的方向为列车的前方或正向。"
+				""
 				"摘车时，位于前方的列车名称不变，位于后方（与前方相对，即远离列车正向的一侧）的列车名称变为“Split off from: 原列车名”。"
+				""
 				"连挂时，会选择位于前方的列车的名称作为新列车的名称。"
 				""
 				"列车连挂器可以作为显示链接器的数据来源。"
@@ -2539,6 +2578,550 @@
 			title: "起始任务在左上角"
 			x: 3.5d
 			y: 12.5d
+		}
+		{
+			dependencies: ["77102693683E4D96"]
+			description: [
+				"在地下可以发现铀矿，这是核能的核心。"
+				""
+				"当然，你需要铅来防护辐射。"
+			]
+			id: "5CB0B0605C590A9B"
+			shape: "square"
+			tasks: [
+				{
+					id: "4D0215E8304CD877"
+					item: "createnuclear:raw_lead"
+					type: "item"
+				}
+				{
+					id: "4A75B7298DBFA9A4"
+					item: "createnuclear:raw_uranium"
+					type: "item"
+				}
+			]
+			title: "I‘m Nuclear！"
+			x: -11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5CB0B0605C590A9B"]
+			description: [
+				"反应堆控制器的思索已经说得非常清楚了，照着装就行了。"
+				""
+				"一个铀棒+25热量，一个碳棒-10热量，一对铀棒相邻+10热量，一对铀棒和碳棒相邻-5热量。"
+				""
+				"上限 1000 温度，过热后几分钟内爆炸。"
+				""
+				"摆放方式可以参考任务奖励给的控制蓝图。"
+				""
+				"&e[WARN]&a核电缺料只会停机；但是过热会炸。请放到远处并使用虚空箱子/马达输入输出。&r"
+			]
+			id: "2EBBA3538BD2B224"
+			rewards: [{
+				id: "59643F6A659EB76A"
+				item: {
+					Count: 1
+					id: "createnuclear:reactor_blueprint_item"
+					tag: {
+						countGraphiteRod: 9
+						countUraniumRod: 27
+						graphiteTime: 5000
+						pattern: {
+							Items: [
+								{
+									Count: 1b
+									Slot: 0
+									id: "createnuclear:graphite_rod"
+								}
+								{
+									Count: 1b
+									Slot: 2
+									id: "createnuclear:graphite_rod"
+								}
+								{
+									Count: 1b
+									Slot: 5
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 9
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 10
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 11
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 12
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 13
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 15
+									id: "createnuclear:graphite_rod"
+								}
+								{
+									Count: 1b
+									Slot: 17
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 18
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 19
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 20
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 21
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 23
+									id: "createnuclear:graphite_rod"
+								}
+								{
+									Count: 1b
+									Slot: 24
+									id: "createnuclear:graphite_rod"
+								}
+								{
+									Count: 1b
+									Slot: 26
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 27
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 28
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 29
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 30
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 32
+									id: "createnuclear:graphite_rod"
+								}
+								{
+									Count: 1b
+									Slot: 33
+									id: "createnuclear:graphite_rod"
+								}
+								{
+									Count: 1b
+									Slot: 35
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 36
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 37
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 38
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 39
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 41
+									id: "createnuclear:graphite_rod"
+								}
+								{
+									Count: 1b
+									Slot: 43
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 44
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 45
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 46
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 47
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 51
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 55
+									id: "createnuclear:graphite_rod"
+								}
+							]
+							Size: 57
+						}
+						patternAll: {
+							Items: [
+								{
+									Count: 1b
+									Slot: 0
+									id: "createnuclear:graphite_rod"
+								}
+								{
+									Count: 1b
+									Slot: 1
+									id: "minecraft:glass_pane"
+								}
+								{
+									Count: 1b
+									Slot: 2
+									id: "createnuclear:graphite_rod"
+								}
+								{
+									Count: 1b
+									Slot: 3
+									id: "minecraft:glass_pane"
+								}
+								{
+									Count: 1b
+									Slot: 4
+									id: "minecraft:glass_pane"
+								}
+								{
+									Count: 1b
+									Slot: 5
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 6
+									id: "minecraft:glass_pane"
+								}
+								{
+									Count: 1b
+									Slot: 7
+									id: "minecraft:glass_pane"
+								}
+								{
+									Count: 1b
+									Slot: 8
+									id: "minecraft:glass_pane"
+								}
+								{
+									Count: 1b
+									Slot: 9
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 10
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 11
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 12
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 13
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 14
+									id: "minecraft:glass_pane"
+								}
+								{
+									Count: 1b
+									Slot: 15
+									id: "createnuclear:graphite_rod"
+								}
+								{
+									Count: 1b
+									Slot: 16
+									id: "minecraft:glass_pane"
+								}
+								{
+									Count: 1b
+									Slot: 17
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 18
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 19
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 20
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 21
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 22
+									id: "minecraft:glass_pane"
+								}
+								{
+									Count: 1b
+									Slot: 23
+									id: "createnuclear:graphite_rod"
+								}
+								{
+									Count: 1b
+									Slot: 24
+									id: "createnuclear:graphite_rod"
+								}
+								{
+									Count: 1b
+									Slot: 25
+									id: "minecraft:glass_pane"
+								}
+								{
+									Count: 1b
+									Slot: 26
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 27
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 28
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 29
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 30
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 31
+									id: "minecraft:glass_pane"
+								}
+								{
+									Count: 1b
+									Slot: 32
+									id: "createnuclear:graphite_rod"
+								}
+								{
+									Count: 1b
+									Slot: 33
+									id: "createnuclear:graphite_rod"
+								}
+								{
+									Count: 1b
+									Slot: 34
+									id: "minecraft:glass_pane"
+								}
+								{
+									Count: 1b
+									Slot: 35
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 36
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 37
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 38
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 39
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 40
+									id: "minecraft:glass_pane"
+								}
+								{
+									Count: 1b
+									Slot: 41
+									id: "createnuclear:graphite_rod"
+								}
+								{
+									Count: 1b
+									Slot: 42
+									id: "minecraft:glass_pane"
+								}
+								{
+									Count: 1b
+									Slot: 43
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 44
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 45
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 46
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 47
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 48
+									id: "minecraft:glass_pane"
+								}
+								{
+									Count: 1b
+									Slot: 49
+									id: "minecraft:glass_pane"
+								}
+								{
+									Count: 1b
+									Slot: 50
+									id: "minecraft:glass_pane"
+								}
+								{
+									Count: 1b
+									Slot: 51
+									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 52
+									id: "minecraft:glass_pane"
+								}
+								{
+									Count: 1b
+									Slot: 53
+									id: "minecraft:glass_pane"
+								}
+								{
+									Count: 1b
+									Slot: 54
+									id: "minecraft:glass_pane"
+								}
+								{
+									Count: 1b
+									Slot: 55
+									id: "createnuclear:graphite_rod"
+								}
+								{
+									Count: 1b
+									Slot: 56
+									id: "minecraft:glass_pane"
+								}
+							]
+							Size: 57
+						}
+						uraniumTime: 3600
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5E4CBA2EB3BBE20C"
+					item: "createnuclear:reactor_controller"
+					type: "item"
+				}
+				{
+					id: "678E5D0DD29330A2"
+					item: "createnuclear:reactor_blueprint_item"
+					type: "item"
+				}
+			]
+			title: "核电，轻而易举啊！"
+			x: -11.5d
+			y: 8.0d
 		}
 	]
 	title: "&e新手机械师"

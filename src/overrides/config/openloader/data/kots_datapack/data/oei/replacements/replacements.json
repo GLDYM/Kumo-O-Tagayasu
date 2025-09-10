@@ -175,5 +175,13 @@
   {
     "matchItems": ["farm_and_charm:yeast"],
     "resultItems": "sakura:yeast"
+  },
+  {
+    "matchItems": ["create_high_pressure:graphite_powder"],
+    "resultItems": "createnuclear:coal_dust"
+  },
+  {
+    "matchItems": ["create_high_pressure:graphite_compressed"],
+    "resultItems": "createnuclear:graphene"
   }
 ]
