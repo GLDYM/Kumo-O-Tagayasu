@@ -126,19 +126,19 @@
       "fileSize": 127773
     },
     {
-      "path": "mods/1Krypton-FNP-forge-1.20.1-0.2.20-lite.jar",
+      "path": "mods/1Krypton FNP-forge-1.20.1-0.2.23.1-lite.jar",
       "hashes": {
-        "sha512": "f019c6583ce71de1b3d278476f51cb6ae7bb253ed055c240311c1a1c1562f8f95c08f66c7cda746fb1d909866634e39271ef03eae4d2a679e0a997f8b3285311",
-        "sha1": "ce5101a8371cfeadc392fb3231e3e8cb331856b8"
+        "sha1": "945163e40fb8a4c6ec1e2c635f5f0a9b74849736",
+        "sha512": "e53dbaff9d93554d1cfe15f04b311839d56460c426f123524ad769787d20f3eed5427151be236c94b0beee4207badb4d3d3266a351646e5afe06160bcf32d39a"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/JkxWVYwU/versions/kPodu6lT/Krypton%20FNP-forge-1.20.1-0.2.20-lite.jar"
+        "https://cdn.modrinth.com/data/JkxWVYwU/versions/LET8NtSp/Krypton%20FNP-forge-1.20.1-0.2.23.1-lite.jar"
       ],
-      "fileSize": 1365466
+      "fileSize": 1368086
     },
     {
       "path": "mods/3yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
@@ -456,19 +456,19 @@
       "fileSize": 1298659
     },
     {
-      "path": "mods/moonlight-1.20-2.16.8-forge.jar",
+      "path": "mods/moonlight-1.20-2.16.10-forge.jar",
       "hashes": {
-        "sha1": "3cde645d204a3cc5e1550b839e2954ee5b70d454",
-        "sha512": "b4cbaddad5ca2b917086a59e2c6d6b7c03cba3d57bf792178c9c5d1dfa27dcd95141ca66a414ce9d68b0ae66c43707dbcd5031a2871200bb58e5899640ecf347"
+        "sha1": "08b395bc0548556e8731418cdd0d5a754fa7cbae",
+        "sha512": "e473516a33484c5f3c700748c53f56f663557a125ba592bb7eeb25eb963944667738b2dadf8e3708f1795b89ccace97d2e33ef38f28094a19cc4fd6e4d1e817f"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/twkfQtEc/versions/sWagczEr/moonlight-1.20-2.16.8-forge.jar"
+        "https://cdn.modrinth.com/data/twkfQtEc/versions/76Ai9UYo/moonlight-1.20-2.16.10-forge.jar"
       ],
-      "fileSize": 1332010
+      "fileSize": 1332304
     },
     {
       "path": "mods/carryon-forge-1.20.1-2.1.2.7.jar",
@@ -1371,19 +1371,19 @@
       "fileSize": 146211
     },
     {
-      "path": "mods/immersive_furniture-forge-0.0.9+1.20.1.jar",
+      "path": "mods/immersive_furniture-forge-0.1.0+1.20.1.jar",
       "hashes": {
-        "sha512": "3f84d79b40fea3c38fe4eb7700264b8f8eccf6adbb38ff1285a1cbcc3c1f253d10494af1ef22ed61aac44e4b5b598079032a757f35b74b87cf5295378c4a8703",
-        "sha1": "6f1f460972f5565c40e9cfd24f1052cde25f9274"
+        "sha512": "d4937be1fbc5af43af08269e46a64be011f2a83fc4643c78b50e03c39406f2505399e1cd17909df49ef3391361f2260eedfa044774bab23a87e3965893cb7b5a",
+        "sha1": "f76b6235d189acf56cb4b595f3540ef0d660b2a2"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/SvN6UGeF/versions/3C5JmWYf/immersive_furniture-forge-0.0.9%2B1.20.1.jar"
+        "https://cdn.modrinth.com/data/SvN6UGeF/versions/zkE5E28G/immersive_furniture-forge-0.1.0%2B1.20.1.jar"
       ],
-      "fileSize": 867366
+      "fileSize": 897712
     },
     {
       "path": "mods/Xaeros_Minimap_25.2.10_Forge_1.20.jar",
@@ -1791,19 +1791,19 @@
       "fileSize": 1988341
     },
     {
-      "path": "mods/Delightful-1.20.1-3.7.4.jar",
+      "path": "mods/Delightful-1.20.1-3.7.6.jar",
       "hashes": {
-        "sha512": "e820e941bc6012384fd2b73c9f28126b52b61957a961e397fc65232440b5b3d0fa10b9bff27491a7398c13761ff4301ea084602669f38c4e1123fd2d598fd999",
-        "sha1": "23f19e9d413ccb730a5aa86075c1819d21f6ddef"
+        "sha512": "036c9a2133ab4195f0ed3a5a16d1d5c4a76e543cfba4b6d4b3e3c7efda9b46f75c42de90351aa7d03a7f50d58c58579cc0ae808cc471291df0d976acb2855ff9",
+        "sha1": "e474f9de02552d2361f15e1422316950b1172bf8"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/JtSnhtNJ/versions/UPHQzLuK/Delightful-1.20.1-3.7.4.jar"
+        "https://cdn.modrinth.com/data/JtSnhtNJ/versions/VeYJRbNt/Delightful-1.20.1-3.7.6.jar"
       ],
-      "fileSize": 1432463
+      "fileSize": 1514819
     },
     {
       "path": "mods/TaxFreeLevels-1.4.8-forge-1.20.1.jar",
@@ -1941,19 +1941,19 @@
       "fileSize": 715706
     },
     {
-      "path": "mods/voicechat-forge-1.20.1-2.6.2.jar",
+      "path": "mods/voicechat-forge-1.20.1-2.6.3.jar",
       "hashes": {
-        "sha1": "496cccd14f1ce842f28094f3a3d5b60d04a30202",
-        "sha512": "ee481e90ae8822546f1b79f975336eb65438f4d2bc18d6d29f5a759d17380480b610ef1f7786ba563451a08a3b8e3fb206dd619e5db72eab937b93254111ca04"
+        "sha512": "97bdb378be4d379ad66c73c2fadd6758408d90caaf05285e43608718c4b087157a9c9a477a15b46946dae3d30c96a2e286990e130e5eb4cf8a83a2daf4f97800",
+        "sha1": "0a4b9fc6c504ed0c0d02db1d2704e34411d0c827"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/9eGKb6K1/versions/1xDXtC4P/voicechat-forge-1.20.1-2.6.2.jar"
+        "https://cdn.modrinth.com/data/9eGKb6K1/versions/w1kGy1iJ/voicechat-forge-1.20.1-2.6.3.jar"
       ],
-      "fileSize": 4881056
+      "fileSize": 4888336
     },
     {
       "path": "mods/cagedmobs-1.20.1-forge-2.0.5.jar",
@@ -2106,19 +2106,19 @@
       "fileSize": 783106
     },
     {
-      "path": "mods/the_bumblezone-7.8.3+1.20.1-forge.jar",
+      "path": "mods/the_bumblezone-7.9.0+1.20.1-forge.jar",
       "hashes": {
-        "sha1": "16d8d0be268d9f32aa12f6510b15f714729a2831",
-        "sha512": "eb05bb0c827c6763b2ad9a4871f2bfbe3b5ffda198001ff491b8d84f459baf2c18f5188b95bb810f7c03c15403e294a777154e06c089fc0265ce4a1d282db1ca"
+        "sha512": "7a875e2857a06d7de026969ee1c18e36ea0cecf2512860deb4097b6057f77242e627451d3e7452211404ede8628a1b94430b514a2e3ba663068c4b52b9b6f10a",
+        "sha1": "2bec24ab2fb79320ca075eca361a2a1a94dd645b"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/38tpSycf/versions/aGlAIlzO/the_bumblezone-7.8.3%2B1.20.1-forge.jar"
+        "https://cdn.modrinth.com/data/38tpSycf/versions/lqRzI2z9/the_bumblezone-7.9.0%2B1.20.1-forge.jar"
       ],
-      "fileSize": 69076815
+      "fileSize": 69103459
     },
     {
       "path": "mods/autumnity-1.20.1-5.0.2.jar",
@@ -2286,19 +2286,19 @@
       "fileSize": 20245
     },
     {
-      "path": "mods/touhoulittlemaid-1.3.8-forge+mc1.20.1.jar",
+      "path": "mods/touhoulittlemaid-1.4.0-forge+mc1.20.1.jar",
       "hashes": {
-        "sha1": "f001049034ba645988a8f8ff3c127995ddd95e0d",
-        "sha512": "d27468c5888a38dc473f40bd50bf28654eb41432fb5852925a933a9cf7305cee37b0bb731dfb7884ac086da58d574499f04b94c627cc3e8167885d4c87f5580a"
+        "sha512": "42d274d47191ab0ed3605cd042bd9dafa2f90effda7487b7d5ca8ddc5a46270fa1f8bd0e67554b787336b53386197844c329dc34a139d00bdf4c9a50ebe278d0",
+        "sha1": "bcce084a900307d9255f1cbed0eedc7cc1224ad7"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/R0bDWFAW/versions/kkdKN8dZ/touhoulittlemaid-1.3.8-forge%2Bmc1.20.1.jar"
+        "https://cdn.modrinth.com/data/R0bDWFAW/versions/Ji0Bz3hv/touhoulittlemaid-1.4.0-forge%2Bmc1.20.1.jar"
       ],
-      "fileSize": 20780718
+      "fileSize": 20883938
     },
     {
       "path": "mods/3architectury-9.2.14-forge.jar",
@@ -2391,19 +2391,19 @@
       "fileSize": 245317
     },
     {
-      "path": "mods/TofuCraftReload-1.20.1-5.18.0.0.jar",
+      "path": "mods/TofuCraftReload-1.20.1-5.18.1.0.jar",
       "hashes": {
-        "sha1": "21aa177451d837e315a7b96c22a25b519e7ba41f",
-        "sha512": "b46cc2e810489a20a768860f87f948bed16669891995408a668aa3e0f15e575f06fe2792504c242d0a83d54b0af5be3b4cdeeeaa8210965dac0b08cf53cd3675"
+        "sha512": "d3cc671cbd9d0d03a34af472803d1545d5070421fd36f7ef0bc9a48485e30a6ec17a52ca7fcb76a47a24945e7edc3896dd3b3b13564e4e57fb7650c01922a098",
+        "sha1": "8504617d32ede03e678629428e85e6c3c3aac5bc"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/69rMY8bC/versions/QYkiJrtR/TofuCraftReload-1.20.1-5.18.0.0.jar"
+        "https://cdn.modrinth.com/data/69rMY8bC/versions/uiLH07YU/TofuCraftReload-1.20.1-5.18.1.0.jar"
       ],
-      "fileSize": 10481054
+      "fileSize": 10473997
     },
     {
       "path": "mods/smsn-forge-1.2.10-1.20.1.jar",
@@ -2481,19 +2481,19 @@
       "fileSize": 2425050
     },
     {
-      "path": "mods/supplementaries-1.20-3.1.37.jar",
+      "path": "mods/supplementaries-1.20-3.1.38.jar",
       "hashes": {
-        "sha512": "664eded3f25c1264004e98979afe1817e750ff8d33d549b3303d126cbe64a1e269de6486abf03c2ccbc8890bada483ab63d0bc3b7f2462b8567236c16a7e5f97",
-        "sha1": "b5c6518b97c4ce0c70a2065090ba91e6d3b6115b"
+        "sha512": "5fce9d9fb2fd6f8ca60d0c0c4d74095ac444c2f11ada706ec7c621e6ea15e4d98a5c6ee3fc2c19270cac625e70dc16cc0a6debdf706a061ad747c81bd1e6c6a4",
+        "sha1": "8f5f4a68c1f4a13d95773afcc9b4ef4f76ef7078"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/fFEIiSDQ/versions/FIy84Umq/supplementaries-1.20-3.1.37.jar"
+        "https://cdn.modrinth.com/data/fFEIiSDQ/versions/vKSIoh22/supplementaries-1.20-3.1.38.jar"
       ],
-      "fileSize": 13647512
+      "fileSize": 13649529
     },
     {
       "path": "mods/curios-forge-5.14.1+1.20.1.jar",
@@ -2526,19 +2526,19 @@
       "fileSize": 244993
     },
     {
-      "path": "mods/create_central_kitchen-1.20.1-for-create-6.0.4-1.4.2.jar",
+      "path": "mods/create_central_kitchen-1.20.1-for-create-6.0.6-1.4.3b.jar",
       "hashes": {
-        "sha512": "010496807f841f25153ddd256fc97961bde1629dd3d2fb1cd34d6fc19256adb7603005971531dff1a5ee40a80997e41015072c5fb8d5cba93fa3c67918f18287",
-        "sha1": "2679fc041460feaa64e63624fa9b5525a2e88b61"
+        "sha1": "4e1048ce2b5453d657b42ea5dcec5ada1842b0ea",
+        "sha512": "0578fdcfc9e8f5f3717e2dab468fadca35480e6a2c6a701b43004c57ea1ff0d979c790148d68b6c9233c4c697e9e972d82e7ffd22d11db514b69d23b06f80bbc"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/btq68HMO/versions/a7KJ52d9/create_central_kitchen-1.20.1-for-create-6.0.4-1.4.2.jar"
+        "https://cdn.modrinth.com/data/btq68HMO/versions/b6J7xYnJ/create_central_kitchen-1.20.1-for-create-6.0.6-1.4.3b.jar"
       ],
-      "fileSize": 821087
+      "fileSize": 822499
     },
     {
       "path": "mods/exposure-1.20.1-1.7.16-forge.jar",
