@@ -42,11 +42,11 @@ jobs:
           cd src
           cd client-overrides/BiliBiliMediaFiles
 
-          wget https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-n8.0-latest-win64-gpl-shared-8.0.zip
-          unzip ffmpeg-n8.0-latest-win64-gpl-shared-8.0.zip
-          mv ffmpeg-n8.0-latest-win64-gpl-shared-8.0/bin/ffmpeg.exe .
-          rm -f ffmpeg-n8.0-latest-win64-gpl-shared-8.0.zip
-          rm -rf ffmpeg-n8.0-latest-win64-gpl-shared-8.0
+          wget https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-n8.0-latest-win64-lgpl-8.0.zip
+          unzip ffmpeg-n8.0-latest-win64-lgpl-8.0.zip
+          mv ffmpeg-n8.0-latest-win64-lgpl-8.0/bin/ffmpeg.exe .
+          rm -f ffmpeg-n8.0-latest-win64-lgpl-8.0.zip
+          rm -rf ffmpeg-n8.0-latest-win64-lgpl-8.0
 
           cd ../../
           zip -r "../KumoOTagayasu-build.mrpack" ./*
