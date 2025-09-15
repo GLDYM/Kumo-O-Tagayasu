@@ -2391,19 +2391,19 @@
       "fileSize": 245317
     },
     {
-      "path": "mods/TofuCraftReload-1.20.1-5.18.1.0.jar",
+      "path": "mods/TofuCraftReload-1.20.1-5.18.1.2.jar",
       "hashes": {
-        "sha512": "d3cc671cbd9d0d03a34af472803d1545d5070421fd36f7ef0bc9a48485e30a6ec17a52ca7fcb76a47a24945e7edc3896dd3b3b13564e4e57fb7650c01922a098",
-        "sha1": "8504617d32ede03e678629428e85e6c3c3aac5bc"
+        "sha512": "c6e804f1be87dcd43103e5debf56ca9d3651de736b1acc4f360c4d87faa1c51d075a4298fd46626e0aad8856eb44b78e6b8c8b6b6e74336da7089d2fee63b95c",
+        "sha1": "831b2dfbb722f338d2711e93736adc263ce17df2"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/69rMY8bC/versions/uiLH07YU/TofuCraftReload-1.20.1-5.18.1.0.jar"
+        "https://cdn.modrinth.com/data/69rMY8bC/versions/8h7ha2HA/TofuCraftReload-1.20.1-5.18.1.2.jar"
       ],
-      "fileSize": 10473997
+      "fileSize": 10472181
     },
     {
       "path": "mods/smsn-forge-1.2.10-1.20.1.jar",
@@ -3036,19 +3036,19 @@
       "fileSize": 944500
     },
     {
-      "path": "mods/2ShoulderSurfing-Forge-1.20.1-4.14.1.jar",
+      "path": "mods/2ShoulderSurfing-Forge-1.20.1-4.14.3.jar",
       "hashes": {
-        "sha1": "3be69368c76601df4936f71df335686b232fe3aa",
-        "sha512": "7361c88c9ac487c13cf4e21f6fbc4afcfec5c2eb638d8322d4a1d966b3c53fa6093f7c1c9c9df47192026eca135e5635549bd4b9898d0bc3e2818ac4434c7df8"
+        "sha512": "a1eb9f397b459acdf8216f46c1b3605d501ad43923b8a48a0db4eb5ed992fa55fd582d199b2fe570299c29548fbb6ff0a90a4d0a74a45f6a0013ecc29d97bfe3",
+        "sha1": "d339a53fe242d8befc7af48cab26ea71c9cb18b9"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/kepjj2sy/versions/uNEGD88l/ShoulderSurfing-Forge-1.20.1-4.14.1.jar"
+        "https://cdn.modrinth.com/data/kepjj2sy/versions/J38UPdFA/ShoulderSurfing-Forge-1.20.1-4.14.3.jar"
       ],
-      "fileSize": 241482
+      "fileSize": 242896
     },
     {
       "path": "mods/2ProPlacer-v8.0.3-1.20.1-Forge.jar",
@@ -3366,19 +3366,19 @@
       "fileSize": 2851119
     },
     {
-      "path": "mods/2clientsort-forge-2.0.0-beta.15+1.20.1.jar",
+      "path": "mods/2clientsort-forge-2.0.0-beta.19+1.20.1.jar",
       "hashes": {
-        "sha512": "d1b8ad86a5d700f46078b7769c3e1818a7e2a811a68148aed64e3dd1739dd969bc2be1b27fff29076f4656a900bbfaa57ff11a9d81d261a4ef6ad4dcec18fffc",
-        "sha1": "62c6e30435cf0e700ffd0a0ae8abf22ffaf91b96"
+        "sha512": "ecc035adcf16f76a4320e61cc3278a2348607a27790802bc18b4718632581bad278a920901c7a7e7c2e0cdd839bcfe80c5d371575e398d6a35e35d39948cabcb",
+        "sha1": "1611359f6169d41c927479eb5ea0c1e3266e82fe"
       },
       "env": {
-        "server": "unsupported",
-        "client": "required"
+        "client": "required",
+        "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/K0AkAin6/versions/DhJAsYMT/clientsort-forge-2.0.0-beta.15%2B1.20.1.jar"
+        "https://cdn.modrinth.com/data/K0AkAin6/versions/2WEhu9eZ/clientsort-forge-2.0.0-beta.19%2B1.20.1.jar"
       ],
-      "fileSize": 463405
+      "fileSize": 467171
     },
     {
       "path": "mods/5world_preview-forge-1.20.1-1.3.1.jar.disabled",
