@@ -1,11 +1,10 @@
 {
   "type": "tofucraft:tofu_pot_shapeless",
+  "category": "meal",
   "cook_time": 300,
   "exp": 0.5,
   "fluid": {
-    "amount": 250,
-    "fluid": "tofucreate:soyoil",
-    "nbt": {}
+    "fluid": "tofucreate:soyoil"
   },
   "ingredients": [
     {
