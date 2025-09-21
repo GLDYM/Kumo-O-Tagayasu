@@ -2661,6 +2661,21 @@
       "fileSize": 13305007
     },
     {
+      "path": "mods/2create_cyber_goggles-1.20.1-6.2.0+Forge.jar",
+      "hashes": {
+        "sha512": "18fea63b2f6d75fc1edf1deede9105303c89b4cd6d51c1c5f02196081b88449b2953b25b38374604aef88f37fdd6c27c0e2ab4a49146ceb1badcc94ccd4a9c8e",
+        "sha1": "0d9434650d3d718d7c6c04c2eaf582f3a899b939"
+      },
+      "env": {
+        "server": "unsupported",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/TlQAWQCY/versions/gEVnIWSV/create_cyber_goggles-1.20.1-6.2.0%2BForge.jar"
+      ],
+      "fileSize": 128563
+    },
+    {
       "path": "mods/2createbetterfps-1.20.1-1.1.1.jar",
       "hashes": {
         "sha1": "519f436f67c316db546cbab54a03fdbfd17fe9f1",

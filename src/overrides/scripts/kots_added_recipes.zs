@@ -57,7 +57,7 @@ craftingTable.addShapeless("simpleredsandstone", <item:minecraft:red_sandstone>,
 craftingTable.addShapeless("simplearidsandstone", <item:atmospheric:arid_sandstone>, [<item:atmospheric:arid_sand>]);
 craftingTable.addShapeless("simplearidredsandstone", <item:atmospheric:red_arid_sandstone>, [<item:atmospheric:red_arid_sand>]);
 craftingTable.addShapeless("simplepinksandstone", <item:natures_spirit:pink_sandstone>, [<item:natures_spirit:pink_sand>]);
-craftingTable.addShapeless("simpletuff", <item:minecraft:tuff> * 2, [<item:minecraft:cobblestone> * 2, <item:supplementaries:ash>]);
+craftingTable.addShapeless("simpletuff", <item:minecraft:tuff> * 3, [<item:minecraft:cobblestone>, <item:minecraft:cobblestone>, <item:supplementaries:ash>]);
 craftingTable.addShapeless("simplecalcite", <item:minecraft:calcite>, [<item:minecraft:cobblestone>, <item:minecraft:bone_meal>]);
 blastFurnace.addRecipe("plankstoash", <item:supplementaries:ash>, <tag:items:minecraft:planks>, 0.1, 150);
 
