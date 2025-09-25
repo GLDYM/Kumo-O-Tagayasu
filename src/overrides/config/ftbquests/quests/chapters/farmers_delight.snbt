@@ -5,7 +5,7 @@
 	group: "3B8AF43E1258A852"
 	icon: "farmersdelight:rice_panicle"
 	id: "0E15DEDCD6B01133"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

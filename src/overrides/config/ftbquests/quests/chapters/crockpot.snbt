@@ -5,7 +5,7 @@
 	group: "3B8AF43E1258A852"
 	icon: "crockpot:portable_crock_pot"
 	id: "40D58EF72F6F6640"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{

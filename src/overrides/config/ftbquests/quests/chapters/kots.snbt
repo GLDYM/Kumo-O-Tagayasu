@@ -167,6 +167,12 @@
 				"你可以按下&a[F9]&r来快速查看并调整某个键位对应的功能。"
 				""
 				"投影的&a[M]&r键均替换为了&a[,]&r键。"
+				""
+				"水仙辞的&2/home&r判定比较奇怪。"
+				""
+				"对于默认传送点 (&2/sethome home true&r)，使用&2/home&r会尝试传送到当前维度的默认传送点；如果没有但是所有维度总共只有一个会跨维度传送到唯一的默认传送点。使用&2/home <name>&r则会直接跨维度传送。"
+				""
+				"对于私人传送点 (&2/sethome home)，使用&2/home <name>&r只能传动到本维度的该名传送点，没有则不传送。如果需要传送到其他维度的传送点，需要指定维度 &2/home <name> true minecraft:overworld&r。"
 			]
 			icon: "createdeco:decal_up"
 			id: "78A51FD4EF36DBB8"
@@ -181,7 +187,7 @@
 				title: "&4你真的读完了吗？"
 				type: "checkmark"
 			}]
-			title: "关于键位"
+			title: "关于键位\\&传送"
 			x: 3.0d
 			y: 4.0d
 		}

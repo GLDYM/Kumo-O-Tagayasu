@@ -1,0 +1,368 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic"
+	group: "3B8AF43E1258A852"
+	icon: "minecraft:iron_ingot"
+	id: "3625241A3B4A35B2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&b本章节是开局的指引，如果你不知道从何开始，可以看这个章节。"
+				""
+				"木头是一切的开始。"
+			]
+			icon: "minecraft:oak_log"
+			id: "0F9F45DE64B677A6"
+			rewards: [{
+				count: 8
+				id: "47D1576818D9ED3A"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "本章作者：PL"
+			tasks: [
+				{
+					id: "6A6551CD983949C0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DC78ED9939122C6"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+			]
+			title: "&6百里之行，始于撸树"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F9F45DE64B677A6"]
+			description: ["仅有木头不够，还需要圆石。"]
+			id: "33DB285ED6B08126"
+			rewards: [{
+				count: 8
+				id: "026BD53467A63881"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "190D355FBD4C1B0F"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73F878BA35874A00"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "以木击石！"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33DB285ED6B08126"]
+			description: [
+				"有了圆石，就有了熔炉。你试图用熔炉炼铁，却发现没法熔炼。"
+				""
+				"你对着粗铁按下 &a[U]&r 来查阅如何炼铁，发现需要高炉；接着你对着高炉按下了 &a[R]&r，查阅如何制作高炉。"
+				""
+				"看起来很复杂，但是似乎在你的能力范围之内。"
+			]
+			id: "4A660D4A809BBDF7"
+			rewards: [{
+				id: "4793536A64F886ED"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "666F9CB03868C8A9"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A660D4A809BBDF7"]
+			description: ["你将圆石放入熔炉中，将其烧成石头。"]
+			id: "390E4DD20BF1AD8D"
+			rewards: [
+				{
+					count: 8
+					id: "4BCE18432A854C45"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					id: "5BCA2DE2163D2EF4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "65A8253F3DB8FA81"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["390E4DD20BF1AD8D"]
+			description: [
+				"接着把石头做成台阶，与木头结合做出了砂轮。"
+				""
+				"手持一些物品右键砂轮可以研磨之，而深板岩圆石恰好可以被研磨。"
+			]
+			id: "72341513BC05C878"
+			rewards: [{
+				id: "65C9C98E25581CBC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4067CAA3F4A38C94"
+				item: "minecraft:grindstone"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A660D4A809BBDF7"]
+			description: ["你将挖到的粗铜放入熔炉中烧炼，得到了铜锭。"]
+			id: "1ED5BFC39047A3AD"
+			rewards: [
+				{
+					count: 4
+					id: "5F90818F20F46254"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "774E2CBC4C342A9D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "369244F1C339FE80"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A660D4A809BBDF7"]
+			description: ["你到地底深处，采掘了一些深板岩圆石。"]
+			id: "7502CA489A883F24"
+			rewards: [{
+				id: "3A3C94ED20014B4E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4AFD9029856915F9"
+				item: "minecraft:cobbled_deepslate"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7502CA489A883F24"
+				"72341513BC05C878"
+			]
+			description: ["你手持深板岩圆石，尝试右键砂轮，手上的深板岩圆石变成了磨制深板岩。这正是你所需要的。"]
+			id: "6320757693F49654"
+			rewards: [
+				{
+					count: 8
+					id: "72C6A4A3BE47F0AD"
+					item: "minecraft:polished_deepslate"
+					type: "item"
+				}
+				{
+					id: "53F335015AD22173"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4D8FB6ED7DBB6670"
+				item: "minecraft:polished_deepslate"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2E4D835BC370CF50"
+				"6320757693F49654"
+			]
+			description: ["终于材料集齐，你做出高炉。"]
+			id: "3D906A38EAD49337"
+			rewards: [
+				{
+					count: 32
+					id: "3DBA710551B96D87"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "115FE992EAE8FB5A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "41FDAF5A75812EB4"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1ED5BFC39047A3AD"]
+			description: ["接着挖更多的粗铜，烧更多的铜锭，合成铜块。"]
+			id: "2E4D835BC370CF50"
+			rewards: [
+				{
+					count: 4
+					id: "5D91E7F915A2F614"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "0AC7561C87A029A5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "36136B60B30E12AA"
+				item: "minecraft:copper_block"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["18DA748878B10026"]
+			description: [
+				"但是你对此并不满足。高炉的制作实在过于繁琐，并不适合铁锭的大量获取。"
+				""
+				"在一些遗迹与村庄中，你找到了一些神秘的机械。"
+				""
+				"你将它们拆下，试图从中回收铁锭；触摸这些神秘机械，你突然感觉有知识进入了你的脑海中。"
+				""
+				"这似乎是一门古老而强大的技术。你按下了 &a[W]&r，开始沉思，试图消化这些知识……"
+			]
+			icon: "create:encased_fan"
+			id: "3A43FE0C1D824661"
+			rewards: [
+				{
+					id: "7808BD1E8B92B784"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "1AF450E861F340FF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "51F8A94EDF8D2AB4"
+					item: "create:hand_crank"
+					type: "item"
+				}
+				{
+					id: "36E68758848ABC85"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "52F5F7DD60CEFCB2"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					id: "0353113FA08D6B12"
+					item: "create:encased_fan"
+					type: "item"
+				}
+			]
+			title: "大量熔炼"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D906A38EAD49337"]
+			description: ["将粗铁放入高炉，你得到了第一块铁锭。"]
+			id: "18DA748878B10026"
+			rewards: [
+				{
+					count: 2
+					id: "132A60179BF3BE47"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "451495B000274BD6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "51663CC6A3C5E09C"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+	]
+	title: "&e百里之行始"
+}
