@@ -96,19 +96,19 @@
       "fileSize": 612451
     },
     {
-      "path": "mods/touhou_little_maid_spell-1.20-1.5.1.jar",
+      "path": "mods/touhou_little_maid_spell-1.20-1.5.2.jar",
       "hashes": {
-        "sha512": "3fee3044ffd9ceefb51f9f8bffa5bb21f634b88c4b51dce9a3bf6865405f3783479d5eefa8123884ee46af19e6f28478da4c550a7e8dec7f0255807c1f730626",
-        "sha1": "ab6c4ef9bb275d2c29477a5a4e5e2efb8033da4b"
+        "sha1": "1d76c00d3f2ea31d437a740185d453fce45caf69",
+        "sha512": "65f12bdf89d76afa57ed990ce670f8ffcc62dbddf0c95786fc033cab3a21174d9e76b8613a1659177f5708d9573b06480b538710a94b14e04c55210a5fd2bc4f"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/QHB4kBBS/versions/pj2LND8H/touhou_little_maid_spell-1.20-1.5.1.jar"
+        "https://cdn.modrinth.com/data/QHB4kBBS/versions/2cIEmret/touhou_little_maid_spell-1.20-1.5.2.jar"
       ],
-      "fileSize": 401727
+      "fileSize": 410039
     },
     {
       "path": "mods/createmoredrillheads-2.1.0-1.20.1.jar",
@@ -456,19 +456,19 @@
       "fileSize": 1298659
     },
     {
-      "path": "mods/moonlight-1.20-2.16.10-forge.jar",
+      "path": "mods/moonlight-1.20-2.16.13-forge.jar",
       "hashes": {
-        "sha1": "08b395bc0548556e8731418cdd0d5a754fa7cbae",
-        "sha512": "e473516a33484c5f3c700748c53f56f663557a125ba592bb7eeb25eb963944667738b2dadf8e3708f1795b89ccace97d2e33ef38f28094a19cc4fd6e4d1e817f"
+        "sha1": "129d43de27f584d4cde8c64a3773b1848bfc557d",
+        "sha512": "e8f57906013243dee3a2b713235809194b52a54b49ba424646bea1978e7076c51020789b065b9d45a02e1408fb48f7b3cc9de56fbc2a9d746dd91ff08138a196"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "server": "required",
+        "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/twkfQtEc/versions/76Ai9UYo/moonlight-1.20-2.16.10-forge.jar"
+        "https://cdn.modrinth.com/data/twkfQtEc/versions/FGswLGsg/moonlight-1.20-2.16.13-forge.jar"
       ],
-      "fileSize": 1332304
+      "fileSize": 1333837
     },
     {
       "path": "mods/carryon-forge-1.20.1-2.1.2.7.jar",
@@ -951,19 +951,19 @@
       "fileSize": 6044519
     },
     {
-      "path": "mods/net_music_list-1.5.3.jar",
+      "path": "mods/net_music_list-1.5.4.jar",
       "hashes": {
-        "sha512": "c4e0807322e1527150a84bbafb4b024f6014d20297cbf6d8021bd351976d8423e580547698e19c2961a1f84b4b1d313abbe4073a609bc57c79a4684f509fc0fc",
-        "sha1": "a3c35991abfa1f7e1a6369d6bf1378bcc573b205"
+        "sha1": "1b954b9102b90527bc96fa1e7930c6b58322a693",
+        "sha512": "8c428c0e066d3307e07b388c309b6f5be6fa3e4f7f9c75338c805e10ddf907d1140679e1e29d379e56737b670e5797618717dc5027615773b711b5f4d9929d33"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "server": "required",
+        "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/Jc6WJafg/versions/j3KmDbd2/net_music_list-1.5.3.jar"
+        "https://cdn.modrinth.com/data/Jc6WJafg/versions/A8vY2HIT/net_music_list-1.5.4.jar"
       ],
-      "fileSize": 120639
+      "fileSize": 273585
     },
     {
       "path": "mods/3cloth-config-11.1.136-forge.jar",
@@ -1371,19 +1371,19 @@
       "fileSize": 146211
     },
     {
-      "path": "mods/immersive_furniture-forge-0.1.0+1.20.1.jar",
+      "path": "mods/immersive_furniture-forge-0.1.1+1.20.1.jar",
       "hashes": {
-        "sha512": "d4937be1fbc5af43af08269e46a64be011f2a83fc4643c78b50e03c39406f2505399e1cd17909df49ef3391361f2260eedfa044774bab23a87e3965893cb7b5a",
-        "sha1": "f76b6235d189acf56cb4b595f3540ef0d660b2a2"
+        "sha512": "1928e598d896ff327f9fc69b9f0e5b90c445fefe5817b07215812b40386d44cc687be0db9278eb7e63a330d0edebfd73ad4c37d91eb6d8edef43693b23981a7d",
+        "sha1": "72e5acf4e91139dd7f4b7366fb6f9475823ca1dd"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/SvN6UGeF/versions/zkE5E28G/immersive_furniture-forge-0.1.0%2B1.20.1.jar"
+        "https://cdn.modrinth.com/data/SvN6UGeF/versions/1eMGdu1C/immersive_furniture-forge-0.1.1%2B1.20.1.jar"
       ],
-      "fileSize": 897712
+      "fileSize": 898499
     },
     {
       "path": "mods/Xaeros_Minimap_25.2.10_Forge_1.20.jar",
@@ -1941,19 +1941,19 @@
       "fileSize": 715706
     },
     {
-      "path": "mods/voicechat-forge-1.20.1-2.6.3.jar",
+      "path": "mods/voicechat-forge-1.20.1-2.6.4.jar",
       "hashes": {
-        "sha512": "97bdb378be4d379ad66c73c2fadd6758408d90caaf05285e43608718c4b087157a9c9a477a15b46946dae3d30c96a2e286990e130e5eb4cf8a83a2daf4f97800",
-        "sha1": "0a4b9fc6c504ed0c0d02db1d2704e34411d0c827"
+        "sha512": "2ce9709257912a3c2341d7765bc1c74a11be4f5029274fd54103c87c0488197a2d5afad1e52c8effd997b7fce61f9c1ec1dc8e15d74e7132e2be81b2006d0b36",
+        "sha1": "2cfe5592a25e6c031cfc510a8e3c9a9a523240c0"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/9eGKb6K1/versions/w1kGy1iJ/voicechat-forge-1.20.1-2.6.3.jar"
+        "https://cdn.modrinth.com/data/9eGKb6K1/versions/kW0VZueh/voicechat-forge-1.20.1-2.6.4.jar"
       ],
-      "fileSize": 4888336
+      "fileSize": 4888421
     },
     {
       "path": "mods/cagedmobs-1.20.1-forge-2.0.5.jar",
@@ -2031,19 +2031,19 @@
       "fileSize": 14789
     },
     {
-      "path": "mods/maidsoulkitchen-1.20.1-alpha-v0.2.5.1-all.jar",
+      "path": "mods/maidsoulkitchen-1.20.1-alpha-v0.3.0.3-all.jar",
       "hashes": {
-        "sha512": "f48179dc9de94e94d1b0a3cf3d8969e146537aa904096d2bb89f9b01404fffc5876f1f8717eb5b4aa8cbd2543543b1ce7981324d8979aeb28a33598ab661a7ac",
-        "sha1": "a37ec547d9b90b711a7532537e323860c28d620a"
+        "sha512": "d54b43933faa1c633ca53bf7b6992d088832c49b3141aa8b980fe7af8919d7ec52371071d08bb2ebdef7df54a99bc0538ad7df0a0cfad91c992079a4d8819ebf",
+        "sha1": "54c22833ca733d6466b43b50189c93ff781913a1"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/Q5ZXy0QB/versions/ujJGThF0/maidsoulkitchen-1.20.1-alpha-v0.2.5.1-all.jar"
+        "https://cdn.modrinth.com/data/Q5ZXy0QB/versions/6rIPyvCk/maidsoulkitchen-1.20.1-alpha-v0.3.0.3-all.jar"
       ],
-      "fileSize": 1561858
+      "fileSize": 2105044
     },
     {
       "path": "mods/create_misc_and_things_ 1.20.1_4.0A.jar",
@@ -2151,19 +2151,19 @@
       "fileSize": 1520963
     },
     {
-      "path": "mods/letsdo-farm_and_charm-forge-1.0.12.jar",
+      "path": "mods/letsdo-farm_and_charm-forge-1.0.13.jar",
       "hashes": {
-        "sha512": "d1fafcd0c9bff4ee64092d2617258d4712c0862036be0024db0c68674b1acba3db3848f0ed5b23a7254080489084f0a8cc38522ddd881f24b4e502f0d48185cf",
-        "sha1": "7ed5e6f14ef5b8cf6950dc68b4c461863c2bb9fd"
+        "sha1": "cd60f5da26e7b062be96f4710038b6d0f3f05422",
+        "sha512": "cacbfd50c8d3171f47563c78c6e3e969d1f4f6764d4759c1d0dfb89dd7df104b136e804d92a95811730c6d87bc9655a3700541c92d0c4dee1a7ff431939c5272"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/HJetCzWo/versions/UyTJY7PU/letsdo-farm_and_charm-forge-1.0.12.jar"
+        "https://cdn.modrinth.com/data/HJetCzWo/versions/pnTgcbiY/letsdo-farm_and_charm-forge-1.0.13.jar"
       ],
-      "fileSize": 2319050
+      "fileSize": 2321061
     },
     {
       "path": "mods/fruitsdelight-1.1.1.jar",
@@ -2481,19 +2481,19 @@
       "fileSize": 2425050
     },
     {
-      "path": "mods/supplementaries-1.20-3.1.38.jar",
+      "path": "mods/supplementaries-1.20-3.1.39.jar",
       "hashes": {
-        "sha512": "5fce9d9fb2fd6f8ca60d0c0c4d74095ac444c2f11ada706ec7c621e6ea15e4d98a5c6ee3fc2c19270cac625e70dc16cc0a6debdf706a061ad747c81bd1e6c6a4",
-        "sha1": "8f5f4a68c1f4a13d95773afcc9b4ef4f76ef7078"
+        "sha512": "114a110e414aaa65e4078963b0346ca92ec1719067a7509f66ff244003a5800da9627712972f201e0f0bac99495a7be3c62596acae2a270c2fd3d7d605ca1125",
+        "sha1": "5bf5968f955da81c0f75763c9ae75410ac1137f7"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "server": "required",
+        "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/fFEIiSDQ/versions/vKSIoh22/supplementaries-1.20-3.1.38.jar"
+        "https://cdn.modrinth.com/data/fFEIiSDQ/versions/nFuBlVta/supplementaries-1.20-3.1.39.jar"
       ],
-      "fileSize": 13649529
+      "fileSize": 13650017
     },
     {
       "path": "mods/curios-forge-5.14.1+1.20.1.jar",
@@ -2511,19 +2511,19 @@
       "fileSize": 398066
     },
     {
-      "path": "mods/waterframes-FORGE-mc1.20.1-v2.1.15.jar",
+      "path": "mods/waterframes-FORGE-mc1.20.1-v2.1.20.jar",
       "hashes": {
-        "sha1": "d6d3ef3b04c4d1135d9eac9e507bbabdcf70d1c0",
-        "sha512": "64e453850454f5986eb9643d155e26aa40eef5c1054dbde8a66f0654a3256069cd070b331435d7a8affe7e2baf7a24d1801734a518b792afc7c01130652f97e1"
+        "sha512": "eb65f838928531af60c0ef50192ff528df37c0282392114c1717b12cff5db8aae18e591e8ba5e27f3d77fcfab9be2ef220bfea390ac0935c2b2dc725026db8d2",
+        "sha1": "d73eb32e7a2ec18a706a83e0b73df6e8113ef970"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/eBzFuVTM/versions/Add8joyQ/waterframes-FORGE-mc1.20.1-v2.1.15.jar"
+        "https://cdn.modrinth.com/data/eBzFuVTM/versions/6FeLKEmt/waterframes-FORGE-mc1.20.1-v2.1.20.jar"
       ],
-      "fileSize": 244993
+      "fileSize": 254657
     },
     {
       "path": "mods/create_central_kitchen-1.20.1-for-create-6.0.6-1.4.3b.jar",
@@ -2661,19 +2661,19 @@
       "fileSize": 13305007
     },
     {
-      "path": "mods/2create_cyber_goggles-1.20.1-6.2.0+Forge.jar",
+      "path": "mods/2create_cyber_goggles-1.20.1-6.4.0+Forge.jar",
       "hashes": {
-        "sha512": "18fea63b2f6d75fc1edf1deede9105303c89b4cd6d51c1c5f02196081b88449b2953b25b38374604aef88f37fdd6c27c0e2ab4a49146ceb1badcc94ccd4a9c8e",
-        "sha1": "0d9434650d3d718d7c6c04c2eaf582f3a899b939"
+        "sha1": "8cfc184db18dcb17651536c8c0171b9b8d9c5d14",
+        "sha512": "99622c3062735027ed6c82abdca00b8a85df3c0c8e31e544ea2fbc42cbd783c3c6dfc9a94a6b56e49ae18308cc5259f273ad6507f062a1fc97e8a226c60a1da4"
       },
       "env": {
-        "server": "unsupported",
-        "client": "required"
+        "client": "required",
+        "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/TlQAWQCY/versions/gEVnIWSV/create_cyber_goggles-1.20.1-6.2.0%2BForge.jar"
+        "https://cdn.modrinth.com/data/TlQAWQCY/versions/YWf7Ez3w/create_cyber_goggles-1.20.1-6.4.0%2BForge.jar"
       ],
-      "fileSize": 128563
+      "fileSize": 143885
     },
     {
       "path": "mods/2createbetterfps-1.20.1-1.1.1.jar",
@@ -2736,19 +2736,19 @@
       "fileSize": 15889
     },
     {
-      "path": "mods/2watermedia-2.1.34.jar",
+      "path": "mods/2watermedia-2.1.35.jar",
       "hashes": {
-        "sha1": "a698f1220daa256154e0d46670e2a3f048058b1b",
-        "sha512": "8b46ab035f7de4218fb0170ddc8a3ca4bd0981afaf3def82ed2217132e148dbc303bdbd04347fca9a18c0b586b8e7db30aad2ac5e07b877f75d16571069a4815"
+        "sha1": "447efaecd4ff9744d079a35ee366a9d229ae5bc5",
+        "sha512": "f043f1221dacedaea0949d290ad93225a4d7857b2e7764b6a3d8ac33c411afd4945f16533590232f812366c5589defafdc75aa10cb1183a15e458514fa471bcc"
       },
       "env": {
         "server": "unsupported",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/G922NeHS/versions/qGhHJv6H/watermedia-2.1.34.jar"
+        "https://cdn.modrinth.com/data/G922NeHS/versions/b2vz7YpZ/watermedia-2.1.35.jar"
       ],
-      "fileSize": 37857681
+      "fileSize": 37857808
     },
     {
       "path": "mods/2GPUTape-1.18x-1.21x-1.0.5.1.jar",
@@ -3008,8 +3008,8 @@
     {
       "path": "mods/2IMBlocker-5.4.3.1-forge+1.17-1.20.4.jar",
       "hashes": {
-        "sha512": "c6651673b81011fb8c7165b7941871060d3217894ac9dcc83c52efe4f99033a53e866abed0c0c9cd43a7f6c60e72b655ebb0e43673175fa126563c20095a39a8",
-        "sha1": "ae845b48b59b7bc6ecca7c11ba842ec6ce90b1be"
+        "sha1": "ae845b48b59b7bc6ecca7c11ba842ec6ce90b1be",
+        "sha512": "c6651673b81011fb8c7165b7941871060d3217894ac9dcc83c52efe4f99033a53e866abed0c0c9cd43a7f6c60e72b655ebb0e43673175fa126563c20095a39a8"
       },
       "env": {
         "client": "required",
