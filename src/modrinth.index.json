@@ -2031,19 +2031,19 @@
       "fileSize": 14789
     },
     {
-      "path": "mods/maidsoulkitchen-1.20.1-alpha-v0.3.0.3-all.jar",
+      "path": "mods/maidsoulkitchen-1.20.1-alpha-v0.2.5.1-all.jar",
       "hashes": {
-        "sha512": "d54b43933faa1c633ca53bf7b6992d088832c49b3141aa8b980fe7af8919d7ec52371071d08bb2ebdef7df54a99bc0538ad7df0a0cfad91c992079a4d8819ebf",
-        "sha1": "54c22833ca733d6466b43b50189c93ff781913a1"
+        "sha512": "f48179dc9de94e94d1b0a3cf3d8969e146537aa904096d2bb89f9b01404fffc5876f1f8717eb5b4aa8cbd2543543b1ce7981324d8979aeb28a33598ab661a7ac",
+        "sha1": "a37ec547d9b90b711a7532537e323860c28d620a"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/Q5ZXy0QB/versions/6rIPyvCk/maidsoulkitchen-1.20.1-alpha-v0.3.0.3-all.jar"
+        "https://cdn.modrinth.com/data/Q5ZXy0QB/versions/ujJGThF0/maidsoulkitchen-1.20.1-alpha-v0.2.5.1-all.jar"
       ],
-      "fileSize": 2105044
+      "fileSize": 1561858
     },
     {
       "path": "mods/create_misc_and_things_ 1.20.1_4.0A.jar",
