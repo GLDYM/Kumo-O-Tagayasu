@@ -1596,19 +1596,19 @@
       "fileSize": 2612075
     },
     {
-      "path": "mods/open-parties-and-claims-forge-1.20.1-0.24.0.jar",
+      "path": "mods/open-parties-and-claims-forge-1.20.1-0.25.6.jar",
       "hashes": {
-        "sha512": "351ff271cac9ff89e408b6e0fa6a473934496e34c10487610fb414cee61e721539be1d3ffabbf31408c2656b49c85bf8ae9c92aba16e5a7192e676d4ee3bee03",
-        "sha1": "884924b3820d51f0d6ae0f0b5b8bc35aefaf1920"
+        "sha512": "7fce4273e4a63565cef7b02110fc2cb11ab62c1c5a6bfa445c919a4c07e3201a22829588ea947eaacab082fa03ec1b3ef87e455e8f9d75c47a248399e003159c",
+        "sha1": "cf15bad06db566d0a1ff2651d40db451971f59f0"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "server": "required",
+        "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/gF3BGWvG/versions/pRiZtdXR/open-parties-and-claims-forge-1.20.1-0.24.0.jar"
+        "https://cdn.modrinth.com/data/gF3BGWvG/versions/3HgfsZeU/open-parties-and-claims-forge-1.20.1-0.25.6.jar"
       ],
-      "fileSize": 1246814
+      "fileSize": 1315276
     },
     {
       "path": "mods/beautify-2.0.2.jar",
