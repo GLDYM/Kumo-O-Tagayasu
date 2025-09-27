@@ -606,19 +606,19 @@
       "fileSize": 21667
     },
     {
-      "path": "mods/l2backpack-2.5.4.jar",
+      "path": "mods/l2backpack-2.5.5.jar",
       "hashes": {
-        "sha512": "cb211d2315135ba98d82fbb21a5f72f1ab2f3ba67d39fe2c04838a60dbf53a28fc8f79a1ec93f2c62d6b556673f94aec64716c7b79a10450a467424fe7de4475",
-        "sha1": "bad7605c353d72b1ded691861dc80649b58b59bb"
+        "sha1": "ea55582f1667f650cb5049909dc0324e4eb5e3fc",
+        "sha512": "356c40478759d93cfe2b0e8564798a7371258a879f3b530edd831c2339594dead4b2d44d15dc2bf07a9f3102e6cc41d21e31cefa003a0ccbb7e6b11d07b0d6a9"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/1qkL7Png/versions/hgYhARd5/l2backpack-2.5.4.jar"
+        "https://cdn.modrinth.com/data/1qkL7Png/versions/KQFeb9Fe/l2backpack-2.5.5.jar"
       ],
-      "fileSize": 884047
+      "fileSize": 884408
     },
     {
       "path": "mods/neapolitan-1.20.1-5.1.0.jar",
@@ -951,19 +951,19 @@
       "fileSize": 6044519
     },
     {
-      "path": "mods/net_music_list-1.5.4.jar",
+      "path": "mods/net_music_list-1.5.5.jar",
       "hashes": {
-        "sha1": "1b954b9102b90527bc96fa1e7930c6b58322a693",
-        "sha512": "8c428c0e066d3307e07b388c309b6f5be6fa3e4f7f9c75338c805e10ddf907d1140679e1e29d379e56737b670e5797618717dc5027615773b711b5f4d9929d33"
+        "sha512": "fadc15ccf2993b2acbbb51933db84793e6fac25f52e42f6a3682efb1c88d4466695228b10dc10946fcb88a78820aade63b9e285643e25ec5fb7ccc3bb184f0d5",
+        "sha1": "7e3bb117962392975f167e84a9a77ada38f9fb3e"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/Jc6WJafg/versions/A8vY2HIT/net_music_list-1.5.4.jar"
+        "https://cdn.modrinth.com/data/Jc6WJafg/versions/uHKBt4So/net_music_list-1.5.5.jar"
       ],
-      "fileSize": 273585
+      "fileSize": 271484
     },
     {
       "path": "mods/3cloth-config-11.1.136-forge.jar",
@@ -2031,19 +2031,19 @@
       "fileSize": 14789
     },
     {
-      "path": "mods/maidsoulkitchen-1.20.1-alpha-v0.2.5.1-all.jar",
+      "path": "mods/maidsoulkitchen-1.20.1-alpha-v0.3.0.4-all.jar",
       "hashes": {
-        "sha512": "f48179dc9de94e94d1b0a3cf3d8969e146537aa904096d2bb89f9b01404fffc5876f1f8717eb5b4aa8cbd2543543b1ce7981324d8979aeb28a33598ab661a7ac",
-        "sha1": "a37ec547d9b90b711a7532537e323860c28d620a"
+        "sha1": "326c15fafc8f60f7029528a6381f1a53d811bddf",
+        "sha512": "f3a59e2e0e115579fbc979b15b322d974fe1eae7c740ff40f434a930557aff3e3b625253255b090441dbca9b979f802ea947feae32f4e290f7eda4dea0346a38"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/Q5ZXy0QB/versions/ujJGThF0/maidsoulkitchen-1.20.1-alpha-v0.2.5.1-all.jar"
+        "https://cdn.modrinth.com/data/Q5ZXy0QB/versions/n62vl9UL/maidsoulkitchen-1.20.1-alpha-v0.3.0.4-all.jar"
       ],
-      "fileSize": 1561858
+      "fileSize": 1927455
     },
     {
       "path": "mods/create_misc_and_things_ 1.20.1_4.0A.jar",
@@ -2406,19 +2406,19 @@
       "fileSize": 10444343
     },
     {
-      "path": "mods/smsn-forge-1.2.10-1.20.1.jar",
+      "path": "mods/smsn-forge-1.3.1-1.20.1.jar",
       "hashes": {
-        "sha1": "dcbfacb30202f44fb556558fff799b3c896c2b47",
-        "sha512": "0f187d70b7d66a810b6f7321eb2e266063fdc6df011faa47916d3a7111bdf64d338fd0ea9fcdc3ccbf282a09151d0a7ec6d16b95c78d1d17141b43cc7982b139"
+        "sha1": "f954d39004fa7b234e3472c8383a384d48546f74",
+        "sha512": "22762fba2d1a28ab318d0431efa6b1617ff2cda391ea368195b901e9f889f0c6612808fa1ed9ac548997ade0c5174e88d582d8caeeab0759593b60def6506f62"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/oXzIQwRj/versions/Q8QHYZ43/smsn-forge-1.2.10-1.20.1.jar"
+        "https://cdn.modrinth.com/data/oXzIQwRj/versions/QyiJtBbN/smsn-forge-1.3.1-1.20.1.jar"
       ],
-      "fileSize": 92756
+      "fileSize": 102182
     },
     {
       "path": "mods/zetter-1.20.1-0.21.5.jar",
