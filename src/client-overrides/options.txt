@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","resources/kots_resourcespack","file/MandalasGUI+Modded_Dakmode_v4.6.zip","file/Mandala's GUI - Dark Mode Compat 0.3.1.zip","file/Mandalas GUI - Dark Mode KOTS Compat 2.1.zip","file/Simply Create Model.zip","file/LanguagePack.zip","netherexp:jne_emissive","netherexp:jne_retextures","rubinated_nether/compat_spelunkery"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","resources/kots_resourcespack","file/MandalasGUI+Modded_Dakmode_v4.6.zip","file/Mandala's GUI - Dark Mode Compat 0.3.1.zip","file/Mandalas GUI - Dark Mode KOTS Compat 2.2.zip","file/Simply Create Model.zip","file/LanguagePack.zip","netherexp:jne_emissive","netherexp:jne_retextures","rubinated_nether/compat_spelunkery"]
 incompatibleResourcePacks:[]
 lastServer:127.0.0.1:52018
 lang:zh_cn
