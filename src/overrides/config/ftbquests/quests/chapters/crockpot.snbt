@@ -189,11 +189,6 @@
 					item: "crockpot:gnaws_coin"
 					type: "item"
 				}
-				{
-					id: "204639BAEC3A20CA"
-					type: "xp_levels"
-					xp_levels: 10
-				}
 			]
 			tasks: [{
 				advancement: "crockpot:gnaw_will_be_happy"
@@ -201,7 +196,7 @@
 				id: "4F451A71E9435F3A"
 				type: "advancement"
 			}]
-			title: "美食初心者 "
+			title: "美食初心者"
 			x: 3.0d
 			y: 0.0d
 		}
