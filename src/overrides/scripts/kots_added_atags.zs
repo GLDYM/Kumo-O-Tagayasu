@@ -1112,3 +1112,6 @@
 <tag:items:forge:bottles/milk>.add(<item:farmersdelight:milk_bottle>);
 <tag:items:forge:dusts/salt>.add(<item:vintagedelight:salt_dust>);
 <tag:items:sakura:rice/rice>.add(<item:farmersdelight:rice>);
+
+<tag:items:youkaishomecoming:farmland_redbean>.add(<item:minecraft:dirt>);
+<tag:blocks:youkaishomecoming:farmland_redbean>.add(<block:minecraft:dirt>);
