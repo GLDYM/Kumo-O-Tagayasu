@@ -274,7 +274,7 @@ key_key.jade.narrate:key.keyboard.unknown
 key_key.jade.show_details:key.keyboard.unknown
 key_key.up:key.keyboard.space
 key_key.down:key.keyboard.left.control
-key_key.summon:key.keyboard.unknown
+key_key.summon:key.keyboard.r
 key_key.narcissus_farewell.tp_home:key.keyboard.unknown
 key_key.narcissus_farewell.tp_back:key.keyboard.unknown
 key_key.narcissus_farewell.tp_req_yes:key.keyboard.unknown
