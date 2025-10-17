@@ -186,19 +186,19 @@
       "fileSize": 186824
     },
     {
-      "path": "mods/OneEnoughItem-1.0.6.jar",
+      "path": "mods/OneEnoughItem-Forge-1.0.5.1.jar",
       "hashes": {
-        "sha1": "6aa72eedf1a6932742c8fb11a8895ecfceeb417c",
-        "sha512": "b1218a2e8f93a96a45922da252acc18c4ae8e3b6c190455964d84441ea4b9dd8dd8b4cd1fcbca752bf19d0943454d99c30439aa185bccd30e4cacbb6046b8ebb"
+        "sha512": "e0add0503159bf3f0412275293b229d7891709e0c754855989abbbb1e15782c0aba3aed524d7cf86f4aa7d47eb303417d005053c5c39812f586d87e1acafdce7",
+        "sha1": "60d10a2158f2523fcda7209f70affbea83e68101"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "server": "required",
+        "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/7pCNymxz/versions/GXeUOiet/OneEnoughItem-1.0.6.jar"
+        "https://cdn.modrinth.com/data/7pCNymxz/versions/TkHRus8b/OneEnoughItem-Forge-1.0.5.1.jar"
       ],
-      "fileSize": 261923
+      "fileSize": 301862
     },
     {
       "path": "mods/3cosmos-library-1.20.1-10.6.0.0-universal.jar",
@@ -951,19 +951,19 @@
       "fileSize": 6044519
     },
     {
-      "path": "mods/net_music_list-2.1.2.jar",
+      "path": "mods/net_music_list-1.5.5.jar",
       "hashes": {
-        "sha512": "f62ce15639118ba4fdf40ed7569bacbbeaf04ecca4c641076d8ac8be296d0511991583d17bcd21162dfd0677b554e45e0514be3629d7a311b7c50db32f08c656",
-        "sha1": "ccfd37f0af0ad7f8c13a189449b6b5aa758e599d"
+        "sha512": "fadc15ccf2993b2acbbb51933db84793e6fac25f52e42f6a3682efb1c88d4466695228b10dc10946fcb88a78820aade63b9e285643e25ec5fb7ccc3bb184f0d5",
+        "sha1": "7e3bb117962392975f167e84a9a77ada38f9fb3e"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/Jc6WJafg/versions/LQ04XsIY/net_music_list-2.1.2.jar"
+        "https://cdn.modrinth.com/data/Jc6WJafg/versions/uHKBt4So/net_music_list-1.5.5.jar"
       ],
-      "fileSize": 361244
+      "fileSize": 271484
     },
     {
       "path": "mods/3cloth-config-11.1.136-forge.jar",
@@ -2644,21 +2644,6 @@
         "https://cdn.modrinth.com/data/1sHz36rE/versions/G3JTtyvr/indigestion_tablet-1.0.jar"
       ],
       "fileSize": 14363
-    },
-    {
-      "path": "mods/3OELib-forge-0.0.5.jar",
-      "hashes": {
-        "sha1": "70e3175a7bad9f25100ba61b3c043d8a5d955ffb",
-        "sha512": "6521d93a013ab9bb60ad2657f7a095befc62bab19178f1e88fcfe8d5a8889f888777629acfab9704b45a2de2310891d085d31860b48f3600a5bdd284cefd6c30"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/7ODqOXka/versions/ZSvPAczy/OELib-forge-0.0.5.jar"
-      ],
-      "fileSize": 851803
     },
     {
       "path": "mods/create_fluid-1.20-1.1.5.jar",
