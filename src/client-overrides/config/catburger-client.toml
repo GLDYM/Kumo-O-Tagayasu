@@ -1,0 +1,22 @@
+
+#CatBurger Client Config
+[Config]
+	#scale
+	#Range: 0.1 ~ 10.0
+	scale = 0.5
+	#float distance (blocks)
+	#Range: 0.0 ~ 100.0
+	float_distance = 0.1
+	#time to complete a float cycle (tick) 
+	#Range: 0.0 ~ 100.0
+	time = 40.0
+	#front & back offset
+	#Range: -100.0 ~ 100.0
+	front_back_offset = 0.0
+	#vertical offset
+	#Range: -100.0 ~ 100.0
+	vertical_offset = -0.1
+	#left & right offset
+	#Range: -100.0 ~ 100.0
+	left_right_offset = -0.5
+
