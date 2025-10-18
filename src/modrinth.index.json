@@ -951,19 +951,19 @@
       "fileSize": 6044519
     },
     {
-      "path": "mods/net_music_list-1.5.5.jar",
+      "path": "mods/net_music_list-2.1.3.jar",
       "hashes": {
-        "sha512": "fadc15ccf2993b2acbbb51933db84793e6fac25f52e42f6a3682efb1c88d4466695228b10dc10946fcb88a78820aade63b9e285643e25ec5fb7ccc3bb184f0d5",
-        "sha1": "7e3bb117962392975f167e84a9a77ada38f9fb3e"
+        "sha1": "84d1c8f0529b5966713551a71bf7c457b79d1f2d",
+        "sha512": "f36bae4ce23e4acdc5c2c38300fa8f800fadf71ecd3e1cbec7998078c00fcc9b1d9788446f918228b99904b247b9fc281a112e0c8d8084b9ef071f0ecbabffb1"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/Jc6WJafg/versions/uHKBt4So/net_music_list-1.5.5.jar"
+        "https://cdn.modrinth.com/data/Jc6WJafg/versions/kBqPRDB4/net_music_list-2.1.3.jar"
       ],
-      "fileSize": 271484
+      "fileSize": 426090
     },
     {
       "path": "mods/3cloth-config-11.1.136-forge.jar",
@@ -1926,19 +1926,19 @@
       "fileSize": 715706
     },
     {
-      "path": "mods/voicechat-forge-1.20.1-2.6.5.jar",
+      "path": "mods/voicechat-forge-1.20.1-2.6.6.jar",
       "hashes": {
-        "sha512": "33b5f7fdc7fa7d246a94c492cd7ec822d6f6c2db8226f2a9f6cc98de7ad75ba0d238ec6ce2c24b478aef35c8a767fce712af5bbaabf9ffcbd6aa69ee40d7c32f",
-        "sha1": "c67a3661cb4b49f98b39a7c95b9a4f7bcf9fe8c1"
+        "sha512": "a0ab423c621f43a0ffb4aefdcc8ddea852c1584270ec9f5e9fe6569e0ffeb358446b17cf3d52545e3a1ca94bc686f13e99b2765666fb5e4d37879999aedad38d",
+        "sha1": "691c62216ac4c86651c1062710682e5310a3201a"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/9eGKb6K1/versions/damBjxr6/voicechat-forge-1.20.1-2.6.5.jar"
+        "https://cdn.modrinth.com/data/9eGKb6K1/versions/ppDpEP1j/voicechat-forge-1.20.1-2.6.6.jar"
       ],
-      "fileSize": 4889186
+      "fileSize": 4889296
     },
     {
       "path": "mods/cagedmobs-1.20.1-forge-2.0.5.jar",
@@ -2646,19 +2646,49 @@
       "fileSize": 14363
     },
     {
-      "path": "mods/create_fluid-1.20-1.1.5.jar",
+      "path": "mods/create_fluid-1.20-1.1.6.jar",
       "hashes": {
-        "sha1": "ac9ff2cd6b336c95677313be569aec11f22f11df",
-        "sha512": "66b4e9387331da1e775ffdd1c261a50dfa2fb17233b5957f17138de70ed2ab6caa388ddbd56c461050af35449145f60e50f9c5423d55dd9ac98df28e2a30ba94"
+        "sha512": "cbae1004001d50ec7a8f41b76a8973a987dd0fb899377ed3be9738543b8c7242e04d51dab05ba9078545fba67e920c5f0846d1c543e31d396ce4888a1ecfb223",
+        "sha1": "a8e32ea8d444f2bb0de28de6b533720387fd3df2"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/JlZEVjsF/versions/ga2fmsYO/fluid-1.20-1.1.5.jar"
+        "https://cdn.modrinth.com/data/JlZEVjsF/versions/SqyxBwdy/fluid-1.20-1.1.6.jar"
       ],
-      "fileSize": 1408632
+      "fileSize": 1408647
+    },
+    {
+      "path": "mods/moderndeco-3.7.0-forge-1.20.1.jar",
+      "hashes": {
+        "sha1": "066b5bdce2ecc78a2c8a088a6dd537f5e76161d9",
+        "sha512": "8216b331545706aca07e8a2df21c93077e6e31c4466a6dbb307c6812646cfaaca8c0aeb329a9a5ce4d51bf9b26777059dba1c30c0dd59130259ad2ccd5808add"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/zJ5aaMEg/versions/YVajEMk9/moderndeco-3.7.0-forge-1.20.1.jar"
+      ],
+      "fileSize": 869469
+    },
+    {
+      "path": "mods/createfastschematiccannon-1.1-6.0.0-release.jar",
+      "hashes": {
+        "sha1": "90bde8a175b2aa71ff766832fd029addefc8aff7",
+        "sha512": "8fb5f1e4e05e219c96f54ce4e6838e0c5b1d282a6ecec211137998f4cba9161cde8c75c79d29ff00df6ff5ed07dab3097d5cb69847c1c5a3ceb5d62f49814efd"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/DebMSCVn/versions/ZIjekUyR/createfastschematiccannon-1.1-6.0.0-release.jar"
+      ],
+      "fileSize": 74172
     },
     {
       "path": "mods/2create_cyber_goggles-1.20.1-6.5.14-Forge.jar",
@@ -2736,19 +2766,19 @@
       "fileSize": 15889
     },
     {
-      "path": "mods/2watermedia-2.1.35.jar",
+      "path": "mods/2watermedia-2.1.36.jar",
       "hashes": {
-        "sha1": "447efaecd4ff9744d079a35ee366a9d229ae5bc5",
-        "sha512": "f043f1221dacedaea0949d290ad93225a4d7857b2e7764b6a3d8ac33c411afd4945f16533590232f812366c5589defafdc75aa10cb1183a15e458514fa471bcc"
+        "sha512": "d5a2dd8177d1456cc59817bf2e0ff463eb62d2d17ed2e7f272c6d05daabc9c67c0ed97399c01f730f2fcd9c175cc2e0dafdba097891de4c464bae51e49e6dc70",
+        "sha1": "aaad859737065f7be2824973aa38a5fdb7456f9d"
       },
       "env": {
         "server": "unsupported",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/G922NeHS/versions/b2vz7YpZ/watermedia-2.1.35.jar"
+        "https://cdn.modrinth.com/data/G922NeHS/versions/yezkkXsZ/watermedia-2.1.36.jar"
       ],
-      "fileSize": 37857808
+      "fileSize": 37858040
     },
     {
       "path": "mods/2GPUTape-1.18x-1.21x-1.0.5.1.jar",
