@@ -51,36 +51,6 @@
       "fileSize": 221150
     },
     {
-      "path": "mods/XeKr's Decoration-1.20.1-Forge-0.9.3.jar",
-      "hashes": {
-        "sha1": "6b279cc5a3b9dd8bb32714d5064da5d092a62026",
-        "sha512": "d9c2d0dd892235ae8b92fd731994ef595fb411074dfa9dc5a4920a4ef882bc5cd710d5fb8d1d339e9f6b51f8be5e0e96b8b0cfe1deb2f47e6760e7fbf0727999"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/XlwMlNhH/versions/W17Y8pUb/XeKr%27s%20Decoration-1.20.1-Forge-0.9.3.jar"
-      ],
-      "fileSize": 2207693
-    },
-    {
-      "path": "mods/fabric-api-0.92.6+1.11.14+1.20.1.jar",
-      "hashes": {
-        "sha1": "285c22b2567b9fdf98ef9808eceb5557de9611d3",
-        "sha512": "3b84ea415d9255861bcbf78cfda3987b78aa452361bf44ba6a0223501a25ab5c5c55cb0eac6f460c88b8cec958f2b59211e488277c26e3432a08196f62049e7c"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/Aqlf1Shp/versions/XweDEycJ/fabric-api-0.92.6%2B1.11.14%2B1.20.1.jar"
-      ],
-      "fileSize": 3065813
-    },
-    {
       "path": "mods/nbtedit-forge-5.2.8.jar",
       "hashes": {
         "sha1": "f4f013ebdb771424084ceb8fbc7a30ba6242b38a",
