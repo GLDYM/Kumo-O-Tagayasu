@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "moderndeco:systemboardhighquality"
+    },
+    "c": {
+      "item": "moderndeco:processor"
+    }
+  },
+  "result": {
+    "item": "moderndeco:consoleps_5pro",
+    "count": 1
+  }
+}

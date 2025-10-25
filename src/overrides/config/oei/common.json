@@ -20,9 +20,10 @@
       {
         "directory": "advancements",
         "fields": [
-          "item"
+          "item",
+          "items"
         ],
-        "deepReplace": false
+        "deepReplace": true
       }
     ]
   }
