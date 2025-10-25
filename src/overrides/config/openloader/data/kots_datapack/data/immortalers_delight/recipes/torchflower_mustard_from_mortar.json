@@ -1,0 +1,20 @@
+{
+  "type": "sakura:stone_mortar",
+  "experience": 0.0,
+  "ingredients": [
+    {
+      "item": "minecraft:torchflower"
+    }
+  ],
+  "recipeTime": 200,
+  "results": [
+    {
+      "count": 1,
+      "item": "immortalers_delight:torchflower_mustard"
+    },
+    {
+      "count": 1,
+      "item": "immortalers_delight:torchflower_mustard"
+    }
+  ]
+}
