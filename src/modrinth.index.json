@@ -2376,21 +2376,6 @@
       "fileSize": 102182
     },
     {
-      "path": "mods/zetter-1.20.1-0.21.5.jar",
-      "hashes": {
-        "sha1": "f854393594fd186789fc181b21619ef99e83aab9",
-        "sha512": "6cea12306ff84dcbc451cd01195ea0020a79967e4594f82dc167a89173a2c1d191297fa47a7703223aa6f90d60cdad1a54a736148fcc541c95d95143af02cab4"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/ZmLgjf6f/versions/QsJrGLtX/zetter-1.20.1-0.21.5.jar"
-      ],
-      "fileSize": 1333236
-    },
-    {
       "path": "mods/Patchouli-1.20.1-84.1-FORGE.jar",
       "hashes": {
         "sha1": "e91d2e2f251375d647d592b670ea6f310c2554eb",
