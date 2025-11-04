@@ -1,0 +1,41 @@
+{
+    "name": "Kumo O Tagayasu",
+    "version": "5.3.4",
+    "overrides": [
+        "config"
+    ],
+    "projects": {
+        "watermedia": {
+            "update_strategy": "NONE"
+        },
+        "staaaaaaaaaaaack": {
+            "aliases": [
+                "stxck"
+            ]
+        },
+        "lets-do-vinery": {
+            "aliases": [
+                "vinery"
+            ]
+        },
+        "lets-do-meadow": {
+            "aliases": [
+                "meadow"
+            ]
+        },
+        "lets-do-beachparty": {
+            "aliases": [
+                "beachparty"
+            ]
+        },
+        "explosive-enhancement-forge": {
+            "update_strategy": "NONE"
+        },
+        "one-enough-item": {
+            "update_strategy": "NONE"
+        },
+        "better-advancements": {
+            "update_strategy": "NONE"
+        }
+    }
+}

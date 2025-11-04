@@ -6,11 +6,15 @@ on:
   push:
     branches: [master]
     paths:
-      - "src/**"
+      - "pakku.json"
+      - "pakku-lock.json"
+      - ".pakku/**"
   pull_request:
     branches: [master]
     paths:
-      - "src/**"
+      - "pakku.json"
+      - "pakku-lock.json"
+      - ".pakku/**"
 
 permissions:
   contents: write
@@ -37,10 +41,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Setup JDK 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
       - name: Create mrpack archive
         run: |
-          cd src
-          cd client-overrides/BiliBiliMediaFiles
+          cd .pakku/client-overrides/BiliBiliMediaFiles
 
           wget https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-n8.0-latest-win64-lgpl-8.0.zip
           unzip ffmpeg-n8.0-latest-win64-lgpl-8.0.zip
@@ -48,8 +57,13 @@ jobs:
           rm -f ffmpeg-n8.0-latest-win64-lgpl-8.0.zip
           rm -rf ffmpeg-n8.0-latest-win64-lgpl-8.0
 
-          cd ../../
-          zip -r "../KumoOTagayasu-build.mrpack" ./*
+          cd ../../../
+          
+          wget https://github.com/juraj-hrivnak/Pakku/releases/download/latest/pakku.jar
+          chmod 755 pakku.jar
+          java -jar pakku.jar export
+
+          mv ./build/modrinth/*.mrpack ./KumoOTagayasu-build.mrpack
 
       - name: Delete existing release assets
         uses: mknejp/delete-release-assets@v1
@@ -69,12 +83,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup JDK 21
-        uses: actions/setup-java@v4
-        with:
-          java-version: '21'
-          distribution: 'temurin'
-
       - name: Build server
         run: |
           mkdir server
@@ -87,8 +95,8 @@ jobs:
           rm -f KumoOTagayasu-build.mrpack
           rm -f mrpack-install_0.21.0-beta_linux_amd64.tar.gz
           rm -f mrpack-install
-          rm -f forge-1.20.1-47.4.6-installer.jar
-          rm -f forge-1.20.1-47.4.6-installer.jar.log
+          rm -f forge-*-installer.jar
+          rm -f forge-*-installer.jar.log
           zip -r "../Server-KumoOTagayasu-build.zip" ./*
           
       - name: Upload server file to release
