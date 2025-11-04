@@ -516,7 +516,7 @@
 			tasks: [{
 				count: 6L
 				id: "2CAC86BF193DDB0A"
-				item: { Count: 10, id: "irons_spellbooks:legendary_ink" }
+				item: "irons_spellbooks:legendary_ink"
 				type: "item"
 			}]
 			title: "传说墨水！"
@@ -595,7 +595,7 @@
 			description: [
 				"雷电法术"
 				""
-				"闪电苦力怕可以通过女仆模组的祭坛获得。"
+				"闪电苦力怕可以通过女仆模组的祭坛生成，也可以使用落雷法术。"
 			]
 			id: "4467498CEB84DCAC"
 			rewards: [{
@@ -863,10 +863,7 @@
 		}
 		{
 			dependencies: ["04C76712E7F764B3"]
-			description: [
-				"忏悔石可以将武器上的法术消除&e（不会返还法术）"
-				"&f也可以与使用过升级球的装备结合&e（返还使用的升级球）。"
-			]
+			description: ["忏悔石可以将武器上的法术消除，也可以与使用过升级球的装备结合去除升级。"]
 			id: "2FC8B9077774C8BD"
 			tasks: [{
 				id: "130F9BAC0D6F8AAC"
@@ -1011,7 +1008,7 @@
 		}
 		{
 			dependencies: ["207A5281077D33FA"]
-			description: ["与流浪商人交易获得"]
+			description: ["与流浪商人交易获得。理论上可以带8个复效之戒，替换掉24个冷却法球。"]
 			hide_dependency_lines: true
 			id: "55920FDF96465686"
 			tasks: [{
@@ -1024,7 +1021,7 @@
 		}
 		{
 			dependencies: ["207A5281077D33FA"]
-			description: ["战利品箱中有概率开出，或与流浪商人交易获得"]
+			description: ["战利品箱中有概率开出，或与流浪商人交易获得。"]
 			hide_dependency_lines: true
 			id: "4E9AFE7056CDA7B4"
 			tasks: [{
@@ -1037,7 +1034,7 @@
 		}
 		{
 			dependencies: ["207A5281077D33FA"]
-			description: ["与流浪商人交易获得"]
+			description: ["与流浪商人交易获得。"]
 			hide_dependency_lines: true
 			id: "6C964C63C33879A2"
 			tasks: [{
@@ -1076,7 +1073,7 @@
 		}
 		{
 			dependencies: ["13265541D3694F26"]
-			description: ["让我们庆祝王的诞生！"]
+			description: ["你已经参透了魔法的奥秘，让我们庆祝新王的诞生！"]
 			id: "5C9EE3F5BBE4BF4C"
 			rewards: [{
 				id: "1CCDB9BC2E636E36"

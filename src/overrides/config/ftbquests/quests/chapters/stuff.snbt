@@ -67,16 +67,23 @@
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
-			description: ["不再需要反复放置工作方块来刷新交易了，在交易未锁定之前，可以在村民交易界面，按下默认按键&a[R]&r，或者右上角的按钮，直接刷新交易！"]
+			description: ["作为创造奶帽的替代品，装备后可以快速自动回复饥饿值直到18，此外也兼有不死图腾的功能。"]
 			hide_until_deps_complete: true
-			icon: "minecraft:emerald"
+			icon: "catburger:cat_burger"
 			id: "4AC580914BEDEC5E"
-			size: 1.5d
-			tasks: [{
-				id: "35CCBAF20595451D"
-				type: "checkmark"
+			rewards: [{
+				id: "59AE3EF0E03E73D5"
+				item: "catburger:cat_burger"
+				type: "item"
 			}]
-			title: "交易刷新"
+			size: 1.5d
+			subtitle: "Kitty, u can have the cheese burger~"
+			tasks: [{
+				id: "1EC0879AF39C9480"
+				item: "catburger:cat_burger"
+				type: "item"
+			}]
+			title: "小猫汉堡"
 			x: 4.0d
 			y: -4.0d
 		}
@@ -122,7 +129,11 @@
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
-			description: ["附魔台被禁用了，不过你还是可以通过村民交易和战利品箱获得附魔，并且使用附魔工业的打印机复制他们。"]
+			description: [
+				"附魔台被禁用了，不过你还是可以通过其他方式获得附魔，如村民交易、战利品箱、蜂蜜结晶花等。"
+				""
+				"之后可以使用附魔工业的打印机复制它们。"
+			]
 			hide_until_deps_complete: true
 			icon: "minecraft:enchanting_table"
 			id: "198EC6BDFF26EEDA"
@@ -249,8 +260,6 @@
 			dependencies: ["3EC718092B2DD9AD"]
 			description: [
 				"在框架或者投影仪填入图片或视频的直链，就可以在游戏内摆放表情包/播放视频了。"
-				""
-				"如果你在服务器，也可以将图片拖入聊天区来发送表情包。"
 				""
 				"[INFO]现在也支持B站的 bilibili 链接与 b23 链接。"
 			]

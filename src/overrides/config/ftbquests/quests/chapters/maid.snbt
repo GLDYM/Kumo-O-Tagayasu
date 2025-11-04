@@ -769,7 +769,7 @@
 			tasks: [{
 				count: 8L
 				id: "76BBD41D1C8B7297"
-				item: { Count: 8, id: "touhou_little_maid:smart_slab_empty" }
+				item: "touhou_little_maid:smart_slab_empty"
 				type: "item"
 			}]
 			title: "空魂符"

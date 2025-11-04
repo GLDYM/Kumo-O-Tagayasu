@@ -150,31 +150,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0EE3BE7024B87A5E"]
-			description: ["咕噜咕噜咕噜咕噜……"]
-			id: "2F07ACFED8FD5BDF"
-			rewards: [
-				{
-					id: "0CA8D256C0600AF1"
-					item: "crockpot:creative_milkmade_hat"
-					type: "item"
-				}
-				{
-					id: "5373FE6052696832"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			tasks: [{
-				id: "45DBD6DEDFFC7EDC"
-				item: "crockpot:creative_milkmade_hat"
-				type: "item"
-			}]
-			title: "无限的牛奶"
-			x: 4.5d
-			y: 1.5d
-		}
-		{
 			can_repeat: true
 			dependencies: ["2845F0FDEB1FB737"]
 			description: [
@@ -183,13 +158,11 @@
 				"&a如果你不幸丢失了它，可以在这里领取。"
 			]
 			id: "2353347E994D0E8E"
-			rewards: [
-				{
-					id: "26D4E949B6DDD13C"
-					item: "crockpot:gnaws_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "26D4E949B6DDD13C"
+				item: "crockpot:gnaws_coin"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "crockpot:gnaw_will_be_happy"
 				criterion: ""
@@ -334,7 +307,7 @@
 			description: [
 				"笼中鸟也有重见天日的一天。"
 				""
-				"&b优秀的腐肉去处。"
+				"&b鸟笼可以将腐肉转换为有用的物品，并获取一些难以通过种植增产的作物的种子。"
 			]
 			hide_until_deps_complete: true
 			id: "77F2FF096747E31A"

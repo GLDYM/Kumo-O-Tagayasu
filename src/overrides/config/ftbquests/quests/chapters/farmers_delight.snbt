@@ -15,6 +15,18 @@
 				""
 				"当然你真的拿把匕首切菜也不是不行。"
 			]
+			icon: {
+				Count: 1
+				id: "ends_delight:dragon_tooth_knife"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "l2complements:eternal"
+						lvl: 1s
+					}]
+					RepairCost: 1
+				}
+			}
 			id: "6932BE3FBDD3A55D"
 			rewards: [{
 				id: "58649C5BBBB70EB6"
@@ -329,7 +341,7 @@
 			tasks: [{
 				count: 256L
 				id: "156411A7B3127823"
-				item: { Count: 256, id: "farmersdelight:rich_soil" }
+				item: "farmersdelight:rich_soil"
 				type: "item"
 			}]
 			title: "&6挑战：中原沃土"

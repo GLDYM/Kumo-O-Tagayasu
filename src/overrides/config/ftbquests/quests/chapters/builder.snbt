@@ -469,35 +469,23 @@
 			description: [
 				"@ultramarine"
 				""
-				"@xkdeco"
-				""
 				"群青提供了大量中式建筑需要的内外饰方块；"
-				""
-				"而 Xekr Deco 提供了世界各类建筑风格需要的外饰构件。"
 			]
 			icon: "ultramarine:blue_and_white_porcelain_vase"
 			id: "3ADB1EA83AC6C6F5"
-			rewards: [
-				{
-					count: 64
-					id: "7A948AA1E14570B2"
-					item: "ultramarine:cyan_bricks"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "70381BF5A3819210"
-					item: "xkdeco:mud_wall_block"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 64
+				id: "7A948AA1E14570B2"
+				item: "ultramarine:cyan_bricks"
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "09E0A3AABBFDAA13"
 				title: "群青"
 				type: "checkmark"
 			}]
-			title: "综合：群青 \\& Xekr Deco"
+			title: "综合：群青"
 			x: 0.0d
 			y: 4.0d
 		}
@@ -532,6 +520,10 @@
 				"@waterframes"
 				""
 				"提供电视，你可以用它来放图片或者B站视频。"
+				""
+				"@moderndeco"
+				""
+				"提供一些现代的电子设备。"
 			]
 			icon: "waterframes:big_tv"
 			id: "1A65287EE0DC50D9"
@@ -546,7 +538,7 @@
 				title: "Waterframes"
 				type: "checkmark"
 			}]
-			title: "外饰\\&内饰：Waterframes"
+			title: "外饰\\&内饰：Waterframes \\& ModernDeco"
 			x: -4.0d
 			y: 2.0d
 		}

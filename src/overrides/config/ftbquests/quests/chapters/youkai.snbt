@@ -1,4 +1,5 @@
 {
+	autofocus_id: "0C489EAE0537E17F"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "youkai"
@@ -9,7 +10,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["&b这一章的内容对于新手来说比较难，建议先去完成“面朝黄土者”与“美食初心者”两个章节。"]
+			description: [
+				"&b这一章的内容对于新手来说比较难，建议先去完成“面朝黄土者”与“美食初心者”两个章节。"
+				""
+				"&b该模组近期变化较大，任务仅供参考。"
+			]
 			icon: "youkaishomecoming:udumbara_flower"
 			id: "0E554BF316EB9E7B"
 			shape: "hexagon"
@@ -26,7 +31,11 @@
 		}
 		{
 			dependencies: ["0E554BF316EB9E7B"]
-			description: ["黄豆是幻想乡最基本的材料，可以用来制作很多物品。野生黄豆可以在沼泽找到，摘下豆荚都切开就是黄豆了。"]
+			description: [
+				"&8黄豆是幻想乡最基本的材料，可以用来制作很多物品。野生黄豆可以在沼泽找到，摘下豆荚都切开就是黄豆了。&r"
+				""
+				"&a随着对豆乳星神秘大豆的研究，人们逐渐意识到了这种大豆与幻想乡的黄豆并无本质区别。它具有更简单的种植方式与更高的产量，因此逐渐取代了野生种黄豆。"
+			]
 			hide_until_deps_complete: true
 			id: "4F95CEB38DA8E48E"
 			rewards: [{
@@ -66,7 +75,11 @@
 		}
 		{
 			dependencies: ["4F95CEB38DA8E48E"]
-			description: ["红豆是另一种基本材料，可以在白桦树林或针叶林找到。需要在砂土黏土等贫瘠的土地上种植。"]
+			description: [
+				"&8红豆是另一种基本材料，可以在白桦树林或针叶林找到。需要在砂土黏土等贫瘠的土地上种植。&r"
+				""
+				"&a你在整合包内见到的是另一种红豆。手持红豆右键泥土可以将其转换为红豆土，其上会定期长出红豆苗，左键可以收获。"
+			]
 			id: "000011C9AE0A0DDD"
 			rewards: [{
 				count: 8
@@ -85,7 +98,11 @@
 		}
 		{
 			dependencies: ["000011C9AE0A0DDD"]
-			description: ["大人的饮品。野生咖啡会生成在雨林，摘下咖啡果后在砧板上切开就能得到咖啡豆。"]
+			description: [
+				"大人的饮品。野生咖啡会生成在丛林群系，摘下咖啡果后在砧板上切开就能得到咖啡豆。"
+				""
+				"&a也可以带着嗅探兽在丛林群系中搜索，找到古代咖啡豆以使用。"
+			]
 			id: "138576A973067473"
 			rewards: [{
 				count: 8
@@ -252,20 +269,38 @@
 		}
 		{
 			dependencies: ["289788DC6E24A8BF"]
-			description: ["把茶叶晒干可以得到其他类型的茶叶。"]
+			description: [
+				"将晒干架置于阳光下方，可以利用核能去除物品的水分。"
+				""
+				"而蒸笼则是在保留水分的前提下做熟食物的工具。蒸笼需要放在含有水的蒸锅上，可以向上堆叠；最上方最好有一个蒸笼盖。"
+			]
 			id: "30716ECA379E398E"
-			rewards: [{
-				count: 2
-				id: "638F418F58FB9EB7"
-				item: "youkaishomecoming:drying_rack"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5AB397A27A7E4F72"
-				item: "youkaishomecoming:drying_rack"
-				type: "item"
-			}]
-			title: "去除水分"
+			rewards: [
+				{
+					count: 2
+					id: "638F418F58FB9EB7"
+					item: "youkaishomecoming:drying_rack"
+					type: "item"
+				}
+				{
+					id: "6A329B2604816D0B"
+					item: "youkaishomecoming:steamer_rack"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5AB397A27A7E4F72"
+					item: "youkaishomecoming:drying_rack"
+					type: "item"
+				}
+				{
+					id: "39F14384DEC8C6B7"
+					item: "youkaishomecoming:steamer_rack"
+					type: "item"
+				}
+			]
+			title: "改变水分"
 			x: 1.5d
 			y: 4.5d
 		}
@@ -656,6 +691,66 @@
 			title: "变身，变成baka！"
 			x: 0.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["0E554BF316EB9E7B"]
+			description: ["丐版伸缩机械手。当然它原本的用途是搅拌汤锅中的汤。"]
+			id: "53048C6A3F15B214"
+			rewards: [{
+				id: "2F7651B695C9B911"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3D3D70EB49C53E20"
+				item: "youkaishomecoming:big_spoon"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0E554BF316EB9E7B"]
+			description: ["新版本新增的不同厨具，用以烹调不同的食物。其中汤锅需要汤勺搅拌。"]
+			id: "00D3C0C803F2B634"
+			rewards: [{
+				id: "0761D86BE0783E3C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "5771EAA81FF914B4"
+					item: "youkaishomecoming:small_iron_pot"
+					type: "item"
+				}
+				{
+					id: "46D817918104C77C"
+					item: "youkaishomecoming:short_iron_pot"
+					type: "item"
+				}
+				{
+					id: "55EF5A77C4FE25A1"
+					item: "youkaishomecoming:stockpot"
+					type: "item"
+				}
+			]
+			title: "不同大小的厨具"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E554BF316EB9E7B"]
+			description: ["将葡萄放入后踩踏可以得到对应的葡萄汁。可以用玻璃瓶或大玻璃瓶取出。"]
+			id: "52FF2A3A88600687"
+			tasks: [{
+				id: "20BA8FA01C0AD669"
+				item: "youkaishomecoming:wood_basin"
+				type: "item"
+			}]
+			title: "脚踩葡萄的魔女"
+			x: -1.5d
+			y: 1.5d
 		}
 	]
 	title: "&a幻想乡妖怪"

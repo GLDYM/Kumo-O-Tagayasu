@@ -5,14 +5,14 @@
 	group: "31669C96F582CF92"
 	icon: "create:wrench"
 	id: "36388A6AEA2B477F"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
 				"&b本章节是对于其他章节的补充，指引整合包内基本资源的量产。其他的物品大多可如法炮制。"
 				""
-				"&b本章节假定已有无限岩浆源，只致命大致的流程。"
+				"&b本章节假定已有无限岩浆源与足够应力。"
 			]
 			id: "2D8639FB72C3D3EF"
 			rewards: [{
@@ -34,11 +34,12 @@
 		}
 		{
 			description: [
-				"相较于传统的路径，本整合包的凝灰岩路径可以一次性产出四种常用矿石，因而更适合用于获取矿石。"
+				"相较于传统的路径，凝灰岩路径可以一次性产出四种常用矿石，因而更适合用于获取矿石。"
 				""
-				"&a一种可能的思路：建造树场用抽屉收集来选择性输出原木。原木经过两次切割变成木板，燃烧木板变成灰烬。建造刷石机获取圆石。灰烬与圆石搅拌获取凝灰岩，粉碎后得到四种矿粒，输入控制存储器后用压缩抽屉收集。"
+				"&aV5：建造树场用抽屉收集来选择性输出原木。原木经过两次切割变成木板，燃烧木板变成灰烬。建造刷石机获取圆石。灰烬与圆石搅拌获取凝灰岩，粉碎后得到四种矿粒，输入控制存储器后用压缩抽屉收集。"
 				""
-				"&b过程中的难点有二，一是如何处理灰烬过分燃烧产生的灰烬砖，二是如何匹配树场、刷石机、搅拌三者之间的效率。"
+				""
+				"&aV6：建造刷石机和玄武岩机，发包给加热搅拌模块；凝灰岩发包给粉碎模块。"
 			]
 			icon: "minecraft:tuff"
 			id: "4D99382DDE53E4C7"
@@ -52,31 +53,31 @@
 				{
 					count: 64L
 					id: "7B76DB01295940BD"
-					item: { Count: 64, id: "minecraft:iron_block" }
+					item: "minecraft:iron_block"
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "3979917C0CD6919F"
-					item: { Count: 64, id: "minecraft:gold_block" }
+					item: "minecraft:gold_block"
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "6049E709CEBCB3A6"
-					item: { Count: 64, id: "minecraft:copper_block" }
+					item: "minecraft:copper_block"
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "4529E41DC1677750"
-					item: { Count: 64, id: "create:zinc_block" }
+					item: "create:zinc_block"
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "14C72276636F7162"
-					item: { Count: 64, id: "caverns_and_chasms:silver_block" }
+					item: "caverns_and_chasms:silver_block"
 					type: "item"
 				}
 			]
@@ -88,9 +89,9 @@
 			description: [
 				"需要大量使用的基本合金之一。"
 				""
-				"&a一种可能的思路：建造两台刷石机，一台粉碎后获取砂砾，另一台粉碎后水洗获取燧石与粗铁粒。粗铁粒冶炼获取铁粒，砂砾与燧石加入岩浆后锻压获取安山岩。安山岩与铁粒搅拌获取安山合金。"
+				"&aV5：建造两台刷石机，一台粉碎后获取砂砾，另一台粉碎后水洗获取燧石与粗铁粒。粗铁粒冶炼获取铁粒，砂砾与燧石加入岩浆后锻压获取安山岩。安山岩与铁粒搅拌获取安山合金。"
 				""
-				"&b难点同样在于如何平衡这几者之间的效率。如果接取岩浆有困难，可以试着做几个虚空流体储罐。"
+				"&aV6：圆石粉碎得到砂砾，粉碎凝灰岩产出燧石，发包岩浆塑形模块产出安山岩；安山岩和铁粒发包到加热搅拌模块。铁粒可在铁锭入库时输入至压缩抽屉来获取。"
 			]
 			id: "1EB357E80C1DE3AD"
 			rewards: [{
@@ -102,7 +103,7 @@
 			tasks: [{
 				count: 512L
 				id: "3B29B27275A4215F"
-				item: { Count: 512, id: "create:andesite_alloy" }
+				item: "create:andesite_alloy"
 				type: "item"
 			}]
 			title: "&6基本：安山合金机"
@@ -114,7 +115,9 @@
 			description: [
 				"随着产线逐渐扩大，手搓传动元件已经不适合了，试着搭建一条基本传动元件的产线吧。"
 				""
-				"&a一种可能的思路：搭建树场与安山合金机。安山合金经过黄铜隧道分二路，一路合成机壳，另一部分切成传动杆再分两路。原木切成去皮原木后经过黄铜隧道分两路，一部分合成机壳，另一部分切成木板后再分三路。一路传动杆与一路木板合成小齿轮，另一路传动杆与两路木板合成大齿轮。"
+				"&aV5：搭建树场与安山合金机。安山合金经过黄铜隧道分二路，一路合成机壳，另一部分切成传动杆再分两路。原木切成去皮原木后经过黄铜隧道分两路，一部分合成机壳，另一部分切成木板后再分三路。一路传动杆与一路木板合成小齿轮，另一路传动杆与两路木板合成大齿轮。"
+				""
+				"&aV6：动力合成。"
 			]
 			icon: "create:large_cogwheel"
 			id: "6CE900F3B017230E"
@@ -128,25 +131,25 @@
 				{
 					count: 256L
 					id: "2BF6EDE240533FDB"
-					item: { Count: 256, id: "create:andesite_casing" }
+					item: "create:andesite_casing"
 					type: "item"
 				}
 				{
 					count: 256L
 					id: "0125FBCC1D8813C4"
-					item: { Count: 256, id: "create:shaft" }
+					item: "create:shaft"
 					type: "item"
 				}
 				{
 					count: 256L
 					id: "56796EC6262B1E07"
-					item: { Count: 256, id: "create:cogwheel" }
+					item: "create:cogwheel"
 					type: "item"
 				}
 				{
 					count: 256L
 					id: "7296C72DDA3B307F"
-					item: { Count: 256, id: "create:large_cogwheel" }
+					item: "create:large_cogwheel"
 					type: "item"
 				}
 			]
@@ -159,7 +162,9 @@
 			description: [
 				"更高级的金属锭。"
 				""
-				"&a一种可能的思路：虚空箱子输出铜锌，搅拌产出黄铜，烈焰人燃烧室使用岩浆或者豆油供能。"
+				"&aV5：虚空箱子输出铜锌，搅拌产出黄铜，烈焰人燃烧室使用岩浆供能。"
+				""
+				"&aV6：铜锌发包给加热搅拌模块，注意不要和含铁配方同时运行。"
 			]
 			id: "2E085F6E8F36F6C5"
 			rewards: [{
@@ -171,7 +176,7 @@
 			tasks: [{
 				count: 128L
 				id: "2789C57EE78A5EBF"
-				item: { Count: 128, id: "create:brass_ingot" }
+				item: "create:brass_ingot"
 				type: "item"
 			}]
 			title: "&6基本：黄铜"
@@ -183,7 +188,7 @@
 			description: [
 				"单纯为了在机器过多时方便接线。"
 				""
-				"&a一种可能的思路：搭建黑曜石机，与刷石机类似，但是岩浆的位置换成流体管道喷出岩浆源。末影珍珠与下界合金碎片从生物笼中得到，与凝灰岩产线中获得的金锭合成变为虚空钢锭。"
+				"&a思路：搭建黑曜石机，流体管道喷出岩浆源，接触含水树叶变为黑曜石，用钻头或者挤压破坏。末影珍珠与下界合金碎片从生物笼中得到，与金锭搅拌变为虚空钢锭。"
 				""
 				"&b你可能需要一个小伙伴帮你收集远古骑士的DNA。"
 			]
@@ -197,7 +202,7 @@
 			tasks: [{
 				count: 64L
 				id: "4FD9485239282F00"
-				item: { Count: 64, id: "createutilities:void_casing" }
+				item: "createutilities:void_casing"
 				type: "item"
 			}]
 			title: "&6基本：虚空机壳"
@@ -218,37 +223,31 @@
 				{
 					count: 64L
 					id: "2507A6AD80AF821E"
-					item: { Count: 64, id: "minecraft:phantom_membrane" }
+					item: "minecraft:phantom_membrane"
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "09D06924B1014F6C"
-					item: { Count: 64, id: "minecraft:slime_ball" }
+					item: "minecraft:slime_ball"
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "1141FDFE562CD4DE"
-					item: { Count: 64, id: "minecraft:netherite_scrap" }
+					item: "minecraft:netherite_scrap"
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "2C3ABE865FA6CB33"
-					item: { Count: 64, id: "minecraft:redstone" }
-					type: "item"
-				}
-				{
-					count: 64L
-					id: "4A590F61724E6FEE"
-					item: { Count: 64, id: "minecraft:prismarine_crystals" }
+					item: "minecraft:redstone"
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "3A563817BB90C738"
-					item: { Count: 64, id: "minecraft:ender_pearl" }
+					item: "minecraft:ender_pearl"
 					type: "item"
 				}
 			]
@@ -261,14 +260,16 @@
 			description: [
 				"构建动力臂与转速控制器等器械的重要组件。"
 				""
-				"&a一种可能的思路：虚空箱子输出金锭、铁粒、大小齿轮，循环装配。"
+				"&aV5：虚空箱子输出金锭、铁粒、大小齿轮，循环装配。"
+				""
+				"&aV6：金锭发包至压板模块；金板铁粒大小齿轮发包精密构模块，用机械手上料。"
 			]
 			id: "2C03FCA2B16B8B1C"
 			size: 1.5d
 			tasks: [{
 				count: 64L
 				id: "380F775DA3A63749"
-				item: { Count: 64, id: "create:precision_mechanism" }
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
 			title: "&6基本：精密构件"
@@ -285,37 +286,25 @@
 				{
 					count: 64L
 					id: "7B89354AE77D0932"
-					item: { Count: 64, id: "minecraft:nether_star" }
-					type: "item"
-				}
-				{
-					count: 64L
-					id: "12900E3638F1E388"
-					item: { Count: 64, id: "cagedmobs:warden_receptor" }
+					item: "minecraft:nether_star"
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "0A27751C95B28E50"
-					item: { Count: 64, id: "l2complements:totemic_gold_ingot" }
+					item: "l2complements:totemic_gold_ingot"
 					type: "item"
 				}
 				{
-					count: 64L
+					count: 9L
 					id: "7329FDAA29E04E68"
-					item: { Count: 64, id: "l2complements:poseidite_ingot" }
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "7418AF80FEF68ABD"
-					item: { Count: 16, id: "minecraft:dragon_head" }
+					item: "l2complements:poseidite_ingot"
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "4FFCED9374982F74"
-					item: { Count: 64, id: "minecraft:shulker_shell" }
+					item: "minecraft:shulker_shell"
 					type: "item"
 				}
 			]
@@ -325,7 +314,11 @@
 		}
 		{
 			dependencies: ["2E085F6E8F36F6C5"]
-			description: ["&a一种可能的思路：幽匿脉络与幽匿块可用紫水晶钻头收集。强化骨片可用机械手处死监守者，或通过永恒音爆枪获取共振之羽。"]
+			description: [
+				"&a思路：幽匿脉络与幽匿块可用紫水晶钻头收集。强化骨片可用机械手处死监守者，或通过永恒音爆枪获取共振之羽。"
+				""
+				"&a本材料用到的并不多，铁魔法手打也是完全可以的。"
+			]
 			id: "3839C2F3EEA2FC3D"
 			rewards: [{
 				id: "340FB12C07773EE0"
@@ -336,7 +329,7 @@
 			tasks: [{
 				count: 64L
 				id: "7FAC1AFCF1337098"
-				item: { Count: 64, id: "l2complements:sculkium_ingot" }
+				item: "l2complements:sculkium_ingot"
 				type: "item"
 			}]
 			title: "&6进阶：幽匿锭"
@@ -344,7 +337,11 @@
 			y: 5.0d
 		}
 		{
-			description: ["&a没啥好说的，高压钻石或者石精灵力大砖飞就行。"]
+			description: [
+				"&aV6：木头烧木炭，木炭烧碳粉，碳粉加热塑形得到石墨，石墨高热塑形得到钻石。副产物含杂钻石粉碎。"
+				""
+				"&a燃料可以使用烈焰蛋糕机或大豆油。大豆由豆腐蜘蛛生物笼获取；过滤网使用两种不同颜色的羊产出羊毛后动力合成，不能使用同种颜色。"
+			]
 			id: "78157942C5F485D9"
 			rewards: [{
 				id: "0198C3D2F830A60D"
@@ -355,7 +352,7 @@
 			tasks: [{
 				count: 256L
 				id: "553DF251EFE46D8C"
-				item: { Count: 64, id: "minecraft:diamond" }
+				item: "minecraft:diamond"
 				type: "item"
 			}]
 			title: "&6基础：钻石"
@@ -364,7 +361,13 @@
 		}
 		{
 			dependencies: ["3B335F2F37D87985"]
-			description: ["&a一种可能的思路：蠹虫经验机提供经验以复制附魔书，皮革和末影珍珠通过笼子产出，破灭残片用 TNT 复制。"]
+			description: [
+				"&aV5：蠹虫经验机提供经验以复制附魔书，皮革和末影珍珠通过笼子产出，破灭残片用 TNT 复制。"
+				""
+				"&aV6：经验颗粒由高压钻石途径提供，用工厂仪表补货输入到祛魔池内得到液态经验，输入打印机内复制附魔书。铁砧动力合成。"
+				""
+				"&b附魔书模板可通过刷村民交易，或黄蜂领域的蜂蜜结晶花获得。"
+			]
 			id: "629C486E4653B112"
 			rewards: [{
 				id: "57F3BD919F339A18"
@@ -375,7 +378,7 @@
 			tasks: [{
 				count: 64L
 				id: "4CC12FE413CBB101"
-				item: { Count: 64, id: "l2complements:eternium_ingot" }
+				item: "l2complements:eternium_ingot"
 				type: "item"
 			}]
 			title: "&6进阶：永恒锭"
@@ -383,7 +386,7 @@
 			y: -2.5d
 		}
 		{
-			description: ["&a一种可能的思路：粉碎笼子产出的海晶砂粒，或者水洗灵魂沙。"]
+			description: ["&a思路：粉碎笼子产出的海晶砂粒。或者沙子缠魂后水洗。"]
 			id: "5D1473E56B6358EE"
 			rewards: [{
 				id: "3FA58A42127E7ED4"
@@ -394,7 +397,7 @@
 			tasks: [{
 				count: 256L
 				id: "5BA358B2ECC53687"
-				item: { Count: 256, id: "minecraft:quartz" }
+				item: "minecraft:quartz"
 				type: "item"
 			}]
 			title: "&6基本：下界石英"
@@ -403,7 +406,7 @@
 		}
 		{
 			dependencies: ["5D1473E56B6358EE"]
-			description: ["&a一种可能的思路：沙子和纸合成砂纸，石英合成晶体后用砂纸磨制，与对应的金属板合成。"]
+			description: ["&a思路：甘蔗压板得到纸，沙子和纸搅拌得到砂纸。石英与红石搅拌得到晶体，用砂纸研磨，与对应的金属板合成。"]
 			icon: "create:electron_tube"
 			id: "7D94DEBC573F4223"
 			rewards: [{
@@ -416,13 +419,13 @@
 				{
 					count: 64L
 					id: "21668772541856B8"
-					item: { Count: 64, id: "create:electron_tube" }
+					item: "create:electron_tube"
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "583B80C17F8D5A16"
-					item: { Count: 64, id: "createutilities:graviton_tube" }
+					item: "createutilities:graviton_tube"
 					type: "item"
 				}
 			]

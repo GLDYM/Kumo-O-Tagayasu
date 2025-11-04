@@ -63,7 +63,7 @@
 				{
 					count: 6L
 					id: "6A4101FC24D05E93"
-					item: { Count: 6, id: "bakeries:bottle_yeast" }
+					item: "bakeries:bottle_yeast"
 					type: "item"
 				}
 			]
@@ -87,12 +87,33 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "600B0F006BA477F8"
+				id: "3F928BA2C09FC96B"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "itemfilters:or"
 					tag: {
-						value: "bakery:dough"
+						items: [
+							{
+								Count: 1b
+								id: "bakeries:sweet_dough"
+							}
+							{
+								Count: 1b
+								id: "bakeries:cocoa_dough"
+							}
+							{
+								Count: 1b
+								id: "bakeries:salted_dough"
+							}
+							{
+								Count: 1b
+								id: "bakeries:whole_wheat_dough"
+							}
+							{
+								Count: 1b
+								id: "bakeries:crispy_dough"
+							}
+						]
 					}
 				}
 				type: "item"
@@ -421,7 +442,7 @@
 			tasks: [{
 				count: 8L
 				id: "2B62ED9459D45A92"
-				item: { Count: 8, id: "bakeries:cheese_cube" }
+				item: "bakeries:cheese_cube"
 				type: "item"
 			}]
 			title: "干酪块"
@@ -440,7 +461,7 @@
 				{
 					count: 2L
 					id: "020CFCE444C5A7AF"
-					item: { Count: 2, id: "bakeries:cut_cake_base" }
+					item: "bakeries:cut_cake_base"
 					type: "item"
 				}
 				{

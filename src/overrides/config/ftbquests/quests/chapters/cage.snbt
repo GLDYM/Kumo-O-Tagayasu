@@ -5,7 +5,7 @@
 	group: "31669C96F582CF92"
 	icon: "cagedmobs:mob_cage"
 	id: "6DB018F4F6E98490"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

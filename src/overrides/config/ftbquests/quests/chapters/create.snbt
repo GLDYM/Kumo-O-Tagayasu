@@ -302,7 +302,7 @@
 				{
 					count: 8L
 					id: "43882A5D9856875D"
-					item: { Count: 8, id: "create:sail_frame" }
+					item: "create:sail_frame"
 					optional_task: true
 					type: "item"
 				}
@@ -867,13 +867,13 @@
 				{
 					count: 16L
 					id: "5FE367CEDAE407A1"
-					item: { Count: 16, id: "create:fluid_tank" }
+					item: "create:fluid_tank"
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "2301076FA79FFD67"
-					item: { Count: 4, id: "create:blaze_burner" }
+					item: "create:blaze_burner"
 					type: "item"
 				}
 				{
@@ -885,7 +885,7 @@
 				{
 					count: 4L
 					id: "55F069AB6751D2D1"
-					item: { Count: 4, id: "create:shaft" }
+					item: "create:shaft"
 					type: "item"
 				}
 			]
