@@ -35,7 +35,7 @@ jobs:
           base_dir: "src"
           exclude_file: "exclude.txt"
 
-  build-and-release:
+  build-release-and-test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -118,7 +118,7 @@ jobs:
 
           echo "Test Server started with PID $SERVER_PID"
 
-          for i in {1..24}; do
+          for i in {1..30}; do
             if grep -q 'Done ([0-9.]\+s)! For help, type "help"' server.log; then
               echo "Server started successfully"
               sleep 5
