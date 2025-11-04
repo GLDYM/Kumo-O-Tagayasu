@@ -59,7 +59,7 @@ jobs:
 
           cd ../../../
           
-          wget https://github.com/juraj-hrivnak/Pakku/releases/download/latest/pakku.jar
+          wget https://github.com/juraj-hrivnak/Pakku/releases/download/v1.3.2/pakku.jar
           chmod 755 pakku.jar
           java -jar pakku.jar export
 
