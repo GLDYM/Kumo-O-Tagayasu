@@ -1,0 +1,56 @@
+{
+  "parent": "youkaishomecoming:main/welcome_to_youkais_homecoming",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "tag": "youkaishomecoming:grape_seed"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    },
+    "1": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "vinery:red_grape",
+                "vinery:white_grape"
+              ]
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.youkaishomecoming.advancements.main.grape.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "youkaishomecoming:red_grape_seeds"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.youkaishomecoming.advancements.main.grape.title"
+    }
+  },
+  "requirements": [
+    [
+      "0",
+      "1"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

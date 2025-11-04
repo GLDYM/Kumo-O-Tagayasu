@@ -1,0 +1,57 @@
+{
+  "parent": "youkaishomecoming:main/welcome_to_youkais_homecoming",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "youkaishomecoming:redbean"
+              ]
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    },
+    "1": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "neapolitan:adzuki_beans"
+              ]
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.youkaishomecoming.advancements.main.redbean.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "youkaishomecoming:redbean"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.youkaishomecoming.advancements.main.redbean.title"
+    }
+  },
+  "requirements": [
+    [
+      "0",
+      "1"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
