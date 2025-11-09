@@ -77,7 +77,7 @@ jobs:
             Server-KumoOTagayasu-build.zip
           token: ${{ secrets.GITHUB_TOKEN }} # Required for authentication
 
-      - name: Upload .mrpack file to release
+      - name: Upload client file to release
         uses: softprops/action-gh-release@v1
         with:
           tag_name: "build"
