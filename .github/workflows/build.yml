@@ -64,6 +64,7 @@ jobs:
           java -jar pakku.jar export
 
           mv ./build/modrinth/*.mrpack ./KumoOTagayasu-build.mrpack
+          mv ./build/curseforge/*.zip ./KumoOTagayasu-build.zip
 
       - name: Delete existing release assets
         uses: mknejp/delete-release-assets@v1
@@ -71,6 +72,7 @@ jobs:
           fail-if-no-assets: false
           tag: build
           assets: |
+            KumoOTagayasu-build.zip
             KumoOTagayasu-build.mrpack
             Server-KumoOTagayasu-build.zip
           token: ${{ secrets.GITHUB_TOKEN }} # Required for authentication
@@ -79,7 +81,9 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: "build"
-          files: "KumoOTagayasu-build.mrpack"
+          files: |
+            KumoOTagayasu-build.mrpack
+            KumoOTagayasu-build.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
