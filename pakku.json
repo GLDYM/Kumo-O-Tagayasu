@@ -1,11 +1,17 @@
 {
     "name": "Kumo O Tagayasu",
-    "version": "5.3.4",
-    "overrides": [
-        "config"
-    ],
+    "version": "5.3.5",
     "projects": {
         "watermedia": {
+            "update_strategy": "NONE"
+        },
+        "explosive-enhancement-forge": {
+            "update_strategy": "NONE"
+        },
+        "one-enough-item": {
+            "update_strategy": "NONE"
+        },
+        "better-advancements": {
             "update_strategy": "NONE"
         },
         "staaaaaaaaaaaack": {
@@ -28,14 +34,70 @@
                 "beachparty"
             ]
         },
-        "explosive-enhancement-forge": {
+        "time-in-a-bottle-universal": {
+            "redistributable": true,
+            "aliases": [
+                "tiab"
+            ]
+        },
+        "spice-of-life-carrot-edition": {
+            "aliases": [
+                "sol"
+            ]
+        },
+        "architectury-api": {
+            "aliases": [
+                "arch"
+            ]
+        },
+        "open-parties-and-claims": {
+            "aliases": [
+                "opac"
+            ]
+        },
+        "its-the-little-things": {
+            "aliases": [
+                "itlt"
+            ]
+        },
+        "when-dungeons-arise-seven-seas": {
             "update_strategy": "NONE"
         },
-        "one-enough-item": {
-            "update_strategy": "NONE"
+        "3dskinlayers": {
+            "redistributable": true
         },
-        "better-advancements": {
-            "update_strategy": "NONE"
+        "bee-fix": {
+            "redistributable": true
+        },
+        "classic-and-simple-status-bars": {
+            "redistributable": true
+        },
+        "create-fast-schematiccannon": {
+            "redistributable": true
+        },
+        "entityculling": {
+            "redistributable": true
+        },
+        "etcetera": {
+            "redistributable": true
+        },
+        "gputape": {
+            "redistributable": true
+        },
+        "immortalers-delight": {
+            "redistributable": true
+        },
+        "krypton-fnp": {
+            "redistributable": true
+        },
+        "not-enough-animations": {
+            "redistributable": true
+        },
+        "zetter-gallery": {
+            "redistributable": true
+        },
+        "skin-layers-3d": {
+            "redistributable": true
         }
     }
 }
