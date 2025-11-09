@@ -1,20 +1,40 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "m m",
-    "m m",
-    "p p"
-  ],
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
   "key": {
-    "p": {
+    "T": {
+      "item": "l2complements:totemic_gold_block"
+    },
+    "W": {
       "item": "l2complements:sculkium_block"
     },
-    "m": {
-      "item": "l2complements:totemic_gold_block"
+    "N": {
+      "item": "irons_spellbooks:netherite_mage_leggings"
+    },
+    "f": {
+      "item": "l2complements:soul_flame"
+    },
+    "s": {
+      "item": "l2complements:storm_core"
+    },
+    "d": {
+      "item": "l2complements:cursed_droplet"
+    },
+    "r": {
+      "item": "the_bumblezone:essence_raging"
+    },
+    "c": {
+      "item": "the_bumblezone:essence_continuity"
     }
   },
+  "pattern": [
+    "TsNsT",
+    "TdfdT",
+    "Tr cT",
+    "T   T",
+    "W   W"
+  ],
   "result": {
-    "item": "majobroom:majo_stocking",
-    "count": 1
+    "item": "majobroom:majo_stocking"
   }
 }

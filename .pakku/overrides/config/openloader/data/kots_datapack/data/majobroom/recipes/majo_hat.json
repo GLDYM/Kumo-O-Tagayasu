@@ -1,23 +1,46 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " pg",
-    "pmp",
-    "   "
-  ],
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
   "key": {
-    "p": {
+    "S": {
       "item": "l2complements:shulkerate_block"
     },
-    "g": {
+    "T": {
       "item": "l2complements:totemic_gold_block"
     },
-    "m": {
+    "P": {
       "item": "l2complements:poseidite_block"
+    },
+    "N": {
+      "item": "irons_spellbooks:netherite_mage_helmet"
+    },
+    "G": {
+      "item": "irons_spellbooks:gold_crown"
+    },
+    "f": {
+      "item": "l2complements:resonant_feather"
+    },
+    "e": {
+      "item": "l2complements:guardian_eye"
+    },
+    "v": {
+      "item": "l2complements:void_eye"
+    },
+    "c": {
+      "item": "the_bumblezone:essence_calming"
+    },
+    "k": {
+      "item": "the_bumblezone:essence_knowing"
     }
   },
+  "pattern": [
+    "     ve",
+    "    PTv",
+    "  PPP  ",
+    " ScGkS ",
+    "SffNffS"
+  ],
   "result": {
-    "item": "majobroom:majo_hat",
-    "count": 1
+    "item": "majobroom:majo_hat"
   }
 }

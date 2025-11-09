@@ -1,20 +1,37 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "   ",
-    "m m",
-    "p p"
-  ],
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
   "key": {
-    "p": {
+    "S": {
       "item": "l2complements:shulkerate_block"
     },
-    "m": {
+    "P": {
       "item": "l2complements:poseidite_block"
+    },
+    "N": {
+      "item": "irons_spellbooks:netherite_mage_boots"
+    },
+    "s": {
+      "item": "l2complements:sun_membrane"
+    },
+    "i": {
+      "item": "l2complements:hard_ice"
+    },
+    "c": {
+      "item": "l2complements:captured_wind"
+    },
+    "f": {
+      "item": "the_bumblezone:essence_life"
     }
   },
+  "pattern": [
+    " SiS ",
+    " SNS ",
+    "SPfPS",
+    "scics"
+  ],
   "result": {
-    "item": "majobroom:majo_boots",
-    "count": 1
+    "item": "majobroom:majo_boots"
   }
 }
+

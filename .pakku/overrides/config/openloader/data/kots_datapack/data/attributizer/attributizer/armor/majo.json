@@ -1,0 +1,57 @@
+{
+  "majobroom:majo_hat":[
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "modify": 15000,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "modify": 2,
+      "uuid": "0e5696e2-01b8-4262-8602-51763d143803",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.5,
+      "uuid": "2889306d-c89c-4f87-83ef-6f2f801e9242",
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "modify": 0.8,
+      "uuid": "4a05d3f1-dcb9-4e6d-b8bf-ff656dac9713",
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "irons_spellbooks:mana_regen",
+      "modify": 0.5,
+      "uuid": "b600f18c-8c0c-4b9b-8af8-4f19b5fabd17",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "majobroom:majo_cloth":[
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.5,
+      "uuid": "d8efc84f-9e8b-4139-996a-f9156f589ef9",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "majobroom:majo_stocking":[
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.5,
+      "uuid": "ada1c84e-d594-4ef2-92cc-8fcdf1d86f0c",
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "majobroom:majo_boots":[
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.5,
+      "uuid": "ecac180e-be2d-42a7-ab6f-db89f582c3a2",
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

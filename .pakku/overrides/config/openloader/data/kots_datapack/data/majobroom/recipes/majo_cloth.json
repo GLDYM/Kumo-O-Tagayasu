@@ -1,23 +1,37 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " p ",
-    "pmp",
-    "pgp"
-  ],
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
   "key": {
-    "p": {
+    "S": {
       "item": "l2complements:shulkerate_block"
     },
-    "g": {
-      "item": "l2complements:poseidite_block"
-    },
-    "m": {
+    "E": {
       "item": "l2complements:eternium_block"
+    },
+    "N": {
+      "item": "irons_spellbooks:netherite_mage_chestplate"
+    },
+    "f": {
+      "item": "l2complements:force_field"
+    },
+    "b": {
+      "item": "l2complements:blackstone_core"
+    },
+    "l": {
+      "item": "l2complements:life_essence"
+    },
+    "r": {
+      "item": "the_bumblezone:essence_radiance"
     }
   },
+  "pattern": [
+    " S   S ",
+    " SfNfS ",
+    " SlrlS ",
+    " SbEbS ",
+    "SS   SS"
+  ],
   "result": {
-    "item": "majobroom:majo_cloth",
-    "count": 1
+    "item": "majobroom:majo_cloth"
   }
 }
