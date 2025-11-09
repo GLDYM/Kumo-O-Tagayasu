@@ -11,7 +11,7 @@
 		}
 	}
 	id: "0D10279D33D8E73E"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -769,7 +769,7 @@
 			tasks: [{
 				count: 8L
 				id: "76BBD41D1C8B7297"
-				item: "touhou_little_maid:smart_slab_empty"
+				item: { Count: 8, id: "touhou_little_maid:smart_slab_empty" }
 				type: "item"
 			}]
 			title: "空魂符"

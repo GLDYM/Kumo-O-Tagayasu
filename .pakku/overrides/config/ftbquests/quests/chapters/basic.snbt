@@ -5,7 +5,7 @@
 	group: "3B8AF43E1258A852"
 	icon: "minecraft:iron_ingot"
 	id: "3625241A3B4A35B2"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -305,9 +305,10 @@
 					type: "item"
 				}
 				{
-					id: "1AF450E861F340FF"
-					type: "xp_levels"
-					xp_levels: 1
+					count: 256
+					id: "5B7766A323CB7447"
+					item: "minecraft:andesite"
+					type: "item"
 				}
 			]
 			size: 1.5d

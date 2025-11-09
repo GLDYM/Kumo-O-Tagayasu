@@ -54,6 +54,7 @@
 				""
 				"多重搜索：用&a|&r字符分隔关键词，如“wrench|hammer”。"
 			]
+			icon: "ftbquests:book"
 			id: "3EC718092B2DD9AD"
 			shape: "gear"
 			size: 3.0d
@@ -132,7 +133,7 @@
 			description: [
 				"附魔台被禁用了，不过你还是可以通过其他方式获得附魔，如村民交易、战利品箱、蜂蜜结晶花等。"
 				""
-				"之后可以使用附魔工业的打印机复制它们。"
+				"之后使用附魔工业的打印机复制它们。"
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:enchanting_table"
@@ -224,7 +225,7 @@
 			description: [
 				"潜行右键可以打开相机的界面，放入胶卷后右键就可以拍照。"
 				""
-				"胶卷需要放到暗房中冲洗。"
+				"胶卷需要使用水瓶或药水冲洗，之后放入暗房中显影。这个流程可以使用机械动力。"
 			]
 			hide_until_deps_complete: true
 			id: "4FBC5309BBFBBE18"
@@ -366,34 +367,6 @@
 		{
 			dependencies: ["3EC718092B2DD9AD"]
 			description: [
-				"@the_bumblezone"
-				""
-				"黄蜂领域是整合包内少有的“冒险”模组，其提供了很多蜂蜜资源以及不错的毕业物品。"
-				""
-				"类似于暮色森林，黄蜂领域的流程强依赖于进度，因此建议按照进度游玩。"
-				""
-				"向蜂巢内丢末影珍珠即可进入黄蜂领域。"
-			]
-			hide_until_deps_complete: true
-			icon: "minecraft:bee_nest"
-			id: "2FE44DE4F0153111"
-			rewards: [{
-				id: "73EF1282D411FBA8"
-				item: "minecraft:bee_nest"
-				type: "item"
-			}]
-			size: 1.5d
-			tasks: [{
-				id: "598EEC9B2E3383FF"
-				type: "checkmark"
-			}]
-			title: "黄蜂领域"
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3EC718092B2DD9AD"]
-			description: [
 				"在 Minecraft 中玩 Uno！"
 				""
 				"操作："
@@ -426,6 +399,61 @@
 			title: "Mino++"
 			x: -4.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: [
+				"建筑手杖可以帮助你一次性放置多个方块，在空中放置方块或者摧毁方块。"
+				""
+				"&a[左SHIFT]+滚轮&r可以切换放置的模式。 &a[左SHIFT]+左键&r可以切换核心。"
+				""
+				"&a[左SHIFT]+[左CTRL]+左键&r可以打开配置界面。"
+				""
+				"对着上一次修改的方块&a[左SHIFT]+[左CTRL]+右键&r可以撤回上一次破坏/放置。"
+				""
+				"[INFO]如果你正在游玩 KOTS 5.3.5，手杖支持放置背包内的方块。SHIFT 检测也恢复正常，而非原先的检测蹲下。"
+			]
+			icon: {
+				Count: 1
+				id: "constructionwand:infinity_wand"
+				tag: {
+					wand_options: {
+						cores: [
+							"constructionwand:core_angel"
+							"constructionwand:core_destruction"
+						]
+						cores_sel: 0b
+						lock: "nolock"
+					}
+				}
+			}
+			id: "4D5E8D8466A0F867"
+			rewards: [{
+				id: "7B9D53B553A3D95A"
+				item: {
+					Count: 1
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: {
+							cores: [
+								"constructionwand:core_angel"
+								"constructionwand:core_destruction"
+							]
+							cores_sel: 0b
+							lock: "horizontal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "63631EB99BD35EC5"
+				title: "建筑手杖"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
 		}
 	]
 	title: "&b实用模组介绍 "

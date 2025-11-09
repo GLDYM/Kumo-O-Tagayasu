@@ -5,12 +5,12 @@
 	group: "31669C96F582CF92"
 	icon: "majobroom:broom_item"
 	id: "1B290DA22A8E2132"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"听说，只要学会了一种特殊的魔法，就可以把静物变成人形？"
+				"&o&3听说，只要学会了一种特殊的魔法，就可以把静物变成人形？&r"
 				""
 				"按下&a[R]&r可以放出或收起扫帚，&a[空格]&r上升而&a[左Ctrl]&r下降，&a[左SHIFT]&r离开扫帚。"
 				""
@@ -162,7 +162,7 @@
 			description: [
 				"&b如果你有多余的永恒锭，可以来这里尝试抽取永恒附魔书。"
 				""
-				"&b如果你对自己的运气没信心，还是合成吧。"
+				"&b如果你对自己的运气没信心，还是老实合成吧。"
 			]
 			id: "3D2C042623ED2D26"
 			rewards: [{

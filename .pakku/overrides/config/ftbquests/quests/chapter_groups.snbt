@@ -1,6 +1,6 @@
 {
 	chapter_groups: [
-		{ id: "3B8AF43E1258A852", title: "&e序章" }
+		{ id: "3B8AF43E1258A852", title: "&e基础" }
 		{ id: "65DBD493CCEDCEF5", title: "&a进阶" }
 		{ id: "31669C96F582CF92", title: "&5挑战" }
 	]

@@ -11,16 +11,16 @@
 		}
 	}
 	id: "7E134D75B3BBB797"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"本模组提供了大量特殊的材料，玩家需要完成特殊挑战来获得材料。"
+				"&o&5你不满足于普通的物品，选择追求独一无二的材料，锻造那些只存在于传说中的神兵……&r"
 				""
-				"&b这些挑战可能会非常红温，建议做好充足的准备再进行。铁魔法、机械动力等模组的内容对于某些材料的获取十分有帮助。"
+				"莱特兰提供了大量特殊的材料，这些材料拥有着独特的获取途径。"
 				""
-				"&a理论上本章的材料都可以进行量产。如果前面章节的量产对于你来说都太简单了，可以尝试本章材料的量产。"
+				"&b这些材料在纯原版下均有解；但是灵活应用其他模组的内容可以大幅度简化这些材料的获取难度，甚至量产这些材料。"
 				""
 				"&a常见的生物量产方法：用笼子获取刷怪蛋，召唤生物后提取DNA，DNA置于笼子内后再次变成刷怪蛋。也可以搬刷怪笼。"
 			]
@@ -32,7 +32,7 @@
 				id: "5DEF2D3ECB5EF5BD"
 				type: "checkmark"
 			}]
-			title: "&6莱特兰-扩充"
+			title: "&6莱特兰"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -54,7 +54,7 @@
 			description: [
 				"起飞！"
 				""
-				"&a一种可能的思路：在雨天使用激流III三叉戟，从雪线向下加速飞。"
+				"&a一种可能的思路：在雨天使用激流III(IV更好)三叉戟，从雪线向下加速飞。"
 			]
 			hide_until_deps_visible: true
 			id: "59C65D9F40BA247A"
@@ -104,7 +104,11 @@
 		}
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
-			description: ["围观群众：这个人为什么要带着一群幻翼在y=319起飞"]
+			description: [
+				"围观群众：这个人为什么要带着一群幻翼在y=319起飞"
+				""
+				"&a一种可能的思路：使用扫帚悬停在y=520。"
+			]
 			hide_until_deps_complete: true
 			id: "0B76C937BD7577CE"
 			tasks: [{
@@ -135,7 +139,11 @@
 		}
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
-			description: ["较为简单的获取方式，以至于和其他材料格格不入（"]
+			description: [
+				"较为简单的获取方式，以至于和其他材料格格不入（"
+				""
+				"&a一种可能的思路：利用生物笼获取溺尸刷怪蛋后转换刷怪笼。"
+			]
 			hide_until_deps_complete: true
 			id: "7503242768D82BBE"
 			tasks: [{
@@ -148,7 +156,11 @@
 		}
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
-			description: ["困住恶魂后使用魂炎弹击杀获得。"]
+			description: [
+				"困住恶魂后使用魂炎弹击杀获得。"
+				""
+				"&a一种可能的思路：直接击杀。"
+			]
 			hide_until_deps_complete: true
 			id: "589B036897FCA3C7"
 			tasks: [{
@@ -161,7 +173,11 @@
 		}
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
-			description: ["使用爆炎弹攻击幻翼后获得。"]
+			description: [
+				"使用爆炎弹攻击幻翼后获得。"
+				""
+				"&a一种可能的思路：直接击杀。"
+			]
 			hide_until_deps_complete: true
 			id: "7246A8DB4D05C91D"
 			tasks: [{
@@ -174,7 +190,11 @@
 		}
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
-			description: ["使用黑炎弹攻击猪灵蛮兵后杀死它。"]
+			description: [
+				"使用黑炎弹攻击猪灵蛮兵后杀死它。"
+				""
+				"&a一种可能的思路：黑炎弹攻击到蛮兵后使用魔法击杀。"
+			]
 			hide_until_deps_complete: true
 			id: "08BDB731A3E44277"
 			tasks: [{
@@ -209,7 +229,7 @@
 				""
 				"&a一种可能的思路：机械手手持永恒剑击杀监守者；监守者由天然尖啸体，刷怪笼或生物笼获取。"
 				""
-				"&a另一种可能的思路：铁魔法"
+				"&a另一种可能的思路：使用魔法直接击杀。"
 			]
 			hide_until_deps_complete: true
 			id: "2BB501958B2833D8"
@@ -298,7 +318,7 @@
 		}
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
-			description: ["材料特性：消耗耐久时治疗使用者"]
+			description: ["材料特性：消耗耐久时治疗使用者。"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "716328F5A86B767F"
@@ -307,12 +327,12 @@
 				item: "l2complements:totemic_gold_ingot"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -4.0d
+			x: 5.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
-			description: ["材料特性：在水/雨中时，拥有强化效果"]
+			description: ["材料特性：在水/雨中时，拥有强化效果。"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "76599B9323E62A20"
@@ -321,12 +341,12 @@
 				item: "l2complements:poseidite_ingot"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.0d
+			x: 5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
-			description: ["材料特性：极其坚硬，每次最多减少1耐久"]
+			description: ["材料特性：极其坚硬，每次最多减少1耐久。追求距离的材料。"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "476CE657941C95AC"
@@ -336,11 +356,11 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
-			description: ["材料特性：全套幽匿套会消除玩家发出的声音"]
+			description: ["材料特性：全套幽匿套会消除玩家发出的声音。追求速度的材料。"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "345578A1C453EA9B"
@@ -350,11 +370,11 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
-			description: ["材料特性：无限的耐久，极高的面板"]
+			description: ["材料特性：耐久不消耗。基础面板极高。"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0F942D9DF85807D3"
@@ -364,7 +384,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]

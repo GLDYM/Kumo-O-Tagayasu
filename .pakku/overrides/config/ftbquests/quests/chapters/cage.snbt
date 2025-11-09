@@ -10,11 +10,11 @@
 	quests: [
 		{
 			description: [
-				"普通的知识已经满足不了你了，你开始去寻找一些禁忌的知识……"
+				"&o&5普通的知识已经满足不了你了，你开始去寻找一些禁忌的知识……&r"
 				""
-				"在笼子内铺设合适的环境，将 DNA 放入笼子内，笼子就可以自动生产生物；待生物成熟后，用剑右击笼子就能获得生物的战利品。"
+				"在生物笼内铺设合适的环境，将 DNA 放入生物笼内，生物笼就可以自动生产生物。待生物成熟后，用剑右击生物笼就能获得生物的战利品。"
 				""
-				"笼子也可以作为 DNA 的中转站，生产出生物蛋，并利用自然生成的刷怪笼量产生物……"
+				"普通生物笼更多作为 DNA 的中转站以获取生物蛋，并利用自然生成的刷怪笼生产实体。"
 			]
 			hide_until_deps_complete: true
 			icon: "cagedmobs:mob_cage"
@@ -37,7 +37,11 @@
 		}
 		{
 			dependencies: ["2B2EF5CF2C51C4FC"]
-			description: ["漏式生物笼可以自动收集并将产物输入到下方的容器中，不需要手动收集。"]
+			description: [
+				"&b漏式生物笼&r可以自动收集并将产物输入到下方的容器中，不需要手动收集。"
+				""
+				"&b漏式生物笼&r可以轻松嵌入机械动力产线中，作为某样生物资源的稳定提供源。"
+			]
 			hide_until_deps_complete: true
 			id: "2DC9B6148BDF301E"
 			rewards: [{
@@ -55,6 +59,11 @@
 		}
 		{
 			dependencies: ["2B2EF5CF2C51C4FC"]
+			description: [
+				"为了获取 DNA，需要制作 DNA 提取器。不同材质的提取器可以采取的生物不同。"
+				""
+				"提取器可以重复使用。"
+			]
 			hide_until_deps_complete: true
 			id: "3055C4CD3D0320C5"
 			tasks: [{
@@ -67,6 +76,7 @@
 		}
 		{
 			dependencies: ["3055C4CD3D0320C5"]
+			description: ["最开始的 18 个潜影壳和 9 个幻翼膜需要手动获取；之后可以提取 DNA 自动生产。"]
 			id: "7734888167E430A8"
 			tasks: [{
 				id: "64B344F6AE795B39"
@@ -78,6 +88,7 @@
 		}
 		{
 			dependencies: ["7734888167E430A8"]
+			description: ["总体上海神块比较耗时，建议多做几个笼子并加上升级。"]
 			id: "4C9AC79E0ED97925"
 			tasks: [{
 				id: "524945490CCFA0AB"
@@ -89,7 +100,7 @@
 		}
 		{
 			dependencies: ["2B2EF5CF2C51C4FC"]
-			description: ["普通的加速芯片。"]
+			description: ["普通的加速芯片，材料不难获取。"]
 			hide_until_deps_complete: true
 			id: "421D9CF64D6A54B5"
 			rewards: [{

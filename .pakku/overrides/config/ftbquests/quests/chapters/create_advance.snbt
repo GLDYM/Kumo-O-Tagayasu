@@ -5,15 +5,22 @@
 	group: "31669C96F582CF92"
 	icon: "create:wrench"
 	id: "36388A6AEA2B477F"
-	order_index: 1
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"&b本章节是对于其他章节的补充，指引整合包内基本资源的量产。其他的物品大多可如法炮制。"
+				"&b本章节是对于其他章节的补充，旨在指引长期服务器中基本资源的量产。其他的物品大多可如法炮制。"
 				""
-				"&b本章节假定已有无限岩浆源与足够应力。"
+				"&b如果只是玩短期存档，那么上一章节就是毕业章节。"
+				""
+				"&6本章节假定已有无限岩浆与足够应力。"
+				""
+				"&6V5：集成化，单个机器完成一系列流程后输出确定的产物，大多没有输入或固定输入。"
+				""
+				"&6V6：模块化，单个机器完成一种流程，输出不固定，按需求输入。"
 			]
+			icon: "create:wrench"
 			id: "2D8639FB72C3D3EF"
 			rewards: [{
 				id: "5FA3236EED5AD580"
@@ -53,31 +60,31 @@
 				{
 					count: 64L
 					id: "7B76DB01295940BD"
-					item: "minecraft:iron_block"
+					item: { Count: 64, id: "minecraft:iron_block" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "3979917C0CD6919F"
-					item: "minecraft:gold_block"
+					item: { Count: 64, id: "minecraft:gold_block" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "6049E709CEBCB3A6"
-					item: "minecraft:copper_block"
+					item: { Count: 64, id: "minecraft:copper_block" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "4529E41DC1677750"
-					item: "create:zinc_block"
+					item: { Count: 64, id: "create:zinc_block" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "14C72276636F7162"
-					item: "caverns_and_chasms:silver_block"
+					item: { Count: 64, id: "caverns_and_chasms:silver_block" }
 					type: "item"
 				}
 			]
@@ -103,7 +110,7 @@
 			tasks: [{
 				count: 512L
 				id: "3B29B27275A4215F"
-				item: "create:andesite_alloy"
+				item: { Count: 512, id: "create:andesite_alloy" }
 				type: "item"
 			}]
 			title: "&6基本：安山合金机"
@@ -117,7 +124,7 @@
 				""
 				"&aV5：搭建树场与安山合金机。安山合金经过黄铜隧道分二路，一路合成机壳，另一部分切成传动杆再分两路。原木切成去皮原木后经过黄铜隧道分两路，一部分合成机壳，另一部分切成木板后再分三路。一路传动杆与一路木板合成小齿轮，另一路传动杆与两路木板合成大齿轮。"
 				""
-				"&aV6：动力合成。"
+				"&aV6：动力合成大小齿轮，机壳使用机壳机。"
 			]
 			icon: "create:large_cogwheel"
 			id: "6CE900F3B017230E"
@@ -131,25 +138,25 @@
 				{
 					count: 256L
 					id: "2BF6EDE240533FDB"
-					item: "create:andesite_casing"
+					item: { Count: 256, id: "create:andesite_casing" }
 					type: "item"
 				}
 				{
 					count: 256L
 					id: "0125FBCC1D8813C4"
-					item: "create:shaft"
+					item: { Count: 256, id: "create:shaft" }
 					type: "item"
 				}
 				{
 					count: 256L
 					id: "56796EC6262B1E07"
-					item: "create:cogwheel"
+					item: { Count: 256, id: "create:cogwheel" }
 					type: "item"
 				}
 				{
 					count: 256L
 					id: "7296C72DDA3B307F"
-					item: "create:large_cogwheel"
+					item: { Count: 256, id: "create:large_cogwheel" }
 					type: "item"
 				}
 			]
@@ -176,7 +183,7 @@
 			tasks: [{
 				count: 128L
 				id: "2789C57EE78A5EBF"
-				item: "create:brass_ingot"
+				item: { Count: 128, id: "create:brass_ingot" }
 				type: "item"
 			}]
 			title: "&6基本：黄铜"
@@ -202,7 +209,7 @@
 			tasks: [{
 				count: 64L
 				id: "4FD9485239282F00"
-				item: "createutilities:void_casing"
+				item: { Count: 64, id: "createutilities:void_casing" }
 				type: "item"
 			}]
 			title: "&6基本：虚空机壳"
@@ -223,31 +230,31 @@
 				{
 					count: 64L
 					id: "2507A6AD80AF821E"
-					item: "minecraft:phantom_membrane"
+					item: { Count: 64, id: "minecraft:phantom_membrane" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "09D06924B1014F6C"
-					item: "minecraft:slime_ball"
+					item: { Count: 64, id: "minecraft:slime_ball" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "1141FDFE562CD4DE"
-					item: "minecraft:netherite_scrap"
+					item: { Count: 64, id: "minecraft:netherite_scrap" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "2C3ABE865FA6CB33"
-					item: "minecraft:redstone"
+					item: { Count: 64, id: "minecraft:redstone" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "3A563817BB90C738"
-					item: "minecraft:ender_pearl"
+					item: { Count: 64, id: "minecraft:ender_pearl" }
 					type: "item"
 				}
 			]
@@ -269,7 +276,7 @@
 			tasks: [{
 				count: 64L
 				id: "380F775DA3A63749"
-				item: "create:precision_mechanism"
+				item: { Count: 64, id: "create:precision_mechanism" }
 				type: "item"
 			}]
 			title: "&6基本：精密构件"
@@ -286,13 +293,13 @@
 				{
 					count: 64L
 					id: "7B89354AE77D0932"
-					item: "minecraft:nether_star"
+					item: { Count: 64, id: "minecraft:nether_star" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "0A27751C95B28E50"
-					item: "l2complements:totemic_gold_ingot"
+					item: { Count: 64, id: "l2complements:totemic_gold_ingot" }
 					type: "item"
 				}
 				{
@@ -304,7 +311,7 @@
 				{
 					count: 64L
 					id: "4FFCED9374982F74"
-					item: "minecraft:shulker_shell"
+					item: { Count: 64, id: "minecraft:shulker_shell" }
 					type: "item"
 				}
 			]
@@ -329,7 +336,7 @@
 			tasks: [{
 				count: 64L
 				id: "7FAC1AFCF1337098"
-				item: "l2complements:sculkium_ingot"
+				item: { Count: 64, id: "l2complements:sculkium_ingot" }
 				type: "item"
 			}]
 			title: "&6进阶：幽匿锭"
@@ -352,7 +359,7 @@
 			tasks: [{
 				count: 256L
 				id: "553DF251EFE46D8C"
-				item: "minecraft:diamond"
+				item: { Count: 64, id: "minecraft:diamond" }
 				type: "item"
 			}]
 			title: "&6基础：钻石"
@@ -376,7 +383,7 @@
 			}]
 			size: 1.5d
 			tasks: [{
-				count: 64L
+				count: 32L
 				id: "4CC12FE413CBB101"
 				item: "l2complements:eternium_ingot"
 				type: "item"
@@ -397,7 +404,7 @@
 			tasks: [{
 				count: 256L
 				id: "5BA358B2ECC53687"
-				item: "minecraft:quartz"
+				item: { Count: 256, id: "minecraft:quartz" }
 				type: "item"
 			}]
 			title: "&6基本：下界石英"
@@ -419,19 +426,76 @@
 				{
 					count: 64L
 					id: "21668772541856B8"
-					item: "create:electron_tube"
+					item: { Count: 64, id: "create:electron_tube" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "583B80C17F8D5A16"
-					item: "createutilities:graviton_tube"
+					item: { Count: 64, id: "createutilities:graviton_tube" }
 					type: "item"
 				}
 			]
 			title: "&6基础：电子管和真空管"
 			x: 5.0d
 			y: 2.5d
+		}
+		{
+			description: [
+				"你可能会想问：这是人能做的吗？但是这个真能做。"
+				""
+				"&aV6：工厂仪表自动补货青金石与发光墨囊，用黄铜溜槽或者动力臂均分材料。手动搓一个超越经验瓶，输出用移液器与流体接口（或者智能流体接口）过滤。超级燃烧用大豆油。附魔书模板用古卷升级附魔书。"
+			]
+			id: "2A29BF889DAB625F"
+			rewards: [{
+				id: "11A6595EF022B38C"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				count: 8L
+				id: "4AC6C525C81F62AF"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:efficiency"
+							lvl: 6s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "&6进阶：超越经验机"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"使用 V6 的模块化自动化思路中不得不品的一环，V5 可以无视这个任务。"
+				""
+				"&aV6：造一个加水的搅拌机器。树苗加水搅拌变纸张，压板得到纸板，压块得到纸板块，动力合成得到打包机。"
+			]
+			id: "5092E0A0A84C2C00"
+			rewards: [{
+				id: "7E3CDB9C5CB926D6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				count: 64L
+				id: "5A6CC3AF57AD473F"
+				item: "create:packager"
+				type: "item"
+			}]
+			title: "&6基础：打包机"
+			x: 0.0d
+			y: -2.5d
 		}
 	]
 	title: "&5资深工程师"

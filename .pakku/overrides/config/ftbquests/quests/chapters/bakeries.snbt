@@ -11,7 +11,7 @@
 		}
 	}
 	id: "064BBA5351240699"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -63,7 +63,7 @@
 				{
 					count: 6L
 					id: "6A4101FC24D05E93"
-					item: "bakeries:bottle_yeast"
+					item: { Count: 6, id: "bakeries:bottle_yeast" }
 					type: "item"
 				}
 			]
@@ -442,7 +442,7 @@
 			tasks: [{
 				count: 8L
 				id: "2B62ED9459D45A92"
-				item: "bakeries:cheese_cube"
+				item: { Count: 8, id: "bakeries:cheese_cube" }
 				type: "item"
 			}]
 			title: "干酪块"
@@ -461,7 +461,7 @@
 				{
 					count: 2L
 					id: "020CFCE444C5A7AF"
-					item: "bakeries:cut_cake_base"
+					item: { Count: 2, id: "bakeries:cut_cake_base" }
 					type: "item"
 				}
 				{

@@ -11,11 +11,22 @@
 		}
 	}
 	id: "0D4186DB4D2C0B87"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			description: ["成为法术大师吧！"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:ice_staff"
+				tag: {
+					ISBUpgrades: [{
+						id: "irons_spellbooks:lightning_power"
+						slot: "mainhand"
+						upgrades: 10
+					}]
+				}
+			}
 			id: "2D8AD2C295B7BC56"
 			rewards: [{
 				id: "06BCAE8BD13AE617"
@@ -516,7 +527,7 @@
 			tasks: [{
 				count: 6L
 				id: "2CAC86BF193DDB0A"
-				item: "irons_spellbooks:legendary_ink"
+				item: { Count: 10, id: "irons_spellbooks:legendary_ink" }
 				type: "item"
 			}]
 			title: "传说墨水！"
