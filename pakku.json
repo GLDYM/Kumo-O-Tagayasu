@@ -98,6 +98,18 @@
         },
         "skin-layers-3d": {
             "redistributable": true
+        },
+        "creativecore": {
+            "side": "BOTH"
+        },
+        "geckolib": {
+            "side": "BOTH"
+        },
+        "world-preview": {
+            "side": "BOTH"
+        },
+        "pro-placer": {
+            "side": "BOTH"
         }
     }
 }
