@@ -4455,48 +4455,6 @@
             ]
         },
         {
-            "pakku_id": "K6d2fxBzrnYnGIAW",
-            "pakku_links": [
-                "RxcfHp3l3Wyn2SNg"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "create-pattern-schematics"
-            },
-            "name": {
-                "modrinth": "Create: Pattern Schematics"
-            },
-            "id": {
-                "modrinth": "cpqKG67r"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "pattern_schematics-1.2.3+forge-1.20.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/cpqKG67r/versions/bLe1pVfd/pattern_schematics-1.2.3+forge-1.20.1.jar",
-                    "id": "bLe1pVfd",
-                    "parent_id": "cpqKG67r",
-                    "hashes": {
-                        "sha512": "a6353f740c91324e1c6d5568292fa7caa2a30fd2776c357ac962ef85dafb544f490f6b7df1343baf3b9d5543602d1704c421e4cec949f441abba200979afa9d8",
-                        "sha1": "d752660d32d4f87b4c4d7fee49bafdf9d011529e"
-                    },
-                    "required_dependencies": [
-                        "LNytGWDc"
-                    ],
-                    "size": 221150,
-                    "date_published": "2025-03-16T08:19:01.478496Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "n7poo7iXaRZggSIJ",
             "pakku_links": [
                 "RxcfHp3l3Wyn2SNg"
