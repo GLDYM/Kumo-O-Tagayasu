@@ -4,7 +4,7 @@
     <img src="./icon.png" alt="icon" style="zoom:200%;">
 </a>
 
-# Kumo O Tagayasu 耕云钓月
+# 耕云钓月 Kumo O Tagayasu
 
 <a href="./LICENSE">
     <img src="https://img.shields.io/badge/license-AGPL--v3.0--or--later-8A2BE2" alt="license">
@@ -24,63 +24,66 @@
 
 </div>
 
-## 简介
+## 简介 Introduction
 
 Kumo O Tagayasu 耕云钓月是一个注重田园体验的综合整合包，补全了大部分材料的量产，旨在给予玩家一个休闲惬意的游戏体验。
 
-整合包分发地址：[https://www.mcmod.cn/modpack/1017.html](https://www.mcmod.cn/modpack/1017.html)
+Born for server, Kumo O Tagayasu is a comprehensive modpack that fills in the missing materials, intended to give players a relaxing and enjoyable game experience.
 
-## 如何使用
+## 如何使用 How to use
 
-为了防止服务端与客户端不匹配，本项目的文件结构采用 Modrinth 整合包格式。
+下载 Release 的文件后拖入启动器中安装。
 
-要获得客户端，下载 Release 中的 `mrpack` 文件后拖入启动器中安装。
+Download the release file and drop it into the launcher to install.
 
-要获得服务端，请从参考 [服务端搭建指南](./Server.md)。
+要获得服务端，或者自定义游戏体验，请参考 [服务端搭建指南](./Server.md)。
 
-## 开发
+To obtain a server or customize your game experience, please refer to [Server Building Guide](./Server.md). This docs have no English translation now, so use translator.
 
-本项目下有两个分项目：
+## 开发 & 贡献 Development & Contribution
 
-- Kumo O Tagayasu 耕云钓月整合包
-- Mandalas GUI - Dark Mode KOTS Compat：适配织彩钓月与耕云钓月整合包的 Mandalas GUI - Dark Mode 资源包拓展
+请参考 [开发指南](./CONTRIBUTING.md)。
 
-如果想要对本项目进行修改/PR，可以 Fork 本项目后 Clone 到本地进行修改。
+Please refer to [Development Guide](./CONTRIBUTING.md).
 
->  该整合包使用数据包驱动修改，这些配方位于 `.pakku/overrides/config/openloader/data/kots_datapack/data`中。
-
-整合包接受如下 PR：
-
-- FTBQ 任务；
-- Tag 缺失；
-- 对于模组的增删修改，并说明增删修改的理由；
-- 对于整合包配方的修改，并说明修改的理由；
-- 对于整合包配置文件的修改，并说明修改的理由；
-- 对整合包内置资源包的补充。
-
-
-## 协议
+## 协议 License
 
 许可证使用 AGPL-v3-or-later。如果你想要使用本项目去实现一些特殊需求，则你需要接受许可。
 
+AGPL-v3-or-later. If you want to implement some special requirements, you need to accept the license.
+
 许可证补充：
+
+Later parts of the license:
 
 你被允许做的，但需要保留作者、原作信息与本项目地址（月见清兰 & 北辰星光，Kumo O Tagayasu）：
 
+You are allowed to do the following, but you need to keep the author, original work information and project address (TskimiSeiran & Polaris_Light, Kumo O Tagayasu):
+
 - 在不修改整合包或资源包自身的情况下，使用本整合包进行视频制作等多媒体创作并获利。
 - 在不修改整合包或资源包自身的情况下，将整合包或资源包进行转载、存储、供其他玩家下载或开设公益服务器。
-- 二次修改整合包或资源包，或将已被修改的整合包或资源包的包体进行分发或开设公益服务器。但你必须公开经过修改的整合包或资源包，并以相同协议分发。本社不会为被二次修改的包体提供任何帮助支持。
+- 二次修改整合包或资源包，或将已被修改的整合包或资源包的包体进行分发或开设公益服务器。但你必须公开经过修改的整合包或资源包，并以相同协议分发。本人不会为被二次修改的包体提供任何帮助支持。
 - 开设公益服务器并接受赞助。
 
+- Create multimedia works such as videos using this modpack and make money with this modpack without modifying the modpack or resourcepack.
+- Store, redistribute or open a not-pay-2-win server of the modpack or resourcepack without modifying the modpack or resourcepack.
+- Modify the modpack or resourcepack and distribute the modified modpack or resourcepack without modifying the modpack or resourcepack. You must publicly distribute the modified modpack or resourcepack and distribute it under the same license. I will not provide any help support for the modified modpack or resourcepack.
+- Open a not-pay-2-win server of the modpack or resourcepack and accept sponsors.
+
 你被禁止做的：
+
+You are forbidden to do the following:
 
 - 未经授权售卖本整合包与资源包。
 - 未经授权将本整合包与资源包上传至 Curseforge 或 Modrinth 等平台，以获取平台的利益。
 
-## 特别感谢
+- Sell this modpack and resourcepack without authorization.
+- Redistribute this modpack and resourcepack on Curseforge or Modrinth, which will get the benefits of the platform.
 
-- [羽舲](https://github.com/Hanekmio)
+## 特别感谢 Special Thanks
+
+- [羽舲 Hanekmio](https://github.com/Hanekmio)
 - [baguchan](https://github.com/baguchi)
-- [沐辰](https://github.com/TimeBather/)
-- [瑞雪真冬](https://github.com/Mafuyu404)
+- [沐辰 TimeBather](https://github.com/TimeBather/)
+- [瑞雪真冬 Mafuyu404](https://github.com/Mafuyu404)
 
