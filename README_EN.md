@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/license2-CC--BY--NC--SA--4.0-8A2BE2" alt="license2">
 </a>
 
-<a href="./Changelog.md">
+<a href="https://github.com/GLDYM/Kumo-O-Tagayasu/releases">
     <img src="https://img.shields.io/badge/version-5.3.4-9999FF" alt="version">
 </a>
 
