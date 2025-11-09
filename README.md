@@ -26,7 +26,7 @@
 
 ## 简介
 
-分叉于织彩钓月，Kumo O Tagayasu 耕云钓月是一个注重田园体验的综合整合包，补全了大部分材料的量产，旨在给予玩家一个休闲惬意的游戏体验。
+Kumo O Tagayasu 耕云钓月是一个注重田园体验的综合整合包，补全了大部分材料的量产，旨在给予玩家一个休闲惬意的游戏体验。
 
 整合包分发地址：[https://www.mcmod.cn/modpack/1017.html](https://www.mcmod.cn/modpack/1017.html)
 
@@ -47,7 +47,7 @@
 
 如果想要对本项目进行修改/PR，可以 Fork 本项目后 Clone 到本地进行修改。
 
->  该整合包使用数据包驱动修改，这些配方位于 `src/overrides/config/openloader/data/kots_datapack/data`中。
+>  该整合包使用数据包驱动修改，这些配方位于 `.pakku/overrides/config/openloader/data/kots_datapack/data`中。
 
 整合包接受如下 PR：
 
@@ -56,7 +56,7 @@
 - 对于模组的增删修改，并说明增删修改的理由；
 - 对于整合包配方的修改，并说明修改的理由；
 - 对于整合包配置文件的修改，并说明修改的理由；
-- 对整合包内置资源包与 Mandalas GUI - Dark Mode KOTS Compat 的补充。
+- 对整合包内置资源包的补充。
 
 
 ## 协议
@@ -79,8 +79,8 @@
 
 ## 特别感谢
 
-- [Modrinth](https://modrinth.com/)
+- [羽舲](https://github.com/Hanekmio)
 - [baguchan](https://github.com/baguchi)
-- [innnky/majobroom_forge](https://github.com/innnky/majobroom_forge)
-- [Gu-ZT/Curtain](https://github.com/Gu-ZT/Curtain)
+- [沐辰](https://github.com/TimeBather/)
+- [瑞雪真冬](https://github.com/Mafuyu404)
 
