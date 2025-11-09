@@ -56,7 +56,8 @@ You are allowed to do the following, but you need to keep the author, original w
 
 You are forbidden to do the following:
 
-- Sell this modpack and resourcepack without authorization.
+- Open a pay-2-win server of the modpack.
+- Sell this modpack and resourcepack.
 - Redistribute this modpack and resourcepack on Curseforge or Modrinth, which will get the benefits of the platform.
 
 ## Special Thanks
