@@ -137,3 +137,11 @@ jobs:
 
           echo "Server did not start successfully within timeout"
           exit 1
+
+          if ls crash-reports/*.txt 1> /dev/null 2>&1; then
+            echo "Crash reports found:"
+            cat crash-reports/*.txt
+          else
+            echo "No crash reports found."
+            cat logs/latest.log
+          fi
