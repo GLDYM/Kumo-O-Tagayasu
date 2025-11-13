@@ -1,6 +1,8 @@
 {
     "name": "Kumo O Tagayasu",
     "version": "5.3.5",
+    "description": "Born for server, Kumo O Tagayasu is a comprehensive modpack that fills in the missing materials, intended to give players a relaxing and enjoyable game experience.",
+    "author": "Polaris_Light",
     "projects": {
         "watermedia": {
             "update_strategy": "NONE"
