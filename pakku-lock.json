@@ -8916,7 +8916,6 @@
                 "curseforge": "1194930",
                 "modrinth": "B5uMasrz"
             },
-            "redistributable": false,
             "files": [
                 {
                     "type": "curseforge",
@@ -10261,7 +10260,7 @@
             ]
         },
         {
-            "pakku_id": "uv9phUTtOgghsH4H",
+            "pakku_id": "DWiMeHXpZKUyO5d3",
             "pakku_links": [
                 "ek2Xsz2YjGLsKP8x"
             ],
@@ -10278,26 +10277,26 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "1.20.1-maid_storage_manager-1.14.1-all.jar",
+                    "file_name": "1.20.1-maid_storage_manager-1.13.14.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "alpha",
-                    "url": "https://edge.forgecdn.net/files/7223/920/1.20.1-maid_storage_manager-1.14.1-all.jar",
-                    "id": "7223920",
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7060/635/1.20.1-maid_storage_manager-1.13.14.jar",
+                    "id": "7060635",
                     "parent_id": "1210244",
                     "hashes": {
-                        "sha1": "7679017a7846f1f0c39560638ed62c2bd259cdea",
-                        "md5": "4a39f17cdeb18db945d054089f4a01c8"
+                        "sha1": "d31dec87c74d44b4cae4c3630ce0ef6feeb36d3d",
+                        "md5": "f6a7fd7e3517531322821172cceb3492"
                     },
                     "required_dependencies": [
                         "355044"
                     ],
-                    "size": 2550518,
-                    "date_published": "2025-11-15T09:20:50.263Z"
+                    "size": 2298859,
+                    "date_published": "2025-10-03T07:14:14.553Z"
                 }
             ]
         },
