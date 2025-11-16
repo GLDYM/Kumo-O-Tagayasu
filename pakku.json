@@ -136,6 +136,9 @@
         },
         "oworld2create": {
             "side": "CLIENT"
+        },
+        "keymap-ported": {
+            "redistributable": true
         }
     }
 }

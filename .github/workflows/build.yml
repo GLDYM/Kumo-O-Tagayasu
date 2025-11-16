@@ -130,13 +130,12 @@ jobs:
             fi
             if ! kill -0 $SERVER_PID 2>/dev/null; then
               echo "Server process crashed"
-              exit 1
+              break
             fi
             sleep 10
           done
 
-          echo "Server did not start successfully within timeout"
-          exit 1
+          echo "Server did not start successfully within timeout or crashed"
 
           if ls crash-reports/*.txt 1> /dev/null 2>&1; then
             echo "Crash reports found:"
@@ -145,3 +144,4 @@ jobs:
             echo "No crash reports found."
             cat logs/latest.log
           fi
+          exit 1
