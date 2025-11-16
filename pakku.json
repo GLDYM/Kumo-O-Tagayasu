@@ -112,6 +112,30 @@
         },
         "pro-placer": {
             "side": "BOTH"
+        },
+        "ftb-backups-2": {
+            "side": "CLIENT"
+        },
+        "fastspawner": {
+            "side": "CLIENT"
+        },
+        "quit-or-not": {
+            "side": "CLIENT"
+        },
+        "better-title-screen": {
+            "side": "CLIENT"
+        },
+        "just-enough-characters": {
+            "side": "CLIENT"
+        },
+        "inventory-hud-forge": {
+            "side": "CLIENT"
+        },
+        "opack2reload": {
+            "side": "CLIENT"
+        },
+        "oworld2create": {
+            "side": "CLIENT"
         }
     }
 }
