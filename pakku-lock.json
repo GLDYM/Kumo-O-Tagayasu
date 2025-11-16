@@ -10652,43 +10652,6 @@
             ]
         },
         {
-            "pakku_id": "fmnvJqtyNGSML5FV",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "moderndeco"
-            },
-            "name": {
-                "modrinth": "ModernDeco"
-            },
-            "id": {
-                "modrinth": "zJ5aaMEg"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "moderndeco-3.7.0-forge-1.20.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/zJ5aaMEg/versions/YVajEMk9/moderndeco-3.7.0-forge-1.20.1.jar",
-                    "id": "YVajEMk9",
-                    "parent_id": "zJ5aaMEg",
-                    "hashes": {
-                        "sha512": "8216b331545706aca07e8a2df21c93077e6e31c4466a6dbb307c6812646cfaaca8c0aeb329a9a5ce4d51bf9b26777059dba1c30c0dd59130259ad2ccd5808add",
-                        "sha1": "066b5bdce2ecc78a2c8a088a6dd537f5e76161d9"
-                    },
-                    "required_dependencies": [],
-                    "size": 869469,
-                    "date_published": "2024-12-02T13:54:42.092759Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "afNy1smdnKC7yVIN",
             "type": "MOD",
             "side": "BOTH",
