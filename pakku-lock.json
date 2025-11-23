@@ -9909,6 +9909,42 @@
             ]
         },
         {
+            "pakku_id": "uzTWLXyjZQ76M0up",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "lightspeedre-launch-optimizations"
+            },
+            "name": {
+                "curseforge": "LightSpeedRe - Launch optimizations"
+            },
+            "id": {
+                "curseforge": "1388941"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "lightspeed-1.20.1-1.1.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7245/223/lightspeed-1.20.1-1.1.0.jar",
+                    "id": "7245223",
+                    "parent_id": "1388941",
+                    "hashes": {
+                        "sha1": "76e61489743905fbae1e8f6ba816c1023c0a25ac",
+                        "md5": "4283b917427dc4052497d68da1af317b"
+                    },
+                    "required_dependencies": [],
+                    "size": 38729,
+                    "date_published": "2025-11-21T09:46:28.980Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "rJwu6IzO4jINhCkD",
             "pakku_links": [
                 "uVZ3kof7M1QFS7Wc"
@@ -16664,6 +16700,9 @@
         },
         {
             "pakku_id": "mZY4PKZtGR075efZ",
+            "pakku_links": [
+                "0fEDd4hUUlYstSPw"
+            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -16729,6 +16768,68 @@
                     "required_dependencies": [],
                     "size": 279657,
                     "date_published": "2024-08-23T17:02:36.693Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "0fEDd4hUUlYstSPw",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "zetter",
+                "modrinth": "zetter-painting-mod"
+            },
+            "name": {
+                "curseforge": "Zetter — Painting Mod",
+                "modrinth": "Zetter — Painting Mod"
+            },
+            "id": {
+                "curseforge": "465532",
+                "modrinth": "ZmLgjf6f"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "zetter-1.20.1-0.21.7.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7236/701/zetter-1.20.1-0.21.7.jar",
+                    "id": "7236701",
+                    "parent_id": "465532",
+                    "hashes": {
+                        "sha1": "638d65526c4fb2c1a838e177cc0c170f2bb7d1ca",
+                        "md5": "ee8ddb517cf62fa49c4d33bb2e794b0a"
+                    },
+                    "required_dependencies": [],
+                    "size": 1343037,
+                    "date_published": "2025-11-18T21:54:40.167Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "zetter-1.20.1-0.21.7.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ZmLgjf6f/versions/ISzdE6gG/zetter-1.20.1-0.21.7.jar",
+                    "id": "ISzdE6gG",
+                    "parent_id": "ZmLgjf6f",
+                    "hashes": {
+                        "sha512": "6d3a8ee04d32e415e59482d58845817258006e3d984cfe1b52145b63fcf1fcd0a4b93b4338dab3d2c3803c6ee0e3c1d34a594e505530e9279fb129282f2f91f9",
+                        "sha1": "638d65526c4fb2c1a838e177cc0c170f2bb7d1ca"
+                    },
+                    "required_dependencies": [],
+                    "size": 1343037,
+                    "date_published": "2025-11-18T21:58:59.803604Z"
                 }
             ]
         },
