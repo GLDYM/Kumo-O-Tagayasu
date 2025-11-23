@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "vintagedelight:magic_vine",
+    "vintagedelight:magic_vine_block",
+    "vintagedelight:stripped_magic_vine",
+    "vintagedelight:stripped_magic_vine_block"
+  ]
+}

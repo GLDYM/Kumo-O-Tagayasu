@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "vintagedelight:pepper_jam_bottle",
+    "vintagedelight:relish_bottle",
+    "vintagedelight:apple_sauce_bottle",
+    "vintagedelight:sweet_berry_jam_bottle",
+    "vintagedelight:glow_berry_jam_bottle",
+    "vintagedelight:gearo_berry_jam_bottle",
+    "minecraft:honey_bottle"
+  ]
+}

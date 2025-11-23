@@ -15966,6 +15966,77 @@
             ]
         },
         {
+            "pakku_id": "Q2jpghthM4VaZoM3",
+            "pakku_links": [
+                "zUJHx59GrudCC5eb"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "vintage-delight",
+                "modrinth": "vintage-delight"
+            },
+            "name": {
+                "curseforge": "Vintage Delight",
+                "modrinth": "Vintage Delight"
+            },
+            "id": {
+                "curseforge": "949719",
+                "modrinth": "T7XZLHGD"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "vintagedelight-0.1.6.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5847/856/vintagedelight-0.1.6.jar",
+                    "id": "5847856",
+                    "parent_id": "949719",
+                    "hashes": {
+                        "sha1": "279a68afc8d815e957cabc689e925cdaf7578109",
+                        "md5": "7fd01c5fec5c8ed7c8c99c100696c91c"
+                    },
+                    "required_dependencies": [
+                        "398521"
+                    ],
+                    "size": 1120218,
+                    "date_published": "2024-10-26T14:54:26.820Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "vintagedelight-0.1.6.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/T7XZLHGD/versions/q8Ght7Bo/vintagedelight-0.1.6.jar",
+                    "id": "q8Ght7Bo",
+                    "parent_id": "T7XZLHGD",
+                    "hashes": {
+                        "sha512": "aa8a527c0db8f0b24f3444bf072ca98130fb1cf4e59a273922d874cd6a2bf1c992d5b717db278e778543aaa967a5b78131b25ae318beeb6eb63b5e3b3bb29e56",
+                        "sha1": "279a68afc8d815e957cabc689e925cdaf7578109"
+                    },
+                    "required_dependencies": [],
+                    "size": 1120218,
+                    "date_published": "2024-10-26T14:54:52.507994Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "RpVDRIWMq3QIS2YH",
             "pakku_links": [
                 "GRkxlPJsCc8w5SqI",

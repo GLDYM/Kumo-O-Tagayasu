@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "entries": [
+    "vintagedelight:straw_from_mature_oat",
+    "vintagedelight:add_loot_bastion_hoglin_stable",
+    "vintagedelight:add_loot_ruined_portal",
+    "vintagedelight:add_loot_village_plains_house",
+    "vintagedelight:add_loot_village_taiga_house",
+    "vintagedelight:add_loot_village_snowy_house",
+    "vintagedelight:add_loot_village_desert_house",
+    "vintagedelight:add_loot_village_savanna_house"
+  ]
+}
