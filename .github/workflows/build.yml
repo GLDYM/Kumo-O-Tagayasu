@@ -124,6 +124,7 @@ jobs:
 
           for i in {1..30}; do
             if grep -q 'Done ([0-9.]\+s)! For help, type "help"' server.log; then
+              echo "Server started successfully, running for additional 2 minutes to check stability."
               sleep 120
               if ! kill -0 $SERVER_PID 2>/dev/null; then
                 echo "Server process crashed"
