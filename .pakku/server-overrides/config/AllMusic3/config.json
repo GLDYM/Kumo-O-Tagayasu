@@ -1,0 +1,89 @@
+{
+  "maxPlayList": 15,
+  "maxPlayerList": 0,
+  "minVote": 3,
+  "voteTime": 30,
+  "lyricDelay": 0,
+  "defaultAddMusic": 0,
+  "ktvLyricDelay": 0,
+  "adminList": [
+    "console"
+  ],
+  "muteServer": [],
+  "mutePlayer": [],
+  "banMusic": [],
+  "banPlayer": [],
+  "playListSwitch": true,
+  "playListRandom": true,
+  "playListEscapeDeep": 40,
+  "sendLyric": true,
+  "needPermission": false,
+  "topPAPI": false,
+  "mutePlayMessage": false,
+  "muteAddMessage": false,
+  "showInBar": false,
+  "ktvMode": true,
+  "musicBR": "320000",
+  "version": "203",
+  "defaultHud": {
+    "list": {
+      "x": 2,
+      "y": 74,
+      "dir": "TOP_LEFT",
+      "color": 16777215,
+      "shadow": true,
+      "enable": true
+    },
+    "lyric": {
+      "x": 74,
+      "y": 53,
+      "dir": "TOP_LEFT",
+      "color": 16777215,
+      "shadow": true,
+      "enable": true
+    },
+    "info": {
+      "x": 74,
+      "y": 2,
+      "dir": "TOP_LEFT",
+      "color": 16777215,
+      "shadow": true,
+      "enable": true
+    },
+    "pic": {
+      "x": 2,
+      "y": 2,
+      "dir": "TOP_LEFT",
+      "color": 70,
+      "shadow": true,
+      "enable": true
+    },
+    "picRotateSpeed": 30
+  },
+  "economy": {
+    "mysqlUrl": "jdbc:mysql://localhost:3306/minecraft?autoReconnect\u003dtrue\u0026autoReconnectForPools\u003dtrue",
+    "backend": "Server1",
+    "vault": true
+  },
+  "funConfig": {
+    "rain": true,
+    "rainRate": 10
+  },
+  "limit": {
+    "messageLimit": false,
+    "messageLimitSize": 20,
+    "listLimit": false,
+    "listLimitSize": 10,
+    "infoLimit": true,
+    "infoLimitSize": 10,
+    "musicTimeLimit": true,
+    "maxMusicTime": 600,
+    "limitText": "..."
+  },
+  "cost": {
+    "searchCost": 20,
+    "addMusicCost": 10,
+    "useCost": false
+  },
+  "sendDelay": 1000
+}
