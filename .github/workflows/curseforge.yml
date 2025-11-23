@@ -1,0 +1,74 @@
+name: Auto Validate Curseforge Package
+
+on:
+  workflow_dispatch:
+    ~
+  push:
+    branches: [curseforge]
+    paths:
+      - "pakku.json"
+      - "pakku-lock.json"
+      - ".pakku/**"
+  pull_request:
+    branches: [curseforge]
+    paths:
+      - "pakku.json"
+      - "pakku-lock.json"
+      - ".pakku/**"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  json-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: json-validate
+        id: json-validate
+        uses: GrantBirki/json-yaml-validate@v3.3.2 # replace with the latest version
+        with:
+          comment: "true"
+          base_dir: "src"
+          exclude_file: "exclude.txt"
+
+  build-release-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup JDK 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      - name: Create mrpack archive
+        run: |          
+          wget https://github.com/juraj-hrivnak/Pakku/releases/download/v1.3.2/pakku.jar
+          chmod 755 pakku.jar
+          java -jar pakku.jar export
+
+          mv ./build/curseforge/*.zip ./KumoOTagayasu-build-curseforge.zip
+
+      - name: Delete existing release assets
+        uses: mknejp/delete-release-assets@v1
+        with:
+          fail-if-no-assets: false
+          tag: build
+          assets: |
+            KumoOTagayasu-build-curseforge.zip
+          token: ${{ secrets.GITHUB_TOKEN }} # Required for authentication
+
+      - name: Upload client file to release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: "build"
+          files: |
+            KumoOTagayasu-build-curseforge.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
