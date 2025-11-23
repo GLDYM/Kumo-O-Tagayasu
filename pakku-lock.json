@@ -4703,6 +4703,72 @@
             ]
         },
         {
+            "pakku_id": "FIfFbeQoZEt3rP7O",
+            "pakku_links": [
+                "RxcfHp3l3Wyn2SNg"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "create-prismatic-shine",
+                "modrinth": "create-prismatic-shine"
+            },
+            "name": {
+                "curseforge": "Create: Prismatic Shine",
+                "modrinth": "Create: Prismatic Shine"
+            },
+            "id": {
+                "curseforge": "1355767",
+                "modrinth": "udEtt0b2"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "createprism-1.20-1.0.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7108/913/createprism-1.20-1.0.1.jar",
+                    "id": "7108913",
+                    "parent_id": "1355767",
+                    "hashes": {
+                        "sha1": "a0133a748675155ed566ec88674032395c823fef",
+                        "md5": "e9c61414e2932088ae6be2f590d696f0"
+                    },
+                    "required_dependencies": [],
+                    "size": 1291005,
+                    "date_published": "2025-10-15T07:58:50.013Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "createprism-1.20-1.0.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/udEtt0b2/versions/x4EpxvrQ/createprism-1.20-1.0.1.jar",
+                    "id": "x4EpxvrQ",
+                    "parent_id": "udEtt0b2",
+                    "hashes": {
+                        "sha512": "68659066f4c52f2c049f6888334ec089fe17b53c3be5cb60231757910fe88ec78825092d963aee5f8f10523d09e5b8a8749bce257900000f202f944de21e1c8f",
+                        "sha1": "a0133a748675155ed566ec88674032395c823fef"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 1291005,
+                    "date_published": "2025-10-17T09:55:56.538424Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ebKjA2BhoueSSW0P",
             "pakku_links": [
                 "RxcfHp3l3Wyn2SNg"
