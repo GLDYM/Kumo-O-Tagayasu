@@ -142,6 +142,9 @@
         },
         "lightspeedre-launch-optimizations": {
             "side": "CLIENT"
+        },
+        "mcwifipnp": {
+            "side": "CLIENT"
         }
     }
 }

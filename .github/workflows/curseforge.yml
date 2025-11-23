@@ -1,4 +1,4 @@
-name: Auto Validate Curseforge Package
+name: Build Curseforge Package
 
 on:
   workflow_dispatch:
