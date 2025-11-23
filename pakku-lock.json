@@ -3609,6 +3609,76 @@
             ]
         },
         {
+            "pakku_id": "mk4Xvh5Ulu5oBTir",
+            "pakku_links": [
+                "RxcfHp3l3Wyn2SNg"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "create-railways-navigator",
+                "modrinth": "create-railways-navigator"
+            },
+            "name": {
+                "curseforge": "Create Railways Navigator",
+                "modrinth": "Create Railways Navigator"
+            },
+            "id": {
+                "curseforge": "935929",
+                "modrinth": "Dq3STxps"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "createrailwaysnavigator-forge-1.20.1-beta-0.8.5-C6.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7227/738/createrailwaysnavigator-forge-1.20.1-beta-0.8.5-C6.jar",
+                    "id": "7227738",
+                    "parent_id": "935929",
+                    "hashes": {
+                        "sha1": "1a1dc3146fc173fe145766ae65d056c75df570e5",
+                        "md5": "d7f37d8f2684f23461415c3746e0b738"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 3178491,
+                    "date_published": "2025-11-16T07:42:56.583Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "createrailwaysnavigator-forge-1.20.1-beta-0.8.5-C6.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/Dq3STxps/versions/iStEvxzQ/createrailwaysnavigator-forge-1.20.1-beta-0.8.5-C6.jar",
+                    "id": "iStEvxzQ",
+                    "parent_id": "Dq3STxps",
+                    "hashes": {
+                        "sha512": "fc59efcad379960a665f10029567ed0d48d0832722a9b351022fe3708472b0ba1f244b5608d369575f9ec80d504101f823f4ec4ce96e9bca5b42d58f085a285a",
+                        "sha1": "1a1dc3146fc173fe145766ae65d056c75df570e5"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 3178491,
+                    "date_published": "2025-11-16T07:44:59.246155Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "kYUzcMwPEgVkmLKw",
             "pakku_links": [
                 "RxcfHp3l3Wyn2SNg"
