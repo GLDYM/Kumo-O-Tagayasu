@@ -139,6 +139,9 @@
         },
         "keymap-ported": {
             "redistributable": true
+        },
+        "lightspeedre-launch-optimizations": {
+            "side": "CLIENT"
         }
     }
 }
