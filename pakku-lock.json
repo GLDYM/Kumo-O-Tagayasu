@@ -10615,6 +10615,42 @@
             ]
         },
         {
+            "pakku_id": "zHyxMWVIN4ChwTDB",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "majobroom-kots"
+            },
+            "name": {
+                "curseforge": "Majobroom - KOTS"
+            },
+            "id": {
+                "curseforge": "1390210"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "majobroom-2.0.1-KOTS.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7253/272/majobroom-2.0.1-KOTS.jar",
+                    "id": "7253272",
+                    "parent_id": "1390210",
+                    "hashes": {
+                        "sha1": "8876e365a15d56fdd23a2efa444e63848b4ee795",
+                        "md5": "e3e7aa25c89859e139cf8b527ee222ec"
+                    },
+                    "required_dependencies": [],
+                    "size": 175889,
+                    "date_published": "2025-11-23T12:53:09.860Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "g2Kxhhqte6Bhy4Je",
             "type": "MOD",
             "side": "BOTH",
