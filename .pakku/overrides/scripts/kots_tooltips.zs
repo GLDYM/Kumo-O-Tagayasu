@@ -6,6 +6,9 @@
 <item:chimes:copper_chimes>.addTooltip("§a站在风铃附近,风铃能为你驱散接近的幻翼!");
 <item:chimes:amethyst_chimes>.addTooltip("§a站在风铃附近,风铃能为你驱散接近的幻翼!");
 <item:chimes:glass_bells>.addTooltip("§a站在风铃附近,风铃能为你驱散接近的幻翼!");
+<item:minecraft:anvil>.addTooltip("§a您可以手持铁块右键铁砧来修复它!");
+<item:minecraft:damaged_anvil>.addTooltip("§a您可以手持铁块右键铁砧来修复它!");
+<item:minecraft:chipped_anvil>.addTooltip("§a您可以手持铁块右键铁砧来修复它!");
 <item:upgrade_aquatic:boiled_pickerelweed>.addTooltip("§a食用后恢复氧气值，适合水下探索。");
 <item:quark:grate>.addTooltip("§a动物会主动避免走上它,掉落物会穿过它。");
 <item:quark:bottled_cloud>.addTooltip("§a获得方式:在达到云层后手持玻璃瓶右键。");
