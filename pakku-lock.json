@@ -8867,7 +8867,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "jei-1.20.1-forge-15.20.0.123.jar",
+                    "file_name": "jei-1.20.1-forge-15.20.0.125.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -8875,20 +8875,20 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/cBgIpaOv/jei-1.20.1-forge-15.20.0.123.jar",
-                    "id": "cBgIpaOv",
+                    "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/fng9dc76/jei-1.20.1-forge-15.20.0.125.jar",
+                    "id": "fng9dc76",
                     "parent_id": "u6dRKJwZ",
                     "hashes": {
-                        "sha512": "155ea9124b7361d6af52fe15b5af374de69f9f5317743507f0d8c5cf0648fc76e2955fb8a7c306b4d76d3f18eb78d46bf9f07184efb09e8f65455f9e45b7625c",
-                        "sha1": "00f21931916b67893994c8772e0b9d977fe1de77"
+                        "sha512": "476756ecdf87a4d5233ec679724987f2119ff11212577e64d2d41d0e254e726f2b0c9d5cdc02e7294e78def0ecc369e0805cb541c08060ffbf433ccb6063abe6",
+                        "sha1": "add93d096e2602b65a5df257d45c9fe3f34e0060"
                     },
                     "required_dependencies": [],
-                    "size": 1409259,
-                    "date_published": "2025-11-22T12:19:30.658062Z"
+                    "size": 1409461,
+                    "date_published": "2025-11-23T14:19:45.198906Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "jei-1.20.1-forge-15.20.0.123.jar",
+                    "file_name": "jei-1.20.1-forge-15.20.0.125.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -8896,16 +8896,16 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7249/15/jei-1.20.1-forge-15.20.0.123.jar",
-                    "id": "7249015",
+                    "url": "https://edge.forgecdn.net/files/7253/590/jei-1.20.1-forge-15.20.0.125.jar",
+                    "id": "7253590",
                     "parent_id": "238222",
                     "hashes": {
-                        "sha1": "00f21931916b67893994c8772e0b9d977fe1de77",
-                        "md5": "936c17c629e32b39496e9c47f078fdb1"
+                        "sha1": "add93d096e2602b65a5df257d45c9fe3f34e0060",
+                        "md5": "c0d3b1be70c806449b6d615636672188"
                     },
                     "required_dependencies": [],
-                    "size": 1409259,
-                    "date_published": "2025-11-22T12:19:17.083Z"
+                    "size": 1409461,
+                    "date_published": "2025-11-23T14:19:32.617Z"
                 }
             ]
         },
@@ -9577,7 +9577,7 @@
         {
             "pakku_id": "G1S438c06mhP3b82",
             "type": "MOD",
-            "side": "BOTH",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "mcwifipnp",
                 "modrinth": "mcwifipnp"
@@ -9911,6 +9911,7 @@
         {
             "pakku_id": "uzTWLXyjZQ76M0up",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "lightspeedre-launch-optimizations"
             },
