@@ -16358,67 +16358,6 @@
             ]
         },
         {
-            "pakku_id": "RPecIJel3EpsBWHH",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "world-preview",
-                "modrinth": "world-preview"
-            },
-            "name": {
-                "curseforge": "World Preview",
-                "modrinth": "World Preview"
-            },
-            "id": {
-                "curseforge": "891429",
-                "modrinth": "WtfpyicL"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "world_preview-forge-1.20.1-1.3.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5686/690/world_preview-forge-1.20.1-1.3.1.jar",
-                    "id": "5686690",
-                    "parent_id": "891429",
-                    "hashes": {
-                        "sha1": "98067c700d31f1b716cfbd6ddbeefd772bbba5bb",
-                        "md5": "49e556d551c38f7578346f681d287bfa"
-                    },
-                    "required_dependencies": [],
-                    "size": 370743,
-                    "date_published": "2024-09-02T15:34:54.467Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "world_preview-forge-1.20.1-1.3.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/WtfpyicL/versions/j0XQjyV4/world_preview-forge-1.20.1-1.3.1.jar",
-                    "id": "j0XQjyV4",
-                    "parent_id": "WtfpyicL",
-                    "hashes": {
-                        "sha512": "7ffce76791c0f8b74cb01e863884ada4dcad87455c210cd3d9e429a8b32afc25baec2dc2788f265eb732d6a58f932c1150aafd49aae7811b361b6fb87ff6be32",
-                        "sha1": "98067c700d31f1b716cfbd6ddbeefd772bbba5bb"
-                    },
-                    "required_dependencies": [],
-                    "size": 370743,
-                    "date_published": "2024-09-05T16:06:04.812093Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "swqZbg7QvDipgAUJ",
             "pakku_links": [
                 "VeC0KbAeCWzlSRA8"
