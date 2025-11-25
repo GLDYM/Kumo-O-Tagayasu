@@ -305,26 +305,26 @@
 		{
 			dependencies: ["43779E819BF3A6AD"]
 			description: [
-				"@crystalclear"
+				"@createprism"
 				""
 				"@interiors"
 				""
 				"提供了列车的玻璃和的高级座位。"
 			]
-			icon: "crystal_clear:train_glass_casing"
+			icon: "createprism:train_glass_casing"
 			id: "0AF4E293AC99133D"
 			rewards: [{
 				id: "3975185A08143A89"
-				item: "crystal_clear:andesite_glass_casing"
+				item: "createprism:andesite_glass_casing"
 				type: "item"
 			}]
 			size: 1.5d
 			tasks: [{
 				id: "52F20F4E96822FDD"
-				title: "晶莹剔透"
+				title: "流光溢彩"
 				type: "checkmark"
 			}]
-			title: "列车：晶莹剔透 \\& 机动内饰"
+			title: "列车：流光溢彩 \\& 机动内饰"
 			x: -4.0d
 			y: -4.0d
 		}
