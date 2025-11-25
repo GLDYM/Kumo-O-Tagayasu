@@ -278,7 +278,7 @@
         "type": "MESSAGE",
         "probability": 1,
         "content": {
-          "text": "½ñÌìÊÇÔÂ¼ûÇåÀ¼µÄÉúÈÕß÷£¡",
+          "text": "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
           "i18nType": "PLAIN",
           "languageCode": "zh_cn",
           "color": -1,
@@ -331,7 +331,7 @@
         "type": "MESSAGE",
         "probability": 1,
         "content": {
-          "text": "×æ¹úÄ¸Ç×ÉúÈÕ¿ìÀÖ~",
+          "text": "ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½ï¿½ï¿½ï¿½Õ¿ï¿½ï¿½ï¿½~",
           "i18nType": "PLAIN",
           "languageCode": "zh_cn",
           "color": -1,
@@ -360,7 +360,7 @@
         "type": "MESSAGE",
         "probability": 1,
         "content": {
-          "text": "½ñÌìÊÇ PL µÄÉúÈÕß÷£¡",
+          "text": "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ PL ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
           "i18nType": "PLAIN",
           "languageCode": "zh_cn",
           "color": -1,
@@ -395,7 +395,7 @@
         "type": "ITEM",
         "probability": 1,
         "content": {
-          "item": "majobroom:broom_item",
+          "item": "majobroom:broom",
           "count": 1
         }
       },
@@ -494,7 +494,7 @@
         "type": "MESSAGE",
         "probability": 1,
         "content": {
-          "text": "Õâ¾ÍÊÇÕæÕýµÄÑøÉú´óÊ¦Âð£¡",
+          "text": "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¦ï¿½ï¿½",
           "i18nType": "PLAIN",
           "languageCode": "zh_cn",
           "color": -1,
