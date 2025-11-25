@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  e",
+    " q ",
+    "q  "
+  ],
+  "key": {
+    "q": {
+      "item": "minecraft:stick"
+    },
+    "e": {
+      "item": "minecraft:hay_block"
+    }
+  },
+  "result": {
+    "item": "majobroom:broom",
+    "count": 1
+  }
+}
+
