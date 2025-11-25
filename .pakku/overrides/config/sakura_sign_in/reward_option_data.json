@@ -395,7 +395,7 @@
         "type": "ITEM",
         "probability": 1,
         "content": {
-          "item": "majobroom:broom_item",
+          "item": "majobroom:broom",
           "count": 1
         }
       },
