@@ -278,7 +278,7 @@
         "type": "MESSAGE",
         "probability": 1,
         "content": {
-          "text": "�������¼���������������",
+          "text": "Today is TskimiSeiran's birthday!",
           "i18nType": "PLAIN",
           "languageCode": "zh_cn",
           "color": -1,
@@ -331,7 +331,7 @@
         "type": "MESSAGE",
         "probability": 1,
         "content": {
-          "text": "���ĸ�����տ���~",
+          "text": "Celebrate the National Day of China~",
           "i18nType": "PLAIN",
           "languageCode": "zh_cn",
           "color": -1,
@@ -360,7 +360,7 @@
         "type": "MESSAGE",
         "probability": 1,
         "content": {
-          "text": "������ PL ����������",
+          "text": "Today is Polaris_Light's birthday!",
           "i18nType": "PLAIN",
           "languageCode": "zh_cn",
           "color": -1,
@@ -494,7 +494,7 @@
         "type": "MESSAGE",
         "probability": 1,
         "content": {
-          "text": "�����������������ʦ��",
+          "text": "You are the true modpack master!",
           "i18nType": "PLAIN",
           "languageCode": "zh_cn",
           "color": -1,
