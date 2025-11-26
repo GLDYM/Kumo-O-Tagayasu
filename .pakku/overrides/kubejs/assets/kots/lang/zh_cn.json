@@ -1,6 +1,6 @@
 {
   "kubejs.message.enchanting_table_blocked.0": "§b你不准附魔！",
-  "kubejs.message.enchanting_table_blocked.1": "§b使用村民交易、烈焰人附魔室或蜂蜜结晶花替代。",
+  "kubejs.message.enchanting_table_blocked.1": "§b通过村民交易、烈焰人附魔室或蜂蜜结晶花来获取附魔。",
   "kubejs.tooltip.item.minecraft.golden_sword.0": "§a此工具已绑定投影模组工具。",
   "kubejs.tooltip.item.chimes.bamboo_chimes.0": "§a站在风铃附近,风铃能为你驱散接近的幻翼!",
   "kubejs.tooltip.item.chimes.iron_chimes.0": "§a站在风铃附近,风铃能为你驱散接近的幻翼!",
@@ -168,9 +168,9 @@
   "kubejs.tooltip.item.majobroom.majo_cloth.0": "§b挂着魔女胸饰的魔女袍，覆盖着各种加护。穿上它可以加速扫帚。",
   "kubejs.tooltip.item.majobroom.majo_stocking.0": "§b丝袜……？大概是某位魔女的癖好。不知道为什么穿上它可以加速扫帚。",
   "kubejs.tooltip.item.majobroom.majo_boots.0": "§b魔女的靴子，覆盖着各种加护。穿上它可以加速扫帚。",
-  "kubejs.tooltip.item.minecraft.enchanting_table.0": "§c由于整合包玩法需要，此物品已被禁用，仅用作合成材料。若要附魔，您需要铁砧！",
+  "kubejs.tooltip.item.minecraft.enchanting_table.0": "§c由于整合包玩法需要，此物品已被禁用。",
+  "kubejs.tooltip.item.minecraft.enchanting_table.1": "§c你需要通过村民交易、烈焰人附魔室或蜂蜜结晶花来获取附魔。",
   "kubejs.tooltip.item.l2complements.diffusion_wand.0": "§c由于此物品具有潜在的造成安全问题的风险，故禁用。",
-  "kubejs.tooltip.item.supplementaries.slingshot.0": "§c由于此物品具有潜在的造成安全问题的风险，故禁用。",
   "kubejs.tooltip.item.create_sa.block_picker.0": "§c由于此物品具有潜在的造成安全问题的风险，故禁用。",
   "kubejs.tooltip.item.quark.pickarang.0": "§c由于此物品具有潜在的造成安全问题的风险，故禁用。",
   "kubejs.tooltip.item.quark.flamerang.0": "§c由于此物品具有潜在的造成安全问题的风险，故禁用。"

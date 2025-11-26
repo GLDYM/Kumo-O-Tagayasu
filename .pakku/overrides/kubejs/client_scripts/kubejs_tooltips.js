@@ -146,10 +146,9 @@ ItemEvents.tooltip(event => {
   event.add('majobroom:majo_stocking', Text.translate('kubejs.tooltip.item.majobroom.majo_stocking.0'))
   event.add('majobroom:majo_boots', Text.translate('kubejs.tooltip.item.majobroom.majo_boots.0'))
   //红色字为禁用物品或危险物品的提示讯息
-  event.add('minecraft:enchanting_table', Text.translate('kubejs.tooltip.item.minecraft.enchanting_table.0'))
+  event.add('minecraft:enchanting_table', [Text.translate('kubejs.tooltip.item.minecraft.enchanting_table.0'), Text.translate('kubejs.tooltip.item.minecraft.enchanting_table.1')])
   event.add('l2complements:diffusion_wand', Text.translate('kubejs.tooltip.item.l2complements.diffusion_wand.0'))
   event.add('create_sa:block_picker', Text.translate('kubejs.tooltip.item.create_sa.block_picker.0'))
-  // event.add('supplementaries:slingshot', Text.translate('kubejs.tooltip.item.supplementaries.slingshot.0'))
   event.add('quark:pickarang', Text.translate('kubejs.tooltip.item.quark.pickarang.0'))
   event.add('quark:flamerang', Text.translate('kubejs.tooltip.item.quark.flamerang.0'))
 })
