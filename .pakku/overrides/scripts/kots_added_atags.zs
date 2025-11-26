@@ -761,7 +761,6 @@
 # 巧克力
 <tag:items:forge:bars/chocolate>.add(<tag:items:c:chocolate>);
 <tag:items:forge:bars/chocolate>.add(<tag:items:forge:chocolate>);
-# <tag:items:forge:bars/chocolate>.add(<tag:items:farm_and_charm:chocolate>);
 <tag:items:forge:chocolate>.add(<tag:items:forge:bars/chocolate>);
 <tag:items:c:chocolate>.add(<tag:items:forge:chocolate>);
 <tag:items:farm_and_charm:chocolate>.add(<tag:items:forge:chocolate>);
@@ -962,6 +961,7 @@
 <tag:items:forge:bread>.add(<item:bakeries:toast>);
 <tag:items:forge:bread>.add(<item:bakeries:country_bread>);
 <tag:items:forge:bread>.add(<item:bakeries:ciabatta>);
+
 # 法术材料
 <tag:items:irons_spellbooks:evocation_focus>.add(<item:biomemakeover:illunite_shard>);
 <tag:items:irons_spellbooks:ice_focus>.add(<item:biomemakeover:soul_embers>);
@@ -979,7 +979,6 @@
 <tag:items:forge:tools>.add(<item:handcrafted:hammer>);
 <tag:items:forge:tools/hammer>.add(<item:handcrafted:hammer>);
 <tag:items:forge:tools/hammers>.add(<item:handcrafted:hammer>);
-
 <tag:items:forge:seeds/chilipepper>.add(<item:crockpot:pepper_seeds>);
 
 # UNIFY
@@ -1075,7 +1074,6 @@
 <tag:items:supplementaries:shulker_blacklist>.add(<item:cuisinedelight:cuisine_skillet>);
 <tag:items:supplementaries:shulker_blacklist>.add(<tag:items:curios:spellbook>);
 <tag:items:supplementaries:shulker_blacklist>.add(<tag:items:create:toolboxes>);
-# <tag:items:supplementaries:shulker_blacklist>.add(<tag:items:furnish:crates>);
 <tag:items:supplementaries:shulker_blacklist>.add(<tag:items:l2backpack:backpacks>);
 <tag:items:supplementaries:shulker_blacklist>.add(<tag:items:l2backpack:drawers>);
 <tag:items:supplementaries:shulker_blacklist>.add(<tag:items:l2backpack:swaps>);
@@ -1085,8 +1083,6 @@
 <tag:items:supplementaries:shulker_blacklist>.add(<item:caverns_and_chasms:tether_potion>);
 <tag:items:supplementaries:shulker_blacklist>.add(<item:minecraft:ender_chest>);
 <tag:items:supplementaries:shulker_blacklist>.add(<item:minecraft:bundle>);
-# <tag:items:supplementaries:shulker_blacklist>.add(<tag:items:furnish:crate_blacklist>);
-# <tag:items:l2backpack:backpack_blacklist>.add(<tag:items:supplementaries:shulker_blacklist>);
 <tag:items:touhou_little_maid:maid_tamed_item>.add(<tag:items:forge:cake>);
 <tag:items:forge:cheeses>.add(<tag:items:forge:cheese>);
 <tag:items:forge:ice_cubes>.add(<item:youkaishomecoming:ice_cube>);
