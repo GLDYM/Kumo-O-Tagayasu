@@ -155,8 +155,8 @@
 <tag:items:forge:crops/barley>.asIIngredient().addTooltip("§7一种深色的谷物,在加工后比小麦具有更浓郁的土味。");
 <tag:items:forge:crops/oat>.asIIngredient().addTooltip("§7营养丰富的谷物,富含纤维与蛋白质,有助于健康饮食。");
 # Majobroom
-<item:majobroom:broom_item>.addTooltip("§b听说，只要给扫帚施加魔法，");
-<item:majobroom:broom_item>.addTooltip("§b扫帚就可以变成美少女。");
+<item:majobroom:broom>.addTooltip("§b听说，只要给扫帚施加魔法，");
+<item:majobroom:broom>.addTooltip("§b扫帚就可以变成美少女。");
 <item:majobroom:majo_hat>.addTooltip("§b传承了三代的魔女帽，覆盖着各种加护。戴上它可以加速扫帚。");
 <item:majobroom:majo_cloth>.addTooltip("§b挂着魔女胸饰的魔女袍，覆盖着各种加护。穿上它可以加速扫帚。");
 <item:majobroom:majo_stocking>.addTooltip("§b丝袜……？大概是某位魔女的癖好。不知道为什么穿上它可以加速扫帚。");

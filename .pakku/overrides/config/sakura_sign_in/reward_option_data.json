@@ -278,7 +278,7 @@
         "type": "MESSAGE",
         "probability": 1,
         "content": {
-          "text": "今天是月见清兰的生日喵！",
+          "text": "Today is TskimiSeiran's birthday!",
           "i18nType": "PLAIN",
           "languageCode": "zh_cn",
           "color": -1,
@@ -331,7 +331,7 @@
         "type": "MESSAGE",
         "probability": 1,
         "content": {
-          "text": "祖国母亲生日快乐~",
+          "text": "Celebrate the National Day of China~",
           "i18nType": "PLAIN",
           "languageCode": "zh_cn",
           "color": -1,
@@ -360,7 +360,7 @@
         "type": "MESSAGE",
         "probability": 1,
         "content": {
-          "text": "今天是 PL 的生日喵！",
+          "text": "Today is Polaris_Light's birthday!",
           "i18nType": "PLAIN",
           "languageCode": "zh_cn",
           "color": -1,
@@ -395,7 +395,7 @@
         "type": "ITEM",
         "probability": 1,
         "content": {
-          "item": "majobroom:broom_item",
+          "item": "majobroom:broom",
           "count": 1
         }
       },
@@ -494,7 +494,7 @@
         "type": "MESSAGE",
         "probability": 1,
         "content": {
-          "text": "这就是真正的养生大师吗！",
+          "text": "You are the true modpack master!",
           "i18nType": "PLAIN",
           "languageCode": "zh_cn",
           "color": -1,

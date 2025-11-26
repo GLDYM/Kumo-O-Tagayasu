@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "majo"
 	group: "31669C96F582CF92"
-	icon: "majobroom:broom_item"
+	icon: "majobroom:broom"
 	id: "1B290DA22A8E2132"
 	order_index: 2
 	quest_links: [ ]
@@ -21,13 +21,13 @@
 			id: "048513B30AB7529F"
 			rewards: [{
 				id: "78B72742F081744A"
-				item: "majobroom:broom_item"
+				item: "majobroom:broom"
 				type: "item"
 			}]
 			size: 3.0d
 			tasks: [{
 				id: "357A5B56BC27C50C"
-				item: "majobroom:broom_item"
+				item: "majobroom:broom"
 				type: "item"
 			}]
 			title: "魔女的扫帚"
