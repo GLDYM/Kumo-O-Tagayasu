@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "minecraft:birch_logs"
+    },
+    {
+      "tag": "minecraft:birch_logs"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:birch_log"
+  }
+}
