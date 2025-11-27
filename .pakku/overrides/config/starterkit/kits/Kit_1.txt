@@ -5,7 +5,7 @@
 'offhand' : '',
 0 : 'ftbquests:book',
 1 : '{Count:1b,id:"l2complements:eternium_hoe",tag:{Damage:0,Enchantments:[{id:"minecraft:fortune",lvl:3s},{id:"minecraft:efficiency",lvl:5s}]}}',
-2 : '',
+2 : 'createrailwaysnavigator:navigator',
 3 : '',
 4 : '',
 5 : '',
