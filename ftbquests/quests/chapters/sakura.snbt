@@ -18,22 +18,22 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.sakura.quest1918655051553177629.subtitle}"
+			subtitle: "本章作者：PL"
 			tasks: [{
 				id: "00C3C8D3B8E215A2"
-				title: "{ftbquests.chapter.sakura.quest1918655051553177629.task.55108432124056994.title}"
+				title: "开始旅途"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.sakura.quest1918655051553177629.title}"
+			title: "&6樱 \\& 樱途乐事 \\& 千古乐事"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1AA06E9A9A56001D"]
 			description: [
-				"{ftbquests.chapter.sakura.quest7673550262978790007.description1}"
+				"很长一段时间内都作为自动化克星的存在。"
 				""
-				"{ftbquests.chapter.sakura.quest7673550262978790007.description2}"
+				"相较于大型的粉碎轮，石磨更容易控制研磨程度，适合食材的加工。"
 			]
 			hide_until_deps_complete: true
 			id: "6A7DED4ED6F4C277"
@@ -47,18 +47,18 @@
 				item: "sakura:stone_mortar"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.sakura.quest7673550262978790007.title}"
+			title: "石磨"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6A7DED4ED6F4C277"]
 			description: [
-				"{ftbquests.chapter.sakura.quest6392126443969084588.description1}"
+				"专门用于烹饪日式料理的烹饪锅。"
 				""
-				"{ftbquests.chapter.sakura.quest6392126443969084588.description2}"
+				"煮锅的下方需要篝火、农夫乐事的灶台等热源才能正常工作。使用流体瓶（桶）右键可以向内输入流体。"
 				""
-				"{ftbquests.chapter.sakura.quest6392126443969084588.description3}"
+				"当然你也可以使用机械动力输入物品与流体。"
 			]
 			id: "58B5652244287CAC"
 			rewards: [{
@@ -71,16 +71,16 @@
 				item: "sakura:cooking_pot"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.sakura.quest6392126443969084588.title}"
+			title: "日式煮锅"
 			x: -1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1AA06E9A9A56001D"]
 			description: [
-				"{ftbquests.chapter.sakura.quest7133101675927784289.description1}"
+				"酿造桶主要用于酿造酱油、醋、日式酒等日式料理中常见的配料。"
 				""
-				"{ftbquests.chapter.sakura.quest7133101675927784289.description2}"
+				"你可以使用流体瓶（桶）右键输入流体，也可以使用机械动力。"
 			]
 			hide_until_deps_complete: true
 			id: "62FDDE2E746B4B61"
@@ -94,13 +94,13 @@
 				item: "sakura:fermenter"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.sakura.quest7133101675927784289.title}"
+			title: "酿造桶"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["62FDDE2E746B4B61"]
-			description: ["{ftbquests.chapter.sakura.quest7489980457865936749.description1}"]
+			description: ["与酿造桶类似，蒸馏桶用于提升酒精浓度，下方需要热源。"]
 			id: "67F1C18AF5B77F6D"
 			rewards: [{
 				id: "0459F0D47CBCC7A2"
@@ -112,20 +112,20 @@
 				item: "sakura:distiller"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.sakura.quest7489980457865936749.title}"
+			title: "蒸馏桶"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1AA06E9A9A56001D"]
 			description: [
-				"{ftbquests.chapter.sakura.quest822621304777443164.description1}"
+				"鸵鸟蛋……？"
 				""
-				"{ftbquests.chapter.sakura.quest822621304777443164.description2}"
+				"嗅探兽蛋可以放在苔藓块上孵化出嗅探兽。"
 				""
-				"{ftbquests.chapter.sakura.quest822621304777443164.description3}"
+				"成年嗅探兽会定期在苔藓泥巴等一系列方块中嗅探古代种子，不同的群系得到的古代种子不同。"
 				""
-				"{ftbquests.chapter.sakura.quest822621304777443164.description4}"
+				"喂食嗅探兽榴莲可以使其立刻嗅探。喂食嗅探兽火焰花种子可以繁殖嗅探兽。"
 			]
 			hide_until_deps_complete: true
 			id: "0B6A89B7DFED875C"
@@ -139,13 +139,13 @@
 				item: "minecraft:sniffer_egg"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.sakura.quest822621304777443164.title}"
+			title: "嗅探兽"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0B6A89B7DFED875C"]
-			description: ["{ftbquests.chapter.sakura.quest3313156727693581935.description1}"]
+			description: ["大概是你能获得的最好的厨刀。"]
 			id: "2DFAB27D6F5F1E6F"
 			tasks: [{
 				id: "2BBBD63934001897"
@@ -158,28 +158,28 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.sakura.quest3313156727693581935.title}"
+			title: "蛋壳刀"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0B6A89B7DFED875C"]
 			description: [
-				"{ftbquests.chapter.sakura.quest5864994101504078406.description1}"
+				"成年嗅探兽会定期在苔藓泥巴等一系列方块中嗅探古代种子，不同的群系得到的古代种子不同。"
 				""
-				"{ftbquests.chapter.sakura.quest5864994101504078406.description2}"
+				"白垩玉黍：平原，种植于耕地"
 				""
-				"{ftbquests.chapter.sakura.quest5864994101504078406.description3}"
+				"棱蕉：丛林，种植于泥土"
 				""
-				"{ftbquests.chapter.sakura.quest5864994101504078406.description4}"
+				"姬海棠：森林，种植于耕地，正常为灌木，骨粉催熟后变为乔木"
 				""
-				"{ftbquests.chapter.sakura.quest5864994101504078406.description5}"
+				"溪竹：河流，种植于水面下一格的泥土"
 				""
-				"{ftbquests.chapter.sakura.quest5864994101504078406.description6}"
+				"瓦斯麦：绯红森林，种植于耕地、灵魂土、灵魂沙"
 				""
-				"{ftbquests.chapter.sakura.quest5864994101504078406.description7}"
+				"诡怨桂：诡异森林，种植于耕地"
 				""
-				"{ftbquests.chapter.sakura.quest5864994101504078406.description8}"
+				"古苜蓿、火把花、瓶子草：全群系，种植于耕地。"
 			]
 			id: "5164A50FADE97246"
 			tasks: [
@@ -229,13 +229,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.sakura.quest5864994101504078406.title}"
+			title: "古代种子"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0B6A89B7DFED875C"]
-			description: ["{ftbquests.chapter.sakura.quest4670309031548709206.description1}"]
+			description: ["更好的刷子！"]
 			id: "40D04551E0C26956"
 			rewards: [{
 				id: "0F9FEBC5C549862F"
@@ -259,16 +259,16 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.sakura.quest4670309031548709206.title}"
+			title: "嗅探兽毛刷"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0B6A89B7DFED875C"]
 			description: [
-				"{ftbquests.chapter.sakura.quest3012181294915022651.description1}"
+				"有概率出现在远古城市的战利品箱中。"
 				""
-				"{ftbquests.chapter.sakura.quest3012181294915022651.description2}"
+				"星期五（金曜日）签到也有概率获得。"
 			]
 			id: "29CD6AEDB27C6F3B"
 			rewards: [{
@@ -286,7 +286,7 @@
 		}
 		{
 			dependencies: ["0B6A89B7DFED875C"]
-			description: ["{ftbquests.chapter.sakura.quest6309130633612470407.description1}"]
+			description: ["魔凝机可以提取出食材的精华。它需要输入青金石作为能量来源。"]
 			id: "578E88E25201A887"
 			rewards: [{
 				count: 64
@@ -299,10 +299,10 @@
 				item: "immortalers_delight:enchantal_cooler"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.sakura.quest6309130633612470407.title}"
+			title: "魔凝机"
 			x: -1.5d
 			y: -3.0d
 		}
 	]
-	title: "{ftbquests.chapter.sakura.title}"
+	title: "&a崇古清修者"
 }

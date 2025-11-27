@@ -10,9 +10,9 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.basic.quest1125695253340649382.description1}"
+				"&b本章节是开局的指引，如果你不知道从何开始，可以看这个章节。"
 				""
-				"{ftbquests.chapter.basic.quest1125695253340649382.description2}"
+				"木头是一切的开始。"
 			]
 			icon: "minecraft:oak_log"
 			id: "0F9F45DE64B677A6"
@@ -23,7 +23,7 @@
 				type: "item"
 			}]
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.basic.quest1125695253340649382.subtitle}"
+			subtitle: "本章作者：PL"
 			tasks: [
 				{
 					id: "6A6551CD983949C0"
@@ -42,13 +42,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.basic.quest1125695253340649382.title}"
+			title: "&6百里之行，始于撸树"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0F9F45DE64B677A6"]
-			description: ["{ftbquests.chapter.basic.quest3736624703627886886.description1}"]
+			description: ["仅有木头不够，还需要圆石。"]
 			id: "33DB285ED6B08126"
 			rewards: [{
 				count: 8
@@ -81,18 +81,18 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.basic.quest3736624703627886886.title}"
+			title: "以木击石！"
 			x: 2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["33DB285ED6B08126"]
 			description: [
-				"{ftbquests.chapter.basic.quest5360987020067585527.description1}"
+				"有了圆石，就有了熔炉。你试图用熔炉炼铁，却发现没法熔炼。"
 				""
-				"{ftbquests.chapter.basic.quest5360987020067585527.description2}"
+				"你对着粗铁按下 &a[U]&r 来查阅如何炼铁，发现需要高炉；接着你对着高炉按下了 &a[R]&r，查阅如何制作高炉。"
 				""
-				"{ftbquests.chapter.basic.quest5360987020067585527.description3}"
+				"看起来很复杂，但是似乎在你的能力范围之内。"
 			]
 			id: "4A660D4A809BBDF7"
 			rewards: [{
@@ -111,7 +111,7 @@
 		}
 		{
 			dependencies: ["4A660D4A809BBDF7"]
-			description: ["{ftbquests.chapter.basic.quest4111309074374700429.description1}"]
+			description: ["你将圆石放入熔炉中，将其烧成石头。"]
 			id: "390E4DD20BF1AD8D"
 			rewards: [
 				{
@@ -138,9 +138,9 @@
 		{
 			dependencies: ["390E4DD20BF1AD8D"]
 			description: [
-				"{ftbquests.chapter.basic.quest8229225593615796344.description1}"
+				"接着把石头做成台阶，与木头结合做出了砂轮。"
 				""
-				"{ftbquests.chapter.basic.quest8229225593615796344.description2}"
+				"手持一些物品右键砂轮可以研磨之，而深板岩圆石恰好可以被研磨。"
 			]
 			id: "72341513BC05C878"
 			rewards: [{
@@ -159,7 +159,7 @@
 		}
 		{
 			dependencies: ["4A660D4A809BBDF7"]
-			description: ["{ftbquests.chapter.basic.quest2221892837837349805.description1}"]
+			description: ["你将挖到的粗铜放入熔炉中烧炼，得到了铜锭。"]
 			id: "1ED5BFC39047A3AD"
 			rewards: [
 				{
@@ -185,7 +185,7 @@
 		}
 		{
 			dependencies: ["4A660D4A809BBDF7"]
-			description: ["{ftbquests.chapter.basic.quest8431523865570066212.description1}"]
+			description: ["你到地底深处，采掘了一些深板岩圆石。"]
 			id: "7502CA489A883F24"
 			rewards: [{
 				id: "3A3C94ED20014B4E"
@@ -206,7 +206,7 @@
 				"7502CA489A883F24"
 				"72341513BC05C878"
 			]
-			description: ["{ftbquests.chapter.basic.quest7142838161158477396.description1}"]
+			description: ["你手持深板岩圆石，尝试右键砂轮，手上的深板岩圆石变成了磨制深板岩。这正是你所需要的。"]
 			id: "6320757693F49654"
 			rewards: [
 				{
@@ -235,7 +235,7 @@
 				"2E4D835BC370CF50"
 				"6320757693F49654"
 			]
-			description: ["{ftbquests.chapter.basic.quest4436162425650451255.description1}"]
+			description: ["终于材料集齐，你做出高炉。"]
 			id: "3D906A38EAD49337"
 			rewards: [
 				{
@@ -261,7 +261,7 @@
 		}
 		{
 			dependencies: ["1ED5BFC39047A3AD"]
-			description: ["{ftbquests.chapter.basic.quest3336467329095618384.description1}"]
+			description: ["接着挖更多的粗铜，烧更多的铜锭，合成铜块。"]
 			id: "2E4D835BC370CF50"
 			rewards: [
 				{
@@ -288,13 +288,13 @@
 		{
 			dependencies: ["18DA748878B10026"]
 			description: [
-				"{ftbquests.chapter.basic.quest4198478605627573857.description1}"
+				"但是你对此并不满足。高炉的制作实在过于繁琐，并不适合铁锭的大量获取。"
 				""
-				"{ftbquests.chapter.basic.quest4198478605627573857.description2}"
+				"在一些遗迹与村庄中，你找到了一些神秘的机械。"
 				""
-				"{ftbquests.chapter.basic.quest4198478605627573857.description3}"
+				"你将它们拆下，试图从中回收铁锭；触摸这些神秘机械，你突然感觉有知识进入了你的脑海中。"
 				""
-				"{ftbquests.chapter.basic.quest4198478605627573857.description4}"
+				"这似乎是一门古老而强大的技术。你按下了 &a[W]&r，开始沉思，试图消化这些知识……"
 			]
 			icon: "create:encased_fan"
 			id: "3A43FE0C1D824661"
@@ -334,13 +334,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.basic.quest4198478605627573857.title}"
+			title: "大量熔炼"
 			x: 17.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3D906A38EAD49337"]
-			description: ["{ftbquests.chapter.basic.quest1790871931322433574.description1}"]
+			description: ["将粗铁放入高炉，你得到了第一块铁锭。"]
 			id: "18DA748878B10026"
 			rewards: [
 				{
@@ -365,5 +365,5 @@
 			y: 0.0d
 		}
 	]
-	title: "{ftbquests.chapter.basic.title}"
+	title: "&e百里之行始"
 }

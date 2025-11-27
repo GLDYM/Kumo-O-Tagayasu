@@ -11,9 +11,9 @@
 		{
 			can_repeat: false
 			description: [
-				"{ftbquests.chapter.farmers_delight.quest7580330303794947421.description1}"
+				"虽然看上去是匕首，其实是集切菜、砍怪、割草为一体的西式刀。"
 				""
-				"{ftbquests.chapter.farmers_delight.quest7580330303794947421.description2}"
+				"当然你真的拿把匕首切菜也不是不行。"
 			]
 			icon: {
 				Count: 1
@@ -35,7 +35,7 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.farmers_delight.quest7580330303794947421.subtitle}"
+			subtitle: "本章作者：Cerasus"
 			tasks: [{
 				id: "068627819A7BB6B3"
 				item: {
@@ -45,19 +45,19 @@
 						value: "farmersdelight:tools/knives"
 					}
 				}
-				title: "{ftbquests.chapter.farmers_delight.quest7580330303794947421.task.470106648702858931.title}"
+				title: "做一把小刀……匕首也行"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.farmers_delight.quest7580330303794947421.title}"
+			title: "&6第一把小刀"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6932BE3FBDD3A55D"]
 			description: [
-				"{ftbquests.chapter.farmers_delight.quest6221118742075345269.description1}"
+				"不会被水和雨浇灭的热源，可像营火一样直接烹饪食物。"
 				""
-				"{ftbquests.chapter.farmers_delight.quest6221118742075345269.description2}"
+				"同时一些厨具需要放在灶上面才能运作。"
 			]
 			hide_until_deps_complete: true
 			icon: "farmersdelight:stove"
@@ -73,9 +73,9 @@
 		{
 			dependencies: ["6932BE3FBDD3A55D"]
 			description: [
-				"{ftbquests.chapter.farmers_delight.quest8920884405958161930.description1}"
+				"当煮锅下方有热源时，煮锅会冒泡泡，此时可以用于烹饪食物。"
 				""
-				"{ftbquests.chapter.farmers_delight.quest8920884405958161930.description2}"
+				"热源的选择是多样的，一般都会使用乐事系的灶台作为热源。"
 			]
 			hide_until_deps_complete: true
 			icon: "farmersdelight:cooking_pot"
@@ -91,11 +91,11 @@
 		{
 			dependencies: ["6932BE3FBDD3A55D"]
 			description: [
-				"{ftbquests.chapter.farmers_delight.quest4255546069497060038.description1}"
+				"当副手持有食物时，用煎锅对着热源按住右键即可加热食物。"
 				""
-				"{ftbquests.chapter.farmers_delight.quest4255546069497060038.description2}"
+				"也可以将煎锅放在热源上，把食物放置在煎锅上加热。"
 				""
-				"{ftbquests.chapter.farmers_delight.quest4255546069497060038.description3}"
+				"它还能被用作武器！"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -123,9 +123,9 @@
 		{
 			dependencies: ["6932BE3FBDD3A55D"]
 			description: [
-				"{ftbquests.chapter.farmers_delight.quest5589402797600207997.description1}"
+				"将物品放上去，使用指定工具就能加工物品。"
 				""
-				"{ftbquests.chapter.farmers_delight.quest5589402797600207997.description2}"
+				"副手持物品，主手持工具，快递点击右键可以快速切菜。"
 			]
 			hide_until_deps_complete: true
 			icon: "farmersdelight:cutting_board"
@@ -160,9 +160,9 @@
 		{
 			dependencies: ["05F42BBC3C7B250D"]
 			description: [
-				"{ftbquests.chapter.farmers_delight.quest3491218136005821001.description1}"
+				"篮子可以吸取开口方向一定范围内的物品，还可以灌水，甚至倒置都可用！"
 				""
-				"{ftbquests.chapter.farmers_delight.quest3491218136005821001.description2}"
+				"经常被用于替换漏斗。"
 			]
 			icon: "farmersdelight:basket"
 			id: "30734C65BE074249"
@@ -176,7 +176,7 @@
 		}
 		{
 			dependencies: ["3CB8557724F54D36"]
-			description: ["{ftbquests.chapter.farmers_delight.quest4565839392595698724.description1}"]
+			description: ["草杆可以用来做很多有用的东西，其中之一就是有机肥料。有机肥料是沃土的前体。"]
 			hide_until_deps_visible: false
 			icon: "farmersdelight:organic_compost"
 			id: "3F5D1EBC9926E424"
@@ -192,20 +192,20 @@
 				item: "farmersdelight:organic_compost"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.farmers_delight.quest4565839392595698724.title}"
+			title: "有机肥料"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["3F5D1EBC9926E424"]
 			description: [
-				"{ftbquests.chapter.farmers_delight.quest3518203633432534867.description1}"
+				"将有机肥料放置于世界中，一段时间后有机肥料将会自然降解为沃土。"
 				""
-				"{ftbquests.chapter.farmers_delight.quest3518203633432534867.description2}"
+				"有机肥料的降解在日光下和在水附近会被加速。还可以放置蘑菇等催化物来加速分解。"
 				""
-				"{ftbquests.chapter.farmers_delight.quest3518203633432534867.description3}"
+				"沃土上面的作物会出现骨粉催熟效果，长得飞快！如果足够暗，种在沃土上的蘑菇会生长为菌落。"
 				""
-				"{ftbquests.chapter.farmers_delight.quest3518203633432534867.description4}"
+				"[INFO]如果你可以大量种植花生，种植魔花生来获取沃土是更快的选择。"
 			]
 			icon: "farmersdelight:rich_soil"
 			id: "30D32B907A3C1F53"
@@ -215,13 +215,13 @@
 				item: "farmersdelight:rich_soil"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.farmers_delight.quest3518203633432534867.title}"
+			title: "沃土"
 			x: 1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["6932BE3FBDD3A55D"]
-			description: ["{ftbquests.chapter.farmers_delight.quest4375341008199961910.description1}"]
+			description: ["草杆最主要的获取方式是用小刀割草。此外可以通过粉碎燕麦或去皮竹块来获取。"]
 			hide_until_deps_complete: true
 			id: "3CB8557724F54D36"
 			rewards: [{
@@ -236,16 +236,16 @@
 				item: "farmersdelight:straw"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.farmers_delight.quest4375341008199961910.title}"
+			title: "草杆"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6932BE3FBDD3A55D"]
 			description: [
-				"{ftbquests.chapter.farmers_delight.quest1501497220726595678.description1}"
+				"在野外或者村庄的箱子里面，可以发现四种新的作物：卷心菜，番茄，洋葱和稻米。"
 				""
-				"{ftbquests.chapter.farmers_delight.quest1501497220726595678.description2}"
+				"前三种作物与原版的作物别无二致，但是稻米需要种植于水中。"
 			]
 			hide_until_deps_complete: true
 			icon: "farmersdelight:cabbage"
@@ -272,13 +272,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.farmers_delight.quest1501497220726595678.title}"
+			title: "新的作物"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3CB8557724F54D36"]
-			description: ["{ftbquests.chapter.farmers_delight.quest429015951975589133.description1}"]
+			description: ["编织草杆就得到了粗布。粗布可以进一步加工成其他物品。"]
 			id: "05F42BBC3C7B250D"
 			rewards: [{
 				count: 5
@@ -292,16 +292,16 @@
 				item: "farmersdelight:canvas"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.farmers_delight.quest429015951975589133.title}"
+			title: "粗布"
 			x: -1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6932BE3FBDD3A55D"]
 			description: [
-				"{ftbquests.chapter.farmers_delight.quest1194813050829271683.description1}"
+				"对于一些特定的生物，使用小刀击杀可以获取额外的掉落。"
 				""
-				"{ftbquests.chapter.farmers_delight.quest1194813050829271683.description2}"
+				"比如用小刀击杀猪可以获得火腿，击杀末影龙可以获得龙肉，击杀村民可以获取……怪肉？"
 			]
 			hide_until_deps_complete: true
 			id: "1094D423ABADF283"
@@ -310,18 +310,18 @@
 				item: "farmersdelight:ham"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.farmers_delight.quest1194813050829271683.title}"
+			title: "额外掉落"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["30D32B907A3C1F53"]
 			description: [
-				"{ftbquests.chapter.farmers_delight.quest2610682360042712291.description1}"
+				"非洲农业不发达，我们都要金坷垃！"
 				""
-				"{ftbquests.chapter.farmers_delight.quest2610682360042712291.description2}"
+				"&b大量的沃土是大规模树场农田的基础。"
 				""
-				"{ftbquests.chapter.farmers_delight.quest2610682360042712291.description3}"
+				"&a一种可能的思路：大量种植花生以获取魔花生，催熟魔花生可以将下方的泥土转变为沃土。"
 			]
 			id: "243B01C643B96CE3"
 			rewards: [
@@ -344,10 +344,10 @@
 				item: { Count: 256, id: "farmersdelight:rich_soil" }
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.farmers_delight.quest2610682360042712291.title}"
+			title: "&6挑战：中原沃土"
 			x: 1.5d
 			y: 4.5d
 		}
 	]
-	title: "{ftbquests.chapter.farmers_delight.title}"
+	title: "&e面朝黄土者"
 }

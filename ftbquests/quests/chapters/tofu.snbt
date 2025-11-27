@@ -10,11 +10,11 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.tofu.quest963342085054669617.description1}"
+				"打草的时候偶尔出现的神秘作物，似乎可以打成浆来喝。"
 				""
-				"{ftbquests.chapter.tofu.quest963342085054669617.description2}"
+				"&b本章的内容涉及大量流体之间的转化，因此最好先完成机械动力的基础部分。"
 				""
-				"{ftbquests.chapter.tofu.quest963342085054669617.description3}"
+				"&b本章不讲述豆腐工艺中豆腐能的部分，请自行探索。"
 			]
 			id: "0D5E7A85B8DE2331"
 			rewards: [{
@@ -25,20 +25,20 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.tofu.quest963342085054669617.subtitle}"
+			subtitle: "本章作者：PL"
 			tasks: [{
 				count: 4L
 				id: "1CA65F46B597264D"
 				item: "tofucraft:seeds_soybeans"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tofu.quest963342085054669617.title}"
+			title: "&6豆腐工艺"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0D5E7A85B8DE2331"]
-			description: ["{ftbquests.chapter.tofu.quest1140852642794067963.description1}"]
+			description: ["向盐田内加水晒到半干，再用瓶子舀起来里面的剩余水，就能获得盐卤。盐卤可以用来点豆腐。"]
 			hide_until_deps_complete: true
 			icon: "tofucraft:bittern_bottle"
 			id: "0FD51F6F22CE57FB"
@@ -54,13 +54,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.tofu.quest1140852642794067963.title}"
+			title: "获取盐卤"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0D5E7A85B8DE2331"]
-			description: ["{ftbquests.chapter.tofu.quest5652661731184071730.description1}"]
+			description: ["把大豆放在桶中加水磨碎，就能得到豆浆。"]
 			hide_until_deps_complete: true
 			id: "4E7249E53AABD432"
 			rewards: [{
@@ -73,7 +73,7 @@
 				item: "tofucraft:bucket_soymilk"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tofu.quest5652661731184071730.title}"
+			title: "豆浆？豆奶？"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -83,9 +83,9 @@
 				"0FD51F6F22CE57FB"
 			]
 			description: [
-				"{ftbquests.chapter.tofu.quest2926873424338797439.description1}"
+				"将豆浆倒出后加入盐卤，可以使豆浆固化为嫩豆腐块，打碎就得到了嫩豆腐。"
 				""
-				"{ftbquests.chapter.tofu.quest2926873424338797439.description2}"
+				"嫩豆腐可以合成豆腐块，打碎后就得到了豆腐。"
 			]
 			id: "289E57DF483EC37F"
 			rewards: [{
@@ -100,13 +100,13 @@
 				item: "tofucraft:tofukinu"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tofu.quest2926873424338797439.title}"
+			title: "豆腐"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["289E57DF483EC37F"]
-			description: ["{ftbquests.chapter.tofu.quest4212698113434167330.description1}"]
+			description: ["将嫩豆腐的表面烤黄，就变成了烤豆腐。烤豆腐的层次更加丰富。"]
 			id: "3A76829D4533A822"
 			rewards: [{
 				count: 16
@@ -120,13 +120,13 @@
 				item: "tofucraft:tofugrilled"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tofu.quest4212698113434167330.title}"
+			title: "唐扬豆腐"
 			x: 3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["289E57DF483EC37F"]
-			description: ["{ftbquests.chapter.tofu.quest5896610567158719322.description1}"]
+			description: ["用圆石、石头（或者基岩）等将豆腐夹在中间，一段时间可以变成石豆腐块。用石豆腐块可以制作石豆腐武器装备和工具。"]
 			id: "51D4F811BA4F635A"
 			rewards: [{
 				count: 16
@@ -140,13 +140,13 @@
 				item: "tofucraft:tofuishi"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tofu.quest5896610567158719322.title}"
+			title: "硬邦邦的豆腐"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["289E57DF483EC37F"]
-			description: ["{ftbquests.chapter.tofu.quest3843514677911959206.description1}"]
+			description: ["把豆腐块放在Y50格（高50格）及以上，且光照等级小于10的条件下（结冰的条件），等待一段时间后，豆腐块会变成冻豆腐块。东北人的至爱之一。"]
 			id: "3556E83C59F136A6"
 			rewards: [{
 				count: 16
@@ -164,7 +164,7 @@
 		}
 		{
 			dependencies: ["289E57DF483EC37F"]
-			description: ["{ftbquests.chapter.tofu.quest3210814306986988619.description1}"]
+			description: ["将味噌与豆腐一同放入木桶中，并用石头压制，一段时间后就得到了味噌豆腐。有种别样的风味。"]
 			icon: "tofucraft:tofumiso"
 			id: "2C8F1A99BFB3944B"
 			rewards: [{
@@ -185,13 +185,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.tofu.quest3210814306986988619.title}"
+			title: "味噌豆腐"
 			x: 1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["0FD51F6F22CE57FB"]
-			description: ["{ftbquests.chapter.tofu.quest1934828794892539077.description1}"]
+			description: ["&b盐和盐卤也可以通过机械动力配方获得。如果你发现带水的配方始终做不出来其他东西（例如药水、建筑工茶水），请尝试加一个瓶装对应流体的过滤器。"]
 			id: "1AD9E489ACC454C5"
 			rewards: [{
 				id: "501DE12423F268CA"
@@ -200,7 +200,7 @@
 			}]
 			tasks: [{
 				id: "7272D3474097FB22"
-				title: "{ftbquests.chapter.tofu.quest1934828794892539077.task.8246886170648640290.title}"
+				title: "关于盐卤"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -208,7 +208,7 @@
 		}
 		{
 			dependencies: ["0FD51F6F22CE57FB"]
-			description: ["{ftbquests.chapter.tofu.quest3054643157530237696.description1}"]
+			description: ["盐炉可以消耗燃料来获取盐和盐卤，相较晒盐更快一些。"]
 			id: "2A6445C4802ADB00"
 			rewards: [{
 				id: "6933579FB436AB83"
@@ -220,16 +220,16 @@
 				item: "tofucraft:salt_furnace"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tofu.quest3054643157530237696.title}"
+			title: "盐炉"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3A76829D4533A822"]
 			description: [
-				"{ftbquests.chapter.tofu.quest9011187611179399781.description1}"
+				"将烤豆腐做成块，搭建成类似下界传送门的形状，再用豆腐魔杖激活，就能打开前往豆腐星球的大门。"
 				""
-				"{ftbquests.chapter.tofu.quest9011187611179399781.description2}"
+				"豆腐魔杖可以在沉船或者海底遗迹找到。"
 			]
 			icon: {
 				Count: 1
@@ -264,13 +264,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.tofu.quest9011187611179399781.title}"
+			title: "豆腐传送门"
 			x: 4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["51D4F811BA4F635A"]
-			description: ["{ftbquests.chapter.tofu.quest8427414151654022848.description1}"]
+			description: ["继续压制石豆腐块可以变成钢豆腐块。钢豆腐不能食用，但是是前期很好的过渡装备材料之一。"]
 			id: "74F4308544701EC0"
 			rewards: [{
 				count: 64
@@ -284,13 +284,13 @@
 				item: "tofucraft:tofumetal"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tofu.quest8427414151654022848.title}"
+			title: "坚硬的豆腐"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7D0E2B6398BFBA65"]
-			description: ["{ftbquests.chapter.tofu.quest5160670153763016749.description1}"]
+			description: ["到处都是豆腐与豆浆的世界。有没有其他的生物呢？"]
 			icon: "tofucraft:blocktofudiamond"
 			id: "479E62299601502D"
 			rewards: [{
@@ -303,7 +303,7 @@
 				dimension: "tofucraft:tofu_world"
 				icon: "tofucraft:tofukinu"
 				id: "4BD6914969A28FEA"
-				title: "{ftbquests.chapter.tofu.quest5160670153763016749.task.5464714942351577066.title}"
+				title: "造访豆腐星球"
 				type: "dimension"
 			}]
 			x: 4.5d
@@ -311,7 +311,7 @@
 		}
 		{
 			dependencies: ["4E7249E53AABD432"]
-			description: ["{ftbquests.chapter.tofu.quest5515847079347731375.description1}"]
+			description: ["把豆浆装瓶后饮用方便了许多。"]
 			id: "4C8C39B1C7E5BBAF"
 			rewards: [{
 				count: 4
@@ -324,13 +324,13 @@
 				item: "tofucraft:soymilk"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tofu.quest5515847079347731375.title}"
+			title: "装瓶"
 			x: -1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["0D5E7A85B8DE2331"]
-			description: ["{ftbquests.chapter.tofu.quest3282309942085690669.description1}"]
+			description: ["偶尔在下界的灵魂沙上会生长着这两种大豆，可以制作不一样的豆腐。"]
 			hide_until_deps_complete: true
 			icon: "tofucraft:seeds_soybeans_soul"
 			id: "2D8D1B807CC0252D"
@@ -360,16 +360,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.tofu.quest3282309942085690669.title}"
+			title: "地狱的低语"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0D5E7A85B8DE2331"]
 			description: [
-				"{ftbquests.chapter.tofu.quest3411996495771287439.description1}"
+				"作为含油量很高的作物之一，大豆当然也可以用来榨油。"
 				""
-				"{ftbquests.chapter.tofu.quest3411996495771287439.description2}"
+				"&b大豆油是一种优质的燃料，可以用流体泵以流体形式供给烈焰人燃烧室，使其超级燃烧。"
 			]
 			hide_until_deps_complete: true
 			id: "2F59D8BC41533F8F"
@@ -384,16 +384,16 @@
 				item: "tofucraft:bottle_soyoil"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tofu.quest3411996495771287439.title}"
+			title: "大豆油"
 			x: -1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["2F59D8BC41533F8F"]
 			description: [
-				"{ftbquests.chapter.tofu.quest8551667403655005343.description1}"
+				"重要的工业产品之一。"
 				""
-				"{ftbquests.chapter.tofu.quest8551667403655005343.description2}"
+				"&a一种可能的思路：笼中蜘蛛获取线合成羊毛再合成过滤网，大豆使用自动农场获得。"
 			]
 			id: "76ADA031E824C49F"
 			rewards: [{
@@ -407,13 +407,13 @@
 				item: "tofucraft:bottle_soyoil"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tofu.quest8551667403655005343.title}"
+			title: "&6挑战：生物燃料"
 			x: -3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0D5E7A85B8DE2331"]
-			description: ["{ftbquests.chapter.tofu.quest4702676399912684874.description1}"]
+			description: ["在大豆生长到 71% (5/7) 或者 86% (6/7) 时采摘，可以获取毛豆。毛豆可以制作一系列食物。"]
 			hide_until_deps_complete: true
 			id: "4143434516688D4A"
 			rewards: [{
@@ -427,16 +427,16 @@
 				item: "tofucraft:edamame"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tofu.quest4702676399912684874.title}"
+			title: "毛豆"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4C8C39B1C7E5BBAF"]
 			description: [
-				"{ftbquests.chapter.tofu.quest8738371510695737218.description1}"
+				"向豆奶里面加入各种配料可以做成豆奶。喝下豆奶可以获得一些正面效果。"
 				""
-				"{ftbquests.chapter.tofu.quest8738371510695737218.description2}"
+				"你也可以尝试全部以流体的形式量产这些豆奶。"
 			]
 			icon: "tofucraft:soymilk_fruits"
 			id: "7944EE975269B782"
@@ -447,7 +447,7 @@
 			}]
 			tasks: [{
 				id: "0CFE36C90567ADC7"
-				title: "{ftbquests.chapter.tofu.quest8738371510695737218.task.936246009546649031.title}"
+				title: "多种口味"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -456,9 +456,9 @@
 		{
 			dependencies: ["4143434516688D4A"]
 			description: [
-				"{ftbquests.chapter.tofu.quest2147123512222388925.description1}"
+				"？你采摘这么多毛豆是想干嘛？想变成俊达萌吗？"
 				""
-				"{ftbquests.chapter.tofu.quest2147123512222388925.description2}"
+				"&a一种可能的思路：计算一片大豆长到阶段6或7最多的时间，以此为周期定时用机械手强制采摘。"
 			]
 			id: "1DCC1D755AE792BD"
 			rewards: [{
@@ -472,16 +472,16 @@
 				item: "tofucraft:edamame"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tofu.quest2147123512222388925.title}"
+			title: "&6挑战：俊达萌"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2D8D1B807CC0252D"]
 			description: [
-				"{ftbquests.chapter.tofu.quest4724749611316141305.description1}"
+				"要点这俩种豆浆，你需要两种奇怪的液体：绯红液体与扭曲液体。"
 				""
-				"{ftbquests.chapter.tofu.quest4724749611316141305.description2}"
+				"注意绯红液体是用来点灵魂大豆浆的，反之亦然。"
 			]
 			icon: "tofucraft:shroom_bottle"
 			id: "4191AEBD1B29DCF9"
@@ -508,13 +508,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.tofu.quest4724749611316141305.title}"
+			title: "奇怪的盐卤"
 			x: -1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0D5E7A85B8DE2331"]
-			description: ["{ftbquests.chapter.tofu.quest8092879914479147996.description1}"]
+			description: ["杏树会在野外生长着，摘下树上的杏后吃掉有概率获得杏仁。杏仁可以用于种植杏树，也可以当做材料。"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "704FAF67806C5BDC"
@@ -529,13 +529,13 @@
 				item: "tofucraft:apricot"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tofu.quest8092879914479147996.title}"
+			title: "杏仁"
 			x: -3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["479E62299601502D"]
-			description: ["{ftbquests.chapter.tofu.quest3671840516043606286.description1}"]
+			description: ["毛豆宝石是豆腐星球的硬通货，可以用它跟豆腐厨师和商人交易到一些难以获得的豆腐。"]
 			id: "32F4FF7EBEAA890E"
 			rewards: [{
 				count: 4
@@ -548,16 +548,16 @@
 				item: "tofucraft:zundaruby"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tofu.quest3671840516043606286.title}"
+			title: "奇怪的宝石"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["479E62299601502D"]
 			description: [
-				"{ftbquests.chapter.tofu.quest2205797671608460814.description1}"
+				"实际上比下界合金还要坚硬。钻石豆腐制工具很适合作为中后期的过渡。"
 				""
-				"{ftbquests.chapter.tofu.quest2205797671608460814.description2}"
+				"可以在豆腐世界挖矿或者打败豆腐战神获得。"
 			]
 			id: "1E9C914BA69B260E"
 			rewards: [{
@@ -570,13 +570,13 @@
 				item: "tofucraft:tofudiamond"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tofu.quest2205797671608460814.title}"
+			title: "钻石？"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["479E62299601502D"]
-			description: ["{ftbquests.chapter.tofu.quest6146800289680726847.description1}"]
+			description: ["副手持有回响碎片，主手持有豆腐喇叭，对着豆腐蜘蛛吹，就能将其变成臭豆腐蜘蛛。打败它可以获得幽匿豆骨。可以用来锻造性能更高的装备。"]
 			id: "554DD24BDBB01B3F"
 			rewards: [{
 				id: "6634A3F897C08535"
@@ -594,9 +594,9 @@
 		{
 			dependencies: ["1E9C914BA69B260E"]
 			description: [
-				"{ftbquests.chapter.tofu.quest6894309881407749792.description1}"
+				"有种暴发户的美。"
 				""
-				"{ftbquests.chapter.tofu.quest6894309881407749792.description2}"
+				"&a一种可能的思路：笼中钻石战神或者矿机。"
 			]
 			id: "5FAD824F3CC63EA0"
 			rewards: [{
@@ -610,16 +610,16 @@
 				item: "tofucraft:blocktofudiamond"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tofu.quest6894309881407749792.title}"
+			title: "&6挑战：暴发户"
 			x: 6.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["479E62299601502D"]
 			description: [
-				"{ftbquests.chapter.tofu.quest1245489177524879106.description1}"
+				"fufu, fufufu!"
 				""
-				"{ftbquests.chapter.tofu.quest1245489177524879106.description2}"
+				"用卤水桶倒水浇灭岩浆，用骨粉催熟这种天然生成的豆腐岩，可以得到大葱。"
 			]
 			id: "1148DDCEDDF6BF02"
 			rewards: [{
@@ -633,13 +633,13 @@
 				item: "tofucraft:leek"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tofu.quest1245489177524879106.title}"
+			title: "大葱"
 			x: 6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["479E62299601502D"]
-			description: ["{ftbquests.chapter.tofu.quest904862463311796343.description1}"]
+			description: ["可以跟豆腐村民交易获取。不知道为什么会出现在豆腐世界。"]
 			id: "0C8EB79DC048D877"
 			rewards: [{
 				count: 4
@@ -652,10 +652,10 @@
 				item: "vintagedelight:ghost_pepper"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tofu.quest904862463311796343.title}"
+			title: "辛"
 			x: 6.0d
 			y: 3.0d
 		}
 	]
-	title: "{ftbquests.chapter.tofu.title}"
+	title: "&a豆乳星来客"
 }

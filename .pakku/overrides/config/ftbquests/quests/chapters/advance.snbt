@@ -10,16 +10,16 @@
 	quests: [{
 		dependency_requirement: "one_completed"
 		description: [
-			"进阶章节为对一些模组不熟悉的玩家准备，指引这些模组的大致流程。"
+			"{ftbquests.chapter.advance.quest4638091021471000231.description1}"
 			""
-			"由于涉及敌对生物，或者具有&6非常拧巴&r的流程，这些模组具有一定难度。灵活应用基础章节中的模组可以降低这些模组的拧巴程度。"
+			"{ftbquests.chapter.advance.quest4638091021471000231.description2}"
 			""
-			"如果在这些章节的完成上有困难，请尝试："
-			"1. 吃更多种类的食物以提升血量上限"
-			"2. 收集更多饰品以提升特殊属性"
-			"3. 尝试使用机械动力逃课"
-			"4. 让女仆帮你打怪"
-			"5. 先完成&a铁锈魔法师&r章节"
+			"{ftbquests.chapter.advance.quest4638091021471000231.description3}"
+			"{ftbquests.chapter.advance.quest4638091021471000231.description4}"
+			"{ftbquests.chapter.advance.quest4638091021471000231.description5}"
+			"{ftbquests.chapter.advance.quest4638091021471000231.description6}"
+			"{ftbquests.chapter.advance.quest4638091021471000231.description7}"
+			"{ftbquests.chapter.advance.quest4638091021471000231.description8}"
 		]
 		icon: "youkaishomecoming:spell_reimu"
 		id: "405DCF35DAB526A7"
@@ -31,12 +31,12 @@
 		size: 3.0d
 		tasks: [{
 			id: "49787755A644FF6D"
-			title: "&6进阶章节概述"
+			title: "{ftbquests.chapter.advance.quest4638091021471000231.task.5294112571719483245.title}"
 			type: "checkmark"
 		}]
-		title: "&6进阶章节概述"
+		title: "{ftbquests.chapter.advance.quest4638091021471000231.title}"
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: "&a进阶章节概述"
+	title: "{ftbquests.chapter.advance.title}"
 }

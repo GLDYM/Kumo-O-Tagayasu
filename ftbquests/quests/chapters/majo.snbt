@@ -10,13 +10,13 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.majo.quest325688207754089119.description1}"
+				"&o&3听说，只要学会了一种特殊的魔法，就可以把静物变成人形？&r"
 				""
-				"{ftbquests.chapter.majo.quest325688207754089119.description2}"
+				"按下&a[R]&r可以放出或收起扫帚，&a[空格]&r上升而&a[左Ctrl]&r下降，&a[左SHIFT]&r离开扫帚。"
 				""
-				"{ftbquests.chapter.majo.quest325688207754089119.description3}"
+				"如果你不习惯，也可以在模组的配置界面关闭最后一项，将下降设为&a[左SHIFT]&r，只使用&a[R]&r收起扫帚。"
 				""
-				"{ftbquests.chapter.majo.quest325688207754089119.description4}"
+				"&b相比其他可以飞行的道具，扫帚短距离飞行终归有些麻烦，但是很适合长距离飞行。"
 			]
 			id: "048513B30AB7529F"
 			rewards: [{
@@ -30,12 +30,12 @@
 				item: "majobroom:broom"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.majo.quest325688207754089119.title}"
+			title: "魔女的扫帚"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			description: ["{ftbquests.chapter.majo.quest5576608329771584707.description1}"]
+			description: ["&b给予水下呼吸IV与生命恢复IV。"]
 			id: "4D6417BAD3850CC3"
 			rewards: [{
 				id: "1800BE8F25AEA9E6"
@@ -60,12 +60,12 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.majo.quest5576608329771584707.title}"
+			title: "&5魔女的帽子"
 			x: 3.0d
 			y: -3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.majo.quest7359001976231713073.description1}"]
+			description: ["&b给予抗性提升IV与抗火。"]
 			id: "66206D4EC6B05931"
 			rewards: [{
 				id: "103787393CC5C83A"
@@ -91,12 +91,12 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.majo.quest7359001976231713073.title}"
+			title: "&5魔女的长袍"
 			x: 3.0d
 			y: 3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.majo.quest801085304173276998.description1}"]
+			description: ["&b给予急迫II与力量III。"]
 			id: "0B1E06D6FE08AF46"
 			rewards: [{
 				id: "10DA0EAC92A8A380"
@@ -122,12 +122,12 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.majo.quest801085304173276998.title}"
+			title: "&5魔女的丝袜"
 			x: -3.0d
 			y: 3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.majo.quest2834693592681426277.description1}"]
+			description: ["&b给予迅捷III与速度II。"]
 			id: "2756DACDBEDA2D65"
 			rewards: [{
 				id: "282886842F35F911"
@@ -153,16 +153,16 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.majo.quest2834693592681426277.title}"
+			title: "&5魔女的靴子"
 			x: -3.0d
 			y: -3.0d
 		}
 		{
 			can_repeat: true
 			description: [
-				"{ftbquests.chapter.majo.quest4407902697146887462.description1}"
+				"&b如果你有多余的永恒锭，可以来这里尝试抽取永恒附魔书。"
 				""
-				"{ftbquests.chapter.majo.quest4407902697146887462.description2}"
+				"&b如果你对自己的运气没信心，还是老实合成吧。"
 			]
 			id: "3D2C042623ED2D26"
 			rewards: [{
@@ -178,10 +178,10 @@
 				item: "l2complements:eternium_ingot"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.majo.quest4407902697146887462.title}"
+			title: "&e附魔书：永恒"
 			x: 0.0d
 			y: -3.0d
 		}
 	]
-	title: "{ftbquests.chapter.majo.title}"
+	title: "&5灰发之魔女"
 }

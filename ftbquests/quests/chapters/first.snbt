@@ -9,11 +9,11 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-			"{ftbquests.chapter.first.quest4002922450322117958.description1}"
+			"基础章节为从未游玩过模组的玩家准备，指引整合包的开局与常用基础模组，任务较为详细。"
 			""
-			"{ftbquests.chapter.first.quest4002922450322117958.description2}"
+			"这些模组不需要借助其他模组来完成。这些模组可以降低其他模组的难度。"
 			""
-			"{ftbquests.chapter.first.quest4002922450322117958.description3}"
+			"如果在机械动力的产线搭建上有困难，可以去看&5挑战&r的最后一章节。"
 		]
 		icon: "minecraft:emerald"
 		id: "378D3CC29AE2D546"
@@ -25,12 +25,12 @@
 		size: 3.0d
 		tasks: [{
 			id: "04668CF80B2DFF59"
-			title: "{ftbquests.chapter.first.quest4002922450322117958.task.317095820743540569.title}"
+			title: "&6基础章节概述"
 			type: "checkmark"
 		}]
-		title: "{ftbquests.chapter.first.quest4002922450322117958.title}"
+		title: "&e基础章节概述"
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: "{ftbquests.chapter.first.title}"
+	title: "&e基础章节概述"
 }

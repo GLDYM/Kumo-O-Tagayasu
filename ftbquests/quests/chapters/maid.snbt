@@ -15,7 +15,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{ftbquests.chapter.maid.quest1962203806653347672.description1}"]
+			description: ["由稗田阿求所著，记录了女仆的方方面面。"]
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"
@@ -32,7 +32,7 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.maid.quest1962203806653347672.subtitle}"
+			subtitle: "本章作者：PL"
 			tasks: [
 				{
 					id: "67EDECD02F80B9A3"
@@ -47,17 +47,17 @@
 				}
 				{
 					id: "5D0608392F923E6B"
-					title: "{ftbquests.chapter.maid.quest1962203806653347672.task.6703054137091833451.title}"
+					title: "打开记忆"
 					type: "checkmark"
 				}
 			]
-			title: "{ftbquests.chapter.maid.quest1962203806653347672.title}"
+			title: "&6幻想乡记忆"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1B3B25F7487DF758"]
-			description: ["{ftbquests.chapter.maid.quest6270742326861119657.description1}"]
+			description: ["魂符可以放下或者收起女仆。"]
 			hide_until_deps_complete: true
 			id: "570626EC269040A9"
 			rewards: [{
@@ -267,18 +267,18 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.maid.quest6270742326861119657.title}"
+			title: "魂符"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["570626EC269040A9"]
 			description: [
-				"{ftbquests.chapter.maid.quest2848778971943927034.description1}"
+				"呜呜呜，你个坏主人！"
 				""
-				"{ftbquests.chapter.maid.quest2848778971943927034.description2}"
+				"女仆死亡后会掉落胶片，在祭坛通过仪式可以复活女仆。"
 				""
-				"{ftbquests.chapter.maid.quest2848778971943927034.description3}"
+				"如果你从战利品箱中获取了神龛，也可以将胶片放入神龛中复活女仆。"
 			]
 			id: "2788E561AA51FCFA"
 			rewards: [{
@@ -289,16 +289,16 @@
 			}]
 			tasks: [{
 				id: "71E79561E457E689"
-				title: "{ftbquests.chapter.maid.quest2848778971943927034.task.8207693093581350537.title}"
+				title: "胶片"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.maid.quest2848778971943927034.title}"
+			title: "胶片"
 			x: -1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["1B3B25F7487DF758"]
-			description: ["{ftbquests.chapter.maid.quest5424381253940125450.description1}"]
+			description: ["御币是巫女的象征，可以用它来激活祭坛进行仪式，或者发射弹幕。"]
 			hide_until_deps_complete: true
 			id: "4B474602C7639F0A"
 			rewards: [
@@ -341,16 +341,16 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.maid.quest5424381253940125450.title}"
+			title: "御币"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1B3B25F7487DF758"]
 			description: [
-				"{ftbquests.chapter.maid.quest7201864275379890516.description1}"
+				"P 点可以用于发射弹幕，进行仪式，修补女仆身上经验修补的装备，或者存储在神社亭灯中给予女仆 buff。可以在结构的箱子中找到 P 点。"
 				""
-				"{ftbquests.chapter.maid.quest7201864275379890516.description2}"
+				"注意，玩家持有的 P 点是有上限的，所以多余的 P 点还是保留或者存储在神社亭灯内吧。"
 			]
 			hide_until_deps_complete: true
 			id: "63F22966BE982954"
@@ -365,16 +365,16 @@
 				item: "touhou_little_maid:power_point"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.maid.quest7201864275379890516.title}"
+			title: "PPT"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4B474602C7639F0A"]
 			description: [
-				"{ftbquests.chapter.maid.quest7566652187126847135.description1}"
+				"女仆模组的合成台是祭坛，具体的摆放方法请参考《记忆中的幻想乡》。"
 				""
-				"{ftbquests.chapter.maid.quest7566652187126847135.description2}"
+				"在祭坛的柱子上放上祭品，如果配方正确且你有足够的P点，就可以执行合成。"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -399,21 +399,21 @@
 			shape: "octagon"
 			tasks: [{
 				id: "12F2A928330A7AC9"
-				title: "{ftbquests.chapter.maid.quest7566652187126847135.task.1365339627166792393.title}"
+				title: "建造祭坛"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.maid.quest7566652187126847135.title}"
+			title: "祭坛"
 			x: -6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6902261308A0D69F"]
 			description: [
-				"{ftbquests.chapter.maid.quest582781028978197135.description1}"
+				"使用文文的相机可以捕获女仆变成照片，在没有足够魂符时存储女仆。"
 				""
-				"{ftbquests.chapter.maid.quest582781028978197135.description2}"
+				"当然其最主要的用途还是作为雕刻的参考。副手持有照片，使用雕刻刀对着 1x1x1，1x1x2，2x2x4，3x3x6 粘土块的左下角右键，可以把粘土块变成对应的雕像。不过一旦破坏就会变回黏土。"
 				""
-				"{ftbquests.chapter.maid.quest582781028978197135.description3}"
+				"如果把 1x1x1 的雕像放在火焰上方，过段时间会变成手办，就可以保留形状。"
 			]
 			icon: {
 				Count: 1
@@ -689,16 +689,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.maid.quest582781028978197135.title}"
+			title: "我要成为手办大师！"
 			x: -7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1B3B25F7487DF758"]
 			description: [
-				"{ftbquests.chapter.maid.quest1592298054179438117.description1}"
+				"神社亭灯可以存储 P 点，也可以消耗 P 点给周围的女仆提供状态效果。"
 				""
-				"{ftbquests.chapter.maid.quest1592298054179438117.description2}"
+				"神社亭灯被采集时候会保留其中的P点，因此也可以作为存储 P 点的装置。"
 			]
 			hide_until_deps_complete: true
 			id: "1618FAA4D7E93E25"
@@ -725,9 +725,9 @@
 		{
 			dependencies: ["4B474602C7639F0A"]
 			description: [
-				"{ftbquests.chapter.maid.quest9068831899736456674.description1}"
+				"使用祭坛可以召唤闪电，女仆如果被闪电劈中可以增加20血量上限。"
 				""
-				"{ftbquests.chapter.maid.quest9068831899736456674.description2}"
+				"[INFO]祭坛召唤出的闪电劈死远古守卫者后，可以获得守卫者之眼。"
 			]
 			icon: {
 				Count: 1
@@ -752,13 +752,13 @@
 				id: "26F5A2F69C299B8F"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.maid.quest9068831899736456674.title}"
+			title: "闪电！"
 			x: -1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6902261308A0D69F"]
-			description: ["{ftbquests.chapter.maid.quest6155235167347314565.description1}"]
+			description: ["整合包添加了空魂符的配方，因此可以轻松收纳召唤的女仆。"]
 			id: "556BC9C5DABA8F85"
 			rewards: [{
 				count: 8
@@ -772,16 +772,16 @@
 				item: { Count: 8, id: "touhou_little_maid:smart_slab_empty" }
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.maid.quest6155235167347314565.title}"
+			title: "空魂符"
 			x: -8.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["1B3B25F7487DF758"]
 			description: [
-				"{ftbquests.chapter.maid.quest6898680113206514928.description1}"
+				"最稀饭主人了！"
 				""
-				"{ftbquests.chapter.maid.quest6898680113206514928.description2}"
+				"&b要达到 100 血，需要满好感度 + 闪电，女仆好感度可以通过睡觉或者玩耍提升。"
 			]
 			hide_until_deps_complete: true
 			id: "5FBD09031EB9D4F0"
@@ -794,7 +794,7 @@
 				advancement: "touhou_little_maid:challenge/maid_100_healthy"
 				criterion: ""
 				id: "024BF9AFF786BD0F"
-				title: "{ftbquests.chapter.maid.quest6898680113206514928.task.165500345496550671.title}"
+				title: "&6挑战：百血"
 				type: "advancement"
 			}]
 			x: 1.5d
@@ -803,9 +803,9 @@
 		{
 			dependencies: ["6902261308A0D69F"]
 			description: [
-				"{ftbquests.chapter.maid.quest6946912059645498646.description1}"
+				"这几个物品都用于寻找/召回女仆。"
 				""
-				"{ftbquests.chapter.maid.quest6946912059645498646.description2}"
+				"你把它们都做了一遍，可以看出你真的很闲。"
 			]
 			id: "606863B6410C1516"
 			rewards: [{
@@ -836,7 +836,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.maid.quest6946912059645498646.title}"
+			title: "寻找女仆"
 			x: -4.0d
 			y: 0.5d
 		}
@@ -864,7 +864,7 @@
 				"3759486D4113C11A"
 				"447BAA06097CC83E"
 			]
-			description: ["{ftbquests.chapter.maid.quest2450307362839456454.description1}"]
+			description: ["你竟然做完了这个章节的任务，看出来你真的很喜欢女仆了。"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_details_until_startable: true
@@ -877,16 +877,16 @@
 			}]
 			tasks: [{
 				id: "3E352BF3AEAB3081"
-				title: "{ftbquests.chapter.maid.quest2450307362839456454.task.4482537329724698753.title}"
+				title: "？你真的做完了"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.maid.quest2450307362839456454.title}"
+			title: "&e隐藏：你竟然真的做完了"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6902261308A0D69F"]
-			description: ["{ftbquests.chapter.maid.quest4934724759620208702.description1}"]
+			description: ["麻石狐像守卫着圣地，防止女仆妖精在范围内复活。"]
 			id: "447BAA06097CC83E"
 			rewards: [{
 				count: 8
@@ -899,13 +899,13 @@
 				item: "touhou_little_maid:scarecrow"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.maid.quest4934724759620208702.title}"
+			title: "麻石狐像"
 			x: -4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6902261308A0D69F"]
-			description: ["{ftbquests.chapter.maid.quest3713963200363913641.description1}"]
+			description: ["河童的罗盘用于划分女仆的工作区域。在设定坐标后右键女仆，在 HOME 模式下女仆就会在坐标之间活动。"]
 			id: "338AA5DA729061A9"
 			rewards: [{
 				count: 8
@@ -918,13 +918,13 @@
 				item: "touhou_little_maid:kappa_compass"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.maid.quest3713963200363913641.title}"
+			title: "河童的罗盘"
 			x: -8.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["6902261308A0D69F"]
-			description: ["{ftbquests.chapter.maid.quest880794717882560587.description1}"]
+			description: ["女仆可以在在女仆床上睡觉，增加好感度。"]
 			id: "0C393621176E304B"
 			rewards: [{
 				id: "67DC824F5280920B"
@@ -941,7 +941,7 @@
 		}
 		{
 			dependencies: ["6902261308A0D69F"]
-			description: ["{ftbquests.chapter.maid.quest4440505255512619050.description1}"]
+			description: ["物品磁铁可以拓展女仆拾取的范围。"]
 			id: "3D9FD800CA15B82A"
 			rewards: [{
 				count: 8
@@ -959,7 +959,7 @@
 		}
 		{
 			dependencies: ["6902261308A0D69F"]
-			description: ["{ftbquests.chapter.maid.quest3988298579093733658.description1}"]
+			description: ["隙间可以使女仆往箱子里面存入物品，省去了从女仆身上取出物品的繁琐。"]
 			id: "3759486D4113C11A"
 			tasks: [{
 				id: "64A873B4FF778EAD"
@@ -972,9 +972,9 @@
 		{
 			dependencies: ["6902261308A0D69F"]
 			description: [
-				"{ftbquests.chapter.maid.quest8869498075023384356.description1}"
+				"法术强化核心可以使女仆同步主人的法术属性。"
 				""
-				"{ftbquests.chapter.maid.quest8869498075023384356.description2}"
+				"由于后期主要的输出手段是魔法，这个饰品变得相当强力。"
 			]
 			id: "7B16C981B1C79F24"
 			rewards: [{
@@ -988,13 +988,13 @@
 				item: "touhou_little_maid_spell:spell_enhancement_core"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.maid.quest8869498075023384356.title}"
+			title: "阿瓦达啃大瓜！"
 			x: -7.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["6902261308A0D69F"]
-			description: ["{ftbquests.chapter.maid.quest6432841969450049234.description1}"]
+			description: ["女仆也可以管理仓库，对于大量杂乱的仓库很有效。"]
 			id: "59460BB0454B5ED2"
 			rewards: [{
 				count: 8
@@ -1011,13 +1011,13 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.maid.quest6432841969450049234.title}"
+			title: "女仆仓管"
 			x: -4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["6902261308A0D69F"]
-			description: ["{ftbquests.chapter.maid.quest6695997544142204133.description1}"]
+			description: ["这些饰品都是战斗相关，可以为女仆提供不同的效果。"]
 			id: "5CECF64A1B7BECE5"
 			rewards: [{
 				count: 4
@@ -1121,13 +1121,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.maid.quest6695997544142204133.title}"
+			title: "战斗！战斗！"
 			x: -4.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["6902261308A0D69F"]
-			description: ["{ftbquests.chapter.maid.quest6812518779048408090.description1}"]
+			description: ["顾名思义，提升女仆背包的空间并提供一些特殊功能。"]
 			id: "5E8AEDBC3ADBB41A"
 			rewards: [{
 				count: 8
@@ -1144,5 +1144,5 @@
 			y: 2.0d
 		}
 	]
-	title: "{ftbquests.chapter.maid.title}"
+	title: "&e异世界女仆"
 }
