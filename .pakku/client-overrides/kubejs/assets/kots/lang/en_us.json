@@ -1,0 +1,231 @@
+{
+  "kots.modpack.name": "\u00a7bKumo O Tagayasu",
+  "kubejs.message.enchanting_table_blocked.0": "\u00a7cYou, cannot use the enchanting table!",
+  "kubejs.message.enchanting_table_blocked.1": "\u00a7bUse Village Trade, Blaze Enchanter or Crysyalline Flower instead.",
+  
+  "kubejs.tooltip.item.minecraft.golden_sword.0": "\u00a7aThis tool is bound to the Forgmatica/Litematica mod.",
+  
+  "kubejs.tooltip.item.chimes.bamboo_chimes.0": "\u00a7aStand near the chimes, they'll ward off phantoms!",
+  "kubejs.tooltip.item.chimes.iron_chimes.0": "\u00a7avStand near the chimes, they'll ward off phantoms!",
+  "kubejs.tooltip.item.chimes.carved_bamboo_chimes.0": "\u00a7aStand near the chimes, they'll ward off phantoms!",
+  "kubejs.tooltip.item.chimes.copper_chimes.0": "\u00a7aStand near the chimes, they'll ward off phantoms!",
+  "kubejs.tooltip.item.chimes.amethyst_chimes.0": "\u00a7aStand near the chimes, they'll ward off phantoms!",
+  "kubejs.tooltip.item.chimes.glass_bells.0": "\u00a7aStand near the chimes, they'll ward off phantoms!",
+  
+  "kubejs.tooltip.item.minecraft.anvil.0": "\u00a7aRight-click the anvil with iron blocks to repair it!",
+  "kubejs.tooltip.item.minecraft.damaged_anvil.0": "\u00a7aRight-click the anvil with iron blocks to repair it!",
+  "kubejs.tooltip.item.minecraft.chipped_anvil.0": "\u00a7aRight-click the anvil with iron blocks to repair it!",
+  
+  "kubejs.tooltip.item.upgrade_aquatic.boiled_pickerelweed.0": "\u00a7aRestores oxygen when eaten — perfect for underwater exploration.",
+  
+  "kubejs.tooltip.item.quark.grate.0": "\u00a7aAnimals don't step on, while items fall through.",
+  
+  "kubejs.tooltip.item.quark.bottled_cloud.0": "\u00a7aCan be placed out of thin air.",
+  "kubejs.tooltip.item.quark.bottled_cloud.1": "\u00a7aUseful as scaffolding when working high up.",
+  "kubejs.tooltip.item.quark.bottled_cloud.2": "\u00a7aHow to get: reach cloud level and right-click with a glass bottle.",
+  
+  "kubejs.tooltip.item.quark.chute.0": "\u00a7aItems entering via hopper or dropper fall straight out the bottom.",
+  "kubejs.tooltip.item.quark.chute.1": "\u00a7aDisable with redstone signal or a block beneath.",
+  
+  "kubejs.tooltip.item.quark.feeding_trough.0": "\u00a7aNearby animals eat stored food (like pigs eating beets) to breed.",
+  
+  "kubejs.tooltip.item.quark.soul_bead.0": "\u00a7aHelps locate Nether fortresses.",
+  
+  "kubejs.tooltip.item.quark.seed_pouch.0": "\u00a7aWhen held in main or off-hand,",
+  "kubejs.tooltip.item.quark.seed_pouch.1": "\u00a7aMatching seeds picked up go straight inside.",
+  "kubejs.tooltip.item.quark.seed_pouch.2": "\u00a7aRight-click with seeds in inventory to load them.",
+  "kubejs.tooltip.item.quark.seed_pouch.3": "\u00a7aRight-click the pouch to take out up to one stack.",
+  "kubejs.tooltip.item.quark.seed_pouch.4": "\u00a7aRight-click farmland with it to plant directly.",
+  "kubejs.tooltip.item.quark.seed_pouch.5": "\u00a7a[Sneak + Right-click] plants in a 3x3 area.",
+  
+  "kubejs.tooltip.item.quark.gravisand.0": "\u00a7aTurns into a gravity block when powered. If blocked mid-fall, it becomes static again.",
+  
+  "kubejs.tooltip.item.biomemakeover.altar.0": "\u00a7aRandomly boosts one enchant level, but adds a curse.",
+  
+  "kubejs.tooltip.item.quark.ancient_tome.0": "\u00a7aCan directly raise enchantment book levels.",
+  "kubejs.tooltip.item.quark.ancient_tome.1": "\u00a7aAlso upgrades enchantments on items.",
+  "kubejs.tooltip.item.quark.ancient_tome.2": "\u00a7aBut unlike altar, without the curse.",
+  
+  "kubejs.tooltip.item.biomemakeover.enchanted_totem.0": "\u00a7aRestores half max health instantly and clears all debuffs.",
+  
+  "kubejs.tooltip.item.biomemakeover.witch_hat.0": "\u00a7aWear it, witches stay neutral. Unlocks witch quest system.",
+  
+  "kubejs.tooltip.item.supplementaries.key.0": "\u00a7aUnlocks or unbinds linked blocks, chests, or doors.",
+  
+  "kubejs.tooltip.item.supplementaries.flute.0": "\u00a7aRight or left-click a pet to bind.",
+  "kubejs.tooltip.item.supplementaries.flute.1": "\u00a7aSummons only the bound pet.",
+  "kubejs.tooltip.item.supplementaries.flute.2": "\u00a7aCan call all nearby standing pets to you.",
+  
+  "kubejs.tooltip.item.supplementaries.antique_ink.0": "\u00a7aUse on sign text to change to a vintage font.",
+  
+  "kubejs.tooltip.item.supplementaries.cog_block.0": "\u00a7aProvides compact vertical redstone signal.",
+  
+  "kubejs.tooltip.item.quark.trowel.0": "\u00a7aRandomly places blocks from your inventory.",
+  
+  "kubejs.tooltip.item.minecraft.torch.0": "\u00a7aAttacking mobs with it briefly sets them on fire.",
+  
+  "kubejs.tooltip.item.l2complements.eternium_hoe.0": "\u00a7aLeft-click to clear large patches of grass. Careful with crops!",
+  
+  "kubejs.tooltip.item.tofucraft.bottle_soyoil.0": "\u00a7aNuclear-powered soybean oil — mysterious alien tech. Can make Blaze Burner superheated.",
+  
+  "kubejs.tooltip.item.minecraft.diorite.0": "\u00a7eOh, what is this?",
+  "kubejs.tooltip.item.minecraft.diorite.1": "\u00a7eDiorite.",
+  
+  "kubejs.tooltip.item.irons_spellbooks.keeper_flamberge.0": "\u00a7eStill not satisfied?!",
+  
+  "kubejs.tooltip.item.barbequesdelight.burnt_skewer.0": "\u00a7eOh no! What are you doing?",
+  
+  "kubejs.tooltip.item.etcetera.cotton_flower.0": "",
+  "kubejs.tooltip.item.etcetera.cotton_seeds.0": "",
+  
+  "kubejs.tooltip.item.etcetera.tidal_helmet.0": "\u00a7eOcean Heart diving helmet — a must-have for divers!",
+  
+  "kubejs.tooltip.item.minecraft.iron_helmet.0": "\u00a7eGood thing I've got an iron head!",
+  
+  "kubejs.tooltip.item.candlelight.cooking_hat.0": "\u00a7eCooking or Cooker?",
+  
+  "kubejs.tooltip.item.fruitsdelight.bayberry.0": "\u00a7eRed berries on green branches, shining bright.",
+  "kubejs.tooltip.item.fruitsdelight.lychee.0": "\u00a7eA horse gallops, the princess smiles — it's lychee.",
+  "kubejs.tooltip.item.fruitsdelight.durian.0": "\u00a7eLucky Newton wasn't hit by this one!",
+  "kubejs.tooltip.item.fruitsdelight.baked_durian.0": "\u00a7eTastes like hot water with regret.",
+  "kubejs.tooltip.item.fruitsdelight.kiwi.0": "\u00a7eWhere are the monkeys?",
+  "kubejs.tooltip.item.fruitsdelight.peach.0": "\u00a7eExuberant are peach blossoms. Brilliant are their lustre.",
+  "kubejs.tooltip.item.fruitsdelight.pineapple.0": "\u00a7eI have a pen, I have a pineapple~ En~ Pineapplepen~",
+  "kubejs.tooltip.item.fruitsdelight.lemon.0": "\u00a7eRich in vitamin C, but not great raw.",
+  
+  "kubejs.tooltip.item.vinery.cherry.0": "\u00a7eCherries can symbolize many lovely things — even lively, energetic girls.",
+  "kubejs.tooltip.item.vinery.cherry.1": "\u00a7eThey stand for love, happiness, and sweetness, with a deeper meaning of cherishing.",
+  
+  "kubejs.tooltip.item.vintagedelight.kimchi.0": "\u00a7eOppa! Kimchi!",
+  "kubejs.tooltip.item.vintagedelight.century_egg.0": "\u00a7eThis delicacy? Let them keep it for themselves!",
+  "kubejs.tooltip.item.vintagedelight.pickled_egg.0": "\u00a7eTop quality when the yolk is oily and red.",
+  "kubejs.tooltip.item.vintagedelight.pickle.0": "\u00a7ePickles go best with salo and vodka.",
+  "kubejs.tooltip.item.vintagedelight.peanut.0": "\u00a7ePea nut.",
+  
+  "kubejs.tooltip.item.casualness_delight.fried_fish.0": "\u00a7eWhere are the fries?",
+  "kubejs.tooltip.item.casualness_delight.fish_and_chips.0": "\u00a7eYes, very British.",
+  "kubejs.tooltip.item.casualness_delight.stargazy_pie.0": "\u00a7eUh… are they staring even in death?",
+  "kubejs.tooltip.item.casualness_delight.bobo_chicken.0": "\u00a7eBobo chicken~ one yuan a skewer~",
+  "kubejs.tooltip.item.casualness_delight.paper_wrapped_fish.0": "\u00a7eSo tasty with rice!",
+  
+  "kubejs.tooltip.item.youkaishomecoming.raw_lamprey.0": "\u00a7eFreshwater or saltwater eel — I'll take both.",
+  "kubejs.tooltip.item.youkaishomecoming.raw_lamprey_fillet.0": "\u00a7eTender slices of eel meat.",
+  "kubejs.tooltip.item.youkaishomecoming.chest_of_heart_throbbing_surprise.0": "\u00a7eA chest full of cream and honey.",
+  "kubejs.tooltip.item.youkaishomecoming.chest_of_heart_throbbing_surprise.1": "\u00a7eSweet lovers rejoice!",
+  "kubejs.tooltip.item.youkaishomecoming.chest_of_heart_throbbing_surprise.2": "\u00a7eHa! Did I scare you?",
+  "kubejs.tooltip.item.youkaishomecoming.oily_bean_curd.0": "\u00a7eMaybe fox spirits would like it.",
+  
+  "kubejs.tooltip.item.youkaishomecoming.udumbara_flower.0": "\u00a7eWilts shortly after blooming — pick quickly!",
+  "kubejs.tooltip.item.youkaishomecoming.udumbara_flower.1": "\u00a7eAlso prized as decoration or fine cuisine.",
+  "kubejs.tooltip.item.youkaishomecoming.udumbara_flower.2": "\u00a7eBlooms only under a full moon, fades at dawn.",
+  "kubejs.tooltip.item.youkaishomecoming.udumbara_flower.3": "\u00a7eA rare flower, even in Gensokyo.",
+  "kubejs.tooltip.item.youkaishomecoming.udumbara_flower.4": "\u00a7eOn non–full moon nights, grows only to just before maturity.",
+  "kubejs.tooltip.item.youkaishomecoming.udumbara_flower.5": "",
+  
+  "kubejs.tooltip.item.minecraft.cooked_beef.0": "\u00a7eWhere's the black pepper?",
+  "kubejs.tooltip.item.youkaishomecoming.roe.0": "\u00a7eWhere's the rice?",
+  "kubejs.tooltip.item.casualness_delight.tonkatsu.0": "\u00a7eWhere's the rice to cover it?",
+  "kubejs.tooltip.item.casualness_delight.raw_fried_dumpling.0": "\u00a7eWhoa… that's a huge dumpling…",
+  "kubejs.tooltip.item.casualness_delight.fried_dumpling.0": "\u00a7eSinful food, but so crispy!",
+  "kubejs.tooltip.item.casualness_delight.fried_chicken_chip.0": "\u00a7eBan soggy fried chicken from plates — protect diners from new victims!",
+  
+  "kubejs.tooltip.item.fruitsdelight.persimmon.0": "\u00a7eWhat am I? I'm a persimmon.",
+  "kubejs.tooltip.item.fruitsdelight.persimmon.1": "\u00a7eI'm not a tomato! Not even close!",
+  "kubejs.tooltip.item.fruitsdelight.cranberry.0": "\u00a7eLooks tasty, but actually very sour…",
+  
+  "kubejs.tooltip.item.casualness_delight.roast_gluten.0": "\u00a7eSo chewy!",
+  
+  "kubejs.tooltip.item.delightful.field_salad.0": "\u00a7eA rustic country-style mix.",
+  "kubejs.tooltip.item.ends_delight.end_mixed_salad.0": "\u00a7eEnd-themed wild veggie mix.",
+  "kubejs.tooltip.item.ends_delight.assorted_salad.0": "\u00a7eThree realms mixed greens.",
+  "kubejs.tooltip.item.farmersdelight.fruit_salad.0": "\u00a7eA juicy bowl~",
+  "kubejs.tooltip.item.farmersdelight.mixed_salad.0": "\u00a7eA vegan mix! Perfect for light meals or a substitute dinner.",
+  "kubejs.tooltip.item.farmersdelight.nether_salad.0": "\u00a7eNether-style mushroom mix.",
+  "kubejs.tooltip.item.vintagedelight.cucumber_salad.0": "\u00a7eLikely to show up in your diet plan.",
+  "kubejs.tooltip.item.candlelight.salad.0": "\u00a7eLikely to show up in your diet plan.",
+  "kubejs.tooltip.item.candlelight.beetroot_salad.0": "\u00a7eSweet and crunchy — like candy radish!",
+  
+  "kubejs.tooltip.item.bakeries.baguette.0": "\u00a7eDay-old French baguette could be used as armor-piercing ammo.",
+  
+  "kubejs.tooltip.item.seasonals.mixed_berry_muffin.0": "\u00a7eWhich muffin-head gave him wood?",
+  "kubejs.tooltip.item.seasonals.chocolate_pumpkin_muffin.0": "\u00a7eWhich muffin-head gave him wood?",
+  
+  "kubejs.tooltip.item.casualness_delight.green_tongue.0": "\u00a7eFive cents each — chewy apple-flavored popsicle!",
+  "kubejs.tooltip.item.casualness_delight.spicy_strips.0": "\u00a7eWe all snuck these behind our parents' backs.",
+  
+  "kubejs.tooltip.item.crockpot.avaj.0": "\u00a7eA mysterious liquid made by accident while brewing hot cocoa.",
+  "kubejs.tooltip.item.crockpot.bunny_stew.0": "\u00a7eWhy eat the bunny?!",
+  "kubejs.tooltip.item.crockpot.tea.0": "\u00a7eTea time~",
+  "kubejs.tooltip.item.crockpot.milkmade_hat.0": "\u00a7eWhy can a pot make a hat…?",
+  "kubejs.tooltip.item.crockpot.creative_milkmade_hat.0": "\u00a7eDrink milk in big gulps — glug glug glug…",
+  "kubejs.tooltip.item.crockpot.moqueca.0": "\u00a7eBig portion, very filling.",
+  "kubejs.tooltip.item.crockpot.meat_balls.0": "\u00a7eCan't you cook something else?",
+  "kubejs.tooltip.item.crockpot.gnaws_coin.0": "\u00a7eProof of a beginner foodie.",
+  
+  "kubejs.tooltip.item.artifacts.everlasting_beef.0": "\u00a7eI don't get why you eat this every day.",
+  "kubejs.tooltip.item.artifacts.everlasting_beef.1": "\u00a7eYou must be the adventurer who never farms.",
+  "kubejs.tooltip.item.artifacts.eternal_steak.0": "\u00a7eI don't get why you eat this every day.",
+  "kubejs.tooltip.item.artifacts.eternal_steak.1": "\u00a7eYou must be the adventurer who never farms.",
+  
+  "kubejs.tooltip.tag.forge.pasta.0": "\u00a77Noodles are carbs — eat too many and you'll get fat.",
+  "kubejs.tooltip.tag.forge.chocolate.0": "\u00a77Sweet and silky, with a lingering aftertaste.",
+  
+  "kubejs.tooltip.tag.forge.fruits.passion_fruit.0": "\u00a77A juicy berry packed with seeds.",
+  "kubejs.tooltip.tag.forge.fruits.raspberries.0": "\u00a77Tangy berries that glow with warmth.",
+  "kubejs.tooltip.tag.forge.fruits.lemon.0": "\u00a77Strong antioxidants, quenches thirst and cools you down.",
+  "kubejs.tooltip.tag.forge.fruits.blueberry.0": "\u00a77Sweet and sour, full of nutrients and benefits.",
+  "kubejs.tooltip.tag.forge.fruits.mango.0": "\u00a77Fragrant, juicy, and rich in vitamins.",
+  "kubejs.tooltip.tag.forge.fruits.peach.0": "\u00a77So juicy and sweet it's called 'honey peach.'",
+  "kubejs.tooltip.tag.forge.fruits.pineapple.0": "\u00a77Loved for its unique flavor and nutrition.",
+  "kubejs.tooltip.tag.forge.fruits.cranberry.0": "\u00a77A tart red fruit with strong antioxidant power.",
+  "kubejs.tooltip.tag.forge.fruits.orange.0": "\u00a77Packed with value — almost everyone loves it.",
+  "kubejs.tooltip.tag.forge.fruits.lychee.0": "\u00a77A galloping horse, a princess's smile — it's lychee.",
+  "kubejs.tooltip.tag.forge.fruits.strawberry.0": "\u00a77Sweet, juicy, and the superstar of berries.",
+  "kubejs.tooltip.tag.forge.fruits.hamimelon.0": "\u00a77A sweet melon, pairs well with citrus or savory foods.",
+  "kubejs.tooltip.tag.forge.fruits.grapes.0": "\u00a77Rich, versatile, colorful, fragrant, and delicious — a true gem among fruits.",
+  "kubejs.tooltip.tag.forge.fruits.persimmon.0": "\u00a77'Good for lungs and intestines' — a traditional medicinal fruit.",
+  "kubejs.tooltip.tag.forge.fruits.watermelon.0": "\u00a77Green outside, red inside — fun and refreshing.",
+  "kubejs.tooltip.tag.forge.fruits.coconut.0": "\u00a77Fresh coconut meat is full of vitamins and minerals.",
+  
+  "kubejs.tooltip.tag.forge.vegetables.onion.0": "\u00a77Watch out — propanethiol S-oxide will sting your eyes!",
+  "kubejs.tooltip.tag.forge.vegetables.tomato.0": "\u00a77Rich flavor, widely used in cooking.",
+  "kubejs.tooltip.tag.forge.vegetables.chili_pepper.0": "\u00a77Spicy! Perfect for adding kick to any dish.",
+  
+  "kubejs.tooltip.tag.forge.crops.olives.0": "\u00a77Eaten fresh or pickled — detoxifying, soothing, thirst-quenching, even sobering.",
+  "kubejs.tooltip.tag.forge.crops.adzuki.0": "\u00a77Medicinal use: reduces swelling, detoxifies, drains pus, eases jaundice.",
+  "kubejs.tooltip.tag.forge.crops.corn.0": "\u00a77A staple grain, vital for food, medicine, and more.",
+  "kubejs.tooltip.tag.forge.crops.dragon_fruit.0": "\u00a77Sweet, refreshing, and juicy cactus fruit.",
+  "kubejs.tooltip.tag.forge.crops.apple.0": "\u00a77Rich in polyphenols — anti-aging, cancer-fighting, immunity-boosting.",
+  "kubejs.tooltip.tag.forge.crops.yucca.0": "\u00a77Boosts livestock health and feed efficiency.",
+  "kubejs.tooltip.tag.forge.crops.currant.0": "\u00a77Contains 18 amino acids — often dried for pastries.",
+  "kubejs.tooltip.tag.forge.crops.hawberry.0": "\u00a77Bitter but calming — lowers blood pressure.",
+  "kubejs.tooltip.tag.forge.crops.pear.0": "\u00a77Cools and calms — helps with dizziness from high blood pressure.",
+  "kubejs.tooltip.tag.forge.crops.rice.0": "\u00a77The greatest food under heaven — harvest brings peace and plenty.",
+  "kubejs.tooltip.tag.forge.crops.mint.0": "\u00a77The world's most famous scent — minty fresh.",
+  "kubejs.tooltip.tag.forge.crops.aloe.0": "\u00a77Trusted for ages as a moisturizing skincare helper.",
+  "kubejs.tooltip.tag.forge.crops.carrot.0": "\u00a77Crisp, tasty, and nutritious — helps prevent heart disease and tumors.",
+  "kubejs.tooltip.tag.forge.crops.potato.0": "\u00a77A widely grown tuber — both veggie and staple food.",
+  "kubejs.tooltip.tag.forge.crops.beetroot.0": "\u00a77Sweet root veggie — great for salads or sugar.",
+  "kubejs.tooltip.tag.forge.crops.leek.0": "\u00a77Strong aroma — essential for cooking meat dishes.",
+  "kubejs.tooltip.tag.forge.crops.peanut.0": "\u00a77Rich in fat and protein — highly nutritious.",
+  "kubejs.tooltip.tag.forge.crops.cabbage.0": "\u00a77Versatile — perfect for salads, pickling, or stews!",
+  "kubejs.tooltip.tag.forge.crops.cucumber.0": "\u00a77Cool and crisp — great for pickling.",
+  "kubejs.tooltip.tag.forge.crops.barley.0": "\u00a77A dark grain with earthy flavor, stronger than wheat.",
+  "kubejs.tooltip.tag.forge.crops.oat.0": "\u00a77Nutritious grain, full of fiber and protein — ideal for healthy diets.",
+  
+  "kubejs.tooltip.item.majobroom.broom.0": "\u00a7bThey say, if you enchant a broom with magic",
+  "kubejs.tooltip.item.majobroom.broom.1": "\u00a7b…it can transform into a cute girl.",
+  
+  "kubejs.tooltip.item.majobroom.majo_hat.0": "\u00a7bMajo's hat whose style have passed down three generations.",
+  "kubejs.tooltip.item.majobroom.majo_cloth.0": "\u00a7bMajo's cloth with the majo's brooch, which proofing a Majo.",
+  "kubejs.tooltip.item.majobroom.majo_stocking.0": "\u00a7bStockings…? Probably some majos' hobby.",
+  "kubejs.tooltip.item.majobroom.majo_boots.0": "\u00a7bMajo's boots, covered in blessings.",
+  
+  "kubejs.tooltip.item.minecraft.enchanting_table.0": "\u00a7cYou, cannot use the enchanting table!",
+  "kubejs.tooltip.item.minecraft.enchanting_table.1": "\u00a7bUse Village Trade, Blaze Enchanter or Crysyalline Flower instead.",
+  
+  "kubejs.tooltip.item.l2complements.diffusion_wand.0": "\u00a7cDisabled due to potential safety risks.",
+  "kubejs.tooltip.item.create_sa.block_picker.0": "\u00a7cDisabled due to potential safety risks.",
+  "kubejs.tooltip.item.quark.pickarang.0": "\u00a7cDisabled due to potential safety risks.",
+  "kubejs.tooltip.item.quark.flamerang.0": "\u00a7cDisabled due to potential safety risks."
+}

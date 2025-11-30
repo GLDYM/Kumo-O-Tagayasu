@@ -1,1 +1,0 @@
-This translation is owned by [qznfbnj](https://github.com/qznfbnj), the original URL is [Quark 1.20 翻译提交 by qznfbnj · Pull Request #3992 · CFPAOrg/Minecraft-Mod-Language-Package](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/pull/3992).

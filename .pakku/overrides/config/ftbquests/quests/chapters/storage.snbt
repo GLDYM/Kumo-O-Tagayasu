@@ -15,27 +15,27 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["&b这个章节均为存储类模组相关。"]
+			description: ["{ftbquests.chapter.storage.quest9184025514151277304.description1}"]
 			icon: "functionalstorage:creative_vending_upgrade"
 			id: "7F74368BCB1C72F8"
 			shape: "gear"
 			size: 1.5d
-			subtitle: "本章作者：PL"
+			subtitle: "{ftbquests.chapter.storage.quest9184025514151277304.subtitle}"
 			tasks: [{
 				id: "48B953318072F4A9"
-				title: "存储类模组"
+				title: "{ftbquests.chapter.storage.quest9184025514151277304.task.5240311113495803049.title}"
 				type: "checkmark"
 			}]
-			title: "&6存储类模组"
+			title: "{ftbquests.chapter.storage.quest9184025514151277304.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7F74368BCB1C72F8"]
 			description: [
-				"桶适合粘在移动结构上当存储。"
+				"{ftbquests.chapter.storage.quest6690727180952870528.description1}"
 				""
-				"大量的物品还是使用抽屉吧。"
+				"{ftbquests.chapter.storage.quest6690727180952870528.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "5CDA3CEC0DBF1E80"
@@ -93,7 +93,7 @@
 		}
 		{
 			dependencies: ["7F74368BCB1C72F8"]
-			description: ["箱子适合存储大量杂乱的物品与不可堆叠物品，但是卡顿更高。"]
+			description: ["{ftbquests.chapter.storage.quest1632234935913171738.description1}"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: false
 			id: "16A6DD06B9164B1A"
@@ -162,7 +162,7 @@
 		}
 		{
 			dependencies: ["7F74368BCB1C72F8"]
-			description: ["抽屉适合储存大量的单一物品。也可以用作物品过滤、分类与传输的工具。"]
+			description: ["{ftbquests.chapter.storage.quest2515514119026550902.description1}"]
 			hide_until_deps_complete: true
 			icon: "functionalstorage:oak_1"
 			id: "22E8E6C3740EA876"
@@ -218,7 +218,7 @@
 				}
 				type: "item"
 			}]
-			title: "功能性存储"
+			title: "{ftbquests.chapter.storage.quest2515514119026550902.title}"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -269,7 +269,7 @@
 		}
 		{
 			dependencies: ["22E8E6C3740EA876"]
-			description: ["压缩抽屉可以自动合并物品，对于矿物类物品相当管用。"]
+			description: ["{ftbquests.chapter.storage.quest8670395444733624205.description1}"]
 			id: "78536EB821833F8D"
 			tasks: [{
 				id: "3DA977F1787ACFEE"
@@ -281,7 +281,7 @@
 		}
 		{
 			dependencies: ["22E8E6C3740EA876"]
-			description: ["存储控制器可以连接一定区域内的抽屉，输入存储控制器的物品会自动分配到抽屉中，因此可以用作物品传输与分类。"]
+			description: ["{ftbquests.chapter.storage.quest3495909160971472049.description1}"]
 			id: "3083F6DC1ABD0CB1"
 			tasks: [{
 				id: "7A29A37D94113034"
@@ -393,7 +393,7 @@
 		}
 		{
 			dependencies: ["22E8E6C3740EA876"]
-			description: ["末影抽屉对于同一物品共享同一存储空间，相较于不直观的虚空箱子更适合物品的传输。"]
+			description: ["{ftbquests.chapter.storage.quest249114456431522596.description1}"]
 			id: "037508473C03F324"
 			tasks: [{
 				id: "76A1AE0228230ABE"
@@ -406,15 +406,15 @@
 		{
 			dependencies: ["7F74368BCB1C72F8"]
 			description: [
-				"虽然只是一个普通的背包，套娃的开始……"
+				"{ftbquests.chapter.storage.quest1359782133220419351.description1}"
 				""
-				"&a打开：&r背包可以在任意的 GUI 直接右键打开，或者在快捷栏右键打开，也可以装在饰品栏中打开。"
+				"{ftbquests.chapter.storage.quest1359782133220419351.description2}"
 				""
-				"&a关闭：&rESC 退回上一层，SHIFT + ESC 关闭所有叠加的 GUI。"
+				"{ftbquests.chapter.storage.quest1359782133220419351.description3}"
 				""
-				"&a存储：&r可以打开背包的 GUI 存入，在 GUI 内用物品点击背包，也可以手持背包潜行左键容器以收纳容器内物品。"
+				"{ftbquests.chapter.storage.quest1359782133220419351.description4}"
 				""
-				"&a取出：&r和存储类似，只是变成潜行右键存入容器。"
+				"{ftbquests.chapter.storage.quest1359782133220419351.description5}"
 			]
 			hide_until_deps_complete: true
 			id: "12DEEAA54E86A717"
@@ -433,23 +433,23 @@
 						value: "l2backpack:backpacks"
 					}
 				}
-				title: "背包"
+				title: "{ftbquests.chapter.storage.quest1359782133220419351.task.2630315912846202179.title}"
 				type: "item"
 			}]
-			title: "“普通背包”"
+			title: "{ftbquests.chapter.storage.quest1359782133220419351.title}"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["12DEEAA54E86A717"]
 			description: [
-				"l2backpacks 的容器都可以使用配置工具来配置行为："
+				"{ftbquests.chapter.storage.quest57147457788833127.description1}"
 				""
-				"&a归类：&r全部归类会将新进入玩家物品栏的物品全部吸进容器内，堆叠归类则不占用容器的空格子。"
+				"{ftbquests.chapter.storage.quest57147457788833127.description2}"
 				""
-				"归类支持递归，如果饰品栏内的背包内有装了圆石的水晶匣子，且二者都设置为堆叠归类，那么你再次捡到圆石会直接进入匣子内。利用这点你可以在自己身上构建仓库。"
+				"{ftbquests.chapter.storage.quest57147457788833127.description3}"
 				""
-				"&a销毁：&r设置归类时容器的行为。溢出销毁在容器没有空间时将新物品直接销毁，一般用于匣子；过滤销毁则销毁背包内已有的物品，一般用于装饰品或特殊物品的背包。全部销毁基本不会用到。"
+				"{ftbquests.chapter.storage.quest57147457788833127.description4}"
 			]
 			id: "00CB074F6151ED67"
 			rewards: [{
@@ -470,18 +470,18 @@
 					type: "item"
 				}
 			]
-			title: "归类与销毁"
+			title: "{ftbquests.chapter.storage.quest57147457788833127.title}"
 			x: -1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["12DEEAA54E86A717"]
 			description: [
-				"对于同一玩家，同一颜色的空间背包共享同一空间；所以如果你的空间背包丢了，直接再做一个出来就行。"
+				"{ftbquests.chapter.storage.quest6126077398120286257.description1}"
 				""
-				"空间背包会绑定第一次打开的玩家，因此可以把背包分享给其他人，让其他人使用自己的空间。"
+				"{ftbquests.chapter.storage.quest6126077398120286257.description2}"
 				""
-				"空间背包内也可以塞背包。"
+				"{ftbquests.chapter.storage.quest6126077398120286257.description3}"
 			]
 			id: "550432EFAD824831"
 			rewards: [{
@@ -501,16 +501,16 @@
 				}
 				type: "item"
 			}]
-			title: "空间背包"
+			title: "{ftbquests.chapter.storage.quest6126077398120286257.title}"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["550432EFAD824831"]
 			description: [
-				"顾名思义，末影背包可以访问玩家的末影箱；但是它也有背包的性质，可以正常吸取物品。"
+				"{ftbquests.chapter.storage.quest6979187122773815040.description1}"
 				""
-				"末影背包内可以装空间背包。一个理想的仓库是 末影背包-空间背包-背包-匣子 的架构，最多可以存储 10 亿物品，自动归类 31104 种物品。"
+				"{ftbquests.chapter.storage.quest6979187122773815040.description2}"
 			]
 			id: "60DB0DB5F9E9EF00"
 			rewards: [{
@@ -530,18 +530,18 @@
 				}
 				type: "item"
 			}]
-			title: "末影背包"
+			title: "{ftbquests.chapter.storage.quest6979187122773815040.title}"
 			x: -4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["12DEEAA54E86A717"]
 			description: [
-				"水晶匣子可以存储一种大量不带有 NBT 的物品。"
+				"{ftbquests.chapter.storage.quest6598230013459523962.description1}"
 				""
-				"一级可以存储64组物品，可以使用空间升级组件升级容量，每次升级增加 64 组容量。"
+				"{ftbquests.chapter.storage.quest6598230013459523962.description2}"
 				""
-				"水晶匣子同样支持背包的操作逻辑。"
+				"{ftbquests.chapter.storage.quest6598230013459523962.description3}"
 			]
 			id: "5B919F3D0293697A"
 			rewards: [{
@@ -567,13 +567,13 @@
 		{
 			dependencies: ["5B919F3D0293697A"]
 			description: [
-				"类似末影抽屉，同一玩家同一物品的末影匣子共用同一空间，但是末影匣子可以从背包中吸取物品。"
+				"{ftbquests.chapter.storage.quest1192363796913686035.description1}"
 				""
-				"如果你在世界中放了同一物品的末影匣子，它就能帮你把背包内的物品存到你的基地内。"
+				"{ftbquests.chapter.storage.quest1192363796913686035.description2}"
 				""
-				"但是它也有缺点：只能存储64组物品，无法大规模存储。"
+				"{ftbquests.chapter.storage.quest1192363796913686035.description3}"
 				""
-				"将末影匣子放在工作台内合成可以清除其标记的物品。"
+				"{ftbquests.chapter.storage.quest1192363796913686035.description4}"
 			]
 			id: "108C208E4E138613"
 			rewards: [{
@@ -592,7 +592,7 @@
 		}
 		{
 			dependencies: ["12DEEAA54E86A717"]
-			description: ["可以在锻造台上用空间升级组件升级背包和水晶匣子的容量。"]
+			description: ["{ftbquests.chapter.storage.quest2391315614506680509.description1}"]
 			id: "212FA8E1B48400BD"
 			rewards: [{
 				count: 4
@@ -606,16 +606,16 @@
 				item: "l2backpack:ender_pocket"
 				type: "item"
 			}]
-			title: "空间升级组件"
+			title: "{ftbquests.chapter.storage.quest2391315614506680509.title}"
 			x: -3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["12DEEAA54E86A717"]
 			description: [
-				"容纳特殊物品的袋子，类似于原版的收纳袋。"
+				"{ftbquests.chapter.storage.quest1376433190469768193.description1}"
 				""
-				"操作逻辑与背包相同。"
+				"{ftbquests.chapter.storage.quest1376433190469768193.description2}"
 			]
 			id: "131A12B1AF021401"
 			rewards: [{
@@ -712,13 +712,13 @@
 					type: "item"
 				}
 			]
-			title: "袋子"
+			title: "{ftbquests.chapter.storage.quest1376433190469768193.title}"
 			x: -3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["550432EFAD824831"]
-			description: ["切换带可以放在空间背包内用于快速切换装备，在主手有物品时候按下 左 SHIFT 预览物品，N 切换物品。"]
+			description: ["{ftbquests.chapter.storage.quest8423994949641712694.description1}"]
 			id: "74E80AC643143436"
 			rewards: [{
 				count: 4
@@ -924,5 +924,5 @@
 			y: -1.5d
 		}
 	]
-	title: "&a掌乾坤真人"
+	title: "{ftbquests.chapter.storage.title}"
 }

@@ -26,6 +26,6 @@
 	pause_game: false
 	progression_mode: "linear"
 	show_lock_icons: true
-	title: "&b耕云钓月"
+	title: "{kots.modpack.name}"
 	version: 13
 }

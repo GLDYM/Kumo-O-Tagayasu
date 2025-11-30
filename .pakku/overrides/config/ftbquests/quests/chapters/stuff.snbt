@@ -10,49 +10,49 @@
 	quests: [
 		{
 			description: [
-				"&aJust Enough Items(JEI) &r是最出名的minecraft物品管理器，常见于各大整合包中，你可以通过它查看物品配方和用途。"
+				"{ftbquests.chapter.stuff.quest4523610778375149997.description1}"
 				""
-				"打开背包后，右侧的物品图鉴便是JEI的功能。"
+				"{ftbquests.chapter.stuff.quest4523610778375149997.description2}"
 				""
-				"操作方式："
+				"{ftbquests.chapter.stuff.quest4523610778375149997.description3}"
 				""
-				"物品栏右上方可以切换页面；"
+				"{ftbquests.chapter.stuff.quest4523610778375149997.description4}"
 				""
-				"将鼠标悬停在物品上，按&a[A]&r可以收藏物品，物品会出现在物品栏左侧，对着同一物品再次按下&a[A]&r可以解除收藏；"
+				"{ftbquests.chapter.stuff.quest4523610778375149997.description5}"
 				""
-				"按下&a[R]&r，或者在管理器内单击&a[鼠标左键]&r可以查看对应物品的配方；"
+				"{ftbquests.chapter.stuff.quest4523610778375149997.description6}"
 				""
-				"按下&a[U]&r，或者在管理器内单击&a[鼠标右键]&r可以查看对应物品的用途；"
+				"{ftbquests.chapter.stuff.quest4523610778375149997.description7}"
 				""
-				"显示的“配方”和“用途”中的物品均可以进一步按照上述方式搜索；"
+				"{ftbquests.chapter.stuff.quest4523610778375149997.description8}"
 				""
-				"如果你正处在相同的GUI界面中，按下配方右下角的&a[+]&r可以快捷放入对应材料，按住&ashift+[+]&r则可以放入最大限度的材料。"
+				"{ftbquests.chapter.stuff.quest4523610778375149997.description9}"
 				""
 				""
-				""
-				"{@pagebreak}"
-				"背包下方可以进行搜索，具体方法为："
-				""
-				"&a直接搜索&r“苹果”，会显示所有名字含苹果的物品；"
-				""
-				"&a按照拼音搜索&r“jixie”，会显示所有拼音符合“jixie”的物品，该搜索可以模糊匹配前后鼻音、平翘舌音，也可以只输入每个字的拼音首字母（拼音搜索为附属模组JECh提供）；"
-				""
-				"在关键词前添加&a@&r可以搜索指定模组的物品，比如输入“@create 机械”则搜索机械动力中名称含有“机械”的物品；"
-				""
-				"排除关键词请使用&a-&r，如“pingguo -jin”的结果中不会显示金苹果；"
-				""
-				"搜索包含空格的关键词，请使用引号&a\"\"&r。"
 				""
 				"{@pagebreak}"
-				"以下是高级搜索功能（一般来说用不到）："
+				"{ftbquests.chapter.stuff.quest4523610778375149997.description10}"
 				""
-				"仅通过提示框搜索：在关键词前键入&a#&r；"
+				"{ftbquests.chapter.stuff.quest4523610778375149997.description11}"
 				""
-				"按标签搜索：在关键词前键入&a$&r；"
+				"{ftbquests.chapter.stuff.quest4523610778375149997.description12}"
 				""
-				"按创造标签页搜索：在关键词前键入&a%&r；"
+				"{ftbquests.chapter.stuff.quest4523610778375149997.description13}"
 				""
-				"多重搜索：用&a|&r字符分隔关键词，如“wrench|hammer”。"
+				"{ftbquests.chapter.stuff.quest4523610778375149997.description14}"
+				""
+				"{ftbquests.chapter.stuff.quest4523610778375149997.description15}"
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.stuff.quest4523610778375149997.description16}"
+				""
+				"{ftbquests.chapter.stuff.quest4523610778375149997.description17}"
+				""
+				"{ftbquests.chapter.stuff.quest4523610778375149997.description18}"
+				""
+				"{ftbquests.chapter.stuff.quest4523610778375149997.description19}"
+				""
+				"{ftbquests.chapter.stuff.quest4523610778375149997.description20}"
 			]
 			icon: "ftbquests:book"
 			id: "3EC718092B2DD9AD"
@@ -62,13 +62,13 @@
 				id: "4D6AB1478E39EE56"
 				type: "checkmark"
 			}]
-			title: "JEI物品管理器（一定要看完任务描述！）"
+			title: "{ftbquests.chapter.stuff.quest4523610778375149997.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
-			description: ["作为创造奶帽的替代品，装备后可以快速自动回复饥饿值直到18，此外也兼有不死图腾的功能。"]
+			description: ["{ftbquests.chapter.stuff.quest5387853890751163486.description1}"]
 			hide_until_deps_complete: true
 			icon: "catburger:cat_burger"
 			id: "4AC580914BEDEC5E"
@@ -78,19 +78,19 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "Kitty, u can have the cheese burger~"
+			subtitle: "{ftbquests.chapter.stuff.quest5387853890751163486.subtitle}"
 			tasks: [{
 				id: "1EC0879AF39C9480"
 				item: "catburger:cat_burger"
 				type: "item"
 			}]
-			title: "小猫汉堡"
+			title: "{ftbquests.chapter.stuff.quest5387853890751163486.title}"
 			x: 4.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
-			description: ["将时间存储起来，然后对着方块shift+右键释放，你可以多次叠加这一操作，但是消耗的时间也会随之上升。"]
+			description: ["{ftbquests.chapter.stuff.quest1502644273295593644.description1}"]
 			hide_until_deps_complete: true
 			id: "14DA7701558F10AC"
 			size: 1.5d
@@ -109,11 +109,11 @@
 		{
 			dependencies: ["3EC718092B2DD9AD"]
 			description: [
-				"@supplementaries"
+				"{ftbquests.chapter.stuff.quest7946882653284881569.description1}"
 				""
-				"一堆杂乱但是有用的小玩意。"
+				"{ftbquests.chapter.stuff.quest7946882653284881569.description2}"
 				""
-				"水龙头：谁在召唤我？"
+				"{ftbquests.chapter.stuff.quest7946882653284881569.description3}"
 			]
 			hide_until_deps_complete: true
 			id: "6E48FFAB34C254A1"
@@ -124,16 +124,16 @@
 				id: "5BDDC6403BB44AB9"
 				type: "advancement"
 			}]
-			title: "锦致装饰"
+			title: "{ftbquests.chapter.stuff.quest7946882653284881569.title}"
 			x: -4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
 			description: [
-				"附魔台被禁用了，不过你还是可以通过其他方式获得附魔，如村民交易、战利品箱、蜂蜜结晶花等。"
+				"{ftbquests.chapter.stuff.quest1841627816972971738.description1}"
 				""
-				"之后使用附魔工业的打印机复制它们。"
+				"{ftbquests.chapter.stuff.quest1841627816972971738.description2}"
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:enchanting_table"
@@ -143,22 +143,22 @@
 				id: "0087568C66095B48"
 				type: "checkmark"
 			}]
-			title: "你不许附魔!"
+			title: "{ftbquests.chapter.stuff.quest1841627816972971738.title}"
 			x: 4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
 			description: [
-				"@quark"
+				"{ftbquests.chapter.stuff.quest420143370383540181.description1}"
 				""
-				"同样比较杂乱的模组。"
+				"{ftbquests.chapter.stuff.quest420143370383540181.description2}"
 				""
-				"古卷可以让你的附魔等级突破上限。"
+				"{ftbquests.chapter.stuff.quest420143370383540181.description3}"
 				""
-				"&a[J]&r可以使你将快捷栏与背包切换。"
+				"{ftbquests.chapter.stuff.quest420143370383540181.description4}"
 				""
-				"背包内对准要分享的物品按下&a[Shift]+[T]&r，可以将物品分享到聊天栏。"
+				"{ftbquests.chapter.stuff.quest420143370383540181.description5}"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -177,16 +177,16 @@
 				id: "0B08B397AD94E23A"
 				type: "checkmark"
 			}]
-			title: "Quark"
+			title: "{ftbquests.chapter.stuff.quest420143370383540181.title}"
 			x: -2.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
 			description: [
-				"空手状态下潜行右键，搬运方块和生物。"
+				"{ftbquests.chapter.stuff.quest1650833918185130260.description1}"
 				""
-				"如果某些方块需要潜行右键交互，可以离远一点。"
+				"{ftbquests.chapter.stuff.quest1650833918185130260.description2}"
 			]
 			hide_until_deps_complete: true
 			icon: "create:brass_hand"
@@ -196,16 +196,16 @@
 				id: "683A1A362210AD62"
 				type: "checkmark"
 			}]
-			title: "Carry-On"
+			title: "{ftbquests.chapter.stuff.quest1650833918185130260.title}"
 			x: -4.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
 			description: [
-				"随着你品尝不同的食物种类，你的生命上限也会随之提升。"
+				"{ftbquests.chapter.stuff.quest1217160096305147220.description1}"
 				""
-				"忘记了吃过什么食物了？你需要这本《食物清单》，你也可以将吃完所有食物作为一个终极目标。"
+				"{ftbquests.chapter.stuff.quest1217160096305147220.description2}"
 			]
 			hide_until_deps_complete: true
 			icon: "solcarrot:food_book"
@@ -216,16 +216,16 @@
 				item: "solcarrot:food_book"
 				type: "item"
 			}]
-			title: "生活调味料：胡萝卜版"
+			title: "{ftbquests.chapter.stuff.quest1217160096305147220.title}"
 			x: 2.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
 			description: [
-				"潜行右键可以打开相机的界面，放入胶卷后右键就可以拍照。"
+				"{ftbquests.chapter.stuff.quest5745558525891558936.description1}"
 				""
-				"胶卷需要使用水瓶或药水冲洗，之后放入暗房中显影。这个流程可以使用机械动力。"
+				"{ftbquests.chapter.stuff.quest5745558525891558936.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "4FBC5309BBFBBE18"
@@ -235,16 +235,16 @@
 				item: "exposure:camera"
 				type: "item"
 			}]
-			title: "照相"
+			title: "{ftbquests.chapter.stuff.quest5745558525891558936.title}"
 			x: 4.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
 			description: [
-				"用刻录机或者电脑获得唱片后放到唱片机里面就可以播放音乐。"
+				"{ftbquests.chapter.stuff.quest7041082676781857080.description1}"
 				""
-				"当然如果你在服务器的话可以用 &2/music&r 命令点歌，不过唱片机的好处是可以与世界交互，比较有节目效果。"
+				"{ftbquests.chapter.stuff.quest7041082676781857080.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "61B6F363A7BD3938"
@@ -260,9 +260,9 @@
 		{
 			dependencies: ["3EC718092B2DD9AD"]
 			description: [
-				"在框架或者投影仪填入图片或视频的直链，就可以在游戏内摆放表情包/播放视频了。"
+				"{ftbquests.chapter.stuff.quest4041839843251703038.description1}"
 				""
-				"[INFO]现在也支持B站的 bilibili 链接与 b23 链接。"
+				"{ftbquests.chapter.stuff.quest4041839843251703038.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "38177FEC4009CCFE"
@@ -272,13 +272,13 @@
 				item: "waterframes:frame"
 				type: "item"
 			}]
-			title: "Waterframe"
+			title: "{ftbquests.chapter.stuff.quest4041839843251703038.title}"
 			x: 2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
-			description: ["使用它来照亮你的小镇。"]
+			description: ["{ftbquests.chapter.stuff.quest730619484876150414.description1}"]
 			hide_until_deps_complete: true
 			id: "0A23AE8CEE05968E"
 			size: 1.5d
@@ -293,16 +293,16 @@
 				}
 				type: "item"
 			}]
-			title: "照明魔杖"
+			title: "{ftbquests.chapter.stuff.quest730619484876150414.title}"
 			x: -4.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
 			description: [
-				"在地下会生成营地，营地内的箱子有概率被替换为宝箱怪，击杀宝箱怪即可获得很多有用的饰品。"
+				"{ftbquests.chapter.stuff.quest919036372939472082.description1}"
 				""
-				"&e[WARN]&b领取签到奖励时有 50% 概率原地生成一只宝箱怪。"
+				"{ftbquests.chapter.stuff.quest919036372939472082.description2}"
 			]
 			hide_until_deps_complete: true
 			icon: "artifacts:mimic_spawn_egg"
@@ -315,19 +315,19 @@
 			size: 1.5d
 			tasks: [{
 				id: "1B0E157A532CAB7C"
-				title: "奇异饰品"
+				title: "{ftbquests.chapter.stuff.quest919036372939472082.task.1949519303823633276.title}"
 				type: "checkmark"
 			}]
-			title: "奇异饰品"
+			title: "{ftbquests.chapter.stuff.quest919036372939472082.title}"
 			x: 0.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
 			description: [
-				"@cosmosportals"
+				"{ftbquests.chapter.stuff.quest8586823690170926041.description1}"
 				""
-				"在地下挖掘到宇宙的秘密，制作维度记录器记录维度与位置，并通过搭建传送门以快速到达其他维度。"
+				"{ftbquests.chapter.stuff.quest8586823690170926041.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "772A86A6B98C03D9"
@@ -337,20 +337,20 @@
 				item: "cosmosportals:block_portal_dock_upgraded"
 				type: "item"
 			}]
-			title: "宇宙传送门"
+			title: "{ftbquests.chapter.stuff.quest8586823690170926041.title}"
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
 			description: [
-				"@polaristrading"
+				"{ftbquests.chapter.stuff.quest2248842970085963579.description1}"
 				""
-				"手持市场工具右键市场方块可以认领，并打开市场方块的界面。左下设置交易的物品与数量，左上的交易得到的物品，右侧是待交易物品的仓库。"
+				"{ftbquests.chapter.stuff.quest2248842970085963579.description2}"
 				""
-				"手持物品右键市场方块即可交易，市场方块在领地内也可以交易。"
+				"{ftbquests.chapter.stuff.quest2248842970085963579.description3}"
 				""
-				"如果需要自动化输入输出，建议使用机械动力的桌布，并使用烈焰人燃烧室作为店长；这样也可以在领地内交易。"
+				"{ftbquests.chapter.stuff.quest2248842970085963579.description4}"
 			]
 			hide_until_deps_complete: true
 			id: "1F357EC4339BB73B"
@@ -360,32 +360,32 @@
 				item: "polaristrading:shop_tool"
 				type: "item"
 			}]
-			title: "市场 \\& 交易"
+			title: "{ftbquests.chapter.stuff.quest2248842970085963579.title}"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
 			description: [
-				"在 Minecraft 中玩 Uno！"
+				"{ftbquests.chapter.stuff.quest5881686626851724597.description1}"
 				""
-				"操作："
+				"{ftbquests.chapter.stuff.quest5881686626851724597.description2}"
 				""
-				"- 使用滚轮选择卡片；"
+				"{ftbquests.chapter.stuff.quest5881686626851724597.description3}"
 				""
-				"- 右键点击桌子出牌；或者，右键点击牌堆抽牌；"
+				"{ftbquests.chapter.stuff.quest5881686626851724597.description4}"
 				""
-				"- 当还有两张牌时，按住左 Ctrl 的同时出牌即可喊出 \"Mino\"（即在打出去的同时喊）；如果忘记了，也可以在打出牌后在聊天栏中打出 \"mino\"。"
+				"{ftbquests.chapter.stuff.quest5881686626851724597.description5}"
 				""
-				"- 发现对方忘记喊 \"Mino\" 想指出来的话，直接殴打即可。"
+				"{ftbquests.chapter.stuff.quest5881686626851724597.description6}"
 				""
-				"规则："
+				"{ftbquests.chapter.stuff.quest5881686626851724597.description7}"
 				""
-				"- +2 和 +4 可以叠；"
+				"{ftbquests.chapter.stuff.quest5881686626851724597.description8}"
 				""
-				"- 用和上张牌相同的牌可以抢回合；"
+				"{ftbquests.chapter.stuff.quest5881686626851724597.description9}"
 				""
-				"- +4 只有没有其他牌可以出的时候才可以打出来。"
+				"{ftbquests.chapter.stuff.quest5881686626851724597.description10}"
 			]
 			hide_until_deps_complete: true
 			icon: "minopp:mino_table"
@@ -396,22 +396,22 @@
 				item: "minopp:mino_table"
 				type: "item"
 			}]
-			title: "Mino++"
+			title: "{ftbquests.chapter.stuff.quest5881686626851724597.title}"
 			x: -4.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
 			description: [
-				"建筑手杖可以帮助你一次性放置多个方块，在空中放置方块或者摧毁方块。"
+				"{ftbquests.chapter.stuff.quest5575048988528277607.description1}"
 				""
-				"&a[左SHIFT]+滚轮&r可以切换放置的模式。 &a[左SHIFT]+左键&r可以切换核心。"
+				"{ftbquests.chapter.stuff.quest5575048988528277607.description2}"
 				""
-				"&a[左SHIFT]+[左CTRL]+左键&r可以打开配置界面。"
+				"{ftbquests.chapter.stuff.quest5575048988528277607.description3}"
 				""
-				"对着上一次修改的方块&a[左SHIFT]+[左CTRL]+右键&r可以撤回上一次破坏/放置。"
+				"{ftbquests.chapter.stuff.quest5575048988528277607.description4}"
 				""
-				"[INFO]如果你正在游玩 KOTS 5.3.5，手杖支持放置背包内的方块。SHIFT 检测也恢复正常，而非原先的检测蹲下。"
+				"{ftbquests.chapter.stuff.quest5575048988528277607.description5}"
 			]
 			icon: {
 				Count: 1
@@ -449,12 +449,12 @@
 			size: 1.5d
 			tasks: [{
 				id: "63631EB99BD35EC5"
-				title: "建筑手杖"
+				title: "{ftbquests.chapter.stuff.quest5575048988528277607.task.7161601614981324485.title}"
 				type: "checkmark"
 			}]
 			x: -4.0d
 			y: 0.0d
 		}
 	]
-	title: "&b实用模组介绍 "
+	title: "{ftbquests.chapter.stuff.title}"
 }

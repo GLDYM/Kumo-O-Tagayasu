@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 0.1,
+  "group": "ash",
+  "ingredient": {
+    "tag": "minecraft:planks"
+  },
+  "result": "supplementaries:ash"
+}

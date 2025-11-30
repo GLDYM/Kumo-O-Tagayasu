@@ -1,0 +1,243 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cage"
+	group: "31669C96F582CF92"
+	icon: "cagedmobs:mob_cage"
+	id: "6DB018F4F6E98490"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&o&5普通的知识已经满足不了你了，你开始去寻找一些禁忌的知识……&r"
+				""
+				"在生物笼内铺设合适的环境，将 DNA 放入生物笼内，生物笼就可以自动生产生物。待生物成熟后，用剑右击生物笼就能获得生物的战利品。"
+				""
+				"普通生物笼更多作为 DNA 的中转站以获取生物蛋，并利用自然生成的刷怪笼生产实体。"
+			]
+			hide_until_deps_complete: true
+			icon: "cagedmobs:mob_cage"
+			id: "2B2EF5CF2C51C4FC"
+			rewards: [{
+				id: "08A3688F71FC9EAE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			subtitle: "本章作者：PL"
+			tasks: [{
+				id: "71ADFAD6256D9307"
+				item: "cagedmobs:mob_cage"
+				type: "item"
+			}]
+			title: "&6生物笼"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B2EF5CF2C51C4FC"]
+			description: [
+				"&b漏式生物笼&r可以自动收集并将产物输入到下方的容器中，不需要手动收集。"
+				""
+				"&b漏式生物笼&r可以轻松嵌入机械动力产线中，作为某样生物资源的稳定提供源。"
+			]
+			hide_until_deps_complete: true
+			id: "2DC9B6148BDF301E"
+			rewards: [{
+				id: "7DFFE5EF1BA60E1F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3FFC17105D626734"
+				item: "cagedmobs:hopping_mob_cage"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B2EF5CF2C51C4FC"]
+			description: [
+				"为了获取 DNA，需要制作 DNA 提取器。不同材质的提取器可以采取的生物不同。"
+				""
+				"提取器可以重复使用。"
+			]
+			hide_until_deps_complete: true
+			id: "3055C4CD3D0320C5"
+			tasks: [{
+				id: "0244462C7CB3B951"
+				item: "cagedmobs:dna_sampler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3055C4CD3D0320C5"]
+			description: ["最开始的 18 个潜影壳和 9 个幻翼膜需要手动获取；之后可以提取 DNA 自动生产。"]
+			id: "7734888167E430A8"
+			tasks: [{
+				id: "64B344F6AE795B39"
+				item: "cagedmobs:diamond_dna_sampler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7734888167E430A8"]
+			description: ["总体上海神块比较耗时，建议多做几个笼子并加上升级。"]
+			id: "4C9AC79E0ED97925"
+			tasks: [{
+				id: "524945490CCFA0AB"
+				item: "cagedmobs:netherite_dna_sampler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B2EF5CF2C51C4FC"]
+			description: ["普通的加速芯片，材料不难获取。"]
+			hide_until_deps_complete: true
+			id: "421D9CF64D6A54B5"
+			rewards: [{
+				id: "4A807CFAB206FD10"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "50C3178344FC06FE"
+				item: "cagedmobs:speed_i_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["421D9CF64D6A54B5"]
+			id: "71673A8F473A8C3E"
+			rewards: [{
+				id: "13F8FC834C9D8F08"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2A52907F2412A295"
+				item: "cagedmobs:speed_ii_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["71673A8F473A8C3E"]
+			description: ["要做到更快的速度，你需要掌握幽匿的力量……"]
+			id: "226E5A37496355B1"
+			tasks: [{
+				id: "26C01DC8391C97DF"
+				item: "cagedmobs:speed_iii_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B2EF5CF2C51C4FC"]
+			description: ["提升稀有物品的掉落数量；不过效果通常不及效率升级。"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "57ADD902C93C0D93"
+			rewards: [{
+				id: "1FF2F85773421CE3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3F18533A51394D9A"
+				item: "cagedmobs:looting_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B2EF5CF2C51C4FC"]
+			description: ["模拟箭矢，只用于产出唱片。"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4C79361EA6ACB01B"
+			rewards: [{
+				id: "51FB78A0FBBA37FD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5F6980C85598FEFB"
+				item: "cagedmobs:arrow_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B2EF5CF2C51C4FC"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "29F18DCE6B588E7F"
+			rewards: [{
+				id: "7404E877884CDB3E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "68B0E8320DB35D41"
+				item: "cagedmobs:cooking_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B2EF5CF2C51C4FC"]
+			description: ["在笼子内模拟闪电。"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "73F13137A6956D41"
+			rewards: [{
+				id: "11BC19ADD29CDC24"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "620BB08C8665EA20"
+				item: "cagedmobs:lightning_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B2EF5CF2C51C4FC"]
+			description: ["可以产出经验颗粒；不过还需要进一步处理才能转化为液态的经验。"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "092B2860A97504A4"
+			rewards: [{
+				id: "288C22AED54661D7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "29BBC6FFD6C896F6"
+				item: "cagedmobs:experience_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "&5禁忌求知人"
+}

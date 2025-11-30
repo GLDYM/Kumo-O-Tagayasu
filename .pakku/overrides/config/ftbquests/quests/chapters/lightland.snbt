@@ -16,29 +16,29 @@
 	quests: [
 		{
 			description: [
-				"&o&5你不满足于普通的物品，选择追求独一无二的材料，锻造那些只存在于传说中的神兵……&r"
+				"{ftbquests.chapter.lightland.quest3447441614727199522.description1}"
 				""
-				"莱特兰提供了大量特殊的材料，这些材料拥有着独特的获取途径。"
+				"{ftbquests.chapter.lightland.quest3447441614727199522.description2}"
 				""
-				"&b这些材料在纯原版下均有解；但是灵活应用其他模组的内容可以大幅度简化这些材料的获取难度，甚至量产这些材料。"
+				"{ftbquests.chapter.lightland.quest3447441614727199522.description3}"
 				""
-				"&a常见的生物量产方法：用笼子获取刷怪蛋，召唤生物后提取DNA，DNA置于笼子内后再次变成刷怪蛋。也可以搬刷怪笼。"
+				"{ftbquests.chapter.lightland.quest3447441614727199522.description4}"
 			]
 			icon: "createdeco:decal_warning"
 			id: "2FD7C5E21DB6BB22"
 			size: 1.5d
-			subtitle: "本章作者：Wu_Zang, PL"
+			subtitle: "{ftbquests.chapter.lightland.quest3447441614727199522.subtitle}"
 			tasks: [{
 				id: "5DEF2D3ECB5EF5BD"
 				type: "checkmark"
 			}]
-			title: "&6莱特兰"
+			title: "{ftbquests.chapter.lightland.quest3447441614727199522.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
-			description: ["使用玻璃瓶与幻翼膜合成。"]
+			description: ["{ftbquests.chapter.lightland.quest3976979817227296873.description1}"]
 			hide_until_deps_complete: true
 			id: "37311212A4BB2069"
 			tasks: [{
@@ -52,9 +52,9 @@
 		{
 			dependencies: ["37311212A4BB2069"]
 			description: [
-				"起飞！"
+				"{ftbquests.chapter.lightland.quest6468960853331420282.description1}"
 				""
-				"&a一种可能的思路：在雨天使用激流III(IV更好)三叉戟，从雪线向下加速飞。"
+				"{ftbquests.chapter.lightland.quest6468960853331420282.description2}"
 			]
 			hide_until_deps_visible: true
 			id: "59C65D9F40BA247A"
@@ -69,9 +69,9 @@
 		{
 			dependencies: ["37311212A4BB2069"]
 			description: [
-				"潜影贝：？"
+				"{ftbquests.chapter.lightland.quest1636718759909394507.description1}"
 				""
-				"&a一种可能的思路：潜影贝的子弹只会直线飞，关在小空间连点右键就行。"
+				"{ftbquests.chapter.lightland.quest1636718759909394507.description2}"
 			]
 			hide_until_deps_visible: true
 			id: "16B6CB0A599E084B"
@@ -86,11 +86,11 @@
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
 			description: [
-				"除了玩家亲自近战，在虚空之下可行的处死手段似乎还有不少？"
+				"{ftbquests.chapter.lightland.quest6804288281795787777.description1}"
 				""
-				"&a一种可能的思路：绊线钩检测末影人下落，发射 TNT 下落炸死末影人。或用潜影贝搭建虚空中的平台，用水瓶处死。"
+				"{ftbquests.chapter.lightland.quest6804288281795787777.description2}"
 				""
-				"&a另一种可能的思路：可编程齿轮箱+动力轴承，将一个刷怪平台转 180 度至虚空以下。&b@icewater冰水&r"
+				"{ftbquests.chapter.lightland.quest6804288281795787777.description3}"
 			]
 			hide_until_deps_complete: true
 			id: "5E6DB02441CA7C01"
@@ -105,9 +105,9 @@
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
 			description: [
-				"围观群众：这个人为什么要带着一群幻翼在y=319起飞"
+				"{ftbquests.chapter.lightland.quest826068822908041166.description1}"
 				""
-				"&a一种可能的思路：使用扫帚悬停在y=520。"
+				"{ftbquests.chapter.lightland.quest826068822908041166.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "0B76C937BD7577CE"
@@ -122,10 +122,10 @@
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
 			description: [
-				"玩家：你敢违抗拥有80血和全套爆炸保护6的我吗？"
-				"末地水晶：？！"
+				"{ftbquests.chapter.lightland.quest4535371047791017834.description1}"
+				"{ftbquests.chapter.lightland.quest4535371047791017834.description2}"
 				""
-				"&a一种可能的思路：TNT 复制，用水流归正 TNT 与玩家。"
+				"{ftbquests.chapter.lightland.quest4535371047791017834.description3}"
 			]
 			hide_until_deps_complete: true
 			id: "3EF0DFF0442CBF6A"
@@ -140,9 +140,9 @@
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
 			description: [
-				"较为简单的获取方式，以至于和其他材料格格不入（"
+				"{ftbquests.chapter.lightland.quest8431622679049022398.description1}"
 				""
-				"&a一种可能的思路：利用生物笼获取溺尸刷怪蛋后转换刷怪笼。"
+				"{ftbquests.chapter.lightland.quest8431622679049022398.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "7503242768D82BBE"
@@ -157,9 +157,9 @@
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
 			description: [
-				"困住恶魂后使用魂炎弹击杀获得。"
+				"{ftbquests.chapter.lightland.quest6384700644489208775.description1}"
 				""
-				"&a一种可能的思路：直接击杀。"
+				"{ftbquests.chapter.lightland.quest6384700644489208775.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "589B036897FCA3C7"
@@ -174,9 +174,9 @@
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
 			description: [
-				"使用爆炎弹攻击幻翼后获得。"
+				"{ftbquests.chapter.lightland.quest8234454628537059613.description1}"
 				""
-				"&a一种可能的思路：直接击杀。"
+				"{ftbquests.chapter.lightland.quest8234454628537059613.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "7246A8DB4D05C91D"
@@ -191,9 +191,9 @@
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
 			description: [
-				"使用黑炎弹攻击猪灵蛮兵后杀死它。"
+				"{ftbquests.chapter.lightland.quest629860946732663415.description1}"
 				""
-				"&a一种可能的思路：黑炎弹攻击到蛮兵后使用魔法击杀。"
+				"{ftbquests.chapter.lightland.quest629860946732663415.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "08BDB731A3E44277"
@@ -208,9 +208,9 @@
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
 			description: [
-				"铁魔法：无所谓，我会出手。"
+				"{ftbquests.chapter.lightland.quest4870557768290474257.description1}"
 				""
-				"&a一种可能的思路：给鸡喷神龟药水后吸引监守者注意力或使用音爆枪。如果神圣守护能提供足够的血量也可以使用。获得音爆枪后用药水蜡烛上抗性提升。"
+				"{ftbquests.chapter.lightland.quest4870557768290474257.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "4397B27C24F91911"
@@ -225,11 +225,11 @@
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
 			description: [
-				"机械手：什么，在想我的事？"
+				"{ftbquests.chapter.lightland.quest3149425256211952600.description1}"
 				""
-				"&a一种可能的思路：机械手手持永恒剑击杀监守者；监守者由天然尖啸体，刷怪笼或生物笼获取。"
+				"{ftbquests.chapter.lightland.quest3149425256211952600.description2}"
 				""
-				"&a另一种可能的思路：使用魔法直接击杀。"
+				"{ftbquests.chapter.lightland.quest3149425256211952600.description3}"
 			]
 			hide_until_deps_complete: true
 			id: "2BB501958B2833D8"
@@ -244,9 +244,9 @@
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
 			description: [
-				"远古守卫者因为天天给海上航行的玩家上debuff，坏事做尽遭雷劈了。"
+				"{ftbquests.chapter.lightland.quest7219954786305645870.description1}"
 				""
-				"&a一种可能的思路：用女仆祭坛召唤闪电。"
+				"{ftbquests.chapter.lightland.quest7219954786305645870.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "64326EA00C211D2E"
@@ -260,7 +260,7 @@
 		}
 		{
 			dependencies: ["78AC1B1140320C11"]
-			description: ["焚烧转化：绿宝石或绿宝石块"]
+			description: ["{ftbquests.chapter.lightland.quest6488563720371423356.description1}"]
 			hide_until_deps_visible: true
 			id: "5A0C02536739C87C"
 			tasks: [{
@@ -273,7 +273,7 @@
 		}
 		{
 			dependencies: ["78AC1B1140320C11"]
-			description: ["焚烧转化：各种《灵魂》物品（请看JEI）"]
+			description: ["{ftbquests.chapter.lightland.quest3953187499610119660.description1}"]
 			hide_until_deps_visible: true
 			id: "36DC8B1604C69DEC"
 			tasks: [{
@@ -286,7 +286,7 @@
 		}
 		{
 			dependencies: ["78AC1B1140320C11"]
-			description: ["焚烧转化：不死图腾或肉"]
+			description: ["{ftbquests.chapter.lightland.quest2521835414204708935.description1}"]
 			hide_until_deps_visible: true
 			id: "22FF5BF2ADABF847"
 			tasks: [{
@@ -300,11 +300,11 @@
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
 			description: [
-				"怎么感觉像把凋零的衣服扒了下来？"
+				"{ftbquests.chapter.lightland.quest7585261348161043251.description1}"
 				""
-				"&a一种可能的思路：搭建特殊结构使潜影贝击杀凋灵，见 MC 百科守护力场下的评论。"
+				"{ftbquests.chapter.lightland.quest7585261348161043251.description2}"
 				""
-				"&a另一种可能的思路：女仆手持御币用弹幕攻击击杀凋灵。"
+				"{ftbquests.chapter.lightland.quest7585261348161043251.description3}"
 			]
 			hide_until_deps_complete: true
 			id: "69444301F9A3BB33"
@@ -318,7 +318,7 @@
 		}
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
-			description: ["材料特性：消耗耐久时治疗使用者。"]
+			description: ["{ftbquests.chapter.lightland.quest8170419184537925247.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "716328F5A86B767F"
@@ -332,7 +332,7 @@
 		}
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
-			description: ["材料特性：在水/雨中时，拥有强化效果。"]
+			description: ["{ftbquests.chapter.lightland.quest8528018425667529248.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "76599B9323E62A20"
@@ -346,7 +346,7 @@
 		}
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
-			description: ["材料特性：极其坚硬，每次最多减少1耐久。追求距离的材料。"]
+			description: ["{ftbquests.chapter.lightland.quest5146741737999078828.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "476CE657941C95AC"
@@ -360,7 +360,7 @@
 		}
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
-			description: ["材料特性：全套幽匿套会消除玩家发出的声音。追求速度的材料。"]
+			description: ["{ftbquests.chapter.lightland.quest3771052899171560091.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "345578A1C453EA9B"
@@ -374,7 +374,7 @@
 		}
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
-			description: ["材料特性：耐久不消耗。基础面板极高。"]
+			description: ["{ftbquests.chapter.lightland.quest1122572363621730259.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0F942D9DF85807D3"
@@ -389,21 +389,21 @@
 		{
 			dependencies: ["2FD7C5E21DB6BB22"]
 			description: [
-				"顾名思义，将对应的原材料扔进火/岩浆中，有极小的概率会转化为对应的材料。"
-				"或许你需要自动化生产原料？"
+				"{ftbquests.chapter.lightland.quest8695354741451000849.description1}"
+				"{ftbquests.chapter.lightland.quest8695354741451000849.description2}"
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:lava_bucket"
 			id: "78AC1B1140320C11"
 			tasks: [{
 				id: "26502DA7EC933B65"
-				title: "焚烧转化"
+				title: "{ftbquests.chapter.lightland.quest8695354741451000849.task.2760756770829974373.title}"
 				type: "checkmark"
 			}]
-			title: "焚烧转化"
+			title: "{ftbquests.chapter.lightland.quest8695354741451000849.title}"
 			x: -2.0d
 			y: 0.0d
 		}
 	]
-	title: "&5神兵锻造者"
+	title: "{ftbquests.chapter.lightland.title}"
 }

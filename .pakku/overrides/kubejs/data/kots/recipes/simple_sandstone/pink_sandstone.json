@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "natures_spirit:pink_sand"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "natures_spirit:pink_sandstone"
+  }
+}

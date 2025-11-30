@@ -1,0 +1,1673 @@
+{
+
+  "ftbquests.chapter.advance.quest4638091021471000231.description1": "The advanced chapter is prepared for players unfamiliar with certain mods, guiding their general progression.",
+  "ftbquests.chapter.advance.quest4638091021471000231.description2": "Because they involve hostile mobs or have \u00266very convoluted\u0026r progression, these mods are somewhat difficult. Skillful use of mods from the basic chapter can reduce the frustration.",
+  "ftbquests.chapter.advance.quest4638091021471000231.description3": "If you find these chapters difficult to complete, try:",
+  "ftbquests.chapter.advance.quest4638091021471000231.description4": "1. Eat more varieties of food to increase max health.",
+  "ftbquests.chapter.advance.quest4638091021471000231.description5": "2. Collect more Artifacts to boost special attributes.",
+  "ftbquests.chapter.advance.quest4638091021471000231.description6": "3. Try using Create machinery to skip progression.",
+  "ftbquests.chapter.advance.quest4638091021471000231.description7": "4. Let Touhou maids help you fight mobs.",
+  "ftbquests.chapter.advance.quest4638091021471000231.description8": "5. First complete the \u0026aRusty Spell Mage\u0026r chapter.",
+  "ftbquests.chapter.advance.quest4638091021471000231.task.5294112571719483245.title": "\u00266Advanced Chapter Overview",
+  "ftbquests.chapter.advance.quest4638091021471000231.title": "\u00266Advanced Chapter Overview",
+  "ftbquests.chapter.advance.title": "\u0026aAdvanced Chapter Overview",
+  
+  "ftbquests.chapter.bakeries.quest1838479141550133312.description1": "Put bread dough into the oven, set the right temperature, wait a while, and you'll get delicious bread.",
+  "ftbquests.chapter.bakeries.quest1838479141550133312.description2": "Bread tooltips show the minimum baking temperature required; each bread also has its own \u00266perfect temperature\u0026r. Bread baked at perfect temperature grants extra effects and can be eaten regardless of hunger.",
+  "ftbquests.chapter.bakeries.quest1838479141550133312.title": "Bake Bread",
+  
+  "ftbquests.chapter.bakeries.quest230688261255761233.description1": "Hold a bread knife in off-hand, right-click with an egg to get raw egg; right-click with raw egg to separate yolk and white.",
+  "ftbquests.chapter.bakeries.quest230688261255761233.description2": "Whip them together in a mixer, then combine to make cake batter.",
+  "ftbquests.chapter.bakeries.quest230688261255761233.title": "Prepare Batter",
+  
+  "ftbquests.chapter.bakeries.quest2681462580699735220.title": "\u00266Baguette King",
+  
+  "ftbquests.chapter.bakeries.quest4201601263399616428.description1": "To make bread, you first need yeast. Place three portions of \u00263whole wheat flour\u0026r and a bottle of water into a fermenting jar. After some time it becomes yeast, which can be collected with a glass bottle.",
+  "ftbquests.chapter.bakeries.quest4201601263399616428.description2": "You can also obtain yeast by trading with a baker.",
+  "ftbquests.chapter.bakeries.quest4201601263399616428.title": "Baker's Beginning",
+  
+  "ftbquests.chapter.bakeries.quest4603215269487944074.description1": "To become a pastry chef, a mixer is essential.",
+  "ftbquests.chapter.bakeries.quest4603215269487944074.description2": "\u0026bMost ingredients from this mod have been replaced; you can obtain them through other mods' methods.",
+  "ftbquests.chapter.bakeries.quest4603215269487944074.subtitle": "Chapter Author: PL",
+  "ftbquests.chapter.bakeries.quest4603215269487944074.title": "\u00266Mixer",
+  
+  "ftbquests.chapter.bakeries.quest5488830766984526405.description1": "Put milk and salt into a fermenting jar; after some time it becomes cheese, right-click to collect.",
+  "ftbquests.chapter.bakeries.quest5488830766984526405.title": "Cheese Block",
+  
+  "ftbquests.chapter.bakeries.quest6125616954081952678.description1": "Pour cake batter into a mold, bake at 170°C in the oven, then place the mold on a table and right-click to unmold.",
+  "ftbquests.chapter.bakeries.quest6125616954081952678.title": "Bake in Mold",
+  
+  "ftbquests.chapter.bakeries.quest6960844142628692416.description1": "As a pastry chef, how could you not have your own bread knife?",
+  "ftbquests.chapter.bakeries.quest6960844142628692416.title": "Bread Knife",
+  
+  "ftbquests.chapter.bakeries.quest7137667234940633470.description1": "Add yeast, flour, and other ingredients into the mixer. After mixing and fermenting, you'll get dough.",
+  "ftbquests.chapter.bakeries.quest7137667234940633470.description2": "Different breads require different dough recipes.",
+  "ftbquests.chapter.bakeries.quest7137667234940633470.title": "Make Dough",
+  
+  "ftbquests.chapter.bakeries.quest7209296395673701027.description1": "Cake base can already be eaten, but to make a cake it needs further processing.",
+  "ftbquests.chapter.bakeries.quest7209296395673701027.description2": "Slice the cake base with a bread knife, place on a table, then layer in order: cake slice – cream – cake slice – cream – sweet berries, to make a cream cake.",
+  "ftbquests.chapter.bakeries.quest7209296395673701027.title": "Cake Assembly",
+  
+  "ftbquests.chapter.bakeries.quest7498928939670275636.description1": "You can also make a cake roll. First slice the cake base in half with a bread knife, place parchment paper on the table, then put cake slices on it. Right-click with ingredients, then right-click empty-handed to finish the roll.",
+  "ftbquests.chapter.bakeries.quest7498928939670275636.description2": "Cake rolls can be eaten regardless of hunger. Each roll can hold up to four ingredients, inheriting all their effects (plus the roll's softness). Duplicate effects don't stack. Ingredient rules: 1. No block form, 2. No container, 3. No forced tags, 4. Not another cake roll.",
+  "ftbquests.chapter.bakeries.quest7498928939670275636.title": "Cake Roll",
+  
+  "ftbquests.chapter.bakeries.quest8149956687275848481.description1": "Place dough on the dough shaping table to roll it into different bread bases. Some bases can be filled to become other types.",
+  "ftbquests.chapter.bakeries.quest8149956687275848481.title": "Roll Dough Base",
+  
+  "ftbquests.chapter.bakeries.title": "\u0026eTown Pastry Chef",
+  
+  "ftbquests.chapter.basic.quest1125695253340649382.description1": "\u0026bThis chapter is the starting guide. If you don't know where to begin, read this.",
+  "ftbquests.chapter.basic.quest1125695253340649382.description2": "Wood is the beginning of everything.",
+  "ftbquests.chapter.basic.quest1125695253340649382.subtitle": "Chapter Author: PL",
+  "ftbquests.chapter.basic.quest1125695253340649382.title": "\u00266A journey of a hundred miles begins with punching trees",
+  
+  "ftbquests.chapter.basic.quest1790871931322433574.description1": "Put raw iron into a blast furnace, you get your first iron ingot.",
+  
+  "ftbquests.chapter.basic.quest2221892837837349805.description1": "Smelt the raw copper you mined in a furnace to get copper ingots.",
+  
+  "ftbquests.chapter.basic.quest3336467329095618384.description1": "Then mine more raw copper, smelt more ingots, and craft copper blocks.",
+  
+  "ftbquests.chapter.basic.quest3736624703627886886.description1": "Wood alone isn't enough — you also need cobblestone.",
+  "ftbquests.chapter.basic.quest3736624703627886886.title": "Strike stone with wood!",
+  
+  "ftbquests.chapter.basic.quest4111309074374700429.description1": "Put cobblestone into a furnace to smelt it into stone.",
+  
+  "ftbquests.chapter.basic.quest4198478605627573857.description1": "But you're not satisfied. Making a blast furnace is too complicated, not suitable for mass iron production.",
+  "ftbquests.chapter.basic.quest4198478605627573857.description2": "In ruins and villages, you find some mysterious machines.",
+  "ftbquests.chapter.basic.quest4198478605627573857.description3": "You dismantle them, trying to recover iron ingots; touching these machines suddenly fills your mind with knowledge.",
+  "ftbquests.chapter.basic.quest4198478605627573857.description4": "It seems to be an ancient and powerful technology. You press \u0026a[W]\u0026r, begin to ponder, and try to digest this knowledge…",
+  "ftbquests.chapter.basic.quest4198478605627573857.title": "Mass Smelting",
+  
+  "ftbquests.chapter.basic.quest4436162425650451255.description1": "Finally, with all materials gathered, you craft a blast furnace.",
+  
+  "ftbquests.chapter.basic.quest5360987020067585527.description1": "With cobblestone, you can make a furnace. You try smelting iron, but it doesn't work.",
+  "ftbquests.chapter.basic.quest5360987020067585527.description2": "You press \u0026a[U]\u0026r on raw iron to check how to smelt it, and discover it requires a blast furnace; then you press \u0026a[R]\u0026r on the blast furnace to see how to craft it.",
+  "ftbquests.chapter.basic.quest5360987020067585527.description3": "It looks complicated, but still within your ability.",
+  
+  "ftbquests.chapter.basic.quest7142838161158477396.description1": "Holding deepslate cobblestone, you right-click a grindstone. It turns into polished deepslate — exactly what you need.",
+  
+  "ftbquests.chapter.basic.quest8229225593615796344.description1": "Then you craft stone slabs, combine with wood to make a grindstone.",
+  "ftbquests.chapter.basic.quest8229225593615796344.description2": "Right-clicking the grindstone with items lets you grind them. Deepslate cobblestone happens to be grindable.",
+  
+  "ftbquests.chapter.basic.quest8431523865570066212.description1": "You venture deep underground and mine some deepslate cobblestone.",
+  
+  "ftbquests.chapter.basic.title": "\u0026eJourney Begins",
+  
+  "ftbquests.chapter.builder.quest1600630753885707715.description1": "@immersive_furniture",
+  "ftbquests.chapter.builder.quest1600630753885707715.description2": "Start with a Artisan's Workstation, furniture all hand-made!",
+  "ftbquests.chapter.builder.quest1600630753885707715.description3": "Similar to Axiom, Immersive Furniture lets you DIY beautiful furniture, decorations, and objects in-game, or choose from a huge online market. Supports particle effects, sounds, sitting and lying functions.",
+  "ftbquests.chapter.builder.quest1600630753885707715.description4": "For example, here's a Power. Hey Vergil your portal opening days are over, give me the Yamato.",
+  "ftbquests.chapter.builder.quest1600630753885707715.task.6074114463689526802.title": "Immersive Furniture",
+  "ftbquests.chapter.builder.quest1600630753885707715.title": "Interior: Immersive Furniture",
+  
+  "ftbquests.chapter.builder.quest1796389177213240072.description1": "@candlelight",
+  "ftbquests.chapter.builder.quest1796389177213240072.description2": "Actually no candles… but provides furniture suitable for modern cafeterias, including long tables.",
+  "ftbquests.chapter.builder.quest1796389177213240072.task.3385265463577192445.title": "Candlelit Dinner",
+  "ftbquests.chapter.builder.quest1796389177213240072.title": "Kitchen Interior: Candlelit Dinner",
+  
+  "ftbquests.chapter.builder.quest1901970943037427929.description1": "@waterframes",
+  "ftbquests.chapter.builder.quest1901970943037427929.description2": "Provides TVs — you can use them to show pictures or Youtube videos.",
+  "ftbquests.chapter.builder.quest1901970943037427929.task.7016244377497915916.title": "Waterframes",
+  "ftbquests.chapter.builder.quest1901970943037427929.title": "Exterior \\\u0026 Interior: Waterframes ",
+  
+  "ftbquests.chapter.builder.quest2254943914613527859.description1": "@bloomingnature",
+  "ftbquests.chapter.builder.quest2254943914613527859.description2": "Biome mod, adds extra wood, stone, and important flowers!",
+  "ftbquests.chapter.builder.quest2254943914613527859.task.8081480204643172330.title": "Blooming Nature",
+  "ftbquests.chapter.builder.quest2254943914613527859.title": "Blocks \\\u0026 Plants: Blooming Nature",
+
+  "ftbquests.chapter.builder.quest240345176090556200.description1": "@natures_spirit",
+  "ftbquests.chapter.builder.quest240345176090556200.description2": "Biome mod, adds extra wood and stone.",
+  "ftbquests.chapter.builder.quest240345176090556200.task.7797160154709658805.title": "Nature's Spirit",
+  "ftbquests.chapter.builder.quest240345176090556200.title": "Blocks: Nature's Spirit",
+  
+  "ftbquests.chapter.builder.quest2408159188317459275.description1": "@beachparty",
+  "ftbquests.chapter.builder.quest2408159188317459275.description2": "Adds a series of beach-themed decorations and foods.",
+  "ftbquests.chapter.builder.quest2408159188317459275.task.2068837661015837292.title": "Beach Party",
+  "ftbquests.chapter.builder.quest2408159188317459275.title": "Beach: Beach Party",
+  
+  "ftbquests.chapter.builder.quest3132562662497056924.description1": "@createdeco",
+  "ftbquests.chapter.builder.quest3132562662497056924.description2": "Create itself already adds many stone types; Create Deco expands the style to more blocks.",
+  "ftbquests.chapter.builder.quest3132562662497056924.task.8885004989953497217.title": "Create Deco",
+  "ftbquests.chapter.builder.quest3132562662497056924.title": "Blocks: Create Deco",
+  
+  "ftbquests.chapter.builder.quest4241017181988898549.description1": "@ultramarine",
+  "ftbquests.chapter.builder.quest4241017181988898549.description2": "Ultramarine provides many interior and exterior blocks for Chinese-style architecture.",
+  "ftbquests.chapter.builder.quest4241017181988898549.task.711748694818269715.title": "Ultramarine",
+  "ftbquests.chapter.builder.quest4241017181988898549.title": "Comprehensive: Ultramarine",
+  
+  "ftbquests.chapter.builder.quest4861528602274145965.description1": "This chapter is for builders, briefly introducing the architectural styles of different mods.",
+  "ftbquests.chapter.builder.quest4861528602274145965.subtitle": "Chapter Author: PL",
+  "ftbquests.chapter.builder.quest4861528602274145965.title": "\u00266Architect's Design Book",
+  
+  "ftbquests.chapter.builder.quest5239315299461464158.description1": "@youkaishoming",
+  "ftbquests.chapter.builder.quest5239315299461464158.description2": "@sakura",
+  "ftbquests.chapter.builder.quest5239315299461464158.description3": "Adds Japanese-style building blocks and furniture.",
+  "ftbquests.chapter.builder.quest5239315299461464158.task.2925557062172469489.title": "Youkai's Homecoming",
+  "ftbquests.chapter.builder.quest5239315299461464158.title": "Blocks \\\u0026 Interiors: Youkai's Homecoming \\\u0026 Sakura",
+  
+  "ftbquests.chapter.builder.quest5368913852308743305.description1": "@dramaticdoors",
+  "ftbquests.chapter.builder.quest5368913852308743305.description2": "Adds tall doors and short doors. Create-style doors are included too.",
+  "ftbquests.chapter.builder.quest5368913852308743305.task.3370678095491444053.title": "DD",
+  "ftbquests.chapter.builder.quest5368913852308743305.title": "Exterior: Dramatic Doors",
+  
+  "ftbquests.chapter.builder.quest5972442110522958741.description1": "@railways",
+  "ftbquests.chapter.builder.quest5972442110522958741.description2": "Adds railway components, various tracks, and train exteriors.",
+  "ftbquests.chapter.builder.quest5972442110522958741.task.828932473356007151.title": "Steam 'n Rails",
+  "ftbquests.chapter.builder.quest5972442110522958741.title": "Trains: Steam ‘n Rails",
+  
+  "ftbquests.chapter.builder.quest7022212386360936239.description1": "@nightlights",
+  "ftbquests.chapter.builder.quest7022212386360936239.description2": "Adds various decorative toy lights.",
+  "ftbquests.chapter.builder.quest7022212386360936239.task.7030662804960094464.title": "Night Lights",
+  "ftbquests.chapter.builder.quest7022212386360936239.title": "Lighting: Night Lights",
+  
+  "ftbquests.chapter.builder.quest789504958580462397.description1": "@createprism",
+  "ftbquests.chapter.builder.quest789504958580462397.description2": "@interiors",
+  "ftbquests.chapter.builder.quest789504958580462397.description3": "Adds train glass and premium seating.",
+  "ftbquests.chapter.builder.quest789504958580462397.task.5976856485681049565.title": "Prismatic Shine",
+  "ftbquests.chapter.builder.quest789504958580462397.title": "Trains: Prismatic Shine \\\u0026 Create Interiors",
+  
+  "ftbquests.chapter.builder.quest8515978940929655839.description1": "@touhou",
+  "ftbquests.chapter.builder.quest8515978940929655839.description2": "Adds… figurines and statues. See the relevant chapter for how to craft figurines.",
+  "ftbquests.chapter.builder.quest8515978940929655839.task.7850385738011149643.title": "Touhou Little Maid",
+  "ftbquests.chapter.builder.quest8515978940929655839.title": "Interior: Touhou Little Maid Figurines \\\u0026 Statues",
+  
+  "ftbquests.chapter.builder.quest8676886446379402778.description1": "@beautify",
+  "ftbquests.chapter.builder.quest8676886446379402778.description2": "A town-themed mod, adds many plant-related decorations.",
+  "ftbquests.chapter.builder.quest8676886446379402778.task.1610184892298139315.title": "Beautify!",
+  "ftbquests.chapter.builder.quest8676886446379402778.title": "Plants: Beautify!",
+  
+  "ftbquests.chapter.builder.quest8827761364575943270.description1": "@another_furniture",
+  "ftbquests.chapter.builder.quest8827761364575943270.description2": "Another Furniture adds vanilla-styled wooden furniture.",
+  "ftbquests.chapter.builder.quest8827761364575943270.description3": "Includes cabinet doors, cupboards, shelves, chairs, tables, shutters, flower boxes, benches, lamps, stools, sofas, bar stools, curtains, and service bells.",
+  "ftbquests.chapter.builder.quest8827761364575943270.description4": "Use a hammer to right-click and adjust cabinet doors (style) and benches (with or without backrest).",
+  "ftbquests.chapter.builder.quest8827761364575943270.task.1071249617480059963.title": "Another Furniture",
+  "ftbquests.chapter.builder.quest8827761364575943270.title": "Interior: Another Furniture",
+  
+  "ftbquests.chapter.builder.title": "\u0026bArchitect's Design Book",
+
+  "ftbquests.chapter.bumble.quest2787778106264305635.description1": "\u0026bCrystalline Flower\u0026r can only be planted on Glistering Honey Crystal or Amethyst blocks. Feed it items (usually flowers) or experience, or throw items to generate XP orbs, to make it grow and level up (leave enough space).",
+  "ftbquests.chapter.bumble.quest2787778106264305635.description2": "Insert a book and spend sufficient levels, and the \u0026bCrystalline Flower\u0026r can roll any enchant obtainable from the enchanting table, including treasure enchants. Use this to obtain Printer templates.",
+  
+  "ftbquests.chapter.bumble.quest3004535039783754189.description1": "@the_bumblezone",
+  "ftbquests.chapter.bumble.quest3004535039783754189.description2": "\u00266The Bumblezone\u0026r is one of the pack's few 'adventure' mods, providing abundant honey resources and solid endgame gear.",
+  "ftbquests.chapter.bumble.quest3004535039783754189.description3": "Like Twilight Forest, Bumblezone progression relies heavily on advancements, so it's recommended to follow them in order.",
+  "ftbquests.chapter.bumble.quest3004535039783754189.description4": "Throw an Ender Pearl into a beehive, or push yourself into one with a piston, to enter the Bumblezone.",
+  "ftbquests.chapter.bumble.quest3004535039783754189.title": "\u00266The Bumblezone",
+  
+  "ftbquests.chapter.bumble.quest3586416816378356913.description1": "\u0026bPotion Candles\u0026r, when lit, grant effects to nearby entities. Effects are determined by up to five potions inserted during crafting. Multi-effect setups can be refreshed by removing and reinserting potions.",
+  "ftbquests.chapter.bumble.quest3586416816378356913.description2": "More bottles of the same potion extend duration; splash potions add +2 range; lingering potions double effect duration on entities.",
+  "ftbquests.chapter.bumble.quest3586416816378356913.description3": "\u0026bPotion Candles\u0026r can provide a stable Resistance IV source, making \u0026bResonant Feather\u0026r acquisition easy.",
+  
+  "ftbquests.chapter.bumble.quest5906441837268418145.description1": "After consuming \u0026bEssence of the Bees\u0026r, use a Structure Compass to locate the \u00266Sempiternal Sanctums\u0026r.",
+  "ftbquests.chapter.bumble.quest5906441837268418145.description2": "The \u00266Sempiternal Sanctums\u0026r has six colors, each with distinct challenges and rewards. Challenge timers run at one-third real time.",
+  "ftbquests.chapter.bumble.quest5906441837268418145.description3": "\u00264Red\u0026r: 400s to defeat 100 mobs. Recommendation: Iron's Spellbook.",
+  "ftbquests.chapter.bumble.quest5906441837268418145.description4": "\u0026eYellow\u0026r: Fly through 100 black rings within 270s. Recommendation: attempt after obtaining flight.",
+  "ftbquests.chapter.bumble.quest5906441837268418145.description5": "\u0026bBlue\u0026r: Defeat 50 mobs underwater within 500s. Recommendation: Water Breathing potion or helmet, Boiled Pickerelweed, and diving goggles.",
+  "ftbquests.chapter.bumble.quest5906441837268418145.description6": "\u0026aGreen\u0026r: Bat mudballs back 30 times within 300s; throwing your own is allowed. You can only hit while standing on the platform, and mudballs will knock off equipment. Bring plenty to deal damage. Green essence helps cultivate rare crops.",
+  "ftbquests.chapter.bumble.quest5906441837268418145.description7": "\u00265Purple\u0026r: Dodge spikes for 270s; flight is forbidden. Recommendation: use F5 (Kenadian: I used F5), bring enough food and digestion aids for fast healing.",
+  "ftbquests.chapter.bumble.quest5906441837268418145.description8": "White: Kill 6 Cosmic Crystals within 500s with damage limits. Recommendation: Iron's Spell Chain Lightning.",
+  "ftbquests.chapter.bumble.quest5906441837268418145.title": "Enter the Sempiternal Sanctums",
+  
+  "ftbquests.chapter.bumble.quest7241528357149307775.description1": "\u00266Cell Maze\u0026r isn't required for progression, but contains many items you'll need later.",
+  "ftbquests.chapter.bumble.quest7241528357149307775.description2": "Use a Structure Compass to find the \u00266Cell Maze\u0026r. Before entering, craft a \u0026bFlower Headwear\u0026r to resist Bee Aggression.",
+  "ftbquests.chapter.bumble.quest7241528357149307775.description3": "Loot containers in the \u00266Cell Maze\u0026r are \u0026bHoney Cocoon\u0026r. Silk Touch preserves contents; but \u0026aif a honey cocoon is a loot chest\u0026r, breaking it \u0026aimmediately loses\u0026r its items. Don't use honey cocoom as storage.",
+  "ftbquests.chapter.bumble.quest7241528357149307775.description4": "Prioritize collecting \u0026bStinger Spears\u0026r, \u0026bHoney Crystal Shards\u0026r, and \u0026bBumble Bee Armor\u0026r from armor stands.",
+  "ftbquests.chapter.bumble.quest7241528357149307775.description5": "\u00266Cell Maze\u0026r is also a great source of flowers, especially rare ones with unknown biomes.",
+  "ftbquests.chapter.bumble.quest7241528357149307775.title": "Enter the Cell Maze",
+  
+  "ftbquests.chapter.bumble.quest7670110343942178848.description1": "In the \u00266Cell Maze\u0026r, find a compass pointing to the \u00266Throne Pillar\u0026r. The \u0026cBee Queen\u0026r resides there — save the coordinates.",
+  "ftbquests.chapter.bumble.quest7670110343942178848.description2": "Right-click the \u0026cBee Queen\u0026r with certain items to trade for various unique goods.",
+  "ftbquests.chapter.bumble.quest7670110343942178848.description3": "Trading once unlocks the \u0026cBee Queen\u0026r questline; see Bumblezone advancements for tasks. Rewards include \u0026bRoyal Jelly\u0026r, and upon full completion, \u0026bEssence of the Bees\u0026r.",
+  "ftbquests.chapter.bumble.quest7670110343942178848.description4": "\u0026bRoyal Jelly\u0026r is essential for Potion Candles, and \u0026bEssence of the Bees\u0026r is required for later steps. Only after consuming it can you find the compass to the \u00266Sempiternal Sanctums\u0026r and enter.",
+  "ftbquests.chapter.bumble.quest7670110343942178848.title": "Find the Queen",
+  
+  "ftbquests.chapter.bumble.title": "\u0026aQueen of Bumblezone",
+
+  "ftbquests.chapter.cage.quest2481019638228669873.description1": "To achieve greater speed, you need to master the power of the Sculk…",
+  
+  "ftbquests.chapter.cage.quest3111694662710183164.description1": "\u0026o\u00265Ordinary knowledge no longer satisfies you. You begin to seek forbidden knowledge…\u0026r",
+  "ftbquests.chapter.cage.quest3111694662710183164.description2": "Set up the right environment inside a Mob Cage, insert DNA, and the cage will automatically produce creatures. When they mature, right-click with a sword to obtain their drops.",
+  "ftbquests.chapter.cage.quest3111694662710183164.description3": "Normal Mob Cages are mainly used as DNA transfer stations to get spawn eggs, and then use natural spawners to produce entities.",
+  "ftbquests.chapter.cage.quest3111694662710183164.subtitle": "Chapter Author: PL",
+  "ftbquests.chapter.cage.quest3111694662710183164.title": "\u00266Bio Cage",
+  
+  "ftbquests.chapter.cage.quest3299368401387859998.description1": "\u0026bHopping Mob Cage\u0026r automatically collects and outputs products into the container below, no manual collection needed.",
+  "ftbquests.chapter.cage.quest3299368401387859998.description2": "\u0026bHopping Mob Cage\u0026r can easily be embedded into Create production lines, serving as a stable source of certain mob resources.",
+  
+  "ftbquests.chapter.cage.quest3482906272611901637.description1": "To obtain DNA, you need a DNA Sampler. Different materials allow extraction from different creatures.",
+  "ftbquests.chapter.cage.quest3482906272611901637.description2": "Samplers can be reused.",
+  
+  "ftbquests.chapter.cage.quest4764136562502554805.description1": "Basic acceleration chip, materials are easy to obtain.",
+  
+  "ftbquests.chapter.cage.quest5510495124337766427.description1": "Simulated arrows, only used to produce music discs.",
+  
+  "ftbquests.chapter.cage.quest5519943774963857701.description1": "Overall, Poseidon blocks are time-consuming. It's recommended to build multiple cages and add upgrades.",
+  
+  "ftbquests.chapter.cage.quest6317944458259991955.description1": "Increases rare drop quantity, though usually less effective than efficiency upgrades II.",
+  
+  "ftbquests.chapter.cage.quest660666165964899492.description1": "Can produce XP particles, but requires further processing to convert into liquid XP.",
+  
+  "ftbquests.chapter.cage.quest8354512898836753729.description1": "Simulates lightning inside the cage.",
+  
+  "ftbquests.chapter.cage.quest8589640478677545128.description1": "The first 18 Shulker Shells and 9 Phantom Membranes must be obtained manually; afterwards DNA Sampler allows automatic production.",
+  
+  "ftbquests.chapter.cage.title": "\u00265Forbidden Knowledge Seeker",
+  
+  "ftbquests.chapter.create.quest1016846005516529634.description1": "Inventory Access Port can intelligently change the connection direction between storage and hoppers.",
+  "ftbquests.chapter.create.quest1016846005516529634.description2": "Inventory Bridge lets hoppers and other components access two storages at once.",
+  "ftbquests.chapter.create.quest1016846005516529634.title": "Manage Storage",
+  
+  "ftbquests.chapter.create.quest1062025444516779697.description1": "Right-click a Blaze or Blaze spawner with an empty Blaze Burner to obtain it.",
+  
+  "ftbquests.chapter.create.quest1087994239079837800.description1": "Flight Ring allows players to enable creative flight.",
+  
+  "ftbquests.chapter.create.quest1222139869599256381.description1": "Why does this require so much iron.",
+  "ftbquests.chapter.create.quest1222139869599256381.title": "Clang!",
+  
+  "ftbquests.chapter.create.quest1224969253605903139.description1": "Create: Connected not only adds more transmission methods, but also more ways to control stress networks.",
+  "ftbquests.chapter.create.quest1224969253605903139.task.8581964028569740187.title": "Control Your Stress",
+  
+  "ftbquests.chapter.create.quest1424952179830118585.description1": "Create: Connected adds more transmission components to Create, making wiring less of a headache (perhaps).",
+  "ftbquests.chapter.create.quest1424952179830118585.title": "More Convenient Transmission",
+  
+  "ftbquests.chapter.create.quest1442894209723266885.description1": "Honestly, you should try it — it's really useful.",
+  "ftbquests.chapter.create.quest1442894209723266885.task.6391753911199642346.title": "Batch Processor",
+  
+  "ftbquests.chapter.create.quest1499926619463492558.task.7996352040810331932.title": "Logistics System",
+  
+  "ftbquests.chapter.create.quest1532099902154776895.description1": "You can place up to 8 toolboxes on the ground. If you can't access them, remember to change keybinds.",
+  "ftbquests.chapter.create.quest1532099902154776895.task.3131295080267661821.title": "Toolboxes",
+  "ftbquests.chapter.create.quest1532099902154776895.title": "Handy Little Boxes",
+  
+  "ftbquests.chapter.create.quest1620961242456710003.description1": "Consumes two winefoxes per 100 km.",
+  "ftbquests.chapter.create.quest1620961242456710003.title": "Dream Plantation",
+  
+  "ftbquests.chapter.create.quest1813481287052813876.description1": "Rotation Speed Controller can only transmit stress via large gears. Right-click to adjust output speed.",
+  
+  "ftbquests.chapter.create.quest1814463039994780030.task.6838036526497798111.title": "Redstone Control",
+  
+  "ftbquests.chapter.create.quest1926027466564712342.description1": "Throw wheat into the top of a Millstone, wait for grinding, then right-click empty-handed to collect.",
+  "ftbquests.chapter.create.quest1926027466564712342.title": "Flour",
+  
+  "ftbquests.chapter.create.quest2105685840946469108.title": "Working Components",
+  
+  "ftbquests.chapter.create.quest2130891804466305037.description1": "Acts like a Shaft. With goggles equipped, you can see its RPM on the Speedometer and stress usage on the Stressometer.",
+  
+  "ftbquests.chapter.create.quest2189913235778968610.description1": "Before you craft a  Mechanical Press, this is the only working component available.",
+  "ftbquests.chapter.create.quest2189913235778968610.description2": "It can increase dye yields and, most importantly, grind wheat into flour.",
+  "ftbquests.chapter.create.quest2189913235778968610.title": "Crush Them",
+
+
+  "ftbquests.chapter.create.quest2252168583757102907.description1": "Factory instruments must be bound to a linker with right‑click before use. They have two modes: Restock and Recipe.",
+  "ftbquests.chapter.create.quest2252168583757102907.description2": "When attached to a packager, they run in Restock mode. Right‑click to set a quantity. The instrument repeatedly signals the linker so packagers in the network output packages containing the required items until the set amount is reached.",
+  "ftbquests.chapter.create.quest2252168583757102907.description3": "When attached to other blocks, they run in Recipe mode. They define the production chain, deciding what inputs are used and where they are processed. You can use them to create a full pipeline. Right‑click the instrument to set a target quantity; while the network has less than that, it will repeatedly dispatch according to the rules.",
+  "ftbquests.chapter.create.quest2252168583757102907.description4": "In Recipe mode, the instrument sends a signal every 20 ticks by default (configurable) and won't send another package until products from the previous package return to the network. For continuous dispatch or probabilistic outputs, adjust the expiry time below. If the timeout passes without obtaining the item, it will send again—this can cause over‑dispatch and waste.",
+  
+  "ftbquests.chapter.create.quest2533771294901741389.description1": "You can also put items like iron ingots on belts and press them with the Mechanical Press.",
+  "ftbquests.chapter.create.quest2533771294901741389.description2": "Depots and belts are effectively containers—items placed on them won't disappear naturally.",
+  "ftbquests.chapter.create.quest2533771294901741389.title": "Press plates",
+  
+  "ftbquests.chapter.create.quest2755036688541395474.title": "More observers",
+  
+  "ftbquests.chapter.create.quest2936587044900277263.description1": "Belts are the only power‑transmission component that also moves items and entities.",
+  "ftbquests.chapter.create.quest2936587044900277263.title": "Transmission, and more",
+  
+  "ftbquests.chapter.create.quest2937443313806178662.title": "More clutches",
+  
+  "ftbquests.chapter.create.quest3262285811553592941.title": "Void era",
+  
+  "ftbquests.chapter.create.quest3367464725613031972.description1": "The Reactor Controller's ponder explains setup very clearly—just build it accordingly.",
+  "ftbquests.chapter.create.quest3367464725613031972.description2": "One uranium rod +25 heat; \none carbon rod −10 heat; \nadjacent pair of uranium rods +10 heat; \nadjacent uranium and carbon rods −5 heat.",
+  "ftbquests.chapter.create.quest3367464725613031972.description3": "Max temperature 1000; overheating explodes within a few minutes.",
+  "ftbquests.chapter.create.quest3367464725613031972.description4": "You can reference the control blueprint given as the quest reward for placement.",
+  "ftbquests.chapter.create.quest3367464725613031972.description5": "\u0026e[WARN]\u0026aLack of fuel will only shut down the nuclear; overheating will explode. Build it far away and use void chests/motors for input and output.\u0026r",
+  "ftbquests.chapter.create.quest3367464725613031972.title": "Nuclear, so easy!",
+  
+  "ftbquests.chapter.create.quest3381149956876506432.description1": "The powered rolling machine can compress certain items in a basin into blocks, or process some fluid recipes.",
+  "ftbquests.chapter.create.quest3381149956876506432.title": "Block pressing",
+  
+  "ftbquests.chapter.create.quest3444346709095491723.description1": "These components let you transmit stress, fluids, items, and energy over long distances.",
+  
+  "ftbquests.chapter.create.quest3472263415639033235.description1": "Try building an automated Netherite Scrap line?",
+  "ftbquests.chapter.create.quest3472263415639033235.title": "Go more harder",
+  
+  "ftbquests.chapter.create.quest3517139181884117568.description1": "One of Create's least‑used components—on redstone signal, it toggles adhesion.",
+  
+  "ftbquests.chapter.create.quest3707153826880523694.description1": "Place water/wet blocks before an Encased Fan to wash items in bulk; place lava to smelt in bulk; place a campfire/Blaze Burner/lit empty Blaze Burner or lit fire to smoke in bulk; place a soul campfire/Blaze Burner lit with soul soil/soul sand or lit soul fire to haunt items in bulk.",
+  "ftbquests.chapter.create.quest3707153826880523694.description2": "An Encased Fan processes all drops in its wind path and items on depots, so it can handle large batches at once.",
+  "ftbquests.chapter.create.quest3707153826880523694.description3": "What does this imply?",
+  "ftbquests.chapter.create.quest3707153826880523694.description4": "Don't forget to try this catalyst.",
+  "ftbquests.chapter.create.quest3707153826880523694.title": "Batch processing",
+  
+  "ftbquests.chapter.create.quest3888396269125010587.task.5875492307311019003.title": "Build your first steam engine",
+  
+  "ftbquests.chapter.create.quest4088471462206902759.description1": "Train Schedules direct Train Conductors. Hand a configured schedule to a conductor, and the train will run autonomously under their control. Any mob or Blaze Burner can serve as a conductor.",
+  "ftbquests.chapter.create.quest4088471462206902759.description2": "Right‑click to open the GUI and create a schedule. Set the route at the top. The three buttons below are: loop yes/no, reset progress, skip current step. The last two work only after departure.",
+  "ftbquests.chapter.create.quest4088471462206902759.description3": "Click the plus to add a stop or action. Modes: Go to Station, Update Title, Limit Max Speed, Emit Redstone, Waypoint via Station.",
+  "ftbquests.chapter.create.quest4088471462206902759.description4": "For “Go to Station,” you can set conditions to be met on arrival before proceeding.",
+  "ftbquests.chapter.create.quest4088471462206902759.description5": "Departure requires all conditions in any one column, not the same row.",
+  "ftbquests.chapter.create.quest4088471462206902759.description6": "When stations share names, trains choose the nearest unoccupied platform.",
+  "ftbquests.chapter.create.quest4088471462206902759.description7": "Before placing a Train Signal, right‑click a Train Track to set the target; then place the signal anywhere near that track.",
+  "ftbquests.chapter.create.quest4088471462206902759.description8": "Train Signals can restrict direction of travel in a block section; players can't schedule trains against the set direction. Two opposing signals on the same track allow bidirectional travel.",
+  "ftbquests.chapter.create.quest4088471462206902759.description9": "Signals divide tracks before and after them into distinct “sections.”",
+  "ftbquests.chapter.create.quest4088471462206902759.description10": "Holding a Train Signal shows the divided sections—connected track segments of the same color form one section.",
+  "ftbquests.chapter.create.quest4088471462206902759.description11": "Signals ensure only one train occupies a section at a time to prevent collisions. If a section is occupied, signals block trains from entering from the rear.",
+  "ftbquests.chapter.create.quest4088471462206902759.description12": "Indicator lights on the signal's side show state; placing Glow Tubes there makes signals more visible.",
+  "ftbquests.chapter.create.quest4088471462206902759.description13": "Signal states control train behavior:",
+  "ftbquests.chapter.create.quest4088471462206902759.description14": "    Solid / Glow Tube red solid: a train is in the next section and blocks entry. No passage.",
+  "ftbquests.chapter.create.quest4088471462206902759.description15": "    Solid / Glow Tube red solid: locked by redstone signal. No passage.",
+  "ftbquests.chapter.create.quest4088471462206902759.description16": "    Flashing / Glow Tube red flashing: section invalid because the track forms a loop. Passage allowed.",
+  "ftbquests.chapter.create.quest4088471462206902759.description17": "    Off / Glow Tube white solid: no train in the next section. Passage allowed.",
+  "ftbquests.chapter.create.quest4088471462206902759.description18": "Right‑click with a wrench to set a signal to “brass” mode—then it considers the next two sections ahead.",
+  "ftbquests.chapter.create.quest4088471462206902759.description19": "This allows trains to pass immediately when the next section can be cleared, helping prevent gridlock at crossroads.",
+  "ftbquests.chapter.create.quest4088471462206902759.description20": "In “brass” mode a solid yellow light may appear: among the first section's branches, one or more show solid red—but not all.",
+  "ftbquests.chapter.create.quest4088471462206902759.description21": "If all branch paths show solid red, the signal will also show solid red.",
+  "ftbquests.chapter.create.quest4088471462206902759.description22": "A Train Signal in red state can output a redstone signal via a comparator.",
+  "ftbquests.chapter.create.quest4088471462206902759.description23": "Before placing a Train Observer, right-click a Train Track to set its target track.",
+  "ftbquests.chapter.create.quest4088471462206902759.description24": "When a train passes over the target track of the Train Observer, it will emit a redstone signal until the train leaves.",
+  "ftbquests.chapter.create.quest4088471462206902759.description25": "Its side indicator light turns on while emitting a signal.",
+  "ftbquests.chapter.create.quest4088471462206902759.description26": "Right-click it with an item/filter to set cargo filtering; it only emits a redstone signal when a train carrying the target cargo passes over the observer's track.",
+  
+  "ftbquests.chapter.create.quest4118590896624951285.description1": "Super Glue sticks blocks together — very useful for windmills or multi-block minecarts.",
+  "ftbquests.chapter.create.quest4118590896624951285.description2": "Right-click a block to set the first coordinate, then right-click a second block; all blocks in the rectangular prism between these two points will be glued.",
+  "ftbquests.chapter.create.quest4118590896624951285.description3": "When Super Glue is in the off-hand, blocks you place with the main hand will automatically glue to the clicked block.",
+  "ftbquests.chapter.create.quest4118590896624951285.description4": "When a structure becomes dynamic, it drives all glued blocks together.",
+  "ftbquests.chapter.create.quest4118590896624951285.description5": "Left-click anywhere inside the glued prism to remove all glue within that prism.",
+  "ftbquests.chapter.create.quest4118590896624951285.description6": "Gluing on the axial face of Linear Chassis and the lateral face of Radial Chassis works like Slime Balls and doesn't consume durability.",
+  
+  "ftbquests.chapter.create.quest4288636357818253142.task.3025899557624171989.title": "Placards",
+  "ftbquests.chapter.create.quest4288636357818253142.title": "Wireless remote",
+  
+  "ftbquests.chapter.create.quest4355037646741365961.description1": "A mineral with a very awkward status.",
+  
+  "ftbquests.chapter.create.quest4393962753240134114.description1": "In Create you don't need to produce tons of slime balls like vanilla — a stack may be enough.",
+  "ftbquests.chapter.create.quest4393962753240134114.description2": "Right-click with a slime ball to glue the axial face of Linear Chassis and the lateral face of Radial Chassis. This doesn't consume the slime ball. Glued faces stick to adjacent blocks of the same type; adjust the number of glued blocks with a wrench on the non-glued face.",
+  "ftbquests.chapter.create.quest4393962753240134114.description3": "Right-click twice with a slime ball to also glue the back face.",
+  
+  "ftbquests.chapter.create.quest4410200195893076848.title": "Manipulate stress",
+  
+  "ftbquests.chapter.create.quest4557091961301828943.description1": "Smelt copper and zinc together in a heated basin to obtain brass ingots.",
+  "ftbquests.chapter.create.quest4557091961301828943.title": "First alloy",
+  
+  "ftbquests.chapter.create.quest4630240349166481736.description1": "Before you build a Steam Boiler or Crank Engine (what's that?), windmills are your highest-stress power source. Try powering all your machines with a max-speed windmill — just don't overload it.",
+  "ftbquests.chapter.create.quest4630240349166481736.title": "Windmill, good!",
+  
+  "ftbquests.chapter.create.quest4764409341473384566.description1": "Silk Touch Amethyst Clusters and crush them with Crushing Wheels to increase Amethyst Shard yield; process Amethyst Blocks with a pickaxe on a Cutting Board to get 4 shards.",
+  
+  "ftbquests.chapter.create.quest477882809532370812.description1": "Only downside is the cost.",
+  "ftbquests.chapter.create.quest477882809532370812.title": "Better cross gearboxes",
+  
+  "ftbquests.chapter.create.quest4854968314335376939.description1": "Smelt your kelp in a smoker — and don't eat it all.",
+  "ftbquests.chapter.create.quest4854968314335376939.title": "Not just for eating",
+  
+  "ftbquests.chapter.create.quest4885441190707230403.title": "Logistics era",
+  
+  "ftbquests.chapter.create.quest4888845444049818425.description1": "You're one step away from Mechanical Arms.",
+  
+  "ftbquests.chapter.create.quest4902312551120844203.description1": "Tip: When items are on the ground, they can be processed simultaneously by fans above and below. Also, when an unlit Blaze Burner is in front of a fan, wind passes through without changing the processing type.",
+  "ftbquests.chapter.create.quest4902312551120844203.description2": "What does this imply?",
+  
+  "ftbquests.chapter.create.quest4906207437451472916.description1": "You can now build all kinds of Create machines. From here, quest rewards won't walk you through crafting each component; they'll introduce functions instead.",
+  
+  "ftbquests.chapter.create.quest4915933739292676002.description1": "Stop immediately",
+  
+  "ftbquests.chapter.create.quest4987355544648905829.description1": "A bit pricey, but worth it.",
+  
+  "ftbquests.chapter.create.quest5003660197759204231.task.8888097816733739785.title": "Blueprint system",
+  
+  "ftbquests.chapter.create.quest5064099602855878735.description1": "After selecting a fling destination, first check whether the flung items will be blocked by any blocks along the path.",
+  "ftbquests.chapter.create.quest5064099602855878735.description2": "Man, hope it doesn't jam your line.",
+  "ftbquests.chapter.create.quest5064099602855878735.title": "Fly up!",
+  
+  "ftbquests.chapter.create.quest5108390620816063817.description1": "In Create, andesite leaps from “waste stone” to foundational resource.",
+  "ftbquests.chapter.create.quest5108390620816063817.description2": "Don't worry — you have many ways to automate andesite.",
+  "ftbquests.chapter.create.quest5108390620816063817.title": "No longer waste stone",
+  
+  "ftbquests.chapter.create.quest5179148864040166767.description1": "Shafts are the cheapest way to transmit power.",
+  "ftbquests.chapter.create.quest5179148864040166767.title": "Begin transmission",
+  
+  "ftbquests.chapter.create.quest5320111923830602588.description1": "Crane multiblock moves along the crane arm's axis and stops when encountering blocks.",
+  "ftbquests.chapter.create.quest5320111923830602588.title": "Crane",
+  
+  "ftbquests.chapter.create.quest5366835295377348021.description1": "A more advanced Rail Schedule that displays routes and more train info.",
+  
+  "ftbquests.chapter.create.quest5458596234078501878.description1": "Some resources must be gathered in the Nether — mine plenty.",
+  "ftbquests.chapter.create.quest5458596234078501878.title": "Red-stone Tomfoolery",
+  
+  "ftbquests.chapter.create.quest5469484464258706245.description1": "It's one size larger than a Water Wheel and spins at half the RPM, but produces twice the stress.",
+  "ftbquests.chapter.create.quest5469484464258706245.title": "Bigger, more useful",
+  
+  "ftbquests.chapter.create.quest5551272236454844142.description1": "From now on, try building a full automation line yourself.",
+  "ftbquests.chapter.create.quest5551272236454844142.task.4173430432734776818.title": "The true start",
+  
+  "ftbquests.chapter.create.quest5686901794689681707.title": "Dynamic structures",
+  
+  "ftbquests.chapter.create.quest5746770931646356722.description1": "These two tanks can finally be rotated.",
+  
+  "ftbquests.chapter.create.quest5759910421146460323.title": "Starting quest is in the top-left",
+  
+  "ftbquests.chapter.create.quest589139446235219180.title": "Visualization",
+  
+  "ftbquests.chapter.create.quest6010214954619286101.description1": "Rope Pulley multiblock moves along the Y-axis and stops when encountering blocks.",
+  "ftbquests.chapter.create.quest6010214954619286101.title": "Rope Pulley",
+  
+  "ftbquests.chapter.create.quest6037634415074279073.description1": "Each piece of sandpaper has only 8 durability — prepare crafting blueprints.",
+  "ftbquests.chapter.create.quest6037634415074279073.task.872203256709210745.title": "Sandpaper",
+  
+  "ftbquests.chapter.create.quest6564895868397522381.description1": "\u0026cCard Reader\u0026r identifies magnetic card authenticity. First use requires binding by right-click with a card. On correct card, outputs redstone signal strength 15 for 3s. Right-click with Brass Sheets to hide blocks behind it, useful for hiding redstone lines.",
+  "ftbquests.chapter.create.quest6564895868397522381.description2": "\u0026cCard Inscriber\u0026r works with \u0026cEmpty Card\u0026r. Insert an Empty Card, Ink Sac, and Name Tag to write a magnetic card.",
+  "ftbquests.chapter.create.quest6564895868397522381.description3": "Written cards cannot be overwritten.",
+  "ftbquests.chapter.create.quest6564895868397522381.description4": "\u0026cSprinkler\u0026r accelerates crop growth in a 5×5 area. Mix Bone Meal and water in a basin, pump into the Sprinkler, and it starts automatically when filled with 1000 mB of \u0026cBonemeal\u0026r.",
+  "ftbquests.chapter.create.quest6564895868397522381.description5": "\u0026cBrass Speaker\u0026r plays audio to players in range when receiving redstone and sends a message \"[speaker]\" + \"custom text\". Range is a sphere of radius 10 centered on itself. Add custom text via a renamed Name Tag.",
+  "ftbquests.chapter.create.quest6564895868397522381.description6": "\u0026cRadar\u0026r displays nearby entity positions.",
+  "ftbquests.chapter.create.quest6564895868397522381.title": "Student card",
+  
+  "ftbquests.chapter.create.quest6630804248047432572.task.5284159922031585330.title": "Logs",
+  "ftbquests.chapter.create.quest6630804248047432572.title": "To get rich, punch trees first",
+  
+  "ftbquests.chapter.create.quest664172232202646631.description1": "With a Tablecloth in hand, right-click a Manager Transmitter to set traded items, quantities, and package name (be sure to set it!).",
+  "ftbquests.chapter.create.quest664172232202646631.description2": "After placing the tablecloth, you can set price and quantity on the front side.",
+  "ftbquests.chapter.create.quest664172232202646631.description3": "Right-click the tablecloth empty-handed to get a shopping list; right-click with the list to buy more items. Give the list to the manager to check out, and the transmitter will request packages containing the required items.",
+  "ftbquests.chapter.create.quest664172232202646631.description4": "Trade outputs are stored in the transmitter used for checkout; right-click to retrieve, or output directly via hopper/chute.",
+  "ftbquests.chapter.create.quest664172232202646631.title": "Tablecloth",
+
+
+  "ftbquests.chapter.create.quest6679032175303133851.description1": "Uranium can be found underground; it's the core of nuclear power.",
+  "ftbquests.chapter.create.quest6679032175303133851.description2": "Of course, you'll need lead for radiation protection.",
+  "ftbquests.chapter.create.quest6679032175303133851.title": "I‘m Nuclear！",
+
+  "ftbquests.chapter.create.quest6794524520861267492.title": "This isn't a brass pickaxe… wait, who are you?",
+
+  "ftbquests.chapter.create.quest6824017180624777354.description1": "Getting lime dye or green dye will no longer be a problem.",
+  "ftbquests.chapter.create.quest6824017180624777354.title": "Green and lush",
+
+  "ftbquests.chapter.create.quest6993211190806440553.description1": "Save your diamonds",
+
+  "ftbquests.chapter.create.quest7154237404504475677.description1": "You can now transmit power horizontally, but you'll have better options.",
+  "ftbquests.chapter.create.quest7154237404504475677.description2": "Tip: Large gears can change the direction of power, great when you want to save casings.",
+  "ftbquests.chapter.create.quest7154237404504475677.title": "Small gear, big gear",
+
+  "ftbquests.chapter.create.quest7233655342404376660.description1": "Packagers tightly wrap items from adjacent inventories into packages for transport, improving throughput; placing a placard on a packager names the packages so they can be routed to specific destinations.",
+  "ftbquests.chapter.create.quest7233655342404376660.description2": "Place a Storage Linker on a packager to form a storage network. Right‑click the linker with another linker already in the network, then attach to another packager to join the network.",
+  "ftbquests.chapter.create.quest7233655342404376660.description3": "Right‑click a linker with a Transmitter to join the network. The transmitter needs a manager nearby to work. A manager can be a Blaze Burner or creatures on cushions such as parrots, frogs, pigs, Wifefox, Baka Cirno… etc. (but not villagers).",
+  "ftbquests.chapter.create.quest7233655342404376660.description4": "Right‑click the manager to administer the network. The center shows items in the network (counts may be inaccurate). At the bottom, enter a package name to dispatch — it will request required items from packagers in the network and output them as a package to the specified destination.",
+  "ftbquests.chapter.create.quest7233655342404376660.description5": "You can also input JEI recipes; in that case, it outputs recipe‑tagged packages for crafting.",
+  "ftbquests.chapter.create.quest7233655342404376660.description6": "Item Safes or Drawers are typically used as suitable storage network containers.",
+  "ftbquests.chapter.create.quest7233655342404376660.title": "Advanced logistics system",
+
+  "ftbquests.chapter.create.quest7239446609694284137.description1": "Bearing multiblock performs circular motion; during motion the multiblock structure can pass through blocks.",
+  "ftbquests.chapter.create.quest7239446609694284137.title": "Bearing",
+
+  "ftbquests.chapter.create.quest7349031266957034368.title": "Small toys",
+
+  "ftbquests.chapter.create.quest749139819283308179.description1": "Minecart multiblock moves along rails; during motion the multiblock structure can pass through blocks.",
+  "ftbquests.chapter.create.quest749139819283308179.title": "Minecart",
+
+  "ftbquests.chapter.create.quest7516634458198983425.description1": "Another ingredient for Andesite Alloy.",
+  "ftbquests.chapter.create.quest7516634458198983425.description2": "Besides vanilla iron farms, you also have other ways to automate iron.",
+  "ftbquests.chapter.create.quest7516634458198983425.title": "Go hard",
+
+  "ftbquests.chapter.create.quest7570121893153831798.task.7421137199116688510.title": "Craft any rail.",
+  "ftbquests.chapter.create.quest7570121893153831798.title": "Whistling engines",
+
+  "ftbquests.chapter.create.quest7942786962679173793.description1": "Named packages need a destination and an accepting device.",
+  "ftbquests.chapter.create.quest7942786962679173793.description2": "Package Frogport can hang packages from the packager below it onto chains and accept packages with the same name. Powering the packager can prevent it from receiving.",
+  "ftbquests.chapter.create.quest7942786962679173793.description3": "You can also use a Package Filter to filter packages on containers/conveyors.",
+  "ftbquests.chapter.create.quest7942786962679173793.description4": "Void Chest + Package Filter \u003d Package Frogport",
+  "ftbquests.chapter.create.quest7942786962679173793.description5": "Mailboxes bind to train stations and can transport packages across areas via trains.",
+  "ftbquests.chapter.create.quest7942786962679173793.title": "Where do packages go?",
+
+  "ftbquests.chapter.create.quest8060745261375575597.title": "More redstone control",
+
+  "ftbquests.chapter.create.quest8127575592016223590.description1": "You've basically learned how to craft Create's basic components; now it's time to use them to generate power.",
+  "ftbquests.chapter.create.quest8127575592016223590.description2": "Even with multiple choices, players generally recommend windmills as an early power source.",
+  "ftbquests.chapter.create.quest8127575592016223590.task.7822537804465652059.title": "Choose your power source!",
+
+  "ftbquests.chapter.create.quest8147923521395416701.title": "Are you a transmission master?",
+
+  "ftbquests.chapter.create.quest831851804509971813.description1": "Combine wheat flour with a water bucket to get dough; the recipe returns the empty bucket.",
+  "ftbquests.chapter.create.quest831851804509971813.task.6200162975294395832.title": "Dough",
+  "ftbquests.chapter.create.quest831851804509971813.title": "Dough",
+
+  "ftbquests.chapter.create.quest8320472698066912506.description1": "You might need a Nature's Compass, but it isn't easy to make.",
+  "ftbquests.chapter.create.quest8320472698066912506.title": "Explore, or raid villages?",
+
+  "ftbquests.chapter.create.quest8355240922680885331.description1": "The Disenchanter removes non‑curse enchantments and obtains Liquid XP from various sources.",
+  "ftbquests.chapter.create.quest8355240922680885331.description2": "The Disenchanter can accept items from the side via conveyor belts, hoppers, or basins. You can also right‑click while holding an item to place it directly onto the Disenchanter.",
+  "ftbquests.chapter.create.quest8355240922680885331.description3": "The Disenchanter has two modes: Conversion and Absorption.",
+  "ftbquests.chapter.create.quest8355240922680885331.description4": "Conversion: Always takes 10 ticks to process 1 item, producing an output. Items spin above the Disenchanter during processing, and a grinding sound plays when complete. If the Disenchanter lacks enough capacity for the resulting liquid XP, the item will wait above it.",
+  "ftbquests.chapter.create.quest8355240922680885331.description5": "Absorption: Instantly consumes a full stack without producing any output. Items vanish as soon as they enter the Disenchanter. If it cannot store the liquid XP, the item will tumble and pass through.",
+  "ftbquests.chapter.create.quest8355240922680885331.description6": "Every 10 ticks, the Disenchanter attempts to draw XP from nearby players or orbs, storing it internally as fluid.",
+  "ftbquests.chapter.create.quest8355240922680885331.description7": "Each attempt can drain up to 100 XP points from a player.",
+  "ftbquests.chapter.create.quest8355240922680885331.description8": "The Printer is used to duplicate written books or enchanted books.",
+  "ftbquests.chapter.create.quest8355240922680885331.description9": "Pump ink into the Printer using fluid components like a mechanical pump. Then right‑click with a book to provide the master copy. The Printer will duplicate books placed beneath it.",
+  "ftbquests.chapter.create.quest8355240922680885331.description10": "Pump Liquid XP into the Printer with Create fluid components, then right‑click with an Enchanted Book to copy the mother book's enchantments onto the book below.",
+  "ftbquests.chapter.create.quest8355240922680885331.description11": "Note: If any enchantment level on the mother book exceeds its normal maximum level, you must pump Liquid Overexperience into the Printer to complete copying.",
+  "ftbquests.chapter.create.quest8355240922680885331.description12": "Pump ink into the Printer, then right‑click with a Train Schedule book to clone it onto the schedule below.",
+  "ftbquests.chapter.create.quest8355240922680885331.description13": "Pump Liquid XP into the Printer, then right‑click with a Name Tag to copy the same name onto the Name Tag below.",
+  "ftbquests.chapter.create.quest8355240922680885331.description14": "Pump Liquid XP into the Printer, then right‑click with a Name Tag to name the item below to the Name Tag's name.",
+  "ftbquests.chapter.create.quest8355240922680885331.description15": "Pump Liquid Overexperience into the Printer, then right‑click with an Ancient Tome to upgrade any Enchanted Book below into the same Ancient Tome.",
+
+  "ftbquests.chapter.create.quest8377065966416742284.description1": "\u00266Place Train Station and Bogies",
+  "ftbquests.chapter.create.quest8377065966416742284.description2": "Before placing a station, right‑click a track to set it as the target. Then place the station near that track.",
+  "ftbquests.chapter.create.quest8377065966416742284.description3": "Right‑click a station to open its GUI, then click “Create New Train.” A blue flag rises.",
+  "ftbquests.chapter.create.quest8377065966416742284.description4": "Behind the station, a track shows a blue marker. Right‑click with train casing to create a bogie. After the first bogie, more can be added behind.",
+  "ftbquests.chapter.create.quest8377065966416742284.description5": "Build structures on bogies, ensuring they stick together and include a train cab. In the GUI, assemble them into a train structure, connecting all bogies.",
+  "ftbquests.chapter.create.quest8377065966416742284.description6": "If the target track is a curve, trains cannot be created.",
+  "ftbquests.chapter.create.quest8377065966416742284.description7": "\u00266Create Train",
+  "ftbquests.chapter.create.quest8377065966416742284.description8": "Train structures must be glued together and include a forward‑facing cab.",
+  "ftbquests.chapter.create.quest8377065966416742284.description9": "To let mobs drive trains, place a seat or Blaze Furnace in front of the cab.",
+  "ftbquests.chapter.create.quest8377065966416742284.description10": "You can install two train cabs on one train structure to allow bidirectional driving.",
+  "ftbquests.chapter.create.quest8377065966416742284.description11": "\u00266Train Arrival",
+  "ftbquests.chapter.create.quest8377065966416742284.description12": "When driving a train, if a station is ahead, hold Space to enter. You can also use a timetable, but the train's direction must match the station.",
+  "ftbquests.chapter.create.quest8377065966416742284.description13": "Stations with the same name are treated as platforms of the same station. Trains will choose an empty platform to stop at.",
+  "ftbquests.chapter.create.quest8377065966416742284.description14": "In the station GUI, you can set which side doors open when a train arrives.",
+  "ftbquests.chapter.create.quest8377065966416742284.description15": "When a train enters a station, a red flag rises.",
+  "ftbquests.chapter.create.quest8377065966416742284.description16": "After arrival, you can click “Dismantle Train” in the GUI to revert the train into blocks.",
+  "ftbquests.chapter.create.quest8377065966416742284.description17": "\u00266Train Control",
+  "ftbquests.chapter.create.quest8377065966416742284.description18": "Once assembled, the train cab shows two levers. Right‑click the cab to enter control mode.",
+  "ftbquests.chapter.create.quest8377065966416742284.description19": "In control mode, your XP bar is replaced with a speed bar.",
+  "ftbquests.chapter.create.quest8377065966416742284.description20": "Use WASD to drive. The speed bar shows current speed, divided into 18 segments across five stages.",
+  "ftbquests.chapter.create.quest8377065966416742284.description21": "Speed decreases when turning.",
+  "ftbquests.chapter.create.quest8377065966416742284.description22": "Scroll the mouse wheel to adjust the speed cap, shown by a brass slider.",
+  "ftbquests.chapter.create.quest8377065966416742284.description23": "The arrow above the speed bar shows the train's forward direction relative to your view.",
+  "ftbquests.chapter.create.quest8377065966416742284.description24": "If the train has a whistle, press Ctrl to blow it.",
+  "ftbquests.chapter.create.quest8377065966416742284.description25": "\u00266Train Coupling",
+  "ftbquests.chapter.create.quest8377065966416742284.description26": "Right‑click a track, then place a coupler nearby. If the track length fits, two hook points appear: one on the chosen track, the other in the facing direction.",
+  "ftbquests.chapter.create.quest8377065966416742284.description27": "Hooks come in pairs: green markers face inward, red outward. Hooks can coexist with other train parts, shifting icons to the sides.",
+  "ftbquests.chapter.create.quest8377065966416742284.description28": "With a wrench, configure hook spacing on top of the coupler. Default is 5m, minimum 3m, maximum 15m.",
+  "ftbquests.chapter.create.quest8377065966416742284.description29": "Right‑click the coupler with a wrench to change its mode. Check textures or wear \u0026eEngineer Goggles\u0026r to identify. When aiming at a coupler or hook with a wrench, both highlight along with their link.",
+  "ftbquests.chapter.create.quest8377065966416742284.description30": "\u00266Train Coupling II",
+  "ftbquests.chapter.create.quest8377065966416742284.description31": "Before coupling, stop the trains. Adjacent bogies must align directly above hook points. Use stations to help alignment, though trains need not dock.",
+  "ftbquests.chapter.create.quest8377065966416742284.description32": "Once aligned, power the coupler to couple or decouple depending on mode and relation.",
+  "ftbquests.chapter.create.quest8377065966416742284.description33": "After coupling, the rear train merges into the front train. Its ID is lost, timetable drops at the hook, and assigned timetables are discarded.",
+  "ftbquests.chapter.create.quest8377065966416742284.description34": "If the rear train's bogie is one block behind the station marker during decoupling, it is considered docked at that station.",
+  "ftbquests.chapter.create.quest8377065966416742284.description35": "When creating a train at a station, the station's facing direction is defined as the train's forward direction.",
+  "ftbquests.chapter.create.quest8377065966416742284.description36": "On decoupling, the front train keeps its name. The rear train is renamed “Split off from: Original Name.”",
+  "ftbquests.chapter.create.quest8377065966416742284.description37": "On coupling, the front train's name is chosen as the new train's name.",
+  "ftbquests.chapter.create.quest8377065966416742284.description38": "Train couplers can act as data sources for display linkers.",
+  "ftbquests.chapter.create.quest8377065966416742284.title": "Assemble Train",
+
+  "ftbquests.chapter.create.quest8389324096935365389.description1": "Your windmill needs at least 8 sails to work, and can connect up to 128 sails. Every 8 sails add +1 RPM.",
+  "ftbquests.chapter.create.quest8389324096935365389.description2": "You can also use wool instead of sails.",
+  "ftbquests.chapter.create.quest8389324096935365389.task.2087722673603247335.title": "Wool",
+
+  "ftbquests.chapter.create.quest8389324096935365389.title": "Sail!",
+
+  "ftbquests.chapter.create.quest8559593903084645620.description1": "Cover your shafts, gears, and belts with casings. Casings are not consumed.",
+  "ftbquests.chapter.create.quest8559593903084645620.description2": "Might reduce lag?",
+  "ftbquests.chapter.create.quest8559593903084645620.title": "Casing",
+
+  "ftbquests.chapter.create.quest8579399704691756438.description1": "Create has the most “advanced” in‑game tutorial system ever, showing content with vivid scenarios instead of boring manuals. Every block has one or more dedicated tutorial scenes, making learning easy and friendly.",
+  "ftbquests.chapter.create.quest8579399704691756438.description2": "Hover over an item and press \u0026a[W]\u0026r to ponder its usage. Detailed info can be found at \u0026bhttps://www.mcmod.cn/class/2021.html or https://create.fandom.com/wiki/Create_Mod_Wiki\u0026r.",
+  "ftbquests.chapter.create.quest8579399704691756438.description3": "To help beginners, blocks marked with \u002664 highlight\u0026r are the main progression line. Gear‑shaped tasks mark stage nodes, also part of the main line.",
+  "ftbquests.chapter.create.quest8579399704691756438.subtitle": "Chapter author: Wu_Zang",
+  "ftbquests.chapter.create.quest8579399704691756438.task.2610602827225011006.title": "Press [W] to ponder",
+
+  "ftbquests.chapter.create.quest858010820817865487.description1": "This mod adds 6 types of drill heads: wood, stone, iron, gold, diamond, and netherite.",
+  "ftbquests.chapter.create.quest858010820817865487.description10": "It also adds enchanted drill heads. Use mechanical arms to apply redstone dust, quartz dust, emerald dust, or amethyst dust for effects:",
+  "ftbquests.chapter.create.quest858010820817865487.description11": "    Redstone dust: Fortune I;",
+  "ftbquests.chapter.create.quest858010820817865487.description12": "    Quartz dust: Fortune II;",
+  "ftbquests.chapter.create.quest858010820817865487.description13": "    Emerald dust: Fortune III;",
+  "ftbquests.chapter.create.quest858010820817865487.description14": "    Amethyst dust: Silk Touch.",
+  "ftbquests.chapter.create.quest858010820817865487.description2": "Using the normal drill speed as 1:",
+  "ftbquests.chapter.create.quest858010820817865487.description3": "    Wooden drill = 3;",
+  "ftbquests.chapter.create.quest858010820817865487.description4": "    Stone drill = 2;",
+  "ftbquests.chapter.create.quest858010820817865487.description5": "    Iron drill = 1;",
+  "ftbquests.chapter.create.quest858010820817865487.description6": "    Gold drill = 0.5;",
+  "ftbquests.chapter.create.quest858010820817865487.description7": "    Diamond drill = 0.75;",
+  "ftbquests.chapter.create.quest858010820817865487.description8": "    Netherite drill = 0.67.",
+  "ftbquests.chapter.create.quest858010820817865487.description9": "Each material's mining level matches its pickaxe counterpart.",
+  "ftbquests.chapter.create.quest858010820817865487.title": "More Drills",
+
+  "ftbquests.chapter.create.quest8620775994996164107.description1": "Shift+right‑click with a wrench to instantly remove components into your inventory.",
+  "ftbquests.chapter.create.quest8620775994996164107.description2": "Goggles let you see more detailed info about components.",
+  "ftbquests.chapter.create.quest8620775994996164107.description3": "Speedometers and stressometers let you monitor machine status anytime.",
+  "ftbquests.chapter.create.quest8620775994996164107.title": "Now You See Clearly",
+
+  "ftbquests.chapter.create.quest8656217962066719856.description1": "Don't just craft light sources — rose quartz can be used for other things, though not many.",
+
+  "ftbquests.chapter.create.quest8697440134350768791.description1": "Give your Cooking Guide to a Blaze to make it a chef! The Blaze Stove powers cookware (pot, teapot, cauldron) with mechanical arm automation, and speeds cooking up to 4×.",
+  "ftbquests.chapter.create.quest8697440134350768791.description2": "Give your Enchanting Guide to a Blaze to make it an enchanter! The Blaze Enchanting Room can automate adding specified enchantments.",
+  "ftbquests.chapter.create.quest8697440134350768791.title": "Ready‑Made Meals",
+
+  "ftbquests.chapter.create.quest8770930690557881160.description1": "Multi‑block pistons move along their rod axis, stopping when hitting blocks.",
+  "ftbquests.chapter.create.quest8770930690557881160.title": "Mechanical Piston",
+
+  "ftbquests.chapter.create.quest8850114652304992612.title": "Something Harder",
+
+  "ftbquests.chapter.create.quest8883424417245022444.description1": "When your power source and working component face different directions, try these solutions.",
+  "ftbquests.chapter.create.quest8883424417245022444.title": "Redirection",
+
+  "ftbquests.chapter.create.quest8883713239980676213.description1": "In this pack, you can place a fan behind a dragon head to process dragon breath, yielding End‑related resources. Recipes are in JEI.",
+  "ftbquests.chapter.create.quest8883713239980676213.title": "Dragon Breath Processing",
+
+  "ftbquests.chapter.create.quest894165536878691273.description1": "Polishing rose quartz is a long process. After making a mechanical arm, you can use it to automate polishing.",
+  "ftbquests.chapter.create.quest9004382133489201869.title": "Brass Age",
+
+  "ftbquests.chapter.create.quest902434318424035154.title": "More Projections",
+
+  "ftbquests.chapter.create.quest9085184306897025559.description1": "Place a Steam Engine or Steam Whistle on any fluid tank structure to turn it into a boiler.",
+  "ftbquests.chapter.create.quest9085184306897025559.description2": "Boilers need water input and a heat source beneath. They have three attributes: size, water, and heat, each with 18 levels. Efficiency depends on these. Wear Engineer Goggles to see details.",
+  "ftbquests.chapter.create.quest9085184306897025559.description3": "Size level = volume / 4, Water level = water (mB) / 50, Heat = total heat from sources. Blaze Furnace burns as tier 1, super burn as tier 2.",
+  "ftbquests.chapter.create.quest9085184306897025559.description4": "Extinguished Blaze Furnaces, campfires, fire blocks, magma blocks, and lava act as passive heat sources. Passive boilers always output 2048su stress, and multiple passive sources don't increase efficiency.",
+  "ftbquests.chapter.create.quest9085184306897025559.description5": "Boilers can only be heated from below.",
+  "ftbquests.chapter.create.quest9085184306897025559.description6": "To output power, place a Steam Engine on the boiler and a shaft two blocks in front. Power comes out from the shaft.",
+  "ftbquests.chapter.create.quest9085184306897025559.description7": "Boilers produce stress = boiler level × 16384su. Stress is evenly split among engines. Each engine outputs max 16384su, so add enough engines to use all stress. Match engine count to boiler level.",
+  "ftbquests.chapter.create.quest9085184306897025559.description8": "Extra engines beyond the required number don't increase efficiency.",
+  "ftbquests.chapter.create.quest9085184306897025559.description9": "Steam engine speed depends on boiler state and ratio of engine count to level, ranging 16–64 RPM.",
+  "ftbquests.chapter.create.quest9085184306897025559.title": "Tips",
+
+  "ftbquests.chapter.create.quest9158440367280542314.title": "Gold Sheet",
+
+  "ftbquests.chapter.create.quest921935946687090307.description1": "The Flight Anchor grants creative flight to players within range. Range scales with RPM.",
+  "ftbquests.chapter.create.quest921935946687090307.title": "Server Feels a Bit Weightless",
+
+  "ftbquests.chapter.create.quest982560398867827664.description1": "If it has water, it runs!",
+  "ftbquests.chapter.create.quest982560398867827664.title": "Water Task",
+  "ftbquests.chapter.create.title": "\u0026eNew Machinist",
+
+  "ftbquests.chapter.create_advance.quest2212208496116360109.description1": "One of the basic alloys used extensively.",
+  "ftbquests.chapter.create_advance.quest2212208496116360109.description2": "\u0026aV5: Build two cobblestone generators. One → crush → gravel; another → crush → wash → flint + raw iron nuggets. Raw iron nuggets → smelt → iron nuggets. Gravel + flint → press with lava → andesite. Andesite + iron nuggets → mix → Andesite Alloy.",
+  "ftbquests.chapter.create_advance.quest2212208496116360109.description3": "\u0026aV6: Cobblestone → crush → gravel; Tuff → crush → flint + iron nuggets; Lava shaping module → andesite; Andesite + iron nuggets → heated mixer module. Iron nuggets can be supplied via compression drawer when iron ingots are stored.",
+  "ftbquests.chapter.create_advance.quest2212208496116360109.title": "\u00266Basic: Andesite Alloy",
+
+  "ftbquests.chapter.create_advance.quest3038170017119822431.description1": "You might ask: is this even possible? But yes, it really works.",
+  "ftbquests.chapter.create_advance.quest3038170017119822431.description2": "\u0026aV6: Factory Gauge auto‑restock lapis + glow ink sacs. Brass chute or mechanical arm → evenly distribute. Hand‑craft one Beyond XP Bottle → output filtered with pipette + fluid interface (or smart fluid pipe). Super burn uses soybean oil. Enchanted book templates upgrade with ancient tome.",
+  "ftbquests.chapter.create_advance.quest3038170017119822431.title": "\u00266Advanced: Super XP",
+
+  "ftbquests.chapter.create_advance.quest3171656338290477852.description1": "Key components for building mechanical arms and speed controllers.",
+  "ftbquests.chapter.create_advance.quest3171656338290477852.description2": "\u0026aV5: Void chest → outputs gold ingots, iron nuggets, large + small gears → loop assembly.",
+  "ftbquests.chapter.create_advance.quest3171656338290477852.description3": "\u0026aV6: Gold ingots → press module; Gold sheets + iron nuggets + gears → precision assembly module, fed by mechanical arm.",
+  "ftbquests.chapter.create_advance.quest3171656338290477852.title": "\u00266Basic: Precision Mechanism",
+
+  "ftbquests.chapter.create_advance.quest3280373130710995951.description1": "\u0026bThis chapter supplements others, guiding mass production of basic resources for long‑term servers. Most items in this modpack can be replicated similarly.",
+  "ftbquests.chapter.create_advance.quest3280373130710995951.description2": "\u0026bFor short saves, the previous chapter is the graduation point.",
+  "ftbquests.chapter.create_advance.quest3280373130710995951.description3": "\u00266This chapter assumes infinite lava and sufficient stress.",
+  "ftbquests.chapter.create_advance.quest3280373130710995951.description4": "\u00266V5 means Integrated machines, single machine completes multiple steps, andfixed outputs.",
+  "ftbquests.chapter.create_advance.quest3280373130710995951.description5": "\u00266V6 means Modular machines, each machine does one step, variable outputs and input as needed.",
+  "ftbquests.chapter.create_advance.quest3280373130710995951.subtitle": "Chapter author: PL",
+  "ftbquests.chapter.create_advance.quest3280373130710995951.task.3370826236559697452.title": "Mass Production Chapter",
+  "ftbquests.chapter.create_advance.quest3280373130710995951.title": "\u00266Veteran Engineer",
+
+  "ftbquests.chapter.create_advance.quest3317006054012155589.description1": "A more advanced metal ingot.",
+  "ftbquests.chapter.create_advance.quest3317006054012155589.description2": "\u0026aV5: Void chest → outputs copper + zinc → mix → brass. Blaze Furnace powered by lava.",
+  "ftbquests.chapter.create_advance.quest3317006054012155589.description3": "\u0026aV6: Copper + zinc → heated mixer. Be careful not to run recipes having iron ingots at the same time.",
+  "ftbquests.chapter.create_advance.quest3317006054012155589.title": "\u00266Basic: Brass",
+
+  "ftbquests.chapter.create_advance.quest4051483692732972093.description1": "\u0026aIdea: Collect sculk veins + sculk blocks with amethyst drill. Reinforced bone shards → kill Warden with mechanical arm, or use Eternal Sonic Blaster to get Resonant Feathers.",
+  "ftbquests.chapter.create_advance.quest4051483692732972093.description2": "\u0026aThis material isn't used much, so even Iron's spellbooks are fine.",
+  "ftbquests.chapter.create_advance.quest4051483692732972093.title": "\u00266Advanced: Sculk Ingot",
+
+  "ftbquests.chapter.create_advance.quest4265857928455027077.description1": "\u0026aObviously, these materials can all be mass‑produced with mob cages.",
+  "ftbquests.chapter.create_advance.quest4265857928455027077.title": "\u00266Basic: Biomaterials I",
+
+  "ftbquests.chapter.create_advance.quest5591562182011905223.description1": "Compared to traditional paths, the Tuff route yields four common ores at once, making it better for ore acquisition.",
+  "ftbquests.chapter.create_advance.quest5591562182011905223.description2": "\u0026aV5: Tree farm → drawers → select logs. Logs → cut twice → planks → burn → ash. Cobblestone generator → cobblestone. Ash + cobblestone → mix → tuff → crush → four ore nuggets → compression drawers.",
+  "ftbquests.chapter.create_advance.quest5591562182011905223.description3": "\u0026aV6: Cobblestone generator + basalt generator → heated mixer module; Tuff → crusher module.",
+  "ftbquests.chapter.create_advance.quest5591562182011905223.title": "\u00266Basic: Tuff Production Line",
+
+  "ftbquests.chapter.create_advance.quest5805949850256944128.description1": "A must‑have step in V6 modular automation. V5 can ignore this task.",
+  "ftbquests.chapter.create_advance.quest5805949850256944128.description2": "\u0026aV6: Build a water‑fed mixer. Saplings + water → mix → paper → press → cardboard → press → cardboard block → mechanical crafting → packager.",
+  "ftbquests.chapter.create_advance.quest5805949850256944128.title": "\u00266Basic: Packager",
+
+  "ftbquests.chapter.create_advance.quest6707113174247889134.description1": "\u0026aIdea: Prismarine dust from crushing cages. Or soul‑bound sand → wash → quartz.",
+  "ftbquests.chapter.create_advance.quest6707113174247889134.title": "\u00266Basic: Nether Quartz",
+
+  "ftbquests.chapter.create_advance.quest7034589162735668792.description1": "\u0026aAlso mass‑producible via mob cages, though these DNAs are harder to obtain.",
+  "ftbquests.chapter.create_advance.quest7034589162735668792.title": "\u00266Basic: Biomaterials II",
+
+  "ftbquests.chapter.create_advance.quest7105633950547292434.description1": "\u0026aLeather + ender pearls → mob cages. Explosive Shard → TNT duplication. Anvil → mechanical crafting.",
+  "ftbquests.chapter.create_advance.quest7105633950547292434.description2": "\u0026aXP particles from diamond high‑pressure route or Silverfish XP machine → Factory Gauge → feed into Disenchanter → liquid XP → Printer → duplicate enchanted books. ",
+  "ftbquests.chapter.create_advance.quest7105633950547292434.description3": "\u0026bEnchanted book templates can be obtained via villager trades or Honey Crystal Flowers in the Wasp Dimension.",
+  "ftbquests.chapter.create_advance.quest7105633950547292434.title": "\u00266Advanced: Eternal Ingot",
+
+  "ftbquests.chapter.create_advance.quest7608474683282471040.description1": "Simply to make wiring easier when machines become too many.",
+  "ftbquests.chapter.create_advance.quest7608474683282471040.description2": "\u0026aIdea: Build an obsidian machine. Fluid pipes → spray lava source → contact with water‑bearing leaves → obsidian → drill or press to break. Ender pearls + netherite scraps from mob cages → mix with gold ingots → Void Steel Ingots.",
+  "ftbquests.chapter.create_advance.quest7608474683282471040.description3": "\u0026bYou may need a partner to help collect Ancient Knight DNA.",
+  "ftbquests.chapter.create_advance.quest7608474683282471040.title": "\u00266Basic: Void Machine Casing",
+
+  "ftbquests.chapter.create_advance.quest7847804872301159182.description1": "As production lines expand, hand‑crafting transmission parts is no longer viable. Build a basic transmission line.",
+  "ftbquests.chapter.create_advance.quest7847804872301159182.description2": "\u0026aV5: Tree farm + Andesite Alloy machine. Andesite Alloy → brass tunnel → split: one path → casing; other → cut → shafts → split again. Logs → stripped logs → brass tunnel → split: one path → casing; other → cut → planks → split three ways. Shafts + planks → small gears; shafts + two planks → large gears.",
+  "ftbquests.chapter.create_advance.quest7847804872301159182.description3": "\u0026aV6: Mechanical crafting → small + large gears; casings via casing machine.",
+  "ftbquests.chapter.create_advance.quest7847804872301159182.title": "\u00266Basic: Transmission Parts",
+
+  "ftbquests.chapter.create_advance.quest8652955586758215129.description1": "\u0026aV6: Wood → burn → charcoal → burn → carbon powder → heated shaping → graphite → high‑heat shaping → diamond. Byproducts include mixed diamond dust → crush.",
+  "ftbquests.chapter.create_advance.quest8652955586758215129.description2": "\u0026aFuel: Blaze Cake machine or soybean oil. Soybeans from Tofu Spider mob cage. Filters: two different colored sheep → wool → mechanical crafting. Same color wool cannot be used.",
+  "ftbquests.chapter.create_advance.quest8652955586758215129.title": "\u00266Basic: Diamond",
+
+  "ftbquests.chapter.create_advance.quest9049102451793150499.description1": "\u0026aIdea: Sugarcane → press → paper; Sand + paper → mix → sandpaper. Quartz + redstone → mix → crystal → grind with sandpaper → combine with metal plates.",
+  "ftbquests.chapter.create_advance.quest9049102451793150499.title": "\u00266Basic: Electron Tubes \\\u0026 Vacuum Tubes",
+
+  "ftbquests.chapter.create_advance.title": "\u00265Veteran Engineer",
+
+  "ftbquests.chapter.crockpot.quest1072910525105994334.description1": "Milk Hat is a great source of hunger and saturation, but its durability is too low.",
+  "ftbquests.chapter.crockpot.quest1072910525105994334.title": "Milk Hat Made from Pig Nose",
+
+  "ftbquests.chapter.crockpot.quest1160574799622916336.description1": "Big portions, very filling.",
+  "ftbquests.chapter.crockpot.quest1160574799622916336.description2": "\u0026aPossible idea: Chicken roaster or chicken mob cage.",
+  "ftbquests.chapter.crockpot.quest1160574799622916336.title": "\u00266Challenge: Meat Stew",
+
+  "ftbquests.chapter.crockpot.quest1191307169614529220.description1": "I guess you don't really want meatballs — you just don't konw how to cook, so meatballs are all you can make. (lol)",
+  "ftbquests.chapter.crockpot.quest1191307169614529220.title": "Meatball Enthusiast",
+
+  "ftbquests.chapter.crockpot.quest2133849973899463451.description1": "Though it's all mushrooms, the taste is surprisingly good.",
+  "ftbquests.chapter.crockpot.quest2133849973899463451.description2": "\u0026aPossible idea: Overworld mushrooms → spread or tree farm; Nether mushrooms → flower farm.",
+  "ftbquests.chapter.crockpot.quest2133849973899463451.title": "\u00266Challenge: Mushroom Cake",
+
+  "ftbquests.chapter.crockpot.quest2545435932736949902.description1": "After tasting all Crock Pot dishes, you've glimpsed the path of gourmet.",
+  "ftbquests.chapter.crockpot.quest2545435932736949902.description2": "\u0026bGnaw's Favor lets you ignore hunger when eating, meaning food can act like potions and be sampled faster.",
+  "ftbquests.chapter.crockpot.quest2545435932736949902.description3": "\u0026aIf you lose it, you can claim it here.",
+  "ftbquests.chapter.crockpot.quest2545435932736949902.title": "Gourmet Beginner",
+
+  "ftbquests.chapter.crockpot.quest2901990508272269111.description1": "You've successfully cultivated all seed types, but this is only the beginning of the gourmet journey.",
+  "ftbquests.chapter.crockpot.quest2901990508272269111.title": "Seed Breeder Master",
+
+  "ftbquests.chapter.crockpot.quest4270174579669287883.description1": "A copper cooking pot, able to make more recipes.",
+  "ftbquests.chapter.crockpot.quest4270174579669287883.title": "More Advanced Cooking Pot",
+
+  "ftbquests.chapter.crockpot.quest5553910265180318843.description1": "A pot made of stone, heavy and solid.",
+  "ftbquests.chapter.crockpot.quest5553910265180318843.title": "Cooking Pot",
+
+  "ftbquests.chapter.crockpot.quest6020308697781242643.description1": "A mysterious seed found while cutting grass—what could it grow into?",
+  "ftbquests.chapter.crockpot.quest6020308697781242643.subtitle": "Chapter author: PL",
+  "ftbquests.chapter.crockpot.quest6020308697781242643.title": "\u00266Unknown Seed",
+
+  "ftbquests.chapter.crockpot.quest620919655205228688.description1": "I think what you're making isn't hot cocoa, but some other strange liquid.",
+  "ftbquests.chapter.crockpot.quest620919655205228688.description2": "\u0026aOne possible idea: harvest cocoa beans with a reaper and pipe them straight into the cooking pot, using carpet or charcoal as fuel.",
+  "ftbquests.chapter.crockpot.quest620919655205228688.title": "\u00266Challenge: Hot Cocoa",
+
+  "ftbquests.chapter.crockpot.quest7354986559934011700.description1": "No, you're the pig nose!",
+  "ftbquests.chapter.crockpot.quest7354986559934011700.description2": "\u0026aOne possible idea: use a knife on hoglins.",
+  "ftbquests.chapter.crockpot.quest7354986559934011700.title": "\u00266Challenge: Exposed Nostril",
+
+  "ftbquests.chapter.crockpot.quest8643251050729956122.description1": "Even a caged bird will one day see the sky again.",
+  "ftbquests.chapter.crockpot.quest8643251050729956122.description2": "\u0026bBirdcages can turn rotten flesh into useful items, and also yield seeds for crops that are hard to multiply by farming.",
+  "ftbquests.chapter.crockpot.quest8643251050729956122.title": "Caged Bird",
+
+  "ftbquests.chapter.crockpot.title": "\u0026eGourmet Beginner",
+  
+  "ftbquests.chapter.farmers_delight.quest1194813050829271683.description1": "For certain creatures, killing them with a knife grants extra drops.",
+  "ftbquests.chapter.farmers_delight.quest1194813050829271683.description2": "For example, pigs drop ham, the Ender Dragon drops dragon meat, and villagers… drop mystery meat?",
+  "ftbquests.chapter.farmers_delight.quest1194813050829271683.title": "Extra Drops",
+ 
+  "ftbquests.chapter.farmers_delight.quest1501497220726595678.description1": "In the wild or village chests you can discover four new crops: cabbage, tomato, onion, and rice.",
+  "ftbquests.chapter.farmers_delight.quest1501497220726595678.description2": "The first three behave like vanilla crops, but rice must be planted in water.",
+  "ftbquests.chapter.farmers_delight.quest1501497220726595678.title": "New Crops",
+ 
+  "ftbquests.chapter.farmers_delight.quest2610682360042712291.description1": "Agriculture in Africa is underdeveloped, all we need is Jinkela (Golden Fertilizer)!",
+  "ftbquests.chapter.farmers_delight.quest2610682360042712291.description2": "\u0026bLarge amounts of rich soil are the foundation of massive tree farms and fields.",
+  "ftbquests.chapter.farmers_delight.quest2610682360042712291.description3": "\u0026aOne possible idea: mass‑plant peanuts to obtain magic peanuts; when matured, they transform the dirt below into fertile soil.",
+  "ftbquests.chapter.farmers_delight.quest2610682360042712291.title": "\u00266Challenge: Central Plains Soil",
+ 
+  "ftbquests.chapter.farmers_delight.quest3491218136005821001.description1": "The basket can suck in items within range of its opening, hold water, and even works upside‑down!",
+  "ftbquests.chapter.farmers_delight.quest3491218136005821001.description2": "Often used as a hopper replacement.",
+
+  "ftbquests.chapter.farmers_delight.quest3518203633432534867.description1": "Place organic fertilizer in the world, and after some time it naturally decays into fertile soil.",
+  "ftbquests.chapter.farmers_delight.quest3518203633432534867.description2": "Decay speeds up in sunlight or near water. Mushrooms and other catalysts can also accelerate decomposition.",
+  "ftbquests.chapter.farmers_delight.quest3518203633432534867.description3": "Crops on rich soil grow as if bone‑mealed, super fast! In darkness, mushrooms planted there will grow into colonies.",
+  "ftbquests.chapter.farmers_delight.quest3518203633432534867.description4": "[INFO] If you can mass‑farm peanuts, growing magic peanuts is a faster way to get fertile soil.",
+  "ftbquests.chapter.farmers_delight.quest3518203633432534867.title": "Rich Soil",
+ 
+  "ftbquests.chapter.farmers_delight.quest4255546069497060038.description1": "Hold food in your off‑hand, then right‑click a heat source with the frying pan to heat it.",
+  "ftbquests.chapter.farmers_delight.quest4255546069497060038.description2": "You can also place the pan on a heat source and put food directly on it.",
+  "ftbquests.chapter.farmers_delight.quest4255546069497060038.description3": "It can even be used as a weapon!",
+
+  "ftbquests.chapter.farmers_delight.quest429015951975589133.description1": "Weave straws to make coarse cloth, which can be processed further.",
+  "ftbquests.chapter.farmers_delight.quest429015951975589133.title": "Coarse Cloth",
+ 
+  "ftbquests.chapter.farmers_delight.quest4375341008199961910.description1": "The main way to get straws is cutting grass with a knife. You can also crush oats or peel bamboo blocks.",
+  "ftbquests.chapter.farmers_delight.quest4375341008199961910.title": "Straws",
+ 
+  "ftbquests.chapter.farmers_delight.quest4565839392595698724.description1": "Straws can be crafted into many useful things, one of which is organic compost—the precursor to rich soil.",
+  "ftbquests.chapter.farmers_delight.quest4565839392595698724.title": "Organic Compost",
+ 
+  "ftbquests.chapter.farmers_delight.quest5589402797600207997.description1": "Place items on it, then use the specified tool to process them.",
+  "ftbquests.chapter.farmers_delight.quest5589402797600207997.description2": "Hold the item in your off‑hand and the tool in your main hand, then right‑click quickly to chop food fast.",
+
+  "ftbquests.chapter.farmers_delight.quest6221118742075345269.description1": "A heat source that won't be extinguished by water or rain, works like a campfire for cooking.",
+  "ftbquests.chapter.farmers_delight.quest6221118742075345269.description2": "Some kitchenware must be placed on a stove to function.",
+
+  "ftbquests.chapter.farmers_delight.quest7580330303794947421.description1": "Though it looks like a dagger, it's actually a western‑style knife for chopping, fighting, and cutting grass.",
+  "ftbquests.chapter.farmers_delight.quest7580330303794947421.description2": "Of course, you could really use a dagger for cooking too.",
+
+  "ftbquests.chapter.farmers_delight.quest7580330303794947421.subtitle": "Chapter author: Cerasus",
+  "ftbquests.chapter.farmers_delight.quest7580330303794947421.task.470106648702858931.title": "Craft a knife… a dagger works too",
+  "ftbquests.chapter.farmers_delight.quest7580330303794947421.title": "\u00266First Knife",
+
+  "ftbquests.chapter.farmers_delight.quest8920884405958161930.description1": "When a heat source is under the cooking pot, it bubbles and can be used to cook food.",
+  "ftbquests.chapter.farmers_delight.quest8920884405958161930.description2": "Heat sources vary, but usually a stove from the Leshi series is used.",
+  "ftbquests.chapter.farmers_delight.title": "\u0026eFacing the Soil",
+
+  "ftbquests.chapter.first.quest4002922450322117958.description1": "This starter chapter is designed for players new to mods, guiding early progression and common basics.",
+  "ftbquests.chapter.first.quest4002922450322117958.description2": "These mods can be completed without relying on others, and they help reduce difficulty in later mods.",
+  "ftbquests.chapter.first.quest4002922450322117958.description3": "If you struggle with Create's production lines, check \u00265Veteran Engineer\u0026r.",
+  "ftbquests.chapter.first.quest4002922450322117958.task.317095820743540569.title": "\u00266Overview of the Starter Chapter",
+  "ftbquests.chapter.first.quest4002922450322117958.title": "\u0026eStarter Chapter Overview",
+  "ftbquests.chapter.first.title": "\u0026eStarter Chapter Overview",
+
+  "ftbquests.chapter.irons.quest115457515855062932.description1": "Fast and faster.",
+
+  "ftbquests.chapter.irons.quest117581799412881731.description1": "Graduation spellbook, with 12 slots and cooldown reduction.",
+
+  "ftbquests.chapter.irons.quest1201537628334208402.description1": "Insert the scroll you want to inscribe.",
+  "ftbquests.chapter.irons.quest1201537628334208402.description2": "You wouldn't want to waste a legendary scroll, would you…?",
+  "ftbquests.chapter.irons.quest1201537628334208402.title": "Spell Inscription",
+
+  "ftbquests.chapter.irons.quest1355023748895436492.description1": "You've probably found many spell scrolls. Most can be cast directly with right‑click \u00264(consuming the scroll!)\u0026f. A better way is to inscribe them into a spellbook, so you can cast freely!",
+  "ftbquests.chapter.irons.quest1355023748895436492.task.1613391302749557059.title": "Scrolls",
+  "ftbquests.chapter.irons.quest1355023748895436492.title": "Scrolls",
+
+  "ftbquests.chapter.irons.quest1379884077043765030.description1": "Has 12 slots.",
+
+  "ftbquests.chapter.irons.quest1520736446377827607.description1": "Dropped by high evokers or regular evokers, with a 1.25%% chance. Looting helps, and you must land the killing blow.",
+  "ftbquests.chapter.irons.quest1520736446377827607.description2": "Also has a very low chance to appear in loot chests inside ravager rooms of catacombs.",
+
+  "ftbquests.chapter.irons.quest1558535080823409897.description1": "Fire spells",
+
+  "ftbquests.chapter.irons.quest2013893219969268542.description1": "Nature spells",
+
+  "ftbquests.chapter.irons.quest2340273670502298618.description1": "Iron's Spellbook offers many powerful and fun equipment and trinkets.",
+  "ftbquests.chapter.irons.quest2340273670502298618.description2": "\u00267\u0026nActually there's an icon here",
+  "ftbquests.chapter.irons.quest2340273670502298618.task.8159261493176922754.title": "Equipment \\\u0026 Trinkets",
+  "ftbquests.chapter.irons.quest2340273670502298618.title": "Equipment \\\u0026 Trinkets",
+
+  "ftbquests.chapter.irons.quest2505886247817819697.description1": "Crafted from worn spellbooks.",
+  "ftbquests.chapter.irons.quest2505886247817819697.subtitle": " ",
+  
+  "ftbquests.chapter.irons.quest3042281032712670407.description1": "Each piece of gear can be upgraded up to three times (ten times on servers). See JEI\u0026e (press U on blank upgrade orbs)\u0026r for all upgrade orb types.",
+
+  "ftbquests.chapter.irons.quest3071465818533360026.description1": "Blood spells",
+
+  "ftbquests.chapter.irons.quest3281667011670162518.description1": "Become a master of spells!",
+  "ftbquests.chapter.irons.quest3281667011670162518.subtitle": "Chapter author: RubicA",
+  "ftbquests.chapter.irons.quest3281667011670162518.task.4295873944209070394.title": "Iron's Spellbook Overview",
+  "ftbquests.chapter.irons.quest3281667011670162518.title": "\u00266Is this the world of spells?",
+
+  "ftbquests.chapter.irons.quest3443205356844796093.description1": "The Confession Stone can remove spells from weapons, or strip upgrades from gear combined with upgrade orbs.",
+  "ftbquests.chapter.irons.quest3443205356844796093.title": "The Other Side Retracted a Spell",
+
+  "ftbquests.chapter.irons.quest344357227415954611.description1": "Only gear with \u0026e“Can be infused with spells (0/1)”\u0026f in its tooltip can be infused. (Scrolls on weapons become right‑click skills; infusing clothes adds a spell slot.)",
+  "ftbquests.chapter.irons.quest344357227415954611.task.735326727656283388.title": "Infuse Spells",
+  "ftbquests.chapter.irons.quest344357227415954611.title": "Infuse Spells",
+
+  "ftbquests.chapter.irons.quest3632816082511384797.description1": "Found everywhere in adventures, isn't it?",
+
+  "ftbquests.chapter.irons.quest4077773201763293156.description1": "The alchemy pot is complex to use. Please see MC Wiki for detailed instructions.",
+ 
+  "ftbquests.chapter.irons.quest4155308214732673622.description1": "Found in Ancient City loot chests.",
+
+  "ftbquests.chapter.irons.quest4161896741851995350.description1": "Unique spellbook!",
+  "ftbquests.chapter.irons.quest4161896741851995350.task.2486529895687939366.title": "Unique Spellbook",
+
+  "ftbquests.chapter.irons.quest4161896741851995350.title": "Unique Spellbook",
+
+  "ftbquests.chapter.irons.quest4179541747153087043.description1": "Has 8 slots and some buffs.",
+
+  "ftbquests.chapter.irons.quest4248940398352851244.description1": "You can upgrade gear by combining it with upgrade orbs, or infuse spells.",
+
+  "ftbquests.chapter.irons.quest4467640425300198132.description1": "Probably the most well‑rounded wand overall.",
+
+  "ftbquests.chapter.irons.quest4638065642595319923.description1": "Any door!",
+
+  "ftbquests.chapter.irons.quest4728579043284236594.description1": "50%% chance to drop after killing the King of the Dead.",
+
+  "ftbquests.chapter.irons.quest4757800134059526065.description1": "Jack‑of‑all‑trades set.",
+
+  "ftbquests.chapter.irons.quest4757800134059526065.title": "Battle Mage Set",
+
+  "ftbquests.chapter.irons.quest4821569754452198433.description1": "Just a decoration.",
+
+  "ftbquests.chapter.irons.quest4857065615003740579.description1": "With the Ring of Invisibility, you can see outlines of mobs with invisibility buffs.",
+  "ftbquests.chapter.irons.quest4857065615003740579.title": "Eh, See‑Through Isn't It",
+
+  "ftbquests.chapter.irons.quest4928989186775899308.description1": "Lightning spells",
+  "ftbquests.chapter.irons.quest4928989186775899308.description2": "Charged creepers can be spawned via Maid Mod altar, or by using lightning spells.",
+
+  "ftbquests.chapter.irons.quest521856152132857915.description1": "The basic material for crafting armor.",
+
+  "ftbquests.chapter.irons.quest5339063644055888132.description1": "Craft your scrolls at the Scroll Scribing Table. Place ink, paper, and the proper medium from left to right.",
+  "ftbquests.chapter.irons.quest5339063644055888132.title": "Artificial Scrolls",
+
+  "ftbquests.chapter.irons.quest5340840948225945757.description1": "A bit better than the beginner's spellbook!",
+
+  "ftbquests.chapter.irons.quest5518114228782261650.description1": "Using a wand makes casting easier! Right‑click to release the selected spell.",
+  "ftbquests.chapter.irons.quest5518114228782261650.description2": "\u00264(Wands also provide some positive buffs)",
+
+  "ftbquests.chapter.irons.quest5664119239817930676.description1": "Can be found in loot chests or traded from wandering merchants.",
+
+  "ftbquests.chapter.irons.quest5672080269144982052.description1": "When you discover an Ancient City…",
+  "ftbquests.chapter.irons.quest5672080269144982052.task.6198387328187372956.title": "Ancient Wisdom",
+
+  "ftbquests.chapter.irons.quest5818452794765356322.description1": "50%% chance to obtain after defeating the King of the Dead.",
+
+  "ftbquests.chapter.irons.quest6133928970756289026.title": "Legendary Ink!",
+
+  "ftbquests.chapter.irons.quest6166008292796946054.description1": "Trade with wandering merchants. In theory you can carry 8 Rings of Repetition, replacing 24 cooldown orbs.",
+
+  "ftbquests.chapter.irons.quest6216602416250366875.description1": "Thunder god, aid me!",
+
+  "ftbquests.chapter.irons.quest6304890106916109688.description1": "In version 1.20 of Iron's Spellbooks, combining two identical scrolls on an anvil to upgrade was removed. Max‑level spells can now only be made at the scribing table using legendary ink. \u0026b(Even lucky players can get them!)",
+  "ftbquests.chapter.irons.quest6304890106916109688.task.6931759346439486370.title": "About Spell Levels",
+
+  "ftbquests.chapter.irons.quest6660012773324199704.description1": "10 slots",
+
+  "ftbquests.chapter.irons.quest6674022342368477004.description1": "You have mastered the secrets of magic—let us celebrate the birth of a new king!",
+
+  "ftbquests.chapter.irons.quest7206715109682479446.description1": "A fairly balanced transitional wand.",
+
+  "ftbquests.chapter.irons.quest7335314771744235229.description1": "These spellbooks are very easy to craft. If you're eager to cast, make them for temporary use. \u00264(There's no order to crafting these four books!)",
+
+  "ftbquests.chapter.irons.quest7335314771744235229.task.712877028853922931.title": "Early Choices",
+
+  "ftbquests.chapter.irons.quest7521606835612270564.description1": "Different mediums produce different schools of spells.",
+  "ftbquests.chapter.irons.quest7521606835612270564.task.7425744025374365874.title": "Mediums",
+
+  "ftbquests.chapter.irons.quest7824525393963547042.description1": "Trade with wandering merchants.",
+
+  "ftbquests.chapter.irons.quest7915540124684403694.description1": "Ice spells",
+
+  "ftbquests.chapter.irons.quest8077330714692783584.description1": "Dropped by undead mobs or found in dungeon chests.",
+
+  "ftbquests.chapter.irons.quest8146369098984547947.description1": "Ender spells",
+
+  "ftbquests.chapter.irons.quest8184980465484912998.description1": "Every good wizard should have their own spellbook! It's your casting medium. \u00264(Place the spellbook in the trinket slot labeled “Spellbook” for it to work)",
+  "ftbquests.chapter.irons.quest8184980465484912998.task.6893280707522733994.title": "Spellbook",
+
+  "ftbquests.chapter.irons.quest8258558434157139070.description1": "Ink can also be obtained by recycling scrolls in the alchemy pot. Recycling has a 50%% chance to yield ink of the same quality.",
+  "ftbquests.chapter.irons.quest8258558434157139070.task.4008803020326449243.title": "Original Soup, Original Food",
+
+  "ftbquests.chapter.irons.quest8817909134139140164.description1": "Holy spells",
+
+  "ftbquests.chapter.irons.quest8828183776571692232.description1": "Blazes have a chance to drop them.",
+
+  "ftbquests.chapter.irons.quest9060542214195515303.description1": "Ink determines the quality of spells you craft. Higher quality means stronger effects—aim for legendary ink!",
+  "ftbquests.chapter.irons.quest9060542214195515303.title": "Ink",
+
+  "ftbquests.chapter.irons.quest9095684215473510296.description1": "Evoker spells",
+
+  "ftbquests.chapter.irons.quest9197503175705427737.description1": "Perhaps your very first spellbook?",
+
+  "ftbquests.chapter.irons.quest927475433175052808.description1": "\u0026fObtain untranslated research logs from Summoner Towers, then trade with wandering merchants that sometimes spawn in the tower yard for translated logs. Use those with a priest to get the Villager Bible.",
+
+  "ftbquests.chapter.irons.title": "\u0026aRusty Spell Mage",
+
+  "ftbquests.chapter.kots.quest1293243215694761805.description1": "You can open the calendar from the top-left of your inventory, then right-click the date to claim your daily reward.",
+  "ftbquests.chapter.kots.quest1293243215694761805.description2": "\u0026e[WARN]\u0026b When claiming sign-in rewards, there's a 50%% chance a Mimic spawns at your feet.",
+  "ftbquests.chapter.kots.quest1293243215694761805.task.9093146081436042840.title": "\u00264Did you really read it all?",
+  "ftbquests.chapter.kots.quest1293243215694761805.title": "About the Sign-In System",
+  "ftbquests.chapter.kots.quest1629477366807380620.description1": "This modpack uses the open-source Maple mono font. It's a 2:1 width font for Chinese and English, and also supports ligatures. If you prefer another font, you can change it in the Modern UI settings.",
+
+  "ftbquests.chapter.kots.quest1629477366807380620.description2": "Ligatures：!\u003d !\u003d\u003d \\\\ \u003c\u003d ## -\u003e ~\u003e ~@ |\u003e ",
+  "ftbquests.chapter.kots.quest1629477366807380620.description3": "Double Arrors：|\u003d\u003e\u003d\u003d\u003c\u003d\u003d\u003e\u003d|\u003d\u003d\u003d\u003d\u003d\u003d|\u003d\u003d\u003d|\u003d\u003d\u003d\u003e",
+  "ftbquests.chapter.kots.quest1629477366807380620.description4": "Arror：\u003c---|--|--------|-\u003c-\u003e--\u003c-|",
+  "ftbquests.chapter.kots.quest1629477366807380620.description5": "Special Sign：[INFO][WARN][ERROR][TODO]",
+
+
+  "ftbquests.chapter.kots.quest1629477366807380620.task.2681752702552566440.title": "\u00264Did you really read it all?",
+  "ftbquests.chapter.kots.quest1629477366807380620.title": "About Fonts",
+
+  "ftbquests.chapter.kots.quest2839885996462273347.description1": "The territory mod used here is OPAC. You can claim chunks to protect them or keep them force-loaded.",
+  "ftbquests.chapter.kots.quest2839885996462273347.description10": "To give another player permission to operate in your claimed chunks, if they're in a different team, type \u00262 /openpac-parties ally add [playername]\u0026r. (Note: if the player isn't in any team, this command won't work.)",
+  "ftbquests.chapter.kots.quest2839885996462273347.description11": "To revoke a player's permission in your claimed chunks, just type \u00262 /openpac-parties ally remove [playername]\u0026r.",
+  "ftbquests.chapter.kots.quest2839885996462273347.description12": "Players with ADMIN rights in the team can also use this command.",
+  "ftbquests.chapter.kots.quest2839885996462273347.description13": "To leave a team, type \u00262 /openpac-parties leave\u0026r.",
+  "ftbquests.chapter.kots.quest2839885996462273347.description14": "If you're the team creator, type \u00262 /openpac-parties destroy confirm\u0026r to delete the team.",
+  "ftbquests.chapter.kots.quest2839885996462273347.description15": "To rename your team, type \u00262 /openpac player-config set parties.name [new name]\u0026r.",
+  "ftbquests.chapter.kots.quest2839885996462273347.description16": "To rename your claimed chunk, type \u00262 /openpac player-config set claims.name [new name]\u0026r.",
+  "ftbquests.chapter.kots.quest2839885996462273347.description17": "[How does the team system work?]",
+  "ftbquests.chapter.kots.quest2839885996462273347.description18": "In most cases, it's recommended that each player creates their own team, and only invite others when necessary.",
+  "ftbquests.chapter.kots.quest2839885996462273347.description19": "Here's how the team system works:",
+  "ftbquests.chapter.kots.quest2839885996462273347.description2": "Press \u0026a[M]\u0026r to open the world map, right-click a chunk, then click “Claim this chunk” in the popup to make it yours.",
+  "ftbquests.chapter.kots.quest2839885996462273347.description20": "\u00262\"Team 1\"\u0026r has only \u00262Player A\u0026r. \u00266Player C\u0026r uses the command to ally \u00262Team 1\u0026r with \u00266Team 3\u0026r. This means \u00262all players\u0026r in \u00262Team 1\u0026r can operate in chunks claimed by \u00266Player C\u0026r. But \u00266Team 3\u0026r does not automatically gain rights in \u00262Player A's\u0026r chunks. Meanwhile, since \u0026dPlayer B\u0026r is in \u0026dTeam 2\u0026r and \u00266Player C\u0026r didn't ally with \u0026dTeam 2\u0026r, \u0026dTeam 2\u0026r players cannot operate in \u00266Player C's\u0026r chunks.",
+  "ftbquests.chapter.kots.quest2839885996462273347.description21": "However, if \u00262Player A\u0026r and \u00262Player B\u0026r are both in Team 1, then when \u00266Player C\u0026r allies with any member of \u00262Team 1\u0026r, \u00262all players\u0026r in Team 1 gain rights in \u00266Player C's\u0026r claimed chunks.",
+  "ftbquests.chapter.kots.quest2839885996462273347.description22": "\u0026aTL;DR: \u0026l\u0026bIt's best if every player creates their own team\u0026r. That way, when allying with other teams, you won't accidentally give permissions to strangers.",
+  "ftbquests.chapter.kots.quest2839885996462273347.description3": "You can also drag with right-click to select multiple chunks at once.",
+  "ftbquests.chapter.kots.quest2839885996462273347.description4": "Alternatively, you can type \u00262 /openpac-claims claim\u0026r or press \u00262 ' \u0026r to claim the current chunk.",
+  "ftbquests.chapter.kots.quest2839885996462273347.description5": "Once you have claimed a chunk, type \u00262 /openpac-parties create\u0026r to make your team.",
+  "ftbquests.chapter.kots.quest2839885996462273347.description6": "To invite players to your team, type \u00262 /openpac-parties member invite [playername]\u0026r.",
+  "ftbquests.chapter.kots.quest2839885996462273347.description7": "Or, players can join a team directly with \u00262 /openpac-parties join [teamID]\u0026r.",
+  "ftbquests.chapter.kots.quest2839885996462273347.description8": "To set permissions for team members, type \u00262 /openpac-parties member rank [rank] [playername]\u0026r.",
+  "ftbquests.chapter.kots.quest2839885996462273347.description9": "To kick a player from your team, type \u00262 /openpac-parties member kick [nickname]\u0026r.",
+  "ftbquests.chapter.kots.quest2839885996462273347.task.721123564628193135.title": "\u00264Did you really read it all?",
+  "ftbquests.chapter.kots.quest2839885996462273347.title": "About the Territory System",
+
+  "ftbquests.chapter.kots.quest4393421732070916680.description1": "This pack includes SVC voice chat. Press \u0026a[F10]\u0026r to adjust voice call options.",
+  "ftbquests.chapter.kots.quest4393421732070916680.description2": "The music command is \u00262/music\u0026r. (But cannot use out of China Mainland.) To adjust volume, change the jukebox sound settings.",
+  "ftbquests.chapter.kots.quest4393421732070916680.task.7945304047951056266.title": "\u00264Did you really read it all?",
+  "ftbquests.chapter.kots.quest4393421732070916680.title": "About Voice Chat \\\u0026 Music",
+
+  "ftbquests.chapter.kots.quest4583238360321024313.description1": "With these four blocks, you can reach the Void dimension or the Mining dimension. Build machines or mine there without damaging the Overworld.",
+  "ftbquests.chapter.kots.quest4583238360321024313.description2": "\u0026e[WARN]\u0026bIt's recommended to build all machines in the Void or Mining dimension to avoid lag from heavy rendering in the Overworld.",
+  "ftbquests.chapter.kots.quest4583238360321024313.title": "Void \\\u0026 Mining",
+
+  "ftbquests.chapter.kots.quest819685687684706128.description1": "\u0026bThank you for downloading and playing  Kumo O Tagayasu! \u0026bCreate every work with a calm heart, love, and magic!",
+  "ftbquests.chapter.kots.quest819685687684706128.description2": "Tasks are organized by chapters and mod progression. Within the same tier, tasks can be done in any order. \u00266Players are encouraged to flexibly use other mods to complete difficult progression tasks.",
+  "ftbquests.chapter.kots.quest819685687684706128.description3": "\u0026r",
+  "ftbquests.chapter.kots.quest819685687684706128.description4": "If you can't find a task, use \u0026a[Ctrl] + scroll\u0026r to zoom in/out on the chapter screen.",
+  "ftbquests.chapter.kots.quest819685687684706128.description5": "\u00262Please make sure to carefully read all tasks in this chapter.",
+  "ftbquests.chapter.kots.quest819685687684706128.task.1261109064530086610.title": "\u0026bWelcome to Kumo O Tagayasu！",
+
+  "ftbquests.chapter.kots.quest8693389655115488184.description1": "Since everyone has different habits, even though key conflicts were minimized, please adjust your keybinds yourself.",
+  "ftbquests.chapter.kots.quest8693389655115488184.description2": "Press \u0026a[F9]\u0026r to quickly check and change the function bound to a key.",
+  "ftbquests.chapter.kots.quest8693389655115488184.description3": "The projection's \u0026a[M]\u0026r key has been replaced with \u0026a[,]\u0026r.",
+  "ftbquests.chapter.kots.quest8693389655115488184.description4": "The /home command from Narcissus Farewell behaves a bit oddly.",
+  "ftbquests.chapter.kots.quest8693389655115488184.description5": "For default homes (\u00262/sethome home true\u0026r), using \u00262/home\u0026r will try to teleport to the default point in the current dimension. If none exists but there's only one default point across all dimensions, it will teleport cross-dimension to that one. Using \u00262/home <name>\u0026r will teleport directly cross-dimension.",
+  "ftbquests.chapter.kots.quest8693389655115488184.description6": "For private homes (\u00262/sethome home\u0026r), using \u00262/home <name>\u0026r only works within the same dimension. If none exists, no teleport occurs. To teleport to another dimension's home, specify the dimension: \u00262/home <name> true minecraft:overworld\u0026r.",
+  "ftbquests.chapter.kots.quest8693389655115488184.task.314027045309953747.title": "\u00264Did you really read it all?",
+  "ftbquests.chapter.kots.quest8693389655115488184.title": "About Keybinds \\\u0026 Teleports",
+  "ftbquests.chapter.kots.title": "\u0026bZen of Kumo O Tagayasu",
+
+  "ftbquests.chapter.lightland.quest1122572363621730259.description1": "Material trait: durability never decreases. Extremely high base stats.",
+  "ftbquests.chapter.lightland.quest1636718759909394507.description1": "Shulker: ?",
+  "ftbquests.chapter.lightland.quest1636718759909394507.description2": "\u0026aOne possible approach: shulker bullets only fly straight. Trap it in a small space and spam right-click.",
+
+  "ftbquests.chapter.lightland.quest2521835414204708935.description1": "Burning conversion: Totem of Undying or meat.",
+
+  "ftbquests.chapter.lightland.quest3149425256211952600.description1": "Mechanical Hand: What, are you thinking about me?",
+  "ftbquests.chapter.lightland.quest3149425256211952600.description2": "\u0026aOne possible approach: have the Mechanical Hand wield the Eternal Sword to kill a Warden; Wardens can be obtained via natural shriekers, spawners, or mob cages.",
+  "ftbquests.chapter.lightland.quest3149425256211952600.description3": "\u0026aAnother possible approach: use magic to kill directly.",
+
+  "ftbquests.chapter.lightland.quest3447441614727199522.description1": "\u0026o\u00265You're not satisfied with ordinary items, you pursue unique materials to forge legendary weapons…\u0026r",
+  "ftbquests.chapter.lightland.quest3447441614727199522.description2": "Lightland offers many special materials, each with unique acquisition methods.",
+  "ftbquests.chapter.lightland.quest3447441614727199522.description3": "\u0026bAll of these materials can be obtained in pure vanilla; but using other mods can greatly simplify or even mass-produce them.",
+  "ftbquests.chapter.lightland.quest3447441614727199522.description4": "\u0026aCommon mob farming method: use cages to get spawn eggs, summon mobs, extract DNA, place DNA back in cages to get spawn eggs again. Or move spawners.",
+  "ftbquests.chapter.lightland.quest3447441614727199522.subtitle": "Chapter authors: Wu_Zang, PL",
+  "ftbquests.chapter.lightland.quest3447441614727199522.title": "\u00266Lightland",
+
+  "ftbquests.chapter.lightland.quest3771052899171560091.description1": "Material trait: full Sculk set silences player sounds. A material focused on speed.",
+
+  "ftbquests.chapter.lightland.quest3953187499610119660.description1": "Burning conversion: various ‘Soul' items (see JEI).",
+
+  "ftbquests.chapter.lightland.quest3976979817227296873.description1": "Crafted with glass bottles and phantom membranes.",
+
+  "ftbquests.chapter.lightland.quest4535371047791017834.description1": "Player: Do you dare defy me with 80 HP and full Blast Protection VI?",
+  "ftbquests.chapter.lightland.quest4535371047791017834.description2": "End Crystal: ?!",
+  "ftbquests.chapter.lightland.quest4535371047791017834.description3": "\u0026aOne possible approach: TNT duplication, use water streams to align TNT with the player.",
+
+  "ftbquests.chapter.lightland.quest4870557768290474257.description1": "Iron's Spellbook: Whatever, I'll act.",
+  "ftbquests.chapter.lightland.quest4870557768290474257.description2": "\u0026aOne possible approach: splash a turtle potion on chickens to distract the Warden, or use a sonic blaster. If Holy Protection gives enough HP, that works too. After obtaining the sonic blaster, use potion candles for resistance buffs.",
+
+  "ftbquests.chapter.lightland.quest5146741737999078828.description1": "Material trait: extremely hard, reduces at most 1 durability per hit. A material focused on range.",
+
+  "ftbquests.chapter.lightland.quest629860946732663415.description1": "Hit a Piglin Brute with a Black Fire Charge, then kill it.",
+  "ftbquests.chapter.lightland.quest629860946732663415.description2": "\u0026aOne possible approach: after hitting with Black Fire Charge, finish with magic.",
+
+  "ftbquests.chapter.lightland.quest6384700644489208775.description1": "Trap a Ghast, then kill it with Soul Fire Charge.",
+  "ftbquests.chapter.lightland.quest6384700644489208775.description2": "\u0026aOne possible approach: just kill directly.",
+
+  "ftbquests.chapter.lightland.quest6468960853331420282.description1": "Take off!",
+  "ftbquests.chapter.lightland.quest6468960853331420282.description2": "\u0026aOne possible approach: in rain, use a Riptide III (IV is better) trident, dive from snow level to accelerate flight.",
+
+  "ftbquests.chapter.lightland.quest6488563720371423356.description1": "Burning conversion: emeralds or emerald blocks.",
+  "ftbquests.chapter.lightland.quest6804288281795787777.description1": "Besides melee by the player, there seem to be many possible execution methods under the void?",
+  "ftbquests.chapter.lightland.quest6804288281795787777.description2": "\u0026aOne possible approach: tripwire detects Enderman falling, TNT drops to kill it. Or use shulkers to build a void platform, then kill with water bottles.",
+
+  "ftbquests.chapter.lightland.quest6804288281795787777.description3": "\u0026aAnother possible approach: programmable gearbox + kinetic bearing, rotate a mob farm platform 180° into the void. \u0026b@icewater冰水\u0026r",
+  "ftbquests.chapter.lightland.quest7219954786305645870.description1": "Elder Guardians kept cursing sailors with debuffs, so they got struck by lightning.",
+  "ftbquests.chapter.lightland.quest7219954786305645870.description2": "\u0026aOne possible approach: use a Maid Altar to summon lightning.",
+
+  "ftbquests.chapter.lightland.quest7585261348161043251.description1": "Feels like stripping the Wither's clothes off?",
+  "ftbquests.chapter.lightland.quest7585261348161043251.description2": "\u0026aOne possible approach: build a special structure so shulkers kill the Wither. See MC Wiki comments under Guardian Forcefield.",
+  "ftbquests.chapter.lightland.quest7585261348161043251.description3": "\u0026aAnother possible approach: maid holding a gohei uses danmaku attacks to kill the Wither.",
+
+  "ftbquests.chapter.lightland.quest8170419184537925247.description1": "Material trait: heals the user when durability is consumed.",
+  "ftbquests.chapter.lightland.quest8234454628537059613.description1": "Hit a Phantom with a Flame Orb to obtain.",
+  "ftbquests.chapter.lightland.quest8234454628537059613.description2": "\u0026aOne possible approach: just kill directly.",
+
+  "ftbquests.chapter.lightland.quest826068822908041166.description1": "Spectators: Why is this guy flying at y=319 with a flock of phantoms?",
+  "ftbquests.chapter.lightland.quest826068822908041166.description2": "\u0026aOne possible approach: hover with a broom at y=520.",
+
+  "ftbquests.chapter.lightland.quest8431622679049022398.description1": "A relatively simple way to obtain, so much that it feels out of place compared to other materials (",
+  "ftbquests.chapter.lightland.quest8431622679049022398.description2": "\u0026aOne possible approach: use a mob cage to get a Drowned spawn egg, then convert it into a spawner.",
+
+  "ftbquests.chapter.lightland.quest8528018425667529248.description1": "Material trait: gains buffs when in water or rain.",
+
+  "ftbquests.chapter.lightland.quest8695354741451000849.description1": "As the name suggests, toss the raw material into fire or lava for a small chance to convert.",
+  "ftbquests.chapter.lightland.quest8695354741451000849.description2": "Maybe you'll need automated production of the raw materials?",
+  "ftbquests.chapter.lightland.quest8695354741451000849.task.2760756770829974373.title": "Burning Conversion",
+  "ftbquests.chapter.lightland.quest8695354741451000849.title": "Burning Conversion",
+
+  "ftbquests.chapter.lightland.title": "\u00265Forgemaster of Divine Arms",
+
+  "ftbquests.chapter.maid.quest1592298054179438117.description1": "Shrine lanterns can store P points, or consume them to give nearby maids status effects.",
+  "ftbquests.chapter.maid.quest1592298054179438117.description2": "When broken, shrine lanterns keep their stored P points, so they can be used as storage devices.",
+
+  "ftbquests.chapter.maid.quest1962203806653347672.description1": "Written by Hieda no Akyuu, recording all aspects of maids.",
+  "ftbquests.chapter.maid.quest1962203806653347672.subtitle": "Chapter author: PL",
+  "ftbquests.chapter.maid.quest1962203806653347672.task.6703054137091833451.title": "Open the Memory",
+  "ftbquests.chapter.maid.quest1962203806653347672.title": "\u00266Memorizable Gensokyo",
+
+  "ftbquests.chapter.maid.quest2450307362839456454.description1": "You actually finished all the tasks in this chapter. Clearly, you really love maids.",
+  "ftbquests.chapter.maid.quest2450307362839456454.task.4482537329724698753.title": "? You really finished it",
+  "ftbquests.chapter.maid.quest2450307362839456454.title": "\u0026eHidden: You actually finished it",
+
+  "ftbquests.chapter.maid.quest2848778971943927034.description1": "Waaah, you bad master!",
+  "ftbquests.chapter.maid.quest2848778971943927034.description2": "When a maid dies, she drops film. You can use the altar ritual to revive her.",
+  "ftbquests.chapter.maid.quest2848778971943927034.description3": "If you obtained a shrine from loot chests, you can also place the film inside to revive the maid.",
+  "ftbquests.chapter.maid.quest2848778971943927034.task.8207693093581350537.title": "Film",
+  "ftbquests.chapter.maid.quest2848778971943927034.title": "Film",
+
+  "ftbquests.chapter.maid.quest3713963200363913641.description1": "The Kappa's Compass defines a maid's work area. After setting coordinates, right-click the maid; in HOME mode she will move between them.",
+  "ftbquests.chapter.maid.quest3713963200363913641.title": "Kappa's Compass",
+
+  "ftbquests.chapter.maid.quest3988298579093733658.description1": "Gap allows maids to store items directly into chests, saving you from manually retrieving them.",
+
+  "ftbquests.chapter.maid.quest4440505255512619050.description1": "Item Magnet expands the pickup range of maids.",
+
+  "ftbquests.chapter.maid.quest4934724759620208702.description1": "Stone Fox statues guard sacred grounds, preventing fairy maids from respawning within range.",
+  "ftbquests.chapter.maid.quest4934724759620208702.title": "Stone Fox Statue",
+
+  "ftbquests.chapter.maid.quest5424381253940125450.description1": "The Gohei is a shrine maiden's symbol. It can activate the altar for rituals or fire danmaku.",
+  "ftbquests.chapter.maid.quest5424381253940125450.title": "Gohei",
+
+  "ftbquests.chapter.maid.quest582781028978197135.description1": "Aya's camera can capture maids into photos, storing them when you lack soul spells.",
+  "ftbquests.chapter.maid.quest582781028978197135.description2": "Its main use is as a sculpting reference. Hold a photo in offhand, right-click clay blocks (1x1x1, 1x1x2, 2x2x4, 3x3x6) with a carving knife to turn them into statues. Breaking them reverts them to clay.",
+  "ftbquests.chapter.maid.quest582781028978197135.description3": "If you place a 1x1x1 statue above fire, after some time it becomes a figurine, preserving its shape.",
+  "ftbquests.chapter.maid.quest582781028978197135.title": "I Want to Be a Figurine Master!",
+
+  "ftbquests.chapter.maid.quest6155235167347314565.description1": "This modpack adds a recipe for empty soul spells, making it easy to store summoned maids.",
+  "ftbquests.chapter.maid.quest6155235167347314565.title": "Empty Soul Spell",
+
+  "ftbquests.chapter.maid.quest6270742326861119657.description1": "Soul spells can release or recall maids.",
+  "ftbquests.chapter.maid.quest6270742326861119657.title": "Soul Spell",
+
+  "ftbquests.chapter.maid.quest6432841969450049234.description1": "Maids can also manage storages, which is very effective for large messy storage.",
+  "ftbquests.chapter.maid.quest6432841969450049234.title": "Maid Storage Manager",
+
+  "ftbquests.chapter.maid.quest6695997544142204133.description1": "These accessories are all combat-related, giving maids different effects.",
+  "ftbquests.chapter.maid.quest6695997544142204133.title": "Fight! Fight!",
+
+  "ftbquests.chapter.maid.quest6812518779048408090.description1": "As the name suggests, expands maid inventory space and provides special functions.",
+
+  "ftbquests.chapter.maid.quest6898680113206514928.description1": "Loves the master the most!",
+  "ftbquests.chapter.maid.quest6898680113206514928.description2": "\u0026bTo reach 100 HP, you need max affection + lightning strike. Maid affection increases through sleeping or playing.",
+  "ftbquests.chapter.maid.quest6898680113206514928.task.165500345496550671.title": "\u00266Challenge: 100 HP",
+
+  "ftbquests.chapter.maid.quest6946912059645498646.description1": "These items are all used to find or recall maids.",
+  "ftbquests.chapter.maid.quest6946912059645498646.description2": "You crafted them all—clearly you had plenty of free time.",
+  "ftbquests.chapter.maid.quest6946912059645498646.title": "Finding Maids",
+
+  "ftbquests.chapter.maid.quest7201864275379890516.description1": "P points can be used to fire danmaku, perform rituals, repair gear with Mending, or stored in shrine lanterns to buff maids. They can be found in structure chests.",
+  "ftbquests.chapter.maid.quest7201864275379890516.description2": "Note: players have a cap on P points. Store extras in shrine lanterns.",
+  "ftbquests.chapter.maid.quest7201864275379890516.title": "PPT",
+
+  "ftbquests.chapter.maid.quest7566652187126847135.description1": "The crafting table for the maid mod is the altar. See “Memorizable Gensokyo” for placement details.",
+  "ftbquests.chapter.maid.quest7566652187126847135.description2": "Place offerings on the altar pillars. If the recipe is correct and you have enough P points, the craft will succeed.",
+  "ftbquests.chapter.maid.quest7566652187126847135.task.1365339627166792393.title": "Build the Altar",
+  "ftbquests.chapter.maid.quest7566652187126847135.title": "Altar",
+
+  "ftbquests.chapter.maid.quest880794717882560587.description1": "Maids can sleep in maid beds to increase affection.",
+
+  "ftbquests.chapter.maid.quest8869498075023384356.description1": "The Spell Amplification Core lets maids sync their master's magic attributes.",
+  "ftbquests.chapter.maid.quest8869498075023384356.description2": "Since late-game damage is mostly magic, this accessory becomes very powerful.",
+  "ftbquests.chapter.maid.quest8869498075023384356.title": "Avada Kedavra!",
+
+  "ftbquests.chapter.maid.quest9068831899736456674.description1": "Using the altar can summon lightning. If a maid is struck, her max HP increases by 20.",
+  "ftbquests.chapter.maid.quest9068831899736456674.description2": "[INFO] Lightning summoned by the altar can kill an Elder Guardian, dropping the Guardian's Eye.",
+  "ftbquests.chapter.maid.quest9068831899736456674.title": "Lightning!",
+
+  "ftbquests.chapter.maid.title": "\u0026eOtherworldly Maids",
+
+  "ftbquests.chapter.majo.quest2834693592681426277.description1": "\u0026bGrants Swiftness III and Speed II.",
+  "ftbquests.chapter.majo.quest2834693592681426277.title": "\u00265Majo's Boots",
+  "ftbquests.chapter.majo.quest325688207754089119.description1": "\u0026o\u00263Rumor has it, if you master a special magic, you can turn objects into human form…\u0026r",
+  "ftbquests.chapter.majo.quest325688207754089119.description2": "Press \u0026a[R]\u0026r to summon or dismiss the broom. \u0026a[Space]\u0026r ascends, \u0026a[Left Ctrl]\u0026r descends.",
+  "ftbquests.chapter.majo.quest325688207754089119.description3": "Press \u0026a[Y]\u0026r could toggle settings, like spectator and speed.",
+  "ftbquests.chapter.majo.quest325688207754089119.description4": "\u0026bCompared to other flying tools, the broom is clunky for short trips but excellent for long-distance travel.",
+  "ftbquests.chapter.majo.quest325688207754089119.title": "Majo's Broom",
+  "ftbquests.chapter.majo.quest4407902697146887462.description1": "\u0026bIf you have spare Eternal Ingots, try your luck drawing Eternal enchanted books.",
+  "ftbquests.chapter.majo.quest4407902697146887462.description2": "\u0026bIf you don't trust your luck, better craft them directly.",
+  "ftbquests.chapter.majo.quest4407902697146887462.title": "\u0026eEnchanted Book: Eternal",
+  "ftbquests.chapter.majo.quest5576608329771584707.description1": "\u0026bGrants Water Breathing IV and Regeneration IV.",
+  "ftbquests.chapter.majo.quest5576608329771584707.title": "\u00265Majo's Hat",
+  "ftbquests.chapter.majo.quest7359001976231713073.description1": "\u0026bGrants Resistance IV and Fire Resistance.",
+  "ftbquests.chapter.majo.quest7359001976231713073.title": "\u00265Majo's Cloth",
+  "ftbquests.chapter.majo.quest801085304173276998.description1": "\u0026bGrants Haste II and Strength III.",
+  "ftbquests.chapter.majo.quest801085304173276998.title": "\u00265Majo's Stockings",
+  "ftbquests.chapter.majo.title": "\u00265Gray-Haired Majo",
+
+  "ftbquests.chapter.sakura.quest1918655051553177629.subtitle": "Chapter author: PL",
+  "ftbquests.chapter.sakura.quest1918655051553177629.task.55108432124056994.title": "Begin the Journey",
+  "ftbquests.chapter.sakura.quest1918655051553177629.title": "\u00266Sakura \\\u0026 TrailTales Delight \\\u0026 Immortalers Delight",
+  
+  "ftbquests.chapter.sakura.quest3012181294915022651.description1": "Has a chance to appear in Ancient City loot chests.",
+  "ftbquests.chapter.sakura.quest3012181294915022651.description2": "Friday (gold day in Japan) sign-in also has a chance to give it.",
+
+  "ftbquests.chapter.sakura.quest3313156727693581935.description1": "Probably the best kitchen knife you can get.",
+  "ftbquests.chapter.sakura.quest3313156727693581935.title": "Eggshell Knife",
+
+  "ftbquests.chapter.sakura.quest4670309031548709206.description1": "A better brush!",
+  "ftbquests.chapter.sakura.quest4670309031548709206.title": "Sniffer Fur Brush",
+
+  "ftbquests.chapter.sakura.quest5864994101504078406.description1": "Sniffers periodically dig up ancient seeds from mossy mud and other blocks. Different biomes yield different seeds.",
+  "ftbquests.chapter.sakura.quest5864994101504078406.description2": "Evolutcorn Grains: Plains, plant on farmland.",
+  "ftbquests.chapter.sakura.quest5864994101504078406.description3": "Pearlip: Jungle, plant on dirt.",
+  "ftbquests.chapter.sakura.quest5864994101504078406.description4": "Himekaido: Forest, plant on farmland. Normally a shrub, but bone meal makes it a tree.",
+  "ftbquests.chapter.sakura.quest5864994101504078406.description5": "Leisamboo: River, plant on dirt one block below water surface.",
+  "ftbquests.chapter.sakura.quest5864994101504078406.description6": "Kwat Wheat: Crimson Forest, plant on farmland, soul soil, or soul sand.",
+  "ftbquests.chapter.sakura.quest5864994101504078406.description7": "Warped Laurel: Warped Forest, plant on farmland.",
+  "ftbquests.chapter.sakura.quest5864994101504078406.description8": "Alfalfa, Torchflower, Pitcher Plant: All biomes, plant on farmland.",
+  "ftbquests.chapter.sakura.quest5864994101504078406.title": "Ancient Seeds",
+
+  "ftbquests.chapter.sakura.quest6309130633612470407.description1": "The Enchantal Cooler extracts the essence of ingredients. It requires lapis as an energy source.",
+  "ftbquests.chapter.sakura.quest6309130633612470407.title": "Enchantal Cooler",
+
+  "ftbquests.chapter.sakura.quest6392126443969084588.description1": "A cooking pot specialized for Japanese cuisine.",
+  "ftbquests.chapter.sakura.quest6392126443969084588.description2": "The pot needs a heat source below (campfire, Farmer's Delight stove, etc.) to function. Use fluid bottles (or buckets) to input fluids.",
+  "ftbquests.chapter.sakura.quest6392126443969084588.description3": "You can also automate with Create to input items and fluids.",
+  "ftbquests.chapter.sakura.quest6392126443969084588.title": "Japanese Cooking Pot",
+
+  "ftbquests.chapter.sakura.quest7133101675927784289.description1": "The Brewing Barrel is mainly used for soy sauce, vinegar, sake, and other common Japanese ingredients.",
+  "ftbquests.chapter.sakura.quest7133101675927784289.description2": "You can input fluids with bottles/buckets or automate with Create.",
+  "ftbquests.chapter.sakura.quest7133101675927784289.title": "Brewing Barrel",
+
+  "ftbquests.chapter.sakura.quest7489980457865936749.description1": "Similar to the Brewing Barrel, the Distilling Barrel increases alcohol concentration. Requires a heat source below.",
+  "ftbquests.chapter.sakura.quest7489980457865936749.title": "Distilling Barrel",
+
+  "ftbquests.chapter.sakura.quest7673550262978790007.description1": "For a long time, it was considered the nemesis of automation.",
+  "ftbquests.chapter.sakura.quest7673550262978790007.description2": "Compared to large grindstones, the Stone Mill is easier to control for fine grinding, making it suitable for food processing.",
+  "ftbquests.chapter.sakura.quest7673550262978790007.title": "Mortar",
+
+  "ftbquests.chapter.sakura.quest822621304777443164.description1": "Ostrich egg…?",
+  "ftbquests.chapter.sakura.quest822621304777443164.description2": "Sniffer eggs can be placed on moss blocks to hatch into Sniffers.",
+  "ftbquests.chapter.sakura.quest822621304777443164.description3": "Adult Sniffers periodically sniff out ancient seeds from mossy mud and related blocks. Different biomes yield different ancient seeds.",
+  "ftbquests.chapter.sakura.quest822621304777443164.description4": "Feed a Sniffer durians to make it sniff immediately. Feed it Torchflower Seeds to breed more Sniffers.",
+  "ftbquests.chapter.sakura.quest822621304777443164.title": "Sniffer",
+
+  "ftbquests.chapter.sakura.title": "\u0026aVenerator of antiquity",
+
+  "ftbquests.chapter.storage.quest1192363796913686035.description1": "Similar to Ender Drawers in Functional Storage: This Ender Drawers for the same player and item share one storage space, but Ender Pouches can also pull items straight from your inventory.",
+  "ftbquests.chapter.storage.quest1192363796913686035.description2": "If you've placed an Ender Drawer for a given item in the world, it will help move matching items from your inventory back to your base.",
+  "ftbquests.chapter.storage.quest1192363796913686035.description3": "Downside: it only stores 64 stacks and isn't suited for true bulk storage.",
+  "ftbquests.chapter.storage.quest1192363796913686035.description4": "Craft the Ender Drawer in a crafting grid to clear its bound item.",
+
+  "ftbquests.chapter.storage.quest1359782133220419351.description1": "It's just a “normal” backpack—the start of nesting dolls…",
+  "ftbquests.chapter.storage.quest1359782133220419351.description2": "\u0026aOpen:\u0026r Right‑click to open the backpack in any GUI, or right‑click from the hotbar; you can also equip it in the trinket slot and open it.",
+  "ftbquests.chapter.storage.quest1359782133220419351.description3": "\u0026aClose:\u0026r ESC goes back one layer; SHIFT + ESC closes all stacked GUIs.",
+  "ftbquests.chapter.storage.quest1359782133220419351.description4": "\u0026aStore:\u0026r Open the backpack GUI and insert items; click the backpack with an item inside the GUI; or hold the backpack and sneak‑left‑click a container to scoop its contents.",
+  "ftbquests.chapter.storage.quest1359782133220419351.description5": "\u0026aExtract:\u0026r Similar to storing, but sneak‑right‑click to deposit into a container.",
+  "ftbquests.chapter.storage.quest1359782133220419351.task.2630315912846202179.title": "Backpack",
+  "ftbquests.chapter.storage.quest1359782133220419351.title": "“Normal Backpack”",
+
+  "ftbquests.chapter.storage.quest1376433190469768193.description1": "Bags for special items, akin to the vanilla shulker‑like sacks.",
+  "ftbquests.chapter.storage.quest1376433190469768193.description2": "Controls and logic are the same as the backpack.",
+  "ftbquests.chapter.storage.quest1376433190469768193.title": "Bag",
+
+  "ftbquests.chapter.storage.quest1632234935913171738.description1": "Chests are good for lots of messy items and non‑stackables, but they cause more lag.",
+
+  "ftbquests.chapter.storage.quest2391315614506680509.description1": "Use Capacity Upgrades at the Smithing Table to expand backpacks and Crystal Box storage.",
+  "ftbquests.chapter.storage.quest2391315614506680509.title": "Capacity Upgrade",
+
+  "ftbquests.chapter.storage.quest249114456431522596.description1": "Ender Drawers share one storage space per item. Compared to opaque Void Chests, they're better for item transport.",
+
+  "ftbquests.chapter.storage.quest2515514119026550902.description1": "Drawers excel at holding huge amounts of a single item. They're also great for filtering, sorting, and transporting items.",
+  "ftbquests.chapter.storage.quest2515514119026550902.title": "Functional storage",
+
+  "ftbquests.chapter.storage.quest3495909160971472049.description1": "A Storage Controller links drawers within range. Input to the controller gets auto‑distributed, enabling transport and sorting setups.",
+
+  "ftbquests.chapter.storage.quest57147457788833127.description1": "All l2backpacks containers can be configured with the Config Tool:",
+  "ftbquests.chapter.storage.quest57147457788833127.description2": "\u0026aCategorize:\u0026r “All categorize” pulls all newly obtained items into the container; “Stack categorize” only fills existing stacks, leaving empty slots free.",
+  "ftbquests.chapter.storage.quest57147457788833127.description3": "Categorization supports recursion: if a trinket‑slot backpack contains a Crystal Box for cobblestone, and both are set to Stack Categorize, any new cobblestone goes straight into the box. Use this to build a wearable warehouse.",
+  "ftbquests.chapter.storage.quest57147457788833127.description4": "\u0026aDestroy:\u0026r Fine‑tune behavior while categorizing. Overflow Destroy deletes new items when the container is full—best for boxes; Filter Destroy deletes items already present in the backpack—best for decor/special‑item pouches. “Destroy all” is rarely used.",
+  "ftbquests.chapter.storage.quest57147457788833127.title": "Categorize \\\u0026 destroy",
+
+  "ftbquests.chapter.storage.quest6126077398120286257.description1": "For the same player, Dimensional Backpacks of the same color share a single space. If yours is lost, just craft another.",
+  "ftbquests.chapter.storage.quest6126077398120286257.description2": "A Dimensional Backpack binds to the first player who opens it. You can share the backpack so others can use your space.",
+  "ftbquests.chapter.storage.quest6126077398120286257.description3": "You can also put backpacks inside a Dimensional Backpack.",
+  "ftbquests.chapter.storage.quest6126077398120286257.title": "Dimensional Backpack",
+
+  "ftbquests.chapter.storage.quest6598230013459523962.description1": "Crystal Drawers store massive amounts of one item without NBT.",
+  "ftbquests.chapter.storage.quest6598230013459523962.description2": "Tier 1 holds 64 stacks. Capacity Upgrades add 64 stacks per upgrade.",
+  "ftbquests.chapter.storage.quest6598230013459523962.description3": "Crystal Drawers support the same interaction logic as backpacks.",
+
+  "ftbquests.chapter.storage.quest6690727180952870528.description1": "Barrels are great as storage attached to moving contraptions.",
+  "ftbquests.chapter.storage.quest6690727180952870528.description2": "For truly large volumes, use Functional storage.",
+
+  "ftbquests.chapter.storage.quest6979187122773815040.description1": "As the name implies, the Ender Backpack accesses your Ender Chest; it also behaves like a backpack and can pull items normally.",
+  "ftbquests.chapter.storage.quest6979187122773815040.description2": "You can nest a Space Backpack inside the Ender Backpack. An ideal warehouse is Ender Backpack → Space Backpack → Backpack → Box, storing up to 1 billion items and auto‑categorizing 31,104 item types.",
+  "ftbquests.chapter.storage.quest6979187122773815040.title": "Ender Backpack",
+
+  "ftbquests.chapter.storage.quest8423994949641712694.description1": "The Switch Belt goes inside a Space Backpack for quick gear swaps. With an item in main hand, hold Left SHIFT to preview and press N to switch.",
+
+  "ftbquests.chapter.storage.quest8670395444733624205.description1": "Compacting Drawers auto‑combine items. Super useful for ores and raw resources.",
+
+  "ftbquests.chapter.storage.quest9184025514151277304.description1": "\u0026bThis entire chapter covers storage‑related mods.",
+  "ftbquests.chapter.storage.quest9184025514151277304.subtitle": "Chapter author: PL",
+  "ftbquests.chapter.storage.quest9184025514151277304.task.5240311113495803049.title": "Storage mods",
+  "ftbquests.chapter.storage.quest9184025514151277304.title": "\u00266Storage mods",
+
+  "ftbquests.chapter.storage.title": "\u0026aMaster of Heaven Storage",
+
+  "ftbquests.chapter.stuff.quest1217160096305147220.description1": "As you taste different foods, your maximum health will increase alongside your culinary journey.",
+  "ftbquests.chapter.stuff.quest1217160096305147220.description2": "Forgot what you've eaten? You need the Food List. You can even aim to eat everything as a final goal.",
+  "ftbquests.chapter.stuff.quest1217160096305147220.title": "A apple a day keeps the doctor away",
+
+  "ftbquests.chapter.stuff.quest1502644273295593644.description1": "Store time, then \u0026a[SHIFT]+right-click\u0026r a block to release it. You can stack this multiple times, but the time cost rises accordingly.",
+
+  "ftbquests.chapter.stuff.quest1650833918185130260.description1": "With empty hands, \u0026a[SHIFT] + right-click\u0026r to carry blocks and mobs.",
+  "ftbquests.chapter.stuff.quest1650833918185130260.description2": "If a block requires \u0026a[SHIFT] right-click\u0026r to interact, stand a bit farther away.",
+  "ftbquests.chapter.stuff.quest1650833918185130260.title": "Carry-On",
+
+  "ftbquests.chapter.stuff.quest1841627816972971738.description1": "The Enchanting Table is disabled, but you can still get enchantments via other ways.",
+  "ftbquests.chapter.stuff.quest1841627816972971738.description2": "Then duplicate them using Industrial Enchanting's printer.",
+  "ftbquests.chapter.stuff.quest1841627816972971738.title": "You, can not enchanting!",
+
+  "ftbquests.chapter.stuff.quest2248842970085963579.description1": "@polaristrading",
+  "ftbquests.chapter.stuff.quest2248842970085963579.description2": "\u0026aRight-click\u0026r a Market block with the Market Tool to claim it and open its GUI.\n\nBottom-left sets traded items and amounts; top-left is items you receive; right side is the warehouse for incoming stock.",
+  "ftbquests.chapter.stuff.quest2248842970085963579.description3": "\u0026aRight-click\u0026r the Market block with the item in hand to trade. You can trade even inside claimed chunks.",
+  "ftbquests.chapter.stuff.quest2248842970085963579.description4": "For automated I/O, use Create's Table Cloth and a Blaze Burner as the shopkeeper; this also works inside claimed chunks.",
+  "ftbquests.chapter.stuff.quest2248842970085963579.title": "Market \\\u0026 Trading",
+
+  "ftbquests.chapter.stuff.quest4041839843251703038.description1": "Put a direct image or video URL into a frame or projector to place memes/play videos in-game.",
+  "ftbquests.chapter.stuff.quest4041839843251703038.description2": "[INFO] bilibili is supported now, but not in Curseforge version modpack. Youtube is not supported yet.",
+  "ftbquests.chapter.stuff.quest4041839843251703038.title": "Waterframe",
+
+  "ftbquests.chapter.stuff.quest420143370383540181.description1": "@quark",
+  "ftbquests.chapter.stuff.quest420143370383540181.description2": "Another eclectic, but useful mod.",
+  "ftbquests.chapter.stuff.quest420143370383540181.description3": "Ancient Tomes let you exceed normal enchantment caps.",
+  "ftbquests.chapter.stuff.quest420143370383540181.description4": "Press \u0026a[J]\u0026r to swap your hotbar with your backpack.",
+  "ftbquests.chapter.stuff.quest420143370383540181.description5": "Hover an item in your inventory and press \u0026a[Shift]+[T]\u0026r to share it in chat.",
+  "ftbquests.chapter.stuff.quest420143370383540181.title": "Quark",
+
+  "ftbquests.chapter.stuff.quest4523610778375149997.description1": "\u0026aJust Enough Items (JEI)\u0026r is the most famous Minecraft item manager, common in modpacks. Use it to view recipes and usages.",
+  "ftbquests.chapter.stuff.quest4523610778375149997.description10": "You can search beneath the inventory. Methods:",
+  "ftbquests.chapter.stuff.quest4523610778375149997.description11": "\u0026aDirect search\u0026r “Apple” shows all items with that word in their name.",
+  "ftbquests.chapter.stuff.quest4523610778375149997.description12": "",
+  "ftbquests.chapter.stuff.quest4523610778375149997.description13": "Prefix \u0026a@\u0026r to filter by mod. E.g., “@create frog” searches items from Create containing 'frog'.",
+  "ftbquests.chapter.stuff.quest4523610778375149997.description14": "Use \u0026a-\u0026r to exclude keywords, e.g., “apple -golden” hides Golden Apples.",
+  "ftbquests.chapter.stuff.quest4523610778375149997.description15": "For keywords containing spaces, wrap in quotes \u0026a\"\"\u0026r.",
+  "ftbquests.chapter.stuff.quest4523610778375149997.description16": "Advanced search (rarely needed):",
+  "ftbquests.chapter.stuff.quest4523610778375149997.description17": "Search by tooltip only: prefix \u0026a#\u0026r.",
+  "ftbquests.chapter.stuff.quest4523610778375149997.description18": "Search by tag: prefix \u0026a$\u0026r.",
+  "ftbquests.chapter.stuff.quest4523610778375149997.description19": "Search by creative tab: prefix \u0026a%%\u0026r.",
+  "ftbquests.chapter.stuff.quest4523610778375149997.description2": "Open your inventory; the item browser on the right is JEI.",
+  "ftbquests.chapter.stuff.quest4523610778375149997.description20": "Multi‑search: separate keywords with \u0026a|\u0026r, e.g., “wrench|hammer”.",
+  "ftbquests.chapter.stuff.quest4523610778375149997.description3": "How to use:",
+  "ftbquests.chapter.stuff.quest4523610778375149997.description4": "Use the top‑right controls to change pages.",
+  "ftbquests.chapter.stuff.quest4523610778375149997.description5": "Hover an item and press \u0026a[A]\u0026r to favorite it; it appears on the left side. Press \u0026a[A]\u0026r again to unfavorite.",
+  "ftbquests.chapter.stuff.quest4523610778375149997.description6": "Press \u0026a[R]\u0026r or left‑click inside JEI to see recipes.",
+  "ftbquests.chapter.stuff.quest4523610778375149997.description7": "Press \u0026a[U]\u0026r or right‑click inside JEI to see usages.",
+  "ftbquests.chapter.stuff.quest4523610778375149997.description8": "Items shown in Recipes/Usages can be further searched in the same way.",
+  "ftbquests.chapter.stuff.quest4523610778375149997.description9": "If you're in a compatible GUI, press \u0026a[+]\u0026r on a recipe to quick‑fill materials; hold \u0026aSHIFT+[+]\u0026r to fill as much as possible.",
+  "ftbquests.chapter.stuff.quest4523610778375149997.title": "JEI Item Manager (read the description!)",
+
+  "ftbquests.chapter.stuff.quest5387853890751163486.description1": "A substitute for the creative Milk Hat: auto‑restores hunger up to 18 while worn, and also functions as a Totem of Undying.",
+  "ftbquests.chapter.stuff.quest5387853890751163486.subtitle": "Kitty, u can have the cheese burger~",
+  "ftbquests.chapter.stuff.quest5387853890751163486.title": "Kitty Burger",
+
+  "ftbquests.chapter.stuff.quest5575048988528277607.description1": "The ConstructionWand places multiple blocks at once, lets you place or break blocks in mid‑air.",
+  "ftbquests.chapter.stuff.quest5575048988528277607.description2": "\u0026a[Left Ctrl]+Scroll\u0026r switches placement modes. \n\u0026a[Left Ctrl]+Left‑click\u0026r switches the core, \n\u0026a[Left Ctrl]+Right‑click\u0026r undo.",
+  "ftbquests.chapter.stuff.quest5575048988528277607.description3": "\u0026a[Left CTRL]+Left‑click\u0026r opens the config UI.",
+  "ftbquests.chapter.stuff.quest5575048988528277607.description4": "Aim at your last modified block and \u0026a[Left CTRL]+Right‑click\u0026r to undo the last place/break.",
+  "ftbquests.chapter.stuff.quest5575048988528277607.description5": "[INFO] In KOTS 5.4.0, the wand supports placing blocks from your backpack.",
+  "ftbquests.chapter.stuff.quest5575048988528277607.task.7161601614981324485.title": "Construction Wand",
+  "ftbquests.chapter.stuff.quest5575048988528277607.title": "Construction Wand",
+
+  "ftbquests.chapter.stuff.quest5745558525891558936.description1": "\u0026a[SHIFT]+right-click\u0026r to open the camera UI; insert film, then right-click to take a photo.",
+  "ftbquests.chapter.stuff.quest5745558525891558936.description2": "Film needs rinsing with a water bottle or potion, then developing in a darkroom. This flow can be automated with Create.",
+  "ftbquests.chapter.stuff.quest5745558525891558936.title": "Photography",
+
+  "ftbquests.chapter.stuff.quest5881686626851724597.description1": "Play Uno in Minecraft!",
+  "ftbquests.chapter.stuff.quest5881686626851724597.description10": "- +4 can only be played if you have no other playable cards.",
+  "ftbquests.chapter.stuff.quest5881686626851724597.description2": "Controls:",
+  "ftbquests.chapter.stuff.quest5881686626851724597.description3": "- Use the mouse wheel to select a card;",
+  "ftbquests.chapter.stuff.quest5881686626851724597.description4": "- Right-click the table to play; or right-click the deck to draw;",
+  "ftbquests.chapter.stuff.quest5881686626851724597.description5": "- When you have two cards left, hold Left Ctrl while playing to shout \"Mino\" as you play; if you forget, type \"mino\" in chat after playing.",
+  "ftbquests.chapter.stuff.quest5881686626851724597.description6": "- If your opponent forgets to shout \"Mino\", call them out… with a punch.",
+  "ftbquests.chapter.stuff.quest5881686626851724597.description7": "Rules:",
+  "ftbquests.chapter.stuff.quest5881686626851724597.description8": "- +2 and +4 stack;",
+  "ftbquests.chapter.stuff.quest5881686626851724597.description9": "- You can snipe the turn by playing the exact same card.",
+  "ftbquests.chapter.stuff.quest5881686626851724597.title": "Mino++",
+
+  "ftbquests.chapter.stuff.quest7041082676781857080.description1": "Burn discs with the recorder or computer and play them in a Music Player.",
+  "ftbquests.chapter.stuff.quest7041082676781857080.description2": "Music Player are fun because they interact with the world.",
+
+  "ftbquests.chapter.stuff.quest730619484876150414.description1": "Use it to light up your town.",
+  "ftbquests.chapter.stuff.quest730619484876150414.title": "Lighting Wand",
+
+  "ftbquests.chapter.stuff.quest7946882653284881569.description1": "@supplementaries",
+  "ftbquests.chapter.stuff.quest7946882653284881569.description2": "A pile of quirky yet useful gadgets.",
+  "ftbquests.chapter.stuff.quest7946882653284881569.description3": "Faucet: Who's calling me?",
+  "ftbquests.chapter.stuff.quest7946882653284881569.title": "Supplementaries",
+
+  "ftbquests.chapter.stuff.quest8586823690170926041.description1": "@cosmosportals",
+  "ftbquests.chapter.stuff.quest8586823690170926041.description2": "Uncover the cosmos underground. Craft a Dimension Recorder to log dimensions and positions, then build portals for fast travel.",
+  "ftbquests.chapter.stuff.quest8586823690170926041.title": "Cosmic Portals",
+
+  "ftbquests.chapter.stuff.quest919036372939472082.description1": "Camps generate underground; chests there may be replaced by Mimics. Defeat them to get lots of useful Artifacts.",
+  "ftbquests.chapter.stuff.quest919036372939472082.description2": "\u0026e[WARN]\u0026b When claiming sign-in rewards, there's a 50%% chance a Mimic spawns at your feet.",
+  "ftbquests.chapter.stuff.quest919036372939472082.task.1949519303823633276.title": "Artifacts",
+  "ftbquests.chapter.stuff.quest919036372939472082.title": "Artifacts \\\u0026 Mimics",
+  "ftbquests.chapter.stuff.title": "\u0026bPractical Mods Overview",
+
+  "ftbquests.chapter.tofu.quest1140852642794067963.description1": "Fill a salt pan with water and sun it until half-dry, then bottle the remaining brine inside to obtain bittern. Bittern is used to curdle tofu.",
+  "ftbquests.chapter.tofu.quest1140852642794067963.title": "Obtaining bittern",
+
+  "ftbquests.chapter.tofu.quest1245489177524879106.description1": "fufu, fufufu!",
+  "ftbquests.chapter.tofu.quest1245489177524879106.description2": "Douse lava with a bucket of bittern water. Bone-meal naturally generated Tofu Ore to ripen, and harvest scallions.",
+  "ftbquests.chapter.tofu.quest1245489177524879106.title": "Scallion",
+
+  "ftbquests.chapter.tofu.quest1934828794892539077.description1": "\u0026bSalt and bittern also have Create recipes. If fluid-based recipes won't craft other things (e.g., potions, Building Tea), try adding a filter with bottles of the corresponding fluid.",
+  "ftbquests.chapter.tofu.quest1934828794892539077.task.8246886170648640290.title": "About bittern",
+
+  "ftbquests.chapter.tofu.quest2147123512222388925.description1": "Why are you picking so many edamame? Trying to become Junda-Meng?",
+  "ftbquests.chapter.tofu.quest2147123512222388925.description2": "\u0026aOne possible approach: calculate the maximum time for soy to reach stage 6 or 7, then use a Mechanical Arm to force-harvest on that cycle.",
+
+  "ftbquests.chapter.tofu.quest2147123512222388925.title": "\u00266Challenge: Nanoda~",
+
+  "ftbquests.chapter.tofu.quest2205797671608460814.description1": "Actually harder than netherite. Diamond Tofu tools are great mid-to-late game stopgaps.",
+  "ftbquests.chapter.tofu.quest2205797671608460814.description2": "Mine in the Tofu World or defeat the Tofu Warlord.",
+  "ftbquests.chapter.tofu.quest2205797671608460814.title": "Diamond?",
+  
+  "ftbquests.chapter.tofu.quest2926873424338797439.description1": "Pour out soy milk, add bittern, and it will set into Silken Tofu Blocks. Break them to get silken tofu.",
+  "ftbquests.chapter.tofu.quest2926873424338797439.description2": "Silken tofu can be crafted into tofu blocks; break those to get regular tofu.",
+  "ftbquests.chapter.tofu.quest2926873424338797439.title": "Tofu",
+
+  "ftbquests.chapter.tofu.quest3054643157530237696.description1": "The Salt Furnace consumes fuel to produce salt and bittern—faster than sun-drying.",
+  "ftbquests.chapter.tofu.quest3054643157530237696.title": "Salt Furnace",
+
+  "ftbquests.chapter.tofu.quest3210814306986988619.description1": "Put miso and tofu together in a wooden barrel, weigh it down with stones, and after some time you'll get Miso Tofu. A distinct flavor.",
+  "ftbquests.chapter.tofu.quest3210814306986988619.title": "Miso Tofu",
+
+  "ftbquests.chapter.tofu.quest3282309942085690669.description1": "Occasionally two kinds of soy grow on soul sand in the Nether, used for different tofu variants.",
+  "ftbquests.chapter.tofu.quest3282309942085690669.title": "Whispers of the Nether",
+
+  "ftbquests.chapter.tofu.quest3411996495771287439.description1": "As a high-oil crop, soy can be pressed for oil.",
+  "ftbquests.chapter.tofu.quest3411996495771287439.description2": "\u0026bSoybean oil is a premium fuel—pump it as fluid into a Blaze Burner to supercharge it.",
+  "ftbquests.chapter.tofu.quest3411996495771287439.title": "Soybean oil",
+
+  "ftbquests.chapter.tofu.quest3671840516043606286.description1": "Edamame Gems are hard currency on the Tofu Planet. Trade them with Tofu Chefs and Merchants for rare tofu types.",
+  "ftbquests.chapter.tofu.quest3671840516043606286.title": "Curious gem",
+
+  "ftbquests.chapter.tofu.quest3843514677911959206.description1": "Place tofu blocks at Y≥50 with light level <10 (freezing conditions). After a while, they turn into Frozen Tofu Blocks. A northeastern classic.",
+  "ftbquests.chapter.tofu.quest4212698113434167330.description1": "Char the surface of silken tofu to make Grilled Tofu—richer layers of texture.",
+  "ftbquests.chapter.tofu.quest4212698113434167330.title": "Karaage Tofu",
+
+  "ftbquests.chapter.tofu.quest4702676399912684874.description1": "Harvest soy at 71%% (5/7) or 86%% (6/7) growth to get edamame. Edamame crafts a range of foods.",
+  "ftbquests.chapter.tofu.quest4702676399912684874.title": "Edamame",
+
+  "ftbquests.chapter.tofu.quest4724749611316141305.description1": "To set these two soy milks, you need two strange fluids: Crimson Fluid and Warped Fluid.",
+  "ftbquests.chapter.tofu.quest4724749611316141305.description2": "Note: Crimson Fluid sets Soul Soy Milk; Warped Fluid sets the other—vice versa.",
+  "ftbquests.chapter.tofu.quest4724749611316141305.title": "Strange bitterns",
+
+  "ftbquests.chapter.tofu.quest5160670153763016749.description1": "A world of tofu and soy milk—everywhere. Are there any other creatures?",
+  "ftbquests.chapter.tofu.quest5160670153763016749.task.5464714942351577066.title": "Visit the Tofu Planet",
+
+  "ftbquests.chapter.tofu.quest5515847079347731375.description1": "Bottling soy milk makes it much easier to drink.",
+  "ftbquests.chapter.tofu.quest5515847079347731375.title": "Bottling",
+
+  "ftbquests.chapter.tofu.quest5652661731184071730.description1": "Put soy in a barrel with water and grind to obtain soy milk.",
+  "ftbquests.chapter.tofu.quest5652661731184071730.title": "Soy milk? Soy drink?",
+
+  "ftbquests.chapter.tofu.quest5896610567158719322.description1": "Clamp tofu between cobblestone, stone (or bedrock), etc. After a while, it becomes Stone Tofu Blocks, used for weapons, armor, and tools.",
+  "ftbquests.chapter.tofu.quest5896610567158719322.title": "Rock-hard tofu",
+
+  "ftbquests.chapter.tofu.quest6146800289680726847.description1": "Hold Echo Shards in your off‑hand and a Tofu Horn in your main hand, then blow at a Tofu Spider to turn it into a Stinky Tofu Spider. Defeat it to obtain Sculk Tofu Bones, which can be used to forge higher‑performance gear.",
+
+  "ftbquests.chapter.tofu.quest6894309881407749792.description1": "Has the gaudy charm of a nouveau riche.",
+  "ftbquests.chapter.tofu.quest6894309881407749792.description2": "\u0026aOne possible approach: caged Diamond Warlord or mining machine.",
+  "ftbquests.chapter.tofu.quest6894309881407749792.title": "\u00266Challenge: Nouveau Riche",
+
+  "ftbquests.chapter.tofu.quest8092879914479147996.description1": "Apricot trees grow in the wild. Eating apricots sometimes yields almonds. Almonds can be planted to grow new trees or used as ingredients.",
+  "ftbquests.chapter.tofu.quest8092879914479147996.title": "Almond",
+
+  "ftbquests.chapter.tofu.quest8427414151654022848.description1": "Keep pressing Stone Tofu Blocks to turn them into Steel Tofu Blocks. Steel tofu isn't edible, but it's a solid early‑game transitional gear material.",
+  "ftbquests.chapter.tofu.quest8427414151654022848.title": "Hardened Tofu",
+
+  "ftbquests.chapter.tofu.quest8551667403655005343.description1": "One of the key industrial products.",
+  "ftbquests.chapter.tofu.quest8551667403655005343.description2": "\u0026aOne possible approach: cage spiders to get string → wool → filter mesh, while soy comes from automated farms.",
+  "ftbquests.chapter.tofu.quest8551667403655005343.title": "\u00266Challenge: Biofuel",
+
+  "ftbquests.chapter.tofu.quest8738371510695737218.description1": "Add various ingredients to soy milk to make flavored soy drinks. Drinking them grants positive effects.",
+  "ftbquests.chapter.tofu.quest8738371510695737218.description2": "You can also try mass‑producing all of these as fluids.",
+  "ftbquests.chapter.tofu.quest8738371510695737218.task.936246009546649031.title": "Many flavors",
+  "ftbquests.chapter.tofu.quest8738371510695737218.title": "Many flavors",
+
+  "ftbquests.chapter.tofu.quest9011187611179399781.description1": "Craft Grilled Tofu into blocks and build a frame like a Nether portal. Use the Tofu Wand to activate it and open the gateway to the Tofu Planet.",
+  "ftbquests.chapter.tofu.quest9011187611179399781.description2": "The Tofu Wand can be found in shipwrecks or ocean ruins.",
+  "ftbquests.chapter.tofu.quest9011187611179399781.title": "Tofu Portal",
+
+  "ftbquests.chapter.tofu.quest904862463311796343.description1": "Trade with tofu villagers to obtain it. No idea why it shows up in the Tofu World.",
+  "ftbquests.chapter.tofu.quest904862463311796343.title": "Shin",
+
+  "ftbquests.chapter.tofu.quest963342085054669617.description1": "A mysterious crop that sometimes appears when breaking grass—seems drinkable once pulped.",
+  "ftbquests.chapter.tofu.quest963342085054669617.description2": "\u0026bThis chapter involves lots of fluid conversions, so it's best to complete Create basics first.",
+  "ftbquests.chapter.tofu.quest963342085054669617.description3": "\u0026bThis chapter doesn't cover the tofu‑energy part of tofu tech—please explore that yourself.",
+  "ftbquests.chapter.tofu.quest963342085054669617.subtitle": "Chapter author: PL",
+  "ftbquests.chapter.tofu.quest963342085054669617.title": "\u00266Tofu Craft",
+
+  "ftbquests.chapter.tofu.title": "\u0026aSoymilk Star Visitor",
+
+  "ftbquests.chapter.youkai.quest1032815196985073275.description1": "\u0026bThis chapter is tough for beginners; recommended to finish “Facing the Soil” and “Gourmet Beginner” first.",
+  "ftbquests.chapter.youkai.quest1032815196985073275.description2": "\u0026bThe mod has changed a lot recently, so quests are for reference only.",
+  "ftbquests.chapter.youkai.quest1032815196985073275.subtitle": "Chapter author: PL",
+  "ftbquests.chapter.youkai.quest1032815196985073275.task.4744214736690619061.title": "\u00266Begin the Gensokyo journey",
+  "ftbquests.chapter.youkai.quest1032815196985073275.title": "\u00266Yokai's homecoming",
+
+  "ftbquests.chapter.youkai.quest1213898240781286635.description1": "Might scream when pulled. Occasionally seen in Dark Forests—such a strange plant.",
+  "ftbquests.chapter.youkai.quest1213898240781286635.title": "Mandrake",
+
+  "ftbquests.chapter.youkai.quest1406660928774501491.description1": "A grown‑up's drink. Wild coffee generates in jungle biomes; harvest coffee cherries and slice them on a cutting board to get beans.",
+  "ftbquests.chapter.youkai.quest1406660928774501491.description2": "\u0026aYou can also bring a Sniffer into jungle biomes to find ancient coffee beans.",
+  "ftbquests.chapter.youkai.quest1406660928774501491.title": "Coffee Beans",
+
+  "ftbquests.chapter.youkai.quest1669821630806266502.description1": "Drink every kind of tea—you probably have your own refined understanding by now.",
+  "ftbquests.chapter.youkai.quest1669821630806266502.task.3129348913311220479.title": "Tea time",
+  "ftbquests.chapter.youkai.quest1669821630806266502.title": "It's past three—tea first!",
+
+  "ftbquests.chapter.youkai.quest1700288908258890129.description1": "Grind coffee into fine powder for a moka pot. Fill the bottom with spring water and heat; steam pressure pushes water up to extract the coffee.",
+  "ftbquests.chapter.youkai.quest1700288908258890129.title": "Brew Coffee",
+
+  "ftbquests.chapter.youkai.quest19557905993181.description1": "\u00268Red beans are another basic ingredient, found in birch or coniferous forests. They must be planted on poor soils like sandy clay.",
+  "ftbquests.chapter.youkai.quest19557905993181.description2": "\u0026aIn this pack you'll see another kind of red bean. Right‑click dirt with red beans to convert it into red‑bean soil, which periodically grows red bean sprouts. Left‑click to harvest.",
+  "ftbquests.chapter.youkai.quest19557905993181.title": "Red Beans",
+
+  "ftbquests.chapter.youkai.quest2099683309215325113.description1": "Turned into a yokai!",
+  "ftbquests.chapter.youkai.quest2099683309215325113.description2": "\u0026bIf semi‑yokai form lasts more than 5 minutes, it immediately ends and grants full yokai form for 20 minutes. Each monster‑meat dish eaten adds 4 minutes. Buffs: +30%% speed, +50%% attack damage, +20 max health. While active, monster‑meat dishes give triple hunger and saturation. You can also trade with Rumia.",
+  "ftbquests.chapter.youkai.quest2099683309215325113.description3": "\u0026bHunger drains much faster, even from actions that normally don't consume hunger (standing still, walking). If hunger runs out, the effect ends. To maintain it, eat nourishing foods or craft a Milk Hat.",
+  "ftbquests.chapter.youkai.quest2099683309215325113.task.8728992603728370235.title": "Yokai Form",
+  "ftbquests.chapter.youkai.quest2099683309215325113.title": "Yokai Form",
+
+  "ftbquests.chapter.youkai.quest2215360969395550833.description1": "Put tea leaves into a kettle, add water, and set it on the stove to brew.",
+  "ftbquests.chapter.youkai.quest2215360969395550833.title": "Brew Tea",
+
+  "ftbquests.chapter.youkai.quest2664041987317649865.description1": "In semi‑yokai or full yokai form, you can trade with Cirno to obtain this—an inexpensive way to fly.",
+  "ftbquests.chapter.youkai.quest2664041987317649865.title": "Transform, become baka!",
+
+  "ftbquests.chapter.youkai.quest2924956963322505407.description1": "Another grown‑up's drink, found in the Blooming Forest biome.",
+  "ftbquests.chapter.youkai.quest2924956963322505407.title": "Tea Leaves",
+
+  "ftbquests.chapter.youkai.quest3490693000984410510.description1": "Place a drying rack under sunlight to use nuclear energy to remove moisture from items.",
+  "ftbquests.chapter.youkai.quest3490693000984410510.description2": "A steamer, on the other hand, cooks food while retaining moisture. It must sit on a pot of water, can be stacked upward, and should be topped with a steamer lid.",
+  "ftbquests.chapter.youkai.quest3490693000984410510.title": "Changing Moisture",
+
+  "ftbquests.chapter.youkai.quest4426455675774686042.description1": "The shrine maiden is delighted and gives you her ribbon.",
+  "ftbquests.chapter.youkai.quest4426455675774686042.description2": "\u0026bActivates creative flight. Danmaku damage pierces magic defense.",
+  "ftbquests.chapter.youkai.quest4426455675774686042.description3": "\u0026aIf you lose the ribbon, you can claim another here.",
+  "ftbquests.chapter.youkai.quest4426455675774686042.task.3304320637022603110.title": "Offer to the Shrine Maiden",
+
+  "ftbquests.chapter.youkai.quest4724233267990818128.description1": "After drinking every type of coffee, you surely have your own favorite.",
+  "ftbquests.chapter.youkai.quest4724233267990818128.task.4148135521914680645.title": "Drink Coffee",
+  "ftbquests.chapter.youkai.quest4724233267990818128.title": "Bitterness and Sweetness",
+
+  "ftbquests.chapter.youkai.quest5059729968113749378.description1": "You drunkard—how can you drink so much!",
+  "ftbquests.chapter.youkai.quest5059729968113749378.task.894612647523803117.title": "Get Drunk",
+  "ftbquests.chapter.youkai.quest5059729968113749378.title": "Dead Drunk",
+
+  "ftbquests.chapter.youkai.quest511323672360309038.description1": "You've taken another step on the road to becoming a gourmet.",
+  "ftbquests.chapter.youkai.quest511323672360309038.task.4670256678636092616.title": "Eat All Foods",
+
+  "ftbquests.chapter.youkai.quest5232963444195164938.description1": "Whoa—after eating this mysterious meat you feel so strange!",
+  "ftbquests.chapter.youkai.quest5232963444195164938.description2": "\u0026bWhile under this effect, monster‑meat dishes give double hunger and saturation. Eating more monster‑meat dishes extends the effect by 1 minute each. If held in the Nether, a Koishi phone event may occur.",
+  "ftbquests.chapter.youkai.quest5232963444195164938.task.50421544479045599.title": "Beware of Reimu",
+  "ftbquests.chapter.youkai.quest5232963444195164938.title": "Beware of Reimu",
+
+  "ftbquests.chapter.youkai.quest5608582098837151482.description1": "Ugh, my head hurts!",
+  "ftbquests.chapter.youkai.quest5608582098837151482.description2": "\u0026bWhen worn, grants continuous semi‑yokai form. Killing zombies, skeletons, piglins, or wither skeletons always drops their heads.",
+  "ftbquests.chapter.youkai.quest5608582098837151482.description3": "\u0026aIf you lose the headband, you can claim another here.",
+  "ftbquests.chapter.youkai.quest5608582098837151482.task.3158585175682207658.title": "Defeat Rumia",
+  "ftbquests.chapter.youkai.quest5608582098837151482.title": "Lost Memory",
+
+  "ftbquests.chapter.youkai.quest5734716971097318542.description1": "\u00268Soybeans are the most basic material in Gensokyo, used to craft many items. Wild soybeans can be found in swamps; pick the pods and split them to get soybeans.\u0026r",
+  "ftbquests.chapter.youkai.quest5734716971097318542.description2": "\u0026aWith research into the mysterious soybeans of the Soymilk Star, people realized they are essentially the same as Gensokyo soybeans. They are easier to plant and yield more, gradually replacing the wild variety.",
+  "ftbquests.chapter.youkai.quest5734716971097318542.title": "Soybeans",
+
+  "ftbquests.chapter.youkai.quest59603185378178612.description1": "New versions add different cookware for preparing various foods. Soup pots require stirring with a ladle.",
+  "ftbquests.chapter.youkai.quest59603185378178612.title": "Cookware of Different Sizes",
+
+  "ftbquests.chapter.youkai.quest5980545261055772295.description1": "Place grapes inside and stomp them to obtain grape juice. Collect it with a glass bottle or large bottle.",
+  "ftbquests.chapter.youkai.quest5980545261055772295.title": "Witch Who Stomps Grapes",
+
+  "ftbquests.chapter.youkai.quest5982060593007669780.description1": "A shabby extendable mechanical hand. Its original purpose was stirring soup in the pot.",
+  "ftbquests.chapter.youkai.quest6089204296978749813.description1": "How did you defeat her? Did you use some underhanded trick!",
+  "ftbquests.chapter.youkai.quest6089204296978749813.description2": "\u0026bThis thing is so useless…",
+  "ftbquests.chapter.youkai.quest6089204296978749813.description3": "\u0026aIf you lose it, you can claim another here.",
+  "ftbquests.chapter.youkai.quest6089204296978749813.task.7233517978171455611.title": "Defeat Reimu",
+  "ftbquests.chapter.youkai.quest6089204296978749813.title": "Red Murderer",
+
+  "ftbquests.chapter.youkai.quest6441907671207927941.description1": "Koishi seems to like you this way and wants to play together. As thanks, she gives you her beloved Mr. Hat, which helps you avoid other yokai.",
+  "ftbquests.chapter.youkai.quest6441907671207927941.description2": "\u0026bProvides continuous Unconscious effect, and using red or blue danmaku consumes nothing.",
+  "ftbquests.chapter.youkai.quest6441907671207927941.description3": "\u0026aIf you lose Mr. Hat, you can claim another here.",
+  "ftbquests.chapter.youkai.quest6441907671207927941.task.3748580701746932601.title": "Play with Koishi",
+  "ftbquests.chapter.youkai.quest6441907671207927941.title": "Play with Koishi!",
+
+  "ftbquests.chapter.youkai.quest6978631131151976075.description1": "With the Illusion Moon Lamp, cultivating Udumbara becomes much easier.",
+  "ftbquests.chapter.youkai.quest6978631131151976075.title": "Eternal Moon",
+
+  "ftbquests.chapter.youkai.quest7416716034607205199.description1": "In the wild you often find yokai houses, inhabited by a Rumia. Inside you can find mysterious meat of unknown origin. Eating it seems to cause strange changes…",
+  "ftbquests.chapter.youkai.quest7416716034607205199.title": "Strange Meat…",
+
+  "ftbquests.chapter.youkai.quest7642455508185436720.description1": "After becoming a yokai, you can buy strange things from Rumia…",
+  "ftbquests.chapter.youkai.quest7642455508185436720.description2": "\u0026bIn mid‑game when guns or the four special hats are hard to make, danmaku is a good damage option. But its damage counts as magic, not projectile.",
+  "ftbquests.chapter.youkai.quest7642455508185436720.task.4110324698297689427.title": "Obtain Danmaku",
+  "ftbquests.chapter.youkai.quest7642455508185436720.title": "Obtain Danmaku",
+
+  "ftbquests.chapter.youkai.quest810727748604106939.description1": "Udumbara only grow in swamps, but seem to need artificial cultivation to have enough medicinal effect.",
+  "ftbquests.chapter.youkai.quest810727748604106939.title": "Udumbara Leaves",
+
+  "ftbquests.chapter.youkai.quest8226170461660030441.description1": "Though precious, Udumbara can be cultivated on a large scale.",
+  "ftbquests.chapter.youkai.quest8226170461660030441.description2": "\u0026aOne possible approach: after making an Illusion Moon Lamp, use maids or daylight sensors to harvest on a timer.",
+  "ftbquests.chapter.youkai.quest8226170461660030441.title": "\u00266Challenge: Cultivate Udumbara",
+
+  "ftbquests.chapter.youkai.quest8739240544468267862.description1": "Even a little frog can stand against wind and rain!",
+  "ftbquests.chapter.youkai.quest8739240544468267862.description2": "\u0026bProvides continuous blessing of the Native God; using cyan or yellow‑green danmaku consumes nothing.",
+  "ftbquests.chapter.youkai.quest8739240544468267862.description3": "\u0026aIf you lose the hat, you can claim another here.",
+  "ftbquests.chapter.youkai.quest8739240544468267862.task.7177998147041581442.title": "Faith Collection",
+  "ftbquests.chapter.youkai.quest8739240544468267862.title": "Faith Collection",
+
+  "ftbquests.chapter.youkai.quest8792570233115830744.description1": "Unlike the imitation Udumbara Flower used in the Night Sparrow Restaurant, this is a true Udumbara infused with moonlight.",
+  "ftbquests.chapter.youkai.quest8792570233115830744.description2": "Udumbara bloom only under a full moon. On non‑full moon nights they stop at the stage before maturity; at dawn they wither back to the lowest growth stage.",
+  "ftbquests.chapter.youkai.quest8792570233115830744.title": "True Udumbara",
+
+  "ftbquests.chapter.youkai.quest885131797027348863.description1": "Fermentation barrels can be used to brew soy sauce and alcohol.",
+  "ftbquests.chapter.youkai.quest885131797027348863.title": "Fermentation Barrel",
+
+  "ftbquests.chapter.youkai.title": "\u0026aYokais from Gensokyo",
+
+  "ftbquests.chapter_groups.3559704727660973970.title": "\u00265Challenges",
+  "ftbquests.chapter_groups.4290510142456768594.title": "\u0026eBasics",
+  "ftbquests.chapter_groups.7339693748993773301.title": "\u0026aAdvanced",
+  "ftbquests.loot_table.3487538688900904586.title": "Eternal"
+}

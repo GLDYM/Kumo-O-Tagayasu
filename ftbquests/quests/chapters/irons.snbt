@@ -1,0 +1,1110 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons"
+	group: "65DBD493CCEDCEF5"
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:gold_crown"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0D4186DB4D2C0B87"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["成为法术大师吧！"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:ice_staff"
+				tag: {
+					ISBUpgrades: [{
+						id: "irons_spellbooks:lightning_power"
+						slot: "mainhand"
+						upgrades: 10
+					}]
+				}
+			}
+			id: "2D8AD2C295B7BC56"
+			rewards: [{
+				id: "06BCAE8BD13AE617"
+				type: "xp"
+				xp: 3
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "本章作者：RubicA"
+			tasks: [{
+				id: "3B9E02977C70193A"
+				title: "铁魔法"
+				type: "checkmark"
+			}]
+			title: "&6这就是法术的世界吗"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D8AD2C295B7BC56"]
+			description: ["你很可能已经发现过很多法术卷轴。绝大多数卷轴可以直接右键来施法&4（这个过程会消耗掉这张卷轴！）&f，更好的方式是将它们写入一本法术书，这样你就可以任意施法了！"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:oakskin"
+							index: 0
+							level: 3
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "12CE02EB9F216ECC"
+			rewards: [{
+				id: "7B7DDEB0F5452E8C"
+				type: "xp"
+				xp: 3
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1663EAD77C179143"
+				title: "卷轴"
+				type: "checkmark"
+			}]
+			title: "卷轴"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2D8AD2C295B7BC56"]
+			description: ["每位优秀的巫师都应该有一本自己的法术书！它是你施法的媒介。&4（法术书要放进饰品栏的“法术书”栏位才可以生效）"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:copper_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 5
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "7196E45E12BD5966"
+			rewards: [{
+				id: "76BD701E31D42EB8"
+				type: "xp"
+				xp: 3
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5FA9DA4804F227AA"
+				title: "法术书"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["65CC45EBB57D9EDD"]
+			description: ["也许是你的第一本魔法书？"]
+			id: "7FA418686872FF19"
+			tasks: [{
+				id: "03B32DD4477071FF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 5
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65CC45EBB57D9EDD"]
+			description: ["比初学者法术书好一些！"]
+			id: "4A1E7A8BA0DE309D"
+			tasks: [{
+				id: "30B6836B41FA8341"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:iron_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 6
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65CC45EBB57D9EDD"]
+			description: ["拥有8个槽位与一定的buff"]
+			id: "3A00B7132AF9AA43"
+			tasks: [{
+				id: "19903B20D67E44BB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:gold_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65CC45EBB57D9EDD"]
+			description: ["10个槽位"]
+			id: "5C6D1E54C18D9718"
+			tasks: [{
+				id: "4DBE4A8CCE3BAF86"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:diamond_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7196E45E12BD5966"]
+			description: ["这些法术书制作非常简单，如果你实在急于使用法术，可以做出来暂用。&4（这四本书没有制作的先后关系哦）"]
+			id: "65CC45EBB57D9EDD"
+			tasks: [{
+				id: "09E4A5E1795FBC73"
+				title: "前期的选择"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7196E45E12BD5966"]
+			description: ["独特的法术书！"]
+			id: "39C2070939F19CD6"
+			tasks: [{
+				id: "2281EDC413DE6526"
+				title: "独特法术书"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["39C2070939F19CD6"]
+			description: ["击杀亡灵类怪物或从地牢宝箱中获得。"]
+			id: "7018717D4E9D8DE0"
+			tasks: [{
+				id: "390C818EF137737C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:rotten_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["39C2070939F19CD6"]
+			description: ["击杀烈焰人有概率获得。"]
+			id: "7A84025EFE6C14C8"
+			tasks: [{
+				id: "6B3BF766A783E8CD"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:blaze_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["39C2070939F19CD6"]
+			description: ["&f需要在召唤师塔中获得未翻译的研究日志，随后与召唤师塔院子中有概率生成的流浪商人交易得到已翻译的研究日志，并使用已翻译的研究日志与牧师交换获得村民圣经。"]
+			id: "0CDF0DFE144CF208"
+			tasks: [{
+				id: "26D6F5C9F330AE7F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:villager_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["39C2070939F19CD6"]
+			description: ["由破旧法术书合成而来。"]
+			id: "22C6B24400B7B631"
+			subtitle: " "
+			tasks: [{
+				id: "5DCC00BC4BFFAB25"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:druidic_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["39C2070939F19CD6"]
+			description: [
+				"由高位唤魔者或者普通唤魔者掉落，掉落概率是1.25%，受抢夺影响，需要玩家击杀才能获得。"
+				""
+				"在地下墓穴的劫掠兽房间中的战利品箱内也有极低概率刷出。"
+			]
+			id: "151ABDBDA3571D17"
+			tasks: [{
+				id: "74385B0F0B2B9DDE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:evoker_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:fang_strike"
+									index: 0
+									level: 6
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:fang_ward"
+									index: 1
+									level: 4
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:summon_vex"
+									index: 2
+									level: 4
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["39C2070939F19CD6"]
+			description: ["击杀死者之王后有 50% 概率掉落。"]
+			id: "419F499637503932"
+			tasks: [{
+				id: "762C7303AC863AC2"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:necronomicon_spell_book"
+					tag: {
+						ISBEnhance: "irons_spellbooks:raise_dead"
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:blood_slash"
+									index: 0
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blood_step"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 2
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blaze_storm"
+									index: 3
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4EB746F3EBE38224"]
+			description: ["在古城战利品箱中获得。"]
+			id: "39AA9ECE37675256"
+			tasks: [{
+				id: "0F8B3C23C9F4478D"
+				item: "irons_spellbooks:ruined_book"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["39AA9ECE37675256"]
+			description: ["毕业法术书，拥有12个槽位与冷却缩减效果。"]
+			id: "01A1BC060A0E5943"
+			tasks: [{
+				id: "3509CFEDD0157609"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:netherite_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["39AA9ECE37675256"]
+			description: ["拥有12个槽位"]
+			id: "13265541D3694F26"
+			tasks: [{
+				id: "7520208AE4D993C1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:dragonskin_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7196E45E12BD5966"]
+			description: ["当你找到远古城市时..."]
+			id: "4EB746F3EBE38224"
+			tasks: [{
+				id: "5605186F3CE4159C"
+				title: "古老的智慧"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["12CE02EB9F216ECC"]
+			description: ["在卷轴撰写台上制作你的卷轴。从左到右依次放入墨水、纸以及对应类型的媒介。"]
+			id: "4A182A18C1276104"
+			tasks: [{
+				id: "7FB19ED0D24F8D78"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			title: "人造卷轴"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A182A18C1276104"]
+			description: ["墨水决定了制作出法术的品质，法术的品质越高，效果越强，尽力获得传说墨水吧！"]
+			id: "7DBD8323958E0FA7"
+			tasks: [{
+				id: "6A42C1224BAEC42A"
+				item: "irons_spellbooks:common_ink"
+				type: "item"
+			}]
+			title: "墨水"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7DBD8323958E0FA7"]
+			id: "552017E66367F202"
+			rewards: [{
+				count: 3
+				id: "6173A52937F3CB3F"
+				item: "irons_spellbooks:legendary_ink"
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				id: "2CAC86BF193DDB0A"
+				item: { Count: 10, id: "irons_spellbooks:legendary_ink" }
+				type: "item"
+			}]
+			title: "传说墨水！"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4A182A18C1276104"]
+			description: ["使用不同的媒介可以制作不同派系的法术。"]
+			hide_dependent_lines: true
+			id: "68621D90D8D1BFE4"
+			tasks: [{
+				id: "670D8AD9096B18B2"
+				title: "媒介"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68621D90D8D1BFE4"]
+			description: ["自然法术"]
+			id: "1BF2C936A7D5FB3E"
+			rewards: [{
+				count: 8
+				id: "3065C169E60A8C46"
+				item: "minecraft:poisonous_potato"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F3B1D88A41DCD26"
+				item: "minecraft:poisonous_potato"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["68621D90D8D1BFE4"]
+			description: ["火焰法术"]
+			id: "15A107660676CCE9"
+			rewards: [{
+				count: 8
+				id: "4DD323DE567D35F8"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			tasks: [{
+				id: "712473A541B189D4"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["68621D90D8D1BFE4"]
+			description: ["寒冰法术"]
+			id: "6DD9A5CE192A43EE"
+			rewards: [{
+				count: 8
+				id: "574B755B6C83876E"
+				item: "irons_spellbooks:frozen_bone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25F45E7035FB2DD4"
+				item: "irons_spellbooks:frozen_bone"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["68621D90D8D1BFE4"]
+			description: [
+				"雷电法术"
+				""
+				"闪电苦力怕可以通过女仆模组的祭坛生成，也可以使用落雷法术。"
+			]
+			id: "4467498CEB84DCAC"
+			rewards: [{
+				count: 8
+				id: "1070E1C8838A094F"
+				item: "irons_spellbooks:lightning_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3293DB0343078CD2"
+				item: "irons_spellbooks:lightning_bottle"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["68621D90D8D1BFE4"]
+			description: ["神圣法术"]
+			id: "7A5F81A362092844"
+			rewards: [{
+				count: 8
+				id: "50E93E16D950D95E"
+				item: "irons_spellbooks:divine_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B42F06B8393A2FF"
+				item: "irons_spellbooks:divine_pearl"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["68621D90D8D1BFE4"]
+			description: ["末影法术"]
+			id: "710DB788C231666B"
+			rewards: [{
+				count: 8
+				id: "7A3E572A4ABC1320"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30EA58FAB9E5904F"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["68621D90D8D1BFE4"]
+			description: ["鲜血法术"]
+			id: "2AA009E37D6F719A"
+			rewards: [{
+				count: 8
+				id: "500A3F3775FD5D6A"
+				item: "irons_spellbooks:blood_vial"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C15D38DE72D7327"
+				item: "irons_spellbooks:blood_vial"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["68621D90D8D1BFE4"]
+			description: ["唤魔者法术"]
+			id: "7E3A5C9A5C6D1798"
+			rewards: [{
+				count: 8
+				id: "48DEFF940868D77D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27D72E6452960760"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7196E45E12BD5966"
+				"12CE02EB9F216ECC"
+			]
+			description: [
+				"将想要写入的卷轴放入即可"
+				""
+				"你也不想用掉传说品质的卷轴吧....?"
+			]
+			id: "10ACB81B61203592"
+			tasks: [{
+				id: "41298E89C9495DAE"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			title: "写入法术"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2D8AD2C295B7BC56"]
+			description: [
+				"铁魔法提供了多种强力或是有趣的装备与饰品。"
+				""
+				"&7&n其实这里是有图标的"
+			]
+			hide_until_deps_complete: true
+			icon: "irons_spellbooks:invisibility_ring"
+			id: "207A5281077D33FA"
+			rewards: [{
+				id: "4CD0C6080F116205"
+				type: "xp"
+				xp: 3
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "713B851932557282"
+				title: "装备与饰品"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["207A5281077D33FA"]
+			description: ["冒险中随处可见，不是吗？"]
+			id: "326A5AFAC46AD0DD"
+			tasks: [{
+				id: "2B1845E26B73CB5E"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["326A5AFAC46AD0DD"]
+			description: ["制作盔甲的基础素材。"]
+			id: "073E0167CBBB303B"
+			tasks: [{
+				id: "17EC2A8C825A6044"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["073E0167CBBB303B"]
+			description: ["万金油套装"]
+			id: "42071A0396EC87B1"
+			tasks: [
+				{
+					id: "49D64FBDCD2CBB64"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05A20B8FE85C172D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17726D0B1D8058EE"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DDD027A68D6CDE5"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "战斗法师套装"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3AF744C7CBA0E12C"]
+			description: ["每件装备最多可以强化三次（服务器十次），可以制作的升级法球种类详见jei&e（按U查看空白升级法球用途）"]
+			id: "2A385A7B05BF4CC7"
+			tasks: [{
+				id: "62988A988028B0CA"
+				item: "irons_spellbooks:upgrade_orb"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["326A5AFAC46AD0DD"]
+			description: ["可以对装备进行升级操作，将装备与升级法球结合；或是给装备注入法术"]
+			id: "3AF744C7CBA0E12C"
+			tasks: [{
+				id: "3458F39163667120"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A385A7B05BF4CC7"]
+			description: ["又快又快"]
+			id: "019A2FFFBB30A794"
+			tasks: [{
+				id: "4CA0E885FBDEA7B0"
+				item: "irons_spellbooks:cooldown_upgrade_orb"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3AF744C7CBA0E12C"]
+			description: ["只有物品介绍中有&e“可注入法术（0/1）”&f字样的装备才可以注入法术。（若将法术卷轴敲在武器上，会变为武器的右键技能；注入衣服相当于增加了一个法术携带槽位。）"]
+			id: "04C76712E7F764B3"
+			tasks: [{
+				id: "0A3467C34BCD9CFC"
+				title: "注入法术"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["04C76712E7F764B3"]
+			description: ["忏悔石可以将武器上的法术消除，也可以与使用过升级球的装备结合去除升级。"]
+			id: "2FC8B9077774C8BD"
+			tasks: [{
+				id: "130F9BAC0D6F8AAC"
+				item: "irons_spellbooks:shriving_stone"
+				type: "item"
+			}]
+			title: "对方撤回了一个法术"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["207A5281077D33FA"]
+			description: [
+				"使用法杖可以更好地施法！当你持有法杖时，右键即可释放选中的法术。"
+				"&4（法杖会提供一定量的正面buff）"
+			]
+			id: "4C9447A7A4986592"
+			tasks: [{
+				id: "2C80A9C1AD1C7A9B"
+				item: "irons_spellbooks:graybeard_staff"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4C9447A7A4986592"]
+			description: ["比较综合的过渡魔杖。"]
+			id: "640365359E108156"
+			tasks: [{
+				id: "51F2E7E1EA577A4C"
+				item: "irons_spellbooks:artificer_cane"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4C9447A7A4986592"]
+			description: ["雷公助我！"]
+			id: "5645CEF5EA702B9B"
+			rewards: [{
+				id: "5359DAAA98101544"
+				item: "minecraft:lightning_rod"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3580EE750598AF32"
+				item: "irons_spellbooks:lightning_rod"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4C9447A7A4986592"]
+			description: ["击败死者之王有 50% 概率获得。"]
+			id: "50BF4BFD465E2D22"
+			tasks: [{
+				id: "5C4043887BDC836E"
+				item: "irons_spellbooks:blood_staff"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4C9447A7A4986592"]
+			description: ["大概是综合属性最优秀的魔杖。"]
+			id: "3E003F4BD63182F4"
+			tasks: [{
+				id: "1A19A2F21E6B0345"
+				item: "irons_spellbooks:ice_staff"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4C9447A7A4986592"]
+			description: ["任意门！"]
+			id: "405DB820DFD68073"
+			tasks: [{
+				id: "77C9AFA0841DE187"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:hither_thither_wand"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:portal"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["326A5AFAC46AD0DD"]
+			description: ["只是个装饰品"]
+			id: "42E9A82559E40421"
+			tasks: [{
+				id: "64AF622ABE7263F2"
+				item: "irons_spellbooks:firefly_jar"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A182A18C1276104"]
+			description: ["1.20版本的铁魔法删除了两张相同的卷轴在铁砧上合成为更高一级卷轴的功能。所以满级法术只能通过使用传奇墨水在法术撰写台上制作获取。&b（欧皇也能摸到的说）"]
+			id: "577F7825C29BFD78"
+			tasks: [{
+				id: "60328E664904FBA2"
+				title: "关于法术等级"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DBD8323958E0FA7"]
+			description: ["墨水还可以通过在炼金锅中回收卷轴获得。回收卷轴有50%的概率获得相同品质的墨水。"]
+			id: "729C4B23E0BE147E"
+			tasks: [{
+				id: "37A2211B8112305B"
+				title: "原汤化原食"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["207A5281077D33FA"]
+			description: ["与流浪商人交易获得。理论上可以带8个复效之戒，替换掉24个冷却法球。"]
+			hide_dependency_lines: true
+			id: "55920FDF96465686"
+			tasks: [{
+				id: "656EF046C375D71F"
+				item: "irons_spellbooks:cooldown_ring"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["207A5281077D33FA"]
+			description: ["战利品箱中有概率开出，或与流浪商人交易获得。"]
+			hide_dependency_lines: true
+			id: "4E9AFE7056CDA7B4"
+			tasks: [{
+				id: "07F562AD53E3270D"
+				item: "irons_spellbooks:emerald_stoneplate_ring"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["207A5281077D33FA"]
+			description: ["与流浪商人交易获得。"]
+			hide_dependency_lines: true
+			id: "6C964C63C33879A2"
+			tasks: [{
+				id: "14E21853048B96DA"
+				item: "irons_spellbooks:poisonward_ring"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["207A5281077D33FA"]
+			description: ["炼金锅的使用较为复杂，详细的使用方法请移步MC百科或Wiki，在此不再赘述。"]
+			hide_dependency_lines: false
+			id: "3897291F3DB557E4"
+			tasks: [{
+				id: "5669A4CFA51A059B"
+				item: "irons_spellbooks:alchemist_cauldron"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			description: ["装备隐身之戒可以看到带有隐形BUFF的生物的轮廓。"]
+			id: "4367C371690FE9A3"
+			invisible: true
+			tasks: [{
+				id: "01CC0275F1C6BDA2"
+				item: "irons_spellbooks:invisibility_ring"
+				type: "item"
+			}]
+			title: "诶，有透是不是"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["13265541D3694F26"]
+			description: ["你已经参透了魔法的奥秘，让我们庆祝新王的诞生！"]
+			id: "5C9EE3F5BBE4BF4C"
+			rewards: [{
+				id: "1CCDB9BC2E636E36"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "41609FB6397B3BF5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:gold_crown"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+	]
+	title: "&a铁锈魔法师"
+}

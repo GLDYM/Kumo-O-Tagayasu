@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "autumnity:large_pumpkin_slice"
+    },
+    {
+      "item": "autumnity:large_pumpkin_slice"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:pumpkin"
+  }
+}

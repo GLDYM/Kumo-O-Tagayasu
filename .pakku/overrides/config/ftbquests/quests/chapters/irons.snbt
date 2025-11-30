@@ -15,7 +15,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["成为法术大师吧！"]
+			description: ["{ftbquests.chapter.irons.quest3281667011670162518.description1}"]
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:ice_staff"
@@ -35,19 +35,19 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "本章作者：RubicA"
+			subtitle: "{ftbquests.chapter.irons.quest3281667011670162518.subtitle}"
 			tasks: [{
 				id: "3B9E02977C70193A"
-				title: "铁魔法"
+				title: "{ftbquests.chapter.irons.quest3281667011670162518.task.4295873944209070394.title}"
 				type: "checkmark"
 			}]
-			title: "&6这就是法术的世界吗"
+			title: "{ftbquests.chapter.irons.quest3281667011670162518.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2D8AD2C295B7BC56"]
-			description: ["你很可能已经发现过很多法术卷轴。绝大多数卷轴可以直接右键来施法&4（这个过程会消耗掉这张卷轴！）&f，更好的方式是将它们写入一本法术书，这样你就可以任意施法了！"]
+			description: ["{ftbquests.chapter.irons.quest1355023748895436492.description1}"]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -76,16 +76,16 @@
 			size: 1.5d
 			tasks: [{
 				id: "1663EAD77C179143"
-				title: "卷轴"
+				title: "{ftbquests.chapter.irons.quest1355023748895436492.task.1613391302749557059.title}"
 				type: "checkmark"
 			}]
-			title: "卷轴"
+			title: "{ftbquests.chapter.irons.quest1355023748895436492.title}"
 			x: -3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2D8AD2C295B7BC56"]
-			description: ["每位优秀的巫师都应该有一本自己的法术书！它是你施法的媒介。&4（法术书要放进饰品栏的“法术书”栏位才可以生效）"]
+			description: ["{ftbquests.chapter.irons.quest8184980465484912998.description1}"]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -109,7 +109,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "5FA9DA4804F227AA"
-				title: "法术书"
+				title: "{ftbquests.chapter.irons.quest8184980465484912998.task.6893280707522733994.title}"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -117,7 +117,7 @@
 		}
 		{
 			dependencies: ["65CC45EBB57D9EDD"]
-			description: ["也许是你的第一本魔法书？"]
+			description: ["{ftbquests.chapter.irons.quest9197503175705427737.description1}"]
 			id: "7FA418686872FF19"
 			tasks: [{
 				id: "03B32DD4477071FF"
@@ -140,7 +140,7 @@
 		}
 		{
 			dependencies: ["65CC45EBB57D9EDD"]
-			description: ["比初学者法术书好一些！"]
+			description: ["{ftbquests.chapter.irons.quest5340840948225945757.description1}"]
 			id: "4A1E7A8BA0DE309D"
 			tasks: [{
 				id: "30B6836B41FA8341"
@@ -163,7 +163,7 @@
 		}
 		{
 			dependencies: ["65CC45EBB57D9EDD"]
-			description: ["拥有8个槽位与一定的buff"]
+			description: ["{ftbquests.chapter.irons.quest4179541747153087043.description1}"]
 			id: "3A00B7132AF9AA43"
 			tasks: [{
 				id: "19903B20D67E44BB"
@@ -186,7 +186,7 @@
 		}
 		{
 			dependencies: ["65CC45EBB57D9EDD"]
-			description: ["10个槽位"]
+			description: ["{ftbquests.chapter.irons.quest6660012773324199704.description1}"]
 			id: "5C6D1E54C18D9718"
 			tasks: [{
 				id: "4DBE4A8CCE3BAF86"
@@ -209,11 +209,11 @@
 		}
 		{
 			dependencies: ["7196E45E12BD5966"]
-			description: ["这些法术书制作非常简单，如果你实在急于使用法术，可以做出来暂用。&4（这四本书没有制作的先后关系哦）"]
+			description: ["{ftbquests.chapter.irons.quest7335314771744235229.description1}"]
 			id: "65CC45EBB57D9EDD"
 			tasks: [{
 				id: "09E4A5E1795FBC73"
-				title: "前期的选择"
+				title: "{ftbquests.chapter.irons.quest7335314771744235229.task.712877028853922931.title}"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -221,11 +221,11 @@
 		}
 		{
 			dependencies: ["7196E45E12BD5966"]
-			description: ["独特的法术书！"]
+			description: ["{ftbquests.chapter.irons.quest4161896741851995350.description1}"]
 			id: "39C2070939F19CD6"
 			tasks: [{
 				id: "2281EDC413DE6526"
-				title: "独特法术书"
+				title: "{ftbquests.chapter.irons.quest4161896741851995350.task.2486529895687939366.title}"
 				type: "checkmark"
 			}]
 			x: 6.0d
@@ -233,7 +233,7 @@
 		}
 		{
 			dependencies: ["39C2070939F19CD6"]
-			description: ["击杀亡灵类怪物或从地牢宝箱中获得。"]
+			description: ["{ftbquests.chapter.irons.quest8077330714692783584.description1}"]
 			id: "7018717D4E9D8DE0"
 			tasks: [{
 				id: "390C818EF137737C"
@@ -256,7 +256,7 @@
 		}
 		{
 			dependencies: ["39C2070939F19CD6"]
-			description: ["击杀烈焰人有概率获得。"]
+			description: ["{ftbquests.chapter.irons.quest8828183776571692232.description1}"]
 			id: "7A84025EFE6C14C8"
 			tasks: [{
 				id: "6B3BF766A783E8CD"
@@ -279,7 +279,7 @@
 		}
 		{
 			dependencies: ["39C2070939F19CD6"]
-			description: ["&f需要在召唤师塔中获得未翻译的研究日志，随后与召唤师塔院子中有概率生成的流浪商人交易得到已翻译的研究日志，并使用已翻译的研究日志与牧师交换获得村民圣经。"]
+			description: ["{ftbquests.chapter.irons.quest927475433175052808.description1}"]
 			id: "0CDF0DFE144CF208"
 			tasks: [{
 				id: "26D6F5C9F330AE7F"
@@ -302,9 +302,9 @@
 		}
 		{
 			dependencies: ["39C2070939F19CD6"]
-			description: ["由破旧法术书合成而来。"]
+			description: ["{ftbquests.chapter.irons.quest2505886247817819697.description1}"]
 			id: "22C6B24400B7B631"
-			subtitle: " "
+			subtitle: "{ftbquests.chapter.irons.quest2505886247817819697.subtitle}"
 			tasks: [{
 				id: "5DCC00BC4BFFAB25"
 				item: {
@@ -327,9 +327,9 @@
 		{
 			dependencies: ["39C2070939F19CD6"]
 			description: [
-				"由高位唤魔者或者普通唤魔者掉落，掉落概率是1.25%，受抢夺影响，需要玩家击杀才能获得。"
+				"{ftbquests.chapter.irons.quest1520736446377827607.description1}"
 				""
-				"在地下墓穴的劫掠兽房间中的战利品箱内也有极低概率刷出。"
+				"{ftbquests.chapter.irons.quest1520736446377827607.description2}"
 			]
 			id: "151ABDBDA3571D17"
 			tasks: [{
@@ -372,7 +372,7 @@
 		}
 		{
 			dependencies: ["39C2070939F19CD6"]
-			description: ["击杀死者之王后有 50% 概率掉落。"]
+			description: ["{ftbquests.chapter.irons.quest4728579043284236594.description1}"]
 			id: "419F499637503932"
 			tasks: [{
 				id: "762C7303AC863AC2"
@@ -421,7 +421,7 @@
 		}
 		{
 			dependencies: ["4EB746F3EBE38224"]
-			description: ["在古城战利品箱中获得。"]
+			description: ["{ftbquests.chapter.irons.quest4155308214732673622.description1}"]
 			id: "39AA9ECE37675256"
 			tasks: [{
 				id: "0F8B3C23C9F4478D"
@@ -433,7 +433,7 @@
 		}
 		{
 			dependencies: ["39AA9ECE37675256"]
-			description: ["毕业法术书，拥有12个槽位与冷却缩减效果。"]
+			description: ["{ftbquests.chapter.irons.quest117581799412881731.description1}"]
 			id: "01A1BC060A0E5943"
 			tasks: [{
 				id: "3509CFEDD0157609"
@@ -456,7 +456,7 @@
 		}
 		{
 			dependencies: ["39AA9ECE37675256"]
-			description: ["拥有12个槽位"]
+			description: ["{ftbquests.chapter.irons.quest1379884077043765030.description1}"]
 			id: "13265541D3694F26"
 			tasks: [{
 				id: "7520208AE4D993C1"
@@ -479,11 +479,11 @@
 		}
 		{
 			dependencies: ["7196E45E12BD5966"]
-			description: ["当你找到远古城市时..."]
+			description: ["{ftbquests.chapter.irons.quest5672080269144982052.description1}"]
 			id: "4EB746F3EBE38224"
 			tasks: [{
 				id: "5605186F3CE4159C"
-				title: "古老的智慧"
+				title: "{ftbquests.chapter.irons.quest5672080269144982052.task.6198387328187372956.title}"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -491,27 +491,27 @@
 		}
 		{
 			dependencies: ["12CE02EB9F216ECC"]
-			description: ["在卷轴撰写台上制作你的卷轴。从左到右依次放入墨水、纸以及对应类型的媒介。"]
+			description: ["{ftbquests.chapter.irons.quest5339063644055888132.description1}"]
 			id: "4A182A18C1276104"
 			tasks: [{
 				id: "7FB19ED0D24F8D78"
 				item: "irons_spellbooks:scroll_forge"
 				type: "item"
 			}]
-			title: "人造卷轴"
+			title: "{ftbquests.chapter.irons.quest5339063644055888132.title}"
 			x: -3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4A182A18C1276104"]
-			description: ["墨水决定了制作出法术的品质，法术的品质越高，效果越强，尽力获得传说墨水吧！"]
+			description: ["{ftbquests.chapter.irons.quest9060542214195515303.description1}"]
 			id: "7DBD8323958E0FA7"
 			tasks: [{
 				id: "6A42C1224BAEC42A"
 				item: "irons_spellbooks:common_ink"
 				type: "item"
 			}]
-			title: "墨水"
+			title: "{ftbquests.chapter.irons.quest9060542214195515303.title}"
 			x: -4.5d
 			y: -1.5d
 		}
@@ -530,18 +530,18 @@
 				item: { Count: 10, id: "irons_spellbooks:legendary_ink" }
 				type: "item"
 			}]
-			title: "传说墨水！"
+			title: "{ftbquests.chapter.irons.quest6133928970756289026.title}"
 			x: -4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4A182A18C1276104"]
-			description: ["使用不同的媒介可以制作不同派系的法术。"]
+			description: ["{ftbquests.chapter.irons.quest7521606835612270564.description1}"]
 			hide_dependent_lines: true
 			id: "68621D90D8D1BFE4"
 			tasks: [{
 				id: "670D8AD9096B18B2"
-				title: "媒介"
+				title: "{ftbquests.chapter.irons.quest7521606835612270564.task.7425744025374365874.title}"
 				type: "checkmark"
 			}]
 			x: -4.5d
@@ -549,7 +549,7 @@
 		}
 		{
 			dependencies: ["68621D90D8D1BFE4"]
-			description: ["自然法术"]
+			description: ["{ftbquests.chapter.irons.quest2013893219969268542.description1}"]
 			id: "1BF2C936A7D5FB3E"
 			rewards: [{
 				count: 8
@@ -567,7 +567,7 @@
 		}
 		{
 			dependencies: ["68621D90D8D1BFE4"]
-			description: ["火焰法术"]
+			description: ["{ftbquests.chapter.irons.quest1558535080823409897.description1}"]
 			id: "15A107660676CCE9"
 			rewards: [{
 				count: 8
@@ -585,7 +585,7 @@
 		}
 		{
 			dependencies: ["68621D90D8D1BFE4"]
-			description: ["寒冰法术"]
+			description: ["{ftbquests.chapter.irons.quest7915540124684403694.description1}"]
 			id: "6DD9A5CE192A43EE"
 			rewards: [{
 				count: 8
@@ -604,9 +604,9 @@
 		{
 			dependencies: ["68621D90D8D1BFE4"]
 			description: [
-				"雷电法术"
+				"{ftbquests.chapter.irons.quest4928989186775899308.description1}"
 				""
-				"闪电苦力怕可以通过女仆模组的祭坛生成，也可以使用落雷法术。"
+				"{ftbquests.chapter.irons.quest4928989186775899308.description2}"
 			]
 			id: "4467498CEB84DCAC"
 			rewards: [{
@@ -625,7 +625,7 @@
 		}
 		{
 			dependencies: ["68621D90D8D1BFE4"]
-			description: ["神圣法术"]
+			description: ["{ftbquests.chapter.irons.quest8817909134139140164.description1}"]
 			id: "7A5F81A362092844"
 			rewards: [{
 				count: 8
@@ -643,7 +643,7 @@
 		}
 		{
 			dependencies: ["68621D90D8D1BFE4"]
-			description: ["末影法术"]
+			description: ["{ftbquests.chapter.irons.quest8146369098984547947.description1}"]
 			id: "710DB788C231666B"
 			rewards: [{
 				count: 8
@@ -661,7 +661,7 @@
 		}
 		{
 			dependencies: ["68621D90D8D1BFE4"]
-			description: ["鲜血法术"]
+			description: ["{ftbquests.chapter.irons.quest3071465818533360026.description1}"]
 			id: "2AA009E37D6F719A"
 			rewards: [{
 				count: 8
@@ -679,7 +679,7 @@
 		}
 		{
 			dependencies: ["68621D90D8D1BFE4"]
-			description: ["唤魔者法术"]
+			description: ["{ftbquests.chapter.irons.quest9095684215473510296.description1}"]
 			id: "7E3A5C9A5C6D1798"
 			rewards: [{
 				count: 8
@@ -701,9 +701,9 @@
 				"12CE02EB9F216ECC"
 			]
 			description: [
-				"将想要写入的卷轴放入即可"
+				"{ftbquests.chapter.irons.quest1201537628334208402.description1}"
 				""
-				"你也不想用掉传说品质的卷轴吧....?"
+				"{ftbquests.chapter.irons.quest1201537628334208402.description2}"
 			]
 			id: "10ACB81B61203592"
 			tasks: [{
@@ -711,16 +711,16 @@
 				item: "irons_spellbooks:inscription_table"
 				type: "item"
 			}]
-			title: "写入法术"
+			title: "{ftbquests.chapter.irons.quest1201537628334208402.title}"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2D8AD2C295B7BC56"]
 			description: [
-				"铁魔法提供了多种强力或是有趣的装备与饰品。"
+				"{ftbquests.chapter.irons.quest2340273670502298618.description1}"
 				""
-				"&7&n其实这里是有图标的"
+				"{ftbquests.chapter.irons.quest2340273670502298618.description2}"
 			]
 			hide_until_deps_complete: true
 			icon: "irons_spellbooks:invisibility_ring"
@@ -734,7 +734,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "713B851932557282"
-				title: "装备与饰品"
+				title: "{ftbquests.chapter.irons.quest2340273670502298618.task.8159261493176922754.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -742,7 +742,7 @@
 		}
 		{
 			dependencies: ["207A5281077D33FA"]
-			description: ["冒险中随处可见，不是吗？"]
+			description: ["{ftbquests.chapter.irons.quest3632816082511384797.description1}"]
 			id: "326A5AFAC46AD0DD"
 			tasks: [{
 				id: "2B1845E26B73CB5E"
@@ -754,7 +754,7 @@
 		}
 		{
 			dependencies: ["326A5AFAC46AD0DD"]
-			description: ["制作盔甲的基础素材。"]
+			description: ["{ftbquests.chapter.irons.quest521856152132857915.description1}"]
 			id: "073E0167CBBB303B"
 			tasks: [{
 				id: "17EC2A8C825A6044"
@@ -766,7 +766,7 @@
 		}
 		{
 			dependencies: ["073E0167CBBB303B"]
-			description: ["万金油套装"]
+			description: ["{ftbquests.chapter.irons.quest4757800134059526065.description1}"]
 			id: "42071A0396EC87B1"
 			tasks: [
 				{
@@ -820,13 +820,13 @@
 					type: "item"
 				}
 			]
-			title: "战斗法师套装"
+			title: "{ftbquests.chapter.irons.quest4757800134059526065.title}"
 			x: 3.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["3AF744C7CBA0E12C"]
-			description: ["每件装备最多可以强化三次（服务器十次），可以制作的升级法球种类详见jei&e（按U查看空白升级法球用途）"]
+			description: ["{ftbquests.chapter.irons.quest3042281032712670407.description1}"]
 			id: "2A385A7B05BF4CC7"
 			tasks: [{
 				id: "62988A988028B0CA"
@@ -838,7 +838,7 @@
 		}
 		{
 			dependencies: ["326A5AFAC46AD0DD"]
-			description: ["可以对装备进行升级操作，将装备与升级法球结合；或是给装备注入法术"]
+			description: ["{ftbquests.chapter.irons.quest4248940398352851244.description1}"]
 			id: "3AF744C7CBA0E12C"
 			tasks: [{
 				id: "3458F39163667120"
@@ -850,7 +850,7 @@
 		}
 		{
 			dependencies: ["2A385A7B05BF4CC7"]
-			description: ["又快又快"]
+			description: ["{ftbquests.chapter.irons.quest115457515855062932.description1}"]
 			id: "019A2FFFBB30A794"
 			tasks: [{
 				id: "4CA0E885FBDEA7B0"
@@ -862,11 +862,11 @@
 		}
 		{
 			dependencies: ["3AF744C7CBA0E12C"]
-			description: ["只有物品介绍中有&e“可注入法术（0/1）”&f字样的装备才可以注入法术。（若将法术卷轴敲在武器上，会变为武器的右键技能；注入衣服相当于增加了一个法术携带槽位。）"]
+			description: ["{ftbquests.chapter.irons.quest344357227415954611.description1}"]
 			id: "04C76712E7F764B3"
 			tasks: [{
 				id: "0A3467C34BCD9CFC"
-				title: "注入法术"
+				title: "{ftbquests.chapter.irons.quest344357227415954611.task.735326727656283388.title}"
 				type: "checkmark"
 			}]
 			x: 4.5d
@@ -874,22 +874,22 @@
 		}
 		{
 			dependencies: ["04C76712E7F764B3"]
-			description: ["忏悔石可以将武器上的法术消除，也可以与使用过升级球的装备结合去除升级。"]
+			description: ["{ftbquests.chapter.irons.quest3443205356844796093.description1}"]
 			id: "2FC8B9077774C8BD"
 			tasks: [{
 				id: "130F9BAC0D6F8AAC"
 				item: "irons_spellbooks:shriving_stone"
 				type: "item"
 			}]
-			title: "对方撤回了一个法术"
+			title: "{ftbquests.chapter.irons.quest3443205356844796093.title}"
 			x: 4.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["207A5281077D33FA"]
 			description: [
-				"使用法杖可以更好地施法！当你持有法杖时，右键即可释放选中的法术。"
-				"&4（法杖会提供一定量的正面buff）"
+				"{ftbquests.chapter.irons.quest5518114228782261650.description1}"
+				"{ftbquests.chapter.irons.quest5518114228782261650.description2}"
 			]
 			id: "4C9447A7A4986592"
 			tasks: [{
@@ -902,7 +902,7 @@
 		}
 		{
 			dependencies: ["4C9447A7A4986592"]
-			description: ["比较综合的过渡魔杖。"]
+			description: ["{ftbquests.chapter.irons.quest7206715109682479446.description1}"]
 			id: "640365359E108156"
 			tasks: [{
 				id: "51F2E7E1EA577A4C"
@@ -914,7 +914,7 @@
 		}
 		{
 			dependencies: ["4C9447A7A4986592"]
-			description: ["雷公助我！"]
+			description: ["{ftbquests.chapter.irons.quest6216602416250366875.description1}"]
 			id: "5645CEF5EA702B9B"
 			rewards: [{
 				id: "5359DAAA98101544"
@@ -931,7 +931,7 @@
 		}
 		{
 			dependencies: ["4C9447A7A4986592"]
-			description: ["击败死者之王有 50% 概率获得。"]
+			description: ["{ftbquests.chapter.irons.quest5818452794765356322.description1}"]
 			id: "50BF4BFD465E2D22"
 			tasks: [{
 				id: "5C4043887BDC836E"
@@ -943,7 +943,7 @@
 		}
 		{
 			dependencies: ["4C9447A7A4986592"]
-			description: ["大概是综合属性最优秀的魔杖。"]
+			description: ["{ftbquests.chapter.irons.quest4467640425300198132.description1}"]
 			id: "3E003F4BD63182F4"
 			tasks: [{
 				id: "1A19A2F21E6B0345"
@@ -955,7 +955,7 @@
 		}
 		{
 			dependencies: ["4C9447A7A4986592"]
-			description: ["任意门！"]
+			description: ["{ftbquests.chapter.irons.quest4638065642595319923.description1}"]
 			id: "405DB820DFD68073"
 			tasks: [{
 				id: "77C9AFA0841DE187"
@@ -983,7 +983,7 @@
 		}
 		{
 			dependencies: ["326A5AFAC46AD0DD"]
-			description: ["只是个装饰品"]
+			description: ["{ftbquests.chapter.irons.quest4821569754452198433.description1}"]
 			id: "42E9A82559E40421"
 			tasks: [{
 				id: "64AF622ABE7263F2"
@@ -995,11 +995,11 @@
 		}
 		{
 			dependencies: ["4A182A18C1276104"]
-			description: ["1.20版本的铁魔法删除了两张相同的卷轴在铁砧上合成为更高一级卷轴的功能。所以满级法术只能通过使用传奇墨水在法术撰写台上制作获取。&b（欧皇也能摸到的说）"]
+			description: ["{ftbquests.chapter.irons.quest6304890106916109688.description1}"]
 			id: "577F7825C29BFD78"
 			tasks: [{
 				id: "60328E664904FBA2"
-				title: "关于法术等级"
+				title: "{ftbquests.chapter.irons.quest6304890106916109688.task.6931759346439486370.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -1007,11 +1007,11 @@
 		}
 		{
 			dependencies: ["7DBD8323958E0FA7"]
-			description: ["墨水还可以通过在炼金锅中回收卷轴获得。回收卷轴有50%的概率获得相同品质的墨水。"]
+			description: ["{ftbquests.chapter.irons.quest8258558434157139070.description1}"]
 			id: "729C4B23E0BE147E"
 			tasks: [{
 				id: "37A2211B8112305B"
-				title: "原汤化原食"
+				title: "{ftbquests.chapter.irons.quest8258558434157139070.task.4008803020326449243.title}"
 				type: "checkmark"
 			}]
 			x: -6.0d
@@ -1019,7 +1019,7 @@
 		}
 		{
 			dependencies: ["207A5281077D33FA"]
-			description: ["与流浪商人交易获得。理论上可以带8个复效之戒，替换掉24个冷却法球。"]
+			description: ["{ftbquests.chapter.irons.quest6166008292796946054.description1}"]
 			hide_dependency_lines: true
 			id: "55920FDF96465686"
 			tasks: [{
@@ -1032,7 +1032,7 @@
 		}
 		{
 			dependencies: ["207A5281077D33FA"]
-			description: ["战利品箱中有概率开出，或与流浪商人交易获得。"]
+			description: ["{ftbquests.chapter.irons.quest5664119239817930676.description1}"]
 			hide_dependency_lines: true
 			id: "4E9AFE7056CDA7B4"
 			tasks: [{
@@ -1045,7 +1045,7 @@
 		}
 		{
 			dependencies: ["207A5281077D33FA"]
-			description: ["与流浪商人交易获得。"]
+			description: ["{ftbquests.chapter.irons.quest7824525393963547042.description1}"]
 			hide_dependency_lines: true
 			id: "6C964C63C33879A2"
 			tasks: [{
@@ -1058,7 +1058,7 @@
 		}
 		{
 			dependencies: ["207A5281077D33FA"]
-			description: ["炼金锅的使用较为复杂，详细的使用方法请移步MC百科或Wiki，在此不再赘述。"]
+			description: ["{ftbquests.chapter.irons.quest4077773201763293156.description1}"]
 			hide_dependency_lines: false
 			id: "3897291F3DB557E4"
 			tasks: [{
@@ -1070,7 +1070,7 @@
 			y: 1.5d
 		}
 		{
-			description: ["装备隐身之戒可以看到带有隐形BUFF的生物的轮廓。"]
+			description: ["{ftbquests.chapter.irons.quest4857065615003740579.description1}"]
 			id: "4367C371690FE9A3"
 			invisible: true
 			tasks: [{
@@ -1078,13 +1078,13 @@
 				item: "irons_spellbooks:invisibility_ring"
 				type: "item"
 			}]
-			title: "诶，有透是不是"
+			title: "{ftbquests.chapter.irons.quest4857065615003740579.title}"
 			x: -4.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["13265541D3694F26"]
-			description: ["你已经参透了魔法的奥秘，让我们庆祝新王的诞生！"]
+			description: ["{ftbquests.chapter.irons.quest6674022342368477004.description1}"]
 			id: "5C9EE3F5BBE4BF4C"
 			rewards: [{
 				id: "1CCDB9BC2E636E36"
@@ -1106,5 +1106,5 @@
 			y: -6.0d
 		}
 	]
-	title: "&a铁锈魔法师"
+	title: "{ftbquests.chapter.irons.title}"
 }

@@ -1,0 +1,757 @@
+{
+	autofocus_id: "0C489EAE0537E17F"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "youkai"
+	group: "65DBD493CCEDCEF5"
+	icon: "youkaishomecoming:udumbara_flower"
+	id: "4D403121650ECA4F"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&b这一章的内容对于新手来说比较难，建议先去完成“面朝黄土者”与“美食初心者”两个章节。"
+				""
+				"&b该模组近期变化较大，任务仅供参考。"
+			]
+			icon: "youkaishomecoming:udumbara_flower"
+			id: "0E554BF316EB9E7B"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "本章作者：PL"
+			tasks: [{
+				id: "41D6D62AC69E22B5"
+				title: "&6开始幻想乡之旅"
+				type: "checkmark"
+			}]
+			title: "&6妖怪们的归家"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E554BF316EB9E7B"]
+			description: [
+				"&8黄豆是幻想乡最基本的材料，可以用来制作很多物品。野生黄豆可以在沼泽找到，摘下豆荚都切开就是黄豆了。&r"
+				""
+				"&a随着对豆乳星神秘大豆的研究，人们逐渐意识到了这种大豆与幻想乡的黄豆并无本质区别。它具有更简单的种植方式与更高的产量，因此逐渐取代了野生种黄豆。"
+			]
+			hide_until_deps_complete: true
+			id: "4F95CEB38DA8E48E"
+			rewards: [{
+				count: 4
+				id: "5B678E1C6657773F"
+				item: "tofucraft:seeds_soybeans"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E0BF550D0E6F5F5"
+				item: "tofucraft:seeds_soybeans"
+				type: "item"
+			}]
+			title: "黄豆"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0E554BF316EB9E7B"]
+			description: ["在野外经常会有野生妖怪的家，里面住着一只露米娅。在妖怪的家里可以找到这种来源不明的肉。吃下这些肉似乎会发生奇怪的变化？"]
+			hide_until_deps_complete: true
+			id: "66ED77F022B4CB4F"
+			rewards: [{
+				count: 16
+				id: "64831DC239EF8F47"
+				item: "youkaishomecoming:flesh"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21A4438324C11AED"
+				item: "youkaishomecoming:flesh"
+				type: "item"
+			}]
+			title: "奇怪的肉……"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F95CEB38DA8E48E"]
+			description: [
+				"&8红豆是另一种基本材料，可以在白桦树林或针叶林找到。需要在砂土黏土等贫瘠的土地上种植。&r"
+				""
+				"&a你在整合包内见到的是另一种红豆。手持红豆右键泥土可以将其转换为红豆土，其上会定期长出红豆苗，左键可以收获。"
+			]
+			id: "000011C9AE0A0DDD"
+			rewards: [{
+				count: 8
+				id: "05349051EF81F428"
+				item: "neapolitan:adzuki_beans"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4248AEF7A40D9A17"
+				item: "neapolitan:adzuki_beans"
+				type: "item"
+			}]
+			title: "红豆"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["000011C9AE0A0DDD"]
+			description: [
+				"大人的饮品。野生咖啡会生成在丛林群系，摘下咖啡果后在砧板上切开就能得到咖啡豆。"
+				""
+				"&a也可以带着嗅探兽在丛林群系中搜索，找到古代咖啡豆以使用。"
+			]
+			id: "138576A973067473"
+			rewards: [{
+				count: 8
+				id: "0534A96C2FA35B96"
+				item: "youkaishomecoming:green_coffee_bean"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5482A798AA488E1C"
+				item: "youkaishomecoming:green_coffee_bean"
+				type: "item"
+			}]
+			title: "咖啡豆"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["138576A973067473"]
+			description: ["同样是大人的饮品，可以在繁花森林群系找到。"]
+			id: "289788DC6E24A8BF"
+			rewards: [{
+				id: "6A04F6E5AD7F2ADC"
+				item: "youkaishomecoming:tea_leaves"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F7CC717803A2E2F"
+				item: "youkaishomecoming:tea_leaves"
+				type: "item"
+			}]
+			title: "茶叶"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["289788DC6E24A8BF"]
+			description: ["拔出来可能会尖叫，在黑森林中偶尔有看到过这种奇怪的作物。"]
+			id: "10D8A204BB3D7CEB"
+			rewards: [{
+				count: 4
+				id: "68E592253404C3DE"
+				item: "youkaishomecoming:mandrake_root"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F1AB73C6345713D"
+				item: "youkaishomecoming:mandrake_root"
+				type: "item"
+			}]
+			title: "曼德拉草"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["10D8A204BB3D7CEB"]
+			description: ["真正的幻昙华只在沼泽中生长，但是似乎经过人工培养以后才有足够的药效。"]
+			id: "0B404897891998BB"
+			rewards: [{
+				count: 8
+				id: "11755A1B3567CE46"
+				item: "youkaishomecoming:udumbara_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6006C40CF025DB08"
+				item: "youkaishomecoming:udumbara_seeds"
+				type: "item"
+			}]
+			title: "幻昙华"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0B404897891998BB"]
+			description: [
+				"与夜雀食堂使用的仿制幻昙华不同，这是真正的幻昙花，吸收了月光的灵气。"
+				""
+				"幻昙华只在满月的夜晚下开花，非满月的夜晚下，最高生长到成熟前一级阶段；天亮后会逐渐枯萎，变为最低一级生长阶段。"
+			]
+			id: "7A057C0ABF8AE9D8"
+			rewards: [{
+				count: 4
+				id: "6770D1301D6CFA66"
+				item: "youkaishomecoming:udumbara_flower"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50BEF5E9423C07EE"
+				item: "youkaishomecoming:udumbara_flower"
+				type: "item"
+			}]
+			title: "真正的幻昙花"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7A057C0ABF8AE9D8"]
+			description: [
+				"尽管很珍贵，幻昙花也不是完全不可大规模培育的。"
+				""
+				"&a一种可能的思路：做出幻月灯后用女仆或者阳光传感器定时收割。"
+			]
+			id: "72293A73650EA5E9"
+			rewards: [
+				{
+					count: 32
+					id: "3985317A6E1DA682"
+					item: "youkaishomecoming:udumbara_flower"
+					type: "item"
+				}
+				{
+					id: "6381159A64FF1BA0"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "59B0B3501E23A308"
+				item: "youkaishomecoming:udumbara_flower"
+				type: "item"
+			}]
+			title: "&6挑战：培育幻昙花"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4F95CEB38DA8E48E"]
+			description: ["发酵桶可以用来酿造酱油与酒。"]
+			id: "0C489EAE0537E17F"
+			rewards: [{
+				count: 2
+				id: "78BA2A2BBB4D3FB0"
+				item: "youkaishomecoming:fermentation_tank"
+				type: "item"
+			}]
+			tasks: [{
+				id: "780D2F544E937892"
+				item: "youkaishomecoming:fermentation_tank"
+				type: "item"
+			}]
+			title: "发酵桶"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["289788DC6E24A8BF"]
+			description: ["把茶叶放入茶壶内，倒上水放到炉灶上，就可以煮茶了。"]
+			id: "1EBE8B106E163A71"
+			rewards: [{
+				count: 2
+				id: "167CB6B8FAB70B1A"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F263906872C328A"
+				item: "youkaishomecoming:kettle"
+				type: "item"
+			}]
+			title: "煮茶"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["289788DC6E24A8BF"]
+			description: [
+				"将晒干架置于阳光下方，可以利用核能去除物品的水分。"
+				""
+				"而蒸笼则是在保留水分的前提下做熟食物的工具。蒸笼需要放在含有水的蒸锅上，可以向上堆叠；最上方最好有一个蒸笼盖。"
+			]
+			id: "30716ECA379E398E"
+			rewards: [
+				{
+					count: 2
+					id: "638F418F58FB9EB7"
+					item: "youkaishomecoming:drying_rack"
+					type: "item"
+				}
+				{
+					id: "6A329B2604816D0B"
+					item: "youkaishomecoming:steamer_rack"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5AB397A27A7E4F72"
+					item: "youkaishomecoming:drying_rack"
+					type: "item"
+				}
+				{
+					id: "39F14384DEC8C6B7"
+					item: "youkaishomecoming:steamer_rack"
+					type: "item"
+				}
+			]
+			title: "改变水分"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["138576A973067473"]
+			description: ["把咖啡磨成细粉放到摩卡壶里面，再把山泉水放到摩卡壶底下加热，水蒸气就会把水压上来，萃取咖啡粉得到咖啡。"]
+			id: "1798A3C0E84ED191"
+			rewards: [{
+				count: 2
+				id: "1EF2D361347917FD"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16D1BF36B15113A7"
+				item: "youkaishomecoming:moka_pot"
+				type: "item"
+			}]
+			title: "煮咖啡"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"30716ECA379E398E"
+				"1EBE8B106E163A71"
+			]
+			description: ["喝遍所有种类的茶，相比你对于茶已经有了独到的理解。"]
+			id: "172C65ED16789286"
+			rewards: [{
+				id: "24E02374B74149D2"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/tea_master"
+				criterion: ""
+				id: "2B6DAE41B42B82FF"
+				title: "饮茶"
+				type: "advancement"
+			}]
+			title: "三点多啦，饮茶先啦！"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1798A3C0E84ED191"]
+			description: ["喝遍了所有种类的咖啡，你一定有自己的喜好了。"]
+			id: "418FD9208EACED50"
+			rewards: [{
+				id: "587170D949F421FA"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/q_grader"
+				criterion: ""
+				id: "3991234787E77545"
+				title: "喝咖啡"
+				type: "advancement"
+			}]
+			title: "苦涩回甘"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0C489EAE0537E17F"]
+			description: ["你个酒鬼怎么喝这么多酒！"]
+			id: "4637C59930D18D82"
+			rewards: [{
+				id: "0AD2FC8A8247F20E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/passed_out"
+				criterion: ""
+				id: "0C6A4D768B3A5FED"
+				title: "喝醉了"
+				type: "advancement"
+			}]
+			title: "烂醉如泥"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7A057C0ABF8AE9D8"]
+			description: ["有了幻月灯，培育幻昙花就变得容易了许多。"]
+			id: "60D9140A16CBC68B"
+			rewards: [{
+				count: 2
+				id: "7EFD7200CD0425E4"
+				item: "youkaishomecoming:moon_lantern"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C8CA8AD9C73F4AB"
+				item: "youkaishomecoming:moon_lantern"
+				type: "item"
+			}]
+			title: "永远的月亮"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7A057C0ABF8AE9D8"]
+			description: ["你在成为美食家的道路上更进了一步。"]
+			id: "0718962BC048D12E"
+			rewards: [{
+				id: "0927C59B9166C738"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/enthusiastic"
+				criterion: ""
+				id: "40D015B483FFFCC8"
+				title: "吃遍所有美食"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["66ED77F022B4CB4F"]
+			description: [
+				"呜哇，吃下这些神秘的肉以后变得好奇怪！"
+				""
+				"&b持有此效果时，怪肉类料理提供的饥饿值与饱和度提升至原有的两倍。若在获得该效果时继续食用怪肉类食品，则每份将一定会为该效果增加1分钟持续时间。若玩家在下界持有该效果，则可能会发生恋恋电话事件。"
+			]
+			id: "489F3886EDDB830A"
+			rewards: [{
+				count: 16
+				id: "354831F6C9B838B9"
+				item: "youkaishomecoming:flesh"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/first_time"
+				criterion: ""
+				id: "00B32220A7B337DF"
+				title: "小心灵梦"
+				type: "advancement"
+			}]
+			title: "小心灵梦"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["489F3886EDDB830A"]
+			description: [
+				"小小青蛙也不输风雨！"
+				""
+				"&b提供持续的土著神的祝福，使用青色和黄绿色弹幕时不消耗。"
+				""
+				"&a如果你不幸丢失帽子，可以在这里领取。"
+			]
+			id: "794804F903B8F356"
+			rewards: [{
+				id: "19130A782D77F09D"
+				item: {
+					Count: 1
+					id: "youkaishomecoming:suwako_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/suwako_hat"
+				criterion: ""
+				id: "639D5F48B8D35982"
+				title: "信仰收集"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["489F3886EDDB830A"]
+			description: [
+				"恋恋似乎很喜欢这样的你，想要和你一起玩。作为谢礼，她送给你心爱的帽子先生，可以帮助你躲开其他妖怪。"
+				""
+				"&b提供持续不断的无意识效果，且使用红色弹幕和蓝色弹幕时不会产生消耗。"
+				""
+				"&a如果你不幸丢失帽子先生，可以在这里领取。"
+			]
+			id: "596640E572366085"
+			rewards: [{
+				id: "782B936FE6815D15"
+				item: {
+					Count: 1
+					id: "youkaishomecoming:koishi_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/koishi_hat"
+				criterion: ""
+				id: "3405A2499382AB79"
+				title: "和恋恋玩"
+				type: "advancement"
+			}]
+			title: "和恋恋玩！"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["489F3886EDDB830A"]
+			description: [
+				"变成妖怪了！"
+				""
+				"&b若存在时长超过5分钟的半妖怪化后，半妖怪化效果将立刻解除，同时令玩家获得长达20分钟的妖怪化效果。在获得本效果后，每次食用怪肉食品都将增加4分钟的该效果持续时间。提升玩家：+30％速度，+50％攻击伤害，+20最大生命值。持有此效果时，怪肉类料理提供的饥饿值与饱和度提升至原有的三倍，可以和露米娅交易。"
+				""
+				"&b玩家进行各种活动所消耗的饥饿值将大幅增加，同时进行某些原本不消耗饥饿值得动作（如原地不动，走路等）时也将消耗饥饿值。如果玩家过于饥饿，则本效果将自动解除。若需长时间保持该效果，则强烈建议进食能够提供滋养效果的食物，或者做出奶帽。"
+			]
+			id: "1D2392D85A989BB9"
+			rewards: [{
+				count: 32
+				id: "362E12953B91D538"
+				item: "youkaishomecoming:flesh"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/powerful_being"
+				criterion: ""
+				id: "79239C86603DDA3B"
+				title: "妖怪化"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D2392D85A989BB9"]
+			description: [
+				"变成妖怪后，似乎可以向露米娅购买一些奇怪的东西……"
+				""
+				"&b在中期难以做出枪或者有四种特殊帽子的时候，弹幕是一个不错的输出方式。但是它造成的伤害是魔法伤害而不是弹射物伤害。"
+			]
+			id: "6A0F74CB111ED230"
+			rewards: [{
+				count: 64
+				id: "1FA6833870075396"
+				item: "youkaishomecoming:white_bubble_danmaku"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/trade_danmaku"
+				criterion: ""
+				id: "390ACE89218C6553"
+				title: "获得弹幕"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6A0F74CB111ED230"]
+			description: [
+				"呜，脑袋好疼！"
+				""
+				"&b佩戴时提供持续的半妖怪化，击杀僵尸、骷髅、猪灵、凋零骷髅时必定掉落头颅。"
+				""
+				"&a&a如果你不幸丢失了发带，可以在这里领取。"
+			]
+			id: "4DD5AFB40ECD9EFA"
+			rewards: [{
+				id: "4AC99143F46A112F"
+				item: {
+					Count: 1
+					id: "youkaishomecoming:rumia_hairband"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/lost_memories"
+				criterion: ""
+				id: "2BD58C7B7D5A4FAA"
+				title: "打倒露米娅"
+				type: "advancement"
+			}]
+			title: "失落的记忆"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6A0F74CB111ED230"]
+			description: [
+				"你是怎么打倒她的？是不是用了什么卑鄙的手段！"
+				""
+				"&b好没用啊这东西……"
+				""
+				"&a如果你不幸丢失了它，可以在这里领取。"
+			]
+			icon: "youkaishomecoming:spell_reimu"
+			id: "5481330BCE335975"
+			rewards: [{
+				id: "6AA429A084E58A80"
+				item: "youkaishomecoming:spell_reimu"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/spellcard_power"
+				criterion: ""
+				id: "64629E46BD4FB87B"
+				title: "打倒灵梦"
+				type: "advancement"
+			}]
+			title: "赤色杀人魔"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6A0F74CB111ED230"
+				"7A057C0ABF8AE9D8"
+			]
+			description: [
+				"巫女很开心，给了你她的蝴蝶结。"
+				""
+				"&b激活创造飞行。弹幕伤害穿透魔法防御。"
+				""
+				"&a如果你不幸丢失了蝴蝶结，可以在这里领取。"
+			]
+			id: "3D6DEDFC188FD35A"
+			rewards: [{
+				id: "59BEA93B4FE13F0E"
+				item: {
+					Count: 1
+					id: "youkaishomecoming:reimu_hairband"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/feed_reimu"
+				criterion: ""
+				id: "2DDB4E1CC1B98766"
+				title: "供奉巫女"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["66ED77F022B4CB4F"]
+			description: ["半妖怪化或妖怪化状态下和琪露诺交易可以获得，比较廉价的飞行方式。"]
+			id: "24F89412A0CB51C9"
+			rewards: [{
+				count: 64
+				id: "2B1F99AED8CCB191"
+				item: "youkaishomecoming:light_blue_bubble_danmaku"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "42B028FBF06FCE46"
+					item: {
+						Count: 1
+						id: "youkaishomecoming:cirno_hairband"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0722C776714050A3"
+					item: "youkaishomecoming:cirno_wings"
+					type: "item"
+				}
+			]
+			title: "变身，变成baka！"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0E554BF316EB9E7B"]
+			description: ["丐版伸缩机械手。当然它原本的用途是搅拌汤锅中的汤。"]
+			id: "53048C6A3F15B214"
+			rewards: [{
+				id: "2F7651B695C9B911"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3D3D70EB49C53E20"
+				item: "youkaishomecoming:big_spoon"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0E554BF316EB9E7B"]
+			description: ["新版本新增的不同厨具，用以烹调不同的食物。其中汤锅需要汤勺搅拌。"]
+			id: "00D3C0C803F2B634"
+			rewards: [{
+				id: "0761D86BE0783E3C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "5771EAA81FF914B4"
+					item: "youkaishomecoming:small_iron_pot"
+					type: "item"
+				}
+				{
+					id: "46D817918104C77C"
+					item: "youkaishomecoming:short_iron_pot"
+					type: "item"
+				}
+				{
+					id: "55EF5A77C4FE25A1"
+					item: "youkaishomecoming:stockpot"
+					type: "item"
+				}
+			]
+			title: "不同大小的厨具"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E554BF316EB9E7B"]
+			description: ["将葡萄放入后踩踏可以得到对应的葡萄汁。可以用玻璃瓶或大玻璃瓶取出。"]
+			id: "52FF2A3A88600687"
+			tasks: [{
+				id: "20BA8FA01C0AD669"
+				item: "youkaishomecoming:wood_basin"
+				type: "item"
+			}]
+			title: "脚踩葡萄的魔女"
+			x: -1.5d
+			y: 1.5d
+		}
+	]
+	title: "&a幻想乡妖怪"
+}

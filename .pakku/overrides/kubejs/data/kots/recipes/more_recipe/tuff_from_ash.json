@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "tuff",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "supplementaries:ash"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:tuff"
+  }
+}

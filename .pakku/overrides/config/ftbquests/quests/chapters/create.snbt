@@ -10,11 +10,11 @@
 	quests: [
 		{
 			description: [
-				"机械动力有着有史以来“最先进”的 游戏内教学系统，用生动流畅的实际场景说明模组内容，完全避免了说明书枯燥乏味和不够详细的问题。每个方块都有一个或多个专属的教学场景可供观看，保证玩家可以轻松掌握，十分贴心。"
+				"{ftbquests.chapter.create.quest8579399704691756438.description1}"
 				""
-				"鼠标指针悬停在物品上，按&a[W]&r进行思索，就可以看到该物品的使用方法。具体用法可以查阅&bhttps://www.mcmod.cn/class/2021.html&r。"
+				"{ftbquests.chapter.create.quest8579399704691756438.description2}"
 				""
-				"为了让玩家们快速入门机械动力，以下用&4方块标识&r的为最重要的主线，即速通精密构件。齿轮形任务则标致每个阶段的节点，他们也是主线任务。"
+				"{ftbquests.chapter.create.quest8579399704691756438.description3}"
 			]
 			hide_dependent_lines: true
 			icon: "createdeco:decal_warning"
@@ -28,10 +28,10 @@
 			}]
 			shape: "hexagon"
 			size: 3.0d
-			subtitle: "本章作者：Wu_Zang"
+			subtitle: "{ftbquests.chapter.create.quest8579399704691756438.subtitle}"
 			tasks: [{
 				id: "243AB9709660933E"
-				title: "按[w]进行思索"
+				title: "{ftbquests.chapter.create.quest8579399704691756438.task.2610602827225011006.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -55,7 +55,7 @@
 		}
 		{
 			dependencies: ["368CA8E2BC9E7C34"]
-			description: ["传动杆是传递动力最便宜的方式。"]
+			description: ["{ftbquests.chapter.create.quest5179148864040166767.description1}"]
 			hide_dependency_lines: false
 			id: "47E0087397FB656F"
 			shape: "square"
@@ -64,16 +64,16 @@
 				item: "create:shaft"
 				type: "item"
 			}]
-			title: "开始传动"
+			title: "{ftbquests.chapter.create.quest5179148864040166767.title}"
 			x: 0.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["47E0087397FB656F"]
 			description: [
-				"你可以横向传递动力了，但你会有更好的选择。"
+				"{ftbquests.chapter.create.quest7154237404504475677.description1}"
 				""
-				"提示：大齿轮可以改变动力方向，这在你想省机壳的时候很好用。"
+				"{ftbquests.chapter.create.quest7154237404504475677.description2}"
 			]
 			hide_dependency_lines: false
 			icon: "create:cogwheel"
@@ -91,7 +91,7 @@
 					type: "item"
 				}
 			]
-			title: "小齿轮，大齿轮"
+			title: "{ftbquests.chapter.create.quest7154237404504475677.title}"
 			x: -1.5d
 			y: 8.0d
 		}
@@ -101,9 +101,9 @@
 				"5C0559550404B37C"
 			]
 			description: [
-				"给你的传动杆、齿轮和传送带套上壳，机壳不会被消耗。"
+				"{ftbquests.chapter.create.quest8559593903084645620.description1}"
 				""
-				"或许能减少卡顿？"
+				"{ftbquests.chapter.create.quest8559593903084645620.description2}"
 			]
 			id: "76C9C94DDEF5ACF4"
 			shape: "square"
@@ -112,7 +112,7 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			title: "套壳"
+			title: "{ftbquests.chapter.create.quest8559593903084645620.title}"
 			x: -3.0d
 			y: 6.5d
 		}
@@ -122,15 +122,15 @@
 				"28C0DA5BCF4B8C0F"
 			]
 			description: [
-				"你已经基本学会了机械动力基本元件的制作方法，现在该用它们产生动力了。"
+				"{ftbquests.chapter.create.quest8127575592016223590.description1}"
 				""
-				"即使你有多种选择，玩家们还是建议选择风车作为前期动力来源。"
+				"{ftbquests.chapter.create.quest8127575592016223590.description2}"
 			]
 			id: "70CAF2F06F431D66"
 			shape: "rsquare"
 			tasks: [{
 				id: "6C8F3CB0053D415B"
-				title: "选择你的动力源！"
+				title: "{ftbquests.chapter.create.quest8127575592016223590.task.7822537804465652059.title}"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -138,7 +138,7 @@
 		}
 		{
 			dependencies: ["70CAF2F06F431D66"]
-			description: ["风车是在你建造蒸汽锅炉或者曲柄引擎（这是什么？）之前产生应力最多的动力源，试试用一个满速风车带动你所有的工作方块吧，小心不要超载了。"]
+			description: ["{ftbquests.chapter.create.quest4630240349166481736.description1}"]
 			id: "4041EB10C4BFB148"
 			shape: "square"
 			tasks: [{
@@ -146,26 +146,26 @@
 				item: "create:windmill_bearing"
 				type: "item"
 			}]
-			title: "风车，中！"
+			title: "{ftbquests.chapter.create.quest4630240349166481736.title}"
 			x: 0.0d
 			y: 12.5d
 		}
 		{
 			dependencies: ["70CAF2F06F431D66"]
-			description: ["它有水就能动！"]
+			description: ["{ftbquests.chapter.create.quest982560398867827664.description1}"]
 			id: "0DA2C17A18E20BD0"
 			tasks: [{
 				id: "1F7BB0D89B1237A9"
 				item: "create:water_wheel"
 				type: "item"
 			}]
-			title: "水任务"
+			title: "{ftbquests.chapter.create.quest982560398867827664.title}"
 			x: -3.0d
 			y: 12.5d
 		}
 		{
 			dependencies: ["70CAF2F06F431D66"]
-			description: ["百公里消耗两个酒狐。"]
+			description: ["{ftbquests.chapter.create.quest1620961242456710003.description1}"]
 			id: "167ECFA96B4EDB73"
 			tasks: [
 				{
@@ -187,7 +187,7 @@
 					type: "item"
 				}
 			]
-			title: "梦回种植园"
+			title: "{ftbquests.chapter.create.quest1620961242456710003.title}"
 			x: -1.5d
 			y: 12.5d
 		}
@@ -198,7 +198,7 @@
 				"167ECFA96B4EDB73"
 			]
 			dependency_requirement: "one_completed"
-			description: ["它怎么要这么多铁。"]
+			description: ["{ftbquests.chapter.create.quest1222139869599256381.description1}"]
 			id: "10F5E9BC794E4F3D"
 			shape: "square"
 			tasks: [{
@@ -206,16 +206,16 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			title: "锵！"
+			title: "{ftbquests.chapter.create.quest1222139869599256381.title}"
 			x: -1.5d
 			y: 14.0d
 		}
 		{
 			dependencies: ["7F1950FD945AD26A"]
 			description: [
-				"拿着扳手shift+右键可以直接把元件拆下来放进物品栏内。"
-				"护目镜可以让你看到元件更多的信息。"
-				"速度表应力表可以让你随时检查机器运作的状态。"
+				"{ftbquests.chapter.create.quest8620775994996164107.description1}"
+				"{ftbquests.chapter.create.quest8620775994996164107.description2}"
+				"{ftbquests.chapter.create.quest8620775994996164107.description3}"
 			]
 			id: "77A32617B5F6060B"
 			tasks: [
@@ -240,7 +240,7 @@
 					type: "item"
 				}
 			]
-			title: "这下看得清了吧"
+			title: "{ftbquests.chapter.create.quest8620775994996164107.title}"
 			x: -6.0d
 			y: 14.0d
 		}
@@ -264,16 +264,16 @@
 				item: "create:golden_sheet"
 				type: "item"
 			}]
-			title: "金板"
+			title: "{ftbquests.chapter.create.quest9158440367280542314.title}"
 			x: -4.5d
 			y: 15.5d
 		}
 		{
 			dependencies: ["4041EB10C4BFB148"]
 			description: [
-				"你的风车结构至少需要8个风帆才能动，最多可以连接128个风帆，每多8个风帆风车就会+1RPM转速。"
+				"{ftbquests.chapter.create.quest8389324096935365389.description1}"
 				""
-				"你也可以用羊毛代替风帆。"
+				"{ftbquests.chapter.create.quest8389324096935365389.description2}"
 			]
 			id: "746CDDD14F750B0D"
 			shape: "square"
@@ -296,7 +296,7 @@
 						}
 					}
 					optional_task: true
-					title: "Any #minecraft:wool"
+					title: "{ftbquests.chapter.create.quest8389324096935365389.task.2087722673603247335.title}"
 					type: "item"
 				}
 				{
@@ -307,16 +307,16 @@
 					type: "item"
 				}
 			]
-			title: "Sail!"
+			title: "{ftbquests.chapter.create.quest8389324096935365389.title}"
 			x: 1.5d
 			y: 12.5d
 		}
 		{
 			dependencies: ["7960D97A6163B412"]
 			description: [
-				"小Tips：掉落物在上面时，可以同时接受上下两个鼓风机的批量处理，另外烈焰人燃烧室在没被点燃的时候鼓风机对着它吹的风可以穿过燃烧室，同时不改变处理方式。"
+				"{ftbquests.chapter.create.quest4902312551120844203.description1}"
 				""
-				"这意味着什么？"
+				"{ftbquests.chapter.create.quest4902312551120844203.description2}"
 			]
 			id: "4408834AAB7F35AB"
 			shape: "square"
@@ -330,7 +330,7 @@
 		}
 		{
 			dependencies: ["10F5E9BC794E4F3D"]
-			description: ["动力辊压机可以将部分物品在工作盆中压成块状，或者处理一些液体配方。"]
+			description: ["{ftbquests.chapter.create.quest3381149956876506432.description1}"]
 			id: "2EEC41F8BFF39540"
 			shape: "square"
 			tasks: [{
@@ -338,7 +338,7 @@
 				item: "create:basin"
 				type: "item"
 			}]
-			title: "压块"
+			title: "{ftbquests.chapter.create.quest3381149956876506432.title}"
 			x: 1.5d
 			y: 14.0d
 		}
@@ -356,7 +356,7 @@
 		}
 		{
 			dependencies: ["4408834AAB7F35AB"]
-			description: ["手持空的烈焰人燃烧室右键烈焰人或烈焰人刷怪笼获得。"]
+			description: ["{ftbquests.chapter.create.quest1062025444516779697.description1}"]
 			id: "0EBD1283D2D956B1"
 			shape: "square"
 			tasks: [{
@@ -374,7 +374,7 @@
 				"114AB5DD7C1F2FF2"
 				"7AD1EC62E81E6964"
 			]
-			description: ["铜锭锌锭在工作盆中加热搅拌获得。"]
+			description: ["{ftbquests.chapter.create.quest4557091961301828943.description1}"]
 			id: "3F3E0AFE8A2F054F"
 			shape: "gear"
 			size: 2.0d
@@ -383,13 +383,13 @@
 				item: "create:brass_ingot"
 				type: "item"
 			}]
-			title: "第一块合金"
+			title: "{ftbquests.chapter.create.quest4557091961301828943.title}"
 			x: 6.0d
 			y: 14.0d
 		}
 		{
 			dependencies: ["3F3E0AFE8A2F054F"]
-			description: ["距离机械手只差最后一步。"]
+			description: ["{ftbquests.chapter.create.quest4888845444049818425.description1}"]
 			id: "43D8AB0776605339"
 			shape: "square"
 			tasks: [{
@@ -403,9 +403,9 @@
 		{
 			dependencies: ["77102693683E4D96"]
 			description: [
-				"在机械动力里，安山岩从废石一跃成为最基础的资源。"
+				"{ftbquests.chapter.create.quest5108390620816063817.description1}"
 				""
-				"别担心，你有很多方法实现安山岩自动化。"
+				"{ftbquests.chapter.create.quest5108390620816063817.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "46E4A63447ADBD49"
@@ -415,16 +415,16 @@
 				item: "minecraft:andesite"
 				type: "item"
 			}]
-			title: "不再是废石"
+			title: "{ftbquests.chapter.create.quest5108390620816063817.title}"
 			x: 0.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["77102693683E4D96"]
 			description: [
-				"合成安山合金的另一原料。"
+				"{ftbquests.chapter.create.quest7516634458198983425.description1}"
 				""
-				"除了原版刷铁机，你同样有其他方法实现铁自动化。"
+				"{ftbquests.chapter.create.quest7516634458198983425.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "6850733703694301"
@@ -434,7 +434,7 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			title: "来硬的"
+			title: "{ftbquests.chapter.create.quest7516634458198983425.title}"
 			x: -3.0d
 			y: 3.5d
 		}
@@ -443,7 +443,7 @@
 				"76C9C94DDEF5ACF4"
 				"6348F503BE4D481D"
 			]
-			description: ["你的动力源与工作元件的动力接口不在一个方向上怎么办，试试这些。"]
+			description: ["{ftbquests.chapter.create.quest8883424417245022444.description1}"]
 			id: "7B484370EAEBC8EC"
 			tasks: [
 				{
@@ -461,20 +461,20 @@
 					type: "item"
 				}
 			]
-			title: "动力转向"
+			title: "{ftbquests.chapter.create.quest8883424417245022444.title}"
 			x: -4.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["737841D5CB9D44FA"]
-			description: ["把你的海带丢进烟熏炉里烧了，注意别吃光了。"]
+			description: ["{ftbquests.chapter.create.quest4854968314335376939.description1}"]
 			id: "43604FF58BBCB62B"
 			tasks: [{
 				id: "4399E7E1671DE874"
 				item: "minecraft:dried_kelp"
 				type: "item"
 			}]
-			title: "不只是用来吃"
+			title: "{ftbquests.chapter.create.quest4854968314335376939.title}"
 			x: 1.5d
 			y: 5.0d
 		}
@@ -492,16 +492,16 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "Any #minecraft:logs"
+				title: "{ftbquests.chapter.create.quest6630804248047432572.task.5284159922031585330.title}"
 				type: "item"
 			}]
-			title: "要致富，先撸树"
+			title: "{ftbquests.chapter.create.quest6630804248047432572.title}"
 			x: -6.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["77102693683E4D96"]
-			description: ["也许你需要一个自然罗盘，但它并不好做。"]
+			description: ["{ftbquests.chapter.create.quest8320472698066912506.description1}"]
 			hide_until_deps_complete: true
 			id: "737841D5CB9D44FA"
 			shape: "square"
@@ -519,42 +519,42 @@
 					type: "item"
 				}
 			]
-			title: "跑图，或洗劫村庄？"
+			title: "{ftbquests.chapter.create.quest8320472698066912506.title}"
 			x: 3.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["43604FF58BBCB62B"]
-			description: ["传送带是所有传递动力的元件里，唯一还能运输物品和实体的元件。"]
+			description: ["{ftbquests.chapter.create.quest2936587044900277263.description1}"]
 			id: "28C0DA5BCF4B8C0F"
 			tasks: [{
 				id: "336983109EF5C23E"
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			title: "传动，还有更多"
+			title: "{ftbquests.chapter.create.quest2936587044900277263.title}"
 			x: 1.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["0DA2C17A18E20BD0"]
-			description: ["它的体积比水车大一圈，转速也是普通水车的一半，但产生的应力是普通水车的两倍。"]
+			description: ["{ftbquests.chapter.create.quest5469484464258706245.description1}"]
 			id: "4BE7832444A86B45"
 			tasks: [{
 				id: "5E4DD840E89131E5"
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
-			title: "更大，更好用"
+			title: "{ftbquests.chapter.create.quest5469484464258706245.title}"
 			x: -4.5d
 			y: 12.5d
 		}
 		{
 			dependencies: ["10F5E9BC794E4F3D"]
 			description: [
-				"你也可以将铁锭之类的待处理物品放在传送带上用辊压机辊压。"
+				"{ftbquests.chapter.create.quest2533771294901741389.description1}"
 				""
-				"置物台和传送带的本质是容器，放在上面的物品不会自然消失。"
+				"{ftbquests.chapter.create.quest2533771294901741389.description2}"
 			]
 			id: "2329C39176B3274D"
 			tasks: [{
@@ -562,7 +562,7 @@
 				item: "create:depot"
 				type: "item"
 			}]
-			title: "压板"
+			title: "{ftbquests.chapter.create.quest2533771294901741389.title}"
 			x: -1.5d
 			y: 15.5d
 		}
@@ -572,9 +572,9 @@
 				"7F1950FD945AD26A"
 			]
 			description: [
-				"在选取弹射目的地之后最好先检查一下弹射的物品会不会被路径上的方块挡住。"
+				"{ftbquests.chapter.create.quest5064099602855878735.description1}"
 				""
-				"Man，希望它不会卡住你的流水线。"
+				"{ftbquests.chapter.create.quest5064099602855878735.description2}"
 			]
 			id: "46474BC20F6BE04F"
 			tasks: [{
@@ -582,13 +582,13 @@
 				item: "create:weighted_ejector"
 				type: "item"
 			}]
-			title: "飞起来！"
+			title: "{ftbquests.chapter.create.quest5064099602855878735.title}"
 			x: -3.0d
 			y: 14.0d
 		}
 		{
 			dependencies: ["7F1950FD945AD26A"]
-			description: ["你最多可以在地上摆8个工具箱，如果不能访问记得改键位。"]
+			description: ["{ftbquests.chapter.create.quest1532099902154776895.description1}"]
 			id: "15431CBE5C58A13F"
 			tasks: [{
 				id: "2B749849024841FD"
@@ -599,10 +599,10 @@
 						value: "create:toolboxes"
 					}
 				}
-				title: "Any #create:toolboxes"
+				title: "{ftbquests.chapter.create.quest1532099902154776895.task.3131295080267661821.title}"
 				type: "item"
 			}]
-			title: "小盒子真好用"
+			title: "{ftbquests.chapter.create.quest1532099902154776895.title}"
 			x: -6.0d
 			y: 15.5d
 		}
@@ -611,7 +611,7 @@
 				"7960D97A6163B412"
 				"0C68B6D17C0D03C9"
 			]
-			description: ["别合成光了，玫瑰石英还可以做其他东西，虽然不多。"]
+			description: ["{ftbquests.chapter.create.quest8656217962066719856.description1}"]
 			id: "7821105FB757B470"
 			shape: "square"
 			tasks: [{
@@ -640,13 +640,13 @@
 					type: "item"
 				}
 			]
-			title: "再来点硬的"
+			title: "{ftbquests.chapter.create.quest8850114652304992612.title}"
 			x: 6.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["53C9FC83022CFEA1"]
-			description: ["打磨玫瑰石英是一个漫长的过程，在制作完机械手之后，你可以用机械手帮你完成这一步骤。"]
+			description: ["{ftbquests.chapter.create.quest894165536878691273.description1}"]
 			id: "0C68B6D17C0D03C9"
 			shape: "square"
 			tasks: [{
@@ -660,7 +660,7 @@
 		{
 			dependencies: ["4BC0D45AA088BBF6"]
 			dependency_requirement: "all_started"
-			description: ["每张砂纸只有8点耐久，因此准备好合成蓝图吧。"]
+			description: ["{ftbquests.chapter.create.quest6037634415074279073.description1}"]
 			id: "53C9FC83022CFEA1"
 			shape: "square"
 			tasks: [
@@ -678,7 +678,7 @@
 							value: "create:sandpaper"
 						}
 					}
-					title: "Any #create:sandpaper"
+					title: "{ftbquests.chapter.create.quest6037634415074279073.task.872203256709210745.title}"
 					type: "item"
 				}
 			]
@@ -687,7 +687,7 @@
 		}
 		{
 			dependencies: ["77102693683E4D96"]
-			description: ["有些资源不得不去下界采集，因此多挖一些吧。"]
+			description: ["{ftbquests.chapter.create.quest5458596234078501878.description1}"]
 			hide_until_deps_complete: true
 			id: "4BC0D45AA088BBF6"
 			shape: "square"
@@ -703,7 +703,7 @@
 					type: "item"
 				}
 			]
-			title: "赤石"
+			title: "{ftbquests.chapter.create.quest5458596234078501878.title}"
 			x: -9.0d
 			y: 3.5d
 		}
@@ -714,7 +714,7 @@
 			size: 1.0d
 			tasks: [{
 				id: "5189F11FB1D043FB"
-				title: "建造你的第一台蒸汽机"
+				title: "{ftbquests.chapter.create.quest3888396269125010587.task.5875492307311019003.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -851,15 +851,24 @@
 				"7AD1EC62E81E6964"
 			]
 			description: [
-				"将 蒸汽引擎 或 蒸汽笛 放置在任意大小的 流体储罐 结构上，流体储罐就会变成锅炉。"
-				"锅炉需要输入 水 并在其底部放置热源以将其驱动。锅炉有三个属性：尺寸、水量和热量。每个属性有 18 个等级，锅炉的效率取决于这些属性的等级。装备 工程师护目镜 时观察锅炉可以查看属性详情。"
-				"尺寸等级 = 锅炉体积 / 4，水量等级 = 水量 (mB) / 50，热量 = 锅炉底部所有热源提供的热量总和。烈焰人燃烧室一般燃烧为一级热源，超级燃烧为二级热源。"
-				"熄灭但烈焰人燃烧室、各种营火、各种火、岩浆块、熔岩为被动热源，只能让锅炉进入被动状态，该状态下的锅炉固定产出 2048su 应力量，因此一个以上的被动热源不会提高效率。"
-				"锅炉只能被锅炉底部的热源加热。"
-				"输出动力需要在锅炉上放置 蒸汽引擎，并在蒸汽引擎前方第二格放置 传动杆。动力会从传动杆输出。"
-				"锅炉会产出 锅炉等级 * 16384su 的应力，所产生的应力会平均分布在锅炉上每个蒸汽引擎上。每个蒸汽引擎最多能输出 16384su 应力，因此应力大于 16384su 时需要放置更多的蒸汽引擎来输出所有应力，否则剩余的应力会被浪费。安装与锅炉等级同等数量的蒸汽引擎即可完全输出锅炉的应力。"
-				"当蒸汽引擎的数量已经足以输出所有应力，放置更多的蒸汽引擎不会提高效率。"
-				"蒸汽引擎输出的转速由锅炉运行状态和蒸汽引擎个数与等级之比决定，在 16RPM ~ 64RPM 之间。"
+				"{ftbquests.chapter.create.quest9085184306897025559.description1}"
+				""
+				"{ftbquests.chapter.create.quest9085184306897025559.description2}"
+				""
+				"{ftbquests.chapter.create.quest9085184306897025559.description3}"
+				""
+				"{ftbquests.chapter.create.quest9085184306897025559.description4}"
+				""
+				"{ftbquests.chapter.create.quest9085184306897025559.description5}"
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.create.quest9085184306897025559.description6}"
+				""
+				"{ftbquests.chapter.create.quest9085184306897025559.description7}"
+				""
+				"{ftbquests.chapter.create.quest9085184306897025559.description8}"
+				""
+				"{ftbquests.chapter.create.quest9085184306897025559.description9}"
 			]
 			icon: "create:steam_engine"
 			id: "7E150EFDE38CFA17"
@@ -889,7 +898,7 @@
 					type: "item"
 				}
 			]
-			title: "小Tips"
+			title: "{ftbquests.chapter.create.quest9085184306897025559.title}"
 			x: 4.5d
 			y: 11.0d
 		}
@@ -901,7 +910,7 @@
 				item: "create:brass_casing"
 				type: "item"
 			}]
-			title: "黄铜时代"
+			title: "{ftbquests.chapter.create.quest9004382133489201869.title}"
 			x: 8.5d
 			y: 16.0d
 		}
@@ -938,15 +947,15 @@
 					type: "item"
 				}
 			]
-			title: "这不是黄铜镐……等等，你是谁？"
+			title: "{ftbquests.chapter.create.quest6794524520861267492.title}"
 			x: 9.5d
 			y: 12.0d
 		}
 		{
 			dependencies: ["6348F503BE4D481D"]
 			description: [
-				"在你制作出辊压机之前唯一能制作的工作元件。"
-				"可以增产染料等物品，最重要的是能将小麦磨成粉。"
+				"{ftbquests.chapter.create.quest2189913235778968610.description1}"
+				"{ftbquests.chapter.create.quest2189913235778968610.description2}"
 			]
 			id: "1E64227C3B881C22"
 			tasks: [{
@@ -954,26 +963,26 @@
 				item: "create:millstone"
 				type: "item"
 			}]
-			title: "碾碎他们"
+			title: "{ftbquests.chapter.create.quest2189913235778968610.title}"
 			x: -3.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["1E64227C3B881C22"]
-			description: ["获取黄绿色染料或绿色染料将不再是个难题。"]
+			description: ["{ftbquests.chapter.create.quest6824017180624777354.description1}"]
 			id: "5EB3C778784D708A"
 			tasks: [{
 				id: "7E5C0B18B10C41D9"
 				item: "minecraft:lime_dye"
 				type: "item"
 			}]
-			title: "绿油油的"
+			title: "{ftbquests.chapter.create.quest6824017180624777354.title}"
 			x: -4.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["1ABA9FC6BC3C3796"]
-			description: ["将小麦粉与水桶合成获得面团，这个合成返还空桶。"]
+			description: ["{ftbquests.chapter.create.quest831851804509971813.description1}"]
 			id: "0B8B54CF1195A565"
 			tasks: [{
 				id: "560B67604BF395B8"
@@ -984,10 +993,10 @@
 						value: "forge:dough"
 					}
 				}
-				title: "Any #forge:dough"
+				title: "{ftbquests.chapter.create.quest831851804509971813.task.6200162975294395832.title}"
 				type: "item"
 			}]
-			title: "面团"
+			title: "{ftbquests.chapter.create.quest831851804509971813.title}"
 			x: -6.0d
 			y: 9.5d
 		}
@@ -997,9 +1006,9 @@
 				"5EB3C778784D708A"
 			]
 			description: [
-				"在机械动力中你不需要像原版那样生产大量黏液球，也许一组就够了。"
-				"手持黏液球右键可对轴向底盘的轴向面和径向底盘的周面上胶，该过程不消耗黏液球，上胶的面可以粘连紧贴的同种方块，粘连个数可手持扳手对底盘非粘连面调整。"
-				"手持黏液球右键两次可以在背面也进行上胶操作。"
+				"{ftbquests.chapter.create.quest4393962753240134114.description1}"
+				"{ftbquests.chapter.create.quest4393962753240134114.description2}"
+				"{ftbquests.chapter.create.quest4393962753240134114.description3}"
 			]
 			id: "3CFA7DD8072CF1E2"
 			tasks: [{
@@ -1012,14 +1021,14 @@
 		}
 		{
 			dependencies: ["1E64227C3B881C22"]
-			description: ["将小麦从石磨上方丢入，待研磨完成后空手右键石磨取出。"]
+			description: ["{ftbquests.chapter.create.quest1926027466564712342.description1}"]
 			id: "1ABA9FC6BC3C3796"
 			tasks: [{
 				id: "4936E68832A7385A"
 				item: "create:wheat_flour"
 				type: "item"
 			}]
-			title: "面粉"
+			title: "{ftbquests.chapter.create.quest1926027466564712342.title}"
 			x: -4.5d
 			y: 9.5d
 		}
@@ -1028,12 +1037,12 @@
 				"7821105FB757B470"
 				"43D8AB0776605339"
 			]
-			description: ["从现在开始，你可以试着自己做一条自动化产线了。"]
+			description: ["{ftbquests.chapter.create.quest5551272236454844142.description1}"]
 			id: "4D0A14AFE96116EE"
 			shape: "square"
 			tasks: [{
 				id: "39EB00DDE5F60DF2"
-				title: "真正的开始"
+				title: "{ftbquests.chapter.create.quest5551272236454844142.task.4173430432734776818.title}"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -1041,7 +1050,7 @@
 		}
 		{
 			dependencies: ["4D0A14AFE96116EE"]
-			description: ["现在你已经有能力搭建各种机械动力机器了，接下来的任务奖不再带领玩家制作各元件，只向玩家介绍各元件的功能。"]
+			description: ["{ftbquests.chapter.create.quest4906207437451472916.description1}"]
 			id: "441659AB8FACB014"
 			shape: "square"
 			tasks: [{
@@ -1055,12 +1064,12 @@
 		{
 			dependencies: ["3CFA7DD8072CF1E2"]
 			description: [
-				"可以将方块和方块粘在一起，在制作风车或多方块矿车的时候非常有用。"
-				"对方块右击可以设定第一坐标，随后于第二个方块右击，将两点为顶的矩形体内的方块全部粘连。手持强力胶指向的方块时高亮该方块粘连的其他所有方块。"
-				"当强力胶放在副手时，会自动将主手放置的方块与点击的方块粘连。"
-				"当方块成为动态结构时，会带动所有粘连的方块。"
-				"对被上胶的方块矩形体内任意一点左击即可取消矩形体内所有粘连。"
-				"在对轴向底盘的轴向面和径向底盘的周面上胶时操作与黏液球相同，并且不消耗耐久。"
+				"{ftbquests.chapter.create.quest4118590896624951285.description1}"
+				"{ftbquests.chapter.create.quest4118590896624951285.description2}"
+				"{ftbquests.chapter.create.quest4118590896624951285.description3}"
+				"{ftbquests.chapter.create.quest4118590896624951285.description4}"
+				"{ftbquests.chapter.create.quest4118590896624951285.description5}"
+				"{ftbquests.chapter.create.quest4118590896624951285.description6}"
 			]
 			id: "39282C99687CDFF5"
 			tasks: [{
@@ -1107,7 +1116,7 @@
 					type: "item"
 				}
 			]
-			title: "工作元件"
+			title: "{ftbquests.chapter.create.quest2105685840946469108.title}"
 			x: -5.0d
 			y: 22.5d
 		}
@@ -1116,7 +1125,7 @@
 			id: "192E44857CF6D97E"
 			tasks: [{
 				id: "5EE595FDCB0C17DF"
-				title: "红石控制"
+				title: "{ftbquests.chapter.create.quest1814463039994780030.task.6838036526497798111.title}"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -1127,7 +1136,7 @@
 			id: "14D0CF503E4623CE"
 			tasks: [{
 				id: "6EF8BFD08B783F1C"
-				title: "物流系统"
+				title: "{ftbquests.chapter.create.quest1499926619463492558.task.7996352040810331932.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -1148,7 +1157,7 @@
 					type: "item"
 				}
 			]
-			title: "动态结构"
+			title: "{ftbquests.chapter.create.quest5686901794689681707.title}"
 			x: 2.0d
 			y: 22.5d
 		}
@@ -1157,7 +1166,7 @@
 			id: "457092707832BB87"
 			tasks: [{
 				id: "7B58DDDF8756EB09"
-				title: "蓝图系统"
+				title: "{ftbquests.chapter.create.quest5003660197759204231.task.8888097816733739785.title}"
 				type: "checkmark"
 			}]
 			x: -9.0d
@@ -1179,11 +1188,11 @@
 				}
 				{
 					id: "66FD2CF6B6C99C7E"
-					title: "制作任一轨道，或者选择跨越"
+					title: "{ftbquests.chapter.create.quest7570121893153831798.task.7421137199116688510.title}"
 					type: "checkmark"
 				}
 			]
-			title: "汽笛轰鸣"
+			title: "{ftbquests.chapter.create.quest7570121893153831798.title}"
 			x: 6.0d
 			y: 24.5d
 		}
@@ -1202,7 +1211,7 @@
 		}
 		{
 			dependencies: ["377A792BA9C60871"]
-			description: ["转速控制器只能用大齿轮传递应力，右键调整输出转速。"]
+			description: ["{ftbquests.chapter.create.quest1813481287052813876.description1}"]
 			id: "192AC79F5199E634"
 			tasks: [{
 				id: "67BEB973993805E5"
@@ -1226,12 +1235,12 @@
 		{
 			dependencies: ["7960D97A6163B412"]
 			description: [
-				"在鼓风机前放置水/含水方块可以批量水洗物品，放置岩浆可以批量熔炼物品，放置篝火/烈焰人燃烧室/点燃的空的烈焰人燃烧室或点燃火可以批量烟熏物品，放置灵魂篝火/替换了灵魂土/灵魂沙的点燃的空的烈焰人燃烧室或者点燃灵魂火可以批量缠魂物品。"
-				"鼓风机可以批量处理鼓风方向上的所有掉落物以及放置在置物台上的物品，因此它可以同时处理大量物品。"
+				"{ftbquests.chapter.create.quest3707153826880523694.description1}"
+				"{ftbquests.chapter.create.quest3707153826880523694.description2}"
 				""
-				"这意味着什么？"
+				"{ftbquests.chapter.create.quest3707153826880523694.description3}"
 				""
-				"对了，别忘了试试这个触媒。"
+				"{ftbquests.chapter.create.quest3707153826880523694.description4}"
 			]
 			id: "337274C3A2F18DAE"
 			tasks: [
@@ -1251,13 +1260,13 @@
 					type: "item"
 				}
 			]
-			title: "批量处理"
+			title: "{ftbquests.chapter.create.quest3707153826880523694.title}"
 			x: -1.5d
 			y: 18.5d
 		}
 		{
 			dependencies: ["76C9C94DDEF5ACF4"]
-			description: ["行为与传动杆相同。佩戴护目镜的情况下可以在速度表上看到该轴的转速，在应力表上看到该应力网络的应力使用情况。"]
+			description: ["{ftbquests.chapter.create.quest2130891804466305037.description1}"]
 			id: "1D9272CE6401580D"
 			tasks: [
 				{
@@ -1289,21 +1298,21 @@
 		{
 			dependencies: ["1D38E61DAE2F18F4"]
 			description: [
-				"此模组添加了：木、石、铁、金、钻石、下界合金共 6 种材料的动力钻头。"
-				"以普通动力钻头的挖掘速度为 1 计算："
-				"    木制动力钻为 3；"
-				"    石制动力钻为 2；"
-				"    铁制动力钻为 1；"
-				"    金制动力钻为 0.5；"
-				"    钻石动力钻为 0.75；"
-				"    下界合金动力钻为 0.67。"
-				"每种材料的挖掘等级与相同材料的镐对应。"
+				"{ftbquests.chapter.create.quest858010820817865487.description1}"
+				"{ftbquests.chapter.create.quest858010820817865487.description2}"
+				"{ftbquests.chapter.create.quest858010820817865487.description3}"
+				"{ftbquests.chapter.create.quest858010820817865487.description4}"
+				"{ftbquests.chapter.create.quest858010820817865487.description5}"
+				"{ftbquests.chapter.create.quest858010820817865487.description6}"
+				"{ftbquests.chapter.create.quest858010820817865487.description7}"
+				"{ftbquests.chapter.create.quest858010820817865487.description8}"
+				"{ftbquests.chapter.create.quest858010820817865487.description9}"
 				""
-				"同时添加了附魔效果钻头，可以使用机械手为本 Mod 钻头安装红石粉、石英粉、绿宝石粉或紫水晶粉实现："
-				"    红石粉：时运 I；"
-				"    石英粉：时运 II；"
-				"    绿宝石粉：时运 III；"
-				"    紫水晶粉：精准采集。"
+				"{ftbquests.chapter.create.quest858010820817865487.description10}"
+				"{ftbquests.chapter.create.quest858010820817865487.description11}"
+				"{ftbquests.chapter.create.quest858010820817865487.description12}"
+				"{ftbquests.chapter.create.quest858010820817865487.description13}"
+				"{ftbquests.chapter.create.quest858010820817865487.description14}"
 			]
 			id: "0BE8444BAC4A4B0F"
 			tasks: [
@@ -1328,7 +1337,7 @@
 					type: "item"
 				}
 			]
-			title: "更多钻头"
+			title: "{ftbquests.chapter.create.quest858010820817865487.title}"
 			x: -7.0d
 			y: 22.5d
 		}
@@ -1368,7 +1377,7 @@
 					type: "item"
 				}
 			]
-			title: "更多投影"
+			title: "{ftbquests.chapter.create.quest902434318424035154.title}"
 			x: -10.0d
 			y: 26.0d
 		}
@@ -1413,7 +1422,7 @@
 					type: "item"
 				}
 			]
-			title: "你是布线大师吗"
+			title: "{ftbquests.chapter.create.quest8147923521395416701.title}"
 			x: -7.0d
 			y: 26.5d
 		}
@@ -1437,7 +1446,7 @@
 					type: "item"
 				}
 			]
-			title: "更多侦测器"
+			title: "{ftbquests.chapter.create.quest2755036688541395474.title}"
 			x: -3.0d
 			y: 26.5d
 		}
@@ -1474,11 +1483,11 @@
 							value: "createdeco:placards"
 						}
 					}
-					title: "Any #createdeco:placards"
+					title: "{ftbquests.chapter.create.quest4288636357818253142.task.3025899557624171989.title}"
 					type: "item"
 				}
 			]
-			title: "无线遥控"
+			title: "{ftbquests.chapter.create.quest4288636357818253142.title}"
 			x: -4.0d
 			y: 27.5d
 		}
@@ -1502,7 +1511,7 @@
 					type: "item"
 				}
 			]
-			title: "可视化"
+			title: "{ftbquests.chapter.create.quest589139446235219180.title}"
 			x: -6.0d
 			y: 25.5d
 		}
@@ -1531,7 +1540,7 @@
 					type: "item"
 				}
 			]
-			title: "操纵应力"
+			title: "{ftbquests.chapter.create.quest4410200195893076848.title}"
 			x: -5.0d
 			y: 28.5d
 		}
@@ -1588,26 +1597,26 @@
 					type: "item"
 				}
 			]
-			title: "小玩具"
+			title: "{ftbquests.chapter.create.quest7349031266957034368.title}"
 			x: -2.5d
 			y: 31.0d
 		}
 		{
 			dependencies: ["377A792BA9C60871"]
-			description: ["飞行锚可以让一定范围内的玩家拥有创造飞行的能力，范围与转速成正比。"]
+			description: ["{ftbquests.chapter.create.quest921935946687090307.description1}"]
 			id: "0CCB5FDBDFF28E83"
 			tasks: [{
 				id: "6027C766C0D50619"
 				item: "balancedflight:flight_anchor"
 				type: "item"
 			}]
-			title: "模组服略有失重感"
+			title: "{ftbquests.chapter.create.quest921935946687090307.title}"
 			x: -0.5d
 			y: 31.0d
 		}
 		{
 			dependencies: ["3CFA7DD8072CF1E2"]
-			description: ["机械动力中用到最少的元件之一，接收到红石信号后改变黏着状态。"]
+			description: ["{ftbquests.chapter.create.quest3517139181884117568.description1}"]
 			id: "30CF637389CF9240"
 			tasks: [{
 				id: "3DBEC7ABA608879A"
@@ -1620,12 +1629,12 @@
 		{
 			dependencies: ["1D38E61DAE2F18F4"]
 			description: [
-				"&c读卡器(Card Reader)&r用于辨别磁卡的真伪。首次使用时需使用磁卡右键绑定。识别到正确的磁卡后会发出强度为15的红石信号，持续3秒。使用黄铜瓦右键此方块可以隐藏后面的方块，可以用来隐藏红石线路。"
-				"&c写磁器(Card Inscriber)&r与&c空磁卡(Empty Card)&r搭配使用。在内部放入空磁卡，墨囊与命名牌来写入磁卡。"
-				"已经写入的磁卡无法覆盖。"
-				"&c洒水器(Sprinkler)&r用于加速周围5*5的区域作物生长。将骨粉与水在工作盆中搅拌，再泵入洒水器中，洒水器满1000mB&c骨粉(Bonemeal)&r后自动开始工作。"
-				"&c黄铜扬声器(Brass Speaker)&r接收红石信号后会向作用范围内的玩家播放一段音频，同时会发送一段\"[speaker]\"+\"自定义信息\"的消息。作用范围为以方块自身为中心，半径为10的球型。自定义消息使用改名的命名牌添加。"
-				"&c雷达(Radar)&r可以显示周围实体的位置。"
+				"{ftbquests.chapter.create.quest6564895868397522381.description1}"
+				"{ftbquests.chapter.create.quest6564895868397522381.description2}"
+				"{ftbquests.chapter.create.quest6564895868397522381.description3}"
+				"{ftbquests.chapter.create.quest6564895868397522381.description4}"
+				"{ftbquests.chapter.create.quest6564895868397522381.description5}"
+				"{ftbquests.chapter.create.quest6564895868397522381.description6}"
 			]
 			id: "5B1B32028F438DCD"
 			tasks: [
@@ -1660,7 +1669,7 @@
 					type: "item"
 				}
 			]
-			title: "学生卡"
+			title: "{ftbquests.chapter.create.quest6564895868397522381.title}"
 			x: -5.0d
 			y: 20.5d
 		}
@@ -1699,7 +1708,7 @@
 					type: "item"
 				}
 			]
-			title: "物流时代"
+			title: "{ftbquests.chapter.create.quest4885441190707230403.title}"
 			x: 4.0d
 			y: 26.5d
 		}
@@ -1752,7 +1761,7 @@
 		}
 		{
 			dependencies: ["4EEBEF0D4102892B"]
-			description: ["活塞多方块结构沿活塞杆轴向运动，途中碰到方块会停止运动。"]
+			description: ["{ftbquests.chapter.create.quest8770930690557881160.description1}"]
 			id: "79B89AFE20462B48"
 			tasks: [
 				{
@@ -1773,13 +1782,13 @@
 					type: "item"
 				}
 			]
-			title: "动力活塞"
+			title: "{ftbquests.chapter.create.quest8770930690557881160.title}"
 			x: 2.0d
 			y: 20.5d
 		}
 		{
 			dependencies: ["4EEBEF0D4102892B"]
-			description: ["轴承多方块结构做圆周运动，途中多方块结构可以穿越方块。"]
+			description: ["{ftbquests.chapter.create.quest7239446609694284137.description1}"]
 			id: "6477AE55D53BD969"
 			tasks: [
 				{
@@ -1793,13 +1802,13 @@
 					type: "item"
 				}
 			]
-			title: "轴承"
+			title: "{ftbquests.chapter.create.quest7239446609694284137.title}"
 			x: 0.0d
 			y: 22.5d
 		}
 		{
 			dependencies: ["4EEBEF0D4102892B"]
-			description: ["滑轮多方块结构可以在y轴方向上运动，途中碰到方块会停止运动。"]
+			description: ["{ftbquests.chapter.create.quest6010214954619286101.description1}"]
 			id: "536892A861D2B255"
 			tasks: [
 				{
@@ -1813,13 +1822,13 @@
 					type: "item"
 				}
 			]
-			title: "绳索滑轮"
+			title: "{ftbquests.chapter.create.quest6010214954619286101.title}"
 			x: 0.5d
 			y: 21.0d
 		}
 		{
 			dependencies: ["4EEBEF0D4102892B"]
-			description: ["矿车多方块结构可以沿轨道运动，途中多方块结构可以穿过方块。"]
+			description: ["{ftbquests.chapter.create.quest749139819283308179.description1}"]
 			id: "0A657AB24F7B5E93"
 			tasks: [
 				{
@@ -1838,7 +1847,7 @@
 					type: "item"
 				}
 			]
-			title: "矿车"
+			title: "{ftbquests.chapter.create.quest749139819283308179.title}"
 			x: 3.5d
 			y: 21.0d
 		}
@@ -1876,7 +1885,7 @@
 				"3FBE7415DA61DA8B"
 				"715168C39F095016"
 			]
-			description: ["飞行指环可以让玩家开启创造飞行功能。"]
+			description: ["{ftbquests.chapter.create.quest1087994239079837800.description1}"]
 			id: "0F1954FEFA067068"
 			tasks: [{
 				id: "54ECCAA9C4E40D46"
@@ -1887,7 +1896,7 @@
 			y: 13.5d
 		}
 		{
-			description: ["地位非常尴尬的矿物"]
+			description: ["{ftbquests.chapter.create.quest4355037646741365961.description1}"]
 			id: "3C7033AA6D78E4C9"
 			shape: "square"
 			tasks: [{
@@ -1900,7 +1909,7 @@
 		}
 		{
 			dependencies: ["77102693683E4D96"]
-			description: ["试试制作下界合金碎片自动化产线？"]
+			description: ["{ftbquests.chapter.create.quest3472263415639033235.description1}"]
 			hide_until_deps_complete: true
 			id: "302FF52DFFBFC593"
 			shape: "square"
@@ -1909,7 +1918,7 @@
 				item: "minecraft:netherite_scrap"
 				type: "item"
 			}]
-			title: "来点更硬的"
+			title: "{ftbquests.chapter.create.quest3472263415639033235.title}"
 			x: 13.5d
 			y: 3.5d
 		}
@@ -1929,7 +1938,7 @@
 				"3C7033AA6D78E4C9"
 				"5E4B000D839DF624"
 			]
-			description: ["省下你的钻石"]
+			description: ["{ftbquests.chapter.create.quest6993211190806440553.description1}"]
 			id: "610CE086C34DEA69"
 			tasks: [{
 				id: "2F8476979B579EB9"
@@ -1950,7 +1959,7 @@
 				"0D6619D2116509F6"
 				"715168C39F095016"
 			]
-			description: ["有些贵，但是值得"]
+			description: ["{ftbquests.chapter.create.quest4987355544648905829.description1}"]
 			id: "4536A571975F7465"
 			tasks: [{
 				id: "1080CF0B99CC68F1"
@@ -1986,7 +1995,7 @@
 		}
 		{
 			dependencies: ["77102693683E4D96"]
-			description: ["精准采集紫水晶簇并用粉碎轮粉碎可以增产紫水晶碎片，用镐子在砧板上处理紫水晶块可以将紫水晶块分解成4个紫水晶碎片。"]
+			description: ["{ftbquests.chapter.create.quest4764409341473384566.description1}"]
 			hide_until_deps_complete: true
 			id: "421E950D9B12E876"
 			shape: "square"
@@ -2027,13 +2036,13 @@
 					type: "item"
 				}
 			]
-			title: "虚空时代"
+			title: "{ftbquests.chapter.create.quest3262285811553592941.title}"
 			x: 18.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["2D45F7A94972E66D"]
-			description: ["这些元件可以让玩家能够远距离传递应力、流体、物品和能量。"]
+			description: ["{ftbquests.chapter.create.quest3444346709095491723.description1}"]
 			id: "2FCCC7153EEC288B"
 			tasks: [
 				{
@@ -2084,7 +2093,7 @@
 		}
 		{
 			dependencies: ["4EEBEF0D4102892B"]
-			description: ["起重机多方块结构沿起重机杆轴向运动，途中碰到方块会停止运动。"]
+			description: ["{ftbquests.chapter.create.quest5320111923830602588.description1}"]
 			id: "49D4D59B893E3B5C"
 			tasks: [
 				{
@@ -2098,7 +2107,7 @@
 					type: "item"
 				}
 			]
-			title: "起重机"
+			title: "{ftbquests.chapter.create.quest5320111923830602588.title}"
 			x: 4.0d
 			y: 22.5d
 		}
@@ -2107,11 +2116,11 @@
 				"4408834AAB7F35AB"
 				"337274C3A2F18DAE"
 			]
-			description: ["说实话你应该试试，它真的很有用。"]
+			description: ["{ftbquests.chapter.create.quest1442894209723266885.description1}"]
 			id: "140630A39305F745"
 			tasks: [{
 				id: "58B4125138C4B2EA"
-				title: "批量处理机"
+				title: "{ftbquests.chapter.create.quest1442894209723266885.task.6391753911199642346.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -2119,7 +2128,7 @@
 		}
 		{
 			dependencies: ["7B484370EAEBC8EC"]
-			description: ["创意传动附属为机械动力添加了更多传动元件，布线不再是个难题（或许"]
+			description: ["{ftbquests.chapter.create.quest1424952179830118585.description1}"]
 			id: "13C6727534B158B9"
 			tasks: [
 				{
@@ -2148,13 +2157,13 @@
 					type: "item"
 				}
 			]
-			title: "更方便的传动"
+			title: "{ftbquests.chapter.create.quest1424952179830118585.title}"
 			x: -6.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["338018BA42955654"]
-			description: ["这两个罐子终于能改方向了。"]
+			description: ["{ftbquests.chapter.create.quest5746770931646356722.description1}"]
 			id: "4FC0A1B6F2525CF2"
 			tasks: [
 				{
@@ -2173,11 +2182,11 @@
 		}
 		{
 			dependencies: ["192E44857CF6D97E"]
-			description: ["创意传动添加的不只有更多的传动方式，还有更多控制应力网络的方法。"]
+			description: ["{ftbquests.chapter.create.quest1224969253605903139.description1}"]
 			id: "10FFF70BC5F48B23"
 			tasks: [{
 				id: "771942D09614639B"
-				title: "掌控你的应力"
+				title: "{ftbquests.chapter.create.quest1224969253605903139.task.8581964028569740187.title}"
 				type: "checkmark"
 			}]
 			x: -7.0d
@@ -2208,13 +2217,13 @@
 					type: "item"
 				}
 			]
-			title: "更多离合器"
+			title: "{ftbquests.chapter.create.quest2937443313806178662.title}"
 			x: -8.0d
 			y: 30.0d
 		}
 		{
 			dependencies: ["192AC79F5199E634"]
-			description: ["唯一缺点就是太贵。"]
+			description: ["{ftbquests.chapter.create.quest477882809532370812.description1}"]
 			id: "06A1C7E222714F7C"
 			tasks: [
 				{
@@ -2230,13 +2239,13 @@
 					type: "item"
 				}
 			]
-			title: "更好的十字齿轮箱"
+			title: "{ftbquests.chapter.create.quest477882809532370812.title}"
 			x: 2.0d
 			y: 29.5d
 		}
 		{
 			dependencies: ["10FFF70BC5F48B23"]
-			description: ["立即停止"]
+			description: ["{ftbquests.chapter.create.quest4915933739292676002.description1}"]
 			id: "4438E7B0ADE5CFA2"
 			tasks: [{
 				id: "0BD129DFCEEAE16E"
@@ -2261,15 +2270,15 @@
 					type: "item"
 				}
 			]
-			title: "更多红石控制"
+			title: "{ftbquests.chapter.create.quest8060745261375575597.title}"
 			x: -6.0d
 			y: 30.0d
 		}
 		{
 			dependencies: ["43CC92E0F72A76C3"]
 			description: [
-				"库存访问端口可以智能改变存储空间与漏斗等元件的连接方向。"
-				"库存桥接器可以让漏斗等元件同时访问两个存储空间。"
+				"{ftbquests.chapter.create.quest1016846005516529634.description1}"
+				"{ftbquests.chapter.create.quest1016846005516529634.description2}"
 			]
 			id: "0E1C900DF6166FE2"
 			tasks: [
@@ -2284,93 +2293,93 @@
 					type: "item"
 				}
 			]
-			title: "管理存储"
+			title: "{ftbquests.chapter.create.quest1016846005516529634.title}"
 			x: 6.0d
 			y: 26.5d
 		}
 		{
 			dependencies: ["690E79C0EBD77B76"]
 			description: [
-				"&6放置列车站与转向架"
+				"{ftbquests.chapter.create.quest8377065966416742284.description1}"
 				""
-				"放置列车站之前需要对一个列车轨道右击以将其设置为目标。随后可以将列车站放在目标列车轨道附近的任意位置。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description2}"
 				""
-				"右击列车站以打开 GUI，然后点击“创建新列车”按钮，这时列车站会升起一面蓝色旗子。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description3}"
 				""
-				"列车站后方会有一个列车轨道出现蓝色标记，使用列车机壳对标记右击即可创建一个转向架。在第一个转向架创建后，玩家能够在其后方创建更多转向架。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description4}"
 				""
-				"玩家可以在转向架上搭建结构，并确保结构保持粘合并带有一个列车驾驶台。搭建完成后，可在 GUI 将方块结构组装为列车结构，所有转向架将会被连接。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description5}"
 				""
-				"列车站的目标轨道为弯道时，列车不能被创建。"
-				""
-				"{@pagebreak}"
-				"&6创建列车"
-				""
-				"列车结构需要使用强力胶粘合，且必须有一个向前的列车驾驶台。"
-				""
-				"要使生物驾驶列车，必须将坐垫或烈焰人燃烧室放到列车驾驶台前。"
-				""
-				"可以在一个列车结构上安装两个列车驾驶台来使其能够双向驾驶。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description6}"
 				""
 				"{@pagebreak}"
-				"&6列车进站"
+				"{ftbquests.chapter.create.quest8377065966416742284.description7}"
 				""
-				"玩家操控列车时，如前方的轨道存在列车站，能够长按空格键驶进站点。也可以使用列车时刻表让列车驶进列车站，但列车方向必须与列车站方向相同。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description8}"
 				""
-				"当列车站的名称相同时，会被认为是同一个车站的不同站台，列车会选择空的站台停靠。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description9}"
 				""
-				"在站点的 GUI 里，可以设置当列车靠站时开启哪一侧的车门。"
-				""
-				"列车驶进列车站后，列车站会升起一面红色旗子。"
-				""
-				"列车驶进列车站后，玩家可以点击 GUI 中的“拆解列车”来将列车拆解为方块状态。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description10}"
 				""
 				"{@pagebreak}"
-				"&6操控列车"
+				"{ftbquests.chapter.create.quest8377065966416742284.description11}"
 				""
-				"组装列车后，列车驾驶台会出现两个控制杆。玩家可以右击列车驾驶台来进入控制状态。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description12}"
 				""
-				"进入操控状态后，玩家的经验条会被替换为速度条。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description13}"
 				""
-				"此时玩家能够使用移动键（WASD）操控列车的移动，速度条显示着目前列车的速度。速度条分为 18 节，并分为五个阶段。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description14}"
 				""
-				"当列车转弯时，速度会被降低。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description15}"
 				""
-				"滑动滚轮可以调节速度的上限，速度上限以黄铜滑块的位置表示。"
-				""
-				"速度条上方的箭头代表着火车的前进方向在玩家视角中的方向。"
-				""
-				"如列车上装有汽笛，按 Ctrl 键可鸣笛。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description16}"
 				""
 				"{@pagebreak}"
-				"&6连挂列车"
+				"{ftbquests.chapter.create.quest8377065966416742284.description17}"
 				""
-				"右击一个列车轨道，然后在其附近放置连挂器。如果轨道长度合适，那么连挂器会在轨道上生成两个钩位，其中一个在开始选择的轨道上，另一个在玩家视角所朝方向的轨道上。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description18}"
 				""
-				"钩位成对存在，它们的绿色标志朝向内侧，红色标志朝向外侧。并且钩位可以与其他列车元件共存，它的图标会在共存时往两侧移动。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description19}"
 				""
-				"手执扳手时，玩家可以在连挂器顶部配置两个钩位之间的距离，单位为米。钩位之间的距离默认为 5m，最短为 3m，最长为 15m。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description20}"
 				""
-				"同时，玩家可以手执扳手右击连挂器来更改其模式，模式可以观察它和钩位的纹理或佩戴 &e工程师护目镜&r 来确定。手持扳手时准心指向列车连挂器或其钩位时，两者及之间的连线会高亮显示。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description21}"
+				""
+				"{ftbquests.chapter.create.quest8377065966416742284.description22}"
+				""
+				"{ftbquests.chapter.create.quest8377065966416742284.description23}"
+				""
+				"{ftbquests.chapter.create.quest8377065966416742284.description24}"
 				""
 				"{@pagebreak}"
-				"&6连挂列车2"
+				"{ftbquests.chapter.create.quest8377065966416742284.description25}"
 				""
-				"进行连挂作业前，先要将需要处理的列车停稳。首先，相邻车厢的相邻转向架都要在钩位正上方，可以使用列车站来辅助列车对齐，但列车不一定要停靠在列车站。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description26}"
 				""
-				"列车对齐后，充能连挂器即可完成连挂或摘车作业（取决于其模式和车厢间的具体关系）。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description27}"
 				""
-				"两列车连挂后，位于后方的列车将转化为位于前方的列车的一部分，列车ID丢失，携带的列车时刻表将于其对应钩位处掉落，被分配的列车时刻表将被废弃。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description28}"
 				""
-				"若位于后方的列车靠近钩位的转向架在摘车时处于列车站标志后方一格（如连挂时使用列车站辅助对齐的情况），则位于后方的列车将自动视为停靠于该列车站。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description29}"
 				""
-				"在使用列车站创建新列车时，我们规定列车站所指的方向为列车的前方或正向。"
+				"{@pagebreak}"
+				"{ftbquests.chapter.create.quest8377065966416742284.description30}"
 				""
-				"摘车时，位于前方的列车名称不变，位于后方（与前方相对，即远离列车正向的一侧）的列车名称变为“Split off from: 原列车名”。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description31}"
 				""
-				"连挂时，会选择位于前方的列车的名称作为新列车的名称。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description32}"
 				""
-				"列车连挂器可以作为显示链接器的数据来源。"
+				"{ftbquests.chapter.create.quest8377065966416742284.description33}"
+				""
+				"{ftbquests.chapter.create.quest8377065966416742284.description34}"
+				""
+				"{ftbquests.chapter.create.quest8377065966416742284.description35}"
+				""
+				"{ftbquests.chapter.create.quest8377065966416742284.description36}"
+				""
+				"{ftbquests.chapter.create.quest8377065966416742284.description37}"
+				""
+				"{ftbquests.chapter.create.quest8377065966416742284.description38}"
 			]
 			id: "7441511CE448C78C"
 			tasks: [
@@ -2385,51 +2394,51 @@
 					type: "item"
 				}
 			]
-			title: "组装列车"
+			title: "{ftbquests.chapter.create.quest8377065966416742284.title}"
 			x: 9.0d
 			y: 24.5d
 		}
 		{
 			dependencies: ["7441511CE448C78C"]
 			description: [
-				"列车时刻表用于指挥列车司机，将配置好的列车时刻表交给列车司机，列车便会在司机的驾驶下自行开始运转，任何生物与烈焰人燃烧室皆可以成为司机。"
+				"{ftbquests.chapter.create.quest4088471462206902759.description1}"
 				""
-				"右键可打开 GUI，可以为列车创建时刻表。可在上方设定列车行程，下方三个按钮分别为：是/否循环、重置进程、跳过当前进程。其中后两个按钮只在列车出发后可用。"
-				"点击加号即可添加行程或行为，有五种模式：前往车站、更新时刻表标题、限制最高速度、充能红石信号和经站路径点。"
-				"如选择“前往车站”，则可以设定到达目标车站后列车需要达成指定条件才可进行下一步。"
-				"列车发车需满足任一列的所有条件，而非同一行。"
-				"当有重名车站时，列车会选择最近且当前无占用的站台停车。"
-				""
-				"{@pagebreak}"
-				"放置列车信号机之前需要对一个列车轨道右击以将其设置为目标。随后可以将列车信号机放在目标列车轨道附近的任意位置。"
-				""
-				"列车信号机能够限制轨道在区间上的行驶方向，玩家不能使用列车时刻表让列车通过反方向的轨道。但在一个轨道上同时设置两个相反方向的列车信号机能够使其双向通行。"
-				""
-				"列车信号机会将前后的轨道划分为不同的“区间”。"
-				"手持列车信号机能够查看被划分的区间，相同颜色且相连的轨道段为一个区间。"
-				""
-				"列车信号机能够保证每一个区间内只有一辆列车，以防列车相撞的发生。如果一个区间的列车未驶走，列车信号机会阻止后方区间的其他列车驶进这个区间。"
-				"列车信号机侧面的指示灯表示了列车信号机的状态，在侧面放置辉光管能够使信号更显眼。"
-				"其状态控制着列车的行为："
-				"    常亮/辉光管红灯常亮：前方的区间内存在列车，且影响后方列车前进。不通行。"
-				"    常亮/辉光管红灯常亮：被红石信号锁定。不通行。"
-				"    闪烁/辉光管红灯闪烁：该区间无效，因为轨道段连成了一个环。通行。"
-				"    熄灭/辉光管白灯常亮：前方的区间不存在列车。通行。"
-				""
-				"使用扳手对列车信号机右击能够将其设为“黄铜”模式，此时列车信号机会考虑前方两个区间。"
-				"即列车可以立即通过前方区间时放行，这有助于解决列车堵塞在十字路口的问题。"
-				"当列车信号机处在“黄铜”模式时，可能出现常亮黄灯显示，表示前方第一区间所有分岔路径中有一个或以上显示常亮红灯，但并非全部。"
-				"如果所有分岔路径都显示常亮红灯，则信号机也会显示常亮红灯。"
-				""
-				"红色信号状态的列车信号机可以通过比较器发出红石信号。"
+				"{ftbquests.chapter.create.quest4088471462206902759.description2}"
+				"{ftbquests.chapter.create.quest4088471462206902759.description3}"
+				"{ftbquests.chapter.create.quest4088471462206902759.description4}"
+				"{ftbquests.chapter.create.quest4088471462206902759.description5}"
+				"{ftbquests.chapter.create.quest4088471462206902759.description6}"
 				""
 				"{@pagebreak}"
-				"在放置列车侦测器之前须对一个列车轨道右击，以为其设置目标列车轨道。"
+				"{ftbquests.chapter.create.quest4088471462206902759.description7}"
 				""
-				"当列车经过列车侦测器的目标轨道时，列车侦测器会持续发出红石信号直到列车离开。"
-				"发出信号时侧面指示灯会亮起。"
+				"{ftbquests.chapter.create.quest4088471462206902759.description8}"
 				""
-				"使用物品/过滤器 对其右击以设置货品过滤，当载有目标货品的列车在列车侦测器的轨道上经过时才发出红石信号。"
+				"{ftbquests.chapter.create.quest4088471462206902759.description9}"
+				"{ftbquests.chapter.create.quest4088471462206902759.description10}"
+				""
+				"{ftbquests.chapter.create.quest4088471462206902759.description11}"
+				"{ftbquests.chapter.create.quest4088471462206902759.description12}"
+				"{ftbquests.chapter.create.quest4088471462206902759.description13}"
+				"{ftbquests.chapter.create.quest4088471462206902759.description14}"
+				"{ftbquests.chapter.create.quest4088471462206902759.description15}"
+				"{ftbquests.chapter.create.quest4088471462206902759.description16}"
+				"{ftbquests.chapter.create.quest4088471462206902759.description17}"
+				""
+				"{ftbquests.chapter.create.quest4088471462206902759.description18}"
+				"{ftbquests.chapter.create.quest4088471462206902759.description19}"
+				"{ftbquests.chapter.create.quest4088471462206902759.description20}"
+				"{ftbquests.chapter.create.quest4088471462206902759.description21}"
+				""
+				"{ftbquests.chapter.create.quest4088471462206902759.description22}"
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.create.quest4088471462206902759.description23}"
+				""
+				"{ftbquests.chapter.create.quest4088471462206902759.description24}"
+				"{ftbquests.chapter.create.quest4088471462206902759.description25}"
+				""
+				"{ftbquests.chapter.create.quest4088471462206902759.description26}"
 			]
 			id: "38BD2B221B2A11E7"
 			tasks: [
@@ -2455,9 +2464,9 @@
 		{
 			dependencies: ["0EBD1283D2D956B1"]
 			description: [
-				"把烹饪指南交给你的烈焰人，让它成为大厨！烈焰人炉灶可以为厨具（厨锅，茶壶，铜锅）提供动力臂自动化支持。烈焰人炉灶还能给上方的厨具的烹饪加速至最快4倍！"
+				"{ftbquests.chapter.create.quest8697440134350768791.description1}"
 				""
-				"同样把附魔指南交给烈焰人，让它成为附魔师！烈焰人附魔室可以自动化添加指定附魔。"
+				"{ftbquests.chapter.create.quest8697440134350768791.description2}"
 			]
 			id: "78B383B89F340A97"
 			tasks: [
@@ -2478,32 +2487,32 @@
 					type: "item"
 				}
 			]
-			title: "预制菜"
+			title: "{ftbquests.chapter.create.quest8697440134350768791.title}"
 			x: 4.5d
 			y: 17.0d
 		}
 		{
 			dependencies: ["2565AA512F1494B1"]
 			description: [
-				"祛魔池用于祛除附魔物品的非诅咒魔咒和从各种来源获得液态经验。"
+				"{ftbquests.chapter.create.quest8355240922680885331.description1}"
 				""
-				"祛魔池可以由侧面的 传送带、漏斗、工作盆 的开口输入物品。也可手持物品右击将物品放上祛魔池。"
-				"祛魔池有两种处理物品的模式：转化和吸收。"
-				"转化：总是消耗 10 tick 的时间处理 1 个物品，并输出产物，物品在经过祛魔池上方时会播放旋转动画，在处理完成时会播放砂轮的音效。如果祛魔池剩余容量不足以接受产生的液态经验，则物品会停留在祛魔池上方等待。"
-				"吸收：总是不消耗时间一次性处理 1 组物品，不输出任何产物，物品在进入祛魔池上方时会直接消失。如果祛魔池剩余容量不足以接受产生的液态经验，则物品会播放翻滚动画并直接经过。"
-				"祛魔池每 10 tick 都会尝试从上方的玩家或经验球吸取经验，并将其转入自己的内部流体存储。"
+				"{ftbquests.chapter.create.quest8355240922680885331.description2}"
+				"{ftbquests.chapter.create.quest8355240922680885331.description3}"
+				"{ftbquests.chapter.create.quest8355240922680885331.description4}"
+				"{ftbquests.chapter.create.quest8355240922680885331.description5}"
+				"{ftbquests.chapter.create.quest8355240922680885331.description6}"
 				""
-				"祛魔池每次最多从玩家身上吸取 100 点经验值。"
+				"{ftbquests.chapter.create.quest8355240922680885331.description7}"
 				""
 				"{@pagebreak}"
-				"打印机是用于复印成书或附魔书的作业元件。"
-				"使用动力泵等流体元件，向打印机内泵入墨水，同时手执成书右击打印机，为其提供复印母版，这时打印机就能对其下方的书进行复印。"
-				"使用动力泵等流体元件，向打印机内泵入液态经验，同时手执附魔书右击，可为下方的书复印与母版相同的附魔。"
-				"请注意，如果母版上任意附魔的等级超过了其最高等级，那么你需要向打印机内泵入液态超经验来完成复印。"
-				"使用动力泵等流体元件，向打印机内泵入墨水，同时手执列车时刻表书右击，可为下方的列车时刻表复印与母版相同的安排。"
-				"使用动力泵等流体元件，向打印机内泵入液态经验，同时手执命名牌右击，可为下方的命名牌复印与母版相同的名字。"
-				"使用动力泵等流体元件，向打印机内泵入液态经验，同时手执命名牌右击，可将下方的物品命名为命名牌的名称。"
-				"使用动力泵等流体元件，向打印机内泵入液态超经验，同时手执古卷右击，可为任意附魔书升级为与母版相同的古卷。"
+				"{ftbquests.chapter.create.quest8355240922680885331.description8}"
+				"{ftbquests.chapter.create.quest8355240922680885331.description9}"
+				"{ftbquests.chapter.create.quest8355240922680885331.description10}"
+				"{ftbquests.chapter.create.quest8355240922680885331.description11}"
+				"{ftbquests.chapter.create.quest8355240922680885331.description12}"
+				"{ftbquests.chapter.create.quest8355240922680885331.description13}"
+				"{ftbquests.chapter.create.quest8355240922680885331.description14}"
+				"{ftbquests.chapter.create.quest8355240922680885331.description15}"
 			]
 			id: "73F3C759E9338053"
 			tasks: [
@@ -2523,7 +2532,7 @@
 		}
 		{
 			dependencies: ["337274C3A2F18DAE"]
-			description: ["在整合包中，你还可以把鼓风机放在龙首后面进行龙息加工，获取一些与末地相关的资源。具体的配方请看 JEI。"]
+			description: ["{ftbquests.chapter.create.quest8883713239980676213.description1}"]
 			id: "7B494A1FB37B9475"
 			rewards: [{
 				id: "4721F29A963A13F4"
@@ -2535,13 +2544,13 @@
 				item: "minecraft:dragon_head"
 				type: "item"
 			}]
-			title: "龙息加工"
+			title: "{ftbquests.chapter.create.quest8883713239980676213.title}"
 			x: -3.0d
 			y: 18.5d
 		}
 		{
 			dependencies: ["38BD2B221B2A11E7"]
-			description: ["更高级的铁车时刻表，可以显示线路与更多的列车信息。"]
+			description: ["{ftbquests.chapter.create.quest5366835295377348021.description1}"]
 			id: "4A7AD44434FED5B5"
 			tasks: [
 				{
@@ -2570,16 +2579,16 @@
 				id: "55B4FE3209DD14F2"
 				type: "checkmark"
 			}]
-			title: "起始任务在左上角"
+			title: "{ftbquests.chapter.create.quest5759910421146460323.title}"
 			x: 3.5d
 			y: 12.5d
 		}
 		{
 			dependencies: ["77102693683E4D96"]
 			description: [
-				"在地下可以发现铀矿，这是核能的核心。"
+				"{ftbquests.chapter.create.quest6679032175303133851.description1}"
 				""
-				"当然，你需要铅来防护辐射。"
+				"{ftbquests.chapter.create.quest6679032175303133851.description2}"
 			]
 			id: "5CB0B0605C590A9B"
 			shape: "square"
@@ -2596,7 +2605,7 @@
 					type: "item"
 				}
 			]
-			title: "I‘m Nuclear！"
+			title: "{ftbquests.chapter.create.quest6679032175303133851.title}"
 			x: 16.0d
 			y: 13.0d
 		}
@@ -2606,15 +2615,15 @@
 				"3FBE7415DA61DA8B"
 			]
 			description: [
-				"反应堆控制器的思索已经说得非常清楚了，照着装就行了。"
+				"{ftbquests.chapter.create.quest3367464725613031972.description1}"
 				""
-				"一个铀棒+25热量，一个碳棒-10热量，一对铀棒相邻+10热量，一对铀棒和碳棒相邻-5热量。"
+				"{ftbquests.chapter.create.quest3367464725613031972.description2}"
 				""
-				"上限 1000 温度，过热后几分钟内爆炸。"
+				"{ftbquests.chapter.create.quest3367464725613031972.description3}"
 				""
-				"摆放方式可以参考任务奖励给的控制蓝图。"
+				"{ftbquests.chapter.create.quest3367464725613031972.description4}"
 				""
-				"&e[WARN]&a核电缺料只会停机；但是过热会炸。请放到远处并使用虚空箱子/马达输入输出。&r"
+				"{ftbquests.chapter.create.quest3367464725613031972.description5}"
 			]
 			id: "2EBBA3538BD2B224"
 			rewards: [{
@@ -3120,24 +3129,24 @@
 					type: "item"
 				}
 			]
-			title: "核电，轻而易举啊！"
+			title: "{ftbquests.chapter.create.quest3367464725613031972.title}"
 			x: 16.0d
 			y: 16.0d
 		}
 		{
 			dependencies: ["338018BA42955654"]
 			description: [
-				"打包机可以紧贴容器内的物品打包成包裹进行运输，提升运输的效率；在打包机上贴上告示牌，可以使包裹带有特定名称，以前往特定的地点。"
+				"{ftbquests.chapter.create.quest7233655342404376660.description1}"
 				""
-				"在打包机上贴上仓储连接器可以构建仓储网络。手持仓储连接器对着已经构建的网络的连接器右键，再贴到另一个打包器上，可以加入网络。"
+				"{ftbquests.chapter.create.quest7233655342404376660.description2}"
 				""
-				"手持发报器对着连接器右键可以加入网络。发报器需要在旁边有一个店长来工作。店长可以是烈焰人燃烧炉或者坐垫上鹦鹉、青蛙、猪、酒狐、baka……等（但是不能是村民）。"
+				"{ftbquests.chapter.create.quest7233655342404376660.description3}"
 				""
-				"右键店长即可管理仓储网络。中央是仓储网络内的物品（数量不一定准确），下方可以填写包裹名进行发报，从网络中的各个打包器中请求需要的物品，以包裹的形式输出到指定地点。"
+				"{ftbquests.chapter.create.quest7233655342404376660.description4}"
 				""
-				"也可以输入 JEI 的配方，此时会输出带有配方的包裹以便合成。"
+				"{ftbquests.chapter.create.quest7233655342404376660.description5}"
 				""
-				"一般会使用物品保险柜或者抽屉作为合适的仓储网络的容器。"
+				"{ftbquests.chapter.create.quest7233655342404376660.description6}"
 			]
 			id: "64631B35579E9854"
 			shape: "gear"
@@ -3159,22 +3168,22 @@
 					type: "item"
 				}
 			]
-			title: "高级物流系统"
+			title: "{ftbquests.chapter.create.quest7233655342404376660.title}"
 			x: 9.0d
 			y: 28.0d
 		}
 		{
 			dependencies: ["64631B35579E9854"]
 			description: [
-				"命名的包裹需要知道它去哪，需要接受它的装置。"
+				"{ftbquests.chapter.create.quest7942786962679173793.description1}"
 				""
-				"货物蛙港可以将其下打包机内的包裹挂到锁链上，并接受与其同名的包裹。对打包机充能可以阻止其接收。"
+				"{ftbquests.chapter.create.quest7942786962679173793.description2}"
 				""
-				"也可以使用包裹筛选器筛选容器/传送带的包裹。"
+				"{ftbquests.chapter.create.quest7942786962679173793.description3}"
 				""
-				"虚空箱子 + 包裹筛选器 = 货物蛙港"
+				"{ftbquests.chapter.create.quest7942786962679173793.description4}"
 				""
-				"邮箱则与列车站绑定，可以在不同区域间用列车运输包裹。"
+				"{ftbquests.chapter.create.quest7942786962679173793.description5}"
 			]
 			id: "6E3A72A8ED1892A1"
 			tasks: [
@@ -3205,20 +3214,20 @@
 					type: "item"
 				}
 			]
-			title: "包裹去哪儿？"
+			title: "{ftbquests.chapter.create.quest7942786962679173793.title}"
 			x: 12.0d
 			y: 28.0d
 		}
 		{
 			dependencies: ["64631B35579E9854"]
 			description: [
-				"工厂仪表使用前也需要右键链接器绑定。它有两种模式：补货和配方。"
+				"{ftbquests.chapter.create.quest2252168583757102907.description1}"
 				""
-				"贴在打包机上时为补货，右键可以设定数量。它会反复向链接器发信，使网络中的打包机输出包含它需要物品的包裹，直到补满。"
+				"{ftbquests.chapter.create.quest2252168583757102907.description2}"
 				""
-				"贴在其他方块上为配方。它规定了流水线的链路，决定某个物品使用什么东西合成以及去哪里合成。你可以使用它来创建一条流水线。右键仪表可以设定数量，在网络内的物品未达到规定值时，他会反复发信，按照设定的规则发包。"
+				"{ftbquests.chapter.create.quest2252168583757102907.description3}"
 				""
-				"配方模式的仪表默认每隔20t（可改）发信一次，且在上一个包裹的产物回到网络内不会再发包。如果需要持续发包或者产物为概率获得，可改变下方的过期时间。如果超时仍未获取到物品，则会再次发包；当然这可能会导致过度发包产生浪费。"
+				"{ftbquests.chapter.create.quest2252168583757102907.description4}"
 			]
 			id: "1F414F64F922FF3B"
 			tasks: [{
@@ -3232,13 +3241,13 @@
 		{
 			dependencies: ["64631B35579E9854"]
 			description: [
-				"手持桌布右键有店长的发报器可以设置其交易物及数量，以及交易包裹的名称（务必设置！）。"
+				"{ftbquests.chapter.create.quest664172232202646631.description1}"
 				""
-				"放下桌布后在正侧可以设置价格和数量。"
+				"{ftbquests.chapter.create.quest664172232202646631.description2}"
 				""
-				"空手右键桌布可以获取购物清单，手持购物清单再右键可以买更多物品。将购物清单交给店长可以结账，然后发报机会请求包含需要物品的包裹。"
+				"{ftbquests.chapter.create.quest664172232202646631.description3}"
 				""
-				"交易得到的物品会存储在结账时的发报机中，可以右键获取，或者直接漏斗溜槽输出。"
+				"{ftbquests.chapter.create.quest664172232202646631.description4}"
 			]
 			id: "09379D20521DF467"
 			tasks: [{
@@ -3252,10 +3261,10 @@
 				}
 				type: "item"
 			}]
-			title: "桌布"
+			title: "{ftbquests.chapter.create.quest664172232202646631.title}"
 			x: 9.0d
 			y: 30.5d
 		}
 	]
-	title: "&e新手机械师"
+	title: "{ftbquests.chapter.create.title}"
 }

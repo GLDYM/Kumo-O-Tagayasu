@@ -18,5 +18,5 @@
 		}
 		{ item: "minecraft:apple", weight: 99.0f }
 	]
-	title: "Eternal"
+	title: "{ftbquests.loot_table.3487538688900904586.title}"
 }
