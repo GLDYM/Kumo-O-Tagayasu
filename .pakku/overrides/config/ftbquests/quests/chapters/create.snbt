@@ -852,13 +852,22 @@
 			]
 			description: [
 				"{ftbquests.chapter.create.quest9085184306897025559.description1}"
+				""
 				"{ftbquests.chapter.create.quest9085184306897025559.description2}"
+				""
 				"{ftbquests.chapter.create.quest9085184306897025559.description3}"
+				""
 				"{ftbquests.chapter.create.quest9085184306897025559.description4}"
+				""
 				"{ftbquests.chapter.create.quest9085184306897025559.description5}"
+				""
+				"{@pagebreak}"
 				"{ftbquests.chapter.create.quest9085184306897025559.description6}"
+				""
 				"{ftbquests.chapter.create.quest9085184306897025559.description7}"
+				""
 				"{ftbquests.chapter.create.quest9085184306897025559.description8}"
+				""
 				"{ftbquests.chapter.create.quest9085184306897025559.description9}"
 			]
 			icon: "create:steam_engine"
