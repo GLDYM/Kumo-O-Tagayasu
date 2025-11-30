@@ -6045,42 +6045,6 @@
             ]
         },
         {
-            "pakku_id": "9hhTD6QmhuSUexYq",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "expanded-storage-kots"
-            },
-            "name": {
-                "curseforge": "Expanded Storage - KOTS"
-            },
-            "id": {
-                "curseforge": "1394855"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "expandedstorage-10.3.0-KOTS.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7277/728/expandedstorage-10.3.0-KOTS.jar",
-                    "id": "7277728",
-                    "parent_id": "1394855",
-                    "hashes": {
-                        "sha1": "f58a7f5676f00287293a1e3f67cee7b68482e87d",
-                        "md5": "e5a3d042ebc43c0a6f5a349d93a4977e"
-                    },
-                    "required_dependencies": [],
-                    "size": 778502,
-                    "date_published": "2025-11-30T11:13:29.837Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "WSi4Z4m8gw02OcwV",
             "type": "MOD",
             "side": "BOTH",
