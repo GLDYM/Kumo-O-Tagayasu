@@ -15507,52 +15507,6 @@
             ]
         },
         {
-            "pakku_id": "Gz6m03c8l5AVAss4",
-            "pakku_links": [
-                "OP3NvyHAI6iRkdSa",
-                "uQ4dQzB4UOoV9ivx",
-                "RxcfHp3l3Wyn2SNg",
-                "kovONt4vNpDqLz6K"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "tofucreate"
-            },
-            "name": {
-                "curseforge": "TofuCreate"
-            },
-            "id": {
-                "curseforge": "924197"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "tofucreate-1.20.1-1.0.0.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6501/518/tofucreate-1.20.1-1.0.0.jar",
-                    "id": "6501518",
-                    "parent_id": "924197",
-                    "hashes": {
-                        "sha1": "3b8ac1e00924964d630458da946eaf1d3cc51c09",
-                        "md5": "1adf582ab78341b96993ea31c0e02ee3"
-                    },
-                    "required_dependencies": [
-                        "328085",
-                        "317469"
-                    ],
-                    "size": 131634,
-                    "date_published": "2025-05-06T08:35:54.573Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "ek2Xsz2YjGLsKP8x",
             "type": "MOD",
             "side": "BOTH",
@@ -17413,69 +17367,6 @@
                     "required_dependencies": [],
                     "size": 181437,
                     "date_published": "2023-06-14T20:01:58.026800Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "3zLr0yeahGGblKSM",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "spark",
-                "modrinth": "spark"
-            },
-            "name": {
-                "curseforge": "spark",
-                "modrinth": "spark"
-            },
-            "id": {
-                "curseforge": "361579",
-                "modrinth": "l6YH9Als"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "spark-1.10.53-forge.jar",
-                    "mc_versions": [
-                        "1.20.1",
-                        "1.20"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/4738/952/spark-1.10.53-forge.jar",
-                    "id": "4738952",
-                    "parent_id": "361579",
-                    "hashes": {
-                        "sha1": "231fb325368c0660954f47bfb03493f5246fa4d1",
-                        "md5": "95dcd3b5400cc5eb5d0478a744e6ef98"
-                    },
-                    "required_dependencies": [],
-                    "size": 3114590,
-                    "date_published": "2023-09-05T08:02:20.050Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "spark-1.10.53-forge.jar",
-                    "mc_versions": [
-                        "1.20",
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/l6YH9Als/versions/4FXHDE9F/spark-1.10.53-forge.jar",
-                    "id": "4FXHDE9F",
-                    "parent_id": "l6YH9Als",
-                    "hashes": {
-                        "sha512": "15c6a3753dcba380624643a1e19c856240e8f6bed280f908e1be12c6154a86284ac86405c806273842975e0b7270af93ea9b1db5cf575a3853e54e1088cf7343",
-                        "sha1": "231fb325368c0660954f47bfb03493f5246fa4d1"
-                    },
-                    "required_dependencies": [],
-                    "size": 3114590,
-                    "date_published": "2023-09-05T08:02:29.569207Z"
                 }
             ]
         }
