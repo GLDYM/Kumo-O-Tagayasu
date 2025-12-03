@@ -2473,31 +2473,8 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "chloride-FORGE-mc1.20.1-v1.7.2.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6615/986/chloride-FORGE-mc1.20.1-v1.7.2.jar",
-                    "id": "6615986",
-                    "parent_id": "931925",
-                    "hashes": {
-                        "sha1": "d04b7bcd14a210a670877ff3f425fbf760dadda3",
-                        "md5": "a50f626acc0ade9c250df4cd16ec960d"
-                    },
-                    "required_dependencies": [
-                        "908741"
-                    ],
-                    "size": 944500,
-                    "date_published": "2025-06-05T01:33:47.447Z"
-                },
-                {
                     "type": "modrinth",
-                    "file_name": "chloride-FORGE-mc1.20.1-v1.7.2.jar",
+                    "file_name": "chloride-FORGE-mc1.20.1-v1.7.3.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -2505,18 +2482,41 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/yD9qW65f/versions/mhoiaJiH/chloride-FORGE-mc1.20.1-v1.7.2.jar",
-                    "id": "mhoiaJiH",
+                    "url": "https://cdn.modrinth.com/data/yD9qW65f/versions/sKGg79do/chloride-FORGE-mc1.20.1-v1.7.3.jar",
+                    "id": "sKGg79do",
                     "parent_id": "yD9qW65f",
                     "hashes": {
-                        "sha512": "8887bde8e39db0a65492f4232a959a5821b6fc56960161e9b78b34e6bf04087f00b766cd1741c0a89c4724953bed62b8dc6352dc14a7166c7da22f011408c8e6",
-                        "sha1": "d04b7bcd14a210a670877ff3f425fbf760dadda3"
+                        "sha512": "b9f30fd2474e6f959f487c650c351a129e25c250835b7a29dd9d53ef4571f5166ac42bee6ae4a53466feef6ffe12d28f915f7f00fe811d260a7a5c7eeda8ef5e",
+                        "sha1": "8745614a4343aaff9c5030b3f9cf04990298f6a2"
                     },
                     "required_dependencies": [
                         "sk9rgfiA"
                     ],
-                    "size": 944500,
-                    "date_published": "2025-06-05T01:33:47.065788Z"
+                    "size": 955950,
+                    "date_published": "2025-12-02T08:47:02.953886Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "chloride-FORGE-mc1.20.1-v1.7.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7284/929/chloride-FORGE-mc1.20.1-v1.7.3.jar",
+                    "id": "7284929",
+                    "parent_id": "931925",
+                    "hashes": {
+                        "sha1": "8745614a4343aaff9c5030b3f9cf04990298f6a2",
+                        "md5": "6db29f1f4d430bb0671639a1396e1841"
+                    },
+                    "required_dependencies": [
+                        "908741"
+                    ],
+                    "size": 955950,
+                    "date_published": "2025-12-02T08:47:02.587Z"
                 }
             ]
         },
@@ -6059,7 +6059,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "expandedstorage-10.3.1-KOTS.jar",
+                    "file_name": "expandedstorage-10.3.2-KOTS.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -6067,16 +6067,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7278/302/expandedstorage-10.3.1-KOTS.jar",
-                    "id": "7278302",
+                    "url": "https://edge.forgecdn.net/files/7284/718/expandedstorage-10.3.2-KOTS.jar",
+                    "id": "7284718",
                     "parent_id": "1394855",
                     "hashes": {
-                        "sha1": "18874546fb0cab1b29e9e834a174d1ff3ce3f8dc",
-                        "md5": "65b92f046209afa4b41816888fd4c468"
+                        "sha1": "288e065b59050b29e58001971ace54dd2744de6a",
+                        "md5": "0167c1e56b7c8658753ccdbff53aa664"
                     },
                     "required_dependencies": [],
-                    "size": 779395,
-                    "date_published": "2025-11-30T14:24:25.300Z"
+                    "size": 791648,
+                    "date_published": "2025-12-02T06:48:58.640Z"
                 }
             ]
         },
@@ -10615,31 +10615,8 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "maidsoulkitchen-1.20.1-alpha-v0.3.0.8-all.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "alpha",
-                    "url": "https://edge.forgecdn.net/files/7068/546/maidsoulkitchen-1.20.1-alpha-v0.3.0.8-all.jar",
-                    "id": "7068546",
-                    "parent_id": "1162577",
-                    "hashes": {
-                        "sha1": "d69e1be012ac5780287d9bcf4703d80caa09e093",
-                        "md5": "4e962f6ff462181bdfdf035cee061590"
-                    },
-                    "required_dependencies": [
-                        "355044"
-                    ],
-                    "size": 1930144,
-                    "date_published": "2025-10-05T07:45:06.583Z"
-                },
-                {
                     "type": "modrinth",
-                    "file_name": "maidsoulkitchen-1.20.1-alpha-v0.3.0.8-all.jar",
+                    "file_name": "maidsoulkitchen-1.20.1-alpha-v0.3.0.9-all.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -10647,18 +10624,41 @@
                         "forge"
                     ],
                     "release_type": "alpha",
-                    "url": "https://cdn.modrinth.com/data/Q5ZXy0QB/versions/b0IYGIpB/maidsoulkitchen-1.20.1-alpha-v0.3.0.8-all.jar",
-                    "id": "b0IYGIpB",
+                    "url": "https://cdn.modrinth.com/data/Q5ZXy0QB/versions/XNPa4Ah4/maidsoulkitchen-1.20.1-alpha-v0.3.0.9-all.jar",
+                    "id": "XNPa4Ah4",
                     "parent_id": "Q5ZXy0QB",
                     "hashes": {
-                        "sha512": "33c135cdaf1203dc681cdb14a5f8c1861da1686b302dc2955f08d2f68474bf009e2a432a31ba2f35b2641cfd02682f89cb1a767bb87c45c9192c9d2a6efbeb56",
-                        "sha1": "d69e1be012ac5780287d9bcf4703d80caa09e093"
+                        "sha512": "80ec1389f2239a1c3c02ea4767e67abba4525e094c4deb2aea3636ae9e0af360bf240e8c4e535f78b5e2646843c975af157723fc559d8140f7b4604b38c0546c",
+                        "sha1": "3b13f657cc9fceb8c3b518834e9c642d57359ffa"
                     },
                     "required_dependencies": [
                         "R0bDWFAW"
                     ],
-                    "size": 1930144,
-                    "date_published": "2025-10-03T11:13:01.189559Z"
+                    "size": 1938721,
+                    "date_published": "2025-12-02T14:14:17.534444Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "maidsoulkitchen-1.20.1-alpha-v0.3.0.9-all.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://edge.forgecdn.net/files/7285/798/maidsoulkitchen-1.20.1-alpha-v0.3.0.9-all.jar",
+                    "id": "7285798",
+                    "parent_id": "1162577",
+                    "hashes": {
+                        "sha1": "3b13f657cc9fceb8c3b518834e9c642d57359ffa",
+                        "md5": "1f1807b3057cb517eca88167acb55820"
+                    },
+                    "required_dependencies": [
+                        "355044"
+                    ],
+                    "size": 1938721,
+                    "date_published": "2025-12-02T14:15:06.993Z"
                 }
             ]
         },
@@ -14149,7 +14149,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "ShoulderSurfing-Forge-1.20.1-4.16.0.jar",
+                    "file_name": "ShoulderSurfing-Forge-1.20.1-4.16.2.jar",
                     "mc_versions": [
                         "1.20",
                         "1.20.1"
@@ -14158,20 +14158,20 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/kepjj2sy/versions/F0YaeEhe/ShoulderSurfing-Forge-1.20.1-4.16.0.jar",
-                    "id": "F0YaeEhe",
+                    "url": "https://cdn.modrinth.com/data/kepjj2sy/versions/wnRqDILe/ShoulderSurfing-Forge-1.20.1-4.16.2.jar",
+                    "id": "wnRqDILe",
                     "parent_id": "kepjj2sy",
                     "hashes": {
-                        "sha512": "3d0a7b71d93d180b3f5431f1580b5c6270727ea2186b1881cb3ff0b9cbf0eeaa6393b94c2d4b47223d5529aca025d7840ad9f97586ea5deb6b744b8e7d70a2a7",
-                        "sha1": "845ce7b7a62749d8fef35afa8b01fa9bab2ace67"
+                        "sha512": "1c00c98ebdf45aed5946b45a5c94b46ad191376112ee9f98464df25eb1562415fa6a77e5fde7fca3431b8a43efb4bb847abdd1522dcdbc031fdc586723e71b4c",
+                        "sha1": "6e17da80a59372ef96ffe75ed15f2a71ff6fc722"
                     },
                     "required_dependencies": [],
-                    "size": 253861,
-                    "date_published": "2025-11-22T13:58:12.266150Z"
+                    "size": 255775,
+                    "date_published": "2025-11-30T22:40:18.587608Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "ShoulderSurfing-Forge-1.20.1-4.16.0.jar",
+                    "file_name": "ShoulderSurfing-Forge-1.20.1-4.16.2.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
@@ -14180,16 +14180,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7249/331/ShoulderSurfing-Forge-1.20.1-4.16.0.jar",
-                    "id": "7249331",
+                    "url": "https://edge.forgecdn.net/files/7279/952/ShoulderSurfing-Forge-1.20.1-4.16.2.jar",
+                    "id": "7279952",
                     "parent_id": "243190",
                     "hashes": {
-                        "sha1": "845ce7b7a62749d8fef35afa8b01fa9bab2ace67",
-                        "md5": "e30a5b3ba918ccc723b3cecc6fcdb516"
+                        "sha1": "6e17da80a59372ef96ffe75ed15f2a71ff6fc722",
+                        "md5": "5f28f3ac688565db38d7b6bfe41e0ee9"
                     },
                     "required_dependencies": [],
-                    "size": 253861,
-                    "date_published": "2025-11-22T13:58:10.293Z"
+                    "size": 255775,
+                    "date_published": "2025-11-30T22:40:16.337Z"
                 }
             ]
         },
