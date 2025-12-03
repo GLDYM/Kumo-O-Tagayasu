@@ -145,6 +145,12 @@
         },
         "mcwifipnp": {
             "side": "CLIENT"
+        },
+        "xaeros-world-map": {
+            "side": "BOTH"
+        },
+        "xaeros-minimap": {
+            "side": "BOTH"
         }
     }
 }
