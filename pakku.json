@@ -75,6 +75,7 @@
             "redistributable": true
         },
         "create-fast-schematiccannon": {
+            "update_strategy": "NONE",
             "redistributable": true
         },
         "entityculling": {
