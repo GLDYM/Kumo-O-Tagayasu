@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:compacting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "fluid": "tofucraft:soymilk",
+      "amount": 1000
+    },
+    {
+      "item": "tofucraft:filtercloth",
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "fluid": "tofucreate:soyoil",
+      "amount": 250
+    }
+  ]
+}

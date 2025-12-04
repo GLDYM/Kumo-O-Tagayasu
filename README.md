@@ -10,17 +10,18 @@
     <img src="https://img.shields.io/badge/license-AGPL--v3.0--or--later-8A2BE2" alt="license">
 </a>
 
-<a href="./LICENSE2">
-    <img src="https://img.shields.io/badge/license2-CC--BY--NC--SA--4.0-8A2BE2" alt="license2">
-</a>
-
 <a href="https://github.com/GLDYM/Kumo-O-Tagayasu/releases">
-    <img src="https://img.shields.io/badge/version-5.3.4-9999FF" alt="version">
+    <img src="https://img.shields.io/badge/version-5.4.0-9999FF" alt="version">
 </a>
 
 <a href="https://www.mcmod.cn/modpack/1017.html">
-    <img src="https://img.shields.io/badge/MCMOD-8A2BE2" alt="MCMOD">
+    <img src="https://img.shields.io/badge/mcmod-耕云钓月-8A2BE2" alt="mcmod">
 </a>
+
+<a href="https://www.curseforge.com/minecraft/modpacks/kumo-o-tagayasu">
+    <img src="https://cf.way2muchnoise.eu/title/kumo-o-tagayasu.svg" alt="Curseforge">
+</a>
+
 
 [简体中文](README.md) / [English](README_EN.md)
 

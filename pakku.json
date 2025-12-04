@@ -1,6 +1,6 @@
 {
     "name": "Kumo O Tagayasu",
-    "version": "5.3.5",
+    "version": "5.4.0",
     "description": "Born for server, Kumo O Tagayasu is a comprehensive modpack that fills in the missing materials, intended to give players a relaxing and enjoyable game experience.",
     "author": "Polaris_Light",
     "projects": {
@@ -75,6 +75,7 @@
             "redistributable": true
         },
         "create-fast-schematiccannon": {
+            "update_strategy": "NONE",
             "redistributable": true
         },
         "entityculling": {
@@ -145,6 +146,12 @@
         },
         "mcwifipnp": {
             "side": "CLIENT"
+        },
+        "xaeros-world-map": {
+            "side": "BOTH"
+        },
+        "xaeros-minimap": {
+            "side": "BOTH"
         }
     }
 }
