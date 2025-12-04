@@ -47,7 +47,7 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
 
-      - name: Create mrpack archive
+      - name: Build Client
         run: |
           cd .pakku/client-overrides/BiliBiliMediaFiles
 
