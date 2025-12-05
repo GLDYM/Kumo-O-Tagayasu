@@ -47,7 +47,7 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
 
-      - name: Create mrpack archive
+      - name: Create client
         run: |          
           wget https://github.com/juraj-hrivnak/Pakku/releases/download/v1.3.2/pakku.jar
           chmod 755 pakku.jar
