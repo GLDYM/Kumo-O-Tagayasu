@@ -152,6 +152,9 @@
         },
         "xaeros-minimap": {
             "side": "BOTH"
+        },
+        "simple-voice-chat": {
+            "side": "CLIENT"
         }
     }
 }
