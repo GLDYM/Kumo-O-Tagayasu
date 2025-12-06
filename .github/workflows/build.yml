@@ -75,6 +75,7 @@ jobs:
             KumoOTagayasu-build.zip
             KumoOTagayasu-build.mrpack
             Server-KumoOTagayasu-build.zip
+            Full-Server-KumoOTagayasu-build.zip
           token: ${{ secrets.GITHUB_TOKEN }} # Required for authentication
 
       - name: Upload client file to release
@@ -89,19 +90,12 @@ jobs:
 
       - name: Build server
         run: |
+          cp installer/install-server.sh ./install-server.sh 
           chmod +x install-server.sh
           ./install-server.sh 
 
-          zip -r "./Server-KumoOTagayasu-build.zip" ./server/*
+          zip -r "./Full-Server-KumoOTagayasu-build.zip" ./server/*
           
-      - name: Upload server file to release
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: "build"
-          files: "Server-KumoOTagayasu-build.zip"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Run Minecraft server and validate startup
         run: |
           cd server 
@@ -121,6 +115,7 @@ jobs:
                 break
               fi
               echo "Server started successfully"
+              cd ../
               exit 0
             fi
             if ! kill -0 $SERVER_PID 2>/dev/null; then
@@ -139,4 +134,26 @@ jobs:
             echo "No crash reports found."
             cat logs/latest.log
           fi
+          cd ../
           exit 1
+
+      - name: Package server files
+        run: |
+          mkdir installer/.pakku
+          cp pakku.json installer
+          cp pakku-lock.json installer
+          cp -r MCDR/ installer/
+          cp -r .pakku/overrides/ installer/.pakku/
+          cp -r .pakku/server-overrides/ installer/.pakku
+
+          zip -r "Server-KumoOTagayasu-build.zip" ./installer/*
+
+      - name: Upload server file to release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: "build"
+          files: |
+            "Server-KumoOTagayasu-build.zip" 
+            "Full-Server-KumoOTagayasu-build.zip"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
