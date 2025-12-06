@@ -71,8 +71,7 @@ function build_serverpack() {
   serverpack_zip=$(ls "${SERVERPACK_DIR}"/*.zip 2>/dev/null | head -n 1 || true)
   
   if [[ -n "$serverpack_zip" ]]; then
-    echo -e "${GREEN}检测到已有 serverpack 文件 ${serverpack_zip}，跳过构建。${RESET}"s
-    return
+    echo -e "${GREEN}检测到已有 serverpack 文件 ${serverpack_zip}，跳过构建。${RESET}"ss
   else
     echo -e "${YELLOW}使用 pakku.jar 构建服务端...${RESET}"
     java -jar pakku.jar export
