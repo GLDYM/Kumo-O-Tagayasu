@@ -17,9 +17,9 @@ function have_cmd() { command -v "$1" >/dev/null 2>&1; }
 
 function downloader() {
   if have_cmd curl; then
-    curl -L --retry 3 --fail -o "$2" "$1"
+    curl -L --retry 3 --fail -o "$2" "$1" >/dev/null 2>&1s
   elif have_cmd wget; then
-    wget -O "$2" "$1"
+    wget -O "$2" "$1" >/dev/null 2>&1
   else
     echo -e "${RED}未检测到 curl 或 wget，请安装其中之一后重试。${RESET}"
     exit 1
@@ -36,9 +36,9 @@ function ensure_unzip() {
 function do_unzip() {
   local zip="$1" dest="$2"
   if have_cmd unzip; then
-    unzip -o "$zip" -d "$dest"
+    unzip -o "$zip" -d "$dest" >/dev/null 2>&1
   else
-    bsdtar -xf "$zip" -C "$dest"
+    bsdtar -xf "$zip" -C "$dest" >/dev/null 2>&1
   fi
 }
 
@@ -66,15 +66,6 @@ function ensure_pakku() {
 function build_serverpack() {
   ensure_unzip
   mkdir -p "$SERVER_DIR"
-
-  shopt -s nullglob
-  local zips=("$SERVERPACK_DIR"/*.zip)
-  shopt -u nullglob
-
-  if (( ${#zips[@]} == 0 )); then
-    echo -e "${RED}未找到 ${SERVERPACK_DIR}/*.zip 文件。${RESET}"
-    exit 1
-  fi
 
   echo -e "${YELLOW}使用 pakku.jar 构建服务端...${RESET}"
   java -jar pakku.jar export
@@ -117,9 +108,9 @@ function install_forge() {
     exit 1
   fi
 
-  java -jar "$installer" --installServer
+  java -jar "$installer" --installServer >/dev/null 2>&1
   echo -e "${GREEN}Forge 安装完成。${RESET}"
-上
+  
   echo -e "${YELLOW}生成 eula.txt...${RESET}"
   echo "eula=true" > eula.txt
 
