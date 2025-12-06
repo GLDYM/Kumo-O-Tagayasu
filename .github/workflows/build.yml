@@ -96,12 +96,10 @@ jobs:
 
       - name: Package server files
         run: |
-          mkdir -p installer/.pakku
           cp pakku.json installer/
           cp pakku-lock.json installer/
           cp -r MCDR/ installer/
-          cp -r .pakku/overrides/ installer/.pakku/
-          cp -r .pakku/server-overrides/ installer/.pakku/
+          cp -r .pakku/ installer/
           
           shopt -s dotglob
           zip -r "Server-KumoOTagayasu-build.zip" ./installer

@@ -4951,6 +4951,76 @@
             ]
         },
         {
+            "pakku_id": "vMet7Fs7cyNDg7PC",
+            "pakku_links": [
+                "zUJHx59GrudCC5eb"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "cuisine-delight",
+                "modrinth": "cuisine-delight"
+            },
+            "name": {
+                "curseforge": "Cuisine Delight",
+                "modrinth": "Cuisine Delight"
+            },
+            "id": {
+                "curseforge": "893541",
+                "modrinth": "gOQjCAAD"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cuisinedelight-1.1.17.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6677/944/cuisinedelight-1.1.17.jar",
+                    "id": "6677944",
+                    "parent_id": "893541",
+                    "hashes": {
+                        "sha1": "b54a056daa1ab3fecaa19b6d4bd857dc6cbd84c0",
+                        "md5": "26599aadb85dcc8dbaff71ae3052b41b"
+                    },
+                    "required_dependencies": [
+                        "398521"
+                    ],
+                    "size": 846867,
+                    "date_published": "2025-06-21T08:45:27.553Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "cuisinedelight-1.1.17.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/gOQjCAAD/versions/6GdNA0pB/cuisinedelight-1.1.17.jar",
+                    "id": "6GdNA0pB",
+                    "parent_id": "gOQjCAAD",
+                    "hashes": {
+                        "sha512": "72b67482b631cb9d87c5c191199114f5a0530e1b8ccbb7b8c79dddeaeb5b7154020217151424e1b7844b6b21e750865a3bd3214b4325dd0b2136d25554b6e4d8",
+                        "sha1": "8644216ad2859027c061ee0ae618a25e58cb4d2f"
+                    },
+                    "required_dependencies": [
+                        "R2OftAxM"
+                    ],
+                    "size": 846867,
+                    "date_published": "2025-06-21T08:46:24.857091Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Hemy07bORQYhG5Hg",
             "type": "MOD",
             "slug": {
