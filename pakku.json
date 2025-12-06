@@ -154,7 +154,7 @@
             "side": "BOTH"
         },
         "simple-voice-chat": {
-            "side": "CLIENT"
+            "side": "BOTH"
         }
     }
 }

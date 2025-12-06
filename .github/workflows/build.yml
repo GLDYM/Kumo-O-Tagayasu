@@ -65,7 +65,6 @@ jobs:
 
           mv ./build/modrinth/*.mrpack ./KumoOTagayasu-build.mrpack
           mv ./build/curseforge/*.zip ./KumoOTagayasu-build.zip
-          mv ./build/serverpack/*.zip ./server.zip
 
       - name: Delete existing release assets
         uses: mknejp/delete-release-assets@v1
@@ -90,20 +89,9 @@ jobs:
 
       - name: Build server
         run: |
-          mkdir server
-          mv server.zip ./server
-          cd server
-          unzip server.zip
+          chmod +x install-server.sh
+          ./install-server.sh 
 
-          wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.6/forge-1.20.1-47.4.6-installer.jar
-          chmod 755 forge-1.20.1-47.4.6-installer.jar
-
-          java -jar forge-1.20.1-47.4.6-installer.jar --installServer
-
-          rm -f server.zip
-          rm -f forge-*-installer.jar
-          rm -f forge-*-installer.jar.log
-          cd ../
           zip -r "./Server-KumoOTagayasu-build.zip" ./server/*
           
       - name: Upload server file to release
@@ -118,8 +106,6 @@ jobs:
         run: |
           cd server 
           chmod +x run.sh
-          
-          echo "eula=true" > eula.txt
 
           ./run.sh > server.log 2>&1 &
           SERVER_PID=$!
