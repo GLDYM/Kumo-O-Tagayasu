@@ -126,7 +126,7 @@ function Install-Forge {
 Write-Color "==== Kumo-O-Tagayasu Server Build Script ====" Green
 Check-Java
 Ensure-Pakku
-# Build-Serverpack
+Build-Serverpack
 Ensure-ForgeInstaller
 Install-Forge
 Write-Color "Build completed! The server has been generated in ./$SERVER_DIR directory. You can now delete other files." Green
