@@ -71,7 +71,7 @@ function build_serverpack() {
   local zips=("$SERVERPACK_DIR"/*.zip)
   shopt -u nullglob
 
-  echo -e "${YELLOW}${SERVERPACK_DIR}/*.zip Didn't find, using pakku.jar to build serverpack...${RESET}"
+  echo -e "${YELLOW}Using pakku.jar to build serverpack...${RESET}"
   java -jar pakku.jar export
 
   echo -e "${YELLOW}Extracting serverpack to ./${SERVER_DIR}${RESET}"
