@@ -4,12 +4,13 @@
   - 并使用 Pakku 自动下载模组构建服务端包。
   - 接着解压服务端包到 server/，在里面安装 forge。
 - 等待脚本运行完成，整个过程需要 5min - 20min，取决于你访问 Curseforge 的速度。服务端会生成在 server/ 文件夹内。
+- 检查 server/mods/ 文件夹内是不是 220 个模组左右。如果显著低于 220，再运行一次安装脚本，或者下载完整服务端。
 - 配置 server.properties 和你需要的其他配置。
 - 运行 server/ 文件夹内的 run.bat 或 run.sh 开服。
 
 如果你在安装过程中遇到了网络问题，请尝试在本地构建，
 或访问 https://www.mcmod.cn/modpack/1017.html，
-前往天翼云盘或 bbsmc 下载完整的服务端。
+前往天翼云盘或 bbsmc 下载完整服务端。
 
 MCDR 文件夹内的文件是给 MCDReforged 使用的。
 

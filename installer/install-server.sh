@@ -80,7 +80,7 @@ function build_serverpack() {
 
   echo -e "${YELLOW}Extracting serverpack to ./${SERVER_DIR}${RESET}"
   for zipfile in "${zips[@]}"; do
-    echo "Extracting $zipfile ..."
+    echo -e "${YELLOW}Extracting $zipfile ...${RESET}"
     do_unzip "$zipfile" "$SERVER_DIR"
   done
   echo -e "${GREEN}serverpack extraction completed.${RESET}"

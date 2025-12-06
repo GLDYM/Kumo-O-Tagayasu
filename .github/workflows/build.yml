@@ -101,9 +101,7 @@ jobs:
           cp pakku-lock.json installer/
           cp -r MCDR/ installer/
           cp -r .pakku/ installer/
-          rm -rf installer/.pakku/client-overrides/config/*
-          rm -rf installer/.pakku/client-overrides/mods/*
-          rm -rf installer/.pakku/client-overrides/BiliBiliMediaFiles
+          rm -rf installer/.pakku/client-overrides/*
           
           shopt -s dotglob
           zip -r "./Server-KumoOTagayasu-build.zip" ./installer

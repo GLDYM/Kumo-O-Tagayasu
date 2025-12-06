@@ -76,12 +76,18 @@ function Build-Serverpack {
         Write-Color "Serverpack build completed." Green
     }
 
-    Write-Color "Extracting serverpack to ./$SERVER_DIR" Yellow
-    Get-ChildItem "$SERVERPACK_DIR" -Filter *.zip | ForEach-Object {
-        Write-Host "Extracting $($_.FullName) ..."
-        Do-Unzip $_.FullName $SERVER_DIR
+    if (Test-Path "build/.cache/serverpack") {
+        Write-Color "Trying to copy cached serverpack files to $SERVERPACK_DIR" Yellow
+        Copy-Item "build/.cache/serverpack/"* "$SERVERPACK_DIR/" -Force
+        Write-Color "Cache copy completed." Green
+    } else {
+        Write-Color "Cache have been clear. Extracting serverpack to ./$SERVER_DIR" Yellow
+        Get-ChildItem "$SERVERPACK_DIR" -Filter *.zip | ForEach-Object {
+            Write-Host "Extracting $($_.FullName) ..."
+            Do-Unzip $_.FullName $SERVER_DIR
+        }
+        Write-Color "serverpack extraction completed." Green
     }
-    Write-Color "serverpack extraction completed." Green
 }
 
 # === Forge Installer Management ===
