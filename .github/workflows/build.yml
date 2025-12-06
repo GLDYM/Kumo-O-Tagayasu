@@ -102,9 +102,11 @@ jobs:
           cp -r MCDR/ installer/
           cp -r .pakku/overrides/ installer/.pakku/
           cp -r .pakku/server-overrides/ installer/.pakku/
-
-          zip -r "Server-KumoOTagayasu-build.zip" ./installer/*
-          zip -r "./Full-Server-KumoOTagayasu-build.zip" ./server/*
+          
+          shopt -s dotglob
+          zip -r "Server-KumoOTagayasu-build.zip" ./installer
+          zip -r "./Full-Server-KumoOTagayasu-build.zip" ./server
+          shopt -u dotglob
 
       - name: Upload server file to release
         uses: softprops/action-gh-release@v1
