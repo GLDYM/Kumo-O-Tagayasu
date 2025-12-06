@@ -93,7 +93,7 @@ jobs:
           cp installer/install-server.sh ./install-server.sh 
           chmod +x install-server.sh
           ./install-server.sh
-          zip -r "./Full-Server-KumoOTagayasu-build.zip" ./server
+          zip -r "./Full-Server-KumoOTagayasu-build.zip" ./server/*
 
       - name: Package server files
         run: |

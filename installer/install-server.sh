@@ -67,15 +67,15 @@ function build_serverpack() {
   ensure_unzip
   mkdir -p "$SERVER_DIR"
 
-  local serverpack_zip
-  serverpack_zip=$(ls "${SERVERPACK_DIR}"/*.zip 2>/dev/null | head -n 1 || true)
-  
-  if [[ -n "$serverpack_zip" ]]; then
-    echo -e "${GREEN}Detected existing serverpack file ${serverpack_zip}, skipping build.${RESET}"
-  else
-    echo -e "${YELLOW}Building serverpack using pakku.jar...${RESET}"
+  shopt -s nullglob
+  local zips=("$SERVERPACK_DIR"/*.zip)
+  shopt -u nullglob
+
+  if (( ${#zips[@]} == 0 )); then
+    echo -e "${YELLOW}${SERVERPACK_DIR}/*.zip Didn't find, using pakku.jar to build serverpack...${RESET}"
     java -jar pakku.jar export
-    echo -e "${GREEN}Serverpack build completed.${RESET}"
+  else
+    echo -e "${GREEN}Found existing zip files in ${SERVERPACK_DIR}, skipping pakku build.${RESET}"
   fi
 
   echo -e "${YELLOW}Extracting serverpack to ./${SERVER_DIR}${RESET}"
