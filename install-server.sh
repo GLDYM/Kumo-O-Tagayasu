@@ -17,7 +17,7 @@ function have_cmd() { command -v "$1" >/dev/null 2>&1; }
 
 function downloader() {
   if have_cmd curl; then
-    curl -L --retry 3 --fail -o "$2" "$1" >/dev/null 2>&1s
+    curl -L --retry 3 --fail -o "$2" "$1" >/dev/null 2>&1
   elif have_cmd wget; then
     wget -O "$2" "$1" >/dev/null 2>&1
   else
