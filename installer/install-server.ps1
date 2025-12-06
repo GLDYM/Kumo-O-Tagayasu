@@ -93,9 +93,8 @@ function Ensure-ForgeInstaller {
         Copy-Item $localInstaller.FullName "$SERVER_DIR/"
     } else {
         Write-Color "Downloading Forge installer version $FORGE_VERSION..." Yellow
-        $targetInstaller = "forge-$FORGE_VERSION-installer.jar"
+        $targetInstaller = "$SERVER_DIR/forge-$FORGE_VERSION-installer.jar"
         Downloader $FORGE_URL $targetInstaller
-        Copy-Item $targetInstaller "$SERVER_DIR/"
         Write-Color "Forge installer download completed: $targetInstaller" Green
     }
 }
