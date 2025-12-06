@@ -67,8 +67,17 @@ function build_serverpack() {
   ensure_unzip
   mkdir -p "$SERVER_DIR"
 
-  echo -e "${YELLOW}使用 pakku.jar 构建服务端...${RESET}"
-  java -jar pakku.jar export
+  local serverpack_zip
+  serverpack_zip=$(ls "${SERVERPACK_DIR}"/*.zip 2>/dev/null | head -n 1 || true)
+  
+  if [[ -n "$serverpack_zip" ]]; then
+    echo -e "${GREEN}检测到已有 serverpack 文件 ${serverpack_zip}，跳过构建。${RESET}"s
+    return
+  else
+    echo -e "${YELLOW}使用 pakku.jar 构建服务端...${RESET}"
+    java -jar pakku.jar export
+    echo -e "${GREEN}服务端构建完成。${RESET}"
+  fi
 
   echo -e "${YELLOW}解压 serverpack 到 ./${SERVER_DIR}${RESET}"
   for zipfile in "${zips[@]}"; do
