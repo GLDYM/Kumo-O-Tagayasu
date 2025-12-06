@@ -1,11 +1,13 @@
 build/
+server/
 *.mrpack
 
 pakku.jar
-forge-*.jar
+forge-*-installer.jar
 mrpack-install-windows.exe
 mrpack-install-linux
 reference/
 
 # remove client config
-src/overrides/config/*client.toml 
+.pakku/overrides/config/*client.toml
+.pakku/overrides/config/*client.json
