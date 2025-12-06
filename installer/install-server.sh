@@ -71,12 +71,8 @@ function build_serverpack() {
   local zips=("$SERVERPACK_DIR"/*.zip)
   shopt -u nullglob
 
-  if (( ${#zips[@]} == 0 )); then
-    echo -e "${YELLOW}${SERVERPACK_DIR}/*.zip Didn't find, using pakku.jar to build serverpack...${RESET}"
-    java -jar pakku.jar export
-  else
-    echo -e "${GREEN}Found existing zip files in ${SERVERPACK_DIR}, skipping pakku build.${RESET}"
-  fi
+  echo -e "${YELLOW}${SERVERPACK_DIR}/*.zip Didn't find, using pakku.jar to build serverpack...${RESET}"
+  java -jar pakku.jar export
 
   echo -e "${YELLOW}Extracting serverpack to ./${SERVER_DIR}${RESET}"
   for zipfile in "${zips[@]}"; do

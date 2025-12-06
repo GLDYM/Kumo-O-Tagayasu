@@ -68,17 +68,15 @@ function Build-Serverpack {
     New-Item -ItemType Directory -Force -Path $SERVER_DIR | Out-Null
 
     $serverpackZip = Get-ChildItem "$SERVERPACK_DIR" -Filter *.zip -ErrorAction SilentlyContinue | Select-Object -First 1
-    if ($serverpackZip) {
-        Write-Color "Detected existing serverpack file $($serverpackZip.FullName), skipping build." Green
-    } else {
-        Write-Color "Building serverpack using pakku.jar..." Yellow
-        & java -jar pakku.jar export
-        Write-Color "Serverpack build completed." Green
-    }
+
+    Write-Color "Building serverpack using pakku.jar..." Yellow
+    & java -jar pakku.jar export
+    Write-Color "Serverpack build completed." Green
+
 
     if (Test-Path "build/.cache/serverpack") {
         Write-Color "Trying to copy cached serverpack files to $SERVER_DIR" Yellow
-        Copy-Item "build/.cache/serverpack/*" "$SERVER_DIR/" -Force
+        Copy-Item "build/.cache/serverpack/*" "$SERVER_DIR/" -Recurse -Force
         Write-Color "Cache copy completed." Green
     } else {
         Write-Color "Cache have been clear. Extracting serverpack to ./$SERVER_DIR" Yellow
