@@ -77,8 +77,8 @@ function Build-Serverpack {
     }
 
     if (Test-Path "build/.cache/serverpack") {
-        Write-Color "Trying to copy cached serverpack files to $SERVERPACK_DIR" Yellow
-        Copy-Item "build/.cache/serverpack/"* "$SERVERPACK_DIR/" -Force
+        Write-Color "Trying to copy cached serverpack files to $SERVER_DIR" Yellow
+        Copy-Item "build/.cache/serverpack/*" "$SERVER_DIR/" -Force
         Write-Color "Cache copy completed." Green
     } else {
         Write-Color "Cache have been clear. Extracting serverpack to ./$SERVER_DIR" Yellow
