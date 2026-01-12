@@ -5329,69 +5329,6 @@
             ]
         },
         {
-            "pakku_id": "aPERJwlk0unvcH7l",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "dimension-viewer",
-                "modrinth": "dimension-viewer"
-            },
-            "name": {
-                "curseforge": "Dimension Viewer",
-                "modrinth": "Dimension Viewer"
-            },
-            "id": {
-                "curseforge": "857799",
-                "modrinth": "3aeFezQk"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "dimensionviewer-1.20-1.4.0.jar",
-                    "mc_versions": [
-                        "1.20.1",
-                        "1.20"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/4632/484/dimensionviewer-1.20-1.4.0.jar",
-                    "id": "4632484",
-                    "parent_id": "857799",
-                    "hashes": {
-                        "sha1": "ad69ac50b0d808f530e55b688a07136fc5381ab5",
-                        "md5": "e377650d2f71659f0ec1e3bc2f588917"
-                    },
-                    "required_dependencies": [],
-                    "size": 18705,
-                    "date_published": "2023-07-09T00:06:23.373Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "dimensionviewer-1.20-1.4.0.jar",
-                    "mc_versions": [
-                        "1.20",
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/3aeFezQk/versions/9t3mhqTS/dimensionviewer-1.20-1.4.0.jar",
-                    "id": "9t3mhqTS",
-                    "parent_id": "3aeFezQk",
-                    "hashes": {
-                        "sha512": "8076fe218b8a3c64a3d41a96be89475f9fc95692e76351434990efcbb3c1dc6fc8b81804f6a9e6a455b998d4635688e5acfdf2abc89f2cc4f6aff837eea05723",
-                        "sha1": "ad69ac50b0d808f530e55b688a07136fc5381ab5"
-                    },
-                    "required_dependencies": [],
-                    "size": 18705,
-                    "date_published": "2023-07-09T00:10:51.699407Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "ffaEVwxHufBQK40D",
             "type": "MOD",
             "side": "CLIENT",
