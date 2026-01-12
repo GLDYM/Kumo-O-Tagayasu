@@ -1,0 +1,6 @@
+{
+  "irons_spellbooks:power_multiplier": 0.5,
+  "irons_spellbooks:max_level": 3,
+  "irons_spellbooks:min_rarity": "rare",
+  "irons_spellbooks:mana_cost_multiplier": 2.0
+}

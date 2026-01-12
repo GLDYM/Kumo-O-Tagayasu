@@ -1,0 +1,7 @@
+{
+  "irons_spellbooks:cooldown_in_seconds": 0.0,
+  "irons_spellbooks:max_level": 0,
+  "irons_spellbooks:min_rarity": "common",
+  "irons_spellbooks:enabled": false,
+  "irons_spellbooks:allow_crafting": false
+}

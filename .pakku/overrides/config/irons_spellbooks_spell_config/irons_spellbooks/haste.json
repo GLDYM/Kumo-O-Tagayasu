@@ -1,0 +1,7 @@
+{
+  "irons_spellbooks:power_multiplier": 0.7,
+  "irons_spellbooks:cooldown_in_seconds": 75.0,
+  "irons_spellbooks:max_level": 3,
+  "irons_spellbooks:min_rarity": "rare",
+  "irons_spellbooks:mana_cost_multiplier": 1.5
+}
