@@ -14589,51 +14589,6 @@
             ]
         },
         {
-            "pakku_id": "S224CmASk2YCTEVa",
-            "pakku_links": [
-                "GKXXBZmxAI2ltRUL",
-                "CMkcznx2JmLQ0g5E",
-                "VeC0KbAeCWzlSRA8"
-            ],
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "superresolution"
-            },
-            "name": {
-                "modrinth": "Super Resolution"
-            },
-            "id": {
-                "modrinth": "Hf3Qz2H3"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "super_resolution-forge-1.20.1-0.8.2-alpha.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "alpha",
-                    "url": "https://cdn.modrinth.com/data/Hf3Qz2H3/versions/QvECBzJy/super_resolution-forge-1.20.1-0.8.2-alpha.1.jar",
-                    "id": "QvECBzJy",
-                    "parent_id": "Hf3Qz2H3",
-                    "hashes": {
-                        "sha512": "25d3bdbfc0bbd5e9d3f7926d7996970c14169b92839ea92ba7376089217d354bdb812a1a996ccd69ab11522f3a4eb8b91cf146773b69371d4bd28c6e81d79507",
-                        "sha1": "d4a1e3c79b9a802afa4f4bda9d1c4f2d1ea68da4"
-                    },
-                    "required_dependencies": [
-                        "lhGA9TYQ",
-                        "9s6osm5g"
-                    ],
-                    "size": 25189473,
-                    "date_published": "2025-11-09T08:52:25.672846Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "UuHj4d8MVsQfuEzW",
             "type": "MOD",
             "side": "BOTH",
