@@ -1,0 +1,15 @@
+{
+	"type": "cagedmobs:environment_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "create"
+		}
+	],
+	"input": {
+		"item": "create:experience_block"
+	},
+	"render": "create:experience_block",
+	"growModifier": 1,
+	"categories": ["magic"]
+}
