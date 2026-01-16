@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "caverns_and_chasms:necromium_ingot"
+    },
+    {
+      "amount": 100,
+      "fluid": "create_enchantment_industry:hyper_experience",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "irons_spellbooks:mithril_ingot"
+    }
+  ]
+}

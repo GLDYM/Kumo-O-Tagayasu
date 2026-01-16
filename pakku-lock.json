@@ -353,7 +353,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "amendments-1.20-2.2.3.jar",
+                    "file_name": "amendments-1.20-2.2.4.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -361,18 +361,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7240/735/amendments-1.20-2.2.3.jar",
-                    "id": "7240735",
+                    "url": "https://edge.forgecdn.net/files/7460/888/amendments-1.20-2.2.4.jar",
+                    "id": "7460888",
                     "parent_id": "896746",
                     "hashes": {
-                        "sha1": "70f46de146e959d6abb4346a0ac7dfb04475d239",
-                        "md5": "b1013e74d5c4ef229d93bf571968a1f0"
+                        "sha1": "d2930f001773bbcc02ffde2ab191656dae7d78e0",
+                        "md5": "1ba04237f40bec0026ce9f2696095163"
                     },
                     "required_dependencies": [
                         "499980"
                     ],
-                    "size": 1294274,
-                    "date_published": "2025-11-20T00:19:51.297Z"
+                    "size": 1301013,
+                    "date_published": "2026-01-14T22:11:30.673Z"
                 }
             ]
         },
@@ -2952,7 +2952,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "constructionwand-1.20.1-2.14.1-KOTS.jar",
+                    "file_name": "constructionwand-1.20.1-2.14.2.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -2960,16 +2960,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7276/633/constructionwand-1.20.1-2.14.1-KOTS.jar",
-                    "id": "7276633",
+                    "url": "https://edge.forgecdn.net/files/7463/52/constructionwand-1.20.1-2.14.2.jar",
+                    "id": "7463052",
                     "parent_id": "1382688",
                     "hashes": {
-                        "sha1": "065ab3f35b5ed46aad2cad59e5da194a75f9efc4",
-                        "md5": "96ec455f92f4840818c92077fa356f17"
+                        "sha1": "62b3f655e6d0c7e63b80c0e727db82c59700a437",
+                        "md5": "a34d9f5e60be5913fe72109711ccad7b"
                     },
                     "required_dependencies": [],
-                    "size": 181557,
-                    "date_published": "2025-11-30T02:47:36.693Z"
+                    "size": 176906,
+                    "date_published": "2026-01-15T10:52:27.177Z"
                 }
             ]
         },
@@ -3547,7 +3547,8 @@
         {
             "pakku_id": "mk4Xvh5Ulu5oBTir",
             "pakku_links": [
-                "RxcfHp3l3Wyn2SNg"
+                "RxcfHp3l3Wyn2SNg",
+                "Zf7NHawR4f85m4p4"
             ],
             "type": "MOD",
             "side": "BOTH",
@@ -4413,27 +4414,26 @@
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "interiors-0.5.6+forge-mc1.20.1-local.jar",
+                    "file_name": "interiors-1.20.1-forge-0.6.0.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "loaders": [
-                        "forge",
-                        "neoforge"
+                        "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6301/533/interiors-0.5.6+forge-mc1.20.1-local.jar",
-                    "id": "6301533",
+                    "url": "https://edge.forgecdn.net/files/7338/640/interiors-1.20.1-forge-0.6.0.jar",
+                    "id": "7338640",
                     "parent_id": "906239",
                     "hashes": {
-                        "sha1": "5f46c829dc012138faa1191d97ef79c7569b53a1",
-                        "md5": "20974d4752c8aaec1bd451044728b2a0"
+                        "sha1": "3371c5ab69a1169f74bee7ab6349bc0f5d6e69bb",
+                        "md5": "ce68bdf83822db82b2e258b49ee3d074"
                     },
                     "required_dependencies": [
                         "328085"
                     ],
-                    "size": 465540,
-                    "date_published": "2025-03-13T23:11:35.807Z"
+                    "size": 489265,
+                    "date_published": "2025-12-15T23:51:29.053Z"
                 }
             ]
         },
@@ -5392,6 +5392,69 @@
                     "required_dependencies": [],
                     "size": 93320,
                     "date_published": "2023-08-04T13:35:25.423337Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Zf7NHawR4f85m4p4",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "dragonlib",
+                "modrinth": "dragonlib"
+            },
+            "name": {
+                "curseforge": "DragonLib",
+                "modrinth": "DragonLib"
+            },
+            "id": {
+                "curseforge": "946163",
+                "modrinth": "sbIsGaOV"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "dragonlib-forge-1.20.1-beta-3.0.14.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7351/117/dragonlib-forge-1.20.1-beta-3.0.14.jar",
+                    "id": "7351117",
+                    "parent_id": "946163",
+                    "hashes": {
+                        "sha1": "c37d512f9b5527d9f569d81ac60a4af98be33a94",
+                        "md5": "83d6d179f949b35f4350c347d90022f2"
+                    },
+                    "required_dependencies": [],
+                    "size": 1902877,
+                    "date_published": "2025-12-18T20:23:03.697Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "dragonlib-forge-1.20.1-beta-3.0.14.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/sbIsGaOV/versions/Et4NV8fM/dragonlib-forge-1.20.1-beta-3.0.14.jar",
+                    "id": "Et4NV8fM",
+                    "parent_id": "sbIsGaOV",
+                    "hashes": {
+                        "sha512": "7ce9fa687eded1b382f002300642cd3554901317d057b8516ab3f375cc954e8423c69daf579940e1054e79f85b222eee2b3c4647b529dccb9b6ac3159d9d8e0e",
+                        "sha1": "c37d512f9b5527d9f569d81ac60a4af98be33a94"
+                    },
+                    "required_dependencies": [],
+                    "size": 1902877,
+                    "date_published": "2025-12-18T20:24:56.106270Z"
                 }
             ]
         },
@@ -10856,7 +10919,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "moonlight-1.20-2.16.21-forge.jar",
+                    "file_name": "moonlight-1.20-2.16.22-forge.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -10865,20 +10928,20 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/jToYHMM9/moonlight-1.20-2.16.21-forge.jar",
-                    "id": "jToYHMM9",
+                    "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/HzfmyWBj/moonlight-1.20-2.16.22-forge.jar",
+                    "id": "HzfmyWBj",
                     "parent_id": "twkfQtEc",
                     "hashes": {
-                        "sha512": "9dcda73161f86e752b079a5855c936977b15b8ded3ac1407b191ce605b8de5c2ed18c33ccef5f85b6bd7080b8b81ca3ea5f7dfafb51b8d237e2078e2b01904f9",
-                        "sha1": "81054a1ec290b7a5263c60d3ab8fa73005b79274"
+                        "sha512": "7e9709340795f1acb1bf828b90369b1274e830ed924fddbbd688592753ce8e50f90d9b95f5fbb61ea7b1e5cdce1b2f91a444225c075b2af3e2413a2242e87ea3",
+                        "sha1": "5291622341a2138bb420cd6f851d9cbf1cb72a73"
                     },
                     "required_dependencies": [],
-                    "size": 1389157,
-                    "date_published": "2026-01-08T00:26:57.943185Z"
+                    "size": 1389715,
+                    "date_published": "2026-01-14T00:45:22.835110Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "moonlight-1.20-2.16.21-forge.jar",
+                    "file_name": "moonlight-1.20-2.16.22-forge.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -10887,16 +10950,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7431/825/moonlight-1.20-2.16.21-forge.jar",
-                    "id": "7431825",
+                    "url": "https://edge.forgecdn.net/files/7456/599/moonlight-1.20-2.16.22-forge.jar",
+                    "id": "7456599",
                     "parent_id": "499980",
                     "hashes": {
-                        "sha1": "81054a1ec290b7a5263c60d3ab8fa73005b79274",
-                        "md5": "fb8baef04164b20185028d8d6f74e351"
+                        "sha1": "5291622341a2138bb420cd6f851d9cbf1cb72a73",
+                        "md5": "10dce0da9c4e9d29ce8c9705af4e62b5"
                     },
                     "required_dependencies": [],
-                    "size": 1389157,
-                    "date_published": "2026-01-08T00:26:49.470Z"
+                    "size": 1389715,
+                    "date_published": "2026-01-14T00:42:01.090Z"
                 }
             ]
         },

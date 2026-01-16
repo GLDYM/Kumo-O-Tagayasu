@@ -139,7 +139,7 @@ ItemEvents.tooltip(event => {
   event.add('#forge:crops/cucumber', Text.translate('kubejs.tooltip.tag.forge.crops.cucumber.0'))
   event.add('#forge:crops/barley', Text.translate('kubejs.tooltip.tag.forge.crops.barley.0'))
   event.add('#forge:crops/oat', Text.translate('kubejs.tooltip.tag.forge.crops.oat.0'))
-  //Majobroom
+  // Majobroom
   event.add('majobroom:broom', [Text.translate('kubejs.tooltip.item.majobroom.broom.0'), Text.translate('kubejs.tooltip.item.majobroom.broom.1')])
   event.add('majobroom:majo_hat', Text.translate('kubejs.tooltip.item.majobroom.majo_hat.0'))
   event.add('majobroom:majo_cloth', Text.translate('kubejs.tooltip.item.majobroom.majo_cloth.0'))
@@ -151,4 +151,6 @@ ItemEvents.tooltip(event => {
   event.add('create_sa:block_picker', Text.translate('kubejs.tooltip.item.create_sa.block_picker.0'))
   event.add('quark:pickarang', Text.translate('kubejs.tooltip.item.quark.pickarang.0'))
   event.add('quark:flamerang', Text.translate('kubejs.tooltip.item.quark.flamerang.0'))
+  // Eggs
+  //event.add('create:crushing_wheel', Text.translate('kubejs.tooltip.item.create.crushing_wheel.0'))
 })
