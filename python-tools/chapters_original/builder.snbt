@@ -249,7 +249,7 @@
 				title: "绽放自然"
 				type: "checkmark"
 			}]
-			title: "方块\&植物：绽放自然"
+			title: "方块\\&植物：绽放自然"
 			x: 2.0d
 			y: -4.0d
 		}
@@ -324,7 +324,7 @@
 				title: "流光溢彩"
 				type: "checkmark"
 			}]
-			title: "列车：流光溢彩 \& 机动内饰"
+			title: "列车：流光溢彩 \\& 机动内饰"
 			x: -4.0d
 			y: -4.0d
 		}
@@ -358,7 +358,7 @@
 				title: "妖怪们的归家"
 				type: "checkmark"
 			}]
-			title: "方块\&内饰：妖怪们的归家 \& 樱"
+			title: "方块\\&内饰：妖怪们的归家 \\& 樱"
 			x: -2.0d
 			y: 4.0d
 		}
@@ -404,7 +404,7 @@
 				title: "车万女仆"
 				type: "checkmark"
 			}]
-			title: "内饰：车万女仆手办\&雕像"
+			title: "内饰：车万女仆手办\\&雕像"
 			x: 2.0d
 			y: 4.0d
 		}
@@ -534,7 +534,7 @@
 				title: "Waterframes"
 				type: "checkmark"
 			}]
-			title: "外饰\&内饰：Waterframes"
+			title: "外饰\\&内饰：Waterframes"
 			x: -4.0d
 			y: 2.0d
 		}

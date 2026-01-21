@@ -413,7 +413,7 @@
 		}
 		{
 			dependencies: ["0D5E7A85B8DE2331"]
-			description: ["在大豆生长到 71%% (5/7) 或者 86%% (6/7) 时采摘，可以获取毛豆。毛豆可以制作一系列食物。"]
+			description: ["在大豆生长到 71% (5/7) 或者 86% (6/7) 时采摘，可以获取毛豆。毛豆可以制作一系列食物。"]
 			hide_until_deps_complete: true
 			id: "4143434516688D4A"
 			rewards: [{

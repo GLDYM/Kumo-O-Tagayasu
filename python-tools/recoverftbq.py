@@ -26,7 +26,7 @@ for filename in os.listdir(snbt_folder):
         # 替换翻译键
         for key, value in translations.items():
             # 简单替换：如果 SNBT 中有这个键，就替换成翻译值
-            content = content.replace('{' + key + '}', value)
+            content = content.replace('{' + key + '}', value.replace(r'"', r'\"').replace(r'\&', r'\\&').replace('%%', '%'))
 
         # 写入输出文件
         with open(output_path, "w", encoding="utf-8") as f:
