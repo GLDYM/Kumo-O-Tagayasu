@@ -155,6 +155,9 @@
         },
         "simple-voice-chat": {
             "side": "BOTH"
+        },
+        "rainbowwrenchforjei-reforge": {
+            "side": "CLIENT"
         }
     }
 }

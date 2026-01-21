@@ -1,0 +1,42 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "advance"
+	group: "65DBD493CCEDCEF5"
+	icon: "youkaishomecoming:spell_reimu"
+	id: "094B51E793813ADB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		dependency_requirement: "one_completed"
+		description: [
+			"{ftbquests.chapter.advance.quest4638091021471000231.description1}"
+			""
+			"{ftbquests.chapter.advance.quest4638091021471000231.description2}"
+			""
+			"{ftbquests.chapter.advance.quest4638091021471000231.description3}"
+			"{ftbquests.chapter.advance.quest4638091021471000231.description4}"
+			"{ftbquests.chapter.advance.quest4638091021471000231.description5}"
+			"{ftbquests.chapter.advance.quest4638091021471000231.description6}"
+			"{ftbquests.chapter.advance.quest4638091021471000231.description7}"
+			"{ftbquests.chapter.advance.quest4638091021471000231.description8}"
+		]
+		icon: "youkaishomecoming:spell_reimu"
+		id: "405DCF35DAB526A7"
+		rewards: [{
+			id: "6CC3041DFE474FA7"
+			type: "xp_levels"
+			xp_levels: 5
+		}]
+		size: 3.0d
+		tasks: [{
+			id: "49787755A644FF6D"
+			title: "{ftbquests.chapter.advance.quest4638091021471000231.task.5294112571719483245.title}"
+			type: "checkmark"
+		}]
+		title: "{ftbquests.chapter.advance.quest4638091021471000231.title}"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "{ftbquests.chapter.advance.title}"
+}

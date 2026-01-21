@@ -1,0 +1,460 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stuff"
+	group: ""
+	icon: "supplementaries:globe"
+	id: "3D315FA49F0EFCB2"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&aJust Enough Items(JEI) &r是最出名的minecraft物品管理器，常见于各大整合包中，你可以通过它查看物品配方和用途。"
+				""
+				"打开背包后，右侧的物品图鉴便是JEI的功能。"
+				""
+				"操作方式："
+				""
+				"物品栏右上方可以切换页面；"
+				""
+				"将鼠标悬停在物品上，按&a[A]&r可以收藏物品，物品会出现在物品栏左侧，对着同一物品再次按下&a[A]&r可以解除收藏；"
+				""
+				"按下&a[R]&r，或者在管理器内单击&a[鼠标左键]&r可以查看对应物品的配方；"
+				""
+				"按下&a[U]&r，或者在管理器内单击&a[鼠标右键]&r可以查看对应物品的用途；"
+				""
+				"显示的“配方”和“用途”中的物品均可以进一步按照上述方式搜索；"
+				""
+				"如果你正处在相同的GUI界面中，按下配方右下角的&a[+]&r可以快捷放入对应材料，按住&ashift+[+]&r则可以放入最大限度的材料。"
+				""
+				""
+				""
+				"{@pagebreak}"
+				"背包下方可以进行搜索，具体方法为："
+				""
+				"&a直接搜索&r“苹果”，会显示所有名字含苹果的物品；"
+				""
+				"&a按照拼音搜索&r“jixie”，会显示所有拼音符合“jixie”的物品，该搜索可以模糊匹配前后鼻音、平翘舌音，也可以只输入每个字的拼音首字母（拼音搜索为附属模组JECh提供）；"
+				""
+				"在关键词前添加&a@&r可以搜索指定模组的物品，比如输入“@create 机械”则搜索机械动力中名称含有“机械”的物品；"
+				""
+				"排除关键词请使用&a-&r，如“pingguo -jin”的结果中不会显示金苹果；"
+				""
+				"搜索包含空格的关键词，请使用引号&a""&r。"
+				""
+				"{@pagebreak}"
+				"以下是高级搜索功能（一般来说用不到）："
+				""
+				"仅通过提示框搜索：在关键词前键入&a#&r；"
+				""
+				"按标签搜索：在关键词前键入&a$&r；"
+				""
+				"按创造标签页搜索：在关键词前键入&a%%&r；"
+				""
+				"多重搜索：用&a|&r字符分隔关键词，如“wrench|hammer”。"
+			]
+			icon: "ftbquests:book"
+			id: "3EC718092B2DD9AD"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "4D6AB1478E39EE56"
+				type: "checkmark"
+			}]
+			title: "JEI物品管理器（一定要看完任务描述！）"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: ["作为创造奶帽的替代品，装备后可以快速自动回复饥饿值直到18，此外也兼有不死图腾的功能。"]
+			hide_until_deps_complete: true
+			icon: "catburger:cat_burger"
+			id: "4AC580914BEDEC5E"
+			rewards: [{
+				id: "59AE3EF0E03E73D5"
+				item: "catburger:cat_burger"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Kitty, u can have the cheese burger~"
+			tasks: [{
+				id: "1EC0879AF39C9480"
+				item: "catburger:cat_burger"
+				type: "item"
+			}]
+			title: "小猫汉堡"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: ["将时间存储起来，然后对着方块shift+右键释放，你可以多次叠加这一操作，但是消耗的时间也会随之上升。"]
+			hide_until_deps_complete: true
+			id: "14DA7701558F10AC"
+			size: 1.5d
+			tasks: [{
+				id: "4CE807FFCEE823FC"
+				item: {
+					Count: 1
+					id: "tiab:time_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: [
+				"@supplementaries"
+				""
+				"一堆杂乱但是有用的小玩意。"
+				""
+				"水龙头：谁在召唤我？"
+			]
+			hide_until_deps_complete: true
+			id: "6E48FFAB34C254A1"
+			size: 1.5d
+			tasks: [{
+				advancement: "supplementaries:adventure/globe"
+				criterion: ""
+				id: "5BDDC6403BB44AB9"
+				type: "advancement"
+			}]
+			title: "锦致装饰"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: [
+				"附魔台被禁用了，不过你还是可以通过其他方式获得附魔，如村民交易、战利品箱、蜂蜜结晶花等。"
+				""
+				"之后使用附魔工业的打印机复制它们。"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:enchanting_table"
+			id: "198EC6BDFF26EEDA"
+			size: 1.5d
+			tasks: [{
+				id: "0087568C66095B48"
+				type: "checkmark"
+			}]
+			title: "你不许附魔!"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: [
+				"@quark"
+				""
+				"同样比较杂乱的模组。"
+				""
+				"古卷可以让你的附魔等级突破上限。"
+				""
+				"&a[J]&r可以使你将快捷栏与背包切换。"
+				""
+				"背包内对准要分享的物品按下&a[Shift]+[T]&r，可以将物品分享到聊天栏。"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:feather_falling"
+						lvl: 4s
+					}]
+				}
+			}
+			id: "05D4A62B5A723FD5"
+			size: 1.5d
+			tasks: [{
+				id: "0B08B397AD94E23A"
+				type: "checkmark"
+			}]
+			title: "Quark"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: [
+				"空手状态下潜行右键，搬运方块和生物。"
+				""
+				"如果某些方块需要潜行右键交互，可以离远一点。"
+			]
+			hide_until_deps_complete: true
+			icon: "create:brass_hand"
+			id: "16E8F0B3BC974914"
+			size: 1.5d
+			tasks: [{
+				id: "683A1A362210AD62"
+				type: "checkmark"
+			}]
+			title: "Carry-On"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: [
+				"随着你品尝不同的食物种类，你的生命上限也会随之提升。"
+				""
+				"忘记了吃过什么食物了？你需要这本《食物清单》，你也可以将吃完所有食物作为一个终极目标。"
+			]
+			hide_until_deps_complete: true
+			icon: "solcarrot:food_book"
+			id: "10E438A8A70C6D54"
+			size: 1.5d
+			tasks: [{
+				id: "6D699009B1A19E50"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			title: "生活调味料：胡萝卜版"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: [
+				"潜行右键可以打开相机的界面，放入胶卷后右键就可以拍照。"
+				""
+				"胶卷需要使用水瓶或药水冲洗，之后放入暗房中显影。这个流程可以使用机械动力。"
+			]
+			hide_until_deps_complete: true
+			id: "4FBC5309BBFBBE18"
+			size: 1.5d
+			tasks: [{
+				id: "649A6FAC10F0A482"
+				item: "exposure:camera"
+				type: "item"
+			}]
+			title: "照相"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: [
+				"用刻录机或者电脑获得唱片后放到唱片机里面就可以播放音乐。"
+				""
+				"当然如果你在服务器的话可以用 &2/music&r 命令点歌，不过唱片机的好处是可以与世界交互，比较有节目效果。"
+			]
+			hide_until_deps_complete: true
+			id: "61B6F363A7BD3938"
+			size: 1.5d
+			tasks: [{
+				id: "0B00DA517EC20D2F"
+				item: "netmusic:music_player"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: [
+				"在框架或者投影仪填入图片或视频的直链，就可以在游戏内摆放表情包/播放视频了。"
+				""
+				"[INFO]现在也支持B站的 bilibili 链接与 b23 链接。"
+			]
+			hide_until_deps_complete: true
+			id: "38177FEC4009CCFE"
+			size: 1.5d
+			tasks: [{
+				id: "172C6A1C853F9283"
+				item: "waterframes:frame"
+				type: "item"
+			}]
+			title: "Waterframe"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: ["使用它来照亮你的小镇。"]
+			hide_until_deps_complete: true
+			id: "0A23AE8CEE05968E"
+			size: 1.5d
+			tasks: [{
+				id: "7FA987DB70EE2024"
+				item: {
+					Count: 1
+					id: "lightingwand:wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "照明魔杖"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: [
+				"在地下会生成营地，营地内的箱子有概率被替换为宝箱怪，击杀宝箱怪即可获得很多有用的饰品。"
+				""
+				"&e[WARN]&b领取签到奖励时有 50%% 概率原地生成一只宝箱怪。"
+			]
+			hide_until_deps_complete: true
+			icon: "artifacts:mimic_spawn_egg"
+			id: "0CC112B640B87CD2"
+			rewards: [{
+				id: "00A4D74D779F4264"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1B0E157A532CAB7C"
+				title: "奇异饰品"
+				type: "checkmark"
+			}]
+			title: "奇异饰品"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: [
+				"@cosmosportals"
+				""
+				"在地下挖掘到宇宙的秘密，制作维度记录器记录维度与位置，并通过搭建传送门以快速到达其他维度。"
+			]
+			hide_until_deps_complete: true
+			id: "772A86A6B98C03D9"
+			size: 1.5d
+			tasks: [{
+				id: "603C44833D8E262A"
+				item: "cosmosportals:block_portal_dock_upgraded"
+				type: "item"
+			}]
+			title: "宇宙传送门"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: [
+				"@polaristrading"
+				""
+				"手持市场工具右键市场方块可以认领，并打开市场方块的界面。左下设置交易的物品与数量，左上的交易得到的物品，右侧是待交易物品的仓库。"
+				""
+				"手持物品右键市场方块即可交易，市场方块在领地内也可以交易。"
+				""
+				"如果需要自动化输入输出，建议使用机械动力的桌布，并使用烈焰人燃烧室作为店长；这样也可以在领地内交易。"
+			]
+			hide_until_deps_complete: true
+			id: "1F357EC4339BB73B"
+			size: 1.5d
+			tasks: [{
+				id: "29B3EBC590B9CDA7"
+				item: "polaristrading:shop_tool"
+				type: "item"
+			}]
+			title: "市场 \& 交易"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: [
+				"在 Minecraft 中玩 Uno！"
+				""
+				"操作："
+				""
+				"- 使用滚轮选择卡片；"
+				""
+				"- 右键点击桌子出牌；或者，右键点击牌堆抽牌；"
+				""
+				"- 当还有两张牌时，按住左 Ctrl 的同时出牌即可喊出 "Mino"（即在打出去的同时喊）；如果忘记了，也可以在打出牌后在聊天栏中打出 "mino"。"
+				""
+				"- 发现对方忘记喊 "Mino" 想指出来的话，直接殴打即可。"
+				""
+				"规则："
+				""
+				"- +2 和 +4 可以叠；"
+				""
+				"- 用和上张牌相同的牌可以抢回合；"
+				""
+				"- +4 只有没有其他牌可以出的时候才可以打出来。"
+			]
+			hide_until_deps_complete: true
+			icon: "minopp:mino_table"
+			id: "519FF2D319A99D35"
+			size: 1.5d
+			tasks: [{
+				id: "56093F076F8CE89A"
+				item: "minopp:mino_table"
+				type: "item"
+			}]
+			title: "Mino++"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: [
+				"建筑手杖可以帮助你一次性放置多个方块，在空中放置方块或者摧毁方块。"
+				""
+				"&a[左SHIFT]+滚轮&r可以切换放置的模式。 &a[左SHIFT]+左键&r可以切换核心。"
+				""
+				"&a[左SHIFT]+[左CTRL]+左键&r可以打开配置界面。"
+				""
+				"对着上一次修改的方块&a[左SHIFT]+[左CTRL]+右键&r可以撤回上一次破坏/放置。"
+				""
+				"[INFO]如果你正在游玩 KOTS 5.3.5，手杖支持放置背包内的方块。SHIFT 检测也恢复正常，而非原先的检测蹲下。"
+			]
+			icon: {
+				Count: 1
+				id: "constructionwand:infinity_wand"
+				tag: {
+					wand_options: {
+						cores: [
+							"constructionwand:core_angel"
+							"constructionwand:core_destruction"
+						]
+						cores_sel: 0b
+						lock: "nolock"
+					}
+				}
+			}
+			id: "4D5E8D8466A0F867"
+			rewards: [{
+				id: "7B9D53B553A3D95A"
+				item: {
+					Count: 1
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: {
+							cores: [
+								"constructionwand:core_angel"
+								"constructionwand:core_destruction"
+							]
+							cores_sel: 0b
+							lock: "horizontal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "63631EB99BD35EC5"
+				title: "建筑手杖"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+	]
+	title: "&b实用模组介绍 "
+}

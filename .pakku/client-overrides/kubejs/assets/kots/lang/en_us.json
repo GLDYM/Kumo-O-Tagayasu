@@ -1,5 +1,18 @@
 {
   "kots.modpack.name": "\u00a7bKumo O Tagayasu",
+
+  "kots.dimensionviewer.minecraft.overworld": "Overworld",
+  "kots.dimensionviewer.minecraft.the_nether": "The Nether",
+  "kots.dimensionviewer.minecraft.the_end": "The End",
+  "kots.dimensionviewer.javd.javd": "The Void",
+  "kots.dimensionviewer.jamd.mining": "Mining",
+  "kots.dimensionviewer.jamd.nether": "Nether Mining",
+  "kots.dimensionviewer.jamd.end": "End Mining",
+  "kots.dimensionviewer.tofucraft.tofu_world": "Tofu Star",
+  "kots.dimensionviewer.the_bumblezone.the_bumblezone": "The Bumblezone",
+  "kots.dimensionviewer.touhou_little_maid_spell.the_retreat": "The Retreat",
+  "kots.dimensionviewer.irons_spellbooks.pocket_dimension": "Pocket Dimension",
+
   "kubejs.message.enchanting_table_blocked.0": "\u00a7cYou, cannot use the enchanting table!",
   "kubejs.message.enchanting_table_blocked.1": "\u00a7bUse Village Trade, Blaze Enchanter or Crysyalline Flower instead.",
   

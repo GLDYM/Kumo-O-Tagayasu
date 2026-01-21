@@ -1,0 +1,33 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "touhou_little_maid_spell:wind_seeking_bell",
+        "Count": 1
+      }
+    }
+  },
+  "power": 4.5,
+  "ingredients": [
+    {
+      "item": "minecraft:bell"
+    },
+    {
+      "item": "caverns_and_chasms:necromium_block"
+    },
+    {
+      "item": "irons_spellbooks:divine_soulshard"
+    },
+    {
+      "item": "minecraft:cherry_sapling"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "minecraft:netherite_block"
+    }
+  ]
+}

@@ -16,9 +16,9 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.bakeries.quest4603215269487944074.description1}"
+				"要成为糕点师，一台搅拌机是必不可缺的。"
 				""
-				"{ftbquests.chapter.bakeries.quest4603215269487944074.description2}"
+				"&b本模组的大部分材料都已经被替换，你可以通过其他模组的方法获取该模组的材料。"
 			]
 			icon: "bakeries:blender"
 			id: "3FE1E7E6127BA18A"
@@ -28,22 +28,22 @@
 				xp_levels: 5
 			}]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.bakeries.quest4603215269487944074.subtitle}"
+			subtitle: "本章作者：PL"
 			tasks: [{
 				id: "5D6F77D8D01968A9"
 				item: "bakeries:blender"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.bakeries.quest4603215269487944074.title}"
+			title: "&6搅拌机"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3FE1E7E6127BA18A"]
 			description: [
-				"{ftbquests.chapter.bakeries.quest4201601263399616428.description1}"
+				"想要做面包，首先需要发酵的酵母。将三份&3全麦面粉&r与一瓶水放入发酵瓶中，经过一段时间就能变为酵母；此时可以用玻璃瓶取出。"
 				""
-				"{ftbquests.chapter.bakeries.quest4201601263399616428.description2}"
+				"你也可以通过与面包师交易获取酵母。"
 			]
 			hide_until_deps_complete: true
 			icon: "bakeries:bottle_yeast"
@@ -70,16 +70,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.bakeries.quest4201601263399616428.title}"
+			title: "面包师的起点"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3A4F161688C43FAC"]
 			description: [
-				"{ftbquests.chapter.bakeries.quest7137667234940633470.description1}"
+				"向搅拌机内加入酵母、面粉与其他辅料，经过搅拌发酵后可以得到面团。"
 				""
-				"{ftbquests.chapter.bakeries.quest7137667234940633470.description2}"
+				"不同的面包需要不同的面团制作。"
 			]
 			icon: "bakeries:sweet_dough"
 			id: "630E16887F94C17E"
@@ -121,13 +121,13 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.bakeries.quest7137667234940633470.title}"
+			title: "制作面团"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["630E16887F94C17E"]
-			description: ["{ftbquests.chapter.bakeries.quest8149956687275848481.description1}"]
+			description: ["将面团放在面坯合成台上，可以把面团擀成不同形状的面包坯。部分面包坯可以加料，变成另一种面包坯。"]
 			icon: "bakeries:bagel_dough"
 			id: "711A766D3FE57321"
 			rewards: [{
@@ -187,16 +187,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.bakeries.quest8149956687275848481.title}"
+			title: "擀成面胚"
 			x: 1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["711A766D3FE57321"]
 			description: [
-				"{ftbquests.chapter.bakeries.quest1838479141550133312.description1}"
+				"将面包放入烤箱当中，设定好合适的温度，等待一会就能得到美味的面包。"
 				""
-				"{ftbquests.chapter.bakeries.quest1838479141550133312.description2}"
+				"在面包的提示信息上表明了烤制这种面包所需的最低温度；此外每种面包都有各自的&6完美温度&r，完美温度的面包可以提供额外的效果，并且可以无视饥饿值食用。"
 			]
 			icon: {
 				Count: 1
@@ -315,13 +315,13 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.bakeries.quest1838479141550133312.title}"
+			title: "烤面包"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["3FE1E7E6127BA18A"]
-			description: ["{ftbquests.chapter.bakeries.quest6960844142628692416.description1}"]
+			description: ["作为糕点师，怎么能没有自己的面包刀呢？"]
 			hide_until_deps_complete: true
 			id: "6099E2DE1A3DE1C0"
 			rewards: [{
@@ -340,16 +340,16 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.bakeries.quest6960844142628692416.title}"
+			title: "面包刀"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3FE1E7E6127BA18A"]
 			description: [
-				"{ftbquests.chapter.bakeries.quest230688261255761233.description1}"
+				"副手持有面包刀，手持鸡蛋右键就能获得生蛋，手持生蛋右键就能分离蛋黄蛋白。"
 				""
-				"{ftbquests.chapter.bakeries.quest230688261255761233.description2}"
+				"将二者置于搅拌机内打发后再混合，就能得到蛋糕糊。"
 			]
 			hide_until_deps_complete: true
 			id: "033391C05A008D51"
@@ -391,13 +391,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.bakeries.quest230688261255761233.title}"
+			title: "准备面糊"
 			x: -1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["033391C05A008D51"]
-			description: ["{ftbquests.chapter.bakeries.quest6125616954081952678.description1}"]
+			description: ["将蛋糕糊倒入模具后放入烤箱 170 度烘烤，取出后将模具放在桌上，再右键就可以脱模。"]
 			id: "5502902A322A43A6"
 			rewards: [{
 				count: 2
@@ -427,13 +427,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.bakeries.quest6125616954081952678.title}"
+			title: "入模烘烤"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3FE1E7E6127BA18A"]
-			description: ["{ftbquests.chapter.bakeries.quest5488830766984526405.description1}"]
+			description: ["向发酵罐内放入牛奶与盐，一段时间后即可变为干酪，右键可以去除。"]
 			hide_until_deps_complete: true
 			id: "4C2C3E806258FA45"
 			rewards: [{
@@ -451,16 +451,16 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.bakeries.quest5488830766984526405.title}"
+			title: "干酪块"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["5502902A322A43A6"]
 			description: [
-				"{ftbquests.chapter.bakeries.quest7209296395673701027.description1}"
+				"蛋糕坯已经能食用了，要做成蛋糕还需要进一步加工。"
 				""
-				"{ftbquests.chapter.bakeries.quest7209296395673701027.description2}"
+				"将蛋糕胚用面包刀切片，放在桌上，按照蛋糕坯切片-奶油-蛋糕坯切片-奶油-甜浆果的顺序，就能做出奶油蛋糕。"
 			]
 			id: "640C90E018A28AA3"
 			tasks: [
@@ -479,7 +479,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.bakeries.quest7209296395673701027.title}"
+			title: "蛋糕组装"
 			x: -1.5d
 			y: -1.5d
 		}
@@ -522,16 +522,16 @@
 				id: "67B535EF5833BE7F"
 				type: "advancement"
 			}]
-			title: "{ftbquests.chapter.bakeries.quest2681462580699735220.title}"
+			title: "&6法棍大王"
 			x: -1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5502902A322A43A6"]
 			description: [
-				"{ftbquests.chapter.bakeries.quest7498928939670275636.description1}"
+				"你也可以把蛋糕坯做成蛋糕卷。首先同样是用面包刀将蛋糕坯切成两半，在桌上放上油纸再放上蛋糕胚切片。手持食材右键蛋糕坯切片，再空手右键就能制作出蛋糕卷。"
 				""
-				"{ftbquests.chapter.bakeries.quest7498928939670275636.description2}"
+				"蛋糕卷可以无视饥饿值食用。一个蛋糕卷最多能放四个食材，可以继承所有食材的效果（外加蛋糕卷本身的柔软效果）；但同一食材效果不叠加。食材要求：1. 无方块形式，2. 无容器，3. 无强制标签，4. 不是蛋糕卷。"
 			]
 			icon: {
 				Count: 1
@@ -568,10 +568,10 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.bakeries.quest7498928939670275636.title}"
+			title: "蛋糕卷"
 			x: 0.0d
 			y: -1.5d
 		}
 	]
-	title: "{ftbquests.chapter.bakeries.title}"
+	title: "&e小镇糕点师"
 }

@@ -7,6 +7,7 @@ forge-*-installer.jar
 mrpack-install-windows.exe
 mrpack-install-linux
 reference/
+old-docs/
 
 # remove client config
 .pakku/overrides/config/*client.toml
