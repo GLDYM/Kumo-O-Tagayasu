@@ -446,7 +446,7 @@ ServerEvents.tags('item', event => {
   event.add('forge:dusts/salt', ['vintagedelight:salt_dust'])
   event.add('sakura:rice/rice', ['farmersdelight:rice'])
   event.add('youkaishomecoming:farmland_redbean', ['minecraft:dirt'])
-  event.add('forge:coffee_grounds', ['youkaishomecoming:coffee_powder'])
+  //event.add('forge:coffee_grounds', ['youkaishomecoming:coffee_powder'])
 })
 
 //修补

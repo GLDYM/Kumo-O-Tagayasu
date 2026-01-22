@@ -6585,7 +6585,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ftb-teams-forge-2001.3.1.jar",
+                    "file_name": "ftb-teams-forge-2001.3.2.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -6593,19 +6593,19 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6130/786/ftb-teams-forge-2001.3.1.jar",
-                    "id": "6130786",
+                    "url": "https://edge.forgecdn.net/files/7499/810/ftb-teams-forge-2001.3.2.jar",
+                    "id": "7499810",
                     "parent_id": "404468",
                     "hashes": {
-                        "sha1": "c2af94e0b86631cb75daa8de2377ff72527651ca",
-                        "md5": "98efb58ba7cecfb39034544eced0389f"
+                        "sha1": "c49023f5d471aa1ba7fc624d2565fe9e82b7117e",
+                        "md5": "1c547d6f1b22f461f84c5fb79067b0ec"
                     },
                     "required_dependencies": [
-                        "404465",
-                        "419699"
+                        "419699",
+                        "404465"
                     ],
-                    "size": 248592,
-                    "date_published": "2025-01-27T16:07:52.110Z"
+                    "size": 252579,
+                    "date_published": "2026-01-21T10:11:35.007Z"
                 }
             ]
         },

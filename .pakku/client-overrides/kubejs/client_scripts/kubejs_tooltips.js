@@ -96,6 +96,10 @@ ItemEvents.tooltip(event => {
   event.add('crockpot:gnaws_coin', Text.translate('kubejs.tooltip.item.crockpot.gnaws_coin.0'))
   event.add('artifacts:everlasting_beef', [Text.translate('kubejs.tooltip.item.artifacts.everlasting_beef.0'), Text.translate('kubejs.tooltip.item.artifacts.everlasting_beef.1')])
   event.add('artifacts:eternal_steak', [Text.translate('kubejs.tooltip.item.artifacts.eternal_steak.0'), Text.translate('kubejs.tooltip.item.artifacts.eternal_steak.1')])
+  event.add('youkaishomecoming:green_coffee_beans', Text.translate('kubejs.tooltip.item.youkaishomecoming.green_coffee_beans.0'))
+  event.add('youkaishomecoming:coffee_beans', Text.translate('kubejs.tooltip.item.youkaishomecoming.coffee_beans.0'))
+  event.add('bakeries:raw_coffee_beans', Text.translate('kubejs.tooltip.item.bakeries.raw_coffee_beans.0'))
+  event.add('bakeries:coffee_beans', Text.translate('kubejs.tooltip.item.bakeries.coffee_beans.0'))
   //为标签添加的物品吐槽
   event.add('#forge:pasta', Text.translate('kubejs.tooltip.tag.forge.pasta.0'))
   event.add('#forge:chocolate', Text.translate('kubejs.tooltip.tag.forge.chocolate.0'))
