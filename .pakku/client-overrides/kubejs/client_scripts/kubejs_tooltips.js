@@ -98,8 +98,10 @@ ItemEvents.tooltip(event => {
   event.add('artifacts:eternal_steak', [Text.translate('kubejs.tooltip.item.artifacts.eternal_steak.0'), Text.translate('kubejs.tooltip.item.artifacts.eternal_steak.1')])
   event.add('youkaishomecoming:green_coffee_beans', Text.translate('kubejs.tooltip.item.youkaishomecoming.green_coffee_beans.0'))
   event.add('youkaishomecoming:coffee_beans', Text.translate('kubejs.tooltip.item.youkaishomecoming.coffee_beans.0'))
+  event.add('youkaishomecoming:coffee_powder', Text.translate('kubejs.tooltip.item.youkaishomecoming.coffee_powder.0'))
   event.add('bakeries:raw_coffee_beans', Text.translate('kubejs.tooltip.item.bakeries.raw_coffee_beans.0'))
   event.add('bakeries:coffee_beans', Text.translate('kubejs.tooltip.item.bakeries.coffee_beans.0'))
+  event.add('bakeries:ground_coffee', Text.translate('kubejs.tooltip.item.bakeries.ground_coffee.0'))
   //为标签添加的物品吐槽
   event.add('#forge:pasta', Text.translate('kubejs.tooltip.tag.forge.pasta.0'))
   event.add('#forge:chocolate', Text.translate('kubejs.tooltip.tag.forge.chocolate.0'))

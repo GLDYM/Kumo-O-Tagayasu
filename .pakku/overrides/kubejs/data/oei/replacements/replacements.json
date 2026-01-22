@@ -73,7 +73,7 @@
     "resultItems": "farmersdelight:raw_pasta"
   },
   {
-    "matchItems": ["farm_and_charm:flour", "sakura:flour"],
+    "matchItems": ["farm_and_charm:flour", "sakura:flour", "kaleidoscope_cookery:flour"],
     "resultItems": "create:wheat_flour"
   },
   {

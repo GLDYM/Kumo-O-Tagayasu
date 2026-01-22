@@ -16125,6 +16125,82 @@
             ]
         },
         {
+            "pakku_id": "PaKSu5Hgbfsuceps",
+            "pakku_links": [
+                "Acqcy5qCYFfNUp73"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "watermedia-yt-plugin",
+                "modrinth": "watermedia-yt-plugin"
+            },
+            "name": {
+                "curseforge": "WATERMeDIA: Youtube Plugin",
+                "modrinth": "WATERMeDIA: Youtube Plugin"
+            },
+            "id": {
+                "curseforge": "1395870",
+                "modrinth": "P0w3IrnX"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "watermedia_youtube_plugin-2.1.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7320/607/watermedia_youtube_plugin-2.1.1.jar",
+                    "id": "7320607",
+                    "parent_id": "1395870",
+                    "hashes": {
+                        "sha1": "0baf3c424eee5f0c5e9e454c57df852080733602",
+                        "md5": "436cca612ab46c29bf48c2771ecdb5e0"
+                    },
+                    "required_dependencies": [
+                        "869524"
+                    ],
+                    "size": 3808537,
+                    "date_published": "2025-12-11T13:55:04.220Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "watermedia_youtube_plugin-2.1.1.jar",
+                    "mc_versions": [
+                        "1.18.2",
+                        "1.19.2",
+                        "1.20.1",
+                        "1.21.1",
+                        "1.21.5"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/P0w3IrnX/versions/isPyTDUa/watermedia_youtube_plugin-2.1.1.jar",
+                    "id": "isPyTDUa",
+                    "parent_id": "P0w3IrnX",
+                    "hashes": {
+                        "sha512": "1a9dbe8277ed7abcf7c99a37cf42e6c07e8d4779613e42a15850754ecc6aa1cf0626ff3234ed91fec3da55fd5576db008a720b82f1b82866fdbd01c5890b6940",
+                        "sha1": "0baf3c424eee5f0c5e9e454c57df852080733602"
+                    },
+                    "required_dependencies": [
+                        "G922NeHS"
+                    ],
+                    "size": 3808537,
+                    "date_published": "2025-12-11T13:55:05.820204Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "8el8bARJSFqr80nD",
             "pakku_links": [
                 "Acqcy5qCYFfNUp73"
