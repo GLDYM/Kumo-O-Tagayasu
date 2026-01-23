@@ -10532,7 +10532,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "1.20.1-maid_storage_manager-1.14.4-all.jar",
+                    "file_name": "1.20.1-maid_storage_manager-1.14.5-all.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -10540,18 +10540,18 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7428/888/1.20.1-maid_storage_manager-1.14.4-all.jar",
-                    "id": "7428888",
+                    "url": "https://edge.forgecdn.net/files/7510/848/1.20.1-maid_storage_manager-1.14.5-all.jar",
+                    "id": "7510848",
                     "parent_id": "1210244",
                     "hashes": {
-                        "sha1": "b6271453268e32baa2df4d96198a54e448550240",
-                        "md5": "d2cb327d3a9ca4d64790dacdde2610af"
+                        "sha1": "f2dd65bdb547792b6f5bba5067ea56fc40106ef8",
+                        "md5": "50a5dc41ce057917b270339960c45f15"
                     },
                     "required_dependencies": [
                         "355044"
                     ],
-                    "size": 2551136,
-                    "date_published": "2026-01-07T09:13:40.933Z"
+                    "size": 2551193,
+                    "date_published": "2026-01-23T07:58:34.183Z"
                 }
             ]
         },
@@ -15431,7 +15431,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "touhoulittlemaid-1.4.6-forge+mc1.20.1.jar",
+                    "file_name": "touhoulittlemaid-1.5.0-forge+mc1.20.1-release.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -15439,20 +15439,20 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/R0bDWFAW/versions/iwdMzV8V/touhoulittlemaid-1.4.6-forge+mc1.20.1.jar",
-                    "id": "iwdMzV8V",
+                    "url": "https://cdn.modrinth.com/data/R0bDWFAW/versions/tuOQjuRE/touhoulittlemaid-1.5.0-forge+mc1.20.1-release.jar",
+                    "id": "tuOQjuRE",
                     "parent_id": "R0bDWFAW",
                     "hashes": {
-                        "sha512": "56809ec4483ccf2095dfa536ca80c9766b5cd4b9009e098547e3af8664baa42f970779b13ea8e111a559af44d44becb68605a51759b16786bb50f943be7b5744",
-                        "sha1": "5edb109c4a4ebbd1f7cbd037fdc96231db4049ef"
+                        "sha512": "71823c20c89171a09c7653d3319c14df77fc413e7a4d7eab01c03cae36ff4ca56663593e064e42804c78c269f3b78b40c4f0f92846b24dde40c7ce14eb07b4c5",
+                        "sha1": "affa85067aa21e3a83f98fdd4bed50c51c504a07"
                     },
                     "required_dependencies": [],
-                    "size": 22390054,
-                    "date_published": "2025-12-08T11:19:02.428628Z"
+                    "size": 23205221,
+                    "date_published": "2026-01-23T07:00:17.556293Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "touhoulittlemaid-1.4.6-forge+mc1.20.1.jar",
+                    "file_name": "touhoulittlemaid-1.5.0-forge+mc1.20.1-release.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -15460,16 +15460,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7307/720/touhoulittlemaid-1.4.6-forge+mc1.20.1.jar",
-                    "id": "7307720",
+                    "url": "https://edge.forgecdn.net/files/7510/714/touhoulittlemaid-1.5.0-forge+mc1.20.1-release.jar",
+                    "id": "7510714",
                     "parent_id": "355044",
                     "hashes": {
-                        "sha1": "5edb109c4a4ebbd1f7cbd037fdc96231db4049ef",
-                        "md5": "85d4df6469c63a7f821c39899d484d0b"
+                        "sha1": "affa85067aa21e3a83f98fdd4bed50c51c504a07",
+                        "md5": "dadee2bf610e66c3a3adaf94bbe5262c"
                     },
                     "required_dependencies": [],
-                    "size": 22390054,
-                    "date_published": "2025-12-08T11:24:01.820Z"
+                    "size": 23205221,
+                    "date_published": "2026-01-23T07:07:30.917Z"
                 }
             ]
         },
