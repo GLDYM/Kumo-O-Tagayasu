@@ -1,6 +1,6 @@
 {
   "type": "sakura:stone_mortar",
-  "ingredient": {
+  "ingredients": {
     "item": "minecraft:flint"
   },
   "experience": 0.0,

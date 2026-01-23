@@ -1,6 +1,6 @@
 {
   "type": "kaleidoscope_cookery:millstone",
-  "ingredient": {
+  "ingredients": {
     "item": "kaleidoscope_cookery:rice_panicle"
   },
   "experience": 0.0,
@@ -14,4 +14,5 @@
       "count": 1,
       "item": "kaleidoscope_cookery:rice"
     }
+  ]
 }

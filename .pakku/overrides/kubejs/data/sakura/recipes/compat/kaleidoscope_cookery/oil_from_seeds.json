@@ -1,6 +1,6 @@
 {
   "type": "sakura:stone_mortar",
-  "ingredient": {
+  "ingredients": {
     "tag": "forge:seeds"
   },
   "experience": 0.0,
