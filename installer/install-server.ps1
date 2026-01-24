@@ -6,7 +6,7 @@ $ErrorActionPreference = "Stop"
 # === Configuration ===
 $PAKKU_URL = "https://github.com/juraj-hrivnak/Pakku/releases/download/v1.3.2/pakku.jar"
 $FORGE_VERSION = $env:FORGE_VERSION
-if (-not $FORGE_VERSION) { $FORGE_VERSION = "1.20.1-47.4.6" }
+if (-not $FORGE_VERSION) { $FORGE_VERSION = "1.20.1-47.4.16" }
 $FORGE_URL = "https://maven.minecraftforge.net/net/minecraftforge/forge/$FORGE_VERSION/forge-$FORGE_VERSION-installer.jar"
 
 $SERVER_DIR = "server"
