@@ -1,0 +1,577 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bakeries"
+	group: "3B8AF43E1258A852"
+	icon: {
+		Count: 1
+		id: "bakeries:bread_knife"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "064BBA5351240699"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"要成为糕点师，一台搅拌机是必不可缺的。"
+				""
+				"&b本模组的大部分材料都已经被替换，你可以通过其他模组的方法获取该模组的材料。"
+			]
+			icon: "bakeries:blender"
+			id: "3FE1E7E6127BA18A"
+			rewards: [{
+				id: "210EAC6096B0640A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			subtitle: "本章作者：PL"
+			tasks: [{
+				id: "5D6F77D8D01968A9"
+				item: "bakeries:blender"
+				type: "item"
+			}]
+			title: "&6搅拌机"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FE1E7E6127BA18A"]
+			description: [
+				"想要做面包，首先需要发酵的酵母。将三份&3全麦面粉&r与一瓶水放入发酵瓶中，经过一段时间就能变为酵母；此时可以用玻璃瓶取出。"
+				""
+				"你也可以通过与面包师交易获取酵母。"
+			]
+			hide_until_deps_complete: true
+			icon: "bakeries:bottle_yeast"
+			id: "3A4F161688C43FAC"
+			rewards: [{
+				count: 2
+				id: "3952A3FCBFCFFD90"
+				item: "bakeries:bottle_yeast"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3A286E5902A4CF3B"
+					item: "bakeries:fermentation_tank"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "6A4101FC24D05E93"
+					item: {
+						Count: 6
+						id: "bakeries:bottle_yeast"
+					}
+					type: "item"
+				}
+			]
+			title: "面包师的起点"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A4F161688C43FAC"]
+			description: [
+				"向搅拌机内加入酵母、面粉与其他辅料，经过搅拌发酵后可以得到面团。"
+				""
+				"不同的面包需要不同的面团制作。"
+			]
+			icon: "bakeries:sweet_dough"
+			id: "630E16887F94C17E"
+			rewards: [{
+				count: 4
+				id: "4E658B997C78385A"
+				item: "bakeries:whole_wheat_dough"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F928BA2C09FC96B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bakeries:sweet_dough"
+							}
+							{
+								Count: 1b
+								id: "bakeries:cocoa_dough"
+							}
+							{
+								Count: 1b
+								id: "bakeries:salted_dough"
+							}
+							{
+								Count: 1b
+								id: "bakeries:whole_wheat_dough"
+							}
+							{
+								Count: 1b
+								id: "bakeries:crispy_dough"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "制作面团"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["630E16887F94C17E"]
+			description: ["将面团放在面坯合成台上，可以把面团擀成不同形状的面包坯。部分面包坯可以加料，变成另一种面包坯。"]
+			icon: "bakeries:bagel_dough"
+			id: "711A766D3FE57321"
+			rewards: [{
+				count: 4
+				id: "498574C54D0418B5"
+				item: "bakeries:baguette_dough"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2E5FB2579EC126CA"
+					item: "bakeries:dough_crafting_table"
+					type: "item"
+				}
+				{
+					id: "5366D0A7B7F01722"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "bakeries:scone_dough"
+								}
+								{
+									Count: 1b
+									id: "bakeries:bagel_dough"
+								}
+								{
+									Count: 1b
+									id: "bakeries:whole_wheat_bagel_dough"
+								}
+								{
+									Count: 1b
+									id: "bakeries:round_bread_dough"
+								}
+								{
+									Count: 1b
+									id: "bakeries:croissant_dough"
+								}
+								{
+									Count: 1b
+									id: "bakeries:baguette_dough"
+								}
+								{
+									Count: 1b
+									id: "bakeries:ciabatta_dough"
+								}
+								{
+									Count: 1b
+									id: "bakeries:country_bread_dough"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "擀成面胚"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["711A766D3FE57321"]
+			description: [
+				"将面包放入烤箱当中，设定好合适的温度，等待一会就能得到美味的面包。"
+				""
+				"在面包的提示信息上表明了烤制这种面包所需的最低温度；此外每种面包都有各自的&6完美温度&r，完美温度的面包可以提供额外的效果，并且可以无视饥饿值食用。"
+			]
+			icon: {
+				Count: 1
+				id: "bakeries:bagel"
+				tag: { }
+			}
+			id: "19839709DF0F9040"
+			rewards: [{
+				id: "664E0F0E4B887287"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "6E8DB544A7E9F5FE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bakeries:bagel"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bakeries:whole_wheat_bagel"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bakeries:round_bread"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bakeries:berry_bread"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bakeries:cheese_cream_bread"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bakeries:brown_sugar_roll"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bakeries:pineapple_bun"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bakeries:meat_floss_bread_roll"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bakeries:croissant"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bakeries:salt_croissant"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bakeries:toast"
+							}
+							{
+								Count: 1b
+								id: "bakeries:cheese_cocoa_toast"
+							}
+							{
+								Count: 1b
+								id: "bakeries:baguette"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "bakeries:ciabatta"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bakeries:focaccia"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bakeries:country_bread"
+							}
+							{
+								Count: 1b
+								id: "bakeries:berry_bagel"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bakeries:baguette_with_filling"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bakeries:tomato_cheese_croissant_sandwich"
+								tag: { }
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "烤面包"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3FE1E7E6127BA18A"]
+			description: ["作为糕点师，怎么能没有自己的面包刀呢？"]
+			hide_until_deps_complete: true
+			id: "6099E2DE1A3DE1C0"
+			rewards: [{
+				id: "11B093851527BA90"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "17C9C633DCBCA75F"
+				item: {
+					Count: 1
+					id: "bakeries:bread_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "面包刀"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3FE1E7E6127BA18A"]
+			description: [
+				"副手持有面包刀，手持鸡蛋右键就能获得生蛋，手持生蛋右键就能分离蛋黄蛋白。"
+				""
+				"将二者置于搅拌机内打发后再混合，就能得到蛋糕糊。"
+			]
+			hide_until_deps_complete: true
+			id: "033391C05A008D51"
+			rewards: [{
+				count: 2
+				id: "23B1F337181ABE40"
+				item: "bakeries:cake_paste_bucket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7778D67CC8880E29"
+					item: "bakeries:whole_egg"
+					type: "item"
+				}
+				{
+					id: "130115C96FBEEF5E"
+					item: "bakeries:raw_protein"
+					type: "item"
+				}
+				{
+					id: "58C4F256011501D6"
+					item: "bakeries:raw_egg_yolk"
+					type: "item"
+				}
+				{
+					id: "7F0F20EAAF196367"
+					item: "bakeries:egg_yolk_paste_bucket"
+					type: "item"
+				}
+				{
+					id: "7F78D3BF609AC0E9"
+					item: "bakeries:foamed_protein_bucket"
+					type: "item"
+				}
+				{
+					id: "3671A197B252DB19"
+					item: "bakeries:cake_paste_bucket"
+					type: "item"
+				}
+			]
+			title: "准备面糊"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["033391C05A008D51"]
+			description: ["将蛋糕糊倒入模具后放入烤箱 170 度烘烤，取出后将模具放在桌上，再右键就可以脱模。"]
+			id: "5502902A322A43A6"
+			rewards: [{
+				count: 2
+				id: "0A18A12C2C8F9C83"
+				item: "bakeries:cake_base"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "72F534C8B9BF7307"
+					item: "bakeries:mould_two"
+					type: "item"
+				}
+				{
+					id: "6B7FFAE0C21DF70C"
+					item: "bakeries:mould_cake_paste"
+					type: "item"
+				}
+				{
+					id: "5CF799316FC73DBB"
+					item: "bakeries:mould_cake_base"
+					type: "item"
+				}
+				{
+					id: "431BF71DA327F4F3"
+					item: "bakeries:cake_base"
+					type: "item"
+				}
+			]
+			title: "入模烘烤"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FE1E7E6127BA18A"]
+			description: ["向发酵罐内放入牛奶与盐，一段时间后即可变为干酪，右键可以去除。"]
+			hide_until_deps_complete: true
+			id: "4C2C3E806258FA45"
+			rewards: [{
+				count: 8
+				id: "45D9154DFDD91DB8"
+				item: "bakeries:cheese_cube"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "2B62ED9459D45A92"
+				item: {
+					Count: 8
+					id: "bakeries:cheese_cube"
+				}
+				type: "item"
+			}]
+			title: "干酪块"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5502902A322A43A6"]
+			description: [
+				"蛋糕坯已经能食用了，要做成蛋糕还需要进一步加工。"
+				""
+				"将蛋糕胚用面包刀切片，放在桌上，按照蛋糕坯切片-奶油-蛋糕坯切片-奶油-甜浆果的顺序，就能做出奶油蛋糕。"
+			]
+			id: "640C90E018A28AA3"
+			tasks: [
+				{
+					count: 2L
+					id: "020CFCE444C5A7AF"
+					item: {
+						Count: 2
+						id: "bakeries:cut_cake_base"
+					}
+					type: "item"
+				}
+				{
+					id: "52A7C8A1BD6E4413"
+					item: "bakeries:cream_cake"
+					type: "item"
+				}
+			]
+			title: "蛋糕组装"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19839709DF0F9040"]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "bakeries:baguette"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 3s
+					}]
+					RepairCost: 1
+				}
+			}
+			id: "25367802991C24B4"
+			rewards: [{
+				id: "6712860915360180"
+				item: "bakeries:eternal_baguette"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "bakeries:very_hard"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "bakeries:baguette"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+						RepairCost: 1
+					}
+				}
+				id: "67B535EF5833BE7F"
+				type: "advancement"
+			}]
+			title: "&6法棍大王"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5502902A322A43A6"]
+			description: [
+				"你也可以把蛋糕坯做成蛋糕卷。首先同样是用面包刀将蛋糕坯切成两半，在桌上放上油纸再放上蛋糕胚切片。手持食材右键蛋糕坯切片，再空手右键就能制作出蛋糕卷。"
+				""
+				"蛋糕卷可以无视饥饿值食用。一个蛋糕卷最多能放四个食材，可以继承所有食材的效果（外加蛋糕卷本身的柔软效果）；但同一食材效果不叠加。食材要求：1. 无方块形式，2. 无容器，3. 无强制标签，4. 不是蛋糕卷。"
+			]
+			icon: {
+				Count: 1
+				id: "bakeries:cake_roll"
+				tag: { }
+			}
+			id: "68118C23BCF18634"
+			rewards: [
+				{
+					id: "1CC8A9D03CC8B3BB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "638DCA045FFB0CC2"
+					item: "bakeries:silicone_paper"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1806602B3C0BCB6C"
+					item: "bakeries:silicone_paper"
+					type: "item"
+				}
+				{
+					id: "7D0EE2FAAA590FDA"
+					item: {
+						Count: 1
+						id: "bakeries:cake_roll"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "蛋糕卷"
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "&e小镇糕点师"
+}

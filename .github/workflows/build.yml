@@ -51,21 +51,20 @@ jobs:
         run: |
           cd .pakku/client-overrides/BiliBiliMediaFiles
 
-          wget https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-n8.0-latest-win64-lgpl-8.0.zip
-          unzip ffmpeg-n8.0-latest-win64-lgpl-8.0.zip
+          wget https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-n8.0-latest-win64-lgpl-8.0.zip >/dev/null 2>&1
+          unzip ffmpeg-n8.0-latest-win64-lgpl-8.0.zip >/dev/null 2>&1
           mv ffmpeg-n8.0-latest-win64-lgpl-8.0/bin/ffmpeg.exe .
           rm -f ffmpeg-n8.0-latest-win64-lgpl-8.0.zip
           rm -rf ffmpeg-n8.0-latest-win64-lgpl-8.0
 
           cd ../../../
           
-          wget https://github.com/juraj-hrivnak/Pakku/releases/download/v1.3.2/pakku.jar
+          wget https://github.com/juraj-hrivnak/Pakku/releases/download/v1.3.2/pakku.jar >/dev/null 2>&1
           chmod 755 pakku.jar
           java -jar pakku.jar export
 
           mv ./build/modrinth/*.mrpack ./KumoOTagayasu-build.mrpack
           mv ./build/curseforge/*.zip ./KumoOTagayasu-build.zip
-          mv ./build/serverpack/*.zip ./server.zip
 
       - name: Delete existing release assets
         uses: mknejp/delete-release-assets@v1
@@ -76,6 +75,7 @@ jobs:
             KumoOTagayasu-build.zip
             KumoOTagayasu-build.mrpack
             Server-KumoOTagayasu-build.zip
+            Full-Server-KumoOTagayasu-build.zip
           token: ${{ secrets.GITHUB_TOKEN }} # Required for authentication
 
       - name: Upload client file to release
@@ -90,27 +90,30 @@ jobs:
 
       - name: Build server
         run: |
-          mkdir server
-          mv server.zip ./server
-          cd server
-          unzip server.zip
+          cp installer/install-server.sh ./install-server.sh 
+          chmod +x install-server.sh
+          ./install-server.sh
+          zip -r "./Full-Server-KumoOTagayasu-build.zip" ./server/*
 
-          wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.6/forge-1.20.1-47.4.6-installer.jar
-          chmod 755 forge-1.20.1-47.4.6-installer.jar
-
-          java -jar forge-1.20.1-47.4.6-installer.jar --installServer
-
-          rm -f server.zip
-          rm -f forge-*-installer.jar
-          rm -f forge-*-installer.jar.log
-          cd ../
-          zip -r "./Server-KumoOTagayasu-build.zip" ./server/*
+      - name: Package server files
+        run: |
+          cp pakku.json installer/
+          cp pakku-lock.json installer/
+          cp -r MCDR/ installer/
+          cp -r .pakku/ installer/
+          rm -rf installer/.pakku/client-overrides/*
           
+          shopt -s dotglob
+          zip -r "./Server-KumoOTagayasu-build.zip" ./installer
+          shopt -u dotglob
+
       - name: Upload server file to release
         uses: softprops/action-gh-release@v1
         with:
           tag_name: "build"
-          files: "Server-KumoOTagayasu-build.zip"
+          files: |
+            Server-KumoOTagayasu-build.zip 
+            Full-Server-KumoOTagayasu-build.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -118,8 +121,6 @@ jobs:
         run: |
           cd server 
           chmod +x run.sh
-          
-          echo "eula=true" > eula.txt
 
           ./run.sh > server.log 2>&1 &
           SERVER_PID=$!
@@ -145,6 +146,8 @@ jobs:
           done
 
           echo "Server did not start successfully within timeout or crashed"
+          echo "Show log:"
+          cat logs/latest.log
 
           if ls crash-reports/*.txt 1> /dev/null 2>&1; then
             echo "Crash reports found:"

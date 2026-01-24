@@ -24,6 +24,8 @@
 
 [简体中文](README.md) / [English](README_EN.md)
 
+![](https://count.getloli.com/@:KOTS?name=%3AKOTS&theme=booru-jaypee&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)
+
 </div>
 
 ## Introduction

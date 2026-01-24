@@ -6,7 +6,7 @@
 		# The name of your modpack.
 		# If blank, the modpack name will be auto-detected from supported launchers.
 		# This auto-detection isn't perfect, so you can override it here if needed.
-		modpackName = "Kumo O Tagayasu 5.4.40"
+		modpackName = "Kumo O Tagayasu 5.4.1"
 
 	[Display.WindowTitle]
 		# 
@@ -199,7 +199,7 @@
 				# put "7" here and itlt will correctly check against "Java 1.7" internally,
 				# while values such as "15" will check against "Java 15" internally.
 				#Range: 6 ~ 127
-				requiredMaxJavaVersion = 21
+				requiredMaxJavaVersion = 25
 				# 
 				# Whether or not to require a certain version of Java to be able to launch the modpack.
 				# 
@@ -220,7 +220,7 @@
 				# The minimum recommended version of Java needed to skip the warning message when
 				# launching the modpack.
 				#Range: 6 ~ 127
-				warnMaxJavaVersion = 21
+				warnMaxJavaVersion = 25
 				# 
 				# Some launchers (such as Twitch/CurseForge launcher) do not allow the Java version
 				# to be changed from Java 8.

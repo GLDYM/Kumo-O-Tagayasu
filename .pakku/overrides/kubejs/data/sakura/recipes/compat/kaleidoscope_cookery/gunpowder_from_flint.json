@@ -1,0 +1,16 @@
+{
+  "type": "sakura:stone_mortar",
+  "ingredients": {
+    "item": "minecraft:flint"
+  },
+  "experience": 0.0,
+  "processingTime": 200,
+  "result": [
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ]
+}

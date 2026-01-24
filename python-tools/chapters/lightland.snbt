@@ -1,0 +1,409 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lightland"
+	group: "31669C96F582CF92"
+	icon: {
+		Count: 1
+		id: "l2weaponry:abyss_echo"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "7E134D75B3BBB797"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.lightland.quest3447441614727199522.description1}"
+				""
+				"{ftbquests.chapter.lightland.quest3447441614727199522.description2}"
+				""
+				"{ftbquests.chapter.lightland.quest3447441614727199522.description3}"
+				""
+				"{ftbquests.chapter.lightland.quest3447441614727199522.description4}"
+			]
+			icon: "createdeco:decal_warning"
+			id: "2FD7C5E21DB6BB22"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.lightland.quest3447441614727199522.subtitle}"
+			tasks: [{
+				id: "5DEF2D3ECB5EF5BD"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.lightland.quest3447441614727199522.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: ["{ftbquests.chapter.lightland.quest3976979817227296873.description1}"]
+			hide_until_deps_complete: true
+			id: "37311212A4BB2069"
+			tasks: [{
+				id: "5D1A2A6141BC4581"
+				item: "l2complements:wind_capture_bottle"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37311212A4BB2069"]
+			description: [
+				"{ftbquests.chapter.lightland.quest6468960853331420282.description1}"
+				""
+				"{ftbquests.chapter.lightland.quest6468960853331420282.description2}"
+			]
+			hide_until_deps_visible: true
+			id: "59C65D9F40BA247A"
+			tasks: [{
+				id: "15CC261AE9AEF266"
+				item: "l2complements:captured_wind"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["37311212A4BB2069"]
+			description: [
+				"{ftbquests.chapter.lightland.quest1636718759909394507.description1}"
+				""
+				"{ftbquests.chapter.lightland.quest1636718759909394507.description2}"
+			]
+			hide_until_deps_visible: true
+			id: "16B6CB0A599E084B"
+			tasks: [{
+				id: "5E0DE0B1313E715F"
+				item: "l2complements:captured_shulker_bullet"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: [
+				"{ftbquests.chapter.lightland.quest6804288281795787777.description1}"
+				""
+				"{ftbquests.chapter.lightland.quest6804288281795787777.description2}"
+				""
+				"{ftbquests.chapter.lightland.quest6804288281795787777.description3}"
+			]
+			hide_until_deps_complete: true
+			id: "5E6DB02441CA7C01"
+			tasks: [{
+				id: "14F3936C496487C4"
+				item: "l2complements:void_eye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: [
+				"{ftbquests.chapter.lightland.quest826068822908041166.description1}"
+				""
+				"{ftbquests.chapter.lightland.quest826068822908041166.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "0B76C937BD7577CE"
+			tasks: [{
+				id: "33B461309C0A95CD"
+				item: "l2complements:sun_membrane"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: [
+				"{ftbquests.chapter.lightland.quest4535371047791017834.description1}"
+				"{ftbquests.chapter.lightland.quest4535371047791017834.description2}"
+				""
+				"{ftbquests.chapter.lightland.quest4535371047791017834.description3}"
+			]
+			hide_until_deps_complete: true
+			id: "3EF0DFF0442CBF6A"
+			tasks: [{
+				id: "662AED48EFFB1DBA"
+				item: "l2complements:explosion_shard"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: [
+				"{ftbquests.chapter.lightland.quest8431622679049022398.description1}"
+				""
+				"{ftbquests.chapter.lightland.quest8431622679049022398.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "7503242768D82BBE"
+			tasks: [{
+				id: "0978B3D6D760A882"
+				item: "l2complements:hard_ice"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: [
+				"{ftbquests.chapter.lightland.quest6384700644489208775.description1}"
+				""
+				"{ftbquests.chapter.lightland.quest6384700644489208775.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "589B036897FCA3C7"
+			tasks: [{
+				id: "76C74104EBB0918F"
+				item: "l2complements:soul_flame"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: [
+				"{ftbquests.chapter.lightland.quest8234454628537059613.description1}"
+				""
+				"{ftbquests.chapter.lightland.quest8234454628537059613.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "7246A8DB4D05C91D"
+			tasks: [{
+				id: "692CD6E34EF4F356"
+				item: "l2complements:storm_core"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: [
+				"{ftbquests.chapter.lightland.quest629860946732663415.description1}"
+				""
+				"{ftbquests.chapter.lightland.quest629860946732663415.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "08BDB731A3E44277"
+			tasks: [{
+				id: "0E51589CB44EC50B"
+				item: "l2complements:blackstone_core"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: [
+				"{ftbquests.chapter.lightland.quest4870557768290474257.description1}"
+				""
+				"{ftbquests.chapter.lightland.quest4870557768290474257.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "4397B27C24F91911"
+			tasks: [{
+				id: "0C1A489E06E4E3FD"
+				item: "l2complements:resonant_feather"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: [
+				"{ftbquests.chapter.lightland.quest3149425256211952600.description1}"
+				""
+				"{ftbquests.chapter.lightland.quest3149425256211952600.description2}"
+				""
+				"{ftbquests.chapter.lightland.quest3149425256211952600.description3}"
+			]
+			hide_until_deps_complete: true
+			id: "2BB501958B2833D8"
+			tasks: [{
+				id: "4B77D797702C5CF7"
+				item: "l2complements:warden_bone_shard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: [
+				"{ftbquests.chapter.lightland.quest7219954786305645870.description1}"
+				""
+				"{ftbquests.chapter.lightland.quest7219954786305645870.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "64326EA00C211D2E"
+			tasks: [{
+				id: "155D7B7BE2929D1E"
+				item: "l2complements:guardian_eye"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78AC1B1140320C11"]
+			description: ["{ftbquests.chapter.lightland.quest6488563720371423356.description1}"]
+			hide_until_deps_visible: true
+			id: "5A0C02536739C87C"
+			tasks: [{
+				id: "0F01801C06543344"
+				item: "l2complements:heirophant_green"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78AC1B1140320C11"]
+			description: ["{ftbquests.chapter.lightland.quest3953187499610119660.description1}"]
+			hide_until_deps_visible: true
+			id: "36DC8B1604C69DEC"
+			tasks: [{
+				id: "3EB731ED8C4C0D26"
+				item: "l2complements:cursed_droplet"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78AC1B1140320C11"]
+			description: ["{ftbquests.chapter.lightland.quest2521835414204708935.description1}"]
+			hide_until_deps_visible: true
+			id: "22FF5BF2ADABF847"
+			tasks: [{
+				id: "4DC7670DBC0BD411"
+				item: "l2complements:life_essence"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: [
+				"{ftbquests.chapter.lightland.quest7585261348161043251.description1}"
+				""
+				"{ftbquests.chapter.lightland.quest7585261348161043251.description2}"
+				""
+				"{ftbquests.chapter.lightland.quest7585261348161043251.description3}"
+			]
+			hide_until_deps_complete: true
+			id: "69444301F9A3BB33"
+			tasks: [{
+				id: "6A063A5D1DAC0D09"
+				item: "l2complements:force_field"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: ["{ftbquests.chapter.lightland.quest8170419184537925247.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "716328F5A86B767F"
+			tasks: [{
+				id: "15D6BD0C94EB36B9"
+				item: "l2complements:totemic_gold_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: ["{ftbquests.chapter.lightland.quest8528018425667529248.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "76599B9323E62A20"
+			tasks: [{
+				id: "1DF2DC9D089D0F11"
+				item: "l2complements:poseidite_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: ["{ftbquests.chapter.lightland.quest5146741737999078828.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "476CE657941C95AC"
+			tasks: [{
+				id: "7DBF86408C5C58B6"
+				item: "l2complements:shulkerate_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: ["{ftbquests.chapter.lightland.quest3771052899171560091.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "345578A1C453EA9B"
+			tasks: [{
+				id: "711425D8B153B330"
+				item: "l2complements:sculkium_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: ["{ftbquests.chapter.lightland.quest1122572363621730259.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0F942D9DF85807D3"
+			tasks: [{
+				id: "0C3E47B43D35D6FA"
+				item: "l2complements:eternium_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2FD7C5E21DB6BB22"]
+			description: [
+				"{ftbquests.chapter.lightland.quest8695354741451000849.description1}"
+				"{ftbquests.chapter.lightland.quest8695354741451000849.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:lava_bucket"
+			id: "78AC1B1140320C11"
+			tasks: [{
+				id: "26502DA7EC933B65"
+				title: "{ftbquests.chapter.lightland.quest8695354741451000849.task.2760756770829974373.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.lightland.quest8695354741451000849.title}"
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter.lightland.title}"
+}

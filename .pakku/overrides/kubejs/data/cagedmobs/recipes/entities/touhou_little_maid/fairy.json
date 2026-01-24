@@ -1,0 +1,23 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "touhou_little_maid"
+		}
+	],
+	"entity": "touhou_little_maid:fairy",
+	"samplerTier": 2,
+	"environments": ["magic"],
+	"growTicks": 1200,
+	"results": [
+		{
+			"chance": 0.1,
+				"output": {
+					"item": "touhou_little_maid:power_point"
+				},
+				"minAmount": 1,
+				"maxAmount": 1
+		}
+	]
+}

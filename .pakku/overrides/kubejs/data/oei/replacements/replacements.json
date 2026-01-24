@@ -1,8 +1,12 @@
 [
   {
     "_comment": "Kumo O Tagayasu Modpack(Shortname:KOTS) file comments, It acts to preserve the original author(Polaris_Light) information. According to the KOTS modpack usage agreement, users are allowed to create and distribute on the basis of KOTS modpack, but the original author information must be retained. KOTS modpack is free for users to download, if you spend real money in somewhere and download KOTS modpack, please avoid seller!",
-    "matchItems": ["youkaishomecoming:cucumber"],
-    "resultItems": "vintagedelight:cucumber"
+    "matchItems": ["vintagedelight:cucumber"],
+    "resultItems": "youkaishomecoming:cucumber"
+  },
+  {
+    "matchItems": ["vintagedelight:cucumber_seeds"],
+    "resultItems": "youkaishomecoming:cucumber_seeds"
   },
   {
     "matchItems": ["biomemakeover:raw_crab"],
@@ -13,20 +17,40 @@
     "resultItems": "quark:cooked_crab_leg"
   },
   {
-    "matchItems": ["tofucraft:chili", "kaleidoscope_cookery:red_chili", "crockpot:pepper"],
-    "resultItems": "vintagedelight:ghost_pepper"
+    "matchItems": ["farm_and_charm:corn"],
+    "resultItems": "crockpot:corn"
+  },
+  {
+    "matchItems": ["farm_and_charm:kernels"],
+    "resultItems": "crockpot:corn_seeds"
+  },
+  {
+    "matchItems": ["tofucraft:chili", "vintagedelight:ghost_pepper", "crockpot:pepper"],
+    "resultItems": "kaleidoscope_cookery:red_chili"
+  },
+  {
+    "matchItems": ["tofucraft:seeds_chili", "vintagedelight:ghost_pepper_seeds", "crockpot:pepper_seeds"],
+    "resultItems": "kaleidoscope_cookery:chili_seed"
   },
   {
     "matchItems": ["bakeries:tomato", "farm_and_charm:tomato", "kaleidoscope_cookery:tomato", "crockpot:tomato", "sakura:tomato"],
     "resultItems": "farmersdelight:tomato"
   },
   {
-    "matchItems": ["farm_and_charm:onion", "crockpot:onion", "sakura:onion"],
+    "matchItems": ["farmersdelight:tomato_seeds", "farm_and_charm:tomato_seeds", "kaleidoscope_cookery:tomato_seed", "crockpot:tomato_seeds"],
+    "resultItems": "sakura:tomato_seeds"
+  },
+  {
+    "matchItems": ["farm_and_charm:onion", "crockpot:onion", "crockpot:onion_seeds", "sakura:onion", "sakura:onion_seeds"],
     "resultItems": "farmersdelight:onion"
   },
   {
     "matchItems": ["farm_and_charm:strawberry"],
     "resultItems": "neapolitan:strawberries"
+  },
+  {
+    "matchItems": ["farm_and_charm:strawberry_seeds"],
+    "resultItems": "neapolitan:strawberry_pips"
   },
   {
     "matchItems": ["youkaishomecoming:redbean", "sakura:red_bean"],
@@ -49,7 +73,7 @@
     "resultItems": "farmersdelight:raw_pasta"
   },
   {
-    "matchItems": ["farm_and_charm:flour", "sakura:flour"],
+    "matchItems": ["farm_and_charm:flour", "sakura:flour", "kaleidoscope_cookery:flour"],
     "resultItems": "create:wheat_flour"
   },
   {
@@ -85,7 +109,7 @@
     "resultItems": "farmersdelight:cooked_rice"
   },
   {
-    "matchItems": ["kaleidoscope_cookery:rice", "tofucraft:seeds_rice", "sakura:rice", "sakura:rice_seeds"],
+    "matchItems": ["kaleidoscope_cookery:rice", "kaleidoscope_cookery:wild_rice", "tofucraft:seeds_rice", "sakura:rice", "sakura:rice_seeds"],
     "resultItems": "farmersdelight:rice"
   },
   {
@@ -93,8 +117,12 @@
     "resultItems": "farmersdelight:rice_panicle"
   },
   {
-    "matchItems": ["kaleidoscope_cookery:lettuce"],
-    "resultItems": "farm_and_charm:lettuce"
+    "matchItems": ["farm_and_charm:lettuce"],
+    "resultItems": "kaleidoscope_cookery:lettuce"
+  },
+  {
+    "matchItems": ["farm_and_charm:lettuce_seeds"],
+    "resultItems": "kaleidoscope_cookery:lettuce_seed"
   },
   {
     "matchItems": ["kaleidoscope_cookery:raw_lamb_chops"],
@@ -125,20 +153,24 @@
     "resultItems": "beachparty:coconut_open"
   },
   {
-    "matchItems": ["ravageandcabbage:cabbage", "sakura:cabbage"],
+    "matchItems": ["sakura:cabbage"],
     "resultItems": "farmersdelight:cabbage"
+  },
+  {
+    "matchItems": ["farmersdelight:cabbage_seeds"],
+    "resultItems": "sakura:cabbage_seeds"
   },
   {
     "matchItems": ["vintagedelight:oat"],
     "resultItems": "farm_and_charm:oat"
   },
   {
-    "matchItems": ["vintagedelight:oat_bale"],
-    "resultItems": "farm_and_charm:oat_ball"
+    "matchItems": ["farm_and_charm:oat_seeds"],
+    "resultItems": "vintagedelight:oat_seeds"
   },
   {
-    "matchItems": ["bakeries:ground_coffee"],
-    "resultItems": "youkaishomecoming:coffee_powder"
+    "matchItems": ["vintagedelight:oat_bale"],
+    "resultItems": "farm_and_charm:oat_ball"
   },
   {
     "matchItems": ["bakeries:olive"],
@@ -159,6 +191,10 @@
   {
     "matchItems": ["crockpot:eggplant", "spelunkery:eggplant"],
     "resultItems": "sakura:eggplant"
+  },
+  {
+    "matchItems": ["crockpot:eggplant_seeds"],
+    "resultItems": "sakura:eggplant_seeds"
   },
   {
     "matchItems": ["sakura:machined_fish"],

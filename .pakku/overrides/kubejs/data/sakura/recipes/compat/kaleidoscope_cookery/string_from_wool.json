@@ -1,0 +1,12 @@
+{
+  "type": "kaleidoscope_cookery:millstone",
+  "ingredients": {
+    "tag": "minecraft:wool"
+  },
+  "experience": 0.0,
+  "processingTime": 200,
+  "result": {
+    "count": 3,
+    "item": "minecraft:string"
+  }
+}

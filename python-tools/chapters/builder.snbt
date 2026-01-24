@@ -1,0 +1,5371 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "builder"
+	group: ""
+	icon: "ultramarine:large_blue_and_white_porcelain_vase"
+	id: "62D0845AFC5AA861"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{ftbquests.chapter.builder.quest4861528602274145965.description1}"]
+			icon: "ultramarine:large_blue_and_white_porcelain_vase"
+			id: "43779E819BF3A6AD"
+			shape: "gear"
+			size: 3.0d
+			subtitle: "{ftbquests.chapter.builder.quest4861528602274145965.subtitle}"
+			tasks: [{
+				id: "356AD252DFFD1280"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.builder.quest4861528602274145965.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43779E819BF3A6AD"]
+			description: [
+				"{ftbquests.chapter.builder.quest8827761364575943270.description1}"
+				""
+				"{ftbquests.chapter.builder.quest8827761364575943270.description2}"
+				""
+				"{ftbquests.chapter.builder.quest8827761364575943270.description3}"
+				""
+				"{ftbquests.chapter.builder.quest8827761364575943270.description4}"
+			]
+			icon: "another_furniture:cherry_chair"
+			id: "7A82823089777A66"
+			rewards: [
+				{
+					id: "6003AF159DDCA86F"
+					item: "another_furniture:cherry_chair"
+					type: "item"
+				}
+				{
+					id: "20A46A1FF3BE6C64"
+					item: "another_furniture:cherry_shelf"
+					type: "item"
+				}
+				{
+					id: "4F5BCAEAC539EE52"
+					item: "another_furniture:cherry_table"
+					type: "item"
+				}
+				{
+					id: "34FCEC07D392C01A"
+					item: "another_furniture:cherry_shutter"
+					type: "item"
+				}
+				{
+					id: "7B0D13528DC117BB"
+					item: "another_furniture:pink_stool"
+					type: "item"
+				}
+				{
+					id: "6983BF0EDC1523FE"
+					item: "another_furniture:pink_curtain"
+					type: "item"
+				}
+				{
+					id: "31CA7276040E0C99"
+					item: "another_furniture:cherry_flower_box"
+					type: "item"
+				}
+				{
+					id: "1397F1F9C0B8542A"
+					item: "another_furniture:cherry_bench"
+					type: "item"
+				}
+				{
+					id: "715D933BA5BBC8D0"
+					item: "another_furniture:cherry_drawer"
+					type: "item"
+				}
+				{
+					id: "46F3768E7C9AF45F"
+					item: "another_furniture:pink_lamp"
+					type: "item"
+				}
+				{
+					id: "199B4555F72BB9AC"
+					item: "another_furniture:pink_sofa"
+					type: "item"
+				}
+				{
+					id: "6DC14E51CBFA85D8"
+					item: "another_furniture:pink_tall_stool"
+					type: "item"
+				}
+				{
+					id: "4F4AB943D236B226"
+					item: {
+						Count: 1
+						id: "another_furniture:furniture_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0EDDD7D9F3AC0C3B"
+				title: "{ftbquests.chapter.builder.quest8827761364575943270.task.1071249617480059963.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.builder.quest8827761364575943270.title}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43779E819BF3A6AD"]
+			description: [
+				"{ftbquests.chapter.builder.quest2408159188317459275.description1}"
+				""
+				"{ftbquests.chapter.builder.quest2408159188317459275.description2}"
+			]
+			icon: "beachparty:beach_parasol"
+			id: "216B8005D641534B"
+			rewards: [{
+				count: 16
+				id: "60A943DD9ABC9D67"
+				item: "beachparty:palm_log"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1CB5FCE43ACC8A6C"
+				title: "{ftbquests.chapter.builder.quest2408159188317459275.task.2068837661015837292.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.builder.quest2408159188317459275.title}"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["43779E819BF3A6AD"]
+			description: [
+				"{ftbquests.chapter.builder.quest8676886446379402778.description1}"
+				""
+				"{ftbquests.chapter.builder.quest8676886446379402778.description2}"
+			]
+			icon: "beautify:botanist_workbench"
+			id: "786A7E4038D8861A"
+			rewards: [
+				{
+					id: "77F7D1DAE73B4830"
+					item: "beautify:rope"
+					type: "item"
+				}
+				{
+					id: "33A21281AED88518"
+					item: "beautify:hanging_pot"
+					type: "item"
+				}
+				{
+					id: "59FEF3A1618A106F"
+					item: "beautify:bookstack"
+					type: "item"
+				}
+				{
+					id: "50FCA6A99140C405"
+					item: "beautify:botanist_workbench"
+					type: "item"
+				}
+				{
+					id: "2A7ADDF9B9B4334F"
+					item: "beautify:oak_blinds"
+					type: "item"
+				}
+				{
+					id: "0461DA7CBA322F00"
+					item: "beautify:oak_picture_frame"
+					type: "item"
+				}
+				{
+					id: "19BB533347CB66C6"
+					item: "beautify:oak_trellis"
+					type: "item"
+				}
+				{
+					id: "0B70D75178BF80D7"
+					item: "beautify:lamp_candelabra"
+					type: "item"
+				}
+				{
+					id: "5D131FD33069DDF0"
+					item: "beautify:lamp_jar"
+					type: "item"
+				}
+				{
+					id: "7BF9AC4D236DAE0E"
+					item: "beautify:lamp_light_bulb"
+					type: "item"
+				}
+				{
+					id: "23F01A24552AAC46"
+					item: "beautify:lamp_bamboo"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "165886A0E02196B3"
+				title: "{ftbquests.chapter.builder.quest8676886446379402778.task.1610184892298139315.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.builder.quest8676886446379402778.title}"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["43779E819BF3A6AD"]
+			description: [
+				"{ftbquests.chapter.builder.quest2254943914613527859.description1}"
+				""
+				"{ftbquests.chapter.builder.quest2254943914613527859.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "bloomingnature:larch_log"
+				tag: { }
+			}
+			id: "1F4B2B8B0AF7D533"
+			rewards: [{
+				count: 16
+				id: "637F4E7F99E98372"
+				item: {
+					Count: 1
+					id: "bloomingnature:larch_log"
+					tag: { }
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "70272F6DB91B7FEA"
+				title: "{ftbquests.chapter.builder.quest2254943914613527859.task.8081480204643172330.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.builder.quest2254943914613527859.title}"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["43779E819BF3A6AD"]
+			description: [
+				"{ftbquests.chapter.builder.quest3132562662497056924.description1}"
+				""
+				"{ftbquests.chapter.builder.quest3132562662497056924.description2}"
+			]
+			icon: "createdeco:short_red_bricks"
+			id: "2B791924FEC9F89C"
+			rewards: [{
+				count: 16
+				id: "18C1B91E26978390"
+				item: "createdeco:short_red_bricks"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "7B4DE0F6ADC05881"
+				title: "{ftbquests.chapter.builder.quest3132562662497056924.task.8885004989953497217.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.builder.quest3132562662497056924.title}"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["43779E819BF3A6AD"]
+			description: [
+				"{ftbquests.chapter.builder.quest1796389177213240072.description1}"
+				""
+				"{ftbquests.chapter.builder.quest1796389177213240072.description2}"
+			]
+			icon: "candlelight:cherry_big_table"
+			id: "18EE0E706226C308"
+			rewards: [{
+				id: "41B87C2F4780756B"
+				item: "candlelight:cherry_big_table"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "2EFAE100D2EAA7FD"
+				title: "{ftbquests.chapter.builder.quest1796389177213240072.task.3385265463577192445.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.builder.quest1796389177213240072.title}"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["43779E819BF3A6AD"]
+			description: [
+				"{ftbquests.chapter.builder.quest789504958580462397.description1}"
+				""
+				"{ftbquests.chapter.builder.quest789504958580462397.description2}"
+				""
+				"{ftbquests.chapter.builder.quest789504958580462397.description3}"
+			]
+			icon: "createprism:train_glass_casing"
+			id: "0AF4E293AC99133D"
+			rewards: [{
+				id: "3975185A08143A89"
+				item: "createprism:andesite_glass_casing"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "52F20F4E96822FDD"
+				title: "{ftbquests.chapter.builder.quest789504958580462397.task.5976856485681049565.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.builder.quest789504958580462397.title}"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["43779E819BF3A6AD"]
+			description: [
+				"{ftbquests.chapter.builder.quest5239315299461464158.description1}"
+				""
+				"{ftbquests.chapter.builder.quest5239315299461464158.description2}"
+				""
+				"{ftbquests.chapter.builder.quest5239315299461464158.description3}"
+			]
+			icon: "youkaishomecoming:camellia"
+			id: "48B5C9817AAB805E"
+			rewards: [
+				{
+					id: "4C78DC2B907AF8BF"
+					item: "youkaishomecoming:camellia"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "18278B1D66E5662A"
+					item: "sakura:plank_sakura"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2899AAA5D4ECE8F1"
+				title: "{ftbquests.chapter.builder.quest5239315299461464158.task.2925557062172469489.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.builder.quest5239315299461464158.title}"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["43779E819BF3A6AD"]
+			description: [
+				"{ftbquests.chapter.builder.quest8515978940929655839.description1}"
+				""
+				"{ftbquests.chapter.builder.quest8515978940929655839.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:patchouli_knowledge_2"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			id: "762ED5BA28D1C41F"
+			rewards: [{
+				id: "6CA7C1421D53E08E"
+				item: {
+					Count: 1
+					id: "touhou_little_maid:garage_kit"
+					tag: {
+						EntityInfo: {
+							IsYsmModel: 0b
+							MaidTaskDataMaps: { }
+							ModelId: "touhou_little_maid:patchouli_knowledge_2"
+							id: "touhou_little_maid:maid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6CF22C3C4FF2854B"
+				title: "{ftbquests.chapter.builder.quest8515978940929655839.task.7850385738011149643.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.builder.quest8515978940929655839.title}"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["43779E819BF3A6AD"]
+			description: [
+				"{ftbquests.chapter.builder.quest5368913852308743305.description1}"
+				""
+				"{ftbquests.chapter.builder.quest5368913852308743305.description2}"
+			]
+			icon: "dramaticdoors:tall_cherry_door"
+			id: "4A8236B3F4896489"
+			rewards: [
+				{
+					id: "0FD0A7D22FCE49B8"
+					item: "dramaticdoors:short_cherry_door"
+					type: "item"
+				}
+				{
+					id: "68E79D9D5BB12EB2"
+					item: "dramaticdoors:tall_cherry_door"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2EC70DDE85F52D55"
+				title: "{ftbquests.chapter.builder.quest5368913852308743305.task.3370678095491444053.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.builder.quest5368913852308743305.title}"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["43779E819BF3A6AD"]
+			description: [
+				"{ftbquests.chapter.builder.quest7022212386360936239.description1}"
+				""
+				"{ftbquests.chapter.builder.quest7022212386360936239.description2}"
+			]
+			icon: "nightlights:mushroom_yellow"
+			id: "6173E8F5CA64472F"
+			rewards: [{
+				count: 4
+				id: "0FD1337339351153"
+				item: "nightlights:mushroom_yellow"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6191EE923132A900"
+				title: "{ftbquests.chapter.builder.quest7022212386360936239.task.7030662804960094464.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.builder.quest7022212386360936239.title}"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["43779E819BF3A6AD"]
+			description: [
+				"{ftbquests.chapter.builder.quest4241017181988898549.description1}"
+				""
+				"{ftbquests.chapter.builder.quest4241017181988898549.description2}"
+			]
+			icon: "ultramarine:blue_and_white_porcelain_vase"
+			id: "3ADB1EA83AC6C6F5"
+			rewards: [{
+				count: 64
+				id: "7A948AA1E14570B2"
+				item: "ultramarine:cyan_bricks"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "09E0A3AABBFDAA13"
+				title: "{ftbquests.chapter.builder.quest4241017181988898549.task.711748694818269715.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.builder.quest4241017181988898549.title}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["43779E819BF3A6AD"]
+			description: [
+				"{ftbquests.chapter.builder.quest240345176090556200.description1}"
+				""
+				"{ftbquests.chapter.builder.quest240345176090556200.description2}"
+			]
+			icon: "natures_spirit:white_chalk"
+			id: "0355E0AA0C5B3728"
+			rewards: [{
+				count: 64
+				id: "2DEBD6F0FCF51C9A"
+				item: "natures_spirit:white_chalk"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6C3513D97E4C8CB5"
+				title: "{ftbquests.chapter.builder.quest240345176090556200.task.7797160154709658805.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.builder.quest240345176090556200.title}"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["43779E819BF3A6AD"]
+			description: [
+				"{ftbquests.chapter.builder.quest1901970943037427929.description1}"
+				""
+				"{ftbquests.chapter.builder.quest1901970943037427929.description2}"
+			]
+			icon: "waterframes:big_tv"
+			id: "1A65287EE0DC50D9"
+			rewards: [{
+				id: "4A88342FDEF385DC"
+				item: "waterframes:big_tv"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "615EB5167218520C"
+				title: "{ftbquests.chapter.builder.quest1901970943037427929.task.7016244377497915916.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.builder.quest1901970943037427929.title}"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["43779E819BF3A6AD"]
+			description: [
+				"{ftbquests.chapter.builder.quest5972442110522958741.description1}"
+				""
+				"{ftbquests.chapter.builder.quest5972442110522958741.description2}"
+			]
+			icon: "railways:brass_wrapped_locometal"
+			id: "52E26074C74E2395"
+			rewards: [{
+				count: 4
+				id: "0AE96D9606161833"
+				item: "railways:brass_wrapped_locometal"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0B80F5B1512BB6EF"
+				title: "{ftbquests.chapter.builder.quest5972442110522958741.task.828932473356007151.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.builder.quest5972442110522958741.title}"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["43779E819BF3A6AD"]
+			description: [
+				"{ftbquests.chapter.builder.quest1600630753885707715.description1}"
+				""
+				"{ftbquests.chapter.builder.quest1600630753885707715.description2}"
+				""
+				"{ftbquests.chapter.builder.quest1600630753885707715.description3}"
+				""
+				"{ftbquests.chapter.builder.quest1600630753885707715.description4}"
+			]
+			icon: {
+				Count: 1
+				id: "immersive_furniture:furniture"
+				tag: {
+					BlockEntityTag: {
+						Furniture: {
+							Author: "Polaris_Light"
+							ContentID: 46827
+							Dependencies: [ ]
+							Elements: [
+								{
+									Axis: "y"
+									BakedTexture: {
+										down: [I;
+											-2959911
+											-2959911
+											-2959911
+											-2564896
+											-2432278
+											-2169106
+											-2169106
+											-2169106
+											-2695450
+											-2564896
+											-2959911
+											-2959911
+											-3484967
+											-3222827
+											-3484967
+											-3484967
+											-3090209
+											-2432278
+											-2432278
+											-2432278
+											-2301981
+											-2959911
+											-2959911
+											-3682603
+											-3484967
+											-3682603
+											-3484967
+											-3682603
+											-3287844
+											-2432278
+											-2432278
+											-2169106
+											-2564896
+											-2959911
+											-3484967
+											-3682603
+											-3682603
+											-3682603
+											-3682603
+											-3485223
+											-3024672
+											-2169106
+											-1643794
+											-1643794
+											-3024672
+											-3287588
+											-3484967
+											-3682603
+											-3287588
+											-3287588
+											-3287588
+											-3287844
+											-3090209
+											-2432278
+											-2169106
+											-2169106
+											-3090209
+											-3287844
+											-3485223
+											-3287588
+											-3024672
+											-3024672
+											-3024672
+											-2827037
+											-1906966
+											-1643794
+											-2432278
+											-2432278
+											-2432278
+											-2827037
+											-3024672
+											-3024672
+											-2104345
+											-2104345
+											-2104345
+											-1906966
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-2629657
+											-2104345
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2432278
+											-2432278
+											-2169106
+											-2169106
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2892829
+											-2432278
+											-2169106
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2432278
+											-2301981
+											-2104345
+											-1906966
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2432278
+											-2432278
+											-2695450
+											-2892829
+											-2301981
+											-2301981
+											-2104345
+											-1643794
+											-2432278
+											-2169106
+											-2169106
+											-2432278
+											-1643794
+											-1643794
+											-2104345
+											-2301981
+											-2827037
+											-2827037
+											-2629657
+											-2169106
+											-2169106
+											-2169106
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2629657
+											-2827037
+											-3090209
+											-3090209
+											-2629657
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2629657
+											-3090209
+											-2827037
+											-2104345
+											-1906966
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2432278
+											-2432278
+											-2695450
+											-2892829
+										]
+										east: [I;
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-3287588
+											-3945518
+											-3945518
+											-3222827
+											-3222827
+											-3222827
+											-2169106
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2762276
+											-3222827
+											-3945518
+											-3945518
+											-3945518
+											-3945518
+										]
+										north: [I;
+											-1643794
+											-1643794
+											-1643794
+											-2432278
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2432278
+											-2432278
+											-2432278
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+										]
+										south: [I;
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2432278
+											-2432278
+											-2432278
+											-2432278
+										]
+										up: [I;
+											-2104345
+											-1906966
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-1643794
+											-1643794
+											-1906966
+											-2827037
+											-2104345
+											-2432278
+											-2169106
+											-2432278
+											-2432278
+											-2432278
+											-2432278
+											-1643794
+											-1643794
+											-1906966
+											-2629657
+											-2827037
+											-2827037
+											-2629657
+											-2432278
+											-2432278
+											-2432278
+											-2432278
+											-2169106
+											-1643794
+											-1643794
+											-2629657
+											-2827037
+											-3090209
+											-3090209
+											-2892829
+											-2432278
+											-2169106
+											-2169106
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2629657
+											-3090209
+											-2827037
+											-2827037
+											-2629657
+											-2432278
+											-2432278
+											-2432278
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2892829
+											-2827037
+											-2827037
+											-2629657
+											-2432278
+											-2169106
+											-1643794
+											-1643794
+											-2432278
+											-2432278
+											-2169106
+											-2169106
+											-2432278
+											-2629657
+											-2104345
+											-1906966
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-1906966
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2432278
+											-2432278
+											-2169106
+											-2169106
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2432278
+											-2169106
+											-2169106
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2432278
+											-2432278
+											-2432278
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2432278
+											-2169106
+											-2169106
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-2827037
+											-3287588
+											-2959911
+											-2762276
+											-2301981
+											-1906966
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2432278
+											-3287844
+											-3222827
+											-3617841
+											-3617841
+											-3617841
+											-3682603
+											-3024672
+											-2432278
+											-2432278
+											-2169106
+											-1643794
+											-2301981
+											-2959911
+											-3617841
+											-3880757
+											-4078392
+											-3880757
+											-4340533
+											-3682603
+											-3090209
+											-2432278
+										]
+										west: [I;
+											-2762276
+											-3222827
+											-3222827
+											-3222827
+											-3222827
+											-3682603
+											-3287588
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-3287588
+											-3222827
+											-3222827
+											-3222827
+											-3222827
+											-3222827
+											-2762276
+											-1643794
+											-1643794
+											-1643794
+											-2432278
+											-2432278
+											-2432278
+											-2432278
+										]
+									}
+									Color: -1
+									Emission: 0
+									From: [
+										2.0f
+										8.0f
+										0.5f
+									]
+									Material: {
+										Axis: "X"
+										LightEffect: {
+											Brightness: 0.0f
+											Contrast: 0.0f
+											Hue: 0.0f
+											Roundness: 0.0f
+											Saturation: 0.0f
+											Value: 0.0f
+										}
+										Margin: 4
+										Source: "minecraft:smooth_quartz"
+										Transparency: "SOLID"
+										Wrap: "EXPAND"
+									}
+									Rotation: 0.0f
+									To: [
+										14.0f
+										10.0f
+										14.5f
+									]
+									Type: "element"
+								}
+								{
+									Axis: "y"
+									Color: -1
+									Emission: 0
+									From: [
+										4.0f
+										10.0f
+										2.0f
+									]
+									PlayerPose: {
+										Pose: "SITTING"
+									}
+									Rotation: 0.0f
+									To: [
+										12.0f
+										12.0f
+										10.0f
+									]
+									Type: "player_pose"
+								}
+								{
+									Axis: "x"
+									BakedTexture: {
+										down: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2432278
+										]
+										east: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-4143153
+											-4143153
+											-5393222
+											-5130307
+											-6183252
+											-5788237
+											-6052183
+											-5591632
+											-5854804
+											-5394253
+											-5590601
+											-5130307
+											-3420206
+											-4143153
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2169106
+											-2432278
+										]
+										north: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2892829
+											-2695450
+											-2827037
+											-2629657
+											-2827037
+											-2629657
+											-2301981
+											-2104345
+											-2301981
+											-2104345
+											-2827037
+											-2892829
+											-2892829
+											-1906966
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2432278
+											-2169106
+										]
+										south: [I;
+											-2301981
+											-2301981
+											-2827037
+											-3024672
+											-2827037
+											-2827037
+											-3090209
+											-3090209
+											-2892829
+											-3090209
+											-2432278
+											-2827037
+											-2629657
+											-3287588
+											-2104345
+											-2762276
+											-2104345
+											-2762276
+											-2695450
+											-2827037
+											-1643794
+											-2695450
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2169106
+											-2432278
+										]
+										west: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2432278
+											-2432278
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2432278
+											-2169106
+											-1643794
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2169106
+											-2432278
+										]
+									}
+									Color: -1
+									Emission: 0
+									From: [
+										0.0f
+										0.0f
+										2.0f
+									]
+									Material: {
+										Axis: "X"
+										LightEffect: {
+											Brightness: 0.0f
+											Contrast: 0.0f
+											Hue: 0.0f
+											Roundness: 0.0f
+											Saturation: 0.0f
+											Value: 0.0f
+										}
+										Margin: 4
+										Source: "minecraft:smooth_quartz"
+										Transparency: "SOLID"
+										Wrap: "EXPAND"
+									}
+									Rotation: 0.0f
+									To: [
+										2.0f
+										16.0f
+										4.0f
+									]
+									Type: "element"
+								}
+								{
+									Axis: "x"
+									BakedTexture: {
+										down: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2432278
+										]
+										east: [I;
+											-10197400
+											-10197400
+											-9341575
+											-9341575
+											-6840926
+											-7038561
+											-7038305
+											-4143153
+											-3222827
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2169106
+											-2432278
+										]
+										north: [I;
+											-6973542
+											-5855061
+											-6775389
+											-5722444
+											-4866878
+											-4143154
+											-2958879
+											-2827036
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2432278
+											-2169106
+										]
+										south: [I;
+											-5328460
+											-6644320
+											-5919823
+											-7301734
+											-5196099
+											-6446168
+											-5393479
+											-6643546
+											-3157034
+											-3880757
+											-2235931
+											-2433310
+											-2235931
+											-2235931
+											-2761243
+											-2761243
+											-2827036
+											-2827036
+											-2563864
+											-2827036
+										]
+										west: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2169106
+											-2432278
+										]
+									}
+									Color: -1
+									Emission: 0
+									From: [
+										2.0f
+										-1.0f
+										11.5f
+									]
+									Material: {
+										Axis: "X"
+										LightEffect: {
+											Brightness: 0.0f
+											Contrast: 0.0f
+											Hue: 0.0f
+											Roundness: 0.0f
+											Saturation: 0.0f
+											Value: 0.0f
+										}
+										Margin: 4
+										Source: "minecraft:smooth_quartz"
+										Transparency: "SOLID"
+										Wrap: "EXPAND"
+									}
+									Rotation: -22.5f
+									To: [
+										4.0f
+										9.0f
+										13.5f
+									]
+									Type: "element"
+								}
+								{
+									Axis: "x"
+									BakedTexture: {
+										down: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2432278
+										]
+										east: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2169106
+											-2432278
+										]
+										north: [I;
+											-4604737
+											-5855061
+											-4669499
+											-5722444
+											-3419431
+											-4143154
+											-2629657
+											-2827036
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2432278
+											-2169106
+										]
+										south: [I;
+											-7894644
+											-6644320
+											-8749181
+											-7301734
+											-7696492
+											-6446168
+											-7828078
+											-6643546
+											-4407358
+											-3880757
+											-2433310
+											-2433310
+											-2235931
+											-2235931
+											-2761243
+											-2761243
+											-2827036
+											-2827036
+											-2563864
+											-2827036
+										]
+										west: [I;
+											-10197400
+											-10197400
+											-9341575
+											-9341575
+											-7038561
+											-7038561
+											-4143153
+											-4143153
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2169106
+											-2432278
+										]
+									}
+									Color: -1
+									Emission: 0
+									From: [
+										12.0f
+										-1.0f
+										11.5f
+									]
+									Material: {
+										Axis: "X"
+										LightEffect: {
+											Brightness: 0.0f
+											Contrast: 0.0f
+											Hue: 0.0f
+											Roundness: 0.0f
+											Saturation: 0.0f
+											Value: 0.0f
+										}
+										Margin: 4
+										Source: "minecraft:smooth_quartz"
+										Transparency: "SOLID"
+										Wrap: "EXPAND"
+									}
+									Rotation: -22.5f
+									To: [
+										14.0f
+										9.0f
+										13.5f
+									]
+									Type: "element"
+								}
+								{
+									Axis: "x"
+									BakedTexture: {
+										down: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2432278
+										]
+										east: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2432278
+											-2432278
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2432278
+											-2169106
+											-1643794
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2169106
+											-2432278
+										]
+										north: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2432278
+											-2695450
+											-2432278
+											-2629657
+											-2432278
+											-2629657
+											-1906966
+											-2104345
+											-1906966
+											-2104345
+											-2432278
+											-2892829
+											-2432278
+											-1906966
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2432278
+											-2169106
+										]
+										south: [I;
+											-2301981
+											-2301981
+											-2827037
+											-3024672
+											-2827037
+											-2827037
+											-3090209
+											-3090209
+											-3485223
+											-3090209
+											-3484967
+											-2827037
+											-3879982
+											-3287588
+											-3420206
+											-2762276
+											-3420206
+											-2762276
+											-3682603
+											-2827037
+											-2301981
+											-2695450
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2169106
+											-2432278
+										]
+										west: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-3945518
+											-4143153
+											-4735292
+											-5130307
+											-5130307
+											-5788237
+											-4933702
+											-5591632
+											-4736323
+											-5394253
+											-4932927
+											-5130307
+											-3222827
+											-4143153
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2169106
+											-2432278
+										]
+									}
+									Color: -1
+									Emission: 0
+									From: [
+										14.0f
+										0.0f
+										2.0f
+									]
+									Material: {
+										Axis: "X"
+										LightEffect: {
+											Brightness: 0.0f
+											Contrast: 0.0f
+											Hue: 0.0f
+											Roundness: 0.0f
+											Saturation: 0.0f
+											Value: 0.0f
+										}
+										Margin: 4
+										Source: "minecraft:smooth_quartz"
+										Transparency: "SOLID"
+										Wrap: "EXPAND"
+									}
+									Rotation: 0.0f
+									To: [
+										16.0f
+										16.0f
+										4.0f
+									]
+									Type: "element"
+								}
+								{
+									Axis: "y"
+									BakedTexture: {
+										down: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2104345
+											-2104345
+											-2827037
+											-2827037
+											-3090209
+											-3090209
+											-2827037
+											-3287844
+										]
+										east: [I;
+											-2564896
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-2629657
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2432278
+											-2432278
+											-2432278
+											-2432278
+										]
+										south: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2432278
+										]
+										up: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-1643794
+											-1643794
+											-1906966
+											-1906966
+											-2301981
+											-2301981
+											-3484967
+											-3484967
+											-3945518
+											-3945518
+											-3682603
+											-3945518
+										]
+										west: [I;
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2432278
+											-2432278
+											-2432278
+											-2432278
+										]
+									}
+									Color: -1
+									Emission: 0
+									From: [
+										0.0f
+										14.0f
+										2.0f
+									]
+									Material: {
+										Axis: "X"
+										LightEffect: {
+											Brightness: 0.0f
+											Contrast: 0.0f
+											Hue: 0.0f
+											Roundness: 0.0f
+											Saturation: 0.0f
+											Value: 0.0f
+										}
+										Margin: 4
+										Source: "minecraft:smooth_quartz"
+										Transparency: "SOLID"
+										Wrap: "EXPAND"
+									}
+									Rotation: 0.0f
+									To: [
+										2.0f
+										16.0f
+										12.0f
+									]
+									Type: "element"
+								}
+								{
+									Axis: "y"
+									BakedTexture: {
+										down: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2104345
+											-2104345
+											-2827037
+											-2827037
+											-3090209
+											-3090209
+											-2827037
+											-3287844
+										]
+										east: [I;
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2432278
+											-2432278
+											-2432278
+											-2432278
+										]
+										south: [I;
+											-2564896
+											-1643794
+											-2629657
+											-2432278
+										]
+										up: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-1643794
+											-1643794
+											-1906966
+											-1906966
+											-2301981
+											-2301981
+											-3484967
+											-3484967
+											-3945518
+											-3945518
+											-3682603
+											-3945518
+										]
+										west: [I;
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2432278
+											-2432278
+											-2432278
+											-2432278
+										]
+									}
+									Color: -1
+									Emission: 0
+									From: [
+										14.0f
+										14.0f
+										2.0f
+									]
+									Material: {
+										Axis: "X"
+										LightEffect: {
+											Brightness: 0.0f
+											Contrast: 0.0f
+											Hue: 0.0f
+											Roundness: 0.0f
+											Saturation: 0.0f
+											Value: 0.0f
+										}
+										Margin: 4
+										Source: "minecraft:smooth_quartz"
+										Transparency: "SOLID"
+										Wrap: "EXPAND"
+									}
+									Rotation: 0.0f
+									To: [
+										16.0f
+										16.0f
+										12.0f
+									]
+									Type: "element"
+								}
+								{
+									Axis: "x"
+									BakedTexture: {
+										down: [I;
+											-2959655
+											-3486255
+											-2893086
+											-3485223
+										]
+										east: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2629657
+											-3682603
+											-3287844
+											-4735292
+											-2762276
+											-4933702
+											-5196873
+											-6710113
+											-5196873
+											-6447198
+											-7038561
+											-6643547
+											-7433319
+											-7828078
+											-6643547
+											-7433319
+										]
+										north: [I;
+											-2038552
+											-1643794
+											-2893086
+											-2366485
+											-3814188
+											-2761243
+											-5590857
+											-3879725
+											-5131081
+											-3486255
+											-4209979
+											-3354412
+											-4802115
+											-3683634
+											-5196099
+											-4472376
+											-3485223
+											-3156002
+											-4011568
+											-3419431
+										]
+										south: [I;
+											-2762276
+											-2959655
+											-3287588
+											-3287588
+											-2893086
+											-2893086
+											-2629657
+											-2629657
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2366485
+											-2563864
+											-2432278
+											-2432278
+											-2169106
+											-2432278
+										]
+										west: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2169106
+											-2432278
+										]
+									}
+									Color: -1
+									Emission: 0
+									From: [
+										0.0f
+										14.5f
+										11.0f
+									]
+									Material: {
+										Axis: "X"
+										LightEffect: {
+											Brightness: 0.0f
+											Contrast: 0.0f
+											Hue: 0.0f
+											Roundness: 0.0f
+											Saturation: 0.0f
+											Value: 0.0f
+										}
+										Margin: 4
+										Source: "minecraft:smooth_quartz"
+										Transparency: "SOLID"
+										Wrap: "EXPAND"
+									}
+									Rotation: -157.5f
+									To: [
+										2.0f
+										24.5f
+										13.0f
+									]
+									Type: "element"
+								}
+								{
+									Axis: "x"
+									BakedTexture: {
+										down: [I;
+											-4078136
+											-3486255
+											-3616810
+											-3485223
+										]
+										east: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2169106
+											-2432278
+										]
+										north: [I;
+											-1643794
+											-1643794
+											-2366485
+											-2366485
+											-2563864
+											-2761243
+											-2827036
+											-3879725
+											-2038552
+											-3486255
+											-2038552
+											-3354412
+											-2433310
+											-3683634
+											-3419431
+											-4472376
+											-2827036
+											-3156002
+											-2958879
+											-3419431
+										]
+										south: [I;
+											-2762276
+											-2959655
+											-3287588
+											-3287588
+											-2893086
+											-2893086
+											-2629657
+											-2629657
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2761243
+											-2563864
+											-2432278
+											-2432278
+											-2169106
+											-2432278
+										]
+										west: [I;
+											-2104345
+											-1643794
+											-2827037
+											-2169106
+											-3682603
+											-3682603
+											-6380375
+											-4735292
+											-6052183
+											-4933702
+											-6447198
+											-6710113
+											-6907493
+											-6447198
+											-7235941
+											-6643547
+											-7828078
+											-7828078
+											-7696492
+											-7433319
+										]
+									}
+									Color: -1
+									Emission: 0
+									From: [
+										14.0f
+										14.5f
+										11.0f
+									]
+									Material: {
+										Axis: "X"
+										LightEffect: {
+											Brightness: 0.0f
+											Contrast: 0.0f
+											Hue: 0.0f
+											Roundness: 0.0f
+											Saturation: 0.0f
+											Value: 0.0f
+										}
+										Margin: 4
+										Source: "minecraft:smooth_quartz"
+										Transparency: "SOLID"
+										Wrap: "EXPAND"
+									}
+									Rotation: -157.5f
+									To: [
+										16.0f
+										24.5f
+										13.0f
+									]
+									Type: "element"
+								}
+								{
+									Axis: "y"
+									BakedTexture: {
+										down: [I;
+											-4078392
+											-4275772
+											-3880757
+											-3617841
+											-3420206
+											-3682603
+											-3024672
+											-2827037
+											-3024672
+											-3945518
+											-4143153
+											-3617841
+											-3880757
+											-4275772
+											-4735292
+											-4538687
+											-4538687
+											-4078392
+											-3617841
+											-3222827
+											-2564896
+											-2564896
+											-2564896
+											-3222827
+											-4340533
+											-4735292
+											-5130306
+											-5130306
+										]
+										east: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2432278
+										]
+										north: [I;
+											-1643794
+											-1643794
+											-1643794
+											-2432278
+											-2432278
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2695450
+											-2695450
+											-2695450
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1906966
+											-2432278
+										]
+										south: [I;
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2432278
+											-2432278
+											-2432278
+											-2432278
+										]
+										up: [I;
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2432278
+											-2432278
+											-2432278
+											-2432278
+										]
+										west: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2432278
+										]
+									}
+									Color: -1
+									Emission: 0
+									From: [
+										1.0f
+										24.0f
+										13.0f
+									]
+									Material: {
+										Axis: "X"
+										LightEffect: {
+											Brightness: 0.0f
+											Contrast: 0.0f
+											Hue: 0.0f
+											Roundness: 0.0f
+											Saturation: 0.0f
+											Value: 0.0f
+										}
+										Margin: 4
+										Source: "minecraft:smooth_quartz"
+										Transparency: "SOLID"
+										Wrap: "EXPAND"
+									}
+									Rotation: 0.0f
+									To: [
+										15.0f
+										26.0f
+										15.0f
+									]
+									Type: "element"
+								}
+								{
+									Axis: "z"
+									BakedTexture: {
+										down: [I;
+											-6249562
+											-6249562
+											-8354679
+											-8551802
+										]
+										east: [I;
+											-2762276
+											-2959655
+											-3419431
+											-3616810
+											-3616810
+											-3814188
+											-3879725
+											-4011568
+											-4537912
+											-4735291
+											-3814188
+											-4143154
+											-3090209
+											-3419431
+											-3880757
+											-3880757
+											-3880757
+											-3880757
+											-4867134
+											-4866878
+											-4407358
+											-5261636
+											-4802115
+											-4999238
+											-4999238
+											-5131081
+											-4802115
+											-4999238
+											-4669499
+											-4998721
+											-5393479
+											-6314581
+											-5722444
+											-7169891
+										]
+										north: [I;
+											-1643794
+											-1643794
+											-2432278
+											-2629657
+											-2827037
+											-3024672
+											-3485223
+											-3945518
+											-3090209
+											-4143153
+											-2827037
+											-4340533
+											-3287588
+											-3484967
+											-1643794
+											-2959911
+											-1643794
+											-3222827
+											-2169106
+											-2432278
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-3879982
+											-3879982
+											-7235684
+											-7235684
+											-9473161
+											-9341575
+										]
+										south: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2432278
+											-2432278
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2432278
+											-2169106
+											-1643794
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2169106
+											-2432278
+										]
+										up: [I;
+											-2038552
+											-1643794
+											-2563864
+											-2432278
+										]
+										west: [I;
+											-3683634
+											-3486255
+											-5196099
+											-4998721
+											-4866878
+											-4866878
+											-5393479
+											-5064513
+											-6643546
+											-6117202
+											-6972768
+											-6446168
+											-6248789
+											-5393478
+											-5525839
+											-4407358
+											-5131081
+											-3683634
+											-3353381
+											-2366485
+											-2433310
+											-2432278
+											-1643794
+											-1643794
+											-1841173
+											-1841173
+											-4604737
+											-3880757
+											-4998721
+											-4340533
+											-8025457
+											-6643546
+											-8552058
+											-7301734
+										]
+									}
+									Color: -1
+									Emission: 0
+									From: [
+										4.0f
+										9.0f
+										13.0f
+									]
+									Material: {
+										Axis: "X"
+										LightEffect: {
+											Brightness: 0.0f
+											Contrast: 0.0f
+											Hue: 0.0f
+											Roundness: 0.0f
+											Saturation: 0.0f
+											Value: 0.0f
+										}
+										Margin: 4
+										Source: "minecraft:smooth_quartz"
+										Transparency: "SOLID"
+										Wrap: "EXPAND"
+									}
+									Rotation: 22.5f
+									To: [
+										6.0f
+										26.0f
+										15.0f
+									]
+									Type: "element"
+								}
+								{
+									Axis: "x"
+									BakedTexture: {
+										down: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2432278
+										]
+										east: [I;
+											-2301981
+											-2301981
+											-2827037
+											-3024672
+											-3024672
+											-3287588
+											-3682603
+											-3945518
+											-3945518
+											-4143153
+											-3682603
+											-3879982
+											-4340533
+											-4537912
+											-4078392
+											-4078392
+											-4275772
+											-4275772
+											-4932927
+											-4735292
+											-4078392
+											-4735292
+											-3617841
+											-3617841
+											-3420206
+											-3420206
+											-2959911
+											-2959911
+											-3682603
+											-4077361
+											-4143153
+											-4735292
+											-4077361
+											-4932927
+										]
+										north: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2432278
+											-2432278
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2432278
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-3879982
+											-3879982
+											-5590601
+											-5590601
+											-6380375
+											-6183252
+										]
+										south: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2432278
+											-2432278
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2432278
+											-2169106
+											-1643794
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2169106
+											-2432278
+										]
+										west: [I;
+											-2301981
+											-2301981
+											-2827037
+											-3024672
+											-3024672
+											-3287588
+											-3682603
+											-3945518
+											-3945518
+											-4143153
+											-3682603
+											-3879982
+											-4340533
+											-4537912
+											-4078392
+											-4078392
+											-4275772
+											-4275772
+											-4932927
+											-4735292
+											-4078392
+											-4735292
+											-3617841
+											-3617841
+											-3420206
+											-3420206
+											-2959911
+											-2959911
+											-4537912
+											-4077361
+											-5393222
+											-4735292
+											-5393222
+											-4932927
+										]
+									}
+									Color: -1
+									Emission: 0
+									From: [
+										7.0f
+										9.0f
+										13.0f
+									]
+									Material: {
+										Axis: "X"
+										LightEffect: {
+											Brightness: 0.0f
+											Contrast: 0.0f
+											Hue: 0.0f
+											Roundness: 0.0f
+											Saturation: 0.0f
+											Value: 0.0f
+										}
+										Margin: 4
+										Source: "minecraft:smooth_quartz"
+										Transparency: "SOLID"
+										Wrap: "EXPAND"
+									}
+									Rotation: 0.0f
+									To: [
+										9.0f
+										26.0f
+										15.0f
+									]
+									Type: "element"
+								}
+								{
+									Axis: "z"
+									BakedTexture: {
+										down: [I;
+											-7565423
+											-6249562
+											-10131348
+											-8551802
+										]
+										east: [I;
+											-3157034
+											-3486255
+											-4669499
+											-4998721
+											-4472376
+											-4866878
+											-4735291
+											-5064513
+											-5393479
+											-6117202
+											-5393478
+											-6446168
+											-3814188
+											-5393478
+											-2762276
+											-4407358
+											-2235931
+											-3683634
+											-2432278
+											-2366485
+											-1643794
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-1841173
+											-2959655
+											-3880757
+											-3419431
+											-4340533
+											-5261636
+											-6643546
+											-5722444
+											-7301734
+										]
+										north: [I;
+											-2104345
+											-1643794
+											-3024672
+											-2629657
+											-3024672
+											-3024672
+											-4143153
+											-3945518
+											-4735292
+											-4143153
+											-5393222
+											-4340533
+											-5393222
+											-3484967
+											-5196873
+											-2959911
+											-5196873
+											-3222827
+											-3287588
+											-2432278
+											-3287844
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-3420206
+											-1643794
+											-3879982
+											-3879982
+											-7235684
+											-7235684
+											-9473161
+											-9341575
+										]
+										south: [I;
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2432278
+											-2432278
+											-2169106
+											-2169106
+											-2169106
+											-2169106
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2432278
+											-2169106
+											-1643794
+											-2432278
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-1643794
+											-2169106
+											-2169106
+											-2432278
+											-2432278
+											-2169106
+											-2432278
+										]
+										up: [I;
+											-1841173
+											-1643794
+											-2366485
+											-2432278
+										]
+										west: [I;
+											-2762276
+											-2959655
+											-3419431
+											-3616810
+											-3616810
+											-3814188
+											-3879725
+											-4011568
+											-4537912
+											-4735291
+											-3814188
+											-4143154
+											-3090209
+											-3419431
+											-3880757
+											-3880757
+											-3880757
+											-3880757
+											-4867134
+											-4866878
+											-4407358
+											-5261636
+											-4802115
+											-4999238
+											-4999238
+											-5131081
+											-4802115
+											-4999238
+											-4998721
+											-4998721
+											-6775389
+											-6314581
+											-7828335
+											-7169891
+										]
+									}
+									Color: -1
+									Emission: 0
+									From: [
+										10.0f
+										9.0f
+										13.0f
+									]
+									Material: {
+										Axis: "X"
+										LightEffect: {
+											Brightness: 0.0f
+											Contrast: 0.0f
+											Hue: 0.0f
+											Roundness: 0.0f
+											Saturation: 0.0f
+											Value: 0.0f
+										}
+										Margin: 4
+										Source: "minecraft:smooth_quartz"
+										Transparency: "SOLID"
+										Wrap: "EXPAND"
+									}
+									Rotation: -22.5f
+									To: [
+										12.0f
+										26.0f
+										15.0f
+									]
+									Type: "element"
+								}
+							]
+							InventorySize: 0
+							LightLevel: 0
+							Name: "Power!"
+							OriginalAuthor: "Polaris_Light"
+							SizeX: 1
+							SizeY: 2
+							SizeZ: 1
+							Sources: ["vanilla"]
+							Tag: "outdoor"
+							ToggleLight: 0b
+							ToggleWithRightClick: 0b
+						}
+					}
+				}
+			}
+			id: "16369530ADEC5DC3"
+			rewards: [
+				{
+					id: "6238C19CE169CC76"
+					item: "immersive_furniture:artisans_workstation"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7922EBA1EBF18750"
+					item: "immersive_furniture:crafting_material"
+					type: "item"
+				}
+				{
+					id: "513F19E7C7BD3D7A"
+					item: {
+						Count: 1
+						id: "immersive_furniture:furniture"
+						tag: {
+							BlockEntityTag: {
+								Furniture: {
+									Author: "Polaris_Light"
+									ContentID: 46827
+									Dependencies: [ ]
+									Elements: [
+										{
+											Axis: "y"
+											BakedTexture: {
+												down: [I;
+													-2959911
+													-2959911
+													-2959911
+													-2564896
+													-2432278
+													-2169106
+													-2169106
+													-2169106
+													-2695450
+													-2564896
+													-2959911
+													-2959911
+													-3484967
+													-3222827
+													-3484967
+													-3484967
+													-3090209
+													-2432278
+													-2432278
+													-2432278
+													-2301981
+													-2959911
+													-2959911
+													-3682603
+													-3484967
+													-3682603
+													-3484967
+													-3682603
+													-3287844
+													-2432278
+													-2432278
+													-2169106
+													-2564896
+													-2959911
+													-3484967
+													-3682603
+													-3682603
+													-3682603
+													-3682603
+													-3485223
+													-3024672
+													-2169106
+													-1643794
+													-1643794
+													-3024672
+													-3287588
+													-3484967
+													-3682603
+													-3287588
+													-3287588
+													-3287588
+													-3287844
+													-3090209
+													-2432278
+													-2169106
+													-2169106
+													-3090209
+													-3287844
+													-3485223
+													-3287588
+													-3024672
+													-3024672
+													-3024672
+													-2827037
+													-1906966
+													-1643794
+													-2432278
+													-2432278
+													-2432278
+													-2827037
+													-3024672
+													-3024672
+													-2104345
+													-2104345
+													-2104345
+													-1906966
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-2629657
+													-2104345
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2432278
+													-2432278
+													-2169106
+													-2169106
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2892829
+													-2432278
+													-2169106
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2432278
+													-2301981
+													-2104345
+													-1906966
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2432278
+													-2432278
+													-2695450
+													-2892829
+													-2301981
+													-2301981
+													-2104345
+													-1643794
+													-2432278
+													-2169106
+													-2169106
+													-2432278
+													-1643794
+													-1643794
+													-2104345
+													-2301981
+													-2827037
+													-2827037
+													-2629657
+													-2169106
+													-2169106
+													-2169106
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2629657
+													-2827037
+													-3090209
+													-3090209
+													-2629657
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2629657
+													-3090209
+													-2827037
+													-2104345
+													-1906966
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2432278
+													-2432278
+													-2695450
+													-2892829
+												]
+												east: [I;
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-3287588
+													-3945518
+													-3945518
+													-3222827
+													-3222827
+													-3222827
+													-2169106
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2762276
+													-3222827
+													-3945518
+													-3945518
+													-3945518
+													-3945518
+												]
+												north: [I;
+													-1643794
+													-1643794
+													-1643794
+													-2432278
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2432278
+													-2432278
+													-2432278
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+												]
+												south: [I;
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2432278
+													-2432278
+													-2432278
+													-2432278
+												]
+												up: [I;
+													-2104345
+													-1906966
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-1643794
+													-1643794
+													-1906966
+													-2827037
+													-2104345
+													-2432278
+													-2169106
+													-2432278
+													-2432278
+													-2432278
+													-2432278
+													-1643794
+													-1643794
+													-1906966
+													-2629657
+													-2827037
+													-2827037
+													-2629657
+													-2432278
+													-2432278
+													-2432278
+													-2432278
+													-2169106
+													-1643794
+													-1643794
+													-2629657
+													-2827037
+													-3090209
+													-3090209
+													-2892829
+													-2432278
+													-2169106
+													-2169106
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2629657
+													-3090209
+													-2827037
+													-2827037
+													-2629657
+													-2432278
+													-2432278
+													-2432278
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2892829
+													-2827037
+													-2827037
+													-2629657
+													-2432278
+													-2169106
+													-1643794
+													-1643794
+													-2432278
+													-2432278
+													-2169106
+													-2169106
+													-2432278
+													-2629657
+													-2104345
+													-1906966
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-1906966
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2432278
+													-2432278
+													-2169106
+													-2169106
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2432278
+													-2169106
+													-2169106
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2432278
+													-2432278
+													-2432278
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2432278
+													-2169106
+													-2169106
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-2827037
+													-3287588
+													-2959911
+													-2762276
+													-2301981
+													-1906966
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2432278
+													-3287844
+													-3222827
+													-3617841
+													-3617841
+													-3617841
+													-3682603
+													-3024672
+													-2432278
+													-2432278
+													-2169106
+													-1643794
+													-2301981
+													-2959911
+													-3617841
+													-3880757
+													-4078392
+													-3880757
+													-4340533
+													-3682603
+													-3090209
+													-2432278
+												]
+												west: [I;
+													-2762276
+													-3222827
+													-3222827
+													-3222827
+													-3222827
+													-3682603
+													-3287588
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-3287588
+													-3222827
+													-3222827
+													-3222827
+													-3222827
+													-3222827
+													-2762276
+													-1643794
+													-1643794
+													-1643794
+													-2432278
+													-2432278
+													-2432278
+													-2432278
+												]
+											}
+											Color: -1
+											Emission: 0
+											From: [
+												2.0f
+												8.0f
+												0.5f
+											]
+											Material: {
+												Axis: "X"
+												LightEffect: {
+													Brightness: 0.0f
+													Contrast: 0.0f
+													Hue: 0.0f
+													Roundness: 0.0f
+													Saturation: 0.0f
+													Value: 0.0f
+												}
+												Margin: 4
+												Source: "minecraft:smooth_quartz"
+												Transparency: "SOLID"
+												Wrap: "EXPAND"
+											}
+											Rotation: 0.0f
+											To: [
+												14.0f
+												10.0f
+												14.5f
+											]
+											Type: "element"
+										}
+										{
+											Axis: "y"
+											Color: -1
+											Emission: 0
+											From: [
+												4.0f
+												10.0f
+												2.0f
+											]
+											PlayerPose: {
+												Pose: "SITTING"
+											}
+											Rotation: 0.0f
+											To: [
+												12.0f
+												12.0f
+												10.0f
+											]
+											Type: "player_pose"
+										}
+										{
+											Axis: "x"
+											BakedTexture: {
+												down: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2432278
+												]
+												east: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-4143153
+													-4143153
+													-5393222
+													-5130307
+													-6183252
+													-5788237
+													-6052183
+													-5591632
+													-5854804
+													-5394253
+													-5590601
+													-5130307
+													-3420206
+													-4143153
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2169106
+													-2432278
+												]
+												north: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2892829
+													-2695450
+													-2827037
+													-2629657
+													-2827037
+													-2629657
+													-2301981
+													-2104345
+													-2301981
+													-2104345
+													-2827037
+													-2892829
+													-2892829
+													-1906966
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2432278
+													-2169106
+												]
+												south: [I;
+													-2301981
+													-2301981
+													-2827037
+													-3024672
+													-2827037
+													-2827037
+													-3090209
+													-3090209
+													-2892829
+													-3090209
+													-2432278
+													-2827037
+													-2629657
+													-3287588
+													-2104345
+													-2762276
+													-2104345
+													-2762276
+													-2695450
+													-2827037
+													-1643794
+													-2695450
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2169106
+													-2432278
+												]
+												west: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2432278
+													-2432278
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2432278
+													-2169106
+													-1643794
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2169106
+													-2432278
+												]
+											}
+											Color: -1
+											Emission: 0
+											From: [
+												0.0f
+												0.0f
+												2.0f
+											]
+											Material: {
+												Axis: "X"
+												LightEffect: {
+													Brightness: 0.0f
+													Contrast: 0.0f
+													Hue: 0.0f
+													Roundness: 0.0f
+													Saturation: 0.0f
+													Value: 0.0f
+												}
+												Margin: 4
+												Source: "minecraft:smooth_quartz"
+												Transparency: "SOLID"
+												Wrap: "EXPAND"
+											}
+											Rotation: 0.0f
+											To: [
+												2.0f
+												16.0f
+												4.0f
+											]
+											Type: "element"
+										}
+										{
+											Axis: "x"
+											BakedTexture: {
+												down: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2432278
+												]
+												east: [I;
+													-10197400
+													-10197400
+													-9341575
+													-9341575
+													-6840926
+													-7038561
+													-7038305
+													-4143153
+													-3222827
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2169106
+													-2432278
+												]
+												north: [I;
+													-6973542
+													-5855061
+													-6775389
+													-5722444
+													-4866878
+													-4143154
+													-2958879
+													-2827036
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2432278
+													-2169106
+												]
+												south: [I;
+													-5328460
+													-6644320
+													-5919823
+													-7301734
+													-5196099
+													-6446168
+													-5393479
+													-6643546
+													-3157034
+													-3880757
+													-2235931
+													-2433310
+													-2235931
+													-2235931
+													-2761243
+													-2761243
+													-2827036
+													-2827036
+													-2563864
+													-2827036
+												]
+												west: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2169106
+													-2432278
+												]
+											}
+											Color: -1
+											Emission: 0
+											From: [
+												2.0f
+												-1.0f
+												11.5f
+											]
+											Material: {
+												Axis: "X"
+												LightEffect: {
+													Brightness: 0.0f
+													Contrast: 0.0f
+													Hue: 0.0f
+													Roundness: 0.0f
+													Saturation: 0.0f
+													Value: 0.0f
+												}
+												Margin: 4
+												Source: "minecraft:smooth_quartz"
+												Transparency: "SOLID"
+												Wrap: "EXPAND"
+											}
+											Rotation: -22.5f
+											To: [
+												4.0f
+												9.0f
+												13.5f
+											]
+											Type: "element"
+										}
+										{
+											Axis: "x"
+											BakedTexture: {
+												down: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2432278
+												]
+												east: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2169106
+													-2432278
+												]
+												north: [I;
+													-4604737
+													-5855061
+													-4669499
+													-5722444
+													-3419431
+													-4143154
+													-2629657
+													-2827036
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2432278
+													-2169106
+												]
+												south: [I;
+													-7894644
+													-6644320
+													-8749181
+													-7301734
+													-7696492
+													-6446168
+													-7828078
+													-6643546
+													-4407358
+													-3880757
+													-2433310
+													-2433310
+													-2235931
+													-2235931
+													-2761243
+													-2761243
+													-2827036
+													-2827036
+													-2563864
+													-2827036
+												]
+												west: [I;
+													-10197400
+													-10197400
+													-9341575
+													-9341575
+													-7038561
+													-7038561
+													-4143153
+													-4143153
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2169106
+													-2432278
+												]
+											}
+											Color: -1
+											Emission: 0
+											From: [
+												12.0f
+												-1.0f
+												11.5f
+											]
+											Material: {
+												Axis: "X"
+												LightEffect: {
+													Brightness: 0.0f
+													Contrast: 0.0f
+													Hue: 0.0f
+													Roundness: 0.0f
+													Saturation: 0.0f
+													Value: 0.0f
+												}
+												Margin: 4
+												Source: "minecraft:smooth_quartz"
+												Transparency: "SOLID"
+												Wrap: "EXPAND"
+											}
+											Rotation: -22.5f
+											To: [
+												14.0f
+												9.0f
+												13.5f
+											]
+											Type: "element"
+										}
+										{
+											Axis: "x"
+											BakedTexture: {
+												down: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2432278
+												]
+												east: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2432278
+													-2432278
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2432278
+													-2169106
+													-1643794
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2169106
+													-2432278
+												]
+												north: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2432278
+													-2695450
+													-2432278
+													-2629657
+													-2432278
+													-2629657
+													-1906966
+													-2104345
+													-1906966
+													-2104345
+													-2432278
+													-2892829
+													-2432278
+													-1906966
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2432278
+													-2169106
+												]
+												south: [I;
+													-2301981
+													-2301981
+													-2827037
+													-3024672
+													-2827037
+													-2827037
+													-3090209
+													-3090209
+													-3485223
+													-3090209
+													-3484967
+													-2827037
+													-3879982
+													-3287588
+													-3420206
+													-2762276
+													-3420206
+													-2762276
+													-3682603
+													-2827037
+													-2301981
+													-2695450
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2169106
+													-2432278
+												]
+												west: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-3945518
+													-4143153
+													-4735292
+													-5130307
+													-5130307
+													-5788237
+													-4933702
+													-5591632
+													-4736323
+													-5394253
+													-4932927
+													-5130307
+													-3222827
+													-4143153
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2169106
+													-2432278
+												]
+											}
+											Color: -1
+											Emission: 0
+											From: [
+												14.0f
+												0.0f
+												2.0f
+											]
+											Material: {
+												Axis: "X"
+												LightEffect: {
+													Brightness: 0.0f
+													Contrast: 0.0f
+													Hue: 0.0f
+													Roundness: 0.0f
+													Saturation: 0.0f
+													Value: 0.0f
+												}
+												Margin: 4
+												Source: "minecraft:smooth_quartz"
+												Transparency: "SOLID"
+												Wrap: "EXPAND"
+											}
+											Rotation: 0.0f
+											To: [
+												16.0f
+												16.0f
+												4.0f
+											]
+											Type: "element"
+										}
+										{
+											Axis: "y"
+											BakedTexture: {
+												down: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2104345
+													-2104345
+													-2827037
+													-2827037
+													-3090209
+													-3090209
+													-2827037
+													-3287844
+												]
+												east: [I;
+													-2564896
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-2629657
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2432278
+													-2432278
+													-2432278
+													-2432278
+												]
+												south: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2432278
+												]
+												up: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-1643794
+													-1643794
+													-1906966
+													-1906966
+													-2301981
+													-2301981
+													-3484967
+													-3484967
+													-3945518
+													-3945518
+													-3682603
+													-3945518
+												]
+												west: [I;
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2432278
+													-2432278
+													-2432278
+													-2432278
+												]
+											}
+											Color: -1
+											Emission: 0
+											From: [
+												0.0f
+												14.0f
+												2.0f
+											]
+											Material: {
+												Axis: "X"
+												LightEffect: {
+													Brightness: 0.0f
+													Contrast: 0.0f
+													Hue: 0.0f
+													Roundness: 0.0f
+													Saturation: 0.0f
+													Value: 0.0f
+												}
+												Margin: 4
+												Source: "minecraft:smooth_quartz"
+												Transparency: "SOLID"
+												Wrap: "EXPAND"
+											}
+											Rotation: 0.0f
+											To: [
+												2.0f
+												16.0f
+												12.0f
+											]
+											Type: "element"
+										}
+										{
+											Axis: "y"
+											BakedTexture: {
+												down: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2104345
+													-2104345
+													-2827037
+													-2827037
+													-3090209
+													-3090209
+													-2827037
+													-3287844
+												]
+												east: [I;
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2432278
+													-2432278
+													-2432278
+													-2432278
+												]
+												south: [I;
+													-2564896
+													-1643794
+													-2629657
+													-2432278
+												]
+												up: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-1643794
+													-1643794
+													-1906966
+													-1906966
+													-2301981
+													-2301981
+													-3484967
+													-3484967
+													-3945518
+													-3945518
+													-3682603
+													-3945518
+												]
+												west: [I;
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2432278
+													-2432278
+													-2432278
+													-2432278
+												]
+											}
+											Color: -1
+											Emission: 0
+											From: [
+												14.0f
+												14.0f
+												2.0f
+											]
+											Material: {
+												Axis: "X"
+												LightEffect: {
+													Brightness: 0.0f
+													Contrast: 0.0f
+													Hue: 0.0f
+													Roundness: 0.0f
+													Saturation: 0.0f
+													Value: 0.0f
+												}
+												Margin: 4
+												Source: "minecraft:smooth_quartz"
+												Transparency: "SOLID"
+												Wrap: "EXPAND"
+											}
+											Rotation: 0.0f
+											To: [
+												16.0f
+												16.0f
+												12.0f
+											]
+											Type: "element"
+										}
+										{
+											Axis: "x"
+											BakedTexture: {
+												down: [I;
+													-2959655
+													-3486255
+													-2893086
+													-3485223
+												]
+												east: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2629657
+													-3682603
+													-3287844
+													-4735292
+													-2762276
+													-4933702
+													-5196873
+													-6710113
+													-5196873
+													-6447198
+													-7038561
+													-6643547
+													-7433319
+													-7828078
+													-6643547
+													-7433319
+												]
+												north: [I;
+													-2038552
+													-1643794
+													-2893086
+													-2366485
+													-3814188
+													-2761243
+													-5590857
+													-3879725
+													-5131081
+													-3486255
+													-4209979
+													-3354412
+													-4802115
+													-3683634
+													-5196099
+													-4472376
+													-3485223
+													-3156002
+													-4011568
+													-3419431
+												]
+												south: [I;
+													-2762276
+													-2959655
+													-3287588
+													-3287588
+													-2893086
+													-2893086
+													-2629657
+													-2629657
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2366485
+													-2563864
+													-2432278
+													-2432278
+													-2169106
+													-2432278
+												]
+												west: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2169106
+													-2432278
+												]
+											}
+											Color: -1
+											Emission: 0
+											From: [
+												0.0f
+												14.5f
+												11.0f
+											]
+											Material: {
+												Axis: "X"
+												LightEffect: {
+													Brightness: 0.0f
+													Contrast: 0.0f
+													Hue: 0.0f
+													Roundness: 0.0f
+													Saturation: 0.0f
+													Value: 0.0f
+												}
+												Margin: 4
+												Source: "minecraft:smooth_quartz"
+												Transparency: "SOLID"
+												Wrap: "EXPAND"
+											}
+											Rotation: -157.5f
+											To: [
+												2.0f
+												24.5f
+												13.0f
+											]
+											Type: "element"
+										}
+										{
+											Axis: "x"
+											BakedTexture: {
+												down: [I;
+													-4078136
+													-3486255
+													-3616810
+													-3485223
+												]
+												east: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2169106
+													-2432278
+												]
+												north: [I;
+													-1643794
+													-1643794
+													-2366485
+													-2366485
+													-2563864
+													-2761243
+													-2827036
+													-3879725
+													-2038552
+													-3486255
+													-2038552
+													-3354412
+													-2433310
+													-3683634
+													-3419431
+													-4472376
+													-2827036
+													-3156002
+													-2958879
+													-3419431
+												]
+												south: [I;
+													-2762276
+													-2959655
+													-3287588
+													-3287588
+													-2893086
+													-2893086
+													-2629657
+													-2629657
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2761243
+													-2563864
+													-2432278
+													-2432278
+													-2169106
+													-2432278
+												]
+												west: [I;
+													-2104345
+													-1643794
+													-2827037
+													-2169106
+													-3682603
+													-3682603
+													-6380375
+													-4735292
+													-6052183
+													-4933702
+													-6447198
+													-6710113
+													-6907493
+													-6447198
+													-7235941
+													-6643547
+													-7828078
+													-7828078
+													-7696492
+													-7433319
+												]
+											}
+											Color: -1
+											Emission: 0
+											From: [
+												14.0f
+												14.5f
+												11.0f
+											]
+											Material: {
+												Axis: "X"
+												LightEffect: {
+													Brightness: 0.0f
+													Contrast: 0.0f
+													Hue: 0.0f
+													Roundness: 0.0f
+													Saturation: 0.0f
+													Value: 0.0f
+												}
+												Margin: 4
+												Source: "minecraft:smooth_quartz"
+												Transparency: "SOLID"
+												Wrap: "EXPAND"
+											}
+											Rotation: -157.5f
+											To: [
+												16.0f
+												24.5f
+												13.0f
+											]
+											Type: "element"
+										}
+										{
+											Axis: "y"
+											BakedTexture: {
+												down: [I;
+													-4078392
+													-4275772
+													-3880757
+													-3617841
+													-3420206
+													-3682603
+													-3024672
+													-2827037
+													-3024672
+													-3945518
+													-4143153
+													-3617841
+													-3880757
+													-4275772
+													-4735292
+													-4538687
+													-4538687
+													-4078392
+													-3617841
+													-3222827
+													-2564896
+													-2564896
+													-2564896
+													-3222827
+													-4340533
+													-4735292
+													-5130306
+													-5130306
+												]
+												east: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2432278
+												]
+												north: [I;
+													-1643794
+													-1643794
+													-1643794
+													-2432278
+													-2432278
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2695450
+													-2695450
+													-2695450
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1906966
+													-2432278
+												]
+												south: [I;
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2432278
+													-2432278
+													-2432278
+													-2432278
+												]
+												up: [I;
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2432278
+													-2432278
+													-2432278
+													-2432278
+												]
+												west: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2432278
+												]
+											}
+											Color: -1
+											Emission: 0
+											From: [
+												1.0f
+												24.0f
+												13.0f
+											]
+											Material: {
+												Axis: "X"
+												LightEffect: {
+													Brightness: 0.0f
+													Contrast: 0.0f
+													Hue: 0.0f
+													Roundness: 0.0f
+													Saturation: 0.0f
+													Value: 0.0f
+												}
+												Margin: 4
+												Source: "minecraft:smooth_quartz"
+												Transparency: "SOLID"
+												Wrap: "EXPAND"
+											}
+											Rotation: 0.0f
+											To: [
+												15.0f
+												26.0f
+												15.0f
+											]
+											Type: "element"
+										}
+										{
+											Axis: "z"
+											BakedTexture: {
+												down: [I;
+													-6249562
+													-6249562
+													-8354679
+													-8551802
+												]
+												east: [I;
+													-2762276
+													-2959655
+													-3419431
+													-3616810
+													-3616810
+													-3814188
+													-3879725
+													-4011568
+													-4537912
+													-4735291
+													-3814188
+													-4143154
+													-3090209
+													-3419431
+													-3880757
+													-3880757
+													-3880757
+													-3880757
+													-4867134
+													-4866878
+													-4407358
+													-5261636
+													-4802115
+													-4999238
+													-4999238
+													-5131081
+													-4802115
+													-4999238
+													-4669499
+													-4998721
+													-5393479
+													-6314581
+													-5722444
+													-7169891
+												]
+												north: [I;
+													-1643794
+													-1643794
+													-2432278
+													-2629657
+													-2827037
+													-3024672
+													-3485223
+													-3945518
+													-3090209
+													-4143153
+													-2827037
+													-4340533
+													-3287588
+													-3484967
+													-1643794
+													-2959911
+													-1643794
+													-3222827
+													-2169106
+													-2432278
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-3879982
+													-3879982
+													-7235684
+													-7235684
+													-9473161
+													-9341575
+												]
+												south: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2432278
+													-2432278
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2432278
+													-2169106
+													-1643794
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2169106
+													-2432278
+												]
+												up: [I;
+													-2038552
+													-1643794
+													-2563864
+													-2432278
+												]
+												west: [I;
+													-3683634
+													-3486255
+													-5196099
+													-4998721
+													-4866878
+													-4866878
+													-5393479
+													-5064513
+													-6643546
+													-6117202
+													-6972768
+													-6446168
+													-6248789
+													-5393478
+													-5525839
+													-4407358
+													-5131081
+													-3683634
+													-3353381
+													-2366485
+													-2433310
+													-2432278
+													-1643794
+													-1643794
+													-1841173
+													-1841173
+													-4604737
+													-3880757
+													-4998721
+													-4340533
+													-8025457
+													-6643546
+													-8552058
+													-7301734
+												]
+											}
+											Color: -1
+											Emission: 0
+											From: [
+												4.0f
+												9.0f
+												13.0f
+											]
+											Material: {
+												Axis: "X"
+												LightEffect: {
+													Brightness: 0.0f
+													Contrast: 0.0f
+													Hue: 0.0f
+													Roundness: 0.0f
+													Saturation: 0.0f
+													Value: 0.0f
+												}
+												Margin: 4
+												Source: "minecraft:smooth_quartz"
+												Transparency: "SOLID"
+												Wrap: "EXPAND"
+											}
+											Rotation: 22.5f
+											To: [
+												6.0f
+												26.0f
+												15.0f
+											]
+											Type: "element"
+										}
+										{
+											Axis: "x"
+											BakedTexture: {
+												down: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2432278
+												]
+												east: [I;
+													-2301981
+													-2301981
+													-2827037
+													-3024672
+													-3024672
+													-3287588
+													-3682603
+													-3945518
+													-3945518
+													-4143153
+													-3682603
+													-3879982
+													-4340533
+													-4537912
+													-4078392
+													-4078392
+													-4275772
+													-4275772
+													-4932927
+													-4735292
+													-4078392
+													-4735292
+													-3617841
+													-3617841
+													-3420206
+													-3420206
+													-2959911
+													-2959911
+													-3682603
+													-4077361
+													-4143153
+													-4735292
+													-4077361
+													-4932927
+												]
+												north: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2432278
+													-2432278
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2432278
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-3879982
+													-3879982
+													-5590601
+													-5590601
+													-6380375
+													-6183252
+												]
+												south: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2432278
+													-2432278
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2432278
+													-2169106
+													-1643794
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2169106
+													-2432278
+												]
+												west: [I;
+													-2301981
+													-2301981
+													-2827037
+													-3024672
+													-3024672
+													-3287588
+													-3682603
+													-3945518
+													-3945518
+													-4143153
+													-3682603
+													-3879982
+													-4340533
+													-4537912
+													-4078392
+													-4078392
+													-4275772
+													-4275772
+													-4932927
+													-4735292
+													-4078392
+													-4735292
+													-3617841
+													-3617841
+													-3420206
+													-3420206
+													-2959911
+													-2959911
+													-4537912
+													-4077361
+													-5393222
+													-4735292
+													-5393222
+													-4932927
+												]
+											}
+											Color: -1
+											Emission: 0
+											From: [
+												7.0f
+												9.0f
+												13.0f
+											]
+											Material: {
+												Axis: "X"
+												LightEffect: {
+													Brightness: 0.0f
+													Contrast: 0.0f
+													Hue: 0.0f
+													Roundness: 0.0f
+													Saturation: 0.0f
+													Value: 0.0f
+												}
+												Margin: 4
+												Source: "minecraft:smooth_quartz"
+												Transparency: "SOLID"
+												Wrap: "EXPAND"
+											}
+											Rotation: 0.0f
+											To: [
+												9.0f
+												26.0f
+												15.0f
+											]
+											Type: "element"
+										}
+										{
+											Axis: "z"
+											BakedTexture: {
+												down: [I;
+													-7565423
+													-6249562
+													-10131348
+													-8551802
+												]
+												east: [I;
+													-3157034
+													-3486255
+													-4669499
+													-4998721
+													-4472376
+													-4866878
+													-4735291
+													-5064513
+													-5393479
+													-6117202
+													-5393478
+													-6446168
+													-3814188
+													-5393478
+													-2762276
+													-4407358
+													-2235931
+													-3683634
+													-2432278
+													-2366485
+													-1643794
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-1841173
+													-2959655
+													-3880757
+													-3419431
+													-4340533
+													-5261636
+													-6643546
+													-5722444
+													-7301734
+												]
+												north: [I;
+													-2104345
+													-1643794
+													-3024672
+													-2629657
+													-3024672
+													-3024672
+													-4143153
+													-3945518
+													-4735292
+													-4143153
+													-5393222
+													-4340533
+													-5393222
+													-3484967
+													-5196873
+													-2959911
+													-5196873
+													-3222827
+													-3287588
+													-2432278
+													-3287844
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-3420206
+													-1643794
+													-3879982
+													-3879982
+													-7235684
+													-7235684
+													-9473161
+													-9341575
+												]
+												south: [I;
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2432278
+													-2432278
+													-2169106
+													-2169106
+													-2169106
+													-2169106
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2432278
+													-2169106
+													-1643794
+													-2432278
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-1643794
+													-2169106
+													-2169106
+													-2432278
+													-2432278
+													-2169106
+													-2432278
+												]
+												up: [I;
+													-1841173
+													-1643794
+													-2366485
+													-2432278
+												]
+												west: [I;
+													-2762276
+													-2959655
+													-3419431
+													-3616810
+													-3616810
+													-3814188
+													-3879725
+													-4011568
+													-4537912
+													-4735291
+													-3814188
+													-4143154
+													-3090209
+													-3419431
+													-3880757
+													-3880757
+													-3880757
+													-3880757
+													-4867134
+													-4866878
+													-4407358
+													-5261636
+													-4802115
+													-4999238
+													-4999238
+													-5131081
+													-4802115
+													-4999238
+													-4998721
+													-4998721
+													-6775389
+													-6314581
+													-7828335
+													-7169891
+												]
+											}
+											Color: -1
+											Emission: 0
+											From: [
+												10.0f
+												9.0f
+												13.0f
+											]
+											Material: {
+												Axis: "X"
+												LightEffect: {
+													Brightness: 0.0f
+													Contrast: 0.0f
+													Hue: 0.0f
+													Roundness: 0.0f
+													Saturation: 0.0f
+													Value: 0.0f
+												}
+												Margin: 4
+												Source: "minecraft:smooth_quartz"
+												Transparency: "SOLID"
+												Wrap: "EXPAND"
+											}
+											Rotation: -22.5f
+											To: [
+												12.0f
+												26.0f
+												15.0f
+											]
+											Type: "element"
+										}
+									]
+									InventorySize: 0
+									LightLevel: 0
+									Name: "Power!"
+									OriginalAuthor: "Polaris_Light"
+									SizeX: 1
+									SizeY: 2
+									SizeZ: 1
+									Sources: ["vanilla"]
+									Tag: "outdoor"
+									ToggleLight: 0b
+									ToggleWithRightClick: 0b
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "544B96EC3546CE12"
+				title: "{ftbquests.chapter.builder.quest1600630753885707715.task.6074114463689526802.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.builder.quest1600630753885707715.title}"
+			x: -4.0d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter.builder.title}"
+}

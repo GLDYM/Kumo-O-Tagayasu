@@ -1,0 +1,198 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bumble"
+	group: "65DBD493CCEDCEF5"
+	icon: {
+		Count: 1
+		id: "the_bumblezone:stingless_bee_helmet_1"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6D7D8225B036C476"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.bumble.quest3004535039783754189.description1}"
+				""
+				"{ftbquests.chapter.bumble.quest3004535039783754189.description2}"
+				""
+				"{ftbquests.chapter.bumble.quest3004535039783754189.description3}"
+				""
+				"{ftbquests.chapter.bumble.quest3004535039783754189.description4}"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:bee_nest"
+			id: "29B240B3318659CD"
+			rewards: [{
+				id: "740B49B2ADB71AED"
+				item: "minecraft:bee_nest"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2E02CA3D39E53FDD"
+					type: "checkmark"
+				}
+				{
+					dimension: "the_bumblezone:the_bumblezone"
+					id: "54DFDF0E75CACF50"
+					type: "dimension"
+				}
+			]
+			title: "{ftbquests.chapter.bumble.quest3004535039783754189.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29B240B3318659CD"]
+			description: [
+				"{ftbquests.chapter.bumble.quest7241528357149307775.description1}"
+				""
+				"{ftbquests.chapter.bumble.quest7241528357149307775.description2}"
+				""
+				"{ftbquests.chapter.bumble.quest7241528357149307775.description3}"
+				""
+				"{ftbquests.chapter.bumble.quest7241528357149307775.description4}"
+				""
+				"{ftbquests.chapter.bumble.quest7241528357149307775.description5}"
+			]
+			icon: "minecraft:honeycomb"
+			id: "647F13AC6ECD737F"
+			rewards: [{
+				id: "77C38ED8F3C2AEB9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					advancement: "the_bumblezone:structures/enter_cell_maze"
+					criterion: ""
+					id: "2E3C1A823A3D2E2F"
+					type: "advancement"
+				}
+				{
+					id: "23F9D5F6C7A97D3B"
+					item: {
+						Count: 1
+						id: "the_bumblezone:flower_headwear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.bumble.quest7241528357149307775.title}"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["647F13AC6ECD737F"]
+			description: [
+				"{ftbquests.chapter.bumble.quest7670110343942178848.description1}"
+				""
+				"{ftbquests.chapter.bumble.quest7670110343942178848.description2}"
+				""
+				"{ftbquests.chapter.bumble.quest7670110343942178848.description3}"
+				""
+				"{ftbquests.chapter.bumble.quest7670110343942178848.description4}"
+			]
+			id: "6A71B4B846B90820"
+			tasks: [{
+				advancement: "the_bumblezone:structures/enter_throne_pillar"
+				criterion: ""
+				id: "3D937AC3C408C4F5"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.bumble.quest7670110343942178848.title}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["647F13AC6ECD737F"]
+			description: [
+				"{ftbquests.chapter.bumble.quest2787778106264305635.description1}"
+				""
+				"{ftbquests.chapter.bumble.quest2787778106264305635.description2}"
+			]
+			id: "26B02D6AD87EBFE3"
+			rewards: [{
+				id: "3E0F3436A526C7D5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3B5E233A9D5A6D5E"
+				item: "the_bumblezone:crystalline_flower"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A71B4B846B90820"]
+			description: [
+				"{ftbquests.chapter.bumble.quest3586416816378356913.description1}"
+				""
+				"{ftbquests.chapter.bumble.quest3586416816378356913.description2}"
+				""
+				"{ftbquests.chapter.bumble.quest3586416816378356913.description3}"
+			]
+			id: "31C58317C4B824B1"
+			rewards: [{
+				id: "6E66C1D3A7287447"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0C3C6AC46EE51A56"
+				item: "the_bumblezone:potion_candle"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A71B4B846B90820"]
+			description: [
+				"{ftbquests.chapter.bumble.quest5906441837268418145.description1}"
+				""
+				"{ftbquests.chapter.bumble.quest5906441837268418145.description2}"
+				""
+				"{ftbquests.chapter.bumble.quest5906441837268418145.description3}"
+				""
+				"{ftbquests.chapter.bumble.quest5906441837268418145.description4}"
+				""
+				"{ftbquests.chapter.bumble.quest5906441837268418145.description5}"
+				""
+				"{ftbquests.chapter.bumble.quest5906441837268418145.description6}"
+				""
+				"{ftbquests.chapter.bumble.quest5906441837268418145.description7}"
+				""
+				"{ftbquests.chapter.bumble.quest5906441837268418145.description8}"
+			]
+			id: "51F7E58EACE3BE61"
+			rewards: [{
+				id: "75275D5539085D25"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "the_bumblezone:structures/enter_sempiternal_sanctum"
+				criterion: ""
+				id: "3EEFD8CE14342044"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.bumble.quest5906441837268418145.title}"
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter.bumble.title}"
+}

@@ -1,0 +1,352 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "crockpot"
+	group: "3B8AF43E1258A852"
+	icon: "crockpot:portable_crock_pot"
+	id: "40D58EF72F6F6640"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{ftbquests.chapter.crockpot.quest6020308697781242643.description1}"]
+			id: "538C6EDD19720B13"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.crockpot.quest6020308697781242643.subtitle}"
+			tasks: [{
+				count: 16L
+				id: "630D6A2B0EF5A671"
+				item: "crockpot:unknown_seeds"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.crockpot.quest6020308697781242643.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["538C6EDD19720B13"]
+			description: ["{ftbquests.chapter.crockpot.quest2901990508272269111.description1}"]
+			hide_until_deps_complete: true
+			id: "2845F0FDEB1FB737"
+			rewards: [{
+				count: 8
+				id: "14206A5021F92991"
+				item: "crockpot:syrup"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5B157B236E960E49"
+					item: "crockpot:asparagus_seeds"
+					type: "item"
+				}
+				{
+					id: "42CCCB54C2E9CDC3"
+					item: "crockpot:corn_seeds"
+					type: "item"
+				}
+				{
+					id: "201C91E85E7B385D"
+					item: "crockpot:eggplant_seeds"
+					type: "item"
+				}
+				{
+					id: "605CA8794EC42505"
+					item: "crockpot:garlic_seeds"
+					type: "item"
+				}
+				{
+					id: "143EE10B5F3864E3"
+					item: "crockpot:onion_seeds"
+					type: "item"
+				}
+				{
+					id: "4C44C56CA677CDF1"
+					item: "crockpot:pepper_seeds"
+					type: "item"
+				}
+				{
+					id: "2AD15F81AE325AF6"
+					item: "crockpot:tomato_seeds"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.crockpot.quest2901990508272269111.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["538C6EDD19720B13"]
+			description: ["{ftbquests.chapter.crockpot.quest5553910265180318843.description1}"]
+			hide_until_deps_complete: true
+			id: "4D1373F5D677EC7B"
+			rewards: [{
+				id: "73A1B63218DCFE8B"
+				item: {
+					Count: 1
+					id: "crockpot:milkmade_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A2F903AAD0D8CA5"
+				item: "crockpot:crock_pot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.crockpot.quest5553910265180318843.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D1373F5D677EC7B"]
+			description: ["{ftbquests.chapter.crockpot.quest4270174579669287883.description1}"]
+			id: "3B42B527E61743CB"
+			rewards: [{
+				id: "5A7A95C3F102A914"
+				item: "crockpot:pot_upgrade_smithing_template"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A6FC9BDEF1E39DE"
+				item: "crockpot:portable_crock_pot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.crockpot.quest4270174579669287883.title}"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B42B527E61743CB"]
+			description: ["{ftbquests.chapter.crockpot.quest1072910525105994334.description1}"]
+			id: "0EE3BE7024B87A5E"
+			rewards: [{
+				id: "32745C8D23651EDB"
+				item: {
+					Count: 1
+					id: "crockpot:milkmade_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "037F375ECC2CE357"
+				item: {
+					Count: 1
+					id: "crockpot:milkmade_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.crockpot.quest1072910525105994334.title}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2845F0FDEB1FB737"]
+			description: [
+				"{ftbquests.chapter.crockpot.quest2545435932736949902.description1}"
+				"{ftbquests.chapter.crockpot.quest2545435932736949902.description2}"
+				"{ftbquests.chapter.crockpot.quest2545435932736949902.description3}"
+			]
+			id: "2353347E994D0E8E"
+			rewards: [{
+				id: "26D4E949B6DDD13C"
+				item: "crockpot:gnaws_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "crockpot:gnaw_will_be_happy"
+				criterion: ""
+				id: "4F451A71E9435F3A"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.crockpot.quest2545435932736949902.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["538C6EDD19720B13"]
+			description: [
+				"{ftbquests.chapter.crockpot.quest620919655205228688.description1}"
+				""
+				"{ftbquests.chapter.crockpot.quest620919655205228688.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "089DF322FA90D090"
+			rewards: [
+				{
+					count: 5
+					id: "287A7F782551CEFC"
+					item: "crockpot:avaj"
+					type: "item"
+				}
+				{
+					id: "0A84BEA75046C842"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				count: 256L
+				id: "13BF5C76D735E363"
+				item: "crockpot:hot_cocoa"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.crockpot.quest620919655205228688.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["538C6EDD19720B13"]
+			description: [
+				"{ftbquests.chapter.crockpot.quest1160574799622916336.description1}"
+				""
+				"{ftbquests.chapter.crockpot.quest1160574799622916336.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "101B30A19ACB48F0"
+			rewards: [{
+				id: "22086FDC4FE3F043"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				count: 128L
+				id: "2A8722C91ADB4694"
+				item: "crockpot:bone_stew"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.crockpot.quest1160574799622916336.title}"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["538C6EDD19720B13"]
+			description: [
+				"{ftbquests.chapter.crockpot.quest2133849973899463451.description1}"
+				""
+				"{ftbquests.chapter.crockpot.quest2133849973899463451.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1D9CF53EE2410B1B"
+			rewards: [{
+				id: "1A5860570FE2511C"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				count: 64L
+				id: "17D88A84ACDE761C"
+				item: "crockpot:mushy_cake"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.crockpot.quest2133849973899463451.title}"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["538C6EDD19720B13"]
+			description: [
+				"{ftbquests.chapter.crockpot.quest7354986559934011700.description1}"
+				""
+				"{ftbquests.chapter.crockpot.quest7354986559934011700.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6612294ED0A39934"
+			rewards: [{
+				id: "75C34A53B9F5F490"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				count: 64L
+				id: "6D7077CC15DE9D43"
+				item: "crockpot:hoglin_nose"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.crockpot.quest7354986559934011700.title}"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["538C6EDD19720B13"]
+			description: ["{ftbquests.chapter.crockpot.quest1191307169614529220.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "10885F8F174002C4"
+			rewards: [{
+				id: "111DAA461AE2B34E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "crockpot:meat_balls"
+				criterion: ""
+				id: "5856E0E2C003472D"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.crockpot.quest1191307169614529220.title}"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["538C6EDD19720B13"]
+			description: [
+				"{ftbquests.chapter.crockpot.quest8643251050729956122.description1}"
+				""
+				"{ftbquests.chapter.crockpot.quest8643251050729956122.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "77F2FF096747E31A"
+			rewards: [
+				{
+					id: "36467421B439400F"
+					item: "crockpot:parrot_egg_red_blue"
+					type: "item"
+				}
+				{
+					id: "52F4B80B7FF18A7D"
+					item: "crockpot:parrot_egg_blue"
+					type: "item"
+				}
+				{
+					id: "4CA0B4BBA74B722D"
+					item: "crockpot:parrot_egg_green"
+					type: "item"
+				}
+				{
+					id: "2E3A27D4A247BCDC"
+					item: "crockpot:parrot_egg_yellow_blue"
+					type: "item"
+				}
+				{
+					id: "51621F24BADD70FA"
+					item: "crockpot:parrot_egg_gray"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B1303EB5B011210"
+				item: "crockpot:birdcage"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.crockpot.quest8643251050729956122.title}"
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter.crockpot.title}"
+}

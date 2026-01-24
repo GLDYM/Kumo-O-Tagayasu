@@ -1,31 +1,47 @@
 &b如果你需要开设服务器，去看 Github 的服务端搭建说明，或者百科的自定义体验指南！&r
 
-&h【前言】
+&bIf you need to set up a server, check out the server setup instructions on Github!&r
+==========
+&h前言 Preface
+-----
 &l此欢迎页面仅会出现一次，后续启动将不再弹出，除非您完全重新安装本整合包。&r
 
-感谢您下载并游玩耕云钓月！
-用佛系的心，以及爱与魔法，创作每一个作品！
-如果您在游玩时遇到了影响游戏体验的问题，请上报给作者！若您不上报你遇到的游玩体验问题，那么它们永远不会被解决！
+&lThis welcome page will only appear once, and will not pop up again unless you completely reinstall this modpack.&r
+-----
+感谢您下载并游玩耕云钓月！用佛系的心，以及爱与魔法，创作每一个作品！
+如果您在游玩时遇到了影响游戏体验的问题，请在 Github 上报！若您不上报你遇到的游玩体验问题，那么它们永远不会被解决！
+
+Thank you for downloading and playing Kumo O Tagayasu! With a Buddhist mindset, love, and magic, we create each work!
+If you encounter any issues affecting your gaming experience, please report them on Github! If you do not report the gameplay experience issues you encounter, they will never be resolved!
 ==========
-&h【疑难解答】
+&h疑难解答 FAQ
+-----
 Q：如何解除锁定60帧？
 A：锁定60帧可以访问游戏设置，将垂直同步关闭即可解决。
+
+Q: How to unlock 60 FPS?
+A: You can access the game settings and turn off vertical sync to solve it.
 -----
 Q：进入存档后崩溃或提示无效的玩家数据？
 A：通常情况下，玩家昵称或游戏路径含有中文可能会导致崩溃，或者是直接关闭游戏或者关闭计算机时未关闭游戏（如拔下电源）等造成强制关闭游戏的情况，又或者是添加或删除模组，可能会导致当前正在游玩中的存档损坏，唯一的解决办法是恢复至上一次的备份。
+
+Q: Crash or invalid player data prompt after entering the save?
+A: In most cases, a crash may be caused by Chinese characters in the player nickname or
 -----
 Q：卡得动不了怎么办？
-A：去模组菜单中找到 超分辨率 模组，打开配置界面启用。注意只有 Windows 能用。
------
-Q：进入存档渲染的画面很奇怪？
-A：去模组菜单中找到 超分辨率 模组，打开配置界面关闭。
+A：安装超分辨率模组。注意只有 Windows 能用。
+
+Q: What to do if it can't run smoothly?
+A: Install the Super Resolution mod. Note that it only works on Windows.
 ==========
-&h【社区支持】
+&h社区支持 Support
+-----
 如果在游玩整合包时遇到无法自行解决的问题，或者想与其他玩家一起交流，欢迎您加入织彩钓月\&耕云钓月玩家交流群，与群内其他玩家一起讨论。
 - 主用户群：1001667281
 整合包的各种反馈和交流。
 - 闲聊群：17607455
 日常Off-Topic的闲聊群，可以讨论除一些敏感内容和群规禁止外的所有话题。
-==========
-&h【结语】
-玩的开心！祝您好运，享受快乐时光:D
+
+If you encounter problems that you cannot solve on your own while playing the modpack, or if you want to communicate with other players, you are welcome to join the Aruori Workshop to discuss with other players in the group.
+- Discord: https://discord.gg/ztTGqY28DJ
+For various feedback and communication about the modpack.

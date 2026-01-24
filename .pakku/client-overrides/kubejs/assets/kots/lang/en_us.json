@@ -1,5 +1,18 @@
 {
   "kots.modpack.name": "\u00a7bKumo O Tagayasu",
+
+  "kots.dimensionviewer.minecraft.overworld": "Overworld",
+  "kots.dimensionviewer.minecraft.the_nether": "The Nether",
+  "kots.dimensionviewer.minecraft.the_end": "The End",
+  "kots.dimensionviewer.javd.void": "The Void",
+  "kots.dimensionviewer.jamd.mining": "Mining",
+  "kots.dimensionviewer.jamd.nether": "Nether Mining",
+  "kots.dimensionviewer.jamd.end": "End Mining",
+  "kots.dimensionviewer.tofucraft.tofu_world": "Tofu Star",
+  "kots.dimensionviewer.the_bumblezone.the_bumblezone": "The Bumblezone",
+  "kots.dimensionviewer.touhou_little_maid_spell.the_retreat": "The Retreat",
+  "kots.dimensionviewer.irons_spellbooks.pocket_dimension": "Pocket Dimension",
+
   "kubejs.message.enchanting_table_blocked.0": "\u00a7cYou, cannot use the enchanting table!",
   "kubejs.message.enchanting_table_blocked.1": "\u00a7bUse Village Trade, Blaze Enchanter or Crysyalline Flower instead.",
   
@@ -166,7 +179,14 @@
   "kubejs.tooltip.item.artifacts.everlasting_beef.1": "\u00a7eYou must be the adventurer who never farms.",
   "kubejs.tooltip.item.artifacts.eternal_steak.0": "\u00a7eI don't get why you eat this every day.",
   "kubejs.tooltip.item.artifacts.eternal_steak.1": "\u00a7eYou must be the adventurer who never farms.",
-  
+
+  "kubejs.tooltip.item.youkaishomecoming.green_coffee_beans.0": "\u00a7eArabica beans are fragrant and delicate, pleasantly acidic, smooth in texture, with little bitterness.",
+  "kubejs.tooltip.item.youkaishomecoming.coffee_beans.0": "\u00a7eArabica beans are fragrant and delicate, pleasantly acidic, smooth in texture, with little bitterness.",
+  "kubejs.tooltip.item.youkaishomecoming.coffee_powder.0": "\u00a7eArabica beans are fragrant and delicate, pleasantly acidic, smooth in texture, with little bitterness.",
+  "kubejs.tooltip.item.bakeries.raw_coffee_beans.0": "\u00a7eRobusta beans have a rich flavor, low acidity, pronounced bitterness, and strong taste.",
+  "kubejs.tooltip.item.bakeries.coffee_beans.0": "\u00a7eRobusta beans have a rich flavor, low acidity, pronounced bitterness, and strong taste.",
+  "kubejs.tooltip.item.bakeries.ground_coffee.0": "\u00a7eRobusta beans have a rich flavor, low acidity, pronounced bitterness, and strong taste.",
+
   "kubejs.tooltip.tag.forge.pasta.0": "\u00a77Noodles are carbs — eat too many and you'll get fat.",
   "kubejs.tooltip.tag.forge.chocolate.0": "\u00a77Sweet and silky, with a lingering aftertaste.",
   

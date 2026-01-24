@@ -1,0 +1,757 @@
+{
+	autofocus_id: "0C489EAE0537E17F"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "youkai"
+	group: "65DBD493CCEDCEF5"
+	icon: "youkaishomecoming:udumbara_flower"
+	id: "4D403121650ECA4F"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.youkai.quest1032815196985073275.description1}"
+				""
+				"{ftbquests.chapter.youkai.quest1032815196985073275.description2}"
+			]
+			icon: "youkaishomecoming:udumbara_flower"
+			id: "0E554BF316EB9E7B"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.youkai.quest1032815196985073275.subtitle}"
+			tasks: [{
+				id: "41D6D62AC69E22B5"
+				title: "{ftbquests.chapter.youkai.quest1032815196985073275.task.4744214736690619061.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.youkai.quest1032815196985073275.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E554BF316EB9E7B"]
+			description: [
+				"{ftbquests.chapter.youkai.quest5734716971097318542.description1}"
+				""
+				"{ftbquests.chapter.youkai.quest5734716971097318542.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "4F95CEB38DA8E48E"
+			rewards: [{
+				count: 4
+				id: "5B678E1C6657773F"
+				item: "tofucraft:seeds_soybeans"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E0BF550D0E6F5F5"
+				item: "tofucraft:seeds_soybeans"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.youkai.quest5734716971097318542.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0E554BF316EB9E7B"]
+			description: ["{ftbquests.chapter.youkai.quest7416716034607205199.description1}"]
+			hide_until_deps_complete: true
+			id: "66ED77F022B4CB4F"
+			rewards: [{
+				count: 16
+				id: "64831DC239EF8F47"
+				item: "youkaishomecoming:flesh"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21A4438324C11AED"
+				item: "youkaishomecoming:flesh"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.youkai.quest7416716034607205199.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F95CEB38DA8E48E"]
+			description: [
+				"{ftbquests.chapter.youkai.quest19557905993181.description1}"
+				""
+				"{ftbquests.chapter.youkai.quest19557905993181.description2}"
+			]
+			id: "000011C9AE0A0DDD"
+			rewards: [{
+				count: 8
+				id: "05349051EF81F428"
+				item: "neapolitan:adzuki_beans"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4248AEF7A40D9A17"
+				item: "neapolitan:adzuki_beans"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.youkai.quest19557905993181.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["000011C9AE0A0DDD"]
+			description: [
+				"{ftbquests.chapter.youkai.quest1406660928774501491.description1}"
+				""
+				"{ftbquests.chapter.youkai.quest1406660928774501491.description2}"
+			]
+			id: "138576A973067473"
+			rewards: [{
+				count: 8
+				id: "0534A96C2FA35B96"
+				item: "youkaishomecoming:green_coffee_bean"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5482A798AA488E1C"
+				item: "youkaishomecoming:green_coffee_bean"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.youkai.quest1406660928774501491.title}"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["138576A973067473"]
+			description: ["{ftbquests.chapter.youkai.quest2924956963322505407.description1}"]
+			id: "289788DC6E24A8BF"
+			rewards: [{
+				id: "6A04F6E5AD7F2ADC"
+				item: "youkaishomecoming:tea_leaves"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F7CC717803A2E2F"
+				item: "youkaishomecoming:tea_leaves"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.youkai.quest2924956963322505407.title}"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["289788DC6E24A8BF"]
+			description: ["{ftbquests.chapter.youkai.quest1213898240781286635.description1}"]
+			id: "10D8A204BB3D7CEB"
+			rewards: [{
+				count: 4
+				id: "68E592253404C3DE"
+				item: "youkaishomecoming:mandrake_root"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F1AB73C6345713D"
+				item: "youkaishomecoming:mandrake_root"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.youkai.quest1213898240781286635.title}"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["10D8A204BB3D7CEB"]
+			description: ["{ftbquests.chapter.youkai.quest810727748604106939.description1}"]
+			id: "0B404897891998BB"
+			rewards: [{
+				count: 8
+				id: "11755A1B3567CE46"
+				item: "youkaishomecoming:udumbara_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6006C40CF025DB08"
+				item: "youkaishomecoming:udumbara_seeds"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.youkai.quest810727748604106939.title}"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0B404897891998BB"]
+			description: [
+				"{ftbquests.chapter.youkai.quest8792570233115830744.description1}"
+				""
+				"{ftbquests.chapter.youkai.quest8792570233115830744.description2}"
+			]
+			id: "7A057C0ABF8AE9D8"
+			rewards: [{
+				count: 4
+				id: "6770D1301D6CFA66"
+				item: "youkaishomecoming:udumbara_flower"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50BEF5E9423C07EE"
+				item: "youkaishomecoming:udumbara_flower"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.youkai.quest8792570233115830744.title}"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7A057C0ABF8AE9D8"]
+			description: [
+				"{ftbquests.chapter.youkai.quest8226170461660030441.description1}"
+				""
+				"{ftbquests.chapter.youkai.quest8226170461660030441.description2}"
+			]
+			id: "72293A73650EA5E9"
+			rewards: [
+				{
+					count: 32
+					id: "3985317A6E1DA682"
+					item: "youkaishomecoming:udumbara_flower"
+					type: "item"
+				}
+				{
+					id: "6381159A64FF1BA0"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "59B0B3501E23A308"
+				item: "youkaishomecoming:udumbara_flower"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.youkai.quest8226170461660030441.title}"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4F95CEB38DA8E48E"]
+			description: ["{ftbquests.chapter.youkai.quest885131797027348863.description1}"]
+			id: "0C489EAE0537E17F"
+			rewards: [{
+				count: 2
+				id: "78BA2A2BBB4D3FB0"
+				item: "youkaishomecoming:fermentation_tank"
+				type: "item"
+			}]
+			tasks: [{
+				id: "780D2F544E937892"
+				item: "youkaishomecoming:fermentation_tank"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.youkai.quest885131797027348863.title}"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["289788DC6E24A8BF"]
+			description: ["{ftbquests.chapter.youkai.quest2215360969395550833.description1}"]
+			id: "1EBE8B106E163A71"
+			rewards: [{
+				count: 2
+				id: "167CB6B8FAB70B1A"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F263906872C328A"
+				item: "youkaishomecoming:kettle"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.youkai.quest2215360969395550833.title}"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["289788DC6E24A8BF"]
+			description: [
+				"{ftbquests.chapter.youkai.quest3490693000984410510.description1}"
+				""
+				"{ftbquests.chapter.youkai.quest3490693000984410510.description2}"
+			]
+			id: "30716ECA379E398E"
+			rewards: [
+				{
+					count: 2
+					id: "638F418F58FB9EB7"
+					item: "youkaishomecoming:drying_rack"
+					type: "item"
+				}
+				{
+					id: "6A329B2604816D0B"
+					item: "youkaishomecoming:steamer_rack"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5AB397A27A7E4F72"
+					item: "youkaishomecoming:drying_rack"
+					type: "item"
+				}
+				{
+					id: "39F14384DEC8C6B7"
+					item: "youkaishomecoming:steamer_rack"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.youkai.quest3490693000984410510.title}"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["138576A973067473"]
+			description: ["{ftbquests.chapter.youkai.quest1700288908258890129.description1}"]
+			id: "1798A3C0E84ED191"
+			rewards: [{
+				count: 2
+				id: "1EF2D361347917FD"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16D1BF36B15113A7"
+				item: "youkaishomecoming:moka_pot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.youkai.quest1700288908258890129.title}"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"30716ECA379E398E"
+				"1EBE8B106E163A71"
+			]
+			description: ["{ftbquests.chapter.youkai.quest1669821630806266502.description1}"]
+			id: "172C65ED16789286"
+			rewards: [{
+				id: "24E02374B74149D2"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/tea_master"
+				criterion: ""
+				id: "2B6DAE41B42B82FF"
+				title: "{ftbquests.chapter.youkai.quest1669821630806266502.task.3129348913311220479.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.youkai.quest1669821630806266502.title}"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1798A3C0E84ED191"]
+			description: ["{ftbquests.chapter.youkai.quest4724233267990818128.description1}"]
+			id: "418FD9208EACED50"
+			rewards: [{
+				id: "587170D949F421FA"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/q_grader"
+				criterion: ""
+				id: "3991234787E77545"
+				title: "{ftbquests.chapter.youkai.quest4724233267990818128.task.4148135521914680645.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.youkai.quest4724233267990818128.title}"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0C489EAE0537E17F"]
+			description: ["{ftbquests.chapter.youkai.quest5059729968113749378.description1}"]
+			id: "4637C59930D18D82"
+			rewards: [{
+				id: "0AD2FC8A8247F20E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/passed_out"
+				criterion: ""
+				id: "0C6A4D768B3A5FED"
+				title: "{ftbquests.chapter.youkai.quest5059729968113749378.task.894612647523803117.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.youkai.quest5059729968113749378.title}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7A057C0ABF8AE9D8"]
+			description: ["{ftbquests.chapter.youkai.quest6978631131151976075.description1}"]
+			id: "60D9140A16CBC68B"
+			rewards: [{
+				count: 2
+				id: "7EFD7200CD0425E4"
+				item: "youkaishomecoming:moon_lantern"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C8CA8AD9C73F4AB"
+				item: "youkaishomecoming:moon_lantern"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.youkai.quest6978631131151976075.title}"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7A057C0ABF8AE9D8"]
+			description: ["{ftbquests.chapter.youkai.quest511323672360309038.description1}"]
+			id: "0718962BC048D12E"
+			rewards: [{
+				id: "0927C59B9166C738"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/enthusiastic"
+				criterion: ""
+				id: "40D015B483FFFCC8"
+				title: "{ftbquests.chapter.youkai.quest511323672360309038.task.4670256678636092616.title}"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["66ED77F022B4CB4F"]
+			description: [
+				"{ftbquests.chapter.youkai.quest5232963444195164938.description1}"
+				""
+				"{ftbquests.chapter.youkai.quest5232963444195164938.description2}"
+			]
+			id: "489F3886EDDB830A"
+			rewards: [{
+				count: 16
+				id: "354831F6C9B838B9"
+				item: "youkaishomecoming:flesh"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/first_time"
+				criterion: ""
+				id: "00B32220A7B337DF"
+				title: "{ftbquests.chapter.youkai.quest5232963444195164938.task.50421544479045599.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.youkai.quest5232963444195164938.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["489F3886EDDB830A"]
+			description: [
+				"{ftbquests.chapter.youkai.quest8739240544468267862.description1}"
+				""
+				"{ftbquests.chapter.youkai.quest8739240544468267862.description2}"
+				""
+				"{ftbquests.chapter.youkai.quest8739240544468267862.description3}"
+			]
+			id: "794804F903B8F356"
+			rewards: [{
+				id: "19130A782D77F09D"
+				item: {
+					Count: 1
+					id: "youkaishomecoming:suwako_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/suwako_hat"
+				criterion: ""
+				id: "639D5F48B8D35982"
+				title: "{ftbquests.chapter.youkai.quest8739240544468267862.task.7177998147041581442.title}"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["489F3886EDDB830A"]
+			description: [
+				"{ftbquests.chapter.youkai.quest6441907671207927941.description1}"
+				""
+				"{ftbquests.chapter.youkai.quest6441907671207927941.description2}"
+				""
+				"{ftbquests.chapter.youkai.quest6441907671207927941.description3}"
+			]
+			id: "596640E572366085"
+			rewards: [{
+				id: "782B936FE6815D15"
+				item: {
+					Count: 1
+					id: "youkaishomecoming:koishi_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/koishi_hat"
+				criterion: ""
+				id: "3405A2499382AB79"
+				title: "{ftbquests.chapter.youkai.quest6441907671207927941.task.3748580701746932601.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.youkai.quest6441907671207927941.title}"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["489F3886EDDB830A"]
+			description: [
+				"{ftbquests.chapter.youkai.quest2099683309215325113.description1}"
+				""
+				"{ftbquests.chapter.youkai.quest2099683309215325113.description2}"
+				""
+				"{ftbquests.chapter.youkai.quest2099683309215325113.description3}"
+			]
+			id: "1D2392D85A989BB9"
+			rewards: [{
+				count: 32
+				id: "362E12953B91D538"
+				item: "youkaishomecoming:flesh"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/powerful_being"
+				criterion: ""
+				id: "79239C86603DDA3B"
+				title: "{ftbquests.chapter.youkai.quest2099683309215325113.task.8728992603728370235.title}"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D2392D85A989BB9"]
+			description: [
+				"{ftbquests.chapter.youkai.quest7642455508185436720.description1}"
+				""
+				"{ftbquests.chapter.youkai.quest7642455508185436720.description2}"
+			]
+			id: "6A0F74CB111ED230"
+			rewards: [{
+				count: 64
+				id: "1FA6833870075396"
+				item: "youkaishomecoming:white_bubble_danmaku"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/trade_danmaku"
+				criterion: ""
+				id: "390ACE89218C6553"
+				title: "{ftbquests.chapter.youkai.quest7642455508185436720.task.4110324698297689427.title}"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6A0F74CB111ED230"]
+			description: [
+				"{ftbquests.chapter.youkai.quest5608582098837151482.description1}"
+				""
+				"{ftbquests.chapter.youkai.quest5608582098837151482.description2}"
+				""
+				"{ftbquests.chapter.youkai.quest5608582098837151482.description3}"
+			]
+			id: "4DD5AFB40ECD9EFA"
+			rewards: [{
+				id: "4AC99143F46A112F"
+				item: {
+					Count: 1
+					id: "youkaishomecoming:rumia_hairband"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/lost_memories"
+				criterion: ""
+				id: "2BD58C7B7D5A4FAA"
+				title: "{ftbquests.chapter.youkai.quest5608582098837151482.task.3158585175682207658.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.youkai.quest5608582098837151482.title}"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6A0F74CB111ED230"]
+			description: [
+				"{ftbquests.chapter.youkai.quest6089204296978749813.description1}"
+				""
+				"{ftbquests.chapter.youkai.quest6089204296978749813.description2}"
+				""
+				"{ftbquests.chapter.youkai.quest6089204296978749813.description3}"
+			]
+			icon: "youkaishomecoming:spell_reimu"
+			id: "5481330BCE335975"
+			rewards: [{
+				id: "6AA429A084E58A80"
+				item: "youkaishomecoming:spell_reimu"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/spellcard_power"
+				criterion: ""
+				id: "64629E46BD4FB87B"
+				title: "{ftbquests.chapter.youkai.quest6089204296978749813.task.7233517978171455611.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.youkai.quest6089204296978749813.title}"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6A0F74CB111ED230"
+				"7A057C0ABF8AE9D8"
+			]
+			description: [
+				"{ftbquests.chapter.youkai.quest4426455675774686042.description1}"
+				""
+				"{ftbquests.chapter.youkai.quest4426455675774686042.description2}"
+				""
+				"{ftbquests.chapter.youkai.quest4426455675774686042.description3}"
+			]
+			id: "3D6DEDFC188FD35A"
+			rewards: [{
+				id: "59BEA93B4FE13F0E"
+				item: {
+					Count: 1
+					id: "youkaishomecoming:reimu_hairband"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "youkaishomecoming:main/feed_reimu"
+				criterion: ""
+				id: "2DDB4E1CC1B98766"
+				title: "{ftbquests.chapter.youkai.quest4426455675774686042.task.3304320637022603110.title}"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["66ED77F022B4CB4F"]
+			description: ["{ftbquests.chapter.youkai.quest2664041987317649865.description1}"]
+			id: "24F89412A0CB51C9"
+			rewards: [{
+				count: 64
+				id: "2B1F99AED8CCB191"
+				item: "youkaishomecoming:light_blue_bubble_danmaku"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "42B028FBF06FCE46"
+					item: {
+						Count: 1
+						id: "youkaishomecoming:cirno_hairband"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0722C776714050A3"
+					item: "youkaishomecoming:cirno_wings"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.youkai.quest2664041987317649865.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0E554BF316EB9E7B"]
+			description: ["{ftbquests.chapter.youkai.quest5982060593007669780.description1}"]
+			id: "53048C6A3F15B214"
+			rewards: [{
+				id: "2F7651B695C9B911"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3D3D70EB49C53E20"
+				item: "youkaishomecoming:big_spoon"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0E554BF316EB9E7B"]
+			description: ["{ftbquests.chapter.youkai.quest59603185378178612.description1}"]
+			id: "00D3C0C803F2B634"
+			rewards: [{
+				id: "0761D86BE0783E3C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "5771EAA81FF914B4"
+					item: "youkaishomecoming:small_iron_pot"
+					type: "item"
+				}
+				{
+					id: "46D817918104C77C"
+					item: "youkaishomecoming:short_iron_pot"
+					type: "item"
+				}
+				{
+					id: "55EF5A77C4FE25A1"
+					item: "youkaishomecoming:stockpot"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.youkai.quest59603185378178612.title}"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E554BF316EB9E7B"]
+			description: ["{ftbquests.chapter.youkai.quest5980545261055772295.description1}"]
+			id: "52FF2A3A88600687"
+			tasks: [{
+				id: "20BA8FA01C0AD669"
+				item: "youkaishomecoming:wood_basin"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.youkai.quest5980545261055772295.title}"
+			x: -1.5d
+			y: 1.5d
+		}
+	]
+	title: "{ftbquests.chapter.youkai.title}"
+}

@@ -1,0 +1,287 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "kots"
+	group: ""
+	icon: "chimes:amethyst_chimes"
+	id: "4E613FC27F99E31B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.kots.quest819685687684706128.description1}"
+				""
+				"{ftbquests.chapter.kots.quest819685687684706128.description2}"
+				"{ftbquests.chapter.kots.quest819685687684706128.description3}"
+				"{ftbquests.chapter.kots.quest819685687684706128.description4}"
+				""
+				"{ftbquests.chapter.kots.quest819685687684706128.description5}"
+			]
+			icon: "chimes:amethyst_chimes"
+			id: "0B601BCA41EB2F50"
+			rewards: [
+				{
+					id: "17EB9702B4363F8F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5F5F1C1EC5A5D18C"
+					item: "javd:portal_block"
+					type: "item"
+				}
+				{
+					id: "53C8D4D9D537551C"
+					item: "jamd:portal_block"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "11805C0336574AD2"
+				title: "{ftbquests.chapter.kots.quest819685687684706128.task.1261109064530086610.title}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3EC718092B2DD9AD"
+				"0B601BCA41EB2F50"
+			]
+			description: [
+				"{ftbquests.chapter.kots.quest4583238360321024313.description1}"
+				""
+				"{ftbquests.chapter.kots.quest4583238360321024313.description2}"
+			]
+			id: "3F9AEF0173E0E139"
+			rewards: [{
+				id: "490021DC31EBE801"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 3.0d
+			tasks: [
+				{
+					id: "3AA700F5E7BAF386"
+					item: "javd:portal_block"
+					type: "item"
+				}
+				{
+					id: "39EE518257947B3C"
+					item: "jamd:nether_portal"
+					type: "item"
+				}
+				{
+					id: "6E3DA9D5029AAA30"
+					item: "jamd:portal_block"
+					type: "item"
+				}
+				{
+					id: "33BAB6CF83624E69"
+					item: "jamd:end_portal"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.kots.quest4583238360321024313.title}"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B601BCA41EB2F50"]
+			description: [
+				"{ftbquests.chapter.kots.quest2839885996462273347.description1}"
+				""
+				"{ftbquests.chapter.kots.quest2839885996462273347.description2}"
+				""
+				"{ftbquests.chapter.kots.quest2839885996462273347.description3}"
+				""
+				"{ftbquests.chapter.kots.quest2839885996462273347.description4}"
+				""
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.kots.quest2839885996462273347.description5}"
+				""
+				"{ftbquests.chapter.kots.quest2839885996462273347.description6}"
+				""
+				"{ftbquests.chapter.kots.quest2839885996462273347.description7}"
+				""
+				"{ftbquests.chapter.kots.quest2839885996462273347.description8}"
+				""
+				"{ftbquests.chapter.kots.quest2839885996462273347.description9}"
+				""
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.kots.quest2839885996462273347.description10}"
+				""
+				"{ftbquests.chapter.kots.quest2839885996462273347.description11}"
+				""
+				"{ftbquests.chapter.kots.quest2839885996462273347.description12}"
+				""
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.kots.quest2839885996462273347.description13}"
+				""
+				"{ftbquests.chapter.kots.quest2839885996462273347.description14}"
+				""
+				"{ftbquests.chapter.kots.quest2839885996462273347.description15}"
+				""
+				"{ftbquests.chapter.kots.quest2839885996462273347.description16}"
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.kots.quest2839885996462273347.description17}"
+				""
+				"{ftbquests.chapter.kots.quest2839885996462273347.description18}"
+				""
+				"{ftbquests.chapter.kots.quest2839885996462273347.description19}"
+				""
+				"{ftbquests.chapter.kots.quest2839885996462273347.description20}"
+				""
+				"{ftbquests.chapter.kots.quest2839885996462273347.description21}"
+				""
+				"{ftbquests.chapter.kots.quest2839885996462273347.description22}"
+			]
+			icon: "createdeco:decal_creeper"
+			id: "27694D4475BD7343"
+			rewards: [{
+				id: "0587A94499760C2D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "0A01F20FB4D3AF6F"
+				title: "{ftbquests.chapter.kots.quest2839885996462273347.task.721123564628193135.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.kots.quest2839885996462273347.title}"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0B601BCA41EB2F50"]
+			description: [
+				"{ftbquests.chapter.kots.quest8693389655115488184.description1}"
+				""
+				"{ftbquests.chapter.kots.quest8693389655115488184.description2}"
+				""
+				"{ftbquests.chapter.kots.quest8693389655115488184.description3}"
+				""
+				"{ftbquests.chapter.kots.quest8693389655115488184.description4}"
+				""
+				"{ftbquests.chapter.kots.quest8693389655115488184.description5}"
+				""
+				"{ftbquests.chapter.kots.quest8693389655115488184.description6}"
+			]
+			icon: "createdeco:decal_up"
+			id: "78A51FD4EF36DBB8"
+			rewards: [{
+				id: "70E08BD8217553E8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "045BA5EF1590B6D3"
+				title: "{ftbquests.chapter.kots.quest8693389655115488184.task.314027045309953747.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.kots.quest8693389655115488184.title}"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B601BCA41EB2F50"]
+			description: [
+				"{ftbquests.chapter.kots.quest4393421732070916680.description1}"
+				""
+				"{ftbquests.chapter.kots.quest4393421732070916680.description2}"
+			]
+			icon: "createdeco:decal_electrical"
+			id: "3CF891C9B8918248"
+			rewards: [
+				{
+					id: "264EF97E1B535000"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "4FBC94D4CBF942D8"
+					item: "netmusic:music_cd"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				id: "6E4363EF82988D8A"
+				title: "{ftbquests.chapter.kots.quest4393421732070916680.task.7945304047951056266.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.kots.quest4393421732070916680.title}"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0B601BCA41EB2F50"]
+			description: [
+				"{ftbquests.chapter.kots.quest1629477366807380620.description1}"
+				""
+				"{ftbquests.chapter.kots.quest1629477366807380620.description2}"
+				""
+				"{ftbquests.chapter.kots.quest1629477366807380620.description3}"
+				""
+				"{ftbquests.chapter.kots.quest1629477366807380620.description4}"
+				""
+				"{ftbquests.chapter.kots.quest1629477366807380620.description5}"
+			]
+			icon: "minecraft:birch_hanging_sign"
+			id: "169D11082217C28C"
+			rewards: [
+				{
+					id: "6C53E11F3FF6BA70"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "216CBD2DCD9B2ECA"
+					item: "minecraft:birch_sign"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				id: "25377FDFDB16EAA8"
+				title: "{ftbquests.chapter.kots.quest1629477366807380620.task.2681752702552566440.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.kots.quest1629477366807380620.title}"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B601BCA41EB2F50"]
+			description: [
+				"{ftbquests.chapter.kots.quest1293243215694761805.description1}"
+				""
+				"{ftbquests.chapter.kots.quest1293243215694761805.description2}"
+			]
+			icon: "minecraft:cherry_leaves"
+			id: "11F285DA4FAB8F4D"
+			size: 3.0d
+			tasks: [{
+				id: "7E31582EFABB0658"
+				title: "{ftbquests.chapter.kots.quest1293243215694761805.task.9093146081436042840.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.kots.quest1293243215694761805.title}"
+			x: -5.0d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter.kots.title}"
+}

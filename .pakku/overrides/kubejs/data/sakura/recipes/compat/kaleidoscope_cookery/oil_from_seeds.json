@@ -1,0 +1,13 @@
+{
+  "type": "sakura:stone_mortar",
+  "ingredients": {
+    "tag": "forge:seeds"
+  },
+  "experience": 0.0,
+  "processingTime": 200,
+  "result": [
+    {
+      "item": "kaleidoscope_cookery:oil"
+    }
+  ]
+}

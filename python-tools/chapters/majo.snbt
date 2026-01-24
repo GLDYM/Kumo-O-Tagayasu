@@ -1,0 +1,187 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "majo"
+	group: "31669C96F582CF92"
+	icon: "majobroom:broom"
+	id: "1B290DA22A8E2132"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.majo.quest325688207754089119.description1}"
+				""
+				"{ftbquests.chapter.majo.quest325688207754089119.description2}"
+				""
+				"{ftbquests.chapter.majo.quest325688207754089119.description3}"
+				""
+				"{ftbquests.chapter.majo.quest325688207754089119.description4}"
+			]
+			id: "048513B30AB7529F"
+			rewards: [{
+				id: "78B72742F081744A"
+				item: "majobroom:broom"
+				type: "item"
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "357A5B56BC27C50C"
+				item: "majobroom:broom"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.majo.quest325688207754089119.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["{ftbquests.chapter.majo.quest5576608329771584707.description1}"]
+			id: "4D6417BAD3850CC3"
+			rewards: [{
+				id: "1800BE8F25AEA9E6"
+				item: {
+					Count: 1
+					id: "majobroom:majo_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "423EF7F43EC01CA9"
+				item: {
+					Count: 1
+					id: "majobroom:majo_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.majo.quest5576608329771584707.title}"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: ["{ftbquests.chapter.majo.quest7359001976231713073.description1}"]
+			id: "66206D4EC6B05931"
+			rewards: [{
+				id: "103787393CC5C83A"
+				item: {
+					Count: 1
+					id: "majobroom:majo_cloth"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 3.0d
+			tasks: [{
+				id: "4B8D6E4C088B4FFF"
+				item: {
+					Count: 1
+					id: "majobroom:majo_cloth"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.majo.quest7359001976231713073.title}"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: ["{ftbquests.chapter.majo.quest801085304173276998.description1}"]
+			id: "0B1E06D6FE08AF46"
+			rewards: [{
+				id: "10DA0EAC92A8A380"
+				item: {
+					Count: 1
+					id: "majobroom:majo_stocking"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 3.0d
+			tasks: [{
+				id: "63EAAF4CB5A1E06B"
+				item: {
+					Count: 1
+					id: "majobroom:majo_stocking"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.majo.quest801085304173276998.title}"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			description: ["{ftbquests.chapter.majo.quest2834693592681426277.description1}"]
+			id: "2756DACDBEDA2D65"
+			rewards: [{
+				id: "282886842F35F911"
+				item: {
+					Count: 1
+					id: "majobroom:majo_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 3.0d
+			tasks: [{
+				id: "48158F11B9278510"
+				item: {
+					Count: 1
+					id: "majobroom:majo_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.majo.quest2834693592681426277.title}"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"{ftbquests.chapter.majo.quest4407902697146887462.description1}"
+				""
+				"{ftbquests.chapter.majo.quest4407902697146887462.description2}"
+			]
+			id: "3D2C042623ED2D26"
+			rewards: [{
+				icon: "minecraft:apple"
+				id: "49542460B248D01F"
+				table_id: 3487538688900904586L
+				type: "random"
+			}]
+			size: 3.0d
+			tasks: [{
+				consume_items: true
+				id: "6D43BAB2A5ABD494"
+				item: "l2complements:eternium_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.majo.quest4407902697146887462.title}"
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	title: "{ftbquests.chapter.majo.title}"
+}

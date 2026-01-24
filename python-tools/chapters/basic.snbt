@@ -1,0 +1,369 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic"
+	group: "3B8AF43E1258A852"
+	icon: "minecraft:iron_ingot"
+	id: "3625241A3B4A35B2"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.basic.quest1125695253340649382.description1}"
+				""
+				"{ftbquests.chapter.basic.quest1125695253340649382.description2}"
+			]
+			icon: "minecraft:oak_log"
+			id: "0F9F45DE64B677A6"
+			rewards: [{
+				count: 8
+				id: "47D1576818D9ED3A"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.basic.quest1125695253340649382.subtitle}"
+			tasks: [
+				{
+					id: "6A6551CD983949C0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DC78ED9939122C6"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basic.quest1125695253340649382.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F9F45DE64B677A6"]
+			description: ["{ftbquests.chapter.basic.quest3736624703627886886.description1}"]
+			id: "33DB285ED6B08126"
+			rewards: [{
+				count: 8
+				id: "026BD53467A63881"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "190D355FBD4C1B0F"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73F878BA35874A00"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basic.quest3736624703627886886.title}"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33DB285ED6B08126"]
+			description: [
+				"{ftbquests.chapter.basic.quest5360987020067585527.description1}"
+				""
+				"{ftbquests.chapter.basic.quest5360987020067585527.description2}"
+				""
+				"{ftbquests.chapter.basic.quest5360987020067585527.description3}"
+			]
+			id: "4A660D4A809BBDF7"
+			rewards: [{
+				id: "4793536A64F886ED"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "666F9CB03868C8A9"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A660D4A809BBDF7"]
+			description: ["{ftbquests.chapter.basic.quest4111309074374700429.description1}"]
+			id: "390E4DD20BF1AD8D"
+			rewards: [
+				{
+					count: 8
+					id: "4BCE18432A854C45"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					id: "5BCA2DE2163D2EF4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "65A8253F3DB8FA81"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["390E4DD20BF1AD8D"]
+			description: [
+				"{ftbquests.chapter.basic.quest8229225593615796344.description1}"
+				""
+				"{ftbquests.chapter.basic.quest8229225593615796344.description2}"
+			]
+			id: "72341513BC05C878"
+			rewards: [{
+				id: "65C9C98E25581CBC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4067CAA3F4A38C94"
+				item: "minecraft:grindstone"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A660D4A809BBDF7"]
+			description: ["{ftbquests.chapter.basic.quest2221892837837349805.description1}"]
+			id: "1ED5BFC39047A3AD"
+			rewards: [
+				{
+					count: 4
+					id: "5F90818F20F46254"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "774E2CBC4C342A9D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "369244F1C339FE80"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A660D4A809BBDF7"]
+			description: ["{ftbquests.chapter.basic.quest8431523865570066212.description1}"]
+			id: "7502CA489A883F24"
+			rewards: [{
+				id: "3A3C94ED20014B4E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4AFD9029856915F9"
+				item: "minecraft:cobbled_deepslate"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7502CA489A883F24"
+				"72341513BC05C878"
+			]
+			description: ["{ftbquests.chapter.basic.quest7142838161158477396.description1}"]
+			id: "6320757693F49654"
+			rewards: [
+				{
+					count: 8
+					id: "72C6A4A3BE47F0AD"
+					item: "minecraft:polished_deepslate"
+					type: "item"
+				}
+				{
+					id: "53F335015AD22173"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4D8FB6ED7DBB6670"
+				item: "minecraft:polished_deepslate"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2E4D835BC370CF50"
+				"6320757693F49654"
+			]
+			description: ["{ftbquests.chapter.basic.quest4436162425650451255.description1}"]
+			id: "3D906A38EAD49337"
+			rewards: [
+				{
+					count: 32
+					id: "3DBA710551B96D87"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "115FE992EAE8FB5A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "41FDAF5A75812EB4"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1ED5BFC39047A3AD"]
+			description: ["{ftbquests.chapter.basic.quest3336467329095618384.description1}"]
+			id: "2E4D835BC370CF50"
+			rewards: [
+				{
+					count: 4
+					id: "5D91E7F915A2F614"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "0AC7561C87A029A5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "36136B60B30E12AA"
+				item: "minecraft:copper_block"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["18DA748878B10026"]
+			description: [
+				"{ftbquests.chapter.basic.quest4198478605627573857.description1}"
+				""
+				"{ftbquests.chapter.basic.quest4198478605627573857.description2}"
+				""
+				"{ftbquests.chapter.basic.quest4198478605627573857.description3}"
+				""
+				"{ftbquests.chapter.basic.quest4198478605627573857.description4}"
+			]
+			icon: "create:encased_fan"
+			id: "3A43FE0C1D824661"
+			rewards: [
+				{
+					id: "7808BD1E8B92B784"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "5B7766A323CB7447"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "51F8A94EDF8D2AB4"
+					item: "create:hand_crank"
+					type: "item"
+				}
+				{
+					id: "36E68758848ABC85"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "52F5F7DD60CEFCB2"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					id: "0353113FA08D6B12"
+					item: "create:encased_fan"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basic.quest4198478605627573857.title}"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D906A38EAD49337"]
+			description: ["{ftbquests.chapter.basic.quest1790871931322433574.description1}"]
+			id: "18DA748878B10026"
+			rewards: [
+				{
+					count: 2
+					id: "132A60179BF3BE47"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "451495B000274BD6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "51663CC6A3C5E09C"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter.basic.title}"
+}

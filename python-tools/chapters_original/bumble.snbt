@@ -1,0 +1,198 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bumble"
+	group: "65DBD493CCEDCEF5"
+	icon: {
+		Count: 1
+		id: "the_bumblezone:stingless_bee_helmet_1"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6D7D8225B036C476"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"@the_bumblezone"
+				""
+				"&6黄蜂领域&r是整合包内少有的“冒险”模组，其提供了很多蜂蜜资源以及不错的毕业物品。"
+				""
+				"类似于暮色森林，黄蜂领域的流程强依赖于进度，因此建议按照进度游玩。"
+				""
+				"向蜂巢内丢末影珍珠，或者用活塞将自己推进蜂巢，即可进入黄蜂领域。"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:bee_nest"
+			id: "29B240B3318659CD"
+			rewards: [{
+				id: "740B49B2ADB71AED"
+				item: "minecraft:bee_nest"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2E02CA3D39E53FDD"
+					type: "checkmark"
+				}
+				{
+					dimension: "the_bumblezone:the_bumblezone"
+					id: "54DFDF0E75CACF50"
+					type: "dimension"
+				}
+			]
+			title: "&6黄蜂领域"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29B240B3318659CD"]
+			description: [
+				"&6巢室迷宫&r在流程上并非必需要去的地方；但是可以在此找到许多后续需要用到的物品。"
+				""
+				"使用结构指南针可以轻松找到&6巢室迷宫（细胞迷宫）&r。在进入巢室迷宫之前，最好做一个&b花朵头饰&r抵御蜂群之怒。"
+				""
+				"&6巢室迷宫&r内的战利品箱是&b蜂蜜茧&r。使用精准采集工具采集蜂蜜茧可以保留内部的物品；但是&a如果蜂蜜茧是战利品箱&r，那么破坏时会&a直接丢失&r其中的物品。因此不建议将蜂蜜茧作为存储容器使用。"
+				""
+				"可以着重收集下蜂蜜茧内的&b螫针矛、蜂蜜结晶碎片&r，以及盔甲架上的&b大黄蜂盔甲&r。"
+				""
+				"&6巢室迷宫&r也是很好的获取各类花的途径，尤其是一些生长群系未知的罕见花。"
+			]
+			icon: "minecraft:honeycomb"
+			id: "647F13AC6ECD737F"
+			rewards: [{
+				id: "77C38ED8F3C2AEB9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					advancement: "the_bumblezone:structures/enter_cell_maze"
+					criterion: ""
+					id: "2E3C1A823A3D2E2F"
+					type: "advancement"
+				}
+				{
+					id: "23F9D5F6C7A97D3B"
+					item: {
+						Count: 1
+						id: "the_bumblezone:flower_headwear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "进入巢室迷宫"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["647F13AC6ECD737F"]
+			description: [
+				"在&6巢室迷宫&r中可以寻找到指向&6王座柱&r的指南针。&c蜂后&r居住在&6王座柱&r中，建议在&6王座柱&r留一个坐标。"
+				""
+				"手持某些物品右键&c蜂后&r可以进行交易，可以交易到很多奇奇怪怪的东西。"
+				""
+				"交易一次后可以开启&c蜂后&r的系列任务，具体的任务请看黄蜂领域的进度界面。完成这些任务后可以获得&b蜂王浆&r；全部完成后获得&b蜂之精华&r。"
+				""
+				"&b蜂王浆&r是制作药水蜡烛的关键道具，而&b蜂之精华&r是后续流程的必备物品。只有吃下&b蜂之精华&r，才能在&6黄蜂领域&r的结构中找到指向&6永恒圣所&r的指南针，并进入&6永恒圣所&r。"
+			]
+			id: "6A71B4B846B90820"
+			tasks: [{
+				advancement: "the_bumblezone:structures/enter_throne_pillar"
+				criterion: ""
+				id: "3D937AC3C408C4F5"
+				type: "advancement"
+			}]
+			title: "寻找女王"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["647F13AC6ECD737F"]
+			description: [
+				"&b蜂蜜结晶花&r只能种植在闪耀蜂蜜结晶或紫水晶块上，可以通过放入物品（一般是花）或经验、丢入物品，提供经验球使其长高升级（请留足空间）。"
+				""
+				"放入书并花费足够的等级，&b蜂蜜结晶花&r可以获取附魔台可以获取的所有附魔，最高级可以获取宝藏附魔。因此可以经过此获取打印机的模板。"
+			]
+			id: "26B02D6AD87EBFE3"
+			rewards: [{
+				id: "3E0F3436A526C7D5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3B5E233A9D5A6D5E"
+				item: "the_bumblezone:crystalline_flower"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A71B4B846B90820"]
+			description: [
+				"&b药水蜡烛&r点燃后可以为周围的实体提供效果，效果由合成时放入的最多五瓶药水决定，多效果药水最终的效果可以通过将药水反复拿出放入刷新。"
+				""
+				"同效果药水越多，持续时间越长；喷溅药水增加2范围，粘滞药水增加2倍实体效果的持续时间。"
+				""
+				"&b药水蜡烛&r可以提供一个稳定的抗性提升IV源，从而轻易获取&b共振之羽&r。"
+			]
+			id: "31C58317C4B824B1"
+			rewards: [{
+				id: "6E66C1D3A7287447"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0C3C6AC46EE51A56"
+				item: "the_bumblezone:potion_candle"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A71B4B846B90820"]
+			description: [
+				"吃下&b蜂之精华&r后，可以使用结构指南针寻找&6永恒圣所&r。"
+				""
+				"&6永恒圣所&r有六种颜色，挑战不同，奖励也不同。注意挑战的计时是现实的1/3。"
+				""
+				"&4红色&r：400s 打败 100 只怪物，建议使用铁魔法。"
+				""
+				"&e黄色&r：270s 内穿过 100 黑色环，建议可以飞行后挑战。"
+				""
+				"&b蓝色&r：500s 内在水下打败 50 只怪物，建议携带水下呼吸药水与头盔，熟的梭鱼草，以及潜水镜。"
+				""
+				"&a绿色&r：300s 内将自然素的泥球左键打回 30 次，自己丢泥球也行。注意只有站到平台上才能攻击，且泥球会脱下装备丢下平台，建议带足够泥球补伤害。绿色精华对于珍稀作物的培育很有帮助。"
+				""
+				"&5紫色&r：270s 躲刺，禁止飞行。建议使用 F5，带足够食物以及健胃消食片快速回血。"
+				""
+				"白色: 500s 击杀 6 个宇宙水晶，有限制伤害。建议使用铁魔法连锁闪电。"
+			]
+			id: "51F7E58EACE3BE61"
+			rewards: [{
+				id: "75275D5539085D25"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "the_bumblezone:structures/enter_sempiternal_sanctum"
+				criterion: ""
+				id: "3EEFD8CE14342044"
+				type: "advancement"
+			}]
+			title: "进入永恒圣所"
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "&a黄金乡女王"
+}
