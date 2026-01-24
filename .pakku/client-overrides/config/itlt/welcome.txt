@@ -26,7 +26,7 @@ Q：进入存档后崩溃或提示无效的玩家数据？
 A：通常情况下，玩家昵称或游戏路径含有中文可能会导致崩溃，或者是直接关闭游戏或者关闭计算机时未关闭游戏（如拔下电源）等造成强制关闭游戏的情况，又或者是添加或删除模组，可能会导致当前正在游玩中的存档损坏，唯一的解决办法是恢复至上一次的备份。
 
 Q: Crash or invalid player data prompt after entering the save?
-A: In most cases, a crash may be caused by Chinese characters in the player nickname or
+A: Recover the backup.
 -----
 Q：卡得动不了怎么办？
 A：安装超分辨率模组。注意只有 Windows 能用。
