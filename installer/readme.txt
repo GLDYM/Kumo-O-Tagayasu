@@ -4,7 +4,7 @@ How to run the server:
   - Then use Pakku to build the serverpack.
   - Next unzip the serverpack into server/ folder and install forge in it.
 - Waiting build complete, about lasting 5 mins to 20 mins. the server will build in server/ folder.
-- Check the number of mods in server/mods/. If less than 220, run installer script again, or download the full-serverpack.
+- Check the number of mods in server/mods/. If less than 220 or no mods/ folder, run installer script again, or download the full-serverpack.
 - Configure the server.properties and what you want.
 - Run run.bat or run.sh in the server folder, depanding on your OS.
 
