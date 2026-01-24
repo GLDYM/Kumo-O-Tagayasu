@@ -52,7 +52,7 @@ ServerEvents.recipes(event => {
                 { "item": "minecraft:firework_rocket" }
             ]
         }
-    ).id("kots:eggs/deploying/package_frogport")
+    ).id("kots:eggs/deploying/fire_flower")
     // 烟药竹
     event.custom(
         {
