@@ -50,14 +50,14 @@
 		#For example, to replace 'Overworld' with 'Grasslands' you would use 'minecraft:overworld Grasslands'
 		#Aliases support the same tokens as `listFormat`, allowing you to make a specific dimension bold or italic or both!
 		#Supports Regex!
-		dimensionAliases = ["minecraft:overworld kots.dimensionviewer.minecraft.overworld", "minecraft:the_nether kots.dimensionviewer.minecraft.the_nether", "minecraft:the_end kots.dimensionviewer.minecraft.the_end", "javd:void kots.dimensionviewer.javd.void", "jamd:mining kots.dimensionviewer.jamd.mining", "jamd:nether kots.dimensionviewer.jamd.nether", "jamd:end kots.dimensionviewer.jamd.end", "tofucraft:tofu_world kots.dimensionviewer.tofucraft.tofu_world", "the_bumblezone:the_bumblezone kots.dimensionviewer.the_bumblezone.the_bumblezone", "touhou_little_maid_spell:the_retreat.* kots.dimensionviewer.touhou_little_maid_spell.the_retreat", "irons_spellbooks.pocket_dimension kots.dimensionviewer.irons_spellbooks.pocket_dimension"]
+		dimensionAliases = ["minecraft:overworld kots.dimensionviewer.minecraft.overworld", "minecraft:the_nether kots.dimensionviewer.minecraft.the_nether", "minecraft:the_end kots.dimensionviewer.minecraft.the_end", "javd:void kots.dimensionviewer.javd.void", "jamd:mining kots.dimensionviewer.jamd.mining", "jamd:nether kots.dimensionviewer.jamd.nether", "jamd:end kots.dimensionviewer.jamd.end", "tofucraft:tofu_world kots.dimensionviewer.tofucraft.tofu_world", "the_bumblezone:the_bumblezone kots.dimensionviewer.the_bumblezone.the_bumblezone", "touhou_little_maid_spell:the_retreat.* kots.dimensionviewer.touhou_little_maid_spell.the_retreat", "irons_spellbooks:pocket_dimension kots.dimensionviewer.irons_spellbooks.pocket_dimension"]
 		#A list of modded dimension resource IDs and a color in the format of "modid:dim_id color"
 		#For example, Twilight Forest in Gold would be "twilightforest:twilight_forest GOLD"
 		#Will throw an exception if the color is not valid
 		#Allowed Values: DARK_RED, RED, GOLD, YELLOW, DARK_GREEN, GREEN, AQUA, DARK_AQUA, DARK_BLUE, BLUE, LIGHT_PURPLE, DARK_PURPLE, WHITE, GRAY, DARK_GRAY, BLACK
 		#Or any custom colours defined in `customColors`
 		#Supports Regex!
-		moddedDimensions = ['javd:void WHITE', 'jamd:mining GREEN', 'jamd:nether DARK_RED', 'jamd:end DARK_PURPLE', 'tofucraft:tofu_world YELLOW', 'the_bumblezone:the_bumblezone GOLD', 'touhou_little_maid_spell:the_retreat.* AQUA', 'irons_spellbooks.pocket_dimension LIGHT_PURPLE']
+		moddedDimensions = ['javd:void WHITE', 'jamd:mining GREEN', 'jamd:nether DARK_RED', 'jamd:end DARK_PURPLE', 'tofucraft:tofu_world YELLOW', 'the_bumblezone:the_bumblezone GOLD', 'touhou_little_maid_spell:the_retreat.* AQUA', 'irons_spellbooks:pocket_dimension LIGHT_PURPLE']
 
 	#Extra Customization
 	[customization.extra]
