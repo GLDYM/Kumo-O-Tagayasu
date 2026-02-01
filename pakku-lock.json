@@ -10324,6 +10324,48 @@
             ]
         },
         {
+            "pakku_id": "3J0ywq7zwjwfKGPa",
+            "pakku_links": [
+                "UuHj4d8MVsQfuEzW"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "longer-login-times"
+            },
+            "name": {
+                "curseforge": "Longer Login Times"
+            },
+            "id": {
+                "curseforge": "566374"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "longerlogintimes-1.0.0-forge-mc1.20.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4594/800/longerlogintimes-1.0.0-forge-mc1.20.jar",
+                    "id": "4594800",
+                    "parent_id": "566374",
+                    "hashes": {
+                        "sha1": "708e7f8f1dc2955c0331b5fb028fa97720762df3",
+                        "md5": "5d0e5c1f1871eade81db1b6ed4cf8583"
+                    },
+                    "required_dependencies": [
+                        "438332"
+                    ],
+                    "size": 6366,
+                    "date_published": "2023-06-18T12:18:53.300Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "vWLsfNtTCRzgAanI",
             "type": "MOD",
             "side": "BOTH",

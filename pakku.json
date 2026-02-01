@@ -158,6 +158,9 @@
         },
         "rainbowwrenchforjei-reforge": {
             "side": "CLIENT"
+        },
+        "longer-login-times": {
+            "side": "SERVER"
         }
     }
 }
