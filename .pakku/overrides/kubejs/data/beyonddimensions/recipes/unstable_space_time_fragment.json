@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "irons_spellbooks:mithril_ingot"
+    },
+    "B": {
+      "item": "supplementaries:bomb"
+    },
+    "C": {
+      "tag": "cagedmobs:ingots/star_infused_netherite"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "result": {
+    "item": "beyonddimensions:unstable_space_time_fragment"
+  },
+  "show_notification": true
+}

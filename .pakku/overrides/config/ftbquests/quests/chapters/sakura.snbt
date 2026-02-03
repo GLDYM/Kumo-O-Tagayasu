@@ -180,6 +180,8 @@
 				"{ftbquests.chapter.sakura.quest5864994101504078406.description7}"
 				""
 				"{ftbquests.chapter.sakura.quest5864994101504078406.description8}"
+				""
+				"{ftbquests.chapter.sakura.quest5864994101504078406.description9}"
 			]
 			id: "5164A50FADE97246"
 			tasks: [
@@ -226,6 +228,11 @@
 				{
 					id: "2890898D35159BF9"
 					item: "immortalers_delight:warped_laurel_seeds"
+					type: "item"
+				}
+				{
+					id: "1819EBF637AF2162"
+					item: "immortalers_delight:travarice"
 					type: "item"
 				}
 			]

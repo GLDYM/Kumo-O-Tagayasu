@@ -32,7 +32,7 @@ jobs:
         uses: GrantBirki/json-yaml-validate@v3.3.2 # replace with the latest version
         with:
           comment: "true"
-          base_dir: "src"
+          base_dir: ".pakku"
           exclude_file: "exclude.txt"
 
   build-release-and-test:

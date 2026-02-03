@@ -8,6 +8,8 @@ mrpack-install-windows.exe
 mrpack-install-linux
 reference/
 old-docs/
+python-tools/chapters
+python-tools/chapters-original
 
 # remove client config
 .pakku/overrides/config/*client.toml

@@ -69,6 +69,69 @@
             ]
         },
         {
+            "pakku_id": "Mi4OYPawCAlKvtAp",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "advanced-loot-info",
+                "modrinth": "advanced-loot-info"
+            },
+            "name": {
+                "curseforge": "Advanced Loot Info",
+                "modrinth": "Advanced Loot Info"
+            },
+            "id": {
+                "curseforge": "1205426",
+                "modrinth": "PEPVViac"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "AdvancedLootInfo-forge-1.20.1-1.6.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7278/32/AdvancedLootInfo-forge-1.20.1-1.6.0.jar",
+                    "id": "7278032",
+                    "parent_id": "1205426",
+                    "hashes": {
+                        "sha1": "ad3246f65e455ec175853075009bdcab2a168a6f",
+                        "md5": "833cae6f811a01df8de14952a157da56"
+                    },
+                    "required_dependencies": [],
+                    "size": 676180,
+                    "date_published": "2025-11-30T13:02:10.340Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "AdvancedLootInfo-forge-1.20.1-1.6.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/PEPVViac/versions/8DV7ECP9/AdvancedLootInfo-forge-1.20.1-1.6.0.jar",
+                    "id": "8DV7ECP9",
+                    "parent_id": "PEPVViac",
+                    "hashes": {
+                        "sha512": "9709fe61c58b41eaf067eefc7684051584242b8ce3b0a0b49dbfdba44cea38c7a93fa85634c4061d7331428281d317866ff6bee6475dbc049a97ec1e8ce95074",
+                        "sha1": "ad3246f65e455ec175853075009bdcab2a168a6f"
+                    },
+                    "required_dependencies": [],
+                    "size": 676180,
+                    "date_published": "2025-11-30T13:02:05.054364Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "gwLuvn5G9xDaL7fh",
             "pakku_links": [
                 "Ajr8SEHdfbzCvBUG",
@@ -1451,6 +1514,67 @@
                     "required_dependencies": [],
                     "size": 11890,
                     "date_published": "2023-06-10T21:16:35.150Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "UVpuhAZ6hEQeNzXA",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "beyond-dimensions",
+                "modrinth": "beyonddimensions"
+            },
+            "name": {
+                "curseforge": "Beyond Dimensions",
+                "modrinth": "Beyond Dimensions"
+            },
+            "id": {
+                "curseforge": "1222890",
+                "modrinth": "6zGxpbt7"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "beyonddimensions-1.21.1-forge-0.4.18.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7569/584/beyonddimensions-1.21.1-forge-0.4.18.jar",
+                    "id": "7569584",
+                    "parent_id": "1222890",
+                    "hashes": {
+                        "sha1": "deec1955b0c9a56d441f5673d6e93d4562182d6c",
+                        "md5": "563464507dc8e2c7ac54c33f454c3f2e"
+                    },
+                    "required_dependencies": [],
+                    "size": 1307467,
+                    "date_published": "2026-02-03T06:22:09.387Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "beyonddimensions-1.21.1-forge-0.4.18.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/6zGxpbt7/versions/7oJYD2Jy/beyonddimensions-1.21.1-forge-0.4.18.jar",
+                    "id": "7oJYD2Jy",
+                    "parent_id": "6zGxpbt7",
+                    "hashes": {
+                        "sha512": "2a3d1ae3bc06cf8561a295f2edd40939237b8b7da8fcc71657e64b9afbf31ab2ef65e672066ea9eb30ed84e1e2b09c08021abb80d3c1134f61781fe4da4d5219",
+                        "sha1": "deec1955b0c9a56d441f5673d6e93d4562182d6c"
+                    },
+                    "required_dependencies": [],
+                    "size": 1307467,
+                    "date_published": "2026-02-03T06:22:10.972357Z"
                 }
             ]
         },
