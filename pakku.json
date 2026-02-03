@@ -161,6 +161,9 @@
         },
         "longer-login-times": {
             "side": "SERVER"
+        },
+        "waterframes": {
+            "update_strategy": "NONE"
         }
     }
 }

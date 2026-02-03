@@ -1937,7 +1937,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "catburger_forge1.20.1-1.0.4_fix.jar",
+                    "file_name": "catburger_forge1.20.1-1.0.5.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -1945,18 +1945,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7549/966/catburger_forge1.20.1-1.0.4_fix.jar",
-                    "id": "7549966",
+                    "url": "https://edge.forgecdn.net/files/7563/270/catburger_forge1.20.1-1.0.5.jar",
+                    "id": "7563270",
                     "parent_id": "1235575",
                     "hashes": {
-                        "sha1": "9b3c4a2ba69d57ac106cbd78b57534f17a0407e0",
-                        "md5": "b2347ecf38ee4ef90395ede7b7203bda"
+                        "sha1": "32d6a405dd6672f8f46f10063039bc0069f59f97",
+                        "md5": "bdaa73f8cb8182d60a233f985cca94df"
                     },
                     "required_dependencies": [
                         "309927"
                     ],
-                    "size": 177773,
-                    "date_published": "2026-01-30T10:03:11.453Z"
+                    "size": 182753,
+                    "date_published": "2026-02-01T21:34:31.583Z"
                 }
             ]
         },
@@ -2952,7 +2952,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "constructionwand-1.20.1-2.14.2.jar",
+                    "file_name": "constructionwand-1.20.1-2.15.0.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -2960,16 +2960,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7463/52/constructionwand-1.20.1-2.14.2.jar",
-                    "id": "7463052",
+                    "url": "https://edge.forgecdn.net/files/7559/849/constructionwand-1.20.1-2.15.0.jar",
+                    "id": "7559849",
                     "parent_id": "1382688",
                     "hashes": {
-                        "sha1": "62b3f655e6d0c7e63b80c0e727db82c59700a437",
-                        "md5": "a34d9f5e60be5913fe72109711ccad7b"
+                        "sha1": "4fe503076923c8de61374f9705a385c61cae5457",
+                        "md5": "f319a8a69d5fe6e430e3b3ab334ebb51"
                     },
                     "required_dependencies": [],
-                    "size": 176906,
-                    "date_published": "2026-01-15T10:52:27.177Z"
+                    "size": 180315,
+                    "date_published": "2026-02-01T09:19:14.190Z"
                 }
             ]
         },
@@ -3898,7 +3898,7 @@
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "create_connected-1.1.11-mc1.20.1-all.jar",
+                    "file_name": "create_connected-1.1.12-mc1.20.1-all.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -3907,18 +3907,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7550/633/create_connected-1.1.11-mc1.20.1-all.jar",
-                    "id": "7550633",
+                    "url": "https://edge.forgecdn.net/files/7558/612/create_connected-1.1.12-mc1.20.1-all.jar",
+                    "id": "7558612",
                     "parent_id": "947914",
                     "hashes": {
-                        "sha1": "ceffe02002c5f5b0938ac4d23f5a8b4c14c6b034",
-                        "md5": "07ca1d67374bcd6a8fffa13af1b1a472"
+                        "sha1": "6a27b27ad502429650fa621009daacc876bd3e28",
+                        "md5": "eccd418f036339b09ec505db7a3f82d4"
                     },
                     "required_dependencies": [
                         "328085"
                     ],
-                    "size": 6566640,
-                    "date_published": "2026-01-30T13:44:20.473Z"
+                    "size": 6566879,
+                    "date_published": "2026-02-01T02:49:13.020Z"
                 }
             ]
         },
@@ -9472,32 +9472,8 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "l2complements-2.5.8.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6939/786/l2complements-2.5.8.jar",
-                    "id": "6939786",
-                    "parent_id": "758349",
-                    "hashes": {
-                        "sha1": "eddfa7d6b70db57c5543ac77bba887c2367d1850",
-                        "md5": "3bb574dd9a15c82c77a395e917448a14"
-                    },
-                    "required_dependencies": [
-                        "620203"
-                    ],
-                    "size": 1145908,
-                    "date_published": "2025-08-29T03:24:55.590Z"
-                },
-                {
                     "type": "modrinth",
-                    "file_name": "l2complements-2.5.8.jar",
+                    "file_name": "l2complements-2.5.11.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -9506,18 +9482,42 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/oPrh2Lz3/versions/x0aJXeFS/l2complements-2.5.8.jar",
-                    "id": "x0aJXeFS",
+                    "url": "https://cdn.modrinth.com/data/oPrh2Lz3/versions/zbax7bjB/l2complements-2.5.11.jar",
+                    "id": "zbax7bjB",
                     "parent_id": "oPrh2Lz3",
                     "hashes": {
-                        "sha512": "4043e33fa4904ec13639fc01de030ac3c6173d9958bc3187435aae730776a742e15ba1458777e8a3ec2062417de52799a0fb598f82eae4ec0507ab765dd436a8",
-                        "sha1": "159573ce8f71cf58db3f54831a7af02b7bf647cb"
+                        "sha512": "cd0dcc9a80437a5d2573a31022f1793f305dc4188790aa771b006e032ff4326c84f9eb1bcc7aa87041fd8559c8382bc6287ff897cedcb105ae6ec0f2474b0129",
+                        "sha1": "9f29cf4416852e8e18c40e49538986d80af446cf"
                     },
                     "required_dependencies": [
                         "4Vh3BQ3F"
                     ],
-                    "size": 1145909,
-                    "date_published": "2025-08-29T03:25:24.416682Z"
+                    "size": 1168860,
+                    "date_published": "2026-02-02T08:19:19.811709Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "l2complements-2.5.11.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7565/207/l2complements-2.5.11.jar",
+                    "id": "7565207",
+                    "parent_id": "758349",
+                    "hashes": {
+                        "sha1": "45e33fb655f50c90217789e8081e127f3553a695",
+                        "md5": "2f1e3299596edef468cf3ac632260c49"
+                    },
+                    "required_dependencies": [
+                        "620203"
+                    ],
+                    "size": 1168860,
+                    "date_published": "2026-02-02T08:18:48.207Z"
                 }
             ]
         },
@@ -12030,7 +12030,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "notenoughanimations-forge-1.11.1-mc1.20.1.jar",
+                    "file_name": "notenoughanimations-forge-1.11.2-mc1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12038,20 +12038,20 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/MPCX6s5C/versions/cfiRPrQF/notenoughanimations-forge-1.11.1-mc1.20.1.jar",
-                    "id": "cfiRPrQF",
+                    "url": "https://cdn.modrinth.com/data/MPCX6s5C/versions/5SeKXwLU/notenoughanimations-forge-1.11.2-mc1.20.1.jar",
+                    "id": "5SeKXwLU",
                     "parent_id": "MPCX6s5C",
                     "hashes": {
-                        "sha512": "9335ace46a9f6477df026f19cab08c656fc7c0a7f1069eedfdadbba01bfd2ad43f9e90a0bb5ef8e867d51608dddcf85fa9653eb178f4a0e6e6bcfb45d0959270",
-                        "sha1": "9aa8917d7c0a5311dc495da3c720434de49e0e24"
+                        "sha512": "594ce4db615446ee20e9938dcb1770c75f2073d82474ff515bebb08fcd1451eac1cd98add2f0a0ddf4b7e35e78525973ae6ed8538a705f5606ce5379173d0718",
+                        "sha1": "fe7898d27c15b76552a69b972abec0728be9ea8a"
                     },
                     "required_dependencies": [],
-                    "size": 1933839,
-                    "date_published": "2025-12-12T19:11:52.494096Z"
+                    "size": 1935532,
+                    "date_published": "2026-02-01T17:18:01.484134Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "notenoughanimations-forge-1.11.1-mc1.20.1.jar",
+                    "file_name": "notenoughanimations-forge-1.11.2-mc1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12059,16 +12059,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7325/366/notenoughanimations-forge-1.11.1-mc1.20.1.jar",
-                    "id": "7325366",
+                    "url": "https://edge.forgecdn.net/files/7561/811/notenoughanimations-forge-1.11.2-mc1.20.1.jar",
+                    "id": "7561811",
                     "parent_id": "433760",
                     "hashes": {
-                        "sha1": "9aa8917d7c0a5311dc495da3c720434de49e0e24",
-                        "md5": "34fd79756da8b5278a5b0905d98ffeca"
+                        "sha1": "fe7898d27c15b76552a69b972abec0728be9ea8a",
+                        "md5": "81f5099779c0b4d223275e7bac616a4e"
                     },
                     "required_dependencies": [],
-                    "size": 1933839,
-                    "date_published": "2025-12-12T19:11:51.067Z"
+                    "size": 1935532,
+                    "date_published": "2026-02-01T17:17:59.670Z"
                 }
             ]
         },
@@ -16046,6 +16046,7 @@
                 "curseforge": "834607",
                 "modrinth": "eBzFuVTM"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -16115,6 +16116,7 @@
                 "curseforge": "869524",
                 "modrinth": "G922NeHS"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
