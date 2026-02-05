@@ -5,7 +5,7 @@
 	group: "31669C96F582CF92"
 	icon: "majobroom:broom"
 	id: "1B290DA22A8E2132"
-	order_index: 2
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

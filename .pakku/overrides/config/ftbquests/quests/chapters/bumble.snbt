@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "bumble"
-	group: "65DBD493CCEDCEF5"
+	group: "31669C96F582CF92"
 	icon: {
 		Count: 1
 		id: "the_bumblezone:stingless_bee_helmet_1"
@@ -11,7 +11,7 @@
 		}
 	}
 	id: "6D7D8225B036C476"
-	order_index: 5
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -62,6 +62,7 @@
 				""
 				"{ftbquests.chapter.bumble.quest7241528357149307775.description5}"
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:honeycomb"
 			id: "647F13AC6ECD737F"
 			rewards: [{
