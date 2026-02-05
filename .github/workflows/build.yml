@@ -136,6 +136,8 @@ jobs:
                 break
               fi
               echo "Server started successfully"
+              echo "Show log:"
+              cat logs/latest.log
               exit 0
             fi
             if ! kill -0 $SERVER_PID 2>/dev/null; then

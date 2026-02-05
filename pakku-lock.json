@@ -5453,6 +5453,47 @@
             ]
         },
         {
+            "pakku_id": "XCjTU1CJttn1Vgp1",
+            "pakku_links": [
+                "zUJHx59GrudCC5eb"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "delighto-flight"
+            },
+            "name": {
+                "curseforge": "Delight o' Flight"
+            },
+            "id": {
+                "curseforge": "1347014"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "DelightoFlight-1.20.1-1.3.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7530/249/DelightoFlight-1.20.1-1.3.2.jar",
+                    "id": "7530249",
+                    "parent_id": "1347014",
+                    "hashes": {
+                        "sha1": "5e16a2c1b57e716ea42c392b3654e3b32600532c",
+                        "md5": "d9b425df514c445699721d260dd3661b"
+                    },
+                    "required_dependencies": [
+                        "398521"
+                    ],
+                    "size": 628399,
+                    "date_published": "2026-01-26T13:39:44.523Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "1yqkpcl4y1EJyyiS",
             "pakku_links": [
                 "zUJHx59GrudCC5eb"
@@ -17443,6 +17484,47 @@
                     "required_dependencies": [],
                     "size": 181437,
                     "date_published": "2023-06-14T20:01:58.026800Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "2KpSRWhnAmTt49wm",
+            "pakku_links": [
+                "F96xhGMyO4LgZq6f"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ultimine-rewind"
+            },
+            "name": {
+                "curseforge": "ultimine rewind"
+            },
+            "id": {
+                "curseforge": "1377018"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ultimine_rewind-1.0.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7176/654/ultimine_rewind-1.0.0.jar",
+                    "id": "7176654",
+                    "parent_id": "1377018",
+                    "hashes": {
+                        "sha1": "6e8cf6e54974dcfc2b99da602c486e44207f3346",
+                        "md5": "56a323664d91541b6307c2f791e34750"
+                    },
+                    "required_dependencies": [
+                        "386134"
+                    ],
+                    "size": 947115,
+                    "date_published": "2025-11-02T05:48:44.207Z"
                 }
             ]
         }
