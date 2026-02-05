@@ -11,7 +11,7 @@
 
 [filtering]
 	#Foods in this list won't affect the player's health nor show up in the food book.
-	blacklist = []
+	blacklist = ["atmospheric:ender_dragon_fruit", "biomemakeover:raw_toad", "biomemakeover:cooked_toad", "create:bar_of_chocolate", "delightful:blueberry_pie_slice", "delightful:cactus_soup_cup", "delightful:cooked_venison_chops", "delightful:gloomgourd_pie_slice", "delightful:glow_jam_jar", "delightful:green_apple_pie_slice", "delightful:honey_glazed_walnut", "delightful:jam_jar", "delightful:nut_butter_bottle", "delightful:pumpkin_pie_slice", "delightful:source_berry_ice_cream", "delightful:source_berry_pie_slice", "delightful:venison_stew", "delightful:venison_stew_cup", "immortalers_delight:cooked_sniffer_steak", "immortalers_delight:raw_sniffer_steak", "immortalers_delight:sealed_ancient_rations", "netherexp:cooked_hogham", "netherexp:hogham", "upgrade_aquatic:mulberry_pie", "create_central_kitchen:chocolate_cake_slice", "create_central_kitchen:honey_cake_slice", "delightful:cheeseburger", "delightful:chorus_muffin", "delightful:chorus_pie_slice", "delightful:chunkwich", "delightful:cooked_goat", "immortalers_delight:cooked_sniffer_slice", "endergetic:cooked_eetle_egg", "atmospheric:passion_fruit_tart", "sakura:onigiri_fish", "create_central_kitchen:incomplete_hamburger", "casualness_delight:yorkshire_pudding", "vintagedelight:pb_j", "ultramarine:cooked_meat", "tofucraft:soy_soul_cheese", "tofucraft:soy_nether_cheese", "sakura:rice_cooked", "sakura:bun"]
 	#When this list contains anything, the blacklist is ignored and instead only foods from here count.
 	whitelist = []
 	#The minimum hunger value foods need to provide in order to count for milestones, in half drumsticks.

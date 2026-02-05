@@ -1,0 +1,46 @@
+
+[LuckyClover]
+	#If it's true, Lucky Clover will drop banned items (like Debug and Creative items)
+	LuckyCloverCreative = false
+	#If it's true, Lucky Clover will get random stack size of item (depends on the max stack size of this item)
+	LuckyCloverStack = false
+	#Define the cooldown of Lucky Clover (in MC tick)
+	#Range: > 0
+	LuckyCloverCD = 20
+	#A list of items which can never be obtained from Lucky Clover.
+	LuckyCloverBlacklistItems = ["minecraft:bedrock", "minecraft:command_block", "minecraft:repeating_command_block", "minecraft:chain_command_block", "minecraft:command_block_minecart", "minecraft:jigsaw", "minecraft:structure_block", "minecraft:structure_void", "minecraft:barrier", "minecraft:light", "minecraft:potion", "minecraft:knowledge_book", "minecraft:end_portal_frame", "create:handheld_worldshaper"]
+	#A list of keywords. Items ID with those keywords can never be obtained from Lucky Clover.
+	#If you want to ban all items from one mod, write "mod_id:", example: "avaritia:"
+	LuckyCloverBlacklistKeywords = ["creative", "debug"]
+	#(Not recommended!) A list of items which Lucky Clover can only contain. Empty means no whitelist.
+	LuckyCloverWhitelistItems = []
+	#A list of keywords. Lucky Clover can only contain Items which their ID with those keywords. Empty means no whitelist.
+	#If you want to add all items from one mod or only from minecraft, write "mod_id:", example: "minecraft:", "farmersdelight:"
+	LuckyCloverWhitelistKeywords = ["immortalers_delight"]
+	#If it's true, Lucky Clover will lose the ability of dropping items.
+	LuckyCloverDisable = false
+
+[LuckyNugget]
+	#Define the duration of effects which gives by Lucky Nugget (in tick)
+	#Range: > 0
+	LuckyNuggetDuration = 6000
+	#If it's true, the duration of effects gives by Lucky Nugget will be infinite.
+	LuckyNuggetInfinite = false
+
+[DevourSword]
+	#Whether to enable the capability of shooting sword.
+	ShootingSwords = true
+	#Define the amount of damage increased by each sword.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	DamageAdd = 0.5
+	#Define the percentage of damage inherited from Devour Sword (Devoured sword number * damage inherit * damage add).
+	#Range: 0.0 ~ 1.7976931348623157E308
+	DamageInherit = 0.5
+	#Define the sword amount requirement for increase the shooting sword amount.
+	#Range: > 0
+	UpdateAmount = 9
+
+[WateringCan]
+	#Whether to enable the infinite enchantment on watering can.
+	WateringCanInfinite = true
+
