@@ -1900,7 +1900,8 @@
 		}
 		{
 			description: ["{ftbquests.chapter.create.quest4355037646741365961.description1}"]
-			id: "3C7033AA6D78E4C9"
+			hide_until_deps_complete: true
+            id: "3C7033AA6D78E4C9"
 			shape: "square"
 			tasks: [{
 				id: "299BF90EA3F1D1CD"
@@ -2593,6 +2594,7 @@
 				""
 				"{ftbquests.chapter.create.quest6679032175303133851.description2}"
 			]
+            hide_until_deps_complete: true
 			id: "5CB0B0605C590A9B"
 			shape: "square"
 			size: 2.0d

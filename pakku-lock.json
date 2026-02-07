@@ -7477,7 +7477,7 @@
         {
             "pakku_id": "jKWrsQ1CXvokAXRw",
             "type": "MOD",
-            "side": "BOTH",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "fragmentum",
                 "modrinth": "fragmentum"
@@ -13624,68 +13624,6 @@
                     ],
                     "size": 10146,
                     "date_published": "2025-07-31T09:14:11.930Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "H5AILTMkndKWNFYf",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "ravage-and-cabbage",
-                "modrinth": "ravage-and-cabbage"
-            },
-            "name": {
-                "curseforge": "Ravage & Cabbage",
-                "modrinth": "Ravage & Cabbage"
-            },
-            "id": {
-                "curseforge": "440594",
-                "modrinth": "m6BMFidq"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "ravageandcabbage-1.20.1-1.2.4.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/4787/340/ravageandcabbage-1.20.1-1.2.4.jar",
-                    "id": "4787340",
-                    "parent_id": "440594",
-                    "hashes": {
-                        "sha1": "64124791fe34e15d64f79ae91b3d98f42fed747e",
-                        "md5": "3a157ea0bfa0434c1522a3c1c5350a88"
-                    },
-                    "required_dependencies": [],
-                    "size": 139395,
-                    "date_published": "2023-10-08T07:39:16.683Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "ravageandcabbage-1.20.1-1.2.4.jar",
-                    "mc_versions": [
-                        "1.20.1",
-                        "1.20.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/m6BMFidq/versions/Gbs7Mljt/ravageandcabbage-1.20.1-1.2.4.jar",
-                    "id": "Gbs7Mljt",
-                    "parent_id": "m6BMFidq",
-                    "hashes": {
-                        "sha512": "9080b38baaf94a6ad2806fe8be6d404fa8960ae45d4fc2565958cf1fe120d8e41b5fd315adff278f2e984c1596a3c96624cb7d08ebcb4fd345b01fafa4e094cd",
-                        "sha1": "64124791fe34e15d64f79ae91b3d98f42fed747e"
-                    },
-                    "required_dependencies": [],
-                    "size": 139395,
-                    "date_published": "2023-10-08T07:47:04.705192Z"
                 }
             ]
         },

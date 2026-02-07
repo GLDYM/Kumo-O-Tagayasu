@@ -42,6 +42,7 @@
 				""
 				"{ftbquests.chapter.dimensions.quest2529637865491029484.description3}"
 			]
+            hide_until_deps_complete: true
 			icon: "beyonddimensions:net_creater"
 			id: "231B143C6EF85DEC"
 			progression_mode: "linear"

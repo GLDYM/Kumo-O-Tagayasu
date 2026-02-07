@@ -695,6 +695,7 @@
 		{
 			dependencies: ["0E554BF316EB9E7B"]
 			description: ["{ftbquests.chapter.youkai.quest5982060593007669780.description1}"]
+            hide_until_deps_complete: true
 			id: "53048C6A3F15B214"
 			rewards: [{
 				id: "2F7651B695C9B911"
@@ -712,7 +713,8 @@
 		{
 			dependencies: ["0E554BF316EB9E7B"]
 			description: ["{ftbquests.chapter.youkai.quest59603185378178612.description1}"]
-			id: "00D3C0C803F2B634"
+			hide_until_deps_complete: true
+            id: "00D3C0C803F2B634"
 			rewards: [{
 				id: "0761D86BE0783E3C"
 				type: "xp_levels"
@@ -742,6 +744,7 @@
 		{
 			dependencies: ["0E554BF316EB9E7B"]
 			description: ["{ftbquests.chapter.youkai.quest5980545261055772295.description1}"]
+            hide_until_deps_complete: true
 			id: "52FF2A3A88600687"
 			tasks: [{
 				id: "20BA8FA01C0AD669"
