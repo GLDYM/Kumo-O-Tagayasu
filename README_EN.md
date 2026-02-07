@@ -34,9 +34,9 @@ Born for server, Kumo O Tagayasu is a comprehensive modpack that fills in the mi
 
 ## How to use
 
-Download the release file and drop it into the launcher to install.
+Client: Download the release file and drop it into the launcher to install.
 
-To obtain a server or customize your game experience, please refer to [Server Building Guide](./Server.md). This docs have no English translation now, so use translator.
+Server: Download the release file and follow the guide in the folder.
 
 ## Development & Contribution
 

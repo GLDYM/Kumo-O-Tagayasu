@@ -35,9 +35,9 @@ Kumo O Tagayasu 耕云钓月是一个注重田园体验的综合整合包，补�
 
 ## 如何使用 How to use
 
-下载 Release 的文件后拖入启动器中安装。
+客户端：下载 Release 的文件后拖入启动器中安装。
 
-要获得服务端，或者自定义游戏体验，请参考 [服务端搭建指南](./Server.md)。
+服务端：下载 Release 的文件后解压，按照文件夹内的安装说明安装。
 
 ## 开发 & 贡献 Development & Contribution
 
