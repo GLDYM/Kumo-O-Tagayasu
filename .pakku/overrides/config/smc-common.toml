@@ -8,15 +8,15 @@
 	#Range: > 0
 	LuckyCloverCD = 20
 	#A list of items which can never be obtained from Lucky Clover.
-	LuckyCloverBlacklistItems = ["minecraft:bedrock", "minecraft:command_block", "minecraft:repeating_command_block", "minecraft:chain_command_block", "minecraft:command_block_minecart", "minecraft:jigsaw", "minecraft:structure_block", "minecraft:structure_void", "minecraft:barrier", "minecraft:light", "minecraft:potion", "minecraft:knowledge_book", "minecraft:end_portal_frame", "create:handheld_worldshaper"]
+	LuckyCloverBlacklistItems = ["minecraft:bedrock", "minecraft:command_block", "minecraft:repeating_command_block", "minecraft:chain_command_block", "minecraft:command_block_minecart", "minecraft:jigsaw", "minecraft:structure_block", "minecraft:structure_void", "minecraft:barrier", "minecraft:light", "minecraft:potion", "minecraft:knowledge_book", "minecraft:end_portal_frame", "create:handheld_worldshaper", "l2complements:space_shard", "endergetic:crystal_holder", "irons_spellbooks:gold_crown", "irons_spellbooks:staff_of_the_nines", "smc:mcr_sword", "netherexp:treacherous_candle", "netherexp:brazier_chest", "biomemakeover:icon_item"]
 	#A list of keywords. Items ID with those keywords can never be obtained from Lucky Clover.
 	#If you want to ban all items from one mod, write "mod_id:", example: "avaritia:"
-	LuckyCloverBlacklistKeywords = ["creative", "debug"]
+	LuckyCloverBlacklistKeywords = ["creative", "debug", "wip", "WIP", "mystical_obsidian", "scroll", "enchanted_book", "jelly_torch"]
 	#(Not recommended!) A list of items which Lucky Clover can only contain. Empty means no whitelist.
 	LuckyCloverWhitelistItems = []
 	#A list of keywords. Lucky Clover can only contain Items which their ID with those keywords. Empty means no whitelist.
 	#If you want to add all items from one mod or only from minecraft, write "mod_id:", example: "minecraft:", "farmersdelight:"
-	LuckyCloverWhitelistKeywords = ["immortalers_delight"]
+	LuckyCloverWhitelistKeywords = ["minecraft:", "create:", "smc:", "delightful:", "immortalers_delight:", "irons_spellbooks:", "tofucraft:", "sakura:", "netherexp:", "endergetic:", "biomemakeover:", "upgrade_aquatic:", "create_central_kitchen:", "casualness_delight:", "vintagedelight:", "ultramarine:", "atmospheric:", "farmersdelight:", "l2complements:", "l2weaponry:"]
 	#If it's true, Lucky Clover will lose the ability of dropping items.
 	LuckyCloverDisable = false
 

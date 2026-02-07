@@ -164,6 +164,12 @@
         },
         "waterframes": {
             "update_strategy": "NONE"
+        },
+        "obscure-tooltips": {
+            "side": "CLIENT"
+        },
+        "fragmentum": {
+            "side": "CLIENT"
         }
     }
 }
