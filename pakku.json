@@ -170,6 +170,9 @@
         },
         "fragmentum": {
             "side": "CLIENT"
+        },
+        "advanced-loot-info": {
+            "update_strategy": "NONE"
         }
     }
 }
