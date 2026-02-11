@@ -11,7 +11,7 @@
 </a>
 
 <a href="https://github.com/GLDYM/Kumo-O-Tagayasu/releases">
-    <img src="https://img.shields.io/badge/version-5.4.1-9999FF" alt="version">
+    <img src="https://img.shields.io/badge/version-5.4.2-9999FF" alt="version">
 </a>
 
 <a href="https://www.mcmod.cn/modpack/1017.html">
@@ -25,7 +25,7 @@
 
 [简体中文](README.md) / [English](README_EN.md)
 
-![](https://count.getloli.com/@:KOTS?name=%3AKOTS&theme=booru-jaypee&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)
+![](https://count.getloli.com/@:KOTS?name=%3AKOTS&theme=miku&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)
 
 </div>
 
