@@ -155,8 +155,8 @@ ItemEvents.tooltip(event => {
   event.add('minecraft:enchanting_table', [Text.translate('kubejs.tooltip.item.minecraft.enchanting_table.0'), Text.translate('kubejs.tooltip.item.minecraft.enchanting_table.1')])
   event.add('l2complements:diffusion_wand', Text.translate('kubejs.tooltip.item.l2complements.diffusion_wand.0'))
   event.add('create_sa:block_picker', Text.translate('kubejs.tooltip.item.create_sa.block_picker.0'))
-  event.add('quark:pickarang', Text.translate('kubejs.tooltip.item.quark.pickarang.0'))
-  event.add('quark:flamerang', Text.translate('kubejs.tooltip.item.quark.flamerang.0'))
+  //event.add('quark:pickarang', Text.translate('kubejs.tooltip.item.quark.pickarang.0'))
+  //event.add('quark:flamerang', Text.translate('kubejs.tooltip.item.quark.flamerang.0'))
   // Eggs
   //event.add('create:crushing_wheel', Text.translate('kubejs.tooltip.item.create.crushing_wheel.0'))
 })
