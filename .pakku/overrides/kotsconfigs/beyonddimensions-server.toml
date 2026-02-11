@@ -1,0 +1,7 @@
+#碎片转化间隔
+#Range: 1 ~ 9223372036854775807
+fragmentTransferTime = 14400
+#结晶生成间隔（0代表不生成）
+#Range: > 0
+crystalGenerateTime = 3600
+

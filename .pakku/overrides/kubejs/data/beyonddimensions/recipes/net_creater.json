@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "createutilities:void_steel_ingot"
+    },
+    "B": {
+      "item": "l2complements:sculkium_block"
+    },
+    "C": {
+      "item": "l2complements:shulkerate_block"
+    },
+    "D": {
+      "item": "beyonddimensions:stable_space_time_fragment"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ACA"
+  ],
+  "result": {
+    "item": "beyonddimensions:net_creater"
+  },
+  "show_notification": true
+}

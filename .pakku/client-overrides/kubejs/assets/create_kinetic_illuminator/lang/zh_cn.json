@@ -1,0 +1,4 @@
+{
+  "item.create_kinetic_illuminator.kinetic_illuminator": "动能照明器",
+  "item.create_kinetic_illuminator.kinetic_illuminator.tooltip.summary": "可以将光子冻结于某处。消耗_萤石粉_，你可以在世界中_放置隐形光源方块_。右键已经放置的光源方块会将其_移除_。潜行时滚动鼠标滚轮可以_调节光源方块的亮度等级_。"
+}

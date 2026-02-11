@@ -52,9 +52,8 @@
 				""
 				"{ftbquests.chapter.stuff.quest4523610778375149997.description19}"
 				""
-				"{ftbquests.chapter.stuff.quest4523610778375149997.description20}"
 			]
-			icon: "ftbquests:book"
+			icon: "kubejs:bedrock_egg"
 			id: "3EC718092B2DD9AD"
 			shape: "gear"
 			size: 3.0d
@@ -85,8 +84,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.stuff.quest5387853890751163486.title}"
-			x: 4.0d
-			y: -4.0d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
@@ -103,8 +102,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: -4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
@@ -125,8 +124,8 @@
 				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.stuff.quest7946882653284881569.title}"
-			x: -4.0d
-			y: -2.0d
+			x: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
@@ -144,8 +143,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.stuff.quest1841627816972971738.title}"
-			x: 4.0d
-			y: -2.0d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
@@ -178,8 +177,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.stuff.quest420143370383540181.title}"
-			x: -2.0d
-			y: -4.0d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
@@ -197,8 +196,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.stuff.quest1650833918185130260.title}"
-			x: -4.0d
-			y: 2.0d
+			x: 4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
@@ -217,8 +216,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.stuff.quest1217160096305147220.title}"
-			x: 2.0d
-			y: -4.0d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
@@ -236,8 +235,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.stuff.quest5745558525891558936.title}"
-			x: 4.0d
-			y: 4.0d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
@@ -254,8 +253,8 @@
 				item: "netmusic:music_player"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
@@ -273,8 +272,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.stuff.quest4041839843251703038.title}"
-			x: 2.0d
-			y: 4.0d
+			x: 0.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
@@ -283,19 +282,13 @@
 			id: "0A23AE8CEE05968E"
 			size: 1.5d
 			tasks: [{
-				id: "7FA987DB70EE2024"
-				item: {
-					Count: 1
-					id: "lightingwand:wand"
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "72C1828BDA64B5A5"
+				item: "create_kinetic_illuminator:kinetic_illuminator"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.stuff.quest730619484876150414.title}"
-			x: -4.0d
-			y: 4.0d
+			x: -4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
@@ -320,7 +313,7 @@
 			}]
 			title: "{ftbquests.chapter.stuff.quest919036372939472082.title}"
 			x: 0.0d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
@@ -338,8 +331,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.stuff.quest8586823690170926041.title}"
-			x: 0.0d
-			y: 4.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
@@ -361,8 +354,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.stuff.quest2248842970085963579.title}"
-			x: 4.0d
-			y: 0.0d
+			x: -3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
@@ -397,8 +390,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.stuff.quest5881686626851724597.title}"
-			x: -4.0d
-			y: -4.0d
+			x: -1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3EC718092B2DD9AD"]
@@ -413,6 +406,7 @@
 				""
 				"{ftbquests.chapter.stuff.quest5575048988528277607.description5}"
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "constructionwand:infinity_wand"
@@ -452,8 +446,108 @@
 				title: "{ftbquests.chapter.stuff.quest5575048988528277607.task.7161601614981324485.title}"
 				type: "checkmark"
 			}]
-			x: -4.0d
+			title: "{ftbquests.chapter.stuff.quest5575048988528277607.title}"
+			x: -4.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: ["{ftbquests.chapter.stuff.quest1982458085065233237.description1}"]
+			hide_until_deps_complete: true
+			id: "1B831B1FF66A1355"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0D93DC1DF6E40244"
+					item: {
+						Count: 1
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "289E3DBF0591CE83"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.stuff.quest1982458085065233237.title}"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: ["{ftbquests.chapter.stuff.quest6410812296514334373.description1}"]
+			hide_until_deps_complete: true
+			icon: "sourceblock:water_source_block"
+			id: "58F7C7D157716EA5"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5364AEF95E6B7184"
+					item: "sourceblock:empty_source_block"
+					type: "item"
+				}
+				{
+					id: "053C292412E4E34E"
+					item: "sourceblock:water_source_block"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.stuff.quest6410812296514334373.title}"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: [
+				"{ftbquests.chapter.stuff.quest3572024816709962910.description1}"
+				""
+				"{ftbquests.chapter.stuff.quest3572024816709962910.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "smc:lucky_clover"
+			id: "319261A538E08C9E"
+			rewards: [{
+				count: 32
+				id: "380EF46B00D52037"
+				item: "smc:lucky_clover"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "3DCE239ADFAB8832"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.stuff.quest3572024816709962910.title}"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3EC718092B2DD9AD"]
+			description: ["{ftbquests.chapter.stuff.quest7781847682340756984.description1}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "l2complements:eternium_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6BFEAD3CB21E1DF8"
+			size: 1.5d
+			tasks: [{
+				id: "50973059EC52A523"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.stuff.quest7781847682340756984.title}"
+			x: 4.5d
+			y: -1.5d
 		}
 	]
 	title: "{ftbquests.chapter.stuff.title}"

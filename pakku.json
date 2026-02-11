@@ -1,6 +1,6 @@
 {
     "name": "Kumo O Tagayasu",
-    "version": "5.4.1",
+    "version": "5.4.2",
     "description": "Born for server, Kumo O Tagayasu is a comprehensive modpack that fills in the missing materials, intended to give players a relaxing and enjoyable game experience.",
     "author": "Polaris_Light",
     "projects": {
@@ -158,6 +158,21 @@
         },
         "rainbowwrenchforjei-reforge": {
             "side": "CLIENT"
+        },
+        "longer-login-times": {
+            "side": "SERVER"
+        },
+        "waterframes": {
+            "update_strategy": "NONE"
+        },
+        "obscure-tooltips": {
+            "side": "CLIENT"
+        },
+        "fragmentum": {
+            "side": "CLIENT"
+        },
+        "advanced-loot-info": {
+            "update_strategy": "NONE"
         }
     }
 }

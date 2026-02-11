@@ -85,8 +85,8 @@
     "resultItems": "tofucraft:miso"
   },
   {
-    "matchItems": ["youkaishomecoming:tofu"],
-    "resultItems": "tofucraft:tofumomen"
+    "matchItems": ["tofucraft:tofumomen", "sakura:tofu"],
+    "resultItems": "youkaishomecoming:tofu"
   },
   {
     "matchItems": ["youkaishomecoming:ice_cube"],

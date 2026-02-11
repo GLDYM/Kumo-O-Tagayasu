@@ -32,7 +32,7 @@ jobs:
         uses: GrantBirki/json-yaml-validate@v3.3.2 # replace with the latest version
         with:
           comment: "true"
-          base_dir: "src"
+          base_dir: ".pakku"
           exclude_file: "exclude.txt"
 
   build-release-and-test:
@@ -136,6 +136,8 @@ jobs:
                 break
               fi
               echo "Server started successfully"
+              echo "Show log:"
+              cat logs/latest.log
               exit 0
             fi
             if ! kill -0 $SERVER_PID 2>/dev/null; then

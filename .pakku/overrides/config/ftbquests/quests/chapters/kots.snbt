@@ -18,7 +18,7 @@
 				""
 				"{ftbquests.chapter.kots.quest819685687684706128.description5}"
 			]
-			icon: "chimes:amethyst_chimes"
+			icon: "kubejs:icon"
 			id: "0B601BCA41EB2F50"
 			rewards: [
 				{
@@ -37,7 +37,7 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
+			shape: "octagon"
 			size: 3.0d
 			tasks: [{
 				id: "11805C0336574AD2"

@@ -10,13 +10,7 @@
 	drop_loot_crates: false
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
-	icon: {
-		Count: 1
-		id: "majobroom:majo_hat"
-		tag: {
-			Damage: 0
-		}
-	}
+	icon: "kubejs:icon"
 	lock_message: ""
 	loot_crate_no_drop: {
 		boss: 0

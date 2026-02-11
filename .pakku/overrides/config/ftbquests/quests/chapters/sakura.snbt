@@ -5,7 +5,7 @@
 	group: "65DBD493CCEDCEF5"
 	icon: "minecraft:cherry_leaves"
 	id: "49998E6AB0C3764C"
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -177,9 +177,17 @@
 				""
 				"{ftbquests.chapter.sakura.quest5864994101504078406.description6}"
 				""
+				"{@pagebreak}"
+				""
 				"{ftbquests.chapter.sakura.quest5864994101504078406.description7}"
 				""
 				"{ftbquests.chapter.sakura.quest5864994101504078406.description8}"
+				""
+				"{ftbquests.chapter.sakura.quest5864994101504078406.description9}"
+				""
+				"{ftbquests.chapter.sakura.quest5864994101504078406.description10}"
+				""
+				"{ftbquests.chapter.sakura.quest5864994101504078406.description11}"
 			]
 			id: "5164A50FADE97246"
 			tasks: [
@@ -226,6 +234,21 @@
 				{
 					id: "2890898D35159BF9"
 					item: "immortalers_delight:warped_laurel_seeds"
+					type: "item"
+				}
+				{
+					id: "1819EBF637AF2162"
+					item: "immortalers_delight:travarice"
+					type: "item"
+				}
+				{
+					id: "642DB9FE300C9518"
+					item: "immortalers_delight:gelpitaya_seeds"
+					type: "item"
+				}
+				{
+					id: "5F4914C31F2AC0A4"
+					item: "immortalers_delight:a_bush"
 					type: "item"
 				}
 			]

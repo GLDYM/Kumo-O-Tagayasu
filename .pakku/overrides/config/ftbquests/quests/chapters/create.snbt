@@ -19,7 +19,6 @@
 			hide_dependent_lines: true
 			icon: "createdeco:decal_warning"
 			id: "77102693683E4D96"
-			optional: true
 			rewards: [{
 				count: 16
 				id: "6C2F6DCA3428A803"
@@ -302,10 +301,7 @@
 				{
 					count: 8L
 					id: "43882A5D9856875D"
-					item: {
-						Count: 8
-						id: "create:sail_frame"
-					}
+					item: { Count: 8, id: "create:sail_frame" }
 					optional_task: true
 					type: "item"
 				}
@@ -870,19 +866,13 @@
 				{
 					count: 16L
 					id: "5FE367CEDAE407A1"
-					item: {
-						Count: 16
-						id: "create:fluid_tank"
-					}
+					item: { Count: 16, id: "create:fluid_tank" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "2301076FA79FFD67"
-					item: {
-						Count: 4
-						id: "create:blaze_burner"
-					}
+					item: { Count: 4, id: "create:blaze_burner" }
 					type: "item"
 				}
 				{
@@ -894,10 +884,7 @@
 				{
 					count: 4L
 					id: "55F069AB6751D2D1"
-					item: {
-						Count: 4
-						id: "create:shaft"
-					}
+					item: { Count: 4, id: "create:shaft" }
 					type: "item"
 				}
 			]
@@ -1899,7 +1886,9 @@
 			y: 13.5d
 		}
 		{
+			dependencies: ["77102693683E4D96"]
 			description: ["{ftbquests.chapter.create.quest4355037646741365961.description1}"]
+			hide_until_deps_complete: true
 			id: "3C7033AA6D78E4C9"
 			shape: "square"
 			tasks: [{
@@ -2593,6 +2582,7 @@
 				""
 				"{ftbquests.chapter.create.quest6679032175303133851.description2}"
 			]
+			hide_until_deps_complete: true
 			id: "5CB0B0605C590A9B"
 			shape: "square"
 			size: 2.0d
@@ -2630,14 +2620,15 @@
 			]
 			id: "2EBBA3538BD2B224"
 			rewards: [{
-				id: "59643F6A659EB76A"
+				id: "5E95D7D44AD906C7"
 				item: {
 					Count: 1
 					id: "createnuclear:reactor_blueprint_item"
 					tag: {
-						countGraphiteRod: 9
+						countGraphiteRod: 10
 						countUraniumRod: 27
 						graphiteTime: 5000
+						heat: 1000.0d
 						pattern: {
 							Items: [
 								{
@@ -2814,6 +2805,11 @@
 									Count: 1b
 									Slot: 51
 									id: "createnuclear:uranium_rod"
+								}
+								{
+									Count: 1b
+									Slot: 54
+									id: "createnuclear:graphite_rod"
 								}
 								{
 									Count: 1b
@@ -3098,7 +3094,7 @@
 								{
 									Count: 1b
 									Slot: 54
-									id: "minecraft:glass_pane"
+									id: "createnuclear:graphite_rod"
 								}
 								{
 									Count: 1b
@@ -3218,8 +3214,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.create.quest7942786962679173793.title}"
-			x: 12.0d
-			y: 28.0d
+			x: 9.0d
+			y: 26.0d
 		}
 		{
 			dependencies: ["64631B35579E9854"]
@@ -3239,7 +3235,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 30.0d
+			y: 27.0d
 		}
 		{
 			dependencies: ["64631B35579E9854"]
@@ -3265,8 +3261,53 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.create.quest664172232202646631.title}"
+			x: 11.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["64631B35579E9854"]
+			description: [
+				"{ftbquests.chapter.create.quest8409746529353836565.description1}"
+				""
+				"{ftbquests.chapter.create.quest8409746529353836565.description2}"
+				""
+				"{ftbquests.chapter.create.quest8409746529353836565.description3}"
+				""
+				"{ftbquests.chapter.create.quest8409746529353836565.description4}"
+				""
+				"{ftbquests.chapter.create.quest8409746529353836565.description5}"
+				""
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.create.quest8409746529353836565.description6}"
+				""
+				"{ftbquests.chapter.create.quest8409746529353836565.description7}"
+				""
+				"{ftbquests.chapter.create.quest8409746529353836565.description8}"
+				""
+				"{ftbquests.chapter.create.quest8409746529353836565.description9}"
+			]
+			id: "74B56BE96535A815"
+			tasks: [
+				{
+					id: "0824741A05D17496"
+					item: "createadditionallogistics:package_accelerator"
+					type: "item"
+				}
+				{
+					id: "7B197C35C1B6DFC5"
+					item: "createadditionallogistics:cash_register"
+					type: "item"
+				}
+				{
+					id: "476CCBACDA561620"
+					item: "createadditionallogistics:package_editor"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.create.quest8409746529353836565.title}"
 			x: 9.0d
-			y: 30.5d
+			y: 30.0d
 		}
 	]
 	title: "{ftbquests.chapter.create.title}"

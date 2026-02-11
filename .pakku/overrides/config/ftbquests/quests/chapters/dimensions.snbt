@@ -1,0 +1,814 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dimensions"
+	group: "31669C96F582CF92"
+	icon: "beyonddimensions:net_creater"
+	id: "1FB48F9E7ACA1440"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.dimensions.quest766235599067915222.description1}"
+				""
+				"{ftbquests.chapter.dimensions.quest766235599067915222.description2}"
+			]
+			id: "0AA23737B8B3A3D6"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.dimensions.quest766235599067915222.subtitle}"
+			tasks: [{
+				id: "64EA84F55F652796"
+				item: {
+					Count: 1
+					id: "beyonddimensions:unstable_space_time_fragment"
+					tag: {
+						LongData: 3530L
+						TimeLine: 1313182L
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.dimensions.quest766235599067915222.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AA23737B8B3A3D6"]
+			description: [
+				"{ftbquests.chapter.dimensions.quest2529637865491029484.description1}"
+				""
+				"{ftbquests.chapter.dimensions.quest2529637865491029484.description2}"
+				""
+				"{ftbquests.chapter.dimensions.quest2529637865491029484.description3}"
+			]
+            hide_until_deps_complete: true
+			icon: "beyonddimensions:net_creater"
+			id: "231B143C6EF85DEC"
+			progression_mode: "linear"
+			tasks: [
+				{
+					id: "703044E0F441CA99"
+					item: "beyonddimensions:stable_space_time_fragment"
+					type: "item"
+				}
+				{
+					id: "7A84E338C2E13884"
+					item: "beyonddimensions:net_creater"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.dimensions.quest2529637865491029484.title}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["231B143C6EF85DEC"]
+			description: [
+				"{ftbquests.chapter.dimensions.quest3595179727660997213.description1}"
+				""
+				"{ftbquests.chapter.dimensions.quest3595179727660997213.description2}"
+			]
+			icon: "beyonddimensions:space_time_bar"
+			id: "31E4A4EA0AEB5A5D"
+			tasks: [
+				{
+					id: "245B75CFDC4D6B52"
+					item: "beyonddimensions:shattered_space_time_crystallization"
+					type: "item"
+				}
+				{
+					id: "30AB9B01BBBA5C21"
+					item: "beyonddimensions:space_time_bar"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.dimensions.quest3595179727660997213.title}"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["31E4A4EA0AEB5A5D"]
+			description: ["{ftbquests.chapter.dimensions.quest7683465712072555335.description1}"]
+			id: "6AA1275B3BFA7B47"
+			tasks: [{
+				id: "32D605769FE48CBA"
+				item: {
+					Count: 1
+					id: "beyonddimensions:net_magnet_item"
+					tag: {
+						control_mode: "IGNORE"
+						filter_mode: "BLACK"
+						filter_slots: [
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+						]
+						hopper_fluid_mode: "DENY"
+						hopper_item_mode: "ALLOW"
+						hopper_nbt_mode: "DENY"
+						hopper_range_mode: "RADIUS_MID"
+						hopper_xp_mode: "DENY"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31E4A4EA0AEB5A5D"]
+			description: ["{ftbquests.chapter.dimensions.quest5465403080953689266.description1}"]
+			id: "4BD903252A91F4B2"
+			tasks: [{
+				id: "1CE0FFC67807A2E5"
+				item: {
+					Count: 1
+					id: "beyonddimensions:net_feeder_item"
+					tag: {
+						control_mode: "IGNORE"
+						feeder_mode: "NORMAL"
+						filter_slots: [
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31E4A4EA0AEB5A5D"]
+			description: [
+				"{ftbquests.chapter.dimensions.quest1935765613092955945.description1}"
+				""
+				"{ftbquests.chapter.dimensions.quest1935765613092955945.description2}"
+			]
+			id: "1ADD3891A8D26729"
+			tasks: [{
+				id: "302877D7D4629FD6"
+				item: {
+					Count: 1
+					id: "beyonddimensions:xp_exchange_item"
+					tag: {
+						xp_net_keep_mode: 0b
+						xp_transfer_speed_mode: "SLOW"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31E4A4EA0AEB5A5D"]
+			description: ["{ftbquests.chapter.dimensions.quest4821770502208368981.description1}"]
+			id: "42EA5EB994963155"
+			tasks: [{
+				id: "1D909369DDFFC459"
+				item: "beyonddimensions:net_terminal_item"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["31E4A4EA0AEB5A5D"]
+			description: [
+				"{ftbquests.chapter.dimensions.quest8702154082179339918.description1}"
+				""
+				"{ftbquests.chapter.dimensions.quest8702154082179339918.description2}"
+				""
+				"{ftbquests.chapter.dimensions.quest8702154082179339918.description3}"
+			]
+			icon: "beyonddimensions:net_control"
+			id: "78C443082103D68E"
+			tasks: [
+				{
+					id: "446DDC8AC3DCE890"
+					item: "beyonddimensions:net_member_inviter"
+					type: "item"
+				}
+				{
+					id: "5D349A6A3FC84751"
+					item: "beyonddimensions:net_manager_inviter"
+					type: "item"
+				}
+				{
+					id: "5D30288B2859D632"
+					item: "beyonddimensions:net_gifter"
+					type: "item"
+				}
+				{
+					id: "4361820F34F5ABC8"
+					item: "beyonddimensions:net_destroyer"
+					type: "item"
+				}
+				{
+					id: "281CE4E330111A4A"
+					item: "beyonddimensions:net_control"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.dimensions.quest8702154082179339918.title}"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["31E4A4EA0AEB5A5D"]
+			description: [
+				"{ftbquests.chapter.dimensions.quest6181724146731165416.description1}"
+				""
+				"{ftbquests.chapter.dimensions.quest6181724146731165416.description2}"
+				""
+				"{ftbquests.chapter.dimensions.quest6181724146731165416.description3}"
+				""
+				"{ftbquests.chapter.dimensions.quest6181724146731165416.description4}"
+			]
+			id: "55C9E55BF95DA6E8"
+			tasks: [
+				{
+					id: "3151B7B5A78F66B1"
+					item: "beyonddimensions:net_interface"
+					type: "item"
+				}
+				{
+					id: "22721D36262994D4"
+					item: "beyonddimensions:net_pump_block"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["31E4A4EA0AEB5A5D"]
+			description: [
+				"{ftbquests.chapter.dimensions.quest1871256334742492087.description1}"
+				""
+				"{ftbquests.chapter.dimensions.quest1871256334742492087.description2}"
+			]
+			id: "19F809B8DC0693B7"
+			tasks: [{
+				id: "670FA4AD39000C4F"
+				item: "beyonddimensions:net_pathway"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["31E4A4EA0AEB5A5D"]
+			description: [
+				"{ftbquests.chapter.dimensions.quest4775138932613252.description1}"
+				""
+				"{ftbquests.chapter.dimensions.quest4775138932613252.description2}"
+			]
+			id: "0010F6F6ABD4E084"
+			tasks: [{
+				id: "4CE6CAF56D8187D5"
+				item: "beyonddimensions:net_terminal_block"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["31E4A4EA0AEB5A5D"]
+			description: [
+				"{ftbquests.chapter.dimensions.quest7727442900409044177.description1}"
+				""
+				"{ftbquests.chapter.dimensions.quest7727442900409044177.description2}"
+			]
+			id: "6B3D64604CFECCD1"
+			tasks: [{
+				id: "381F09967260A758"
+				item: "beyonddimensions:schematicannon_pathway"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["31E4A4EA0AEB5A5D"]
+			description: ["{ftbquests.chapter.dimensions.quest4994870183790373882.description1}"]
+			id: "455157F7DC03EBFA"
+			invisible: true
+			rewards: [{
+				id: "2AEB4A8B65B6F88D"
+				item: "waterframes:big_tv"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B1DADE39F2F4EC2"
+				item: "beyonddimensions:net_energy_pathway"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.dimensions.quest4994870183790373882.title}"
+			x: -1.5d
+			y: 2.0d
+		}
+	]
+	title: "{ftbquests.chapter.dimensions.title}"
+}

@@ -1,6 +1,6 @@
 # 开发 & 贡献 Development & Contribution
 
-该整合包使用数据包驱动修改，这些配方位于 `.pakku/overrides/config/openloader/data/kots_datapack/data`中。
+该整合包使用数据包驱动修改，这些配方位于 `.pakku/overrides/kubejs/data`中。
 
 项目接受如下 PR：
 
@@ -14,7 +14,7 @@
 
 ## English
 
-This mod uses data pack driven mods, the recipes are located in `.pakku/overrides/config/openloader/data/kots_datapack/data`.
+This modpack uses datapack driven, the recipes are located in `.pakku/overrides/kubejs/data`.
 
 This project accepts the following PRs:
 

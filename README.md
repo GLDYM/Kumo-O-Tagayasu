@@ -11,7 +11,7 @@
 </a>
 
 <a href="https://github.com/GLDYM/Kumo-O-Tagayasu/releases">
-    <img src="https://img.shields.io/badge/version-5.4.1-9999FF" alt="version">
+    <img src="https://img.shields.io/badge/version-5.4.2-9999FF" alt="version">
 </a>
 
 <a href="https://www.mcmod.cn/modpack/1017.html">
@@ -25,7 +25,7 @@
 
 [简体中文](README.md) / [English](README_EN.md)
 
-![](https://count.getloli.com/@:KOTS?name=%3AKOTS&theme=booru-jaypee&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)
+![](https://count.getloli.com/@:KOTS?name=%3AKOTS&theme=miku&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)
 
 </div>
 
@@ -35,9 +35,9 @@ Kumo O Tagayasu 耕云钓月是一个注重田园体验的综合整合包，补�
 
 ## 如何使用 How to use
 
-下载 Release 的文件后拖入启动器中安装。
+客户端：下载 Release 的文件后拖入启动器中安装。
 
-要获得服务端，或者自定义游戏体验，请参考 [服务端搭建指南](./Server.md)。
+服务端：下载 Release 的文件后解压，按照文件夹内的安装说明安装。
 
 ## 开发 & 贡献 Development & Contribution
 
