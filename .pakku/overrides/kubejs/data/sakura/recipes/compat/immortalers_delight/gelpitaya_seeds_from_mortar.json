@@ -1,0 +1,26 @@
+{
+  "type": "sakura:stone_mortar",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immortalers_delight"
+    }
+  ],
+  "experience": 0.0,
+  "ingredients": [
+    {
+      "item": "immortalers_delight:gelpitaya_flesh"
+    }
+  ],
+  "recipeTime": 200,
+  "results": [
+    {
+      "count": 1,
+      "item": "immortalers_delight:gelpitaya_seeds"
+    },
+    {
+      "count": 1,
+      "item": "immortalers_delight:gelpitaya_seeds"
+    }
+  ]
+}
