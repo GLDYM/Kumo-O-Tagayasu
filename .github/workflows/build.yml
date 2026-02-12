@@ -149,6 +149,7 @@ jobs:
 
           echo "Server did not start successfully within timeout or crashed"
           echo "Show log:"
+          cat logs/kubejs/startup.log
           cat logs/latest.log
 
           if ls crash-reports/*.txt 1> /dev/null 2>&1; then
