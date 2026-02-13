@@ -16,7 +16,7 @@
 	LuckyCloverWhitelistItems = []
 	#A list of keywords. Lucky Clover can only contain Items which their ID with those keywords. Empty means no whitelist.
 	#If you want to add all items from one mod or only from minecraft, write "mod_id:", example: "minecraft:", "farmersdelight:"
-	LuckyCloverWhitelistKeywords = ["create:", "create_connected:", "createutilities:", "create_enchantment_industry:", "createnuclear", "create_power_loader:", "balancedflight:", "create_kinetic_illuminator:", "cagedmobs:", "irons_spellbooks:", "l2complements:", "l2weaponry:", "netherexp:", "the_bumblezone:", "fruitsdelight:", "smc:", "delighto_flight:", "immortalers_delight:", "trialandtales_delight:", "vintagedelight:", "atmospheric:", "autumnity:", "artifacts:"]
+	LuckyCloverWhitelistKeywords = ["create:", "create_connected:", "createutilities:", "create_enchantment_industry:", "createnuclear", "create_power_loader:", "create_kinetic_illuminator:", "irons_spellbooks:", "l2complements:", "l2weaponry:", "netherexp:", "the_bumblezone:", "fruitsdelight:", "smc:", "delighto_flight:", "immortalers_delight:", "trialandtales_delight:", "vintagedelight:", "atmospheric:", "autumnity:", "artifacts:"]
 	#If it's true, Lucky Clover will lose the ability of dropping items.
 	LuckyCloverDisable = false
 
