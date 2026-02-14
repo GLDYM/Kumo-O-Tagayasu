@@ -2775,49 +2775,49 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "clientsort-forge-2.1.7+1.20.1.jar",
+                    "file_name": "clientsort-forge-2.2.0+1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/K0AkAin6/versions/LBgzIy3e/clientsort-forge-2.1.7+1.20.1.jar",
-                    "id": "LBgzIy3e",
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/K0AkAin6/versions/M2rHECpE/clientsort-forge-2.2.0+1.20.1.jar",
+                    "id": "M2rHECpE",
                     "parent_id": "K0AkAin6",
                     "hashes": {
-                        "sha512": "210317e010781a85471c14e03f26dd1deea28c2bfdb16f417fbb8d15d0fd3ae045a6eaa7feba33d60990e6399a7c9bea26cda7f3dcd6396e334687a798a67b28",
-                        "sha1": "24298fb2feb4176ceda9e4e0711b65d5d2882a99"
+                        "sha512": "8b6ef5fb266fe85c2a80817beae70095493f1cbf05434a97fcf0b5069b151f6e590f0874e7edf9ab6bd2d816e12ff6905e8f2e71f7451b9d86a6b816ffa11477",
+                        "sha1": "91d1d30b6aba5dd188d0ea7b73313eb1d35adcf5"
                     },
                     "required_dependencies": [
                         "9s6osm5g"
                     ],
-                    "size": 936104,
-                    "date_published": "2026-01-10T13:44:48.985313Z"
+                    "size": 943520,
+                    "date_published": "2026-02-13T12:21:30.366974Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "clientsort-forge-2.1.7+1.20.1.jar",
+                    "file_name": "clientsort-forge-2.2.0+1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7441/868/clientsort-forge-2.1.7+1.20.1.jar",
-                    "id": "7441868",
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7618/461/clientsort-forge-2.2.0+1.20.1.jar",
+                    "id": "7618461",
                     "parent_id": "1049891",
                     "hashes": {
-                        "sha1": "24298fb2feb4176ceda9e4e0711b65d5d2882a99",
-                        "md5": "eaea280b08a2379d65523c52f6ec580f"
+                        "sha1": "91d1d30b6aba5dd188d0ea7b73313eb1d35adcf5",
+                        "md5": "96796660a4298cf6847e65093fc5389e"
                     },
                     "required_dependencies": [
                         "348521"
                     ],
-                    "size": 936104,
-                    "date_published": "2026-01-10T13:44:49.170Z"
+                    "size": 943520,
+                    "date_published": "2026-02-13T12:21:29.687Z"
                 }
             ]
         },
@@ -14232,7 +14232,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "smsn-forge-1.3.6-1.20.1.jar",
+                    "file_name": "smsn-forge-1.3.7-1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -14240,16 +14240,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7399/448/smsn-forge-1.3.6-1.20.1.jar",
-                    "id": "7399448",
+                    "url": "https://edge.forgecdn.net/files/7621/943/smsn-forge-1.3.7-1.20.1.jar",
+                    "id": "7621943",
                     "parent_id": "1129397",
                     "hashes": {
-                        "sha1": "7dc1697c65772d44a438130e98474cfcd7a94c09",
-                        "md5": "1dd9a82db92cdcd643b487a8df8996c6"
+                        "sha1": "39c6eb09c08c7bc569ba262b6ef03845443ee70d",
+                        "md5": "fc7d5e955431361fb1b9ea2c59512762"
                     },
                     "required_dependencies": [],
-                    "size": 121707,
-                    "date_published": "2025-12-31T07:28:05.760Z"
+                    "size": 126322,
+                    "date_published": "2026-02-14T02:50:47.390Z"
                 },
                 {
                     "type": "modrinth",
