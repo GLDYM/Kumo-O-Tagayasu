@@ -15,7 +15,7 @@
 </a>
 
 <a href="https://www.mcmod.cn/modpack/1017.html">
-    <img src="https://img.shields.io/badge/mcmod-耕云钓月-8A2BE2" alt="mcmod">
+    <img src="https://img.shields.io/badge/mcmod-Kumo_O_Tagayasu-8A2BE2" alt="mcmod">
 </a>
 
 <a href="https://www.curseforge.com/minecraft/modpacks/kumo-o-tagayasu">

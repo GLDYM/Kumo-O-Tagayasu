@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:diorite"
+    },
+    "I": {
+      "tag": "forge:ingots/brass"
+    }
+  },
+  "pattern": [
+    "III",
+    "IBI",
+    "I I"
+  ],
+  "result": {
+    "item": "l2complements:material_swap_smithing_template"
+  },
+  "show_notification": true
+}
