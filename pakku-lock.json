@@ -3077,7 +3077,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "constructionwand-1.20.1-2.15.0.jar",
+                    "file_name": "constructionwand-1.20.1-2.15.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -3085,16 +3085,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7559/849/constructionwand-1.20.1-2.15.0.jar",
-                    "id": "7559849",
+                    "url": "https://edge.forgecdn.net/files/7628/598/constructionwand-1.20.1-2.15.1.jar",
+                    "id": "7628598",
                     "parent_id": "1382688",
                     "hashes": {
-                        "sha1": "4fe503076923c8de61374f9705a385c61cae5457",
-                        "md5": "f319a8a69d5fe6e430e3b3ab334ebb51"
+                        "sha1": "59b3d6403bbf1bc17e2260d5694f27cd33e51a04",
+                        "md5": "011bed271601c7fb74bf349b1c9c05b9"
                     },
                     "required_dependencies": [],
-                    "size": 180315,
-                    "date_published": "2026-02-01T09:19:14.190Z"
+                    "size": 184507,
+                    "date_published": "2026-02-15T13:32:30.993Z"
                 }
             ]
         },
@@ -4208,7 +4208,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "create_cyber_goggles-1.20.1-6.7.8-Forge.jar",
+                    "file_name": "create_cyber_goggles-1.20.1-7.0.0-Forge.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -4217,23 +4217,22 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/TlQAWQCY/versions/eE91Jea1/create_cyber_goggles-1.20.1-6.7.8-Forge.jar",
-                    "id": "eE91Jea1",
+                    "url": "https://cdn.modrinth.com/data/TlQAWQCY/versions/uKwE3jtB/create_cyber_goggles-1.20.1-7.0.0-Forge.jar",
+                    "id": "uKwE3jtB",
                     "parent_id": "TlQAWQCY",
                     "hashes": {
-                        "sha512": "3f5b95be54169c5edcea52f65f8e553f68d359761ab3d63c6f308ff1c4607dffe62b2ff3dcedfc2030d88b3b45b64e6ce62d78967dcca7729be6502eb43ecc42",
-                        "sha1": "27ad3761942b049a8966db0009e6967886292169"
+                        "sha512": "49fd84d281b2a69421b43cd03dd19ceaeb508a8b179d8c3e3fdee895db536ede18416e5a77442ee6ca1b3f64171bcd131468bbdbc5b279b05c1a9ceaa8d03ab6",
+                        "sha1": "9f90456f3881a6a527fbaaa18db764e466df2dcf"
                     },
                     "required_dependencies": [
-                        "9s6osm5g",
                         "LNytGWDc"
                     ],
-                    "size": 211060,
-                    "date_published": "2025-12-30T09:15:53.214250Z"
+                    "size": 291522,
+                    "date_published": "2026-02-15T07:15:45.873733Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "create_cyber_goggles-1.20.1-6.7.8-Forge.jar",
+                    "file_name": "create_cyber_goggles-1.20.1-7.0.0-Forge.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -4242,19 +4241,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7395/837/create_cyber_goggles-1.20.1-6.7.8-Forge.jar",
-                    "id": "7395837",
+                    "url": "https://edge.forgecdn.net/files/7627/379/create_cyber_goggles-1.20.1-7.0.0-Forge.jar",
+                    "id": "7627379",
                     "parent_id": "1233804",
                     "hashes": {
-                        "sha1": "b7006ea57a203a33ef54229f53020348d7e862c7",
-                        "md5": "2ed8604d3a59c40263a6d18f26c0a9ae"
+                        "sha1": "9f90456f3881a6a527fbaaa18db764e466df2dcf",
+                        "md5": "795d2eba48c6ae2e7bca537290452089"
                     },
                     "required_dependencies": [
-                        "328085",
-                        "348521"
+                        "328085"
                     ],
-                    "size": 211019,
-                    "date_published": "2025-12-30T10:04:06.707Z"
+                    "size": 291522,
+                    "date_published": "2026-02-15T07:15:46.117Z"
                 }
             ]
         },
@@ -14632,7 +14630,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "ShoulderSurfing-Forge-1.20.1-4.18.2.jar",
+                    "file_name": "ShoulderSurfing-Forge-1.20.1-4.19.0.jar",
                     "mc_versions": [
                         "1.20",
                         "1.20.1"
@@ -14641,20 +14639,20 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/kepjj2sy/versions/ALTXWFUW/ShoulderSurfing-Forge-1.20.1-4.18.2.jar",
-                    "id": "ALTXWFUW",
+                    "url": "https://cdn.modrinth.com/data/kepjj2sy/versions/D24T88Sx/ShoulderSurfing-Forge-1.20.1-4.19.0.jar",
+                    "id": "D24T88Sx",
                     "parent_id": "kepjj2sy",
                     "hashes": {
-                        "sha512": "e7da5a1532c9be6caff9f308e665ee2a4d0cd5b7969ec735ffead9d1efd5f85f19221b296f6a9f34283bb5945fff8fde33495f0429e10ff6afdb1a305bdee034",
-                        "sha1": "2385592f8a4101edd6627ce2a75811368e5d6abd"
+                        "sha512": "0478097a9f30e82b42d8e312f3bf4880370ad5ff91eab67552eb52d9120b11941a54853ae76b3f89a32467a0bb1489add4ab2d844acd82758f0eeff5887e73ac",
+                        "sha1": "dd1b9d0a7e9fe560473d325d06247fb85ffa6b26"
                     },
                     "required_dependencies": [],
-                    "size": 264836,
-                    "date_published": "2026-01-11T15:50:27.470620Z"
+                    "size": 265978,
+                    "date_published": "2026-02-14T14:08:44.249209Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "ShoulderSurfing-Forge-1.20.1-4.18.2.jar",
+                    "file_name": "ShoulderSurfing-Forge-1.20.1-4.19.0.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
@@ -14663,16 +14661,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7446/740/ShoulderSurfing-Forge-1.20.1-4.18.2.jar",
-                    "id": "7446740",
+                    "url": "https://edge.forgecdn.net/files/7623/873/ShoulderSurfing-Forge-1.20.1-4.19.0.jar",
+                    "id": "7623873",
                     "parent_id": "243190",
                     "hashes": {
-                        "sha1": "2385592f8a4101edd6627ce2a75811368e5d6abd",
-                        "md5": "4a94ae2bddb6efc105e09d1fc18dbb52"
+                        "sha1": "dd1b9d0a7e9fe560473d325d06247fb85ffa6b26",
+                        "md5": "faff8be7671de467259b42bedc60e0db"
                     },
                     "required_dependencies": [],
-                    "size": 264836,
-                    "date_published": "2026-01-11T15:50:30.713Z"
+                    "size": 265978,
+                    "date_published": "2026-02-14T14:08:18.973Z"
                 }
             ]
         },
