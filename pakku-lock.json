@@ -11140,6 +11140,65 @@
             ]
         },
         {
+            "pakku_id": "0QeMhl7d6DyY1QLW",
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "mandalas-gui-kots-compat",
+                "modrinth": "mandalas-gui-kots-compat"
+            },
+            "name": {
+                "curseforge": "Mandalas GUI-KOTS Compat",
+                "modrinth": "Mandalas-GUI-KOTS-Compat"
+            },
+            "id": {
+                "curseforge": "1452633",
+                "modrinth": "V32Z1JXp"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Mandalas GUI - Dark Mode KOTS Compat 2.6.zip",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7609/568/Mandalas GUI - Dark Mode KOTS Compat 2.6.zip",
+                    "id": "7609568",
+                    "parent_id": "1452633",
+                    "hashes": {
+                        "sha1": "f39a2934963c8d9d946f6a61d78911043ecb8ff6",
+                        "md5": "984b4cf743942732024476fea2ccdba9"
+                    },
+                    "required_dependencies": [],
+                    "size": 1388120,
+                    "date_published": "2026-02-11T14:27:38.890Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "Mandalas GUI - Dark Mode KOTS Compat 2.6.zip",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/V32Z1JXp/versions/3H2ZKtXu/Mandalas GUI - Dark Mode KOTS Compat 2.6.zip",
+                    "id": "3H2ZKtXu",
+                    "parent_id": "V32Z1JXp",
+                    "hashes": {
+                        "sha512": "a69f1070d86fb35b75b5156db92512e9c8eee2d6b30dfc63ca92370a919e66e9aa4dbac521e8e81a92100379deac6f668b2a9314c42ecc9a3e7623943e69871c",
+                        "sha1": "f39a2934963c8d9d946f6a61d78911043ecb8ff6"
+                    },
+                    "required_dependencies": [],
+                    "size": 1388120,
+                    "date_published": "2026-02-11T14:28:14.131058Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "g2Kxhhqte6Bhy4Je",
             "type": "MOD",
             "side": "BOTH",
