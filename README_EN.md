@@ -11,7 +11,7 @@
 </a>
 
 <a href="https://github.com/GLDYM/Kumo-O-Tagayasu/releases">
-    <img src="https://img.shields.io/badge/version-5.4.2-9999FF" alt="version">
+    <img src="https://img.shields.io/badge/version-5.4.3-9999FF" alt="version">
 </a>
 
 <a href="https://www.mcmod.cn/modpack/1017.html">
