@@ -6,7 +6,7 @@
 		# The name of your modpack.
 		# If blank, the modpack name will be auto-detected from supported launchers.
 		# This auto-detection isn't perfect, so you can override it here if needed.
-		modpackName = "Kumo O Tagayasu 5.4.2"
+		modpackName = "Kumo O Tagayasu 5.4.3"
 
 	[Display.WindowTitle]
 		# 
