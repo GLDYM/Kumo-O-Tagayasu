@@ -6,7 +6,7 @@
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {
-          "count": 0,
+          "count": 8,
           "type": "minecraft:count"
         }
       ],
@@ -27,7 +27,7 @@
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {
-          "count": 0,
+          "count": 8,
           "type": "minecraft:count"
         }
       ],
@@ -48,7 +48,7 @@
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {
-          "count": 0,
+          "count": 8,
           "type": "minecraft:count"
         }
       ],
@@ -69,7 +69,7 @@
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {
-          "count": 0,
+          "count": 8,
           "type": "minecraft:count"
         }
       ],
@@ -90,7 +90,7 @@
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {
-          "count": 0,
+          "count": 8,
           "type": "minecraft:count"
         }
       ],

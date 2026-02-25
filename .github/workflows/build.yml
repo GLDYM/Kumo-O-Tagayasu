@@ -99,8 +99,11 @@ jobs:
         run: |
           cp pakku.json installer/
           cp pakku-lock.json installer/
+          cp pakku.jar installer/
           cp -r MCDR/ installer/
           cp -r .pakku/ installer/
+          wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.16/forge-1.20.1-47.4.16-installer.jar
+          cp forge-1.20.1-47.4.16-installer.jar installer/
           rm -rf installer/.pakku/client-overrides/*
           
           shopt -s dotglob
