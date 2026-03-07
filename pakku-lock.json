@@ -1537,7 +1537,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "beyonddimensions-1.20.1-forge-0.7.1.jar",
+                    "file_name": "beyonddimensions-1.20.1-forge-0.7.3.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -1545,16 +1545,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/6zGxpbt7/versions/dLJiGUHb/beyonddimensions-1.20.1-forge-0.7.1.jar",
-                    "id": "dLJiGUHb",
+                    "url": "https://cdn.modrinth.com/data/6zGxpbt7/versions/KoR95VUR/beyonddimensions-1.20.1-forge-0.7.3.jar",
+                    "id": "KoR95VUR",
                     "parent_id": "6zGxpbt7",
                     "hashes": {
-                        "sha512": "ce60e93391228f0b0f2f7369bc08d013c70b90a6648586537aeb58a3a902be027f9b824a79fbb427a091ac3153ba1f551843392668f4c9e246e7e3d1f307a1ef",
-                        "sha1": "18d6bb14b1114c876e8fb34c995eaa775cee7282"
+                        "sha512": "527945f688658bba8f7f00ddb5b41f8b4acaeea5323675fb0c273d94c1b32490c0101e40c475b363700ff719e9e4f8f61f3c32d3acf04c1b60727e57e07fa690",
+                        "sha1": "f98234994923f5271dc021e788b27e812fe8f3a4"
                     },
                     "required_dependencies": [],
-                    "size": 1461737,
-                    "date_published": "2026-03-06T16:39:23.189950Z"
+                    "size": 1461730,
+                    "date_published": "2026-03-07T10:33:50.471630Z"
                 },
                 {
                     "type": "curseforge",
@@ -3114,7 +3114,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "constructionwand-1.20.1-2.15.4.jar",
+                    "file_name": "constructionwand-1.20.1-2.15.5.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -3122,16 +3122,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7723/447/constructionwand-1.20.1-2.15.4.jar",
-                    "id": "7723447",
+                    "url": "https://edge.forgecdn.net/files/7723/622/constructionwand-1.20.1-2.15.5.jar",
+                    "id": "7723622",
                     "parent_id": "1382688",
                     "hashes": {
-                        "sha1": "f9912386d355c144910cb0d7d7d3d07e00f1e5f2",
-                        "md5": "9afc9ca4bf9241516b635da20cbc80bf"
+                        "sha1": "3210f5fed7fa88a1593ff868a9ca0cf29c13e170",
+                        "md5": "e81b52882de9c81ff8590a4c6a689a24"
                     },
                     "required_dependencies": [],
-                    "size": 184815,
-                    "date_published": "2026-03-07T09:31:32.210Z"
+                    "size": 185644,
+                    "date_published": "2026-03-07T10:37:22.557Z"
                 }
             ]
         },
@@ -12037,6 +12037,7 @@
             "id": {
                 "curseforge": "1210871"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",

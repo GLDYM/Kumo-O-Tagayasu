@@ -179,6 +179,9 @@
         },
         "observable": {
             "update_strategy": "NONE"
+        },
+        "narcissus-farewell": {
+            "update_strategy": "NONE"
         }
     }
 }
