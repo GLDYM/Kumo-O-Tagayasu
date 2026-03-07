@@ -12040,24 +12040,24 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "narcissus_farewell-forge-1.20.1-1.1.6.dev.jar",
+                    "file_name": "narcissus_farewell-forge-1.20.1-1.1.5.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7719/1/narcissus_farewell-forge-1.20.1-1.1.6.dev.jar",
-                    "id": "7719001",
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7197/403/narcissus_farewell-forge-1.20.1-1.1.5.jar",
+                    "id": "7197403",
                     "parent_id": "1210871",
                     "hashes": {
-                        "sha1": "ef0dac27c3c275fbf453b5cf19942ca683489709",
-                        "md5": "2bce2c7ffd95eec76f7c37076b8c9935"
+                        "sha1": "4dd545afedd943bf21170be08170598b3805125a",
+                        "md5": "e634107fed69bc1b8e7bf7f38baab68b"
                     },
                     "required_dependencies": [],
-                    "size": 634520,
-                    "date_published": "2026-03-06T12:38:06.990Z"
+                    "size": 299020,
+                    "date_published": "2025-11-08T02:32:01.743Z"
                 }
             ]
         },
