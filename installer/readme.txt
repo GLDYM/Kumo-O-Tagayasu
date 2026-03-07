@@ -11,6 +11,8 @@ How to run the server:
 If you encounter network problems，try to build local,
 or visit Github https://github.com/GLDYM/Kumo-O-Tagayasu to download the full server-pack.
 
+Discord: https://discord.gg/ztTGqY28DJ
+
 The files in MCDR/ folder is prepared for MCDReforged.
 
 put handler/ and server/ in the same folder，configures config.yml：

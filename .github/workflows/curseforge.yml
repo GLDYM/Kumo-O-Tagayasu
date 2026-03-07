@@ -55,6 +55,20 @@ jobs:
 
           mv ./build/curseforge/*.zip ./KumoOTagayasu-build-curseforge.zip
 
+      - name: Package server files
+        run: |
+          cp pakku.json installer/
+          cp pakku-lock.json installer/
+          cp -r MCDR/ installer/
+          cp -r .pakku/ installer/
+          rm -rf installer/.pakku/client-overrides/*
+          rm -rf installer/.pakku/server-overrides/authlib-injector-1.2.5.jar
+          rm -rf installer/.pakku/server-overrides/mods/*
+          
+          shopt -s dotglob
+          zip -r "./Server-KumoOTagayasu-build-curseforge.zip" ./installer
+          shopt -u dotglob
+
       - name: Delete existing release assets
         uses: mknejp/delete-release-assets@v1
         with:
@@ -62,6 +76,7 @@ jobs:
           tag: build
           assets: |
             KumoOTagayasu-build-curseforge.zip
+            Server-KumoOTagayasu-build-curseforge.zip
           token: ${{ secrets.GITHUB_TOKEN }} # Required for authentication
 
       - name: Upload client file to release
@@ -70,5 +85,6 @@ jobs:
           tag_name: "build"
           files: |
             KumoOTagayasu-build-curseforge.zip
+            Server-KumoOTagayasu-build-curseforge.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

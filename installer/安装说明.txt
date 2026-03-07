@@ -10,7 +10,9 @@
 
 如果你在安装过程中遇到了网络问题，请尝试在本地构建，
 或访问 https://www.mcmod.cn/modpack/1017.html，
-前往天翼云盘或 bbsmc 下载完整服务端。
+前往 天翼云盘 （https://cloud.189.cn/web/share?code=FfaUNrVjUnqy 访问密码：7gw9）或 github 下载完整服务端。
+
+QQ 群：1001667281
 
 MCDR 文件夹内的文件是给 MCDReforged 使用的。
 
