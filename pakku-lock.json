@@ -1580,6 +1580,42 @@
             ]
         },
         {
+            "pakku_id": "ugHZ4WAXXgmJOVgi",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "bilibili-media-kots"
+            },
+            "name": {
+                "curseforge": "BiliBili Media - KOTS"
+            },
+            "id": {
+                "curseforge": "1478916"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "bilibili_media-2.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7718/550/bilibili_media-2.0.jar",
+                    "id": "7718550",
+                    "parent_id": "1478916",
+                    "hashes": {
+                        "sha1": "49419ad04de3c3ff4a1ab10c4831e78ad0f0f9ed",
+                        "md5": "4249c0f16853569796caaf232b9b7ea3"
+                    },
+                    "required_dependencies": [],
+                    "size": 54069,
+                    "date_published": "2026-03-06T10:12:22.320Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "FttryShTXyyG7Moe",
             "pakku_links": [
                 "CMkcznx2JmLQ0g5E"
@@ -11116,7 +11152,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "majobroom-2.0.4-KOTS.jar",
+                    "file_name": "majobroom-2.0.4-hf.1-KOTS.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -11124,16 +11160,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7505/262/majobroom-2.0.4-KOTS.jar",
-                    "id": "7505262",
+                    "url": "https://edge.forgecdn.net/files/7652/618/majobroom-2.0.4-hf.1-KOTS.jar",
+                    "id": "7652618",
                     "parent_id": "1390210",
                     "hashes": {
-                        "sha1": "bc710d0252f18b4dc9a3742c94dd37f65e9ee677",
-                        "md5": "59fdf2ff2c3b7aa99e60ca6871c43873"
+                        "sha1": "cd0e96d7f865f2cc897a550c50c139d11848a201",
+                        "md5": "d756184e335f7196d6efe46884b9b654"
                     },
                     "required_dependencies": [],
-                    "size": 174547,
-                    "date_published": "2026-01-22T07:12:46.503Z"
+                    "size": 174413,
+                    "date_published": "2026-02-20T09:07:36.327Z"
                 }
             ]
         },
