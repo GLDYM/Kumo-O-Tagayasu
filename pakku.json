@@ -176,6 +176,9 @@
         },
         "bilibili-media-kots": {
             "side": "CLIENT"
+        },
+        "observable": {
+            "update_strategy": "NONE"
         }
     }
 }

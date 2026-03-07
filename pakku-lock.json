@@ -3114,7 +3114,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "constructionwand-1.20.1-2.15.3.jar",
+                    "file_name": "constructionwand-1.20.1-2.15.4.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -3122,16 +3122,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7722/690/constructionwand-1.20.1-2.15.3.jar",
-                    "id": "7722690",
+                    "url": "https://edge.forgecdn.net/files/7723/447/constructionwand-1.20.1-2.15.4.jar",
+                    "id": "7723447",
                     "parent_id": "1382688",
                     "hashes": {
-                        "sha1": "3eb9cdc828fe4bea7ee67fb1951df2982010bcd4",
-                        "md5": "bf7088fa5348473cc894e0fdf29e0618"
+                        "sha1": "f9912386d355c144910cb0d7d7d3d07e00f1e5f2",
+                        "md5": "9afc9ca4bf9241516b635da20cbc80bf"
                     },
                     "required_dependencies": [],
-                    "size": 184818,
-                    "date_published": "2026-03-07T04:56:26.690Z"
+                    "size": 184815,
+                    "date_published": "2026-03-07T09:31:32.210Z"
                 }
             ]
         },
@@ -12859,6 +12859,7 @@
                 "curseforge": "509575",
                 "modrinth": "VYRu7qmG"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
