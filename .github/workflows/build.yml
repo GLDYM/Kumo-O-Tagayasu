@@ -44,6 +44,7 @@ jobs:
       - name: Check if tag exists
         id: check_tag
         run: |
+          git fetch --tags --force
           if git rev-parse -q --verify "refs/tags/build" >/dev/null; then
             echo "exists=true" >> $GITHUB_OUTPUT
           else
