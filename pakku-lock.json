@@ -3110,7 +3110,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "constructionwand-1.20.1-2.15.3-hf.1.jar",
+                    "file_name": "constructionwand-1.20.1-2.15.4.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -3118,16 +3118,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7945/468/constructionwand-1.20.1-2.15.3-hf.1.jar",
-                    "id": "7945468",
+                    "url": "https://edge.forgecdn.net/files/8094/243/constructionwand-1.20.1-2.15.4.jar",
+                    "id": "8094243",
                     "parent_id": "1382688",
                     "hashes": {
-                        "sha1": "85c435125da0818da2508c733dc97b7af1f833fb",
-                        "md5": "d582109fc559fe606deeaa500a0ab774"
+                        "sha1": "6cde01717198b96314ed92a95576dccd1d1962e5",
+                        "md5": "2834d2bc245ac80a76254a27ab62109a"
                     },
                     "required_dependencies": [],
-                    "size": 184471,
-                    "date_published": "2026-04-18T14:48:45.227Z"
+                    "size": 185269,
+                    "date_published": "2026-05-15T16:17:26.110Z"
                 }
             ]
         },
@@ -8711,28 +8711,27 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "integrated_villages-1.3.0+1.20.1-forge.jar",
+                    "file_name": "integrated_villages-1.3.2+1.20.1-forge.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "loaders": [
-                        "forge",
-                        "neoforge"
+                        "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6701/488/integrated_villages-1.3.0+1.20.1-forge.jar",
-                    "id": "6701488",
+                    "url": "https://edge.forgecdn.net/files/7830/334/integrated_villages-1.3.2+1.20.1-forge.jar",
+                    "id": "7830334",
                     "parent_id": "661376",
                     "hashes": {
-                        "sha1": "69843dfb42bf9420ff94586cdb4cf4b488efd08f",
-                        "md5": "07c3597117db3748ccbbb2290a5a493f"
+                        "sha1": "d0b70444bb5312b1251a55756e9c21549419f9dd",
+                        "md5": "10f3cf84c67130f395e3e2f68cd2fd22"
                     },
                     "required_dependencies": [
-                        "412082",
-                        "817709"
+                        "817709",
+                        "412082"
                     ],
-                    "size": 4664420,
-                    "date_published": "2025-06-27T14:57:30.563Z"
+                    "size": 4665121,
+                    "date_published": "2026-03-28T17:26:22.337Z"
                 }
             ]
         },
