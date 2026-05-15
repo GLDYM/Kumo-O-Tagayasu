@@ -8844,13 +8844,80 @@
             ]
         },
         {
+            "pakku_id": "oAfxPZqnCtUpa9Y3",
+            "pakku_links": [
+                "6rXjMe6aeJZCCi87"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "irons-lib",
+                "modrinth": "irons-lib"
+            },
+            "name": {
+                "curseforge": "Iron's Lib",
+                "modrinth": "Iron's Lib"
+            },
+            "id": {
+                "curseforge": "1492763",
+                "modrinth": "9nfaJPtX"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "irons_lib-1.20.1-1.0.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7907/335/irons_lib-1.20.1-1.0.2.jar",
+                    "id": "7907335",
+                    "parent_id": "1492763",
+                    "hashes": {
+                        "sha1": "5cf41e8d809f5e8b0173770cdb959dc7dca23ca0",
+                        "md5": "836d1f4c8101c6f2b93e937ad73c445a"
+                    },
+                    "required_dependencies": [
+                        "388172"
+                    ],
+                    "size": 392806,
+                    "date_published": "2026-04-10T22:54:25.027Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "irons_lib-1.20.1-1.0.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/9nfaJPtX/versions/FPYSRrdq/irons_lib-1.20.1-1.0.2.jar",
+                    "id": "FPYSRrdq",
+                    "parent_id": "9nfaJPtX",
+                    "hashes": {
+                        "sha512": "c3aabab6b8f674270411a286f86605bfb50f752ea22e38e25aabb1ac127c6c09a60119d4bc18282ef03280406e41d170390e9cc1d63a1b84e4f89e6396b4f3d7",
+                        "sha1": "5cf41e8d809f5e8b0173770cdb959dc7dca23ca0"
+                    },
+                    "required_dependencies": [],
+                    "size": 392806,
+                    "date_published": "2026-04-12T15:57:05.590041Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ZCSlNm8UupaIGBqd",
             "pakku_links": [
                 "p82y54fJUiN4wxtM",
                 "6rXjMe6aeJZCCi87",
                 "ez4cIdqKOWSbonoh",
                 "YIj3aadnYmVhNTSD",
-                "6SbSEILDm9sRgcdu"
+                "6SbSEILDm9sRgcdu",
+                "oAfxPZqnCtUpa9Y3"
             ],
             "type": "MOD",
             "slug": {
