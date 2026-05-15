@@ -163,12 +163,19 @@
 				item: "crockpot:gnaws_coin"
 				type: "item"
 			}]
-			tasks: [{
-				advancement: "crockpot:gnaw_will_be_happy"
-				criterion: ""
-				id: "4F451A71E9435F3A"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "crockpot:gnaw_will_be_happy"
+					criterion: ""
+					id: "4F451A71E9435F3A"
+					type: "advancement"
+				}
+				{
+					id: "11887CD396574AD2"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
 			title: "{ftbquests.chapter.crockpot.quest2545435932736949902.title}"
 			x: 3.0d
 			y: 0.0d

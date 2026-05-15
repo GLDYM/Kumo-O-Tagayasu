@@ -471,13 +471,20 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				advancement: "youkaishomecoming:main/suwako_hat"
-				criterion: ""
-				id: "639D5F48B8D35982"
-				title: "{ftbquests.chapter.youkai.quest8739240544468267862.task.7177998147041581442.title}"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "youkaishomecoming:main/suwako_hat"
+					criterion: ""
+					id: "639D5F48B8D35982"
+					title: "{ftbquests.chapter.youkai.quest8739240544468267862.task.7177998147041581442.title}"
+					type: "advancement"
+				}
+				{
+					id: "11887C0096574AD2"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
 			x: 3.0d
 			y: -1.5d
 		}
@@ -503,13 +510,20 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				advancement: "youkaishomecoming:main/koishi_hat"
-				criterion: ""
-				id: "3405A2499382AB79"
-				title: "{ftbquests.chapter.youkai.quest6441907671207927941.task.3748580701746932601.title}"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "youkaishomecoming:main/koishi_hat"
+					criterion: ""
+					id: "3405A2499382AB79"
+					title: "{ftbquests.chapter.youkai.quest6441907671207927941.task.3748580701746932601.title}"
+					type: "advancement"
+				}
+				{
+					id: "11887C0096774AD2"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
 			title: "{ftbquests.chapter.youkai.quest6441907671207927941.title}"
 			x: 1.5d
 			y: -1.5d
@@ -586,13 +600,20 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				advancement: "youkaishomecoming:main/lost_memories"
-				criterion: ""
-				id: "2BD58C7B7D5A4FAA"
-				title: "{ftbquests.chapter.youkai.quest5608582098837151482.task.3158585175682207658.title}"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "youkaishomecoming:main/lost_memories"
+					criterion: ""
+					id: "2BD58C7B7D5A4FAA"
+					title: "{ftbquests.chapter.youkai.quest5608582098837151482.task.3158585175682207658.title}"
+					type: "advancement"
+				}
+				{
+					id: "11517C0096574AD2"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
 			title: "{ftbquests.chapter.youkai.quest5608582098837151482.title}"
 			x: 4.5d
 			y: 1.5d
@@ -614,13 +635,20 @@
 				item: "youkaishomecoming:spell_reimu"
 				type: "item"
 			}]
-			tasks: [{
-				advancement: "youkaishomecoming:main/spellcard_power"
-				criterion: ""
-				id: "64629E46BD4FB87B"
-				title: "{ftbquests.chapter.youkai.quest6089204296978749813.task.7233517978171455611.title}"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "youkaishomecoming:main/spellcard_power"
+					criterion: ""
+					id: "64629E46BD4FB87B"
+					title: "{ftbquests.chapter.youkai.quest6089204296978749813.task.7233517978171455611.title}"
+					type: "advancement"
+				}
+				{
+					id: "11887C8596574AD2"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
 			title: "{ftbquests.chapter.youkai.quest6089204296978749813.title}"
 			x: 4.5d
 			y: 3.0d
@@ -650,13 +678,20 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				advancement: "youkaishomecoming:main/feed_reimu"
-				criterion: ""
-				id: "2DDB4E1CC1B98766"
-				title: "{ftbquests.chapter.youkai.quest4426455675774686042.task.3304320637022603110.title}"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "youkaishomecoming:main/feed_reimu"
+					criterion: ""
+					id: "2DDB4E1CC1B98766"
+					title: "{ftbquests.chapter.youkai.quest4426455675774686042.task.3304320637022603110.title}"
+					type: "advancement"
+				}
+				{
+					id: "11887C0096AD4AD2"
+					title: "Check"
+					type: "checkmark"
+				}
+			]
 			x: 4.5d
 			y: 4.5d
 		}
