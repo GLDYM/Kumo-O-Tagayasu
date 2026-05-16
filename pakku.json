@@ -182,6 +182,9 @@
         },
         "narcissus-farewell": {
             "update_strategy": "NONE"
+        },
+        "mandalas-gui-dark-mode": {
+            "update_strategy": "NONE"
         }
     }
 }

@@ -11348,7 +11348,7 @@
             ]
         },
         {
-            "pakku_id": "BrwoZ4FPseMIbpPL",
+            "pakku_id": "u5LwpAkLfi1dARR7",
             "type": "RESOURCE_PACK",
             "slug": {
                 "curseforge": "mandalas-gui-dark-mode"
@@ -11363,26 +11363,24 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "MandalasGUI+Dakmode_1.21.8_v2.5.zip",
+                    "file_name": "MandalasGUI+Modded_Dakmode_v4.6.zip",
                     "mc_versions": [
-                        "1.20.2",
-                        "1.20.5",
+                        "1.20.2-Snapshot",
                         "1.20.1",
-                        "1.20.6",
-                        "1.20.4",
-                        "1.20.3"
+                        "1.20",
+                        "1.20-Snapshot"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7564/643/MandalasGUI+Dakmode_1.21.8_v2.5.zip",
-                    "id": "7564643",
+                    "url": "https://edge.forgecdn.net/files/4755/519/MandalasGUI+Modded_Dakmode_v4.6.zip",
+                    "id": "4755519",
                     "parent_id": "664719",
                     "hashes": {
-                        "sha1": "dfa57fb7edc7a2489d09031287da1d7d49788cfa",
-                        "md5": "e35134b9fda215c0b3bfcf950ab92d95"
+                        "sha1": "d122f786d317f72f8fe6ea80b2f0e3a82adafbb2",
+                        "md5": "a2b5296091e5fda45354e7a2f7bd3617"
                     },
                     "required_dependencies": [],
-                    "size": 727410,
-                    "date_published": "2026-02-02T04:25:10.540Z"
+                    "size": 1067861,
+                    "date_published": "2023-09-17T00:56:05.323Z"
                 }
             ]
         },
