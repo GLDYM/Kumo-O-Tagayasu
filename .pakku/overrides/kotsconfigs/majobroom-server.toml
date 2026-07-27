@@ -1,0 +1,37 @@
+
+#Flight Settings
+[flight]
+	#Max Horizontal Speed (blocks/tick) (Acceration also needed to change)
+	#Range: 0.3 ~ 2.0
+	maxSpeed = 0.9
+	#Horizontal Acceleration
+	#Range: 0.04 ~ 0.1
+	acceleration = 0.08
+	#Max Vertical Speed (blocks/tick）
+	#Range: 0.1 ~ 2.0
+	maxVerticalSpeed = 0.5
+	#Vertical Acceleration
+	#Range: 0.001 ~ 0.5
+	verticalAcceleration = 0.05
+	#Momentum (Larger will make broom stop faster)
+	#Range: 0.5 ~ 0.99
+	momentum = 0.92
+	#Ground Check Offset (blocks)
+	#Range: 0.0 ~ 0.1
+	groundCheckOffset = 0.02
+	#Ground Repulsion (The force of ground pushing the broom back)
+	#Range: 0.0 ~ 0.1
+	groundRepulsion = 0.005
+	#No Armor Speed Penalty (1.0 means no penalty, 0.6 means speed reduced to 60%)
+	#Range: 0.1 ~ 1.0
+	noArmorSpeedPenalty = 0.38
+
+#Majo Armor Settings
+[armor]
+	#Whether to enable Majo armor stat enhancement (including iron's spellbooks attributes)
+	armorOverpower = true
+	#Whether to enable Majo armor blessings (effects)
+	armorBless = true
+	#Whether to enable Majo armor to not take damage
+	armorImmortal = true
+
