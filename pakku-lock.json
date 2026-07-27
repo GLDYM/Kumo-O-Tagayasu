@@ -9876,43 +9876,6 @@
             ]
         },
         {
-            "pakku_id": "6nMR9tDwcyqPGfFv",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "krypton-hybrid"
-            },
-            "name": {
-                "curseforge": "Krypton Hybrid"
-            },
-            "id": {
-                "curseforge": "1474749"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "Krypton Hybrid-forge-1.20.1-0.2.30.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge",
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7833/281/Krypton Hybrid-forge-1.20.1-0.2.30.jar",
-                    "id": "7833281",
-                    "parent_id": "1474749",
-                    "hashes": {
-                        "sha1": "e934ec9747604bfd104cebede25a69bc00e1e8fc",
-                        "md5": "23c5726633b93d4e7ba7a40e2853cb5a"
-                    },
-                    "required_dependencies": [],
-                    "size": 8387145,
-                    "date_published": "2026-03-29T05:37:16.217Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "uVtqlc4sl4hU5ChG",
             "pakku_links": [
                 "CMkcznx2JmLQ0g5E",
@@ -11359,6 +11322,7 @@
             "id": {
                 "curseforge": "664719"
             },
+            "update_strategy": "NONE",
             "redistributable": false,
             "files": [
                 {
@@ -12736,6 +12700,42 @@
                     "required_dependencies": [],
                     "size": 1942586,
                     "date_published": "2026-05-09T14:56:32.010Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "eFoKdHo6wYWEPF4x",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "not-enough-bandwidth-legacy"
+            },
+            "name": {
+                "curseforge": "Not Enough Bandwidth Legacy"
+            },
+            "id": {
+                "curseforge": "1522308"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "nebl-20.1.09-forge+1.20.1+47.4.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8211/320/nebl-20.1.09-forge+1.20.1+47.4.0.jar",
+                    "id": "8211320",
+                    "parent_id": "1522308",
+                    "hashes": {
+                        "sha1": "331e9bcf9b973686b2b40f0fc4e5b5e75bb0c46a",
+                        "md5": "ad2ba47cbd3ac641f6d2c8a99531b19b"
+                    },
+                    "required_dependencies": [],
+                    "size": 7707918,
+                    "date_published": "2026-06-07T14:59:34.590Z"
                 }
             ]
         },

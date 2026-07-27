@@ -1,4 +1,4 @@
-ItemEvents.tooltip(event => {
+ItemEvents.modifyTooltips(event => {
   //绿色字为补充物品的额外用法
   event.add('minecraft:golden_sword', Text.translate('kubejs.tooltip.item.minecraft.golden_sword.0'))
   event.add('chimes:bamboo_chimes', Text.translate('kubejs.tooltip.item.chimes.bamboo_chimes.0'))
