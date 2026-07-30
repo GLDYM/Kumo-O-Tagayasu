@@ -1,0 +1,58 @@
+name: Feature Request
+description: If you have an idea for a new feature, please suggest it here.
+title: "[Feature] "
+labels: ["Feature Request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please complete the self-checklist before submitting this feature request.
+  - type: checkboxes
+    id: self_check
+    attributes:
+      label: Self-checklist
+      description: Confirm each item before submitting
+      options:
+        - label: I have updated to the latest modpack version.
+          required: true
+        - label: I searched existing issues and did not find a duplicate request.
+          required: true
+        - label: I confirmed this feature is not already implemented (or current behavior does not match the intended concept).
+          required: true
+        - label: I understand that a tested implementation or PR greatly increases the chance of acceptance.
+          required: false
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested Feature
+      description: Provide a brief overview of the feature you'd like to see and the reasoning behind it
+      placeholder: For example, Add a visual indicator for the simulated launcher's item launch
+    validations:
+      required: true
+
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use Case and Expected Benefit
+      description: Describe when this feature is needed and what problem it solves for players.
+      placeholder: Who needs it, in which gameplay stage, and what gets better after adding it?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Describe existing workarounds or alternative designs you have considered.
+      placeholder: Existing workaround, why it is insufficient, and why this proposal is better.
+    validations:
+      required: false
+
+  - type: textarea
+    id: proposed_fix
+    attributes:
+      label: Proposed Implementation
+      description: If you have a proposed implementation and have tested it, please provide the code here
+      render: js
+    validations:
+      required: false

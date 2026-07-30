@@ -3,21 +3,29 @@
 
 $ErrorActionPreference = "Stop"
 
-# === Configuration ===
-$PAKKU_URL = "https://github.com/juraj-hrivnak/Pakku/releases/download/v1.3.2/pakku.jar"
-$FORGE_VERSION = $env:FORGE_VERSION
-if (-not $FORGE_VERSION) { $FORGE_VERSION = "1.20.1-47.4.16" }
-$FORGE_URL = "https://maven.minecraftforge.net/net/minecraftforge/forge/$FORGE_VERSION/forge-$FORGE_VERSION-installer.jar"
+# ==== Configuration ====
+$CONFIG_PATH = $null
+$PAKKU_URL = $null
+$LOCKFILE_PATH = $null
+$SERVER_DIR = $null
+$SERVERPACK_DIR = $null
+$FORGE_INSTALLER_URL_TEMPLATE = $null
+$NEOFORGE_INSTALLER_URL_TEMPLATE = $null
+$FABRIC_INSTALLER_VERSION = $null
+$FABRIC_INSTALLER_URL_TEMPLATE = $null
+$LOADER_NAME = $null
+$LOADER_VERSION = $null
+$MC_VERSION = $null
+$LOADER_INSTALLER_URL = $null
+$INSTALLER_FILE_GLOB = $null
+$INSTALLER_TARGET_FILE = $null
 
-$SERVER_DIR = "server"
-$SERVERPACK_DIR = "build/serverpack"
-
-# === Color Prompts ===
+# ==== Color Prompts ====
 function Write-Color($Text, $Color="White") {
     Write-Host $Text -ForegroundColor $Color
 }
 
-# === Utility Functions ===
+# ==== Utility Functions ====
 function Downloader($url, $dest) {
     try {
         Invoke-WebRequest -Uri $url -OutFile $dest -UseBasicParsing
@@ -36,7 +44,113 @@ function Do-Unzip($zip, $dest) {
     }
 }
 
-# === Check Java ===
+# ==== Configuration Loading ====
+function Resolve-ConfigPath {
+    if (Test-Path "install-config.properties") {
+        return "install-config.properties"
+    }
+    if (Test-Path "installer/install-config.properties") {
+        return "installer/install-config.properties"
+    }
+
+    Write-Color "install-config.properties not found in current directory or installer/ directory." Red
+    exit 1
+}
+
+function Get-PropertiesFromFile($Path) {
+    $map = @{}
+    $lines = Get-Content $Path
+    foreach ($line in $lines) {
+        $trimmed = $line.Trim()
+        if (-not $trimmed -or $trimmed.StartsWith("#") -or $trimmed.StartsWith(";")) {
+            continue
+        }
+
+        $idx = $trimmed.IndexOf("=")
+        if ($idx -lt 1) {
+            continue
+        }
+
+        $key = $trimmed.Substring(0, $idx).Trim()
+        $value = $trimmed.Substring($idx + 1).Trim()
+        $map[$key] = $value
+    }
+    return $map
+}
+
+function Load-Config {
+    $script:CONFIG_PATH = Resolve-ConfigPath
+
+    try {
+        $config = Get-PropertiesFromFile $script:CONFIG_PATH
+    } catch {
+        Write-Color "Failed to parse $($script:CONFIG_PATH): $($_.Exception.Message)" Red
+        exit 1
+    }
+
+    $script:PAKKU_URL = [string]$config["pakku_url"]
+    $script:LOCKFILE_PATH = [string]$config["lockfile_path"]
+    $script:SERVER_DIR = [string]$config["server_dir"]
+    $script:SERVERPACK_DIR = [string]$config["serverpack_dir"]
+    $script:FORGE_INSTALLER_URL_TEMPLATE = [string]$config["forge_installer_url_template"]
+    $script:NEOFORGE_INSTALLER_URL_TEMPLATE = [string]$config["neoforge_installer_url_template"]
+    $script:FABRIC_INSTALLER_VERSION = [string]$config["fabric_installer_version"]
+    $script:FABRIC_INSTALLER_URL_TEMPLATE = [string]$config["fabric_installer_url_template"]
+
+    if (-not $script:PAKKU_URL -or -not $script:LOCKFILE_PATH -or -not $script:SERVER_DIR -or -not $script:SERVERPACK_DIR -or -not $script:FORGE_INSTALLER_URL_TEMPLATE -or -not $script:NEOFORGE_INSTALLER_URL_TEMPLATE -or -not $script:FABRIC_INSTALLER_VERSION -or -not $script:FABRIC_INSTALLER_URL_TEMPLATE) {
+        Write-Color "$($script:CONFIG_PATH) is missing required fields." Red
+        exit 1
+    }
+}
+
+# ==== Resolve Loader Info from Lockfile ====
+function Resolve-LoaderFromLockfile {
+    if (-not (Test-Path $LOCKFILE_PATH)) {
+        Write-Color "pakku-lock.json not found at $LOCKFILE_PATH" Red
+        exit 1
+    }
+
+    try {
+        $lock = Get-Content $LOCKFILE_PATH -Raw | ConvertFrom-Json
+    } catch {
+        Write-Color "Failed to parse pakku-lock.json: $($_.Exception.Message)" Red
+        exit 1
+    }
+
+    if (-not $lock.mc_versions -or $lock.mc_versions.Count -lt 1) {
+        Write-Color "mc_versions not found in pakku-lock.json" Red
+        exit 1
+    }
+
+    $script:MC_VERSION = [string]$lock.mc_versions[0]
+
+    if ($lock.loaders.neoforge) {
+        $script:LOADER_NAME = "neoforge"
+        $script:LOADER_VERSION = [string]$lock.loaders.neoforge
+        $script:LOADER_INSTALLER_URL = $script:NEOFORGE_INSTALLER_URL_TEMPLATE.Replace("{loader_version}", $script:LOADER_VERSION)
+        $script:INSTALLER_FILE_GLOB = "neoforge-*-installer.jar"
+        $script:INSTALLER_TARGET_FILE = "$($script:LOADER_NAME)-$($script:LOADER_VERSION)-installer.jar"
+    } elseif ($lock.loaders.forge) {
+        $script:LOADER_NAME = "forge"
+        $script:LOADER_VERSION = [string]$lock.loaders.forge
+        $script:LOADER_INSTALLER_URL = $script:FORGE_INSTALLER_URL_TEMPLATE.Replace("{mc_version}", $script:MC_VERSION).Replace("{loader_version}", $script:LOADER_VERSION)
+        $script:INSTALLER_FILE_GLOB = "forge-*-installer.jar"
+        $script:INSTALLER_TARGET_FILE = "$($script:LOADER_NAME)-$($script:LOADER_VERSION)-installer.jar"
+    } elseif ($lock.loaders.fabric) {
+        $script:LOADER_NAME = "fabric"
+        $script:LOADER_VERSION = [string]$lock.loaders.fabric
+        $script:LOADER_INSTALLER_URL = $script:FABRIC_INSTALLER_URL_TEMPLATE.Replace("{installer_version}", $script:FABRIC_INSTALLER_VERSION)
+        $script:INSTALLER_FILE_GLOB = "fabric-installer-*.jar"
+        $script:INSTALLER_TARGET_FILE = "fabric-installer-$($script:FABRIC_INSTALLER_VERSION).jar"
+    } else {
+        Write-Color "No supported loader found in pakku-lock.json. Supported loaders: forge, neoforge, fabric." Red
+        exit 1
+    }
+
+    Write-Color "Detected loader: $($script:LOADER_NAME) $($script:LOADER_VERSION) (MC $($script:MC_VERSION))" Green
+}
+
+# ==== Check Java ====
 function Check-Java {
     if (-not (Get-Command "java.exe" -ErrorAction SilentlyContinue)) {
         Write-Host "Didn't detect Java, please install it first (recommended JDK 21 or above)." -ForegroundColor Red
@@ -52,7 +166,7 @@ function Check-Java {
 }
 
 
-# === pakku Management ===
+# ==== Pakku Management ====
 function Ensure-Pakku {
     if (Test-Path "pakku.jar") {
         Write-Color "pakku.jar already exists, skipping download." Green
@@ -63,7 +177,7 @@ function Ensure-Pakku {
     }
 }
 
-# === Build Serverpack ===
+# ==== Build Serverpack ====
 function Build-Serverpack {
     New-Item -ItemType Directory -Force -Path $SERVER_DIR | Out-Null
 
@@ -88,34 +202,38 @@ function Build-Serverpack {
     }
 }
 
-# === Forge Installer Management ===
-function Ensure-ForgeInstaller {
+# ==== Loader Installer Management ====
+function Ensure-LoaderInstaller {
     New-Item -ItemType Directory -Force -Path $SERVER_DIR | Out-Null
-    $localInstaller = Get-ChildItem -Filter "forge-*-installer.jar" -ErrorAction SilentlyContinue | Select-Object -First 1
+    $localInstaller = Get-ChildItem -Filter $INSTALLER_FILE_GLOB -ErrorAction SilentlyContinue | Select-Object -First 1
     if ($localInstaller) {
         Write-Color "Detected local $($localInstaller.Name), copying to $SERVER_DIR" Green
         Copy-Item $localInstaller.FullName "$SERVER_DIR/"
     } else {
-        Write-Color "Downloading Forge installer version $FORGE_VERSION..." Yellow
-        $targetInstaller = "$SERVER_DIR/forge-$FORGE_VERSION-installer.jar"
-        Downloader $FORGE_URL $targetInstaller
-        Write-Color "Forge installer download completed: $targetInstaller" Green
+        Write-Color "Downloading $LOADER_NAME installer version $LOADER_VERSION..." Yellow
+        $targetInstaller = "$SERVER_DIR/$INSTALLER_TARGET_FILE"
+        Downloader $LOADER_INSTALLER_URL $targetInstaller
+        Write-Color "$LOADER_NAME installer download completed: $targetInstaller" Green
     }
 }
 
-# === Install Forge ===
-function Install-Forge {
-    Write-Color "Installing Forge in ./$SERVER_DIR..." Yellow
+# ==== Install Loader ====
+function Install-Loader {
+    Write-Color "Installing $LOADER_NAME in ./$SERVER_DIR..." Yellow
     Push-Location $SERVER_DIR
 
-    $installer = Get-ChildItem -Filter "forge-*-installer.jar" -ErrorAction SilentlyContinue | Select-Object -First 1
+    $installer = Get-ChildItem -Filter $INSTALLER_FILE_GLOB -ErrorAction SilentlyContinue | Select-Object -First 1
     if (-not $installer) {
-        Write-Color "Forge installer not found, please check if the download was successful." Red
+        Write-Color "$LOADER_NAME installer not found, please check if the download was successful." Red
         exit 1
     }
 
-    & java -jar $installer.FullName --installServer | Out-Null
-    Write-Color "Forge installation completed." Green
+    if ($LOADER_NAME -eq "fabric") {
+        & java -jar $installer.FullName server -mcversion $MC_VERSION -loader $LOADER_VERSION -downloadMinecraft | Out-Null
+    } else {
+        & java -jar $installer.FullName --installServer | Out-Null
+    }
+    Write-Color "$LOADER_NAME installation completed." Green
 
     Write-Color "Generating eula.txt..." Yellow
     "eula=true" | Out-File -Encoding ASCII eula.txt
@@ -126,11 +244,13 @@ function Install-Forge {
     Pop-Location
 }
 
-# === Main Process ===
-Write-Color "==== Kumo-O-Tagayasu Server Build Script ====" Green
+# ==== Main Process ====
+Write-Color "==== Pakku Modpack Template Server Build Script ====" Green
+Load-Config
+Resolve-LoaderFromLockfile
 Check-Java
 Ensure-Pakku
 Build-Serverpack
-Ensure-ForgeInstaller
-Install-Forge
+Ensure-LoaderInstaller
+Install-Loader
 Write-Color "Build completed! The server has been generated in ./$SERVER_DIR directory. You can now delete other files." Green

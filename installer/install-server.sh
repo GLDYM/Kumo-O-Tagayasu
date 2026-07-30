@@ -2,17 +2,26 @@
 set -euo pipefail
 
 # === Configuration ===
-PAKKU_URL="https://github.com/juraj-hrivnak/Pakku/releases/download/v1.3.2/pakku.jar"
-FORGE_VERSION="${FORGE_VERSION:-1.20.1-47.4.16}"
-FORGE_URL="https://maven.minecraftforge.net/net/minecraftforge/forge/${FORGE_VERSION}/forge-${FORGE_VERSION}-installer.jar"
+CONFIG_PATH=""
+PAKKU_URL=""
+LOCKFILE_PATH=""
+SERVER_DIR=""
+SERVERPACK_DIR=""
+FORGE_INSTALLER_URL_TEMPLATE=""
+NEOFORGE_INSTALLER_URL_TEMPLATE=""
+FABRIC_INSTALLER_VERSION=""
+FABRIC_INSTALLER_URL_TEMPLATE=""
+LOADER_NAME=""
+LOADER_VERSION=""
+MC_VERSION=""
+LOADER_INSTALLER_URL=""
+INSTALLER_FILE_GLOB=""
+INSTALLER_TARGET_FILE=""
 
-SERVER_DIR="server"
-SERVERPACK_DIR="build/serverpack"
-
-# === Color Prompts ===
+# ==== Color Prompts ====
 YELLOW="\033[33m"; GREEN="\033[32m"; RED="\033[31m"; RESET="\033[0m"
 
-# === Utility Functions ===
+# ==== Utility Functions ====
 function have_cmd() { command -v "$1" >/dev/null 2>&1; }
 
 function downloader() {
@@ -42,7 +51,93 @@ function do_unzip() {
   fi
 }
 
-# === Check Java ===
+# ==== Configuration Loading ====
+function resolve_config_path() {
+  if [[ -f "install-config.properties" ]]; then
+    CONFIG_PATH="install-config.properties"
+  elif [[ -f "installer/install-config.properties" ]]; then
+    CONFIG_PATH="installer/install-config.properties"
+  else
+    echo -e "${RED}install-config.properties not found in current directory or installer/ directory.${RESET}"
+    exit 1
+  fi
+}
+
+function read_config_value() {
+  local key="$1"
+  local value
+  value="$(sed -n "s/^[[:space:]]*$key[[:space:]]*=[[:space:]]*//p" "$CONFIG_PATH" | head -n 1 | tr -d '\r')"
+
+  echo "$value"
+}
+
+function load_config() {
+  resolve_config_path
+
+  PAKKU_URL="$(read_config_value "pakku_url")"
+  LOCKFILE_PATH="$(read_config_value "lockfile_path")"
+  SERVER_DIR="$(read_config_value "server_dir")"
+  SERVERPACK_DIR="$(read_config_value "serverpack_dir")"
+  FORGE_INSTALLER_URL_TEMPLATE="$(read_config_value "forge_installer_url_template")"
+  NEOFORGE_INSTALLER_URL_TEMPLATE="$(read_config_value "neoforge_installer_url_template")"
+  FABRIC_INSTALLER_VERSION="$(read_config_value "fabric_installer_version")"
+  FABRIC_INSTALLER_URL_TEMPLATE="$(read_config_value "fabric_installer_url_template")"
+
+  if [[ -z "$PAKKU_URL" || -z "$LOCKFILE_PATH" || -z "$SERVER_DIR" || -z "$SERVERPACK_DIR" || -z "$FORGE_INSTALLER_URL_TEMPLATE" || -z "$NEOFORGE_INSTALLER_URL_TEMPLATE" || -z "$FABRIC_INSTALLER_VERSION" || -z "$FABRIC_INSTALLER_URL_TEMPLATE" ]]; then
+    echo -e "${RED}${CONFIG_PATH} is missing required fields.${RESET}"
+    exit 1
+  fi
+}
+
+# ==== Resolve Loader Info from Lockfile ====
+function resolve_loader_from_lockfile() {
+  if [[ ! -f "$LOCKFILE_PATH" ]]; then
+    echo -e "${RED}pakku-lock.json not found at ${LOCKFILE_PATH}.${RESET}"
+    exit 1
+  fi
+
+  local lock_json
+  lock_json="$(tr -d '\r\n' < "$LOCKFILE_PATH")"
+
+  MC_VERSION="$(echo "$lock_json" | sed -n 's/.*"mc_versions"[[:space:]]*:[[:space:]]*\[[[:space:]]*"\([^"]*\)".*/\1/p')"
+  if [[ -z "$MC_VERSION" ]]; then
+    echo -e "${RED}Failed to parse mc_versions from pakku-lock.json.${RESET}"
+    exit 1
+  fi
+
+  if echo "$lock_json" | grep -q '"neoforge"[[:space:]]*:'; then
+    LOADER_NAME="neoforge"
+    LOADER_VERSION="$(echo "$lock_json" | sed -n 's/.*"neoforge"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/p')"
+    LOADER_INSTALLER_URL="${NEOFORGE_INSTALLER_URL_TEMPLATE//\{loader_version\}/$LOADER_VERSION}"
+    INSTALLER_FILE_GLOB="neoforge-*-installer.jar"
+    INSTALLER_TARGET_FILE="${LOADER_NAME}-${LOADER_VERSION}-installer.jar"
+  elif echo "$lock_json" | grep -q '"forge"[[:space:]]*:'; then
+    LOADER_NAME="forge"
+    LOADER_VERSION="$(echo "$lock_json" | sed -n 's/.*"forge"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/p')"
+    LOADER_INSTALLER_URL="${FORGE_INSTALLER_URL_TEMPLATE//\{mc_version\}/$MC_VERSION}"
+    LOADER_INSTALLER_URL="${LOADER_INSTALLER_URL//\{loader_version\}/$LOADER_VERSION}"
+    INSTALLER_FILE_GLOB="forge-*-installer.jar"
+    INSTALLER_TARGET_FILE="${LOADER_NAME}-${LOADER_VERSION}-installer.jar"
+  elif echo "$lock_json" | grep -q '"fabric"[[:space:]]*:'; then
+    LOADER_NAME="fabric"
+    LOADER_VERSION="$(echo "$lock_json" | sed -n 's/.*"fabric"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/p')"
+    LOADER_INSTALLER_URL="${FABRIC_INSTALLER_URL_TEMPLATE//\{installer_version\}/$FABRIC_INSTALLER_VERSION}"
+    INSTALLER_FILE_GLOB="fabric-installer-*.jar"
+    INSTALLER_TARGET_FILE="fabric-installer-${FABRIC_INSTALLER_VERSION}.jar"
+  else
+    echo -e "${RED}No supported loader found in pakku-lock.json. Supported loaders: forge, neoforge, fabric.${RESET}"
+    exit 1
+  fi
+
+  if [[ -z "$LOADER_VERSION" || -z "$LOADER_INSTALLER_URL" || -z "$INSTALLER_FILE_GLOB" || -z "$INSTALLER_TARGET_FILE" ]]; then
+    echo -e "${RED}Failed to parse loader version from pakku-lock.json.${RESET}"
+    exit 1
+  fi
+
+  echo -e "${GREEN}Detected loader: ${LOADER_NAME} ${LOADER_VERSION} (MC ${MC_VERSION})${RESET}"
+}
+
+# ==== Check Java ====
 function check_java() {
   if ! have_cmd java; then
     echo -e "${RED}Didn't detect Java, please install it first (recommended JDK 21 or above).${RESET}"
@@ -51,7 +146,7 @@ function check_java() {
   echo -e "${GREEN}Java detected: $(java -version 2>&1 | head -n 1)${RESET}"
 }
 
-# === pakku Management ===
+# ==== Pakku Management ====
 function ensure_pakku() {
   if [[ -f "pakku.jar" ]]; then
     echo -e "${GREEN}pakku.jar already exists, skipping download.${RESET}"
@@ -62,58 +157,63 @@ function ensure_pakku() {
   fi
 }
 
-# === Build Serverpack ===
+# ==== Build Serverpack ====
 function build_serverpack() {
   ensure_unzip
   mkdir -p "$SERVER_DIR"
 
   shopt -s nullglob
-  local zips=("$SERVERPACK_DIR"/*.zip)
-  shopt -u nullglob
 
   echo -e "${YELLOW}Using pakku.jar to build serverpack...${RESET}"
   java -jar pakku.jar export
 
+  local zips=("$SERVERPACK_DIR"/*.zip)
   echo -e "${YELLOW}Extracting serverpack to ./${SERVER_DIR}${RESET}"
+  sleep 30
   for zipfile in "${zips[@]}"; do
     echo -e "${YELLOW}Extracting $zipfile ...${RESET}"
     do_unzip "$zipfile" "$SERVER_DIR"
   done
   echo -e "${GREEN}serverpack extraction completed.${RESET}"
+  shopt -u nullglob
 }
 
-# === Forge Installer Management ===
-function ensure_forge_installer() {
+# ==== Loader Installer Management ====
+function ensure_loader_installer() {
   mkdir -p "$SERVER_DIR"
   local local_installer
-  local_installer=$(ls forge-*-installer.jar 2>/dev/null | head -n 1 || true)
+  local_installer=$(compgen -G "$INSTALLER_FILE_GLOB" | head -n 1 || true)
 
   if [[ -n "$local_installer" ]]; then
     echo -e "${GREEN}Detected local ${local_installer}, copying to ${SERVER_DIR}${RESET}"
     cp "$local_installer" "${SERVER_DIR}/"
   else
-    echo -e "${YELLOW}Downloading Forge installer version ${FORGE_VERSION}...${RESET}"
-    local target_installer="${SERVER_DIR}/forge-${FORGE_VERSION}-installer.jar"
-    downloader "$FORGE_URL" "$target_installer"
-    echo -e "${GREEN}Forge installer download completed: ${target_installer}${RESET}"
+    echo -e "${YELLOW}Downloading ${LOADER_NAME} installer version ${LOADER_VERSION}...${RESET}"
+    local target_installer="${SERVER_DIR}/${INSTALLER_TARGET_FILE}"
+    downloader "$LOADER_INSTALLER_URL" "$target_installer"
+    echo -e "${GREEN}${LOADER_NAME} installer download completed: ${target_installer}${RESET}"
   fi
 }
 
-# === Install Forge ===
-function install_forge() {
-  echo -e "${YELLOW}Installing Forge in ./${SERVER_DIR}...${RESET}"
+# ==== Install Loader ====
+function install_loader() {
+  echo -e "${YELLOW}Installing ${LOADER_NAME} in ./${SERVER_DIR}...${RESET}"
   pushd "$SERVER_DIR" >/dev/null
 
   local installer
-  installer=$(ls forge-*-installer.jar 2>/dev/null | head -n 1 || true)
+  installer=$(compgen -G "$INSTALLER_FILE_GLOB" | head -n 1 || true)
 
   if [[ -z "$installer" ]]; then
-    echo -e "${RED}Forge installer not found, please check if the download was successful.${RESET}"
+    echo -e "${RED}${LOADER_NAME} installer not found, please check if the download was successful.${RESET}"
     exit 1
   fi
 
-  java -jar "$installer" --installServer >/dev/null 2>&1
-  echo -e "${GREEN}Forge installation completed.${RESET}"
+  if [[ "$LOADER_NAME" == "fabric" ]]; then
+    java -jar "$installer" server -mcversion "$MC_VERSION" -loader "$LOADER_VERSION" -downloadMinecraft >/dev/null 2>&1
+  else
+    java -jar "$installer" --installServer >/dev/null 2>&1
+  fi
+  echo -e "${GREEN}${LOADER_NAME} installation completed.${RESET}"
   
   echo -e "${YELLOW}Generating eula.txt...${RESET}"
   echo "eula=true" > eula.txt
@@ -123,11 +223,13 @@ function install_forge() {
   popd >/dev/null
 }
 
-# === Main Process ===
-echo -e "${GREEN}==== Kumo-O-Tagayasu Server Build Script ====${RESET}"
+# ==== Main Process ====
+echo -e "${GREEN}==== Pakku Modpack Template Server Build Script ====${RESET}"
+load_config
+resolve_loader_from_lockfile
 check_java
 ensure_pakku
 build_serverpack
-ensure_forge_installer
-install_forge
+ensure_loader_installer
+install_loader
 echo -e "${GREEN}Build completed! The server has been generated in ./${SERVER_DIR} directory. You can now delete other files.${RESET}"

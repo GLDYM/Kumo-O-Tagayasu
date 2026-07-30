@@ -1,0 +1,47 @@
+name: Bug Report
+description: If you found a bug , please report it here
+title: "[Bug] "
+labels: [ Bug ]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please complete the self-checklist before submitting this bug report.
+  - type: checkboxes
+    id: self_check
+    attributes:
+      label: Self-checklist
+      description: Confirm each item before submitting
+      options:
+        - label: I have updated to the latest modpack version and reproduced the issue.
+          required: true
+        - label: I tested in the original game environment (no extra mods/plugins/scripts added).
+          required: true
+        - label: I searched existing issues and did not find a duplicate report.
+          required: true
+        - label: I can provide logs and clear reproduction steps.
+          required: false
+        - label: I understand that a tested fix or PR greatly increases the chance of this being resolved.
+          required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Detailed Bug Report
+      description: Describe the bug in detail, including what you expected to happen and how to reproduce it. You can also attach images or files if necessary.
+    validations:
+      required: true
+  - type: input
+    id: logs
+    attributes:
+      label: latest.log / debug.log Link
+      description: Submit your 'latest.log' or 'debug.log' file to  https://gist.github.com/ , http://pastebin.com/ or https://mclo.gs/, then paste the link here
+    validations:
+      required: false
+  - type: textarea
+    id: proposed_fix
+    attributes:
+      label: Proposed Fix
+      description: If you have identified the issue, please provide the fixed code here
+      render: js
+    validations:
+      required: false

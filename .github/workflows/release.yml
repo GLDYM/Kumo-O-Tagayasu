@@ -1,0 +1,67 @@
+name: Release Package
+
+on:
+  workflow_dispatch:
+    ~
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Resolve release metadata
+        id: meta
+        run: |
+          python3 ./.github/scripts/resolve-build-meta.py pakku.json pakku-lock.json installer/install-config.properties >> "$GITHUB_OUTPUT"
+
+      - name: Setup JDK
+        uses: actions/setup-java@v5.2.0
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      - name: Build Client Package
+        run: |
+          wget "${{ steps.meta.outputs.pakku_url }}" -O pakku.jar >/dev/null 2>&1
+          chmod 755 pakku.jar
+          java -jar pakku.jar export
+
+          mv ./build/curseforge/*.zip "./${{ steps.meta.outputs.client_release_zip }}"
+
+      - name: Build and Package Server
+        run: |
+          chmod +x ./installer/install-server.sh
+          chmod +x ./.github/scripts/package-server.sh
+          ./.github/scripts/package-server.sh "${{ steps.meta.outputs.server_release_zip }}" "${{ steps.meta.outputs.full_server_release_zip }}"
+
+      - name: Prepare Release Tag
+        run: |
+          chmod +x ./.github/scripts/prepare-release.sh
+          ./.github/scripts/prepare-release.sh "${{ steps.meta.outputs.release_tag }}"
+
+      - name: Ensure Release Exists
+        run: |
+          TAG="${{ steps.meta.outputs.release_tag }}"
+          TITLE="${{ steps.meta.outputs.pack_name }} ${{ steps.meta.outputs.pack_version }}"
+
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" --title "$TITLE" --generate-notes
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Release Assets
+        run: |
+          TAG="${{ steps.meta.outputs.release_tag }}"
+          gh release upload "$TAG" \
+            "${{ steps.meta.outputs.client_release_zip }}" \
+            "${{ steps.meta.outputs.server_release_zip }}" \
+            "${{ steps.meta.outputs.full_server_release_zip }}" \
+            --clobber
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
