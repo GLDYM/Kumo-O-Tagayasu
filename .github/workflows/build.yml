@@ -165,7 +165,7 @@ jobs:
             "server/mods" \
             "client/.minecraft/mods"
 
-      - name: Run Minecraft client and validate server connection
+      - name: Run Minecraft server
         run: |
-          chmod +x ./.github/scripts/test-client-connect.sh
-          ./.github/scripts/test-client-connect.sh
+          chmod +x ./.github/scripts/test-server.sh
+          ./.github/scripts/test-server.sh
